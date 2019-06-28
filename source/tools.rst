@@ -42,6 +42,36 @@
 .. _toolbox_launch_conditions:
 
 
+.. _toolbox_split_to_equal:
+
+Разбить на равные части
+-----------------------
+
+
+
+.. figure:: _static/isolines_sample.png
+   :align: center
+   :width: 16cm
+   
+   Разбить на равные части
+   
+Генерация пакета данных по рельефу.
+
+На входе:
+
+* Слой с полигоном (zip c Shapefile)
+
+Результатом работы процесса является слой:
+
+* Полигоны, с приблизительно одинаковой площадью
+
+Запуск инструмента: https://toolbox.nextgis.com/operation/split_to_equal/exec
+
+
+
+Посмотреть результаты на интерактивной карте: https://demo.nextgis.com/resource/4108/display?panel=info
+
+
 Извлечение высот
 ----------------
 

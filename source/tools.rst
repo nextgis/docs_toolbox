@@ -35,9 +35,9 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/dem/exec
 
-Скачать пример результатов: http://nextgis.ru/data/examples/dem_all.zip
+Скачать пример результатов: https://demo.nextgis.com/api/resource/4548/export?zipped=true&format=shp
 
-Посмотреть результаты на интерактивной карте: https://demo.nextgis.com/resource/4108/display?panel=info
+Посмотреть результаты на интерактивной карте: https://demo.nextgis.com/resource/4552/display?panel=layers
 
 .. _toolbox_launch_conditions:
 

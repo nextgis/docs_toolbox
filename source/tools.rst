@@ -85,7 +85,7 @@
 Калькулятор растров
 -----------------------
 
-.. figure:: _static/raster-calculator.png
+.. figure:: _static/raster_calculator.png
    :align: center
    :width: 16cm
    

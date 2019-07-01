@@ -37,7 +37,7 @@
 
 Скачать пример результатов: https://demo.nextgis.com/api/resource/4548/export?zipped=true&format=shp
 
-Посмотреть результаты на интерактивной карте: https://demo.nextgis.com/resource/4552/display?panel=layers
+Посмотреть результаты на интерактивной карте: https://demo.nextgis.com/resource/4108/display?panel=info
 
 .. _toolbox_launch_conditions:
 
@@ -46,16 +46,6 @@
 
 Разбить на равные части
 -----------------------
-
-
-
-.. figure:: _static/isolines_sample.png
-   :align: center
-   :width: 16cm
-   
-   Разбить на равные части
-   
-Генерация пакета данных по рельефу.
 
 На входе:
 
@@ -67,9 +57,7 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/split_to_equal/exec
 
-
-
-Посмотреть результаты на интерактивной карте: https://demo.nextgis.com/resource/4108/display?panel=info
+Посмотреть результаты на интерактивной карте: https://demo.nextgis.com/resource/4552/display?panel=layers
 
 
 Извлечение высот

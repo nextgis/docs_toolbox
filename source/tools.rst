@@ -41,17 +41,17 @@
 
 Посмотреть результаты на интерактивной карте: https://demo.nextgis.com/resource/4582/display?panel=layers
 
+.. figure:: _static/quadro.png
+   :align: center
+   :width: 16cm
+   
+   Пример результата работы инструмента 
+
 .. _toolbox_dem:
 
 Пакет данных по рельефу
 -----------------------
-
-.. figure:: _static/isolines_sample.png
-   :align: center
-   :width: 16cm
-   
-   Пример рендеринга 
-   
+  
 Генерация пакета данных по рельефу.
 
 На входе:
@@ -71,6 +71,12 @@
 Скачать пример результатов: https://demo.nextgis.com/api/resource/4548/export?zipped=true&format=shp
 
 Посмотреть результаты на интерактивной карте: https://demo.nextgis.com/resource/4108/display?panel=info
+
+.. figure:: _static/isolines_sample.png
+   :align: center
+   :width: 16cm
+   
+   Пример рендеринга 
 
 .. _toolbox_launch_conditions:
 

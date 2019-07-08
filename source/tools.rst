@@ -281,3 +281,17 @@ ZIP-архив с ESRI Shapefile или отдельный файл формат
    :width: 16cm
 
    Пример результата работы инструмента
+
+.. _toolbox_generalization:
+Подготовить растр
+-----------------------
+   
+Инструмент упрощения геометрий векторных объектов (генерализация).
+
+На входе:
+
+* Исходные векторные данные
+* Параметры алгоритма:
+  - метод генерализации (один из: 'douglas', 'douglas_reduction', 'lang', 'reduction', 'reumann', 'boyle', 'sliding_averaging', 'distance_weighting', 'chaiken', 'hermite', 'snakes', 'displacement').
+  - параметры, применяемые к методу.
+  

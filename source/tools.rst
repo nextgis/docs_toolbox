@@ -404,7 +404,7 @@ ZIP-архив с ESRI Shapefile или отдельный файл формат
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/landsat_to_reflectance
 
-Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/landsat_to_radiance/landsat_to_reflectance.zip
+Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/landsat_to_reflectance/landsat_to_reflectance.zip
 
 .. _toolbox_ndi:
 

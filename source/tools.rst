@@ -60,7 +60,7 @@
 * Векторный слой в формате ESRI Shape, заархивированный (zip)
 * import_snap - 
 * iterations - 
-* method - метод упрощения, выбор из [douglas]
+* method - метод упрощения, выбор из [douglas,douglas_reduction,reduction]
 * threshold - порог упрощения (вводится в метрах)
 * look_ahead - 
 * reduction - 

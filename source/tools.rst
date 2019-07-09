@@ -35,7 +35,7 @@
 * line2 - линии обхода в направлении параллельном линии представленной точкой привязки и опорной точкой
 * centers - центры ячеек сетки rect1
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/quadro/exec
+Запуск инструмента: https://toolbox.nextgis.com/operation/quadro
 
 Скачать пример результатов: http://nextgis.ru/data/toolbox/quadro/outputs.zip
 
@@ -46,6 +46,36 @@
    :width: 16cm
    
    Пример результата работы инструмента 
+
+
+.. _toolbox_generalization:
+
+Упрощение векторного слоя
+-------------------------
+
+Упрощение объектов векторного слоя для уменьшения объема данных.
+
+На входе:
+
+* Векторный слой в формате ESRI Shape, заархивированный (zip)
+* import_snap - 
+* iterations - 
+* method - метод упрощения, выбор из [douglas]
+* threshold - порог упрощения (вводится в метрах)
+* look_ahead - 
+* reduction - 
+* slide - 
+* angle_thresh - 
+* alpha - 
+* beta - 
+
+Результатом работы процесса является слой с упрощенными объектами (геометриями).
+
+Запуск инструмента: https://toolbox.nextgis.com/operation/generalization
+
+Скачать пример исходных данных и результата: https://demo.nextgis.com/api/resource/4548/export?zipped=true&format=shp
+
+Посмотреть результат на интерактивной карте: https://demo.nextgis.com/resource/4108/display?panel=info
 
 .. _toolbox_dem:
 
@@ -66,7 +96,7 @@
 * Цифровая модель рельефа (разрешение 30 м если территория до 60 гр. с.ш., 250 м если после)
 * Свето-теневая отмывка рельефа (разрешение как у ЦМР)
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/dem/exec
+Запуск инструмента: https://toolbox.nextgis.com/operation/dem
 
 Скачать пример результатов: https://demo.nextgis.com/api/resource/4548/export?zipped=true&format=shp
 
@@ -94,7 +124,7 @@
 
 * Полигоны, с приблизительно одинаковой площадью
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/split_to_equal/exec
+Запуск инструмента: https://toolbox.nextgis.com/operation/split_to_equal
 
 Посмотреть результаты на интерактивной карте: https://demo.nextgis.com/resource/4552/display?panel=layers
 
@@ -104,7 +134,7 @@
 
 Извлечение значений высот из ЦМР в точках. Возвращает CSV с координатами и высотами.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/demInPoints/exec
+Запуск инструмента: https://toolbox.nextgis.com/operation/demInPoints
 
 
 .. _toolbox_eraser:
@@ -130,7 +160,7 @@ ZIP-архив с ESRI Shapefile или отдельный файл формат
 
 Исходные векторные слои должны иметь одинаковую систему координат.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/eraser/exec
+Запуск инструмента: https://toolbox.nextgis.com/operation/eraser
 
 Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/eraser/eraser.zip
 
@@ -217,7 +247,7 @@ forest_mask.tif * (land_temperature.tif < 30)
 
 
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/raster_calculator/exec
+Запуск инструмента: https://toolbox.nextgis.com/operation/raster_calculator
 
 Скачать пример исходных данных (многоканальный растр, 11 каналов, фрагмент сцены Landsat 8): http://nextgis.ru/data/toolbox/raster_calculator/LC08_B1_B11.TIF
 
@@ -270,7 +300,7 @@ ZIP-архив с ESRI Shapefile или отдельный файл формат
 Исходные растры и векторная маска могут быть в разных системах координат, перед началом обработки все данные приводятся в единый пространственный домен.
 
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/prepare_raster/exec
+Запуск инструмента: https://toolbox.nextgis.com/operation/prepare_raster
 
 Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/prepare_raster/prepare_raster.zip
 

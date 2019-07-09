@@ -50,8 +50,8 @@
 
 .. _toolbox_generalization:
 
-Упрощение векторного слоя
--------------------------
+Упрощение векторного слоя (генерализация)
+-----------------------------------------
 
 Упрощение объектов векторного слоя для уменьшения объема данных.
 
@@ -60,7 +60,7 @@
 * Векторный слой в формате ESRI Shape, заархивированный (zip)
 * import_snap - 
 * iterations - 
-* method - метод упрощения, выбор из [douglas,douglas_reduction,reduction]
+* method - метод упрощения, один из: 'douglas', 'douglas_reduction', 'lang', 'reduction', 'reumann', 'boyle', 'sliding_averaging', 'distance_weighting', 'chaiken', 'hermite', 'snakes', 'displacement'.
 * threshold - порог упрощения (вводится в метрах)
 * look_ahead - 
 * reduction - 
@@ -443,18 +443,4 @@ ZIP-архив с ESRI Shapefile или отдельный файл формат
 
 Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/ndi/ndi.zip
 
-
-.. _toolbox_generalization:
-
-Генерализация
------------------------
-   
-Инструмент упрощения геометрий векторных объектов (генерализация).
-
-На входе:
-
-* Исходные векторные данные
-* Параметры алгоритма:
-  - метод генерализации (один из: 'douglas', 'douglas_reduction', 'lang', 'reduction', 'reumann', 'boyle', 'sliding_averaging', 'distance_weighting', 'chaiken', 'hermite', 'snakes', 'displacement').
-  - параметры, применяемые к методу.
   

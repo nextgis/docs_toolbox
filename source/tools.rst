@@ -77,6 +77,8 @@
 
 Посмотреть результат на интерактивной карте: https://demo.nextgis.com/resource/4108/display?panel=info
 
+Подробнее о параметрах запуска: https://grasswiki.osgeo.org/wiki/V.generalize_tutorial
+
 .. _toolbox_dem:
 
 Пакет данных по рельефу

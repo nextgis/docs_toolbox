@@ -138,6 +138,15 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/demInPoints
 
+Лесис в SQLite
+--------------
+
+Преобразование базы данных Лесис (ГИС TopoL-L) в формат SQLite для открытия в NextGIS QGIS.
+
+Запуск инструмента: https://toolbox.nextgis.com/operation/lesis2sqlite
+
+Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/lesis2sqlite/lesis.zip
+
 
 .. _toolbox_eraser:
 

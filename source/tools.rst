@@ -477,7 +477,7 @@ ZIP-архив с ESRI Shapefile или отдельный файл формат
 Дублировать структуру векторного слоя nextgis.com
 -------------------------------------------------
    
-.. figure:: _static/ogrmerge.png
+.. figure:: _static/ngw_copy_layer.png
    :align: center
    :width: 16cm
 

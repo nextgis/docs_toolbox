@@ -527,7 +527,7 @@ ZIP-архив с ESRI Shapefile или отдельный файл формат
 
 Описание слоёв приведено на https://data.nextgis.com/ru/cadastre/#region-layers
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/kpt2geo
+Запуск инструмента: https://toolbox.nextgis.com/operation/pkk_kpt
 
 Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/ngw_copy_layer/kpt2geo.zip
 

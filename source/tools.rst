@@ -529,6 +529,6 @@ ZIP-архив с ESRI Shapefile или отдельный файл формат
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/pkk_kpt
 
-Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/ngw_copy_layer/kpt2geo.zip
+Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/kpt2geo/kpt2geo.zip
 
 

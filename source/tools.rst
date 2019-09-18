@@ -563,3 +563,57 @@ ZIP-архив с ESRI Shapefile или отдельный файл формат
    :width: 32cm
    
    Результат работы инструмента: полученные слои загружены в QGIS и отображаются на фоне подложки OSM.
+
+.. _toolbox_grid:
+ 
+Генерация сетки в метрах
+-----------------------------------------------
+   
+.. figure:: _static/grids-demo.png
+   :align: center
+   :width: 16cm
+
+   Сгенерированные сетки
+   
+Инструмент осуществляет генерацию сетки в границах обьектов из векторного слоя. Размер сетки задаётся в метрах. Обьекты могут быть в любом месте земли.
+
+На входе:
+
+*  Мультиполигональный слой с одним или несколькими объектами. Может быть в любом формате, открываемом ogr (Geopackage, geojson)
+*  Шаг сетки в метрах
+*  Режим: points (точки), rect (квадраты).
+*  Алгоритм обрезки сетки по границам. all (оставлять все квадраты в охвате обьекта), touches (оставлять все квадраты касающиеся обьекта), intersection (обрезать квадраты по границе обьекта).
+
+.. figure:: _static/grid-1000-rect-all.png
+   :align: center
+   :width: 16cm
+
+   all
+   
+   
+.. figure:: _static/grid-1000-rect-touches.png
+   :align: center
+   :width: 16cm
+
+   touches
+   
+   
+.. figure:: _static/grid-1000-rect-intersection.png
+   :align: center
+   :width: 16cm
+
+   intersection
+
+*  выходной формат геоданных - GeoJSON, ESRI Shape, Mapinfo TAB
+
+На выходе:
+
+* zip-архив с проектом QGIS и геоданными
+
+В архиве лежат каталоги: каталог с геоданными в местной системе координат (msk), каталог с геоданными в EPSG:4326 (wgs) и проект для QGIS с данными в EPSG:4326 с оформлением.
+
+Описание слоёв приведено на https://data.nextgis.com/ru/cadastre/#region-layers
+
+Запуск инструмента: https://toolbox.nextgis.com/operation/pkk_kpt
+
+Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/kpt2geo/kpt2geo.zip

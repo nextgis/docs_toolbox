@@ -603,6 +603,20 @@ ZIP-архив с ESRI Shapefile или отдельный файл формат
    :width: 16cm
 
    intersection
+   
+   
+.. figure:: _static/grid-1000-point-all.png
+   :align: center
+   :width: 16cm
+
+   all для точек
+   
+   
+.. figure:: _static/grid-1000-point-touches.png
+   :align: center
+   :width: 16cm
+
+   touches и intersection для точек
 
 *  выходной формат геоданных - GeoJSON, ESRI Shape, Mapinfo TAB
 

@@ -622,12 +622,7 @@ ZIP-архив с ESRI Shapefile или отдельный файл формат
 
 На выходе:
 
-* zip-архив с проектом QGIS и геоданными
+* Geopackage
 
-В архиве лежат каталоги: каталог с геоданными в местной системе координат (msk), каталог с геоданными в EPSG:4326 (wgs) и проект для QGIS с данными в EPSG:4326 с оформлением.
 
-Описание слоёв приведено на https://data.nextgis.com/ru/cadastre/#region-layers
-
-Запуск инструмента: https://toolbox.nextgis.com/operation/pkk_kpt
-
-Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/kpt2geo/kpt2geo.zip
+Запуск инструмента: https://toolbox.nextgis.com/operation/grid

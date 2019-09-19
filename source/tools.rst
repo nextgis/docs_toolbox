@@ -612,7 +612,7 @@ ZIP-архив с ESRI Shapefile или отдельный файл формат
    all для точек
    
    
-.. figure:: _static/grid-1000-point-touches.png
+.. figure:: _static/grid-1000-point-intersection.png
    :align: center
    :width: 16cm
 

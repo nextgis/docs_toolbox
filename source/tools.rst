@@ -618,6 +618,14 @@ ZIP-архив с ESRI Shapefile или отдельный файл формат
 
    touches и intersection для точек
 
+   
+.. figure:: _static/grid-planet.png
+   :align: center
+   :width: 16cm
+
+   Сгенерированные сетки для нескольких полигонов в разных местах глобуса
+   
+
 *  выходной формат геоданных - GeoJSON, ESRI Shape, Mapinfo TAB
 
 На выходе:

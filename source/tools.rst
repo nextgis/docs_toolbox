@@ -677,5 +677,23 @@ ZIP-архив с ESRI Shapefile или отдельный файл формат
 
 *  GeoTIFF готового снимка
 
-
 Запуск инструмента: https://toolbox.nextgis.com/operation/download_and_prepare_l8_s2
+
+.. _tropomi2geotiff:
+ 
+TROPOMI в GeoTIFF
+-----------------
+   
+Инструмент конвертирует данные TROPOMI в формат GeoTIFF
+
+На входе:
+
+*  Файл данных TOPOMI в формате NetCDF полученный с https://s5phub.copernicus.eu/dhus/#/home. Product type: L2__NO2__, Timeliness: Offline. Пример имени файла: S5P_OFFL_L2__NO2____20190901T091635_20190901T105804_09761_01_010302_20190907T113505.nc
+
+
+На выходе
+
+*  GeoTIFF готового снимка
+
+Запуск инструмента: https://toolbox.nextgis.com/operation/tropomi2geotiff
+Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/tropomi2geotiff/tropomi2geotiff.zip

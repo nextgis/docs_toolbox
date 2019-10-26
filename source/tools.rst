@@ -724,11 +724,16 @@ TROPOMI в GeoTIFF
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/mt2report
 
-Посмотреть результаты на интерактивной карте:
+Посмотреть исходные данные на интерактивной карте:
 https://demo.nextgis.com/resource/4693/display?panel=layers
 
-
-.. figure:: _static/mt2report.png
+.. figure:: _static/mt2report_map.png
+   :align: center
+   :width: 16cm
+   
+   Пример исходных данных 
+   
+.. figure:: _static/mt2report_table.png
    :align: center
    :width: 16cm
    

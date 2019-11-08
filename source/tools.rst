@@ -854,11 +854,10 @@ https://demo.nextgis.com/resource/4693/display?panel=layers
 
 Пример использования:
 
-Каковы границы европейских государств на 1000-й год н. э.?
+Сделать временной кэш из слоя:
 
 *  gis_url - https://demo.nextgis.com
-*  lines_id - 4719 (так как адрес слоя с полилиниями https://demo.nextgis.com/resource/4702/feature/)
-*  Запрашиваемый год - 1000
+*  lines_id - 4719
 *  year_field - Year
 *  Поле результата - Result
 *  Поле с идентификаторами - fid_europe 

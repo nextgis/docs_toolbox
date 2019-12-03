@@ -705,6 +705,8 @@ TROPOMI в GeoTIFF
    :align: center
    :width: 16cm
    
+Исходные сцены должны быть на scihub.copernicus (https://scihub.copernicus.eu), но временно лежат на копии веб-интерфейса Sentinel-5P Pre-Operations Hub: https://s5phub.copernicus.eu/dhus/#/home . Логины от scihub не действуют, нужно использовать s5pguest/s5pguest. 
+   
 .. _mt2report:
  
 Отчет о судах в зоне

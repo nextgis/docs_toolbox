@@ -845,22 +845,31 @@ https://demo.nextgis.com/resource/4693/display?panel=layers
 
 * gis_url - адрес используемой Веб-ГИС
 * resource_id - ID слоя с полилиниями из используемой Веб-ГИС
-* upper_field
-* lower_field
+* upper_field - дата исчезновения объекта
+* lower_field - дата появления объекта
+* year1_field - начальный год интервала
+* year2_field - конечный год интервала
+* Формат даты - формат даты для дат
+* Выходной формат - ESRI Shapefile
+* Игнорировать ошибки
 
 На выходе:
 
-*  архив слоёв, каждый из которых также находится в архивеэ
+*  архив слоёв, каждый из которых также находится в архиве (zip)
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/temporal_split
 
 Пример использования:
 
-Сделать временной кэш из слоя:
+Сделать временной кэш из слоя городов появляющихся и исчезающих в определенное время.
 
-*  gis_url - https://demo.nextgis.com
-*  lines_id - 4719
-*  year_field - Year
-*  Поле результата - Result
-*  Поле с идентификаторами - fid_europe 
+* Web GIS URL - https://demo.nextgis.com
+* ID ресурса исходных данных - 4719
+* upper_field - upperdat
+* lower_field - lwdate
+* year1_field - YEAR1
+* year2_field - YEAR2
+* Формат даты - 
+* Выходной формат - 
+* Игнорировать ошибки - 
 *  Поле группировки - linecomnt

@@ -896,4 +896,8 @@ https://demo.nextgis.com/resource/4693/display?panel=layers
 
 Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/poly2explication/poly2explication.zip
 
-
+.. figure:: _static/poly2explication-1.png
+   :align: center
+   :width: 16cm
+   
+   Пример результата работы инструмента 

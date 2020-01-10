@@ -919,3 +919,5 @@ https://demo.nextgis.com/resource/4693/display?panel=layers
 На вход можно подать несколько моделей, на выходе по каждой из них получить отдельный полигон.
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/kmldae2footprints
+
+Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/kmldae2footprints/kmldae2footprints.zip

@@ -850,8 +850,8 @@ https://demo.nextgis.com/resource/4693/display?panel=layers
 * year1_field - начальный год интервала
 * year2_field - конечный год интервала
 * Формат даты - формат даты для дат
-* Выходной формат - ESRI Shapefile
-* Игнорировать ошибки
+* Выходной формат - GeoJSON, GPKG, CSV, ESRI Shapefile (значение по умолчанию ESRI Shapefile).
+* Игнорировать ошибки - оставьте пустым чтобы останавливать выполнение если найден пустой диапазон. Введите 1, чтобы игнорировать ошибки.
 
 На выходе:
 
@@ -871,7 +871,9 @@ https://demo.nextgis.com/resource/4693/display?panel=layers
 * year2_field - YEAR2
 * Формат даты - 
 * Выходной формат - 
-* Игнорировать ошибки - 
+* Игнорировать ошибки - 1
+
+Скачать пример результатов: http://nextgis.ru/data/toolbox/toolbox_temporal_split/toolbox_temporal_split.zip
 
 .. _toolbox_poly2explication:
 

@@ -949,4 +949,4 @@ https://demo.nextgis.com/resource/4693/display?panel=layers
    :align: center
    :width: 16cm
 
-Скачать пример результатов: 
+Скачать пример результатов: http://nextgis.ru/data/toolbox/join_by_field/join_by_field.zip

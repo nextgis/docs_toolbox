@@ -950,3 +950,18 @@ https://demo.nextgis.com/resource/4693/display?panel=layers
    :width: 16cm
 
 Скачать пример результатов: http://nextgis.ru/data/toolbox/join_by_field/join_by_field.zip
+
+Обрезать файл pbf по bbox
+------------------------------------
+Инструмент выкачивает файл pbf из сети и обрезает его по bbox. 
+
+На входе:
+
+*  URL-адрес, где находится pbf-файл. Пример - http://download.geofabrik.de/europe/malta-latest.osm.pbf (Мальта, 4 Мб)
+*  параметры границы Bounding Boxв формате CSV. Пример - 14.5013,35.887,14.5066,35.899 (Строку bbox можно взять здесь - https://boundingbox.klokantech.com/)
+ 
+На выходе:
+
+*  pbf-файл, обрезанный по контуру Bounding Box
+
+Запуск инструмента: https://toolbox.nextgis.com/operation/osmclip_bbox

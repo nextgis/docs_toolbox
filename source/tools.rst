@@ -951,14 +951,14 @@ https://demo.nextgis.com/resource/4693/display?panel=layers
 
 Скачать пример результатов: http://nextgis.ru/data/toolbox/join_by_field/join_by_field.zip
 
-Обрезать файл pbf по bbox
+Обрезать PBF по прямоугольнику
 ------------------------------------
-Инструмент выкачивает файл pbf из сети и обрезает его по bbox. 
+Инструмент выкачивает PBF (формат <a href="https://wiki.openstreetmap.org/wiki/RU:PBF_Format">openstreetmap</a>) из сети и обрезает его по границе Bounding Box (bbox). 
 
 На входе:
 
 *  URL-адрес, где находится pbf-файл. Пример - http://download.geofabrik.de/europe/malta-latest.osm.pbf (Мальта, 4 Мб)
-*  параметры границы Bounding Box в формате CSV. Пример - 14.5013,35.887,14.5066,35.899 (Строку bbox можно взять здесь - https://boundingbox.klokantech.com/)
+*  параметры ограничевающей рамки Bounding Box в формате CSV. Пример - 14.5013,35.887,14.5066,35.899 (координаты левого нижнего и правого верхнего угла рамки) Строку bbox можно взять здесь - https://boundingbox.klokantech.com/. 
  
 На выходе:
 

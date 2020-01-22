@@ -958,7 +958,7 @@ https://demo.nextgis.com/resource/4693/display?panel=layers
 На входе:
 
 *  URL-адрес, где находится pbf-файл. Пример - http://download.geofabrik.de/europe/malta-latest.osm.pbf (Мальта, 4 Мб)
-*  параметры границы Bounding Boxв формате CSV. Пример - 14.5013,35.887,14.5066,35.899 (Строку bbox можно взять здесь - https://boundingbox.klokantech.com/)
+*  параметры границы Bounding Box в формате CSV. Пример - 14.5013,35.887,14.5066,35.899 (Строку bbox можно взять здесь - https://boundingbox.klokantech.com/)
  
 На выходе:
 

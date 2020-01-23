@@ -953,7 +953,7 @@ https://demo.nextgis.com/resource/4693/display?panel=layers
 
 Обрезать PBF по прямоугольнику
 ------------------------------------
-Инструмент выкачивает PBF (формат <a href="https://wiki.openstreetmap.org/wiki/RU:PBF_Format">openstreetmap</a>) из сети и обрезает его по границе Bounding Box (bbox). 
+Инструмент выкачивает PBF (формат openstreetmap - https://wiki.openstreetmap.org/wiki/RU:PBF_Format) из сети и обрезает его по границе Bounding Box (bbox). 
 
 На входе:
 

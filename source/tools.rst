@@ -679,6 +679,10 @@ ZIP-архив с ESRI Shapefile или отдельный файл формат
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/download_and_prepare_l8_s2
 
+Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/download_and_prepare_l8_s2/download_and_prepare_l8_s2.zip
+
+Посмотреть результат на интерактивной карте: https://demo.nextgis.com/resource/4805/display?panel=layers
+
 Пример исходных данных: 
 *  Сцена S2A_MSIL1C_20191109T072121_N0208_R006_T41VLD_20191109T084554
 * Каналы 4,3,2

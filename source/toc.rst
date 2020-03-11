@@ -1,14 +1,15 @@
-.. sectionauthor:: Артём Светлов <artem.svetlov@nextgis.ru>
+.. sectionauthor:: Maxim Dubinin <maxim.dubinin@nextgis.com>
 
-.. Simple Collector TOC
+.. NextGIS Toolbox TOC
 
-Документация Simple Collector
-==============================
+NextGIS Toolbox documentation
+=============================
 
-Содержание:
+Contents:
     
 .. toctree::
    :maxdepth: 2
 
-   administrator
-   surveyor
+   intro
+   tools
+

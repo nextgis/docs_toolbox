@@ -11,40 +11,40 @@ Tools
 Set of squares generator
 ------------------------
 
-Этот инструмент cоздает набор сеток квадратов (полигоны) и трансект их обхода для заданной территории.
+This tool creates a set of square grids (polygons) and a transect of their detour for a given territory.
 
-На входе:
+Inputs:
 
-* x0 - Долгота точки привязки
-* y0 - Широта точки привязки
-* x1 - Долгота опорной точки
-* y1 - Широта опорной точки
-* size1 - Количество ячеек по первой оси
-* size2 - Количество ячеек по второй оси
-* side - Сторона генерации ячеек (right,left)
-* base_interval - Размер стороны ячейки, метров
+* x0 - Longitude of the anchor point
+* y0 - Latitude of the anchor point
+* x1 - Longitude of the reference point
+* y1 - Latitude of the reference point
+* size1 - Number of cells on the first axis
+* size2 - Number of cells on the second axis
+* side - Cell generation side (right, left)
+* base_interval - The size of a cell’s side, meters
 
-Алгоритм расчета: от точки привязки в направлении опорной точки прокладывается линия длиной равной size1*base_interval. От этой линии либо направо или налево от нее откладывается вторая линия длиной size2*base_interval, метров. Две эти линии формируют сетку квадратов.
+Calculation algorithm: from the anchor point in the direction of the reference point a line is drawn with a length equal to size1 * base_interval. From this line, either to the right or left of it, a second line is laid out with the length of size2 * base_interval, meters. These two lines form a grid of squares.
 
-Результатом работы процесса является набор слоёв:
+The result of the process is a set of layers:
 
-* rect1 - сеть ячеек размером size1*size2 ячеек, центр первой ячейки - в точке привязки
-* rect2 - сеть уменьшенных ячеек размером size1*size2 ячеек (т.е. в 4 раза больше ячеек, каждая крупная ячейка разделена на 4 части)
-* line1 - линии обхода в направлении перпендикулярном линии представленной точкой привязки и опорной точкой
-* line2 - линии обхода в направлении параллельном линии представленной точкой привязки и опорной точкой
-* centers - центры ячеек сетки rect1
+* rect1 - a grid of cells the size of size1 * size2 cells, the center of the first cell is at the anchor point
+* rect2 - a grid of smaller cells the size of size1 * size2 cells (i.e. 4 times larger cells, each large cell is divided into 4 parts)
+* line1 - bypass lines in the direction, which if perpendicular to the line represented by the anchor point and reference point
+* line2 - bypass lines in the direction, which is parallel to the line represented by the anchor point and reference point
+* centers - grid cell centers rect1
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/quadro
+Launch tool: https://toolbox.nextgis.com/operation/quadro
 
-Скачать пример результатов: http://nextgis.ru/data/toolbox/quadro/outputs.zip
+Download sample results: http://nextgis.ru/data/toolbox/quadro/outputs.zip
 
-Посмотреть результаты на интерактивной карте: https://demo.nextgis.com/resource/4582/display?panel=layers
+View the results on an interactive map: https://demo.nextgis.com/resource/4582/display?panel=layers
 
 .. figure:: _static/quadro.png
    :align: center
    :width: 16cm
    
-   Пример результата работы инструмента 
+An example of the results
 
 
 .. _toolbox_generalization:

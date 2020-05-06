@@ -52,11 +52,11 @@ An example of the results
 Generalization of vector data
 -----------------------------
 
-Упрощение объектов векторного слоя для уменьшения объема данных.
+Simplification of vector layer features to reduce data volume.
 
-На входе:
+Inputs:
 
-* Векторный слой в формате ESRI Shape, заархивированный (zip)
+* A vector layer in ESRI Shape format, compressed(zip)
 * import_snap - 
 * iterations - 
 * method - метод упрощения, один из: 'douglas', 'douglas_reduction', 'lang', 'reduction', 'reumann', 'boyle', 'sliding_averaging', 'distance_weighting', 'chaiken', 'hermite', 'snakes', 'displacement'.
@@ -68,46 +68,46 @@ Generalization of vector data
 * alpha - 
 * beta - 
 
-Результатом работы процесса является слой с упрощенными объектами (геометриями).
+The result of the process is a layer with simplified features (geometries).
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/generalization
+Launch tool: https://toolbox.nextgis.com/operation/generalization
 
-Скачать пример исходных данных и результата: https://demo.nextgis.com/api/resource/4548/export?zipped=true&format=shp
+Download an example of source data and result: https://demo.nextgis.com/api/resource/4548/export?zipped=true&format=shp
 
-Посмотреть результат на интерактивной карте: https://demo.nextgis.com/resource/4108/display?panel=info
+View the result on an interactive map: https://demo.nextgis.com/resource/4108/display?panel=info
 
-Подробнее о параметрах запуска: https://grasswiki.osgeo.org/wiki/V.generalize_tutorial
+More on startup options: https://grasswiki.osgeo.org/wiki/V.generalize_tutorial
 
 .. _toolbox_dem:
 
 DEM data package
 ----------------
   
-Генерация пакета данных по рельефу.
+Generates elevation package.
 
-На входе:
+Inputs:
 
-* Шаг горизонталей. Целочисленное значение.
-* База данных. Выбор из ALOS, GMTED, GEBCO.
-* Граница обрезки. Подгрузка заархивированного в zip файла в формате GeoJSON (EPSG:4326).
+* Elevation step. Integer value.
+* Database. Choice from: ALOS, GMTED, GEBCO.
+* Cropping boundary. Upload  compressed (zip) file in GeoJSON format (EPSG: 4326).
 
-Результатом работы процесса является набор слоёв:
+The result of the process is a set of layers:
 
-* Изолинии рельефа с заданным шагом
-* Цифровая модель рельефа (разрешение 30 м если территория до 60 гр. с.ш., 250 м если после)
-* Свето-теневая отмывка рельефа (разрешение как у ЦМР)
+* Elevation contours (isolines) with a given step
+* Digital elevation model (30 m resolution, if the area is below 60 ° N, 250 m if above)
+* Hillshading (same resolution as DEM)
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/dem
+Launch tool: https://toolbox.nextgis.com/operation/dem
 
-Скачать пример результатов: https://demo.nextgis.com/api/resource/4548/export?zipped=true&format=shp
+Download sample results: https://demo.nextgis.com/api/resource/4548/export?zipped=true&format=shp
 
-Посмотреть результаты на интерактивной карте: https://demo.nextgis.com/resource/4108/display?panel=info
+View the results on an interactive map: https://demo.nextgis.com/resource/4108/display?panel=info
 
 .. figure:: _static/isolines_sample.png
    :align: center
    :width: 16cm
    
-   Пример рендеринга 
+   Rendering example 
 
 .. _toolbox_launch_conditions:
 

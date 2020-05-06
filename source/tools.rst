@@ -191,50 +191,50 @@ View the source data and the results of calculations on an interactive map: http
 Change attributes in the layer group
 ------------------------------------
 
-Инструмент изменяет значение целевого атрибута для выбранных объектов в группе слоев в заданном ресурсе Веб ГИС. Выбор объектов происходит по заданному значению выбранного поля.
+The tool changes the value of the target attribute for the selected features in the layer group in the specified Web GIS resource. Features are selected according to the set value of the selected field.
 
-На входе:
+Inputs:
 
-* Адрес Веб гис - url-адрес вашей Веб ГИС (http(s)://***.nextgis.com)
-* Логин - Имя пользователя, имеющего права на запись данных в указанный ресурс
-* Пароль - Пароль пользователя в Веб ГИС
-* Идентификатор группы ресурса - Идентификатор ресурса Веб ГИС, в котором содержится группа слоев
-* Исходное поле - Имя исходного поля, по которому производится поиск объектов
-* Исходное значение - Значение поля, по которому осуществляется выбор объектов (идентификатор)
-* Целевое поле - Имя целевого поля, значения которого необходимо изменить
-* Целевое значение - Значение атрибута, которое будет применено
-* Год начала - Начальная дата временного диапазона (опциональный параметр)
-* Год окончания - Дата окончания временного диапазона (опциональный параметр)
+* Web GIS Address — The URL of your Web GIS (http(s): //***.nextgis.com)
+* Login - The username of the user who has the permission to write data to the specified resource
+* Password - Web GIS user password
+* Resource Group Identifier - Web GIS Resource Identifier that contains layer groups
+* Initial field - the name of the initial field used to search for features
+* Initial value - The value of the field used to select features (identifier)
+* Target field - The name of the target field, which values you want to change
+* Target Value - The attribute value, which will be applied
+* Start year - Starting date of the time range (optional parameter)
+* End year - Ending date of the time range (optional parameter)
 
 .. note::
-    Год начала и год окончания - необязательные параметры. Данные параметры позволяют ограничить временной диапазон для выбранных слоев. Для использования этих параметров необходимо убедиться, что в названиях слоев ресурса Веб ГИС указаны временные диапазоны. Например, в слое 1245_1246_rus_earl_v.1.0 1245 и 1246 указывают на время. Если данные параметры используются, то необходимо ввести трех- или четырехзначные значения.  Остальные поля являются **обязательными**.
+    Start year and end year are optional parameters. These parameters allow you to limit the time range for the selected layers. To use these parameters, you must make sure that the time ranges are indicated in the names of the layers of the Web GIS resource. For example, in layer 1245_1246_rus_earl_v.1.0 1245 and 1246 the years are indicated. If these parameters are in use, you need to enter three or four digit values. The remaining fields are **required**.
 
-На выходе:
+Outputs:
 
-*  CSV файл, в котором представлены данные об исходном и целевом полях, значении идентификатора, предыдущее и новое значения целевого поля, а также перечень гиперссылок на объекты, которые были изменены.
+*  A CSV file that contains data about the initial and target fields, the identifier value, the previous and new values ​​of the target field, as well as a list of hyperlinks to features that have been changed.
 
 .. figure:: _static/result.PNG
    :align: center
    :width: 16cm
 
-   Пример результата работы инструмента
+   An example of the result of the tool’s usage
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/field_value_changer
+Launch tool: https://toolbox.nextgis.com/operation/field_value_changer
 
-Пример группы ресурсов: https://demo.nextgis.com/resource/4793
+Resource group example: https://demo.nextgis.com/resource/4793
 
-Пример исходных данных:
+Example of initial data:
 
-* Адрес Веб гис = https://demo.nextgis.com
-* Логин = *****
-* Пароль = *****
-* Идентификатор группы ресурса = 4793
-* Исходное поле = fid
-* Исходное значение = 1216
-* Целевое поле = fid2
-* Целевое значение = 1112
-* Год начала = 1244
-* Год окончания = 1300
+* Web gis address = https://demo.nextgis.com
+* Login = *****
+* Password = *****
+* Resource Group Id = 4793
+* Initial field = fid
+* Initial value = 1216
+* Target field = fid2
+* Target valuе = 1112
+* Start Year = 1244
+* End Year = 1300
 
 
 .. _toolbox_raster_calculator:
@@ -247,83 +247,83 @@ Raster calculator
    :width: 16cm
    
    
-Инструмент, реализующий растровую арифметику для многоканальных растров или групп одноканальных растров.
+A tool that implements raster arithmetics for multi-band rasters or groups of single-band rasters.
 
-На входе:
+Inputs:
 
-* Исходные растровые данные.
+* Initial raster data
 
-Исходные растровые данные могут быть представлены в двух видах:
+The initial raster data can be presented in two forms:
 
-1. многоканальный растр в GDAL-совместимом формате
+1. Multi-band raster in GDAL-compatible format
 
-2. ZIP архив с набором одноканальных GDAL-совместимых растров.
+2. ZIP archive with a set of single-bandl GDAL-compatible rasters
 
-Растры в архиве могут храниться в разных системах координат, иметь разные охваты и размеры ячеек. При расчёте всё будет приведено в единый пространственный домен.
+Rasters in the archive can be stored in different coordinate systems, have different extents and cell sizes. When calculated, everything will be reduced to a single spatial domain.
 
-* Выражение.
+* Expression.
 
-Стандартное выражение с использованием операторов +, -, \*, /, >, < и т.п. Если исходные данные - ZIP архив, то следует использовать имена исходных файлов в выражении (например band4.tif / band5.tif, если файлы имеют соответствуюшие имена). Расширение является частью имени.
-Для мультиканального растра следует использовать номер канала с префиксом & (например &4 / &5). Каналы нумеруются начиная с 1.
+Standard expression using the operators +, -, *, /,>, <, etc. If the initial data is in a ZIP archive, then the names of the source files in the expression should be used (for example, band4.tif / band5.tif, if the files have the corresponding names). The extension is part of the name. 
+For a multi-band raster, use the band number with the & prefix (for example, & 4 / & 5). Bands are numerated starting at 1.
 
-Примеры выражений:
+Examples of expressions:
 
-Участки леса с температурой меньше 30 градусов:
+Forest areas with a temperature of less than 30 degrees:
 
 forest_mask.tif * (land_temperature.tif < 30)
 
 
-Индекс EVI:
+EVI Index:
 
 2.5 * (&5 - &4) / (&5 + 6.0*&4 - 7.5*&2 + 1.0)
 
 
-* Название результирующего растра
+* The name of the resulting raster
 
-Без расширения файла (например ndvi, water). Расширение будет автоматически установлено в .tif
+No file extension (e.g. ndvi, water). The extension will be automatically set to .tif
 
-* Разрешение по X
+* X resolution
 
-Ширина каждого отдельного пикселя в результирующем растре в метрике системы координат первого растра из набора (напр. 30). Используйте символ - для автоматического подбора ширины пикселя
+The width of each individual pixel in the resulting raster in the coordinate system units of the first raster from the set (eg 30). Use the - symbol to automatically select the pixel width
 
-* Разрешение по Y
+* Y resolution
 
-Высота каждого отдельного пикселя в результирующем растре в метрике системы координат первого растра из набора (напр. 30). Используйте символ - для автоматического подбора высоты пикселя
+The height of each individual pixel in the resulting raster in the coordinate system units of the first raster from the set (eg 30). Use the - symbol to automatically select the pixel height
 
-* Охват результирующего растра
+* The extent of the resulting raster
 
-Формат: xmin, ymin, xmax, ymax. Пример: 1000, 1000, 2500, 2500. Используйте - для автоматического определения охвата. В таком случае будет рассчитан охват пересечений всех входных растров
+Format: xmin, ymin, xmax, ymax. Example: 1000, 1000, 2500, 2500. Use - to automatically determine the extent. In this case, the intersection extent of all input rasters will be calculated
 
-* Тип данных для нового растра
+* Data Type for a New Raster
 
-Доступные типы данных: Int32, Int16, Float64, UInt16, Byte, UInt32, Float32. Используйте - для автоматического подбора типа данных
+Available data types: Int32, Int16, Float64, UInt16, Byte, UInt32, Float32. Use - to automatically select the data type.
 
-Результатом работы процесса является одноканальный растр в формате GeoTiff, расчитанный в соответствии с заданным выражением.
+The result of the process is a single-band raster in the GeoTiff format, calculated according to the specified expression.
 
-Если пользователь задаёт один из опциональных параметров (разрешение по одной из осей или охват), то сначала все участвующие в выражении растры приводятся к заданному состоянию, затем производится расчёт. В случае автоматического подбора параметров пространственного домена используется следующая логика:
+If the user sets one of the optional parameters (resolution along one of the axes or the extent), then first all the rasters involved in the expression are brought to the specified state, when the calculations are performed. In case of an automatic selection of spatial domain parameters the following logic is used:
 
-1. Вычисляется наименьшее пространственное разрешение среди всех исходных растров. Оно принимается за выходное.
+1. The lowest spatial resolution among all source rasters is calculated. It is taken as an output.
 
-2. Все растры перепроецируются в систему координат первого растра в списке.
+2. All rasters are reprojected on the coordinate system of the first raster in the list.
 
-3. Выходной охват вычисляется как охват пересечений всех исходных растров.
-
-
-
-Запуск инструмента: https://toolbox.nextgis.com/operation/raster_calculator
-
-Скачать пример исходных данных (многоканальный растр, 11 каналов, фрагмент сцены Landsat 8): http://nextgis.ru/data/toolbox/raster_calculator/LC08_B1_B11.TIF
-
-Скачать пример исходных данных (архив с растрами, фрагменты сцены Landsat 8, доступные в выражении названия: band2.tif, band3.tif, band4.tif, band5.tif, band3_cropped.tif): http://nextgis.ru/data/toolbox/raster_calculator/LC08_20180530.zip
-
-Скачать примеры результатов расчёта:
-
-* Для примера с архивом (расчёт NDVI). Выражение: (band5.tif - band4.tif) / (band5.tif + band4.tif). Файл: http://nextgis.ru/data/toolbox/raster_calculator/ndvi.tif
-
-* Для примера с многоканальным растром (маскирование участка реки). Выражение: ((&5 - &4) / (&5 + &4)) < -0.12. Файл: http://nextgis.ru/data/toolbox/raster_calculator/water_mask.tif
+3. The output extent is calculated as the extent of the intersections of all the initial rasters.
 
 
-Посмотреть исходные данные и результаты расчётов на интерактивной карте: https://demo.nextgis.com/resource/4566/display?panel=info
+
+Launch tool: https://toolbox.nextgis.com/operation/raster_calculator
+
+Download an example of initial data (multi-band raster, 11 bands, a fragment of the Landsat 8 scene): http://nextgis.ru/data/toolbox/raster_calculator/LC08_B1_B11.TIF
+
+Download an example of initial data (archive with rasters, fragments of the Landsat 8 scene, available in the name expression: band2.tif, band3.tif, band4.tif, band5.tif, band3_cropped.tif): http://nextgis.ru/data/ toolbox / raster_calculator / LC08_20180530.zip
+
+Download examples of calculation results:
+
+* For example with the archive (NDVI calculation). Expression: (band5.tif - band4.tif) / (band5.tif + band4.tif). File: http://nextgis.ru/data/toolbox/raster_calculator/ndvi.tif
+
+* For example with a multi-band raster (masking a section of a river). Expression: ((& 5 - & 4) / (& 5 + & 4)) <-0.12. File: http://nextgis.ru/data/toolbox/raster_calculator/water_mask.tif
+
+
+View source data and calculation results on an interactive map: https://demo.nextgis.com/resource/4566/display?panel=info
 
 
 .. _toolbox_prepare_raster:

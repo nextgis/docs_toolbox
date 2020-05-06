@@ -144,11 +144,11 @@ Launch tool: https://toolbox.nextgis.com/operation/demInPoints
 Lesis (TopoL) to SQLite
 -----------------------
 
-Преобразование базы данных Лесис (ГИС TopoL-L) в формат SQLite для открытия в NextGIS QGIS.
+Conversion of the Lesis database (TopoL-L GIS) to SQLite format to open in NextGIS QGIS.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/lesis2sqlite
+Launch tool: https://toolbox.nextgis.com/operation/lesis2sqlite
 
-Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/lesis2sqlite/lesis.zip
+Download an example of initial data and calculation results: http://nextgis.ru/data/toolbox/lesis2sqlite/lesis.zip
 
 
 .. _toolbox_eraser:
@@ -156,34 +156,34 @@ Lesis (TopoL) to SQLite
 Erase from target
 -----------------
 
-Инструмент, позволяющий удалить из целевого слоя области объектов другого слоя.
+A tool that allows you to erase areas from the target layer. Areas to be erased are taken from another layer.
 
-На входе:
+Inputs:
 
-* Векторный слой, из которого нужно удалить области
+* Vector layer from which some areas are needed to be erased
 
-ZIP-архив с ESRI Shapefile или отдельный файл формата поддерживаемого OGR.
+ZIP archive with ESRI Shapefile or an other file format supported by OGR.
 
-* Векторный слой, содержащий объекты, области которых нужно удалить из исходного
+* Vector layer containing features representing areas needed to be erased from the target layer
 
-ZIP-архив с ESRI Shapefile или отдельный файл формата поддерживаемого OGR.
+ZIP archive with ESRI Shapefile or other file format supported by OGR.
 
+The result of the tool’s usage is a new vector layer.
 
-Результатом работы инструмента является новый векторный слой.
+The initial vector layers must have the same coordinate system.
 
-Исходные векторные слои должны иметь одинаковую систему координат.
+Launch tool: https://toolbox.nextgis.com/operation/eraser
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/eraser
+Download an example of initial data and calculation results: http://nextgis.ru/data/toolbox/eraser/eraser.zip
 
-Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/eraser/eraser.zip
+View the source data and the results of calculations on an interactive map: https://demo.nextgis.com/resource/4611/display?panel=info
 
-Посмотреть исходные данные и результаты расчётов на интерактивной карте: https://demo.nextgis.com/resource/4611/display?panel=info
 
 .. figure:: _static/eraser.png
    :align: center
    :width: 16cm
 
-   Пример результата работы инструмента
+   An example of the result of the tool’s usage
 
 
 .. _toolbox_change_attributes:

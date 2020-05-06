@@ -117,17 +117,17 @@ View the results on an interactive map: https://demo.nextgis.com/resource/4108/d
 Split into equal parts
 ----------------------
 
-На входе:
+Inputs:
 
-* Слой с полигоном (zip c Shapefile)
+* Polygon Layer (zip with Shapefile)
 
-Результатом работы процесса является слой:
+The result of the process is a layer:
 
-* Полигоны, с приблизительно одинаковой площадью
+* Polygons with approximately the same area
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/split_to_equal
+Launch tool: https://toolbox.nextgis.com/operation/split_to_equal
 
-Посмотреть результаты на интерактивной карте: https://demo.nextgis.com/resource/4552/display?panel=layers
+View the results on an interactive map: https://demo.nextgis.com/resource/4552/display?panel=layers
 
 
 .. _toolbox_demInPoints:
@@ -135,10 +135,9 @@ Split into equal parts
 Extract elevations from DEM
 ---------------------------
 
-Извлечение значений высот из ЦМР в точках. Возвращает CSV с координатами и высотами.
+The extraction of elevations from DEM. Returns CSV with coordinates and altitude.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/demInPoints
-
+Launch tool: https://toolbox.nextgis.com/operation/demInPoints
 
 .. _toolbox_lesis2sqlite:
 

@@ -207,7 +207,7 @@ Inputs:
 * End year - Ending date of the time range (optional parameter)
 
 .. note::
-    Start year and end year are optional parameters. These parameters allow you to limit the time range for the selected layers. To use these parameters, you must make sure that the time ranges are indicated in the names of the layers of the Web GIS resource. For example, in layer 1245_1246_rus_earl_v.1.0 1245 and 1246 the years are indicated. If these parameters are in use, you need to enter three or four digit values. The remaining fields are **required**.
+    Start year and end year are optional parameters. These parameters allow you to limit the time range for the selected layers. To use these parameters, you must make sure that the time ranges are indicated in the names of the layers of the Web GIS resource. For example, in layer 1245_1246_rus_earl_v.1.0 1245 and 1246 the years are indicated. If these parameters are in use, you need to enter three or four digit values. Other parameters are **mandatory**.
 
 Outputs:
 
@@ -331,75 +331,75 @@ View source data and calculation results on an interactive map: https://demo.nex
 Prepare raster
 --------------
    
-Инструмент, который осуществляет поканальную склейку набора одноканальных растров и обрезку склеенного растра по векторной маске.
+A tool that performs a per-band connection of a set of single-band rasters and crops the result using a vector mask.
 
-На входе:
+Input:
 
-* Исходные растровые данные
+* Initial raster data
 
-Исходные растровые данные могут быть представлены в двух видах:
+The initial raster data can be presented in two forms:
 
-1. многоканальный растр в GDAL-совместимом формате
+1. Multi-band raster in GDAL-compatible format
 
-2. ZIP архив с набором одноканальных GDAL-совместимых растров.
+2. ZIP archive with a set of single-baned GDAL-compatible rasters
 
-* Векторный слой, используемый в качестве маски
+* Vector layer, which is used as mask
 
-ZIP-архив с ESRI Shapefile или отдельный файл формата поддерживаемого OGR.
+ZIP archive with ESRI Shapefile or a other file format supported by OGR.
 
-* Значение "Нет данных"
+* “No data” value
 
-Значение, которое будет помечено как Нет данных. Используйте символ - для использования значения по умолчанию
+The value that is marked as “No data”. Use the - symbol to use the default value.
 
-* Название результирующего растра
+* The name of the resulting raster
 
-Без расширения файла (например ndvi, water). Расширение будет автоматически установлено в .tif
+No file extension (e.g. ndvi, water). The extension will be automatically installed in .tif
 
-Если на входе архив с одноканальными растрами, инструмент сначала объединяет их в многоканальный растр. Порядок каналов определяется алфавитной сортировкой имён исходных растров в архиве.
-Затем многоканальный растр (собранный из архива или поданный на вход сразу) обрезается по векторной маске.
+If the input is an archive with single-band rasters, the tool first combines them into a multi-band raster. The order of the bands is determined by alphabetically sorting the names of the initial rasters in the archive. 
+Then the multi-band raster (assembled from the archive or submitted immediately) is cropped with a vector mask.
 
-Исходные растры и векторная маска могут быть в разных системах координат, перед началом обработки все данные приводятся в единый пространственный домен.
+The initial rasters and the vector mask can be in different coordinate systems before processing, all data is brought into a single spatial domain.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/prepare_raster
+Launch tool: https://toolbox.nextgis.com/operation/prepare_raster
 
-Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/prepare_raster/prepare_raster.zip
+Download an example of initial data and calculation results: http://nextgis.ru/data/toolbox/prepare_raster/prepare_raster.zip
 
-Посмотреть исходные данные и результаты расчётов на интерактивной карте: https://demo.nextgis.com/resource/4595/display?panel=info
+View the source data and calculation results on the interactive map: https://demo.nextgis.com/resource/4595/display?panel=info
 
 .. figure:: _static/prepare_raster.png
    :align: center
    :width: 16cm
 
-   Пример результата работы инструмента
+   An example of the result of the tool’s usage
 
 .. _toolbox_landsat_to_radiance:
 
 Landsat radiometric calibration
 -------------------------------
    
-Инструмент осуществляет пересчёт сырых данных Landsat в интенсивность излучения (ToA Radiance).
+The tool converts the Landsat raw data into radiation intensity (ToA Radiance).
 
-На входе:
+Inputs:
 
-* Исходные файл канала Landsat
+* Landsat band initial File
 
-Файл из оригинального архива данных Landsat уровня обработки L1. Имя может быть любым. Данные могут быть предварительно обрезаны и т.д.
+Processing level L1 file from the original Landsat data archive. The name can be anything. Data can be pre-trimmed, etc.
 
-* Номер канала
+* Band number
 
-Номер канала, соответствующего загруженному файлу. Обычно число, для ETM+ может быть также 6_VCID_1 и 6_VCID_2
+The band number corresponding to the downloaded file. Usually a number, for ETM + it can also be 6_VCID_1 and 6_VCID_2
 
-* Файл метаданных Landsat
+* Landsat Metadata File
 
-Текстовый файл из оригинального архива данных Landsat. В зависимости от типа данных, это файл \*MTL.txt или \*.MTL.
+Text file from the original Landsat data archive. Depending on the data type, it is a * MTL.txt or * .MTL file.
 
-На выходе:
+Outputs:
 
-* Интенсивность излучения соответствующего канала в формате GeoTIFF
+* The radiation intensity of the corresponding band in the GeoTIFF format
 
-Радиометрическая калибровка необходима для анализа временных рядов, расчёта производных продуктов (например, индексных изображений).
+Radiometric calibration is necessary for time series analysis, calculation of derivative products (for example, index images).
 
-Поддерживаются данные:
+Supported data:
 
 * Landsat 8 (OLI, TIRS)
 
@@ -409,42 +409,42 @@ Landsat radiometric calibration
 
 * Landsat 4 (TM)
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/landsat_to_radiance
+Launch tool: https://toolbox.nextgis.com/operation/landsat_to_radiance
 
-Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/landsat_to_radiance/landsat_to_radiance.zip
+Download an example of source data and calculation results: http://nextgis.ru/data/toolbox/landsat_to_radiance/landsat_to_radiance.zip
 
 .. _toolbox_landsat_to_reflectance:
 
 Landsat reflectance calculation
 -------------------------------
    
-Инструмент осуществляет пересчёт интенсивности излучения (ToA Radiance) данных Landsat в отражательную способность с возможностью применения атмосферной коррекции по методу DOS
+The tool recalculates the ToA Radiance of Landsat data into reflectivity with the possibility of applying atmospheric corrections, using the DOS method.
 
-На входе:
+Inputs:
 
-* Файл с интенсивностью излучения одного из каналов Landsat
+* The file with the radiation intensity of one of the Landsat bands
 
-Результат радиометрической калибовки исходных данных Landsat, например с помощью инструмента https://toolbox.nextgis.com/operation/landsat_to_radiance
+The result of radiometric calibrations of the Landsat source data, for example, using the tool https://toolbox.nextgis.com/operation/landsat_to_radiance
 
-* Номер канала
+* Band number
 
-Номер канала, соответствующего загруженному файлу. Обычно число, для ETM+ может быть также 6_VCID_1 и 6_VCID_2
+The band number corresponding to the downloaded file. Usually a number, for ETM + it can also be 6_VCID_1 and 6_VCID_2
 
-* Файл метаданных Landsat
+* Landsat Metadata File
 
-Текстовый файл из оригинального архива данных Landsat. В зависимости от типа данных, это файл \*MTL.txt или \*.MTL.
+Text file from the original Landsat data archive. Depending on the data type, it is a * MTL.txt or * .MTL file
 
-* Тип результата обработки
+* Processing Result Type
 
-0 для расчёта альбедо по умолчанию, 1 для применения атмосферной коррекции по методу DOS
+0 for calculating the default albedo, 1 for applying atmospheric corrections using the DOS method
 
-На выходе:
+Outputs:
 
-* Спектральное альбедо соответствующего канала в формате GeoTIFF
+* Spectral albedo of the corresponding band in GeoTIFF format
 
-Спектральное альбедо - основной тип информации, который следует использовать при анализе данных дистанционного зондирования. Он лучше всего подходит для анализа временных рядов. Возможность применения атмосферной коррекции также улучшает качество данных.
+Spectral albedo is the main type of information that should be used in the analysis of remote sensing data. It is best suited for time series analysis. The ability to apply atmospheric corrections also improves data quality.
 
-Поддерживаются данные:
+Supported data:
 
 * Landsat 8 (OLI, TIRS)
 
@@ -454,43 +454,43 @@ Landsat reflectance calculation
 
 * Landsat 4 (TM)
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/landsat_to_reflectance
+Launch tool: https://toolbox.nextgis.com/operation/landsat_to_reflectance
 
-Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/landsat_to_reflectance/landsat_to_reflectance.zip
+Download an example of source data and calculation results: http://nextgis.ru/data/toolbox/landsat_to_reflectance/landsat_to_reflectance.zip
 
 .. _toolbox_ndi:
 
 Normalized difference index
 ---------------------------
    
-Инструмент осуществляет расчёт нормализованного разностного индекса для двух любых входных изображений.
+The tool calculates the normalized difference index for any two input images.
 
-На входе:
+Inputs:
 
-* Растровое изображение - первый участник разностного индекса
+* First component of the difference index
 
-Любой GDAL-совместимый растр
+Any GDAL-compatible raster
 
-* Растровое изображение - второй участник разностного индекса
+* Second component of the difference index
 
-Любой GDAL-совместимый растр
+Any GDAL-compatible raster
 
-На выходе:
+Outputs:
 
-* Растр с нормализованных разностным индексом в формате GeoTiff.
+* A raster with normalized difference index in GeoTiff format
 
-Расчёт осуществляется по формуле: (Первое изображение - Второе изображение) / (Первое изображение + Второе изображение). Значения пикселей результирующего растра находятся в диапазоне от -1 до 1
-Перед расчётом оба изображения приводятся в единый пространственный домен. Используется проекция и пространственное разрешение первого растра.
+The calculation is carried out according to the formula: (First image - Second image) / (First image + Second image). The pixel values of the resulting raster are in the range from -1 to 1
+Before the calculation, both images are brought into a single spatial domain. The projection and spatial resolution of the first raster is used.
 
-Примеры распространенных нормализованных разностных индексов:
+Examples of common normalized difference indices:
 
-* NDVI - для оценки растительности (первый растр - съемка в ближнем инфракрасном диапазоне, второй - в красном диапазоне длин волн)  Для данных Landsat 8: 5 и 4 каналы.
-* NDWI - для обнаружения водных объектов (первый растр - съемка в ближнем инфракрасном диапазоне, второй - в среднем инфракрасном диапазоне длин волн). Для данных Landsat 8: 5 и 6 каналы.
-* NDSI - для оценки снежного покрова (первый растр - съёмка в зеленом диапазоне, второй - в среднем инфракрасном диапазоне длин волн). Для данных Landsat 8: 3 и 6 каналы.
+* NDVI - for vegetation assessment (the first raster - NIR, the second - RED) For Landsat 8 data: 5 and 4 bands.
+* NDWI - for the detection of water bodies (the first raster - NIR, the second - SWIR). For Landsat 8 data: 5 and 6 bands.
+* NDSI - for assessing the snow cover (the first raster - GREEN, the second - SWIR). For Landsat 8 data: 3 and 6 bands.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/ndi
+Launch tool: https://toolbox.nextgis.com/operation/ndi
 
-Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/ndi/ndi.zip
+Download an example of source data and calculation results: http://nextgis.ru/data/toolbox/ndi/ndi.zip
 
 .. _toolbox_ogrmerge:
  
@@ -501,23 +501,23 @@ Merge vector layers
    :align: center
    :width: 16cm
 
-   Исходные и результирующие данные
+   Initial and resulting data
    
-Инструмент осуществляет объединение множества векторных слоёв в один слой.
+The tool merges many vector layers into one.
 
-На входе:
+Inputs:
 
-* Архив в формате ZIP с файлами формата .shp, .geojson, .gpkg, .tab
+* ZIP archive with .shp, .geojson, .gpkg, .tab files
 
-На выходе:
+Outputs:
 
-* Файл в формате GeoPackage с результатом объединения.
+* GeoPackage file with the result of the merge
 
-В инструменте нет ограничения на количество исходных слоёв. Они склеиваются по-очереди. Название исходного слоя не сохраняется.
+The tool has no limit on the number of initial layers. The name of the source layer is not saved.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/ogrmerge
+Launch tool: https://toolbox.nextgis.com/operation/ogrmerge
 
-Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/ogrmerge/ogrmerge.zip
+Download an example of initial data and calculation results: http://nextgis.ru/data/toolbox/ogrmerge/ogrmerge.zip
 
 .. _toolbox_ngw_copy_layer:
  
@@ -528,24 +528,23 @@ Duplicate nextgis.com vector layer
    :align: center
    :width: 16cm
 
-   Исходные и результирующие данные
+   Initial and resulting data
    
-Инструмент осуществляет дублирование структуры векторного слоя nextgis.com в другой каталог или инстанс. Копируются названия полей, порядок полей, типы полей, псевдонимы и описания. Метаданные в текущей версии не копируются.
+The tool duplicates the structure of the nextgis.com vector layer into another directory or instance. Field names, field order, field types, aliases, and descriptions are copied. Metadata in the current version are not copied.
 
-На входе:
+Inputs:
 
-*  Две пары URL, логинов и паролей, id исходного слоя и id новой папки
+*  Two pairs of URLs, usernames and passwords, id of the initial layer and id of the new folder
 
-На выходе:
+Outputs:
 
-* Выходных данных нет, результатом является создание слоя в nextgis.com
+* There is no output, the result is the creation of a layer in nextgis.com
 
-Особенности: 
-Пригоден для слоёв создаваемых NextGIS FormBuilder. Используется при процессе репликации слоёв. Данные не копируются.
+Features: Suitable for layers created by NextGIS FormBuilder. Used in the process of layer replication. Data is not copied.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/ngw_copy_layer
+Launch tool: https://toolbox.nextgis.com/operation/ngw_copy_layer
 
-Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/ngw_copy_layer/ngw_copy_layer.zip
+Download an example of source data and calculation results: http://nextgis.ru/data/toolbox/ngw_copy_layer/ngw_copy_layer.zip
 
 
 .. _toolbox_kpt2geo:
@@ -557,26 +556,26 @@ Convert EGRN KPT to geodata
    :align: center
    :width: 16cm
 
-   Исходные и результирующие данные
+   Initial and resulting data
    
-Инструмент осуществляет конвертацию одной или нескольких КПТ Росреестра из формата XML в удобный формат геоданных с проектом для ГИС.
+The tool converts one or several Rosreestr KPT from XML format into a convenient geodata format with a GIS project.
 
-На входе:
+Inputs:
 
-*  zip-архив c zip-архивами выгрузок Росреестра (архив архивов с названиями вида Response-80-105152635.zip)
-*  выходной формат геоданных - GeoJSON, ESRI Shape, Mapinfo TAB
+*  Zip archive with zip archives of Rosreestr downloads (archive of archives with the name format Response-80-105152635.zip)
+*  Output geodata format - GeoJSON, ESRI Shape, Mapinfo TAB
 
-На выходе:
+Outputs:
 
-* zip-архив с проектом QGIS и геоданными
+* zip archive with the QGIS project and geodata
 
-В архиве лежат каталоги: каталог с геоданными в местной системе координат (msk), каталог с геоданными в EPSG:4326 (wgs) и проект для QGIS с данными в EPSG:4326 с оформлением.
+The archive contains directories: a geodata directory in the local coordinate system (msk), a geodata directory in EPSG: 4326 (wgs) and a project for QGIS with data in EPSG: 4326 with the design.
 
-Описание слоёв приведено на https://data.nextgis.com/ru/cadastre/#region-layers
+A description of the layers is given at https://data.nextgis.com/en/cadastre/#region-layers
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/pkk_kpt
+Launch tool: https://toolbox.nextgis.com/operation/pkk_kpt
 
-Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/kpt2geo/kpt2geo.zip
+Download an example of initial data and calculation results: http://nextgis.ru/data/toolbox/kpt2geo/kpt2geo.zip
 
 
 .. _toolbox_ai2geo:
@@ -584,32 +583,30 @@ Convert EGRN KPT to geodata
 Adobe Illustrator (*.ai) to geodata
 -----------------------------------
 
-Инструмент извлекает слои векторных данных из файла Adobe Illustrator (*.ai), используя дополнительный файл в формате GeoTIFF для геопривязки.
+The tool extracts vector data layers from an Adobe Illustrator (* .ai) file using an additional file in GeoTIFF format for georeference.
 
-На входе:
+Inputs:
 
-* Файл Adobe Illustrator (с расширением .ai), в котором содержатся векторные объекты. 
-* Файл GeoTIFF (с расширением .geotiff или .tif), на основе которого будет производиться геопривязка извлекаемых векторных объектов.
+* An Adobe Illustrator file (with the .ai extension) that contains vector features 
+* A GeoTIFF file (with the extension .geotiff or .tif), on the basis of which the georeferencing of the extracted vector features will be performed
 
-Инструмент работает следующим образом: из файла .ai извлекаются геометрии. Для каждой геометрии определяется её тип (точка, линия или полигон), а так же стиль которым она нарисована (толщина линии, цвет линии, цвет заливки). Создаются слои (согласно типам геометрий), в которых каждый объект будет содержать полученную геометрию и строку стиля в поле "STYLE". При этом координаты геометрий преобразуются из локальных координат в пространственные координаты, основываясь на переданном файле GeoTIFF, который должен содержать корректную геопространственную привязку (подразумевается, что векторные объекты в .ai файле при его создании были нарисованы "поверх" аналогичного изображения в Adobe Illustrator).
+The tool works in the following way: geometries are extracted from the .ai file. For each geometry, its type (point, line or polygon) is determined, as well as the style with which it is drawn (line thickness, line color, fill color). Layers are created (according to the types of geometries) in which each feature will contain the resulting geometry and a style string in the “STYLE” field. In this case, the coordinates of the geometries are converted from local coordinates to spatial coordinates, based on the transmitted GeoTIFF file, which must contain the correct geospatial reference (it is implied, that the vector features in the .ai file were drawn “on top” of a similar image in Adobe Illustrator).
 
-Результатом работы процесса является ZIP-архив, содержащий набор файлов в формате ESRI Shapefile согласно созданным слоям.
+The result of the process is a ZIP archive containing a set of files in the ESRI Shapefile format according to the created layers.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/ai2geo
-
+Launch tool: https://toolbox.nextgis.com/operation/ai2geo
 
 .. figure:: _static/ai2geo_before.png
    :align: center
    :width: 32cm
    
-   Исходные векторные данные в .ai файле.
-
+   Source vector data in .ai file
 
 .. figure:: _static/ai2geo_after.png
    :align: center
    :width: 32cm
    
-   Результат работы инструмента: полученные слои загружены в QGIS и отображаются на фоне подложки OSM.
+   The result of the tool’s usage: the resulting layers are loaded into QGIS and displayed on the background of the OSM basemap
 
 .. _toolbox_grid:
  
@@ -620,16 +617,16 @@ Meter grid
    :align: center
    :width: 16cm
 
-   Сгенерированные сетки
+   Generated grid
    
-Инструмент осуществляет генерацию сетки в границах обьектов из векторного слоя. Размер сетки задаётся в метрах. Обьекты могут быть в любом месте земли.
+The tool generates a grid within the boundaries of features of a vector layer. The grid size is set in meters. Features can be anywhere in the world.
 
-На входе:
+Inputs:
 
-*  Мультиполигональный слой с одним или несколькими объектами. Может быть в любом формате, открываемом ogr (Geopackage, geojson)
-*  Шаг сетки в метрах
-*  Режим: points (точки), rect (квадраты).
-*  Алгоритм обрезки сетки по границам. all (оставлять все квадраты в охвате обьекта), touches (оставлять все квадраты касающиеся обьекта), intersection (обрезать квадраты по границе обьекта).
+*  A multipolygon layer with one or more features. It can be in any format opened by OGR (GeoPackage, geojson)
+*  Grid step in meters
+*  Mode: points (points), rect (squares)
+*  Algorithm for cropping the grid along the borders: all (leave all the squares in extent), touches (leave all the squares touching features), intersection (crop the squares along the borders of the features)
 
 .. figure:: _static/grid-1000-rect-all.png
    :align: center
@@ -670,17 +667,17 @@ Meter grid
    :align: center
    :width: 16cm
 
-   Сгенерированные сетки для нескольких полигонов в разных местах глобуса
+   Generated grids for several polygons in different places of the globe
    
 
-*  выходной формат геоданных - GeoJSON, ESRI Shape, Mapinfo TAB
+*  output geodata format - GeoJSON, ESRI Shape, Mapinfo TAB
 
-На выходе:
+Outputs:
 
 * Geopackage
 
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/grid
+Launch tool: https://toolbox.nextgis.com/operation/grid
 
 
 
@@ -689,22 +686,20 @@ Meter grid
 Last GEE imagery
 ----------------
    
-Инструмент запрашивает метаданные изображений указанной пользователем коллекции изображений Google Earth Engine (изображения анализируются внутри фиксированной области), начиная с заданной даты.
+The tool requests an image’s metadata of the user-specified Google Earth Engine image collection (images are analyzed within a fixed area), starting from a given date.
 
-На входе:
+Inputs:
 
-*  Название коллекции в формате GEE (например, LANDSAT/LC08/C01/T1_SR).
-*  Начальная дата: изображения коллекции, созданные ранее этой даты, игнорируются. Метаданные возвращаются по изображениям, созданным позднее даты. Формат даты: YYYY-MM-DD.
-*  Архив (zip) файла доступа к GEE, обычно может быть найден в домашнем каталоге пользователя (.config/earthengine/credentials).
+*  The name of the collection in GEE format (for example, LANDSAT / LC08 / C01 / T1_SR)
+*  Start date: collection images created earlier than this date are ignored. Metadata is returned from images created later than the date. Date format: YYYY-MM-DD
+*  The archive (zip) of the GEE access file can usually be found in the user's home directory (.config / earthengine / credentials)
 
+Outputs:
 
-На выходе
+*  Metadata for requested images
+*  The output data format is JSON (packed in zip)
 
-*  метаданные по запрошенным изображениям;
-*  выходной формат данных - JSON (запакованный в zip).
-
-
-Запуск инструмента: https://toolbox.nextgis.com/operation/last_img
+Launch tool: https://toolbox.nextgis.com/operation/last_img
 
 
 .. _toolbox_download_and_prepare_l8_s2:
@@ -712,30 +707,30 @@ Last GEE imagery
 Download and clip Landsat 8 / Sentinel 2 data
 ---------------------------------------------
    
-Инструмент загружает и подготавливает данные Landsat-8 / Sentinel-2.
+The tool downloads and prepares Landsat-8 / Sentinel-2 data.
 
-На входе:
+Inputs:
 
-*  Идентификатор сцены Landsat 8 / Sentinel 2, тип данных определяется автоматически по идентификатору. Получить идентификатор можно например на https://earthexplorer.usgs.gov
-*  Векторная маска по которой будет обрезан снимок. Формат - GeoJSON, ESRI Shape (в zip-архиве) или любой другой OGR-совместимый файл.
-*  Перечень каналов. Список номеров разделенных запятой. Каналы будут склеены в указанном порядке, например 2,3,4. Используйте - для загрузки и склейки всех каналов
+*  Landsat 8 / Sentinel 2 scene identifier, data type is determined automatically by the identifier. You can get the identifier, for example, at https://earthexplorer.usgs.gov
+*  The vector mask, which will crop the image. The format is GeoJSON, ESRI Shape (in a zip archive) or any other OGR-compatible file
+*  A list of bands. A comma separated list of numbers. The bands will be merged in the specified order, for example 2,3,4. Use - to load and merge all bands
 
 
-На выходе
+Outputs:
 
-*  GeoTIFF готового снимка
+*  GeoTIFF output image
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/download_and_prepare_l8_s2
+Launch tool: https://toolbox.nextgis.com/operation/download_and_prepare_l8_s2
 
-Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/download_and_prepare_l8_s2/download_and_prepare_l8_s2.zip
+Download an example of initial data and calculation results: http://nextgis.ru/data/toolbox/download_and_prepare_l8_s2/download_and_prepare_l8_s2.zip
 
-Посмотреть результат на интерактивной карте: https://demo.nextgis.com/resource/4805/display?panel=layers
+View the result on an interactive map: https://demo.nextgis.com/resource/4805/display?panel=layers
 
-Пример исходных данных:
+Examples of initial data:
 
-*  Сцена S2A_MSIL1C_20191109T072121_N0208_R006_T41VLD_20191109T084554
-* Каналы 4,3,2
-*  файл
+*  Scene S2A_MSIL1C_20191109T072121_N0208_R006_T41VLD_20191109T084554
+* Bands 4.3.2
+*  File
 
 ```
 {
@@ -753,328 +748,322 @@ Download and clip Landsat 8 / Sentinel 2 data
 TROPOMI to GeoTIFF
 ------------------
    
-Инструмент конвертирует данные TROPOMI по диоксиду азота в формат GeoTIFF
+The tool converts TROPOMI nitrogen dioxide data to GeoTIFF format.
 
-На входе:
+Inputs:
 
-*  Файл данных TROPOMI в формате NetCDF полученный с https://s5phub.copernicus.eu/dhus/#/home. Product type: L2__NO2__, Timeliness: Offline. Пример имени файла: S5P_OFFL_L2__NO2____20190901T091635_20190901T105804_09761_01_010302_20190907T113505.nc
+*  TROPOMI data file in NetCDF format obtained from https://s5phub.copernicus.eu/dhus/#/home. Product type: L2__NO2__, Timeliness: Offline. Example of a file’s name: S5P_OFFL_L2__NO2____20190901T091635_20190901T105804_09761_01_010302_20190907T113505.nc
 
 
-На выходе
+Outputs:
 
-*  GeoTIFF готового снимка
+*  GeoTIFF output image
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/tropomi2geotiff
+Launch tool: https://toolbox.nextgis.com/operation/tropomi2geotiff
 
-Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/tropomi2geotiff/tropomi2geotiff.zip
+Download an example of initial data and calculation results: http://nextgis.ru/data/toolbox/tropomi2geotiff/tropomi2geotiff.zip
 
-Посмотреть пример результата на интерактивной карте: https://demo.nextgis.com/resource/4698/display?panel=layers
+View an example result on an interactive map: https://demo.nextgis.com/resource/4698/display?panel=layers
 
 .. figure:: _static/tropomi2geotiff.png
    :align: center
    :width: 16cm
    
-Исходные сцены должны быть на scihub.copernicus (https://scihub.copernicus.eu), но временно лежат на копии веб-интерфейса Sentinel-5P Pre-Operations Hub: https://s5phub.copernicus.eu/dhus/#/home . Логины от scihub не действуют, нужно использовать s5pguest/s5pguest. 
+The source scenes are supposed to be hosted on scihub.copernicus (https://scihub.copernicus.eu) in the future, but temporarily they are hosted on a copy of the Sentinel-5P Pre-Operations Hub web interface: https://s5phub.copernicus.eu/dhus/#/ home. Logins from scihub do not work, you need to use s5pguest / s5pguest. 
    
 .. _mt2report:
  
 Create marine traffic report
 ----------------------------
 
-Этот инструмент генерирует таблицу (формат - CSV), в которой перечислены суда, заплывающие на заданную территорию, дата и координаты их последнего места пребывания, а также количество заходов судов на заданную территорию за определенный промежуток времени. Этот инструмент имеет смысл если у вас уже настроен сервис обновляющий данных о локациях судов в вашей Веб ГИС.
+This tool generates a table (format - CSV), which lists the ships entering given territory, the date and coordinates of their last location, as well as the number of times each ship entered a given territory for a certain period of time. It makes sense to use this tool, if you have already configured a service that updates data on ship locations in your Web GIS.
 
-На входе:
+Inputs:
 
-* name - Имя Веб-ГИС
-* layer_id_border - ID ресурса зоны
-* layer_id_ships - ID ресурса данных о судах
-* date - Начальная дата
+* name - Web GIS Name
+* layer_id_border - zone resource ID
+* layer_id_ships - ship data resource ID
+* date - Start date
 
-Алгоритм расчета: Загрузка слоев границы зоны анализа и локаций судов. Проверка каждой локации на вхождение в зону анализа, также отбираются локации зарегистрированные позже заданной стартовой даты. Среди отобранных локаций по каждому судну получается последняя локация и ее координаты, а также общее количество локаций. Полученная иформация для каждого судна записывается в таблицу. 
+Calculation algorithm: Uploading layers of the boundary of the analysis zone and ship locations. Checking each location for intersection with the analysis zone; locations registered later than the specified starting date are also selected. Among the selected locations for each ship the last location and its coordinates, as well as the total number of locations are obtained. The information obtained for each ship is recorded in a table. 
 
-Результатом работы процесса является таблица в формате CSV с информацией о всех судах, зарегистрированных на заданной территории позднее заданной даты, информация о последней зарегистрированной локации и количестве зарегистрированных локаций в пределах заданной территории за определенный промежуток времени.
+The result of the process is a table in CSV format with information about all ships registered on a given territory later than the specified date, information about the last registered location and the number of registered locations within a given territory for a certain period of time.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/mt2report
+Launch tool: https://toolbox.nextgis.com/operation/mt2report
 
-Посмотреть пример исходных данных на интерактивной карте:
-https://demo.nextgis.com/resource/4693/display?panel=layers
+View an example of initial data on an interactive map: https://demo.nextgis.com/resource/4693/display?panel=layers
 
 .. figure:: _static/mt2report_map.png
    :align: center
    :width: 16cm
    
-   Пример исходных данных 
+   Initial Data Example
    
 .. figure:: _static/mt2report_table.png
    :align: center
    :width: 16cm
    
-   Пример результата работы инструмента 
+   An example of the result of the tool’s usage 
 
 .. _toolbox_ngw_intersect:
 
 Intersector
 -----------
 
-Инструмент по заданной геометрии пересекает все слои веб-карты nextgis.com и формирует отчет, где перечисляются слои, с которыми состоялось пересечение. Если в отдельном слое пересекаются разные объекты, в отчете эти случаи отображаются как самостоятельные события.
+The tool intersects all layers of the nextgis.com web map using the specified geometry and generates a report listing the layers, with which the intersection took place. If different features intersect in a separate layer, these cases are displayed as separate events in the report.
 
-На входе:
+Inputs:
 
-*  url - адрес используемой Веб-ГИС
-*  webmap_id - ID веб-карты из используемой Веб-ГИС
-*  wkt - геометрия, с которой проверяется пересечение слоев веб-карты. Указывается в формате wkt, система координат - EPSG:3857
+*  url - address of the used Web GIS
+*  webmap_id - web map ID from used Web GIS
+*  wkt - geometry with which the intersection of layers of the web map is checked. Indicated in wkt format, coordinate system - EPSG: 3857
 
-На выходе:
+Outputs:
 
-*  таблица в формате .xlsx с перечнем пересеченных слоев
+*  .xlsx table with a list of intersected layers
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/ngw-intersect
+Launch tool: https://toolbox.nextgis.com/operation/ngw-intersect
 
-Пример использования:
+Usage example:
 
-Сколько видов ветрениц можно встретить, пройдя по Appalachian Trail?
+How many types of anemones can you find on the Appalachian Trail?
 
 *  url - http://demo.nextgis.com
-*  webmap_id - 4714 (так как адрес веб-карты https://demo.nextgis.com/resource/4714/display)
+*  webmap_id - 4714 (since the web map address is https://demo.nextgis.com/resource/4714/display)
 *  wkt - LineString (-9378421.57282677479088306 4115819.42546373652294278, -7678593.31173497438430786 5764332.11640937067568302)	
  
 .. figure:: _static/ngw_intersect_layers.png
    :align: center
    :width: 16cm
    
-   Пример исходных данных 
+   Initial Data Example
    
 .. figure:: _static/ngw_intersect_result.png
    :align: center
    :width: 16cm
    
-   Пример результата работы инструмента 
+   An example of the result of the tool’s usage 
    
 .. _toolbox_lines2polygons:
 
 Temporal polygons from lines and points
 ---------------------------------------
 
-Инструмент создает полигоны, отражающие состояние местности на конкретный момент времени. Полигоны формируются из набора контуров (полилиний), каждый из которых характеризуется датой начала и окончания своего существования. Атрибуты полигонам присваиваются из слоя точек, которые также имеют временную привязку.
+The tool creates polygons that reflect the state of the area at a particular point in time. Polygons are formed from a set of polylines, each of which is characterized by the start and end dates of its existence. Attributes for polygons are assigned from a layer of points, which also has a time reference.
 
-Кроме того, осуществляется группировка идентификаторов полигонов по заданному параметру через создание отдельного поля с ID, общим для каждой группы (минимальное его значение). Геометрия полигонов при этом не меняется.
+In addition, grouping of polygon identifiers by a given parameter is carried out by creating a separate field with an ID common to each group (its minimum value). The geometry of the polygons does not change.
 
-На входе:
+Inputs:
 
-*  gis_url - адрес используемой Веб-ГИС
-*  lines_id - ID слоя с полилиниями из используемой Веб-ГИС
-*  points_id - ID слоя с точками из используемой Веб-ГИС
-*  Запрашиваемый год - год, на который нужно получить временной срез
-*  year_field - название поля, куда будет записываться запрашиваемый год
-*  Поле результата - новое поле, куда будут заноситься результаты группировки, то есть ID.
-*  Поле с идентификаторами - поле с уникальными значениями в слое полилиний, из него заимствуются ID для группировки 
-*  Поле группировки - поле, по которому осуществляется группировка полигонов
+*  gis_url - address of the used Web GIS
+*  lines_id - ID of the polyline layer from the used Web GIS
+*  points_id - ID of the layer with points from the used Web GIS
+*  Requested year - the year for which you want to get a time slice
+*  year_field - name of the field where the requested year will be written
+*  Result field - a new field where the grouping results will be entered, that is, ID
+*  Field with identifiers - a field with unique values in the polyline layer; IDs for grouping are borrowed from it 
+*  Grouping field - the field by which polygons are grouped
 
-На выходе:
+Outputs:
 
-*  слой с полигонами (shapefile), актуальными для заданного года
+*  a layer with polygons (shapefile) relevant for the given year
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/lines2polygons
+Launch tool: https://toolbox.nextgis.com/operation/lines2polygons
 
-Пример использования:
+Usage example:
 
-Каковы границы европейских государств на 1000-й год н. э.?
+What are the borders of the European states for the 1000th year of n. e.?
 
 *  gis_url - https://demo.nextgis.com
-*  lines_id - 4702 (так как адрес слоя с полилиниями https://demo.nextgis.com/resource/4702/feature/)
-*  points_id - 4700 (так как адрес слоя с точками https://demo.nextgis.com/resource/4700/feature/)
-*  Запрашиваемый год - 1000
+*  lines_id - 4702 (as the address of the layer with polylines https://demo.nextgis.com/resource/4702/feature/)
+*  points_id - 4700 (since the address of the layer with points is https://demo.nextgis.com/resource/4700/feature/)
+*  The requested year - 1000
 *  year_field - Year
-*  Поле результата - Result
-*  Поле с идентификаторами - fid_europe 
-*  Поле группировки - linecomnt
+*  Result Field - Result
+*  Field with identifiers - fid_europe 
+*  Grouping field - linecomnt
  
 .. figure:: _static/lines2polygons_lines_points_map.png
    :align: center
    :width: 16cm
    
-   Пример исходных данных. Слои полилиний и точек 
+   Sample input data. Layers of polylines and dots 
    
 .. figure:: _static/lines2polygons_lines_table.png
    :align: center
    :width: 16cm
    
-   Пример исходных данных. Таблица атрибутов слоя полилиний  
+   Sample input data. Polyline Layer Attributes Table  
    
 .. figure:: _static/lines2polygons_polygons_map_table.png
    :align: center
    :width: 16cm
    
-   Пример результата работы инструмента    
+   An example of the result of a tool    
 
 .. _toolbox_temporal_split:
 
 Create temporal cache
 ---------------------
 
-Инструмент из одного слоя создает несколько. Каждый новый слой представляет собой выборку объектов за период времени.
+The tool creates several layers from one. Each new layer is a selection of features for a period of time.
 
-На входе:
+Inputs:
 
-* gis_url - адрес используемой Веб-ГИС
-* resource_id - ID слоя с полилиниями из используемой Веб-ГИС
-* upper_field - дата исчезновения объекта
-* lower_field - дата появления объекта
-* year1_field - начальный год интервала
-* year2_field - конечный год интервала
-* Формат даты - формат даты для дат
-* Выходной формат - GeoJSON, GPKG, CSV, ESRI Shapefile (значение по умолчанию ESRI Shapefile).
-* Игнорировать ошибки - оставьте пустым чтобы останавливать выполнение если найден пустой диапазон. Введите 1, чтобы игнорировать ошибки.
+* gis_url - address of the used Web GIS
+* resource_id - ID of the polyline layer used by Web GIS
+* upper_field - date the feature disappeared
+* lower_field - date the feature appeared
+* year1_field - the start year of the interval
+* year2_field - the end year of the interval
+* Date Format - date format for dates
+* The output format is GeoJSON, GPKG, CSV, ESRI Shapefile (the default value is ESRI Shapefile)
+* Ignore errors - leave blank to stop completion if an empty range is found. Enter 1 to ignore errors
 
-На выходе:
+Outputs:
 
-*  архив слоёв, каждый из которых также находится в архиве (zip)
+*  archive of layers, each of which is also in an archive (zip)
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/temporal_split
+Launch tool: https://toolbox.nextgis.com/operation/temporal_split
 
-Пример использования:
+Usage example:
 
-Сделать временной кэш из слоя городов появляющихся и исчезающих в определенное время.
+Make a temporary cache from the layer of cities appearing and disappearing at a certain time.
 
 * Web GIS URL - https://demo.nextgis.com
-* ID ресурса исходных данных - 4719
+* Source Resource ID - 4719
 * upper_field - upperdat
 * lower_field - lwdate
 * year1_field - YEAR1
 * year2_field - YEAR2
-* Формат даты - 
-* Выходной формат - 
-* Игнорировать ошибки - 1
+* Date format - 
+* Output format -
+* Ignore Errors - 1
 
-Скачать пример результатов: http://nextgis.ru/data/toolbox/toolbox_temporal_split/toolbox_temporal_split.zip
+Download sample results: http://nextgis.ru/data/toolbox/toolbox_temporal_split/toolbox_temporal_split.zip
 
 .. _toolbox_poly2explication:
 
 Polygon explication (forestry)
 ------------------------------
 
-Формирование отчета с экспликацией отвода. Используется для автоматического получения таблицы длин и азимутов из полигона.
+Generating a report of explication of forest plots. Used to automatically obtain a table of lengths and azimuths from a polygon.
 
-На входе:
+Inputs:
 
-* Полигональный слой (лесосека) - векторный набор данных (границы лесосеки) в формате, поддерживаемом OGR. Shape-файлы передаются в архиве, однофайловые наборы - в исходном виде. В слое должен быть только 1 объект.
-* Линейный слой (линия привязки) - Векторный набор данных (линия привязки) в формате, поддерживаемом OGR. Shape-файлы передаются в архиве, однофайловые наборы - в исходном виде. В слое должен быть только 1 объект. Если раздел привязка не заполняется, этот вместо файла можно использовать т.н. "заглушку" - слой без объектов. Готовую заглушку можно взять по ссылке http://nextgis.ru/data/toolbox/poly2explication/empty_line.geojson
-* Описание способа привязки - текст в свободной форме
-* Номер лесосеки - целое число
+* Polygonal layer (forest plot) - a vector data set (plot boundaries) in the format supported by OGR. Shape-files are transferred in an archive, single-file sets - uncompressed. There should be only 1 feature on the layer
+* Line layer (reference) - Vector data set (reference) in the format supported by OGR. Shape-files are transferred in an archive, single-file sets - uncompressed. There should be only 1 feature on the layer. If the reference section can not be filled out, the “Stub” can be used instead, which is a layer without features. A stub can be taken at http://nextgis.ru/data/toolbox/poly2explication/empty_line.geojson
+* Description of the binding method - free text
+* Forestry number - integer
 
-На выходе:
+Outputs:
 
-*  отчёт в формате Excel (xlsx)
+*  Excel report (xlsx)
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/poly2explication
+Launch tool: https://toolbox.nextgis.com/operation/poly2explication
 
-Пример использования:
-
-Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/poly2explication/poly2explication.zip
+Usage example:
+Download an example of initial data and calculation results: http://nextgis.ru/data/toolbox/poly2explication/poly2explication.zip
 
 .. figure:: _static/poly2explication-1.png
    :align: center
    :width: 16cm
    
-   Пример результата работы инструмента 
+   An example of the result of the tool’s usage 
    
 Projection (Dae, Collada) to Shapefile
 --------------------------------------
 
-Инструмент делает проекцию трехмерных объектов на земную плоскость.
+The tool makes a projection of three-dimensional features on the earth's surface.
 
-На входе:
+Inputs:
 
-* zip-архив, содержащий файлы *.kmz  и *.dae.
-* *.kmz должны содержать геопривязку моделей *.dae (координаты полигонов в EPSG:4326, единицы измерения - метрические)
+* Zip archive containing * .kmz and * .dae files
+* *.kmz must contain the geolocation of * .dae models (coordinates of polygons in EPSG: 4326, units of measurement are metric)
 
-На выходе:
+Outputs:
 
-*  zip-архив с Shapefile
-*  В результирующем Shapefile для каждой модели указываются атрибуты «name» и «altitude»
+*  A zip archive with Shapefile
+*  In the resulting Shapefile for each model, the attributes “name” and “altitude” are added
 
-На вход можно подать несколько моделей, на выходе по каждой из них получить отдельный полигон.
+You can submit several models, each of them gets a separate polygon.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/kmldae2footprints
+Launch tool: https://toolbox.nextgis.com/operation/kmldae2footprints
 
-Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/kmldae2footprints/kmldae2footprints.zip
+Download an example of initial data and calculation results: http://nextgis.ru/data/toolbox/kmldae2footprints/kmldae2footprints.zip
 
 Join layer and table by field
 -----------------------------
 
-Инструмент объединяет данные из таблицы и слоя по заданному полю. Инструмент предполагает использование двух разных режимов объединения: one-to-one - находит первый по порядку элемент таблицы и присоединяет его атрибуты; one-to-many - присоединяет все элементы таблицы, для которых совпадает заданное поле, при этом геометрия пространственного объекта дублируется для каждого элемента.
+The tool combines data from a table and a layer using a given field. The tool involves the use of two different join types: one-to-one - finds the first matching element of the table and attaches its attributes; one-to-many - connects all elements of the table for which the given field matches, the geometry of the feature is duplicated for each element.
 
-На входе:
+Inputs:
 
-* gis_url - адрес используемой Веб-ГИС
-* resource_id - ID слоя для объединения из используемой Веб-ГИС
-* src - имя таблицы
-* layer_field - название поля в слое Веб-ГИС
-* csv_field - название поля в таблице
-* join_type - тип объединения (1 - one-to-one, 0 - one-to-many)
+* gis_url - address of the used Web GIS
+* resource_id - layer ID to combine from the currently used Web GIS
+* src - table name
+* layer_field - the name of the field in the Web GIS layer
+* csv_field - field name in the table
+* join_type - type of join (1 - one-to-one, 0 - one-to-many)
 
-На выходе:
+Outputs:
 
-*  слой в формате ESRI Shapefile, который находится в архиве (zip)
+*  layer in ESRI Shapefile format, which is in an archive (zip)
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/join_by_field
+Launch tool: https://toolbox.nextgis.com/operation/join_by_field
 
-Пример использования:
+Usage example:
 
 .. figure:: _static/join_by_field.png
    :align: center
    :width: 16cm
 
-Скачать пример результатов: http://nextgis.ru/data/toolbox/join_by_field/join_by_field.zip
+Download sample results: http://nextgis.ru/data/toolbox/join_by_field/join_by_field.zip
 
 Clip PBF file by bbox
 ---------------------
 
-Инструмент выкачивает PBF (формат openstreetmap - https://wiki.openstreetmap.org/wiki/RU:PBF_Format) из сети и обрезает его по границе Bounding Box (bbox). 
+The tool downloads PBF (openstreetmap format - https://wiki.openstreetmap.org/wiki/RU:PBF_Format) and crops it along the Bounding Box (bbox) border. 
 
-На входе:
+Inputs:
 
-*  URL-адрес, где находится pbf-файл. Пример - http://download.geofabrik.de/europe/malta-latest.osm.pbf (Мальта, 4 Мб)
-*  параметры ограничевающей рамки Bounding Box в формате CSV. Пример - 14.5013,35.887,14.5066,35.899 (координаты левого нижнего и правого верхнего угла рамки). Строку bbox можно взять здесь - https://boundingbox.klokantech.com/. 
+*  The url where the pbf file is located. Example - http://download.geofabrik.de/europe/malta-latest.osm.pbf (Malta, 4 Mb)
+*  Bounding Box in CSV format. Example - 14.5013,35.887,14.5066,35.899 (coordinates of the lower left and upper right corner of the frame). The bbox line can be taken here - https://boundingbox.klokantech.com/ 
  
-На выходе:
+Outputs:
 
-*  pbf-файл, обрезанный по контуру Bounding Box
+*  Bounding Box cropped pbf file
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/osmclip_bbox
+Launch tool: https://toolbox.nextgis.com/operation/osmclip_bbox
 
-Change geometry for a group of layer
+Change geometry for a group of layers
 ------------------------------------
 
-Инструмент изменяет геометрию объектов в группе слоев ресурса Веб ГИС. Изменение возможно в 3 режимах: Удаление, Вставка, Замена.
-В режиме удаления инструмент удаляет выбранные объекты. Выбор производится на основе заданных значений атрибутивного поля слоя.
-в режиме вставки инструмент добавляет новые объекты из загружаемого shp-файла, при этом структура файла и слоя должна совпадать. В противном случае, инструмент не сможет добавить новые объекты.
-В режиме замены инструмент заменяет значение геометрии для объектов из загружаемого shp-файла, значения заданного атрибута которых совпадают со значениями атрибута слоя Веб ГИС. Название атрибута в shp-файле и слое Веб ГИС должны совпадать.
+The tool changes the geometry of features in a layer group of the Web GIS resource. The change is possible in 3 modes: Delete, Insert, Replace. In delete mode, the tool deletes the selected features. The selection is based on the specified values of a layer’s attribute field. In insert mode, the tool adds new features from the uploaded shp file, the structure of the file and the layer must match. Otherwise, the tool will not be able to add new features. 
+In replacement mode, the tool replaces the geometry value for features from the uploaded shp file, the values of the specified attribute of which match with the attribute values of the Web GIS layer. The attribute name in the shp file and the Web GIS layer must match.
 
-На выходе:
+Inputs:
 
-* Адрес Веб гис - url-адрес вашей Веб ГИС (http(s)://***.nextgis.com)
-* Логин - Имя пользователя, имеющего права на запись данных в указанный ресурс
-* Пароль - Пароль пользователя в Веб ГИС
-* Идентификатор группы ресурса - Идентификатор ресурса Веб ГИС, в котором содержится группа слоев
-* Исходное поле - Имя исходного поля, по которому производится поиск объектов
-* Режим - Тип режима изменения геометрии объектов. Для удаления объектов выберите режим Delete, для добавления - Add, для замены - Change
-* Исходное значение - Значение поля, по которому осуществляется выбор объектов. Если необходимо указать несколько значений, используйте запятую в качестве разделителя
-* Год начала - Начальная дата временного диапазона (опциональный параметр)
-* Год окончания - Дата окончания временного диапазона (опциональный параметр)
-* SHP-файл - Файл в формате ESRI Shapefile, который содержит объекты. Параметр обязательный в режимах Add и Change
+* Web GIS Address — The URL of your Web GIS (http (s): //***.nextgis.com)
+* Login - The username of the user who has the permission to write data to the specified resource
+* Password - Web GIS user password
+* Resource Group Identifier - Web GIS Resource Identifier for a layer group
+* Initial field - Name of the initial field used to search for features
+* Mode - A type of mode, which changes the geometry of features. To delete features, select the Delete mode, to Add - insert, to Change - replace
+* Initial value - The value of the field by which the features are selected. If you need to specify multiple values, use a comma to separate
+* Start year - Starting date of the time range (optional parameter)
+* End year - Ending date of the time range (optional parameter)
+* SHP file - An ESRI Shapefile that contains features. Required parameter in Add and Change modes
 
 .. note::
-    Год начала и год окончания - необязательные параметры. Данные параметры позволяют ограничить временной диапазон для выбранных слоев. Для использования этих параметров необходимо убедиться, что в названиях слоев ресурса Веб ГИС указаны временные диапазоны. Например, в слое 1245_1246_rus_earl_v.1.0 1245 и 1246 указывают на время. Если данные параметры используются, то необходимо ввести трех- или четырехзначные значения.  Остальные поля являются **обязательными**.
+    Start year and end year are optional parameters. These parameters allow you to limit the time range for the selected layers. To use these parameters, you must make sure that the time ranges are indicated in the names of the layers of the Web GIS resource. For example, in layer 1245_1246_rus_earl_v.1.0 1245 and 1246 the years are indicated. If these parameters are in use, you need to enter three or four digit values. Other parameters are **mandatory**.
 
-На выходе:
+Outputs:
 
-*  CSV файл, в котором представлены данные о выбранном режиме, исходном поле и его значение, перечень гиперссылок на объекты, которые были изменены, в случае возникновения ошибок, они будут также указаны в данном файле.
+*  A CSV file that contains data on the selected mode, the source field and its value, a list of hyperlinks to features that have been changed, in case of errors they will also be indicated in this file.
 
 .. figure:: _static/geometry_changer.PNG
    :align: center
    :width: 16cm
 
-   Пример результата работы инструмента
-
-Запуск инструмента: https://toolbox.nextgis.com/operation/geometry_changer
+   Launch tool: https://toolbox.nextgis.com/operation/geometry_changer

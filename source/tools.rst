@@ -962,7 +962,6 @@ Outputs:
 
 Launch tool: https://toolbox.nextgis.com/operation/poly2explication
 
-Usage example:
 Download an example of initial data and calculation results: http://nextgis.ru/data/toolbox/poly2explication/poly2explication.zip
 
 .. figure:: _static/poly2explication-1.png

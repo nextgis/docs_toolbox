@@ -964,8 +964,6 @@ https://demo.nextgis.com/resource/4693/display?panel=layers
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/poly2explication
 
-Пример использования:
-
 Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/poly2explication/poly2explication.zip
 
 .. figure:: _static/poly2explication-1.png

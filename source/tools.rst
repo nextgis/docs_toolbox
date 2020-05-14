@@ -944,7 +944,7 @@ Download sample results: http://nextgis.ru/data/toolbox/toolbox_temporal_split/t
 
 .. _toolbox_poly2explication:
 
-Polygon explication (forestry)
+Polygon to explication (forestry)
 ------------------------------
 
 Generating a report of explication of forest plots. Used to automatically obtain a table of lengths and azimuths from a polygon.

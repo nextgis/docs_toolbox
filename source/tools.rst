@@ -1052,7 +1052,7 @@ Inputs:
 * Initial value - The value of the field by which the features are selected. If you need to specify multiple values, use a comma to separate
 * Start year - Starting date of the time range (optional parameter)
 * End year - Ending date of the time range (optional parameter)
-* SHP file - An ESRI Shapefile that contains features. Required parameter in Add and Change modes
+* SHP file - An ESRI Shapefile (zipped) that contains features. Required parameter in Add and Change modes
 
 .. note::
     Start year and end year are optional parameters. These parameters allow you to limit the time range for the selected layers. To use these parameters, you must make sure that the time ranges are indicated in the names of the layers of the Web GIS resource. For example, in layer 1245_1246_rus_earl_v.1.0 1245 and 1246 the years are indicated. If these parameters are in use, you need to enter three or four digit values. Other parameters are **mandatory**.

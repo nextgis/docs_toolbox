@@ -1067,3 +1067,32 @@ Outputs:
    :width: 16cm
 
    Launch tool: https://toolbox.nextgis.com/operation/geometry_changer
+
+Explication to a polygon
+------------------------------------
+
+The tool converts an explication report in correct format to a polygon. Explication report has to be an excel-file that contains data about direcions and distances between points. Directions should be presented in degrees and corresponds to magnetic azimuth.
+
+.. figure:: _static/poly2explication-1.png
+   :align: center
+   :width: 16cm
+   
+   Example of an initial excel-file
+
+Inputs:
+
+* XLS(X) file - excel-file containing the explicaton report
+* Latitude of an anchor point. This value is specified in the coordinate system EPSG 4326. A separator between the integer part and the fractional part is a dot
+* Longitude of an anchor point. This value is specified in the coordinate system EPSG 4326. A separator between the integer part and the fractional part is a dot
+
+.. note::
+    The distance between the start point of the polygon and the last one can be more than on the ground because of measurement errors for azimuth and distances. Generally the difference is about 2-3 meters. 
+
+Outputs:
+
+*  Zip-archive with the shp-file that contains the resulting polygon
+
+   Launch tool: https://toolbox.nextgis.com/operation/explication2poly
+   
+   Download an example of source data and result: http://nextgis.ru/data/toolbox/explication2poly/explication2poly.zip
+   

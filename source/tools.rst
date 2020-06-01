@@ -1157,3 +1157,4 @@ https://demo.nextgis.com/resource/4693/display?panel=layers
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/explication2poly
 
+Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/poly2explication/poly2explication.zip

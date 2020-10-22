@@ -21,4 +21,8 @@ Purpose
 Installation and running
 ------------------------
 
+.. note::
+
+   Запуск инструментов доступен только для владельца Premium аккаунта. Члены команды пока не имеют возможности ими воспользоваться.
+
 You don't need to install anything to run NextGIS Toolbox tool. All tools can be run via browser.

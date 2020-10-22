@@ -23,6 +23,6 @@ Installation and running
 
 .. note::
 
-   Запуск инструментов доступен только для владельца Premium аккаунта. Члены команды пока не имеют возможности ими воспользоваться.
+   Launching tools is available only for Premium account holders. Team members are not yet able to use them.
 
 You don't need to install anything to run NextGIS Toolbox tool. All tools can be run via browser.

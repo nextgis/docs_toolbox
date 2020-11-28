@@ -1068,8 +1068,43 @@ Outputs:
 
    Launch tool: https://toolbox.nextgis.com/operation/geometry_changer
 
+Update a Web GIS layer from a CSV
+---------------------------------
+
+Update an existing Web GIS layer with uploaded CSV file. It is possible to completely REPLACE or ADD data.
+In ADD mode the tool adds features from a CSV to already existing features. In REPLACE mode the tool completely wipes already existing features first and then adds features from CSV.
+Data structure in CSV and target layer should match. Feature coordinates in CSV should be in WGS84 (EPSG:4326). Fields for coordinates should be named lat and lon. If one or both of the coordinates are missing the feature will be skipped. If coordinates can't be parsed the tool will raise and error and tell the row number.
+
+Inputs:
+
+* Web GIS address - Use http://*.nextgis.com or https://*.nextgis.com notation. Correct link depends on your Web GIS setup.
+* Login - Web GIS user login. User must have permissions to update the resource.
+* Password - Web GIS user password
+* Vector layer ID - Vector layer resource identifier.
+* CSV file - Choose CSV file
+* First line number - Line number where data starts. First line is the header with field names (optional).
+* CSV separator - symbol used to separate values in CSV file (optional). Default is ;
+* Mode - Use Add to add to the data and Replace to completely replace existing data.
+
+.. note::
+    First line number and Separator are optional. Default values are 1 and ;. First line number 1 means that CSV file will be read right from the beginning. Other parameters and mandatory.
+
+Outputs:
+
+* CSV report showing ID of the updated layer, selected mode, number of uploaded features and hyperlink to updated layer in Web GIS.
+
+Troubleshooting
+
+* Invalid type error - incorrect resource ID. Specify vector layer resource ID, not resource group containing the layer.
+* Invalid type of the layer - incorrect layer type. Only vector layers can be used.
+* Invalid operation mode - incorrect mode. You can only type in Replace or Add. Case-insensitive.
+* Invalid geometry type - target layer geometry is not point. This tool works for points only.
+* Invalid structure of the layer - data structures of CSV and target layer mismatch.
+
+Launch tool: https://toolbox.nextgis.com/operation/update_vector_layer
+
 Explication to a polygon
-------------------------------------
+------------------------
 
 The tool converts an explication report in correct format to a polygon. Explication report has to be an excel-file that contains data about direcions and distances between points. Directions should be presented in degrees and corresponds to magnetic azimuth.
 

@@ -1337,7 +1337,7 @@ https://demo.nextgis.com/resource/4693/display?panel=layers
    
 .. figure:: _static/raster2tiles_output.png
    :align: center
-   :width: 16cm
+   :width: 8cm
    
    Пример результата работы инструмента - файл .ngrc, добавленный в NextGIS Mobile
 

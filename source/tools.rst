@@ -1139,6 +1139,8 @@ https://demo.nextgis.com/resource/4693/display?panel=layers
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/osmclip_bbox
 
+.. _toolbox_geometry_changer:
+
 Изменение геометрии в группе слоев
 ------------------------------------
 Инструмент изменяет геометрию объектов в группе слоев ресурса Веб ГИС. Изменение возможно в 3 режимах: Удаление, Вставка, Замена.

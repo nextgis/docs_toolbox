@@ -130,16 +130,6 @@
 Посмотреть результаты на интерактивной карте: https://demo.nextgis.com/resource/4552/display?panel=layers
 
 
-.. _toolbox_demInPoints:
-
-Извлечение высот
-----------------
-
-Извлечение значений высот из ЦМР в точках. Возвращает CSV с координатами и высотами.
-
-Запуск инструмента: https://toolbox.nextgis.com/operation/demInPoints
-
-
 .. _toolbox_lesis2sqlite:
 
 Лесис в SQLite

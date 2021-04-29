@@ -926,7 +926,7 @@ https://demo.nextgis.com/resource/4693/display?panel=layers
 
 Сколько видов ветрениц можно встретить, пройдя по Appalachian Trail?
 
-*  url - http://demo.nextgis.com
+*  url - https://demo.nextgis.com
 *  webmap_id - 4714 (так как адрес веб-карты https://demo.nextgis.com/resource/4714/display)
 *  wkt - LineString (-9378421.57282677479088306 4115819.42546373652294278, -7678593.31173497438430786 5764332.11640937067568302)	
  

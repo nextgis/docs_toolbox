@@ -1473,42 +1473,40 @@ Naïve Bayes не требует гиперпараметров.
 
 *  На выходе: растр классификации территории и отчёт о ее характеристиках, сохраненные на Google Drive пользователя.
 
-.. hint::
-   Как получить файл аутентификации (credentials) для Google Earth Engine:
-   #.	Сначала необходимо зарегистрироваться на `Google Earth Engine <https://earthengine.google.com>`_. Одобрение регистрации может занять некоторое время. Если регистрация прошла успешно, на вашу почту в домене google.com придет письмо “Welcome to Google Earth Engine!”
-   #.	Получение файла аутентификации осуществляется через API-запрос на Python к серверу Google. Для этого на компьютер пользователя необходимо установить `Miniconda <https://docs.conda.io/en/latest/miniconda.html>`_.
-   #.	После установки запустите файл Anaconda Prompt (miniconda3). В появившейся командной строке активируйте пакет conda следующей командой (необходимо указать путь к файлу, соответствующий вашему компьютеру): 
+**Как получить файл аутентификации (credentials) для Google Earth Engine:**
+#.	Сначала необходимо зарегистрироваться на `Google Earth Engine <https://earthengine.google.com>`_. Одобрение регистрации может занять некоторое время. Если регистрация прошла успешно, на вашу почту в домене google.com придет письмо “Welcome to Google Earth Engine!”
+#.	Получение файла аутентификации осуществляется через API-запрос на Python к серверу Google. Для этого на компьютер пользователя необходимо установить `Miniconda <https://docs.conda.io/en/latest/miniconda.html>`_.
+#.	После установки запустите файл Anaconda Prompt (miniconda3). В появившейся командной строке активируйте пакет conda следующей командой (необходимо указать путь к файлу, соответствующий вашему компьютеру): 
 .. code-block:: python
 
     %UserProfile%\miniconda3\condabin\activate
 
-   И затем проверить активацию вызовом команды    
+И затем проверить активацию вызовом команды    
 .. code-block:: python
 
     conda --help
 
-4.	Создайте виртуальную среду для Earth Engine API:
+#.	Создайте виртуальную среду для Earth Engine API:
 .. code-block:: python
 
-   conda create --name ee
-
+    conda create --name ee
 
 после запуска этой команды вас попросят подтвердить создание среды, нажмите [y]
-5.	Активируйте созданную среду: 
+#.	Активируйте созданную среду: 
 .. code-block:: python
 
-   conda activate ee
+    conda activate ee
 
-6.	Убедитесь что теперь командная строка начинается с (ee). Установите API:
+#.	Убедитесь что теперь командная строка начинается с (ee). Установите API:
 .. code-block:: python
 
-   conda install -c conda-forge earthengine-api
+    conda install -c conda-forge earthengine-api
 
 вас попросят подтвердить установку API и зависимых объектов. 
-7.	Для аутентификации запустите команду
+#.	Для аутентификации запустите команду
 .. code-block:: python
 
-   earthengine authenticate
+    earthengine authenticate
 
 и следуйте появившимся инструкциям. Будет сгенерирован URL, по которому можно получить код авторизации. Скопируйте код в командную строк и запустите как команду. После этого файл credentials будет создан в %UserProfile%\.config\earthengine.
 

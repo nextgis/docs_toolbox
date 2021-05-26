@@ -1483,39 +1483,39 @@ Naïve Bayes не требует гиперпараметров.
 
 .. code-block:: python
 
-    %UserProfile%\miniconda3\condabin\activate
+   %UserProfile%\miniconda3\condabin\activate
 
 И затем проверить активацию вызовом команды    
 
 .. code-block:: python
 
-    conda --help
+   conda --help
 
 *  Создайте виртуальную среду для Earth Engine API:
 
 .. code-block:: python
 
-    conda create --name ee
+   conda create --name ee
 
 после запуска этой команды вас попросят подтвердить создание среды, нажмите [y]
 *  Активируйте созданную среду: 
 
 .. code-block:: python
 
-    conda activate ee
+   conda activate ee
 
 *  Убедитесь что теперь командная строка начинается с (ee). Установите API:
 
 .. code-block:: python
 
-    conda install -c conda-forge earthengine-api
+   conda install -c conda-forge earthengine-api
 
 вас попросят подтвердить установку API и зависимых объектов. 
 *  Для аутентификации запустите команду
 
 .. code-block:: python
 
-    earthengine authenticate
+   earthengine authenticate
 
 и следуйте появившимся инструкциям. Будет сгенерирован URL, по которому можно получить код авторизации. Скопируйте код в командную строк и запустите как команду. После этого файл credentials будет создан в %UserProfile%\.config\earthengine.
 

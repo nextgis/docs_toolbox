@@ -1131,3 +1131,21 @@ Outputs:
    
    Download an example of source data and result: http://nextgis.ru/data/toolbox/explication2poly/explication2poly.zip
    
+.. _toolbox_geocodetable:
+ 
+Geocode a table
+---------------
+   
+Add two coordinates for every address in the input table.
+
+Inputs:
+
+*  CSV file - input data in CSV format, first row is for field names. Encoding - UTF-8.
+*  Address field name - name of the table field that contains addresses.
+*  API key - Yandex.Geocoder service API key, get one here: https://developer.tech.yandex.ru/services/. All limitations apply.
+
+Outputs:
+
+*  Input CSV file + two additional field containinf latitude and longitude for each address.
+
+Launch tool: https://toolbox.nextgis.com/operation/geocodetable

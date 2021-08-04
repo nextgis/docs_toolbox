@@ -36,7 +36,7 @@ The result of the process is a set of layers:
 
 Launch tool: https://toolbox.nextgis.com/operation/quadro
 
-Download sample results: http://nextgis.ru/data/toolbox/quadro/outputs.zip
+Download sample results: https://nextgis.ru/data/toolbox/quadro/outputs.zip
 
 View the results on an interactive map: https://demo.nextgis.com/resource/4582/display?panel=layers
 
@@ -148,7 +148,7 @@ Conversion of the Lesis database (TopoL-L GIS) to SQLite format to open in NextG
 
 Launch tool: https://toolbox.nextgis.com/operation/lesis2sqlite
 
-Download an example of initial data and calculation results: http://nextgis.ru/data/toolbox/lesis2sqlite/lesis.zip
+Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/lesis2sqlite/lesis.zip
 
 
 .. _toolbox_eraser:
@@ -174,7 +174,7 @@ The initial vector layers must have the same coordinate system.
 
 Launch tool: https://toolbox.nextgis.com/operation/eraser
 
-Download an example of initial data and calculation results: http://nextgis.ru/data/toolbox/eraser/eraser.zip
+Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/eraser/eraser.zip
 
 View the source data and the results of calculations on an interactive map: https://demo.nextgis.com/resource/4611/display?panel=info
 
@@ -312,15 +312,15 @@ If the user sets one of the optional parameters (resolution along one of the axe
 
 Launch tool: https://toolbox.nextgis.com/operation/raster_calculator
 
-Download an example of initial data (multi-band raster, 11 bands, a fragment of the Landsat 8 scene): http://nextgis.ru/data/toolbox/raster_calculator/LC08_B1_B11.TIF
+Download an example of initial data (multi-band raster, 11 bands, a fragment of the Landsat 8 scene): https://nextgis.ru/data/toolbox/raster_calculator/LC08_B1_B11.TIF
 
-Download an example of initial data (archive with rasters, fragments of the Landsat 8 scene, available in the name expression: band2.tif, band3.tif, band4.tif, band5.tif, band3_cropped.tif): http://nextgis.ru/data/ toolbox / raster_calculator / LC08_20180530.zip
+Download an example of initial data (archive with rasters, fragments of the Landsat 8 scene, available in the name expression: band2.tif, band3.tif, band4.tif, band5.tif, band3_cropped.tif): https://nextgis.ru/data/ toolbox / raster_calculator / LC08_20180530.zip
 
 Download examples of calculation results:
 
-* For example with the archive (NDVI calculation). Expression: (band5.tif - band4.tif) / (band5.tif + band4.tif). File: http://nextgis.ru/data/toolbox/raster_calculator/ndvi.tif
+* For example with the archive (NDVI calculation). Expression: (band5.tif - band4.tif) / (band5.tif + band4.tif). File: https://nextgis.ru/data/toolbox/raster_calculator/ndvi.tif
 
-* For example with a multi-band raster (masking a section of a river). Expression: ((& 5 - & 4) / (& 5 + & 4)) <-0.12. File: http://nextgis.ru/data/toolbox/raster_calculator/water_mask.tif
+* For example with a multi-band raster (masking a section of a river). Expression: ((& 5 - & 4) / (& 5 + & 4)) <-0.12. File: https://nextgis.ru/data/toolbox/raster_calculator/water_mask.tif
 
 
 View source data and calculation results on an interactive map: https://demo.nextgis.com/resource/4566/display?panel=info
@@ -362,7 +362,7 @@ The initial rasters and the vector mask can be in different coordinate systems b
 
 Launch tool: https://toolbox.nextgis.com/operation/prepare_raster
 
-Download an example of initial data and calculation results: http://nextgis.ru/data/toolbox/prepare_raster/prepare_raster.zip
+Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/prepare_raster/prepare_raster.zip
 
 View the source data and calculation results on the interactive map: https://demo.nextgis.com/resource/4595/display?panel=info
 
@@ -411,7 +411,7 @@ Supported data:
 
 Launch tool: https://toolbox.nextgis.com/operation/landsat_to_radiance
 
-Download an example of source data and calculation results: http://nextgis.ru/data/toolbox/landsat_to_radiance/landsat_to_radiance.zip
+Download an example of source data and calculation results: https://nextgis.ru/data/toolbox/landsat_to_radiance/landsat_to_radiance.zip
 
 .. _toolbox_landsat_to_reflectance:
 
@@ -456,7 +456,7 @@ Supported data:
 
 Launch tool: https://toolbox.nextgis.com/operation/landsat_to_reflectance
 
-Download an example of source data and calculation results: http://nextgis.ru/data/toolbox/landsat_to_reflectance/landsat_to_reflectance.zip
+Download an example of source data and calculation results: https://nextgis.ru/data/toolbox/landsat_to_reflectance/landsat_to_reflectance.zip
 
 .. _toolbox_ndi:
 
@@ -490,7 +490,7 @@ Examples of common normalized difference indices:
 
 Launch tool: https://toolbox.nextgis.com/operation/ndi
 
-Download an example of source data and calculation results: http://nextgis.ru/data/toolbox/ndi/ndi.zip
+Download an example of source data and calculation results: https://nextgis.ru/data/toolbox/ndi/ndi.zip
 
 .. _toolbox_ogrmerge:
  
@@ -517,7 +517,7 @@ The tool has no limit on the number of initial layers. The name of the source la
 
 Launch tool: https://toolbox.nextgis.com/operation/ogrmerge
 
-Download an example of initial data and calculation results: http://nextgis.ru/data/toolbox/ogrmerge/ogrmerge.zip
+Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/ogrmerge/ogrmerge.zip
 
 .. _toolbox_ngw_copy_layer:
  
@@ -544,7 +544,7 @@ Features: Suitable for layers created by NextGIS FormBuilder. Used in the proces
 
 Launch tool: https://toolbox.nextgis.com/operation/ngw_copy_layer
 
-Download an example of source data and calculation results: http://nextgis.ru/data/toolbox/ngw_copy_layer/ngw_copy_layer.zip
+Download an example of source data and calculation results: https://nextgis.ru/data/toolbox/ngw_copy_layer/ngw_copy_layer.zip
 
 
 .. _toolbox_kpt2geo:
@@ -575,7 +575,7 @@ A description of the layers is given at https://data.nextgis.com/en/cadastre/#re
 
 Launch tool: https://toolbox.nextgis.com/operation/pkk_kpt
 
-Download an example of initial data and calculation results: http://nextgis.ru/data/toolbox/kpt2geo/kpt2geo.zip
+Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/kpt2geo/kpt2geo.zip
 
 
 .. _toolbox_ai2geo:
@@ -722,7 +722,7 @@ Outputs:
 
 Launch tool: https://toolbox.nextgis.com/operation/download_and_prepare_l8_s2
 
-Download an example of initial data and calculation results: http://nextgis.ru/data/toolbox/download_and_prepare_l8_s2/download_and_prepare_l8_s2.zip
+Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/download_and_prepare_l8_s2/download_and_prepare_l8_s2.zip
 
 View the result on an interactive map: https://demo.nextgis.com/resource/4805/display?panel=layers
 
@@ -761,7 +761,7 @@ Outputs:
 
 Launch tool: https://toolbox.nextgis.com/operation/tropomi2geotiff
 
-Download an example of initial data and calculation results: http://nextgis.ru/data/toolbox/tropomi2geotiff/tropomi2geotiff.zip
+Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/tropomi2geotiff/tropomi2geotiff.zip
 
 View an example result on an interactive map: https://demo.nextgis.com/resource/4698/display?panel=layers
 
@@ -828,7 +828,7 @@ Usage example:
 
 How many types of anemones can you find on the Appalachian Trail?
 
-*  url - http://demo.nextgis.com
+*  url - https://demo.nextgis.com
 *  webmap_id - 4714 (since the web map address is https://demo.nextgis.com/resource/4714/display)
 *  wkt - LineString (-9378421.57282677479088306 4115819.42546373652294278, -7678593.31173497438430786 5764332.11640937067568302)	
  
@@ -940,7 +940,7 @@ Make a temporary cache from the layer of cities appearing and disappearing at a 
 * Output format -
 * Ignore Errors - 1
 
-Download sample results: http://nextgis.ru/data/toolbox/toolbox_temporal_split/toolbox_temporal_split.zip
+Download sample results: https://nextgis.ru/data/toolbox/toolbox_temporal_split/toolbox_temporal_split.zip
 
 .. _toolbox_poly2explication:
 
@@ -952,7 +952,7 @@ Generating a report of explication of forest plots. Used to automatically obtain
 Inputs:
 
 * Polygonal layer (forest plot) - a vector data set (plot boundaries) in the format supported by OGR. Shape-files are transferred in an archive, single-file sets - uncompressed. There should be only 1 feature on the layer
-* Line layer (reference) - Vector data set (reference) in the format supported by OGR. Shape-files are transferred in an archive, single-file sets - uncompressed. There should be only 1 feature on the layer. If the reference section can not be filled out, the “Stub” can be used instead, which is a layer without features. A stub can be taken at http://nextgis.ru/data/toolbox/poly2explication/empty_line.geojson
+* Line layer (reference) - Vector data set (reference) in the format supported by OGR. Shape-files are transferred in an archive, single-file sets - uncompressed. There should be only 1 feature on the layer. If the reference section can not be filled out, the “Stub” can be used instead, which is a layer without features. A stub can be taken at https://nextgis.ru/data/toolbox/poly2explication/empty_line.geojson
 * Type on angles to calculate. 0 - direction angles (azimuths); 1 - magnetic angles; 2 - true angles. Magnetic and true angles can be calculated only if source data (plot polygon and reference line) have correct CRS description. To calculate true angles data is reprojected to corresponding UTM zone. To calculate magnetic angles World Magnetic Model is used to calculate deviation. 
 * Description of the binding method - free text
 * Forestry number - integer
@@ -963,7 +963,7 @@ Outputs:
 
 Launch tool: https://toolbox.nextgis.com/operation/poly2explication
 
-Download an example of initial data and calculation results: http://nextgis.ru/data/toolbox/poly2explication/poly2explication.zip
+Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/poly2explication/poly2explication.zip
 
 .. figure:: _static/poly2explication-1.png
    :align: center
@@ -990,7 +990,7 @@ You can submit several models, each of them gets a separate polygon.
 
 Launch tool: https://toolbox.nextgis.com/operation/kmldae2footprints
 
-Download an example of initial data and calculation results: http://nextgis.ru/data/toolbox/kmldae2footprints/kmldae2footprints.zip
+Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/kmldae2footprints/kmldae2footprints.zip
 
 Join layer and table by field
 -----------------------------
@@ -1018,7 +1018,7 @@ Usage example:
    :align: center
    :width: 16cm
 
-Download sample results: http://nextgis.ru/data/toolbox/join_by_field/join_by_field.zip
+Download sample results: https://nextgis.ru/data/toolbox/join_by_field/join_by_field.zip
 
 Clip PBF file by bbox
 ---------------------
@@ -1027,7 +1027,7 @@ The tool downloads PBF (openstreetmap format - https://wiki.openstreetmap.org/wi
 
 Inputs:
 
-*  The url where the pbf file is located. Example - http://download.geofabrik.de/europe/malta-latest.osm.pbf (Malta, 4 Mb)
+*  The url where the pbf file is located. Example - https://download.geofabrik.de/europe/malta-latest.osm.pbf (Malta, 4 Mb)
 *  Bounding Box in CSV format. Example - 14.5013,35.887,14.5066,35.899 (coordinates of the lower left and upper right corner of the frame). The bbox line can be taken here - https://boundingbox.klokantech.com/ 
  
 Outputs:
@@ -1077,7 +1077,7 @@ Data structure in CSV and target layer should match. Feature coordinates in CSV 
 
 Inputs:
 
-* Web GIS address - Use http://*.nextgis.com or https://*.nextgis.com notation. Correct link depends on your Web GIS setup.
+* Web GIS address - Use https://*.nextgis.com notation.
 * Login - Web GIS user login. User must have permissions to update the resource.
 * Password - Web GIS user password
 * Vector layer ID - Vector layer resource identifier.
@@ -1129,7 +1129,7 @@ Outputs:
 
    Launch tool: https://toolbox.nextgis.com/operation/explication2poly
    
-   Download an example of source data and result: http://nextgis.ru/data/toolbox/explication2poly/explication2poly.zip
+   Download an example of source data and result: https://nextgis.ru/data/toolbox/explication2poly/explication2poly.zip
    
 .. _toolbox_geocodetable:
  

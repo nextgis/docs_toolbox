@@ -1565,3 +1565,9 @@ Naïve Bayes не требует гиперпараметров.
 Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/forestplots_field/forestplots_field.zip
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/forestplots_field
+
+.. figure:: _static/forest-circular-plots.jpg
+   :align: center
+   :width: 16cm
+   
+   Пример результата работы инструмента загруженного в Garmin

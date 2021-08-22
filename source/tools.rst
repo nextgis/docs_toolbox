@@ -1388,7 +1388,7 @@ https://demo.nextgis.com/resource/4693/display?panel=layers
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/demInPoints
 
-Скачать пример исходных данных и результатов расчёта можно :download:`здесь <files/DemInPoints_example.zip>`.
+Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/deminpoints/deminpoints.zip
 
 
 .. _toolbox_clip_polys_poly:

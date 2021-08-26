@@ -1181,3 +1181,5 @@ Outputs:
 *  Areas values will write into fields of layers in nextgisweb
 
 Launch tool: https://toolbox.nextgis.com/operation/clip_polys_poly
+
+Download an example of source data and result: https://nextgis.ru/data/toolbox/clip_polys_poly/clip_polys_poly.zip

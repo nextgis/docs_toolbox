@@ -1167,9 +1167,8 @@ Launch tool: https://toolbox.nextgis.com/operation/geocodetable
 Calculate area inside boundary
 -------------------------------------------
    
-Calculates area of polygons and area of polygons inside boundary.
-Area will be calculated in square meters, internal data will be reproject to WGS 84 UTM local zone, so calculations will be accurate.
-Module was created for registration of wildfires in natural protected area.
+Calculates area of polygons and area of polygons inside boundary. Areas calculated in hectares (ha)
+Module was created for registration of wildfires in natural protected area. Internal calculations use local UTM zones, so calculations will accurate for any places on Earth.
 
 Inputs:
 

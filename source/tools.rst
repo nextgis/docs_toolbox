@@ -1592,7 +1592,7 @@ Naïve Bayes не требует гиперпараметров.
 В слое с полигонами изменяются значения в 2 атрибутах 
 
 
-Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/forestplots_field/forestplots_field.zip
+Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/clip_polys_poly/clip_polys_poly.zip
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/clip_polys_poly
 

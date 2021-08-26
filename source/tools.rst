@@ -1163,3 +1163,22 @@ Outputs:
 *  Input CSV file + two additional field containinf latitude and longitude for each address.
 
 Launch tool: https://toolbox.nextgis.com/operation/geocodetable
+
+Calculate area inside boundary
+-------------------------------------------
+   
+Calculates area of polygons and area of polygons inside boundary.
+Area will be calculated in square meters, internal data will be reproject to WGS 84 UTM local zone, so calculations will be accurate.
+Module was created for registration of wildfires in natural protected area.
+
+Inputs:
+
+*  nextgisweb url, login and password
+*  nextgisweb layer id of boundary polygonal layer. Layer should have 1 feature, with polygon or multipolygon geometry
+*  nextgisweb layer id of feature polygonal layer. Layer should have 2 fields for area calculations results.
+
+Outputs:
+
+*  Areas values will write into fields of layers in nextgisweb
+
+Launch tool: https://toolbox.nextgis.com/operation/clip_polys_poly

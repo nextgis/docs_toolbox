@@ -1227,7 +1227,7 @@ Outputs:
    
    Example of results
    
-   .. figure:: _static/clip_polys_poly.png
+.. figure:: _static/clip_polys_poly.png
    :align: center
    :width: 16cm
    

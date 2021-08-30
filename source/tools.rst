@@ -1231,7 +1231,7 @@ Outputs:
 **How to get Google Earth Engine credentials:**
 
 *  First you have to register with the `Google Earth Engine <https://earthengine.google.com>`_. Registration approval may take some time. If the registration was successful, you will receive a email “Welcome to Google Earth Engine!” to your mailbox in the google.com domain.
-*  The authentication file is obtained through a Python API request to the Google server. To do this, you need to install `Miniconda <https://docs.conda.io/en/latest/miniconda.html>` _ on the user's computer.
+*  The authentication file is obtained through a Python API request to the Google server. To do this, you need to install `Miniconda <https://docs.conda.io/en/latest/miniconda.html>`_ on the user's computer.
 *  Once installed, run the Anaconda Prompt (miniconda3). In the command line that appears, activate the conda package with the following command (you must specify the path to the file corresponding to your computer):
 
 .. code-block:: python

@@ -1178,6 +1178,104 @@ Outputs:
 Launch tool: https://toolbox.nextgis.com/operation/raster2tiles
 
 Download an example of source data and result :download:`here <files/raster2tiles_examples.zip>`.  
+
+.. _toolbox_gee_classifier:
+
+Satellite imagery classification based on Google Earth Engine
+------------------------------------------------------------
+
+The tool provides a user-friendly interface to classify satellite data in Google Earth Engine. The result are classified raster and quality report.
+
+Inputs:
+
+*  Google Authentication File is zipped credentials.
+*  Area of interest is file in polygonal GeoJSON format with WGS 84 coordinate system . Classification will be carried out within the specified polygon.
+*  Training polygons is polygonal GeoJSON file with WGS 84 coordinate system. Polygons should be located within the area of interest and have attributes with defined class information. Training polygons are produced by manual interpretation of user-selected objects, for example, water surface, asphalt pavement, forested area, etc.
+*  Field name with type is the attribute name in the training polygons with class number. Numbers should start with 0: 0,1,2,3 ... For example, a water body can be assigned a value of 0, a forested area - 1, etc.
+*  Validation polygons  is polygonal GeoJSON file with  WGS 84 coordinate system. Similar to training polygons, but should not coincide with them spatially.
+*  Field name with type is the attribute name in the validation polygons with class number. Numbers should start with 0: 0,1,2,3
+*  Satellite imagery collection. Available options are modis; sentinel2; landsat8; landsat7; landsat5; landsat4. Use a hyphen for the default (Landsat8) .
+*  Start date is initial date of image selection. Date format is YYY-MM-DD, e.g 2019-08-01.
+*  End date is final date of image selection. Date format is YYY-MM-DD, e.g 2019-08-30.
+*  Band types is a comma-separated list of band types. Available options are optical, nir, swir, ndvi.  Use a hyphen for the default (optical, nir, ndvi). These band types will be used to classify .
+*  Time composite metrics is comma-separated list of required metrics . Available options are median, mean, min, max, stdev, q25, q75. Use a hyphen for the default (median). Classification is carried out by composite images .
+*  Classification algorithm . Available options are RF, CART, SVM, NB. Use a hyphen for the default (CART). RF – Random Forest, CART – Classification And Regression Tree, SVM – Support Vector Machine, NB – Naïve Bayes.
+*  Algorithm hyperparameters  is a comma-separated list of algorithm hyperparameters . The number of parameters should match the algorithm . The parameters are read according to the sequence below. Use a hyphen for the default.
+Random Forest:
+
+#.	Number of trees. Default 10.
+#.	Variables per split. Default the variables number square root will be used.
+#.	Minimum sample size for end node (min leaf population). Default 1.
+#.	The proportion of the data used to build each tree (bag fraction). Default 0.5.
+#.	Maximum number of nodes for each tree (max nodes). Default, the number is not limited .
+#.	Seed is any number to reproduce the classification. Default 0.
+
+Classification And Regression Tree:
+
+#.	Maximum number of nodes for each tree (max nodes). Default, the number is not limited.
+#.	Minimum sample size for end node (min leaf population). Default 1.
+
+Для Support Vector Machine:
+
+#.	Kernel type. Available values are linear, poly, rbf, sigmoid, precomputed. Default rbf (radial basis function kernel).
+#.	Gamma. Default 0.5.
+#.	Cost. Default 10.
+
+Naïve Bayes does not require hyperparameters.
+
+Outputs:
+
+*  classified raster and quality report saved on the user's Google Drive .
+
+
+**How to get Google Earth Engine credentials:**
+
+*  First you have to register with the `Google Earth Engine <https://earthengine.google.com>`_. Registration approval may take some time. If the registration was successful, you will receive a email “Welcome to Google Earth Engine!” to your mailbox in the google.com domain.
+*  The authentication file is obtained through a Python API request to the Google server. To do this, you need to install `Miniconda <https://docs.conda.io/en/latest/miniconda.html>` _ on the user's computer.
+*  Once installed, run the Anaconda Prompt (miniconda3). In the command line that appears, activate the conda package with the following command (you must specify the path to the file corresponding to your computer):
+
+.. code-block:: python
+
+   %UserProfile%\miniconda3\condabin\activate
+
+And then check the activation by calling the command
+
+.. code-block:: python
+
+   conda --help
+
+*  Create a virtual environment for the Earth Engine API:
+
+.. code-block:: python
+
+   conda create --name ee
+
+after running this command you will be requested to confirm the creation of the environment, press [y]
+
+*  Activate the created environment :
+
+.. code-block:: python
+
+   conda activate ee
+
+*  Make sure the command line now starts with (ee). Install the API:
+
+.. code-block:: python
+
+   conda install -c conda-forge earthengine-api
+
+you will be requested to confirm the installation of the API and dependent objects.
+
+*  To authenticate, run the command
+
+.. code-block:: python
+
+   earthengine authenticate
+
+and follow the instructions that appear. A URL will be generated where you can get the authorization code. Copy the code to the command line and run as a command. After that, the credentials file will be created in the% UserProfile% /. Config / earthengine directory.
+
+
+Launch tool: https://toolbox.nextgis.com/operation/gee_classifier                     
    
 .. _toolbox_geocodetable:
  

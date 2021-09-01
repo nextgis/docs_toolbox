@@ -1408,7 +1408,7 @@ Inputs:
 * Longitude of anchor point. EPSG 4326 coordinate system. Use dot as a separator.
 
 .. note::
-    Due to inaccuracies in measuring angles and distances on the ground, the first point of the output polygon may be farther from the last than on the ground. As a rule, the difference does not exceed 2-3 meters.
+    Due to inaccuracies in measuring angles and distances on the ground, the first point of the output polygon may be farther from the last one than on the ground. As a rule, the difference does not exceed 2-3 meters.
 
 Outputs:
 

@@ -115,19 +115,22 @@ View the results on an interactive map: https://demo.nextgis.com/resource/4108/d
 .. _toolbox_split_to_equal:
 
 Split into equal parts
-----------------------
+-----------------------
+ Split polygon layer into equal parts.
 
 Inputs:
 
-* Polygon Layer (zip with Shapefile)
+* Source shapefile. Zipped polygonal shapefile for splitting.
+* Density shapefile. Layer for density accounting  when splitting in zipped shapefile format.
+* Number of parts. The number of parts into which to split source shapefile.
 
-The result of the process is a layer:
+Outputs:
 
-* Polygons with approximately the same area
+* Polygons with approximately equal area.
 
 Launch tool: https://toolbox.nextgis.com/operation/split_to_equal
 
-View the results on an interactive map: https://demo.nextgis.com/resource/4552/display?panel=layers
+View the results of calculations on an interactive map: https://demo.nextgis.com/resource/4552/display?panel=layers 
 
 
 .. _toolbox_demInPoints:
@@ -152,6 +155,8 @@ Outputs:
 Launch tool: https://toolbox.nextgis.com/operation/demInPoints
 
 Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/deminpoints/deminpoints.zip
+
+
 
 .. _toolbox_lesis2sqlite:
 

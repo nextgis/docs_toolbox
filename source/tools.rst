@@ -1389,6 +1389,36 @@ Launch tool: https://toolbox.nextgis.com/operation/clip_polys_poly
 
 Download an example of source data and result: https://nextgis.ru/data/toolbox/clip_polys_poly/clip_polys_poly.zip
 
+.. _toolbox_explication2poly:
+
+Explication to a polygon.
+------------------------------------
+The tool converts the explication report in the specified format into a polygon. An explication report is an Excel file that contains direction and distance data between points. Directions are in degrees and correspond to magnetic azimuth.
+
+.. figure:: _static/poly2explication-1.png
+   :align: center
+   :width: 16cm
+
+   An example of source Excel file.
+
+Inputs:
+
+* XLS(X) file. Excel file with explication report.
+* Latitude of anchor point. EPSG 4326 coordinate system. use dot as a separator.
+* Longitude of anchor point. EPSG 4326 coordinate system. use dot as a separator.
+
+.. note::
+    Due to inaccuracies in measuring angles and distances on the ground, the first point of the output polygon may be farther from the last than on the ground. As a rule, the difference does not exceed 2-3 meters.
+
+Outputs:
+
+*  Zipped polygonal shapefile.
+
+Launch tool: https://toolbox.nextgis.com/operation/explication2poly
+
+Download an example of source data and result: https://nextgis.ru/data/toolbox/explication2poly/explication2poly.zip  
+
+
 .. _toolbox_les_remote_sensing:
  
 Prepare satellite data and upload it to Web GIS

@@ -1197,8 +1197,8 @@ Inputs:
 *  Satellite imagery collection. Available options are modis; sentinel2; landsat8; landsat7; landsat5; landsat4. Use a hyphen for the default (Landsat8) .
 *  Start date is initial date of image selection. Date format is YYY-MM-DD, e.g 2019-08-01.
 *  End date is final date of image selection. Date format is YYY-MM-DD, e.g 2019-08-30.
-*  Band types is a comma-separated list of band types. Available options are optical, nir, swir, ndvi.  Use a hyphen for the default (optical, nir, ndvi). These band types will be used to classify .
-*  Time composite metrics is comma-separated list of required metrics . Available options are median, mean, min, max, stdev, q25, q75. Use a hyphen for the default (median). Classification is carried out by composite images .
+*  Band categories is a comma-separated list of all needed band categories. Available options are optical, nir, swir, ndvi.  Use a hyphen for the default (optical, nir, ndvi). These band types will be used to classify .
+*  Time aggregation metrics is comma-separated list of required metrics . Available options are median, mean, min, max, stdev, q25, q75. Use a hyphen for the default (median). Classification is carried out by composite images.
 *  Classification algorithm . Available options are RF, CART, SVM, NB. Use a hyphen for the default (CART). RF – Random Forest, CART – Classification And Regression Tree, SVM – Support Vector Machine, NB – Naïve Bayes.
 *  Algorithm hyperparameters  is a comma-separated list of algorithm hyperparameters . The number of parameters should match the algorithm . The parameters are read according to the sequence below. Use a hyphen for the default.
 Random Forest:
@@ -1358,22 +1358,3 @@ Outputs:
 *  GeoTIFF of processed scene and its style uploaded to Web GIS.
 
 Launch tool: https://toolbox.nextgis.com/operation/les_remote_sensing
-
-.. _toolbox_kml2geodata:
- 
-KML to geodata
----------------
-   
-Convert KML, KMZ to structured geodata (currently GeoJSON). This tool can work with feature attachements (photos) and can parse tables of attributes added to the feature description. 
-Inputs:
-
-*  Input dataset in KML/KMZ format.
-*  Table fields. A list of field names if the feature has associated table in the description that needs to be parsed.
-
-Outputs:
-
-*  ZIP compressed GeoJSON file with attachments (if any).
-
-Download an example of source data and result: https://nextgis.ru/data/toolbox/kml2geodata/kml2geodata.zip
-
-Launch tool: https://toolbox.nextgis.com/operation/kml2geodata

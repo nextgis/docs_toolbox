@@ -1404,8 +1404,8 @@ The tool converts the explication report in the specified format into a polygon.
 Inputs:
 
 * XLS(X) file. Excel file with explication report.
-* Latitude of anchor point. EPSG 4326 coordinate system. use dot as a separator.
-* Longitude of anchor point. EPSG 4326 coordinate system. use dot as a separator.
+* Latitude of anchor point. EPSG 4326 coordinate system. Use dot as a separator.
+* Longitude of anchor point. EPSG 4326 coordinate system. Use dot as a separator.
 
 .. note::
     Due to inaccuracies in measuring angles and distances on the ground, the first point of the output polygon may be farther from the last than on the ground. As a rule, the difference does not exceed 2-3 meters.

@@ -642,7 +642,7 @@ The tool generates a grid within the boundaries of features of a vector layer. T
 
 Inputs:
 
-*  A multipolygon layer with one or more features. It can be in any format opened by OGR (GeoPackage, geojson)
+*  A multipolygon layer with one or more features. It should be GeoPackage
 *  Grid step in meters
 *  Mode: points (points), rect (squares)
 *  Algorithm for cropping the grid along the borders: all (leave all the squares in extent), touches (leave all the squares touching features), intersection (crop the squares along the borders of the features)

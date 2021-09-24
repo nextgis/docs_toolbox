@@ -1325,8 +1325,8 @@ Launch tool: https://toolbox.nextgis.com/operation/geocodetable
 
 .. _toolbox_forestplots_field:
 
-Create forestplots scheme for Garmin.
--------------------------------------------
+Create forestplots scheme for Garmin
+------------------------------------
 
 The tool generates forest field plots in KMZ format ready to upload to Garmin devices. Areas located closer than 10 m from the plot border are discarded. A buffer zone is added around the plot at a distance of 50 m.
 

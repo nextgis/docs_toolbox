@@ -1442,3 +1442,25 @@ Outputs:
 *  GeoTIFF of processed scene and its style uploaded to Web GIS.
 
 Launch tool: https://toolbox.nextgis.com/operation/les_remote_sensing
+
+.. _toolbox_kml2geodata:
+ 
+KML to geodata
+--------------
+   
+Convert KML, KMZ to structured geodata (GeoJSON). This tool can work with attachments (photo) and can parse structured tables added to description of the KML feature.
+
+Inputs:
+
+* Input dataset in KML/KMZ format.
+* NextGIS Drive ID or link (if you have access)
+* Table fields. Comma-separated list of table field names to be extracted from the description.
+
+Outputs:
+
+* ZIP compressed GeoJSON with attachments if any.
+
+Download an example of source data and result: https://nextgis.ru/data/toolbox/kml2geodata/kml2geodata.zip
+
+Launch tool: https://toolbox.nextgis.com/operation/kml2geodata
+   

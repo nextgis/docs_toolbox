@@ -1153,8 +1153,8 @@ Outputs:
 
 .. _toolbox_intersect_layers:
 
-Intersect layesr
----------------------------------------------------
+Intersect layers
+----------------
 
 The tool intersects a polygonal layer with another vector layer (any type of geometry) and outputs the result as a set of CSV files.
 

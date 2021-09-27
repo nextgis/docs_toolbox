@@ -1464,3 +1464,21 @@ Download an example of source data and result: https://nextgis.ru/data/toolbox/k
 
 Launch tool: https://toolbox.nextgis.com/operation/kml2geodata
    
+Combine OSM and Reforma
+-----------------------
+   
+Combine building data from OpenStreetMap and Reforma to produce polygon layer with building outlines and all attributes from Reforma.
+
+Inputs:
+
+* Polygon building layer from OSM
+* Point building data from Reforma
+
+Outputs:
+
+* ZIP-compressed polygon layer with building footprints successfuly matched with Reforma data.
+* ZIP-compressed point layer not matched with Reforma data.
+
+Download an example of source data and result: https://nextgis.ru/data/toolbox/joinreforma/joinreforma.zip
+
+Launch tool: https://toolbox.nextgis.com/operation/JoinReforma

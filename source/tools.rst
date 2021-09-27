@@ -1604,7 +1604,9 @@ KML в геоданные
 Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/kml2geodata/kml2geodata.zip
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/kml2geodata
-   
+
+.. _toolbox_joinreforma:
+
 Объединение OSM и РеформыЖКХ
 ----------------------------
    

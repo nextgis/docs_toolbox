@@ -1463,7 +1463,9 @@ Outputs:
 Download an example of source data and result: https://nextgis.ru/data/toolbox/kml2geodata/kml2geodata.zip
 
 Launch tool: https://toolbox.nextgis.com/operation/kml2geodata
-   
+
+.. _toolbox_joinreforma:
+
 Combine OSM and Reforma
 -----------------------
    

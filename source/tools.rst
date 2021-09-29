@@ -1605,6 +1605,18 @@ KML в геоданные
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/kml2geodata
 
+.. figure:: _static/kml2geodata-src.png
+   :align: center
+   :width: 16cm
+   
+   Пример исходных данных. KML c атрибутами записанными в описание объекта в Google Earth
+
+.. figure:: _static/kml2geodata-res.png 
+   :align: center
+   :width: 16cm
+   
+   Пример результата работы инструмента. Загруженные в QGIS геоданные
+
 .. _toolbox_joinreforma:
 
 Объединение OSM и РеформыЖКХ

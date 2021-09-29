@@ -1464,6 +1464,19 @@ Download an example of source data and result: https://nextgis.ru/data/toolbox/k
 
 Launch tool: https://toolbox.nextgis.com/operation/kml2geodata
 
+
+.. figure:: _static/kml2geodata-src.png
+   :align: center
+   :width: 16cm
+   
+   Source data example. KML with attributes structured as the table in the description of a feature
+
+.. figure:: _static/kml2geodata-res.png 
+   :align: center
+   :width: 16cm
+   
+   Result example. Data opened in QGIS after conversion with the tool
+
 .. _toolbox_joinreforma:
 
 Combine OSM and Reforma

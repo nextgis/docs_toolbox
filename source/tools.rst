@@ -1663,7 +1663,7 @@ KML в геоданные
    :align: center
    :width: 16cm
    
-Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/joinreforma/joinreforma.zip
+Скачать пример исходных данных и результатов расчёта: 
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/centroid2attr
 

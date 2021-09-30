@@ -1637,3 +1637,25 @@ KML в геоданные
 Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/joinreforma/joinreforma.zip
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/JoinReforma
+
+.. _toolbox_centroid2attr:
+
+Координаты центра в атрибуты
+----------------------------
+   
+Расчитывает центр полигонов (PointOnSurface), добавляет поля point_X, point_Y с координатами точки, гарантировано пересекающейся с полигоном.
+
+На входе:
+
+* Полигональный слой
+
+На выходе:
+
+* Файл ZIP со слоем полигонов, и двумя новыми полями point_X, point_Y 
+* Файл стиля
+
+Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/joinreforma/joinreforma.zip
+
+Запуск инструмента: https://toolbox.nextgis.com/operation/centroid2attr
+
+

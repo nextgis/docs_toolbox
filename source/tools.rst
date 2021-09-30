@@ -1654,6 +1654,10 @@ KML в геоданные
 * Файл ZIP со слоем полигонов, и двумя новыми полями point_X, point_Y 
 * Файл стиля
 
+.. figure:: _static/point_on_surface.png
+   :align: center
+   :width: 16cm
+   
 Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/joinreforma/joinreforma.zip
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/centroid2attr

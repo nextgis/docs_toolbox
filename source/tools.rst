@@ -1658,6 +1658,11 @@ KML в геоданные
    :align: center
    :width: 16cm
    
+   
+.. figure:: _static/point_on_surface_attributes.png
+   :align: center
+   :width: 16cm
+   
 Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/joinreforma/joinreforma.zip
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/centroid2attr

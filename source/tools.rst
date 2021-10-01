@@ -1493,12 +1493,12 @@ Outputs:
 * ZIP with polygonal Shapefile with two fielda added: point_X, point_Y 
 * QML style file
 
-.. figure:: _static/centroid2attr.png
+.. figure:: _static/point_on_surface.png
    :align: center
    :width: 16cm
    
    
-.. figure:: _static/centroid2attr_result.png
+.. figure:: _static/point_on_surface_attributes.png
    :align: center
    :width: 16cm
    
@@ -1523,21 +1523,21 @@ Outputs:
 * ZIP with Shapefile layer 1 with added attribute 
 * QML style file
 
-.. figure:: _static/point_on_surface.png
+.. figure:: _static/spatial_join.png
    :align: center
    :width: 16cm
    
    Example of source data: cities and regions
    
-.. figure:: _static/point_on_surface_attributes.png
+.. figure:: _static/spatial_join_result.png
    :align: center
    :width: 16cm
    
    Example output: cities with added region name
    
-Download an example of source data and result: https://nextgis.ru/data/toolbox/centroid2attr/centroid2attr.zip
+Download an example of source data and result: https://nextgis.ru/data/toolbox/spatial_join/spatial_join.zip
 
-Launch tool: https://toolbox.nextgis.com/operation/centroid2attr
+Launch tool: https://toolbox.nextgis.com/operation/spatial_join
 
 .. _toolbox_joinreforma:
 

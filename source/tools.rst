@@ -1493,12 +1493,12 @@ Outputs:
 * ZIP with polygonal Shapefile with two fielda added: point_X, point_Y 
 * QML style file
 
-.. figure:: _static/point_on_surface.png
+.. figure:: _static/centroid2attr.png
    :align: center
    :width: 16cm
    
    
-.. figure:: _static/point_on_surface_attributes.png
+.. figure:: _static/centroid2attr_result.png
    :align: center
    :width: 16cm
    
@@ -1523,13 +1523,13 @@ Outputs:
 * ZIP with Shapefile layer 1 with added attribute 
 * QML style file
 
-.. figure:: _static/centroid2attr.png
+.. figure:: _static/point_on_surface.png
    :align: center
    :width: 16cm
    
    Example of source data: cities and regions
    
-.. figure:: _static/centroid2attr_result.png
+.. figure:: _static/point_on_surface_attributes.png
    :align: center
    :width: 16cm
    

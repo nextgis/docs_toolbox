@@ -1657,13 +1657,14 @@ KML в геоданные
 .. figure:: _static/point_on_surface.png
    :align: center
    :width: 16cm
-   
+
+   Пример исходных данных - точки и полигоны регионов.
    
 .. figure:: _static/point_on_surface_attributes.png
    :align: center
    :width: 16cm
    
-Скачать пример исходных данных и результатов расчёта: 
+Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/centroid2attr/centroid2attr.zip
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/centroid2attr
 
@@ -1688,8 +1689,16 @@ KML в геоданные
    :align: center
    :width: 16cm
    
+   Пример исходных данных - точки населённых пунктов и полигоны регионов.
+
+.. figure:: _static/spatial_join_result.png
+   :align: center
+   :width: 16cm
    
-Скачать пример исходных данных и результатов расчёта: 
+   Выход - точки с добавленым атрибутом названия региона.
+      
+   
+Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/spatial_join/spatial_join.zip
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/spatial_join
 

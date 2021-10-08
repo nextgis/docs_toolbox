@@ -1480,7 +1480,7 @@ Launch tool: https://toolbox.nextgis.com/operation/kml2geodata
 .. _toolbox_centroid2attr:
 
 Coordinates of center to attribute
-----------------------------
+----------------------------------
    
 Calculate center point of polygons (PointOnSurface), add fields point_X, point_Y with coordinates of point guaranteed to intersect a polygon.
 
@@ -1507,8 +1507,8 @@ Download an example of source data and result: https://nextgis.ru/data/toolbox/c
 Launch tool: https://toolbox.nextgis.com/operation/centroid2attr
 
 
-Spatial Join (Join attribute by location)
-----------------------------
+Spatial Join (Join by location)
+-----------------------------------------
    
 Insert into layer 1 attribute from intersects feature in layer 2
 
@@ -1548,13 +1548,15 @@ Combine building data from OpenStreetMap and Reforma to produce polygon layer wi
 
 Inputs:
 
-* Polygon building layer from OSM
-* Point building data from Reforma
+* Polygon building layer from OSM, ZIP file.
+* Point building data from Reforma, CSV file.
 
 Outputs:
 
-* ZIP-compressed polygon layer with building footprints successfuly matched with Reforma data.
-* ZIP-compressed point layer not matched with Reforma data.
+A compressed file containing:
+* Polygon layer with building footprints successfuly matched with OSM data, ESRI Shapefile.
+* Point layer with source points not matched with OSM data, ESRI Shapefile.
+* Source data, CSV file.
 
 Download an example of source data and result: https://nextgis.ru/data/toolbox/joinreforma/joinreforma.zip
 

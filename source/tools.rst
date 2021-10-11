@@ -1554,6 +1554,7 @@ Inputs:
 Outputs:
 
 A compressed file containing:
+
 * Polygon layer with building footprints successfuly matched with OSM data, ESRI Shapefile.
 * Point layer with source points not matched with OSM data, ESRI Shapefile.
 * Source data, CSV file.

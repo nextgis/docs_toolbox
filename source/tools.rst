@@ -1546,6 +1546,13 @@ Combine OSM and Reforma
    
 Combine building data from OpenStreetMap and Reforma to produce polygon layer with building outlines and all attributes from Reforma.
 
+
+.. figure:: _static/joinreforma.png
+   :align: center
+   :width: 16cm
+   
+   Example of the result data.
+
 Inputs:
 
 * Polygon building layer from OSM, ZIP file.

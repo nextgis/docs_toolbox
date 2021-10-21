@@ -1332,7 +1332,7 @@ The tool generates forest field plots in KMZ format ready to upload to Garmin de
 
 Inputs:
 
-*  Input polygon dataset. Supported formats are zipped shapefile, Mapinfo TAB or OGR-compatible file. Must contain only one feature.
+*  Input polygon dataset. Supported formats are zipped shapefile, Mapinfo TAB or OGR-compatible file. Must contain only one feature without rings.
 *  Step between points. Distance between plots in meters. Default 55 meters.
 
 Outputs:

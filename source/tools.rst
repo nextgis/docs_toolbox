@@ -723,10 +723,10 @@ Launch tool: https://toolbox.nextgis.com/operation/last_img
 
 .. _toolbox_download_and_prepare_l8_s2:
  
-Download and clip Landsat 8 / Sentinel 2 data
----------------------------------------------
+Prepare satellite data and download the result
+----------------------------------------------
    
-The tool downloads and prepares Landsat-8 / Sentinel-2 data.
+The tool downloads source data, prepares Landsat-8 / Sentinel-2 data and provides link to download the result.
 
 Inputs:
 

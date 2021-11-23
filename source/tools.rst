@@ -1611,3 +1611,5 @@ Input:
 Output:
 
 * ZIP archive with vector layers
+
+Launch tool: https://toolbox.nextgis.com/operation/convert

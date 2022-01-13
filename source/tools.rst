@@ -107,7 +107,7 @@ View the results on an interactive map: https://demo.nextgis.com/resource/4108/d
    :align: center
    :width: 16cm
    
-   Rendering example 
+   Example of the output
 
 .. _toolbox_launch_conditions:
 

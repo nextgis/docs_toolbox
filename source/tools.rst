@@ -1093,6 +1093,7 @@ Update a Web GIS layer from a CSV
 Update an existing Web GIS layer with uploaded CSV file. It is possible to completely REPLACE or ADD data.
 In ADD mode the tool adds features from a CSV to already existing features. In REPLACE mode the tool completely wipes already existing features first and then adds features from CSV.
 Data structure in CSV and target layer should match. Feature coordinates in CSV should be in WGS84 (EPSG:4326). Fields for coordinates should be named lat and lon. If one or both of the coordinates are missing the feature will be skipped. If coordinates can't be parsed the tool will raise and error and tell the row number.
+If the table contains dates, they must be written in `ISO <https://docs.python.org/3/library/datetime.html#datetime.datetime.isoformat>`_ format. For example - 2019-05-18T15:17:08.132263
 
 Inputs:
 

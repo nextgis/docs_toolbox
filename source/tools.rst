@@ -89,7 +89,7 @@ Inputs:
 
 * Elevation step. Integer value.
 * Database. Choice from: ALOS, GMTED, GEBCO.
-* Cropping boundary. Upload  compressed (zip) file in GeoJSON format (EPSG: 4326).
+* Cropping boundary. Upload a compressed (zip) or uncompressed GeoJSON file (EPSG: 4326).
 
 The result of the process is a set of layers:
 

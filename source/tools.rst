@@ -1614,3 +1614,23 @@ Output:
 * ZIP archive with vector layers
 
 Launch tool: https://toolbox.nextgis.com/operation/convert
+
+.. _toolbox_forest_pdf:
+
+Convert png to pdf
+-----------------------------
+
+This tool converts single png file, as well as a set of png files, to pdf format. In the latter case all files will be merged into one pdf file. The tool will be helpful mostly for the users of NextGIS Les app. 
+
+
+Input:
+
+*  Supplement 3 to the forest declaration - one or more png files packed into ZIP archive. Supplement 3, exported from NextGIS Les, is ready for input as it is. However if you have several independent supplements exported from  NextGIS Les and all of them belong to the same declaration, than these ZIP archives should be packed together in one ZIP archive. The resulting ZIP archive with several ZIP archives inside is ready for the input
+*  Supplement 4 to the forest declaration - same as supplement 3
+
+Output:
+
+* pdf file with supplements 3
+* pdf file with supplements 4
+
+Launch tool: https://toolbox.nextgis.com/operation/ForestPDF

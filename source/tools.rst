@@ -1617,8 +1617,8 @@ Launch tool: https://toolbox.nextgis.com/operation/convert
 
 .. _toolbox_forest_pdf:
 
-Convert png to pdf
------------------------------
+Convert forest declaration supplements from png to pdf
+-----------------------------------------------------------
 
 This tool converts single png file, as well as a set of png files, to pdf format. In the latter case all files will be merged into one pdf file. The tool will be helpful mostly for the users of NextGIS Les app. 
 
@@ -1634,3 +1634,28 @@ Output:
 * pdf file with supplements 4
 
 Launch tool: https://toolbox.nextgis.com/operation/ForestPDF
+
+.. _toolbox_forest_declaration:
+
+Forest declaration in xml
+-----------------------------
+
+This tool was developed for users of NextGIS Les app. It generates forest declaration in xml format, taking files, exported from NextGIS Les and toolbox's `"Convert forest declaration supplements from png to pdf" <https://toolbox.nextgis.com/operation/ForestPDF>`_, as a basis.
+
+Each launch of the tool generates only one forest declaration.
+
+
+Input:
+
+*  Supplement 3 to the forest declaration - pdf file.
+*  Digital signature for Supplement 3 - file with .sig extension.
+*  Supplement 4 to the forest declaration - pdf file.
+*  Digital signature for Supplement 4 - file with .sig extension.
+*  Forest declaration - file in JSON format, exported from NextGIS Les app.
+
+Output:
+
+* xml file of forest declaration.
+
+Launch tool: https://toolbox.nextgis.com/operation/ForestDeclaration
+

@@ -1679,4 +1679,5 @@ Output:
 * New vector layer where each photo is represented by point. The same photo is added as an attachment to this point.
 
 Launch tool: https://toolbox.nextgis.com/operation/exif2resource
+
 Result on the web map: https://demo.nextgis.com/resource/5950/display?panel=info

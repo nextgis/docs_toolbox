@@ -1754,7 +1754,7 @@ KML в геоданные
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/import_egrn
 
-Пример исходны данных и результата работы инструмента: 
+Пример исходны данных и результата работы инструмента: https://nextgis.ru/data/toolbox/import_egrn/import_egrn.zip
 
 
 .. _toolbox_forest_pdf:

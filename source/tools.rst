@@ -1821,6 +1821,8 @@ KML в геоданные
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/exif2resource
 
+Пример исходных данных: https://nextgis.ru/data/toolbox/exif2resource/exif2resource.zip
+
 Пример результата работы инструмента на веб-карте: https://demo.nextgis.ru/resource/5929/display?panel=info
 
 

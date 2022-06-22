@@ -1680,4 +1680,6 @@ Output:
 
 Launch tool: https://toolbox.nextgis.com/operation/exif2resource
 
+Download an example of source data: https://nextgis.ru/data/toolbox/exif2resource/exif2resource.zip
+
 Result on the web map: https://demo.nextgis.com/resource/5950/display?panel=info

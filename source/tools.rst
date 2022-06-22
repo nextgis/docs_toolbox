@@ -1683,3 +1683,30 @@ Launch tool: https://toolbox.nextgis.com/operation/exif2resource
 Download an example of source data: https://nextgis.ru/data/toolbox/exif2resource/exif2resource.zip
 
 Result on the web map: https://demo.nextgis.com/resource/5950/display?panel=info
+
+
+
+.. _toolbox_dezhurcad:
+
+Russian cadaster extracts to map
+----------------------------------------------------------
+
+Convert extracts from Russian Cadaster to webmap with one-direction sync. At next runs script detect changes in vector features and update or append new features. Features is no deleted. 
+
+
+Input:
+
+*  Russian Cadaster extract - one xml or zip
+*  Web GIS link, example: https://sandbox.nextgis.com
+*  administrator or other Web GIS user login. User must have writing access
+*  User password
+*  Resource group id for data. User must create group pnly before frist run
+
+Output:
+
+* Layers and web map.
+
+
+
+Launch tool: https://toolbox.nextgis.com/operation/Dezhurcad
+

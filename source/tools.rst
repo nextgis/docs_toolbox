@@ -1685,6 +1685,26 @@ Download an example of source data: https://nextgis.ru/data/toolbox/exif2resourc
 Result on the web map: https://demo.nextgis.com/resource/5950/display?panel=info
 
 
+.. _toolbox_cadnums_to_geodata:
+
+Batch Search by cadastral numbers
+--------------------------------------
+
+The tool creates a set of layers with the boundaries of cadastral objects, receiving as input a text file with a list of their numbers.
+Requires access to `geoservices <https://geoservices.nextgis.com/settings/profile>`_. Auth via на my.nextgis.com (NextGIS ID)
+
+Input:
+
+* API-ключ из https://geoservices.nextgis.com/settings/profile (Settings -> Profile)
+* Текстовый файл (*.txt) с номерами объектов. Одна строка - один кадастровый номер
+
+Output:
+
+* Archive with geodata of cadastral objects
+
+Launch tool: https://toolbox.nextgis.com/operation/cadnums_to_geodata
+Download an example of source data and result: https://nextgis.ru/data/toolbox/exif2resource/cadnums_to_geodata.zip
+
 
 .. _toolbox_dezhurcad:
 

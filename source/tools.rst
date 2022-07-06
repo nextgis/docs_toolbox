@@ -1703,7 +1703,7 @@ Output:
 * Archive with geodata of cadastral objects
 
 Launch tool: https://toolbox.nextgis.com/operation/cadnums_to_geodata
-Download an example of source data and result: https://nextgis.ru/data/toolbox/exif2resource/cadnums_to_geodata.zip
+Download an example of source data and result: https://nextgis.ru/data/toolbox/cadnums_to_geodata/cadnums_to_geodata.zip
 
 
 .. _toolbox_dezhurcad:

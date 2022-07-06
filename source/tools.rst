@@ -1840,8 +1840,12 @@ KML в геоданные
 * API-ключ из https://geoservices.nextgis.com/settings/profile (Settings -> Profile)
 * Текстовый файл (*.txt) с номерами объектов. Одна строка - один кадастровый номер
 
+На выходе:
+
+* Архив с геоданными кадастровых объектов
+
 Запуск инструмента: https://toolbox.nextgis.com/operation/cadnums_to_geodata
-Пример исходных данных и результат: https://nextgis.ru/data/toolbox/exif2resource/cadnums_to_geodata.zip
+Пример исходных данных и результат: https://nextgis.ru/data/toolbox/cadnums_to_geodata/cadnums_to_geodata.zip
 
 
 .. _toolbox_dezhurcad:

@@ -1845,6 +1845,7 @@ KML в геоданные
 * Архив с геоданными кадастровых объектов
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/cadnums_to_geodata
+
 Пример исходных данных и результат: https://nextgis.ru/data/toolbox/cadnums_to_geodata/cadnums_to_geodata.zip
 
 

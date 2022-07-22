@@ -1316,7 +1316,7 @@ Inputs:
 
 *  CSV file - input data in CSV format, first row is for field names. Encoding - UTF-8.
 *  Address field name - name of the table field that contains addresses.
-*  API key - Yandex.Geocoder service API key, get one here: https://developer.tech.yandex.ru/services/. All limitations apply.
+*  API key - Yandex.Geocoder service API key (JavaScript API и HTTP Geocoder), get one here: https://developer.tech.yandex.ru/services/. All limitations apply.
 
 Outputs:
 

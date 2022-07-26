@@ -1739,7 +1739,7 @@ Google sheets to Web GIS
 
 Tool creates and updates point vector layer in NextGIS Web using Google Sheets.
 Table must contain 'lat and 'lon' fields and be accessible via shared link for reading.
-Coordinate reference system - WGS84
+Coordinate reference system - WGS84.
 
 Input:
 

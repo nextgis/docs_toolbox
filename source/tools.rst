@@ -1778,4 +1778,4 @@ Output:
 
 Launch tool: https://toolbox.nextgis.com/operation/polysimplifier
 
-Download an example of source data and result: https://nextgis.ru/data/toolbox/polysimplifier/polysimplifier.zip
+Download an example of source data and result: https://nextgis.com/data/toolbox/polysimplifier/polysimplifier.zip

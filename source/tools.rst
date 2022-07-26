@@ -1769,7 +1769,7 @@ This tool simplifies linear and polygonal geometries. Useful for simplifying adm
 
 Input:
 
-* Linear and polygonal geometries in GeoJSON
+* Linear or polygonal layer in GeoJSON
 * Percentage of simplify - number of vertices to keep. Range 10 to 100. Use 10 for tesing. The **higher** the percentage - the **less** the simplification.
 
 Output:

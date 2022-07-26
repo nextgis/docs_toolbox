@@ -1756,4 +1756,5 @@ Output:
 * Created/updated layer in Web GIS
 
 Google Sheets sample https://docs.google.com/spreadsheets/d/1cKvjCMBZajaortAkdQqVwQ_06LuLm3bHyvybJgmAeQg/edit?usp=sharing
+
 Launch tool: https://toolbox.nextgis.com/operation/Googlesheets2layer

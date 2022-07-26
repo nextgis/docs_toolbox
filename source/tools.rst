@@ -1907,4 +1907,5 @@ KML в геоданные
 * Созданный/обновленный слой в Веб ГИС
 
 Пример таблицы https://docs.google.com/spreadsheets/d/1cKvjCMBZajaortAkdQqVwQ_06LuLm3bHyvybJgmAeQg/edit?usp=sharing
+
 Запуск инструмента: https://toolbox.nextgis.com/operation/Googlesheets2layer

@@ -1890,7 +1890,7 @@ KML в геоданные
 
 Создает и обновляет точечный векторный слой в NextGIS Web на базе таблицы Google Sheets.
 Документ должен содержать поля 'lat' и 'lon' и должен быть доступен для чтения по ссылке.
-Система координат - WGS84
+Система координат - WGS84.
 
 На входе:
 
@@ -1906,5 +1906,5 @@ KML в геоданные
 
 * Созданный/обновленный слой в Веб ГИС
 
-Пример Гугл таблицы https://docs.google.com/spreadsheets/d/1cKvjCMBZajaortAkdQqVwQ_06LuLm3bHyvybJgmAeQg/edit?usp=sharing
+Пример таблицы https://docs.google.com/spreadsheets/d/1cKvjCMBZajaortAkdQqVwQ_06LuLm3bHyvybJgmAeQg/edit?usp=sharing
 Запуск инструмента: https://toolbox.nextgis.com/operation/Googlesheets2layer

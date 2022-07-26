@@ -1758,3 +1758,24 @@ Output:
 Google Sheets sample https://docs.google.com/spreadsheets/d/1cKvjCMBZajaortAkdQqVwQ_06LuLm3bHyvybJgmAeQg/edit?usp=sharing
 
 Launch tool: https://toolbox.nextgis.com/operation/Googlesheets2layer
+
+
+.. _toolbox_polysimplifier:
+
+Polygons topological simplifier
+-------------------------------
+
+This tool simplifies linear and polygonal geometries. Useful for simplifying administrative boundaries, vegetation, and other polygons that touch each other. This tool keeps topology, boundaries between features will not get gaps or overlaps.
+
+Input:
+
+* Linear and polygonal geometries in GeoJSON
+* Percentage of simplify - number of vertices to keep. Range 10 to 100. Use 10 for tesing. The **higher** the percentage - the **less** the simplification.
+
+Output:
+
+* Simplified GeoJSON
+
+Launch tool: https://toolbox.nextgis.com/operation/polysimplifier
+
+Download an example of source data and result: https://nextgis.ru/data/toolbox/polysimplifier/polysimplifier.zip

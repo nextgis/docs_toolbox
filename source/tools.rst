@@ -1064,6 +1064,9 @@ https://demo.nextgis.com/resource/4693/display?panel=layers
    
    Пример результата работы инструмента 
    
+
+.. _toolbox_kmldae2footprints:
+
 Проекция Dae (Collada) в Shapefile
 ----------------------------------
 Инструмент делает проекцию трехмерных объектов на земную плоскость.
@@ -1083,6 +1086,9 @@ https://demo.nextgis.com/resource/4693/display?panel=layers
 Запуск инструмента: https://toolbox.nextgis.com/operation/kmldae2footprints
 
 Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/kmldae2footprints/kmldae2footprints.zip
+
+
+.. _toolbox_join_by_field:
 
 Объединение слоя и таблицы по полю
 ------------------------------------
@@ -1110,6 +1116,9 @@ https://demo.nextgis.com/resource/4693/display?panel=layers
    :width: 16cm
 
 Скачать пример результатов: https://nextgis.ru/data/toolbox/join_by_field/join_by_field.zip
+
+
+.. _toolbox_osmclip_bbox:
 
 Обрезать PBF по прямоугольнику
 ------------------------------------
@@ -1163,8 +1172,12 @@ https://demo.nextgis.com/resource/4693/display?panel=layers
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/geometry_changer
 
+
+.. _toolbox_update_vector_layer:
+
 Обновление слоя Веб ГИС из CSV-файла
 ------------------------------------
+
 Инструмент обновляет содержание точечного слоя Веб ГИС. Обновление возможно в 2 режимах: Добавление и Замена. 
 В режиме добавления инструмент добавляет объекты из загруженного csv-файла к существующим данным слоя в Веб ГИС.
 В режиме замены инструмент удаляет все объекты слоя Веб ГИС, затем добавляет новые объекты из загруженного csv-файла.
@@ -1197,6 +1210,9 @@ https://demo.nextgis.com/resource/4693/display?panel=layers
 * Ошибка Invalid structure of the layer указывает на различие в структурах загруженного csv-файла и слоя Веб ГИС.
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/update_vector_layer
+
+
+.. _toolbox_kptbatch_validator:
 
 Проверить набор КПТ (Кадастровый план территории)
 ------------------------------------
@@ -1644,6 +1660,9 @@ KML в геоданные
 Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/centroid2attr/centroid2attr.zip
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/centroid2attr
+
+
+.. _toolbox_spatial_join:
 
 Пространственное объединение
 ----------------------------

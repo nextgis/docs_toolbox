@@ -990,6 +990,9 @@ Download an example of initial data and calculation results: https://nextgis.ru/
    
    An example of the result of the tool’s usage 
    
+
+.. _toolbox_kmldae2footprints:
+
 Projection (Dae, Collada) to Shapefile
 --------------------------------------
 
@@ -1010,6 +1013,9 @@ You can submit several models, each of them gets a separate polygon.
 Launch tool: https://toolbox.nextgis.com/operation/kmldae2footprints
 
 Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/kmldae2footprints/kmldae2footprints.zip
+
+
+.. _toolbox_join_by_field:
 
 Join layer and table by field
 -----------------------------
@@ -1039,6 +1045,9 @@ Usage example:
 
 Download sample results: https://nextgis.ru/data/toolbox/join_by_field/join_by_field.zip
 
+
+.. _toolbox_osmclip_bbox:
+
 Clip PBF file by bbox
 ---------------------
 
@@ -1054,6 +1063,9 @@ Outputs:
 *  Bounding Box cropped pbf file
 
 Launch tool: https://toolbox.nextgis.com/operation/osmclip_bbox
+
+
+.. _toolbox_geometry_changer:
 
 Change geometry for a group of layers
 ------------------------------------
@@ -1086,6 +1098,9 @@ Outputs:
    :width: 16cm
 
    Launch tool: https://toolbox.nextgis.com/operation/geometry_changer
+
+
+.. _toolbox_update_vector_layer:
 
 Update a Web GIS layer from a CSV
 ---------------------------------
@@ -1122,6 +1137,9 @@ Troubleshooting
 * Invalid structure of the layer - data structures of CSV and target layer mismatch.
 
 Launch tool: https://toolbox.nextgis.com/operation/update_vector_layer
+
+
+.. _toolbox_explication2poly:
 
 Explication to a polygon
 ------------------------
@@ -1173,7 +1191,8 @@ Launch tool: https://toolbox.nextgis.com/operation/intersect_layers
 
 Download an example of source data and result :download:`here <files/intersect_layer_example.zip>`.
    
- .. _toolbox_raster2tiles:
+
+.. _toolbox_raster2tiles:
  
 Generate tileset from raster
 ---------------------------------------------------
@@ -1351,6 +1370,10 @@ Launch tool: https://toolbox.nextgis.com/operation/forestplots_field
 
    An example of result uploded to Garmin. 
 
+
+
+.. _toolbox_clip_polys_poly:
+
 Calculate area inside boundary
 -------------------------------------------
    
@@ -1390,7 +1413,7 @@ Launch tool: https://toolbox.nextgis.com/operation/clip_polys_poly
 
 Download an example of source data and result: https://nextgis.ru/data/toolbox/clip_polys_poly/clip_polys_poly.zip
 
-.. _toolbox_explication2poly:
+.. _toolbox_explication2poly2:
 
 Explication to a polygon.
 ------------------------------------
@@ -1507,6 +1530,8 @@ Download an example of source data and result: https://nextgis.ru/data/toolbox/c
 
 Launch tool: https://toolbox.nextgis.com/operation/centroid2attr
 
+
+.. _toolbox_spatial_join:
 
 Spatial Join (Join by location)
 -----------------------------------------

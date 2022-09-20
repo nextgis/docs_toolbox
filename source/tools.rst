@@ -6,6 +6,394 @@
 Tools
 =====
 
+.. _toolbox_launch_conditions:
+
+.. _toolbox_split_to_equal:
+
+Split into equal parts
+-----------------------
+
+Split polygon layer into equal parts.
+
+Inputs:
+
+* Source shapefile. Zipped polygonal shapefile for splitting.
+* Density shapefile. Layer for density accounting  when splitting in zipped shapefile format.
+* Number of parts. The number of parts into which to split source shapefile.
+
+Outputs:
+
+* Polygons with approximately equal area.
+
+Launch tool: https://toolbox.nextgis.com/operation/split_to_equal
+
+View the results of calculations on an interactive map: https://demo.nextgis.com/resource/4552/display?panel=layers 
+
+
+.. _toolbox_split_to_rect:
+
+Split into rectangles and calculate
+------------------
+
+Split polygon layer into equal rectangular parts and calculate number of rectangles 
+
+Launch tool: https://toolbox.nextgis.com/operation/split_to_rect
+
+
+.. _toolbox_raster2tiles:
+ 
+Generate tileset from raster
+---------------------------------------------------
+   
+Service generates raster tiles (NGM format) from input gdal-supported raster.
+
+Inputs:
+
+*  Palette file - TXT file  with color scheme of each raster values  located in a separate line. Order: Value Red Green Blue Opacity. For example, for a value of 23, assigning a completely opaque lilac color looks like this: 23 200 162 200 255. Opacity ranges from 0 to 255, 0 - completely transparent, 255 - completely opaque.  Use an empty text file to keep the original palette (for single-band with palette) and for RGB / RGBA rasters.
+*  Raster dataset - RGB, RGBA, single-band gray or single-band with palette GDAL-compatible raster
+*  Tiles name - the name that will be used for the file name and for the layer in NGM
+*  Zoom levels - the levels at which the tiles will be displayed. This refers to `standard zoom levels <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_, for example, as for OSM maps. Possible input values: a number indicating one level, for example, 10; a range of levels, for example, 8-14; hyphen - for auto-selection of levels
+
+Outputs:
+
+*  NGRC file with tileset
+
+.. figure:: _static/raster2tiles_input.png
+   :align: center
+   :width: 16cm
+   
+   Inputs example
+   
+.. figure:: _static/raster2tiles_output.png
+   :align: center
+   :width: 8cm
+   
+   Result example - NGRC file added to NextGIS Mobile
+
+Launch tool: https://toolbox.nextgis.com/operation/raster2tiles
+
+Download an example of source data and result :download:`here <files/raster2tiles_examples.zip>`.  
+
+
+.. _toolbox_fsc_compare:
+ 
+Comparison between leased land boundaries and FSC data
+-------------------------------------------
+   
+Tool is designed for tenants of forest areas, holding FSC certificate. The boundaries, downloaded by the tenants, are treated as reference and compared with FSC data. The outcome is two vector layers: with an area, attributed by FSC to the target tenant by mistake, and, oppositely, with an area not counted by FSC. Result files can be sent to FSC as a reason to correct information about leased land boundaries.
+
+Input:
+
+*  Vector layer (ZIP archive with ESRI Shapefile) with polygon or polygons determining land boundary.
+
+Output:
+
+* Two ZIP archives with vector layers: with an area, attributed by FSC to the target tenant by mistake, and, oppositely, with an area not counted by FSC. If no contradiction is found, vector layer will be linear, not polygonal. 
+
+Launch tool: https://toolbox.nextgis.com/operation/fsc_compare
+
+.. figure:: _static/ fsc_compare.png
+   :align: center
+   :width: 16cm
+   
+   Example of the result. In FSC data several sectors falsely attributed to the target tenant.
+
+
+.. _toolbox_split_alarm:
+
+Export ALARM data for KEDR system
+-----------------------
+
+Postprocessing of ALARM data to conform KEDR requirements. Setup propriate data format and BBoxes. 
+
+Launch tool: https://toolbox.nextgis.com/operation/split
+
+
+.. _toolbox_update_attrs:
+
+Updating layer attributes
+--------------
+
+Update attributes of shapefile(s) from attributes of another file(s)
+
+Launch tool:  https://toolbox.nextgis.com/operation/update_attrs
+
+
+.. _toolbox_forestplots_field:
+
+Create forestplots scheme for Garmin
+------------------------------------
+
+The tool generates forest field plots in KMZ format ready to upload to Garmin devices. Areas located closer than 10 m from the plot border are discarded. A buffer zone is added around the plot at a distance of 50 m.
+
+Inputs:
+
+*  Input polygon dataset. Supported formats are zipped shapefile, Mapinfo TAB or OGR-compatible file. Must contain only one feature without rings.
+*  Step between points. Distance between plots in meters. Default 55 meters.
+
+Outputs:
+
+* KMZ file with forest field plots ready to upload to Garmin devices.
+* Separate JPG file with forest plots scheme.
+
+Download an example of source data and result: https://nextgis.ru/data/toolbox/forestplots_field/forestplots_field.zip
+
+Launch tool: https://toolbox.nextgis.com/operation/forestplots_field
+
+.. figure:: _static/forest-circular-plots.jpg
+   :align: center
+   :width: 16cm
+
+   An example of result uploded to Garmin. 
+
+
+.. _toolbox_eraser:
+
+Erase from target
+-----------------
+
+A tool that allows you to erase areas from the target layer. Areas to be erased are taken from another layer.
+
+Inputs:
+
+* Vector layer from which some areas are needed to be erased
+
+ZIP archive with ESRI Shapefile or an other file format supported by OGR.
+
+* Vector layer containing features representing areas needed to be erased from the target layer
+
+ZIP archive with ESRI Shapefile or other file format supported by OGR.
+
+The result of the tool’s usage is a new vector layer.
+
+The initial vector layers must have the same coordinate system.
+
+Launch tool: https://toolbox.nextgis.com/operation/eraser
+
+Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/eraser/eraser.zip
+
+View the source data and the results of calculations on an interactive map: https://demo.nextgis.com/resource/4611/display?panel=info
+
+
+.. figure:: _static/eraser.png
+   :align: center
+   :width: 16cm
+
+   An example of the result of the tool’s usage
+
+
+.. _toolbox_travel_access:
+
+Movement accessibility
+------------
+
+Evaluation of movement accessibility for arbitrary trajectory (the travel is not limited to the graph of roads). 
+
+Launch tool: https://toolbox.nextgis.com/operation/TravelAccess
+
+
+.. _toolbox_irbis:
+
+Irbis - summaries
+-----------------
+
+Provide reports based on collected field data on irbis monitoring.
+
+Launch tool:  https://toolbox.nextgis.com/operation/irbis
+
+
+.. _toolbox_ngw_intersect:
+
+Intersector
+-----------
+
+The tool intersects all layers of the nextgis.com web map using the specified geometry and generates a report listing the layers, with which the intersection took place. If different features intersect in a separate layer, these cases are displayed as separate events in the report.
+
+Inputs:
+
+*  url - address of the used Web GIS
+*  webmap_id - web map ID from used Web GIS
+*  wkt - geometry with which the intersection of layers of the web map is checked. Indicated in wkt format, coordinate system - EPSG: 3857
+
+Outputs:
+
+*  .xlsx table with a list of intersected layers
+
+Launch tool: https://toolbox.nextgis.com/operation/ngw-intersect
+
+Usage example:
+
+How many types of anemones can you find on the Appalachian Trail?
+
+*  url - https://demo.nextgis.com
+*  webmap_id - 4714 (since the web map address is https://demo.nextgis.com/resource/4714/display)
+*  wkt - LineString (-9378421.57282677479088306 4115819.42546373652294278, -7678593.31173497438430786 5764332.11640937067568302)	
+ 
+.. figure:: _static/ngw_intersect_layers.png
+   :align: center
+   :width: 16cm
+   
+   Initial Data Example
+   
+.. figure:: _static/ngw_intersect_result.png
+   :align: center
+   :width: 16cm
+   
+   An example of the result of the tool’s usage 
+
+
+.. _toolbox_clip_polys_poly:
+
+Intersection areas inside/outside boundary
+-------------------------------------------
+   
+Calculates area of polygons and area of polygons inside boundary. Areas calculated in hectares (ha)
+Module was created for registration of wildfires in natural protected area. Internal calculations use local UTM zones, so calculations will accurate for any places on Earth.
+
+Inputs:
+
+*  nextgisweb url, login and password
+*  nextgisweb layer id of boundary polygonal layer. Layer should have 1 feature, with polygon or multipolygon geometry
+*  nextgisweb layer id of feature polygonal layer. Layer should have 2 fields for area calculations results.
+
+Outputs:
+
+*  Areas values will write into fields of layers in nextgisweb
+
+
+.. figure:: _static/clip_polys_poly1.png
+   :align: center
+   :width: 16cm
+   
+   Example of source data
+   
+.. figure:: _static/clip_polys_poly2.png
+   :align: center
+   :width: 16cm
+   
+   Example of results
+   
+.. figure:: _static/clip_polys_poly.png
+   :align: center
+   :width: 16cm
+   
+   Example of results and custom styling
+
+Launch tool: https://toolbox.nextgis.com/operation/clip_polys_poly
+
+Download an example of source data and result: https://nextgis.ru/data/toolbox/clip_polys_poly/clip_polys_poly.zip
+
+
+.. _toolbox_lesis2sqlite:
+
+Lesis (TopoL) to SQLite
+-----------------------
+
+Conversion of the Lesis database (TopoL-L GIS) to SQLite format to open in NextGIS QGIS.
+
+Launch tool: https://toolbox.nextgis.com/operation/lesis2sqlite
+
+Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/lesis2sqlite/lesis.zip
+
+
+.. _toolbox_vectorclip:
+
+Polygon intersection
+-----------------
+
+Clips one polygonal layer with another.
+
+Launch tool: https://toolbox.nextgis.com/operation/vectorclip
+
+
+.. _toolbox_landsat_to_radiance:
+
+Landsat radiometric calibration
+-------------------------------
+   
+The tool converts the Landsat raw data into radiation intensity (ToA Radiance).
+
+Inputs:
+
+* Landsat band initial File
+
+Processing level L1 file from the original Landsat data archive. The name can be anything. Data can be pre-trimmed, etc.
+
+* Band number
+
+The band number corresponding to the downloaded file. Usually a number, for ETM + it can also be 6_VCID_1 and 6_VCID_2
+
+* Landsat Metadata File
+
+Text file from the original Landsat data archive. Depending on the data type, it is a * MTL.txt or * .MTL file.
+
+Outputs:
+
+* The radiation intensity of the corresponding band in the GeoTIFF format
+
+Radiometric calibration is necessary for time series analysis, calculation of derivative products (for example, index images).
+
+Supported data:
+
+* Landsat 8 (OLI, TIRS)
+
+* Landsat 7 (ETM+)
+
+* Landsat 5 (TM)
+
+* Landsat 4 (TM)
+
+Launch tool: https://toolbox.nextgis.com/operation/landsat_to_radiance
+
+Download an example of source data and calculation results: https://nextgis.ru/data/toolbox/landsat_to_radiance/landsat_to_radiance.zip
+
+
+
+.. _toolbox_ndi:
+
+Normalized difference index
+---------------------------
+   
+The tool calculates the normalized difference index for any two input images.
+
+Inputs:
+
+* First component of the difference index
+
+Any GDAL-compatible raster
+
+* Second component of the difference index
+
+Any GDAL-compatible raster
+
+Outputs:
+
+* A raster with normalized difference index in GeoTiff format
+
+The calculation is carried out according to the formula: (First image - Second image) / (First image + Second image). The pixel values of the resulting raster are in the range from -1 to 1
+Before the calculation, both images are brought into a single spatial domain. The projection and spatial resolution of the first raster is used.
+
+Examples of common normalized difference indices:
+
+* NDVI - for vegetation assessment (the first raster - NIR, the second - RED) For Landsat 8 data: 5 and 4 bands.
+* NDWI - for the detection of water bodies (the first raster - NIR, the second - SWIR). For Landsat 8 data: 5 and 6 bands.
+* NDSI - for assessing the snow cover (the first raster - GREEN, the second - SWIR). For Landsat 8 data: 3 and 6 bands.
+
+Launch tool: https://toolbox.nextgis.com/operation/ndi
+
+Download an example of source data and calculation results: https://nextgis.ru/data/toolbox/ndi/ndi.zip
+
+
+.. _toolbox_coord_recalc:
+
+Recalculate coordinates
+-------
+
+Recalculates a set to the chosen spacial reference system. 
+
+Launch tool: https://toolbox.nextgis.com/operation/coord_recalc
+
+
 .. _toolbox_quadro:
 
 Set of squares generator
@@ -47,162 +435,229 @@ View the results on an interactive map: https://demo.nextgis.com/resource/4582/d
 An example of the results
 
 
-.. _toolbox_generalization:
 
-Generalization of vector data
------------------------------
+.. _toolbox_prepare_raster:
 
-Simplification of vector layer features to reduce data volume.
-
-Inputs:
-
-* A vector layer in ESRI Shape format, compressed(zip)
-* import_snap - 
-* iterations - 
-* method - метод упрощения, один из: 'douglas', 'douglas_reduction', 'lang', 'reduction', 'reumann', 'boyle', 'sliding_averaging', 'distance_weighting', 'chaiken', 'hermite', 'snakes', 'displacement'.
-* threshold - порог упрощения (вводится в метрах)
-* look_ahead - 
-* reduction - 
-* slide - 
-* angle_thresh - 
-* alpha - 
-* beta - 
-
-The result of the process is a layer with simplified features (geometries).
-
-Launch tool: https://toolbox.nextgis.com/operation/generalization
-
-Download an example of source data and result: https://demo.nextgis.com/api/resource/4548/export?zipped=true&format=shp
-
-View the result on an interactive map: https://demo.nextgis.com/resource/4108/display?panel=info
-
-More on startup options: https://grasswiki.osgeo.org/wiki/V.generalize_tutorial
-
-.. _toolbox_dem:
-
-DEM data package
-----------------
-  
-Generates elevation package.
-
-Inputs:
-
-* Elevation step. Integer value.
-* Database. Choice from: ALOS, GMTED, GEBCO.
-* Cropping boundary. Upload a compressed (zip) or uncompressed GeoJSON file (EPSG: 4326).
-
-The result of the process is a set of layers:
-
-* Elevation contours (isolines) with a given step
-* Digital elevation model (30 m resolution, if the area is below 60 ° N, 250 m if above)
-* Hillshading (same resolution as DEM)
-
-Launch tool: https://toolbox.nextgis.com/operation/dem
-
-Download sample results: https://demo.nextgis.com/api/resource/4548/export?zipped=true&format=shp
-
-View the results on an interactive map: https://demo.nextgis.com/resource/4108/display?panel=info
-
-.. figure:: _static/isolines_sample.png
-   :align: center
-   :width: 16cm
+Prepare raster
+--------------
    
-   Example of the output
+A tool that performs a per-band connection of a set of single-band rasters and crops the result using a vector mask.
 
-.. _toolbox_launch_conditions:
+Input:
 
+* Initial raster data
 
-.. _toolbox_split_to_equal:
+The initial raster data can be presented in two forms:
 
-Split into equal parts
------------------------
- Split polygon layer into equal parts.
+1. Multi-band raster in GDAL-compatible format
 
-Inputs:
+2. ZIP archive with a set of single-baned GDAL-compatible rasters
 
-* Source shapefile. Zipped polygonal shapefile for splitting.
-* Density shapefile. Layer for density accounting  when splitting in zipped shapefile format.
-* Number of parts. The number of parts into which to split source shapefile.
+* Vector layer, which is used as mask
 
-Outputs:
+ZIP archive with ESRI Shapefile or a other file format supported by OGR.
 
-* Polygons with approximately equal area.
+* “No data” value
 
-Launch tool: https://toolbox.nextgis.com/operation/split_to_equal
+The value that is marked as “No data”. Use the - symbol to use the default value.
 
-View the results of calculations on an interactive map: https://demo.nextgis.com/resource/4552/display?panel=layers 
+* The name of the resulting raster
 
+No file extension (e.g. ndvi, water). The extension will be automatically installed in .tif
 
-.. _toolbox_demInPoints:
+If the input is an archive with single-band rasters, the tool first combines them into a multi-band raster. The order of the bands is determined by alphabetically sorting the names of the initial rasters in the archive. 
+Then the multi-band raster (assembled from the archive or submitted immediately) is cropped with a vector mask.
 
-Extract elevations from DEM
----------------------------
+The initial rasters and the vector mask can be in different coordinate systems before processing, all data is brought into a single spatial domain.
 
-The extraction of elevations from DEM. Returns CSV with coordinates and altitude.
+Launch tool: https://toolbox.nextgis.com/operation/prepare_raster
 
-Inputs:
+Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/prepare_raster/prepare_raster.zip
 
-*  zip-compressed CSV - CSV table with coordinates of points. Delimiter should be comma. Corrdinates are floating values. Fieldnames should not have spaces.
-*  Latitude - fieldname for Latitude column. Case-sensitive.
-*  Longitude - fieldname for Lonitude column. Case-sensitive.
-*  Elevation dataset - choose from: gmted, gebco, alos. GMTED2010 resolution- 7.5 sec (about 250 meters), GEBCO resolution - 15 sec (about 500 meters), ALOS World 3D - 30 meters. 
+View the source data and calculation results on the interactive map: https://demo.nextgis.com/resource/4595/display?panel=info
 
-Outputs:
-
-*  zip-compressed CSV-file with coordinates and elevation values for given points.
-
-
-Launch tool: https://toolbox.nextgis.com/operation/demInPoints
-
-Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/deminpoints/deminpoints.zip
-
-
-
-.. _toolbox_lesis2sqlite:
-
-Lesis (TopoL) to SQLite
------------------------
-
-Conversion of the Lesis database (TopoL-L GIS) to SQLite format to open in NextGIS QGIS.
-
-Launch tool: https://toolbox.nextgis.com/operation/lesis2sqlite
-
-Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/lesis2sqlite/lesis.zip
-
-
-.. _toolbox_eraser:
-
-Erase from target
------------------
-
-A tool that allows you to erase areas from the target layer. Areas to be erased are taken from another layer.
-
-Inputs:
-
-* Vector layer from which some areas are needed to be erased
-
-ZIP archive with ESRI Shapefile or an other file format supported by OGR.
-
-* Vector layer containing features representing areas needed to be erased from the target layer
-
-ZIP archive with ESRI Shapefile or other file format supported by OGR.
-
-The result of the tool’s usage is a new vector layer.
-
-The initial vector layers must have the same coordinate system.
-
-Launch tool: https://toolbox.nextgis.com/operation/eraser
-
-Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/eraser/eraser.zip
-
-View the source data and the results of calculations on an interactive map: https://demo.nextgis.com/resource/4611/display?panel=info
-
-
-.. figure:: _static/eraser.png
+.. figure:: _static/prepare_raster.png
    :align: center
    :width: 16cm
 
    An example of the result of the tool’s usage
+
+
+.. _toolbox_ogrmerge:
+ 
+Merge vector layers
+-------------------
+   
+.. figure:: _static/ogrmerge.png
+   :align: center
+   :width: 16cm
+
+   Initial and resulting data
+   
+The tool merges many vector layers into one.
+
+Inputs:
+
+* ZIP archive with .shp, .geojson, .gpkg, .tab files
+
+Outputs:
+
+* GeoPackage file with the result of the merge
+
+The tool has no limit on the number of initial layers. The name of the source layer is not saved.
+
+Launch tool: https://toolbox.nextgis.com/operation/ogrmerge
+
+Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/ogrmerge/ogrmerge.zip
+
+
+.. _toolbox_join_by_field:
+
+Join layer and table by field
+-----------------------------
+
+The tool combines data from a table and a layer using a given field. The tool involves the use of two different join types: one-to-one - finds the first matching element of the table and attaches its attributes; one-to-many - connects all elements of the table for which the given field matches, the geometry of the feature is duplicated for each element.
+
+Inputs:
+
+* gis_url - address of the used Web GIS
+* resource_id - layer ID to combine from the currently used Web GIS
+* src - table name
+* layer_field - the name of the field in the Web GIS layer
+* csv_field - field name in the table
+* join_type - type of join (1 - one-to-one, 0 - one-to-many)
+
+Outputs:
+
+*  layer in ESRI Shapefile format, which is in an archive (zip)
+
+Launch tool: https://toolbox.nextgis.com/operation/join_by_field
+
+Usage example:
+
+.. figure:: _static/join_by_field.png
+   :align: center
+   :width: 16cm
+
+Download sample results: https://nextgis.ru/data/toolbox/join_by_field/join_by_field.zip
+
+
+.. _toolbox_intersect_layers:
+
+Intersect layers
+----------------
+
+The tool intersects a polygonal layer with another vector layer (any type of geometry) and outputs the result as a set of CSV files.
+
+Inputs:
+
+*  Field name for CSV file. The name of the attribute column in the polygonal layer for resulting CSV files. If this field is blank, CSV file names will be generated automatically.
+*  Polygonal shapefile. Polygonal layer in the ESRI Shapefile format (ZIP-archive), for the objects of which the fact of intersection (or non-intersection) with objects from another layer is defined.
+*  Shapefile with intersecting layer. The vector layer with any geometries in the ESRI Shapefile format (ZIP-archive), containing objects intersecting with objects from the polygonal layer. The layer must be in the same coordinate system as the polygon layer.
+
+Outputs:
+
+*  Zipped CSV files, each of which describes one of the objects of the polygonal layer. If an object from a polygon layer has an intersection with an object from another layer, the CSV file will contain the coordinates of the center and the WKT description of the polygon.
+
+Launch tool: https://toolbox.nextgis.com/operation/intersect_layers
+
+Download an example of source data and result :download:`here <files/intersect_layer_example.zip>`.
+
+
+.. _toolbox_grid:
+ 
+Meter grid
+----------
+   
+.. figure:: _static/grids-demo.png
+   :align: center
+   :width: 16cm
+
+   Generated grid
+   
+The tool generates a grid within the boundaries of features of a vector layer. The grid size is set in meters. Features can be anywhere in the world.
+
+Inputs:
+
+*  A multipolygon layer with one or more features. It should be GeoPackage
+*  Grid step in meters
+*  Mode: points (points), rect (squares)
+*  Algorithm for cropping the grid along the borders: all (leave all the squares in extent), touches (leave all the squares touching features), intersection (crop the squares along the borders of the features)
+
+.. figure:: _static/grid-1000-rect-all.png
+   :align: center
+   :width: 16cm
+
+   all
+   
+   
+.. figure:: _static/grid-1000-rect-touches.png
+   :align: center
+   :width: 16cm
+
+   touches
+   
+   
+.. figure:: _static/grid-1000-rect-intersection.png
+   :align: center
+   :width: 16cm
+
+   intersection
+   
+   
+.. figure:: _static/grid-1000-point-all.png
+   :align: center
+   :width: 16cm
+
+   all для точек
+   
+   
+.. figure:: _static/grid-1000-point-intersection.png
+   :align: center
+   :width: 16cm
+
+   touches и intersection для точек
+
+   
+.. figure:: _static/grid-planet.png
+   :align: center
+   :width: 16cm
+
+   Generated grids for several polygons in different places of the globe
+   
+
+*  output geodata format - GeoJSON, ESRI Shape, Mapinfo TAB
+
+Outputs:
+
+* Geopackage
+
+
+Launch tool: https://toolbox.nextgis.com/operation/grid
+
+
+.. _toolbox_kmldae2footprints:
+
+Projection (Dae, Collada) to Shapefile
+--------------------------------------
+
+The tool makes a projection of three-dimensional features on the earth's surface.
+
+Inputs:
+
+* Zip archive containing * .kmz and * .dae files
+* *.kmz must contain the geolocation of * .dae models (coordinates of polygons in EPSG: 4326, units of measurement are metric)
+
+Outputs:
+
+*  A zip archive with Shapefile
+*  In the resulting Shapefile for each model, the attributes “name” and “altitude” are added
+
+You can submit several models, each of them gets a separate polygon.
+
+Launch tool: https://toolbox.nextgis.com/operation/kmldae2footprints
+
+Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/kmldae2footprints/kmldae2footprints.zip
 
 
 .. _toolbox_change_attributes:
@@ -254,6 +709,374 @@ Example of initial data:
 * Target valuе = 1112
 * Start Year = 1244
 * End Year = 1300
+
+
+.. _tropomi2geotiff:
+ 
+TROPOMI to GeoTIFF
+------------------
+   
+The tool converts TROPOMI nitrogen dioxide data to GeoTIFF format.
+
+Inputs:
+
+*  TROPOMI data file in NetCDF format obtained from https://s5phub.copernicus.eu/dhus/#/home. Product type: L2__NO2__, Timeliness: Offline. Example of a file’s name: S5P_OFFL_L2__NO2____20190901T091635_20190901T105804_09761_01_010302_20190907T113505.nc
+
+
+Outputs:
+
+*  GeoTIFF output image
+
+Launch tool: https://toolbox.nextgis.com/operation/tropomi2geotiff
+
+Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/tropomi2geotiff/tropomi2geotiff.zip
+
+View an example result on an interactive map: https://demo.nextgis.com/resource/4698/display?panel=layers
+
+.. figure:: _static/tropomi2geotiff.png
+   :align: center
+   :width: 16cm
+   
+The source scenes are supposed to be hosted on scihub.copernicus (https://scihub.copernicus.eu) in the future, but temporarily they are hosted on a copy of the Sentinel-5P Pre-Operations Hub web interface: https://s5phub.copernicus.eu/dhus/#/ home. Logins from scihub do not work, you need to use s5pguest / s5pguest. 
+
+
+.. _toolbox_ai2geo:
+
+Adobe Illustrator (*.ai) to geodata
+-----------------------------------
+
+The tool extracts vector data layers from an Adobe Illustrator (* .ai) file using an additional file in GeoTIFF format for georeference.
+
+Inputs:
+
+* An Adobe Illustrator file (with the .ai extension) that contains vector features 
+* A GeoTIFF file (.geotiff or .tif extension) of PNG+PGW pair, on the basis of which the georeferencing of the extracted vector features will be performed. The same rasters should be used as a basemap in *.ai itself.
+
+The tool works in the following way: geometries are extracted from the .ai file. For each geometry, its type (point, line or polygon) is determined, as well as the style with which it is drawn (line thickness, line color, fill color). Layers are created (according to the types of geometries) in which each feature will contain the resulting geometry and a style string in the “STYLE” field. In this case, the coordinates of the geometries are converted from local coordinates to spatial coordinates, based on the transmitted GeoTIFF file, which must contain the correct geospatial reference (it is implied, that the vector features in the .ai file were drawn “on top” of a similar image in Adobe Illustrator).
+
+The result of the process is a ZIP archive containing a set of files in the ESRI Shapefile format according to the created layers.
+
+Launch tool: https://toolbox.nextgis.com/operation/ai2geo
+
+.. figure:: _static/ai2geo_before.png
+   :align: center
+   :width: 32cm
+   
+   Source vector data in .ai file
+
+.. figure:: _static/ai2geo_after.png
+   :align: center
+   :width: 32cm
+   
+   The result of the tool’s usage: the resulting layers are loaded into QGIS and displayed on the background of the OSM basemap
+
+
+.. _mt2report:
+ 
+Create marine traffic report
+----------------------------
+
+This tool generates a table (format - CSV), which lists the ships entering given territory, the date and coordinates of their last location, as well as the number of times each ship entered a given territory for a certain period of time. It makes sense to use this tool, if you have already configured a service that updates data on ship locations in your Web GIS.
+
+Inputs:
+
+* name - Web GIS Name
+* layer_id_border - zone resource ID
+* layer_id_ships - ship data resource ID
+* date - Start date
+
+Calculation algorithm: Uploading layers of the boundary of the analysis zone and ship locations. Checking each location for intersection with the analysis zone; locations registered later than the specified starting date are also selected. Among the selected locations for each ship the last location and its coordinates, as well as the total number of locations are obtained. The information obtained for each ship is recorded in a table. 
+
+The result of the process is a table in CSV format with information about all ships registered on a given territory later than the specified date, information about the last registered location and the number of registered locations within a given territory for a certain period of time.
+
+Launch tool: https://toolbox.nextgis.com/operation/mt2report
+
+View an example of initial data on an interactive map: https://demo.nextgis.com/resource/4693/display?panel=layers
+
+.. figure:: _static/mt2report_map.png
+   :align: center
+   :width: 16cm
+   
+   Initial Data Example
+   
+.. figure:: _static/mt2report_table.png
+   :align: center
+   :width: 16cm
+   
+   An example of the result of the tool’s usage 
+
+
+
+.. _toolbox_explication2poly:
+
+Explication to a polygon
+------------------------
+
+The tool converts an explication report in correct format to a polygon. Explication report has to be an MS Excel file that contains data about direcions and distances between points. Directions should be presented in degrees and corresponds to magnetic azimuth.
+
+.. figure:: _static/poly2explication-1.png
+   :align: center
+   :width: 16cm
+   
+   Example of a source xlx(x) file
+
+Inputs:
+
+* XLS(X) file - MS Excel file containing the explicaton report;
+* Latitude of an anchor point. This value is specified in the coordinate system EPSG 4326. Use dot as a separator between the integer part and the fractional part;
+* Longitude of an anchor point. This value is specified in the coordinate system EPSG 4326. Use dot as a separator between the integer part and the fractional part.
+
+.. note::
+    Due to inaccuracies in measuring angles and distances on the ground, the first point of the output polygon may be farther from the last one than on the ground. As a rule, the difference does not exceed 2-3 meters. 
+
+Outputs:
+
+*  Zipped polygonal shapefile
+
+   Launch tool: https://toolbox.nextgis.com/operation/explication2poly
+   
+   Download an example of source data and result: https://nextgis.ru/data/toolbox/explication2poly/explication2poly.zip
+
+
+
+.. _toolbox_centroid2attr:
+
+Coordinates of center to attribute
+----------------------------------
+   
+Calculate center point of polygons (PointOnSurface), add fields point_X, point_Y with coordinates of point guaranteed to intersect a polygon.
+
+Inputs:
+
+* Polygon layer
+
+Outputs:
+
+* ZIP with polygonal Shapefile with two fielda added: point_X, point_Y 
+* QML style file
+
+.. figure:: _static/point_on_surface.png
+   :align: center
+   :width: 16cm
+   
+   
+.. figure:: _static/point_on_surface_attributes.png
+   :align: center
+   :width: 16cm
+   
+Download an example of source data and result: https://nextgis.ru/data/toolbox/centroid2attr/centroid2attr.zip
+
+Launch tool: https://toolbox.nextgis.com/operation/centroid2attr
+
+
+.. _toolbox_generalization:
+
+Generalization of vector data
+-----------------------------
+
+Simplification of vector layer features to reduce data volume.
+
+Inputs:
+
+* A vector layer in ESRI Shape format, compressed(zip)
+* import_snap - 
+* iterations - 
+* method - метод упрощения, один из: 'douglas', 'douglas_reduction', 'lang', 'reduction', 'reumann', 'boyle', 'sliding_averaging', 'distance_weighting', 'chaiken', 'hermite', 'snakes', 'displacement'.
+* threshold - порог упрощения (вводится в метрах)
+* look_ahead - 
+* reduction - 
+* slide - 
+* angle_thresh - 
+* alpha - 
+* beta - 
+
+The result of the process is a layer with simplified features (geometries).
+
+Launch tool: https://toolbox.nextgis.com/operation/generalization
+
+Download an example of source data and result: https://demo.nextgis.com/api/resource/4548/export?zipped=true&format=shp
+
+View the result on an interactive map: https://demo.nextgis.com/resource/4108/display?panel=info
+
+More on startup options: https://grasswiki.osgeo.org/wiki/V.generalize_tutorial
+
+
+
+.. _toolbox_spatial_join:
+
+Spatial Join (Join by location)
+-----------------------------------------
+   
+Insert into layer 1 attribute from intersects feature in layer 2
+
+Inputs:
+
+* Vector layer 1
+* Polygon layer 2
+* Name of attibute in layer 2
+
+Outputs:
+
+* ZIP with Shapefile layer 1 with added attribute 
+* QML style file
+
+.. figure:: _static/spatial_join.png
+   :align: center
+   :width: 16cm
+   
+   Example of source data: cities and regions
+   
+.. figure:: _static/spatial_join_result.png
+   :align: center
+   :width: 16cm
+   
+   Example output: cities with added region name
+   
+Download an example of source data and result: https://nextgis.ru/data/toolbox/spatial_join/spatial_join.zip
+
+Launch tool: https://toolbox.nextgis.com/operation/spatial_join
+
+
+
+.. _toolbox_landsat_to_reflectance:
+
+Landsat reflectance calculation
+-------------------------------
+   
+The tool recalculates the ToA Radiance of Landsat data into reflectivity with the possibility of applying atmospheric corrections, using the DOS method.
+
+Inputs:
+
+* The file with the radiation intensity of one of the Landsat bands
+
+The result of radiometric calibrations of the Landsat source data, for example, using the tool https://toolbox.nextgis.com/operation/landsat_to_radiance
+
+* Band number
+
+The band number corresponding to the downloaded file. Usually a number, for ETM + it can also be 6_VCID_1 and 6_VCID_2
+
+* Landsat Metadata File
+
+Text file from the original Landsat data archive. Depending on the data type, it is a * MTL.txt or * .MTL file
+
+* Processing Result Type
+
+0 for calculating the default albedo, 1 for applying atmospheric corrections using the DOS method
+
+Outputs:
+
+* Spectral albedo of the corresponding band in GeoTIFF format
+
+Spectral albedo is the main type of information that should be used in the analysis of remote sensing data. It is best suited for time series analysis. The ability to apply atmospheric corrections also improves data quality.
+
+Supported data:
+
+* Landsat 8 (OLI, TIRS)
+
+* Landsat 7 (ETM+)
+
+* Landsat 5 (TM)
+
+* Landsat 4 (TM)
+
+Launch tool: https://toolbox.nextgis.com/operation/landsat_to_reflectance
+
+Download an example of source data and calculation results: https://nextgis.ru/data/toolbox/landsat_to_reflectance/landsat_to_reflectance.zip
+
+
+
+.. _toolbox_kptbatch_validator:
+
+Check KPT (Cadastral register) batches 
+------------------------------------
+This tool validates cadastral register batches, sorts them and provides reports on files. Sorting helps to discern duplicates, declines and confirmations. If you select "Renaming", every file will have the cadastral number added to its name (*cadastral number* + '_' + *original file number*). Select "Zipping" to get an archive containing the sorted files and a CSV file of the report. If this option is disabled, the tool only returns CSV report file.
+
+Inputs:
+
+* ZIP file - zip archive containing KPT batch
+* Rename - change file names in the archive
+* Zipping - return archive with sorted files
+
+.. note::
+    Uploaded zip archive can have one of the following structures:
+    1) archive has one folder containing KPT files;
+    2) archive contains KPT files.
+    The names of the archive and the folder within (if the first structure is used) must only contain plain latin characters. 
+
+Outputs:
+
+* CSV file of the report if "Zipping" is disabled;
+* ZIP file containing sorted KPT files and a CSV report file if "Zipping" is enabled.
+
+In the report the "Status" field can have one of three values: OK, Double, Declined. *OK* means that the file is verified, it has a cadastral number and the query response in it. *Double* means that the file with the same cadastral number has already been processed, so all the following files with the same number will me marked as doubles. The first file will have the OK status, all the other will be marked Double. If the "zipping" option is enabled, the archived files will be sorted the same way. *Declined* status is for the files that have a query returned negative or files that have no cadastral number in them.
+
+In most cases, if "Zipping" is disabled, the "Renaming" option does not affect the output.
+
+Launch tool: https://toolbox.nextgis.com/operation/kptbatch_validator
+
+
+.. _toolbox_geocodetable:
+ 
+Geocode a table
+---------------
+   
+Add two coordinates for every address in the input table.
+
+Inputs:
+
+*  CSV file - input data in CSV format, first row is for field names. Encoding - UTF-8.
+*  Address field name - name of the table field that contains addresses.
+*  API key - Yandex.Geocoder service API key (JavaScript API and HTTP Geocoder), get one here: https://developer.tech.yandex.ru/services/. All limitations apply.
+
+Outputs:
+
+*  Input CSV file + two additional field containinf latitude and longitude for each address.
+
+Launch tool: https://toolbox.nextgis.com/operation/geocodetable
+
+
+
+.. _toolbox_temporal_split:
+
+Create temporal cache
+---------------------
+
+The tool creates several layers from one. Each new layer is a selection of features for a period of time.
+
+Inputs:
+
+* gis_url - address of the used Web GIS
+* resource_id - ID of the polyline layer used by Web GIS
+* upper_field - date the feature disappeared
+* lower_field - date the feature appeared
+* year1_field - the start year of the interval
+* year2_field - the end year of the interval
+* Date Format - date format for dates
+* The output format is GeoJSON, GPKG, CSV, ESRI Shapefile (the default value is ESRI Shapefile)
+* Ignore errors - leave blank to stop completion if an empty range is found. Enter 1 to ignore errors
+
+Outputs:
+
+*  archive of layers, each of which is also in an archive (zip)
+
+Launch tool: https://toolbox.nextgis.com/operation/temporal_split
+
+Usage example:
+
+Make a temporary cache from the layer of cities appearing and disappearing at a certain time.
+
+* Web GIS URL - https://demo.nextgis.com
+* Source Resource ID - 4719
+* upper_field - upperdat
+* lower_field - lwdate
+* year1_field - YEAR1
+* year2_field - YEAR2
+* Date format - 
+* Output format -
+* Ignore Errors - 1
+
+Download sample results: https://nextgis.ru/data/toolbox/toolbox_temporal_split/toolbox_temporal_split.zip
+
 
 
 .. _toolbox_raster_calculator:
@@ -345,198 +1168,596 @@ Download examples of calculation results:
 View source data and calculation results on an interactive map: https://demo.nextgis.com/resource/4566/display?panel=info
 
 
-.. _toolbox_prepare_raster:
 
-Prepare raster
---------------
-   
-A tool that performs a per-band connection of a set of single-band rasters and crops the result using a vector mask.
+.. _toolbox_convert:
+ 
+Convert format of vector layer
+-------------------------------------------
+
+Convert vector layer to other file format.
+
+Coordinate refrence system (CRS) is not changing.
+If output format is ESRI Shapefile, encoding of attributes cast to UTF-8.
 
 Input:
 
-* Initial raster data
+*  Vector layer file - GeoJSON, GPKG file, ZIP archive with ESRI Shapefile or any other vector file compatible with GDAL library.
+*  Name of output format
 
-The initial raster data can be presented in two forms:
+Output:
 
-1. Multi-band raster in GDAL-compatible format
+* ZIP archive with vector layers
 
-2. ZIP archive with a set of single-baned GDAL-compatible rasters
+Launch tool: https://toolbox.nextgis.com/operation/convert
 
-* Vector layer, which is used as mask
 
-ZIP archive with ESRI Shapefile or a other file format supported by OGR.
 
-* “No data” value
+.. _toolbox_lines2polygons:
 
-The value that is marked as “No data”. Use the - symbol to use the default value.
+Temporal polygons from lines and points
+---------------------------------------
 
-* The name of the resulting raster
+The tool creates polygons that reflect the state of the area at a particular point in time. Polygons are formed from a set of polylines, each of which is characterized by the start and end dates of its existence. Attributes for polygons are assigned from a layer of points, which also has a time reference.
 
-No file extension (e.g. ndvi, water). The extension will be automatically installed in .tif
-
-If the input is an archive with single-band rasters, the tool first combines them into a multi-band raster. The order of the bands is determined by alphabetically sorting the names of the initial rasters in the archive. 
-Then the multi-band raster (assembled from the archive or submitted immediately) is cropped with a vector mask.
-
-The initial rasters and the vector mask can be in different coordinate systems before processing, all data is brought into a single spatial domain.
-
-Launch tool: https://toolbox.nextgis.com/operation/prepare_raster
-
-Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/prepare_raster/prepare_raster.zip
-
-View the source data and calculation results on the interactive map: https://demo.nextgis.com/resource/4595/display?panel=info
-
-.. figure:: _static/prepare_raster.png
-   :align: center
-   :width: 16cm
-
-   An example of the result of the tool’s usage
-
-.. _toolbox_landsat_to_radiance:
-
-Landsat radiometric calibration
--------------------------------
-   
-The tool converts the Landsat raw data into radiation intensity (ToA Radiance).
+In addition, grouping of polygon identifiers by a given parameter is carried out by creating a separate field with an ID common to each group (its minimum value). The geometry of the polygons does not change.
 
 Inputs:
 
-* Landsat band initial File
-
-Processing level L1 file from the original Landsat data archive. The name can be anything. Data can be pre-trimmed, etc.
-
-* Band number
-
-The band number corresponding to the downloaded file. Usually a number, for ETM + it can also be 6_VCID_1 and 6_VCID_2
-
-* Landsat Metadata File
-
-Text file from the original Landsat data archive. Depending on the data type, it is a * MTL.txt or * .MTL file.
+*  gis_url - address of the used Web GIS
+*  lines_id - ID of the polyline layer from the used Web GIS
+*  points_id - ID of the layer with points from the used Web GIS
+*  Requested year - the year for which you want to get a time slice
+*  year_field - name of the field where the requested year will be written
+*  Result field - a new field where the grouping results will be entered, that is, ID
+*  Field with identifiers - a field with unique values in the polyline layer; IDs for grouping are borrowed from it 
+*  Grouping field - the field by which polygons are grouped
 
 Outputs:
 
-* The radiation intensity of the corresponding band in the GeoTIFF format
+*  a layer with polygons (shapefile) relevant for the given year
 
-Radiometric calibration is necessary for time series analysis, calculation of derivative products (for example, index images).
+Launch tool: https://toolbox.nextgis.com/operation/lines2polygons
 
-Supported data:
+Usage example:
 
-* Landsat 8 (OLI, TIRS)
+What are the borders of the European states for the 1000th year of n. e.?
 
-* Landsat 7 (ETM+)
-
-* Landsat 5 (TM)
-
-* Landsat 4 (TM)
-
-Launch tool: https://toolbox.nextgis.com/operation/landsat_to_radiance
-
-Download an example of source data and calculation results: https://nextgis.ru/data/toolbox/landsat_to_radiance/landsat_to_radiance.zip
-
-.. _toolbox_landsat_to_reflectance:
-
-Landsat reflectance calculation
--------------------------------
-   
-The tool recalculates the ToA Radiance of Landsat data into reflectivity with the possibility of applying atmospheric corrections, using the DOS method.
-
-Inputs:
-
-* The file with the radiation intensity of one of the Landsat bands
-
-The result of radiometric calibrations of the Landsat source data, for example, using the tool https://toolbox.nextgis.com/operation/landsat_to_radiance
-
-* Band number
-
-The band number corresponding to the downloaded file. Usually a number, for ETM + it can also be 6_VCID_1 and 6_VCID_2
-
-* Landsat Metadata File
-
-Text file from the original Landsat data archive. Depending on the data type, it is a * MTL.txt or * .MTL file
-
-* Processing Result Type
-
-0 for calculating the default albedo, 1 for applying atmospheric corrections using the DOS method
-
-Outputs:
-
-* Spectral albedo of the corresponding band in GeoTIFF format
-
-Spectral albedo is the main type of information that should be used in the analysis of remote sensing data. It is best suited for time series analysis. The ability to apply atmospheric corrections also improves data quality.
-
-Supported data:
-
-* Landsat 8 (OLI, TIRS)
-
-* Landsat 7 (ETM+)
-
-* Landsat 5 (TM)
-
-* Landsat 4 (TM)
-
-Launch tool: https://toolbox.nextgis.com/operation/landsat_to_reflectance
-
-Download an example of source data and calculation results: https://nextgis.ru/data/toolbox/landsat_to_reflectance/landsat_to_reflectance.zip
-
-.. _toolbox_ndi:
-
-Normalized difference index
----------------------------
-   
-The tool calculates the normalized difference index for any two input images.
-
-Inputs:
-
-* First component of the difference index
-
-Any GDAL-compatible raster
-
-* Second component of the difference index
-
-Any GDAL-compatible raster
-
-Outputs:
-
-* A raster with normalized difference index in GeoTiff format
-
-The calculation is carried out according to the formula: (First image - Second image) / (First image + Second image). The pixel values of the resulting raster are in the range from -1 to 1
-Before the calculation, both images are brought into a single spatial domain. The projection and spatial resolution of the first raster is used.
-
-Examples of common normalized difference indices:
-
-* NDVI - for vegetation assessment (the first raster - NIR, the second - RED) For Landsat 8 data: 5 and 4 bands.
-* NDWI - for the detection of water bodies (the first raster - NIR, the second - SWIR). For Landsat 8 data: 5 and 6 bands.
-* NDSI - for assessing the snow cover (the first raster - GREEN, the second - SWIR). For Landsat 8 data: 3 and 6 bands.
-
-Launch tool: https://toolbox.nextgis.com/operation/ndi
-
-Download an example of source data and calculation results: https://nextgis.ru/data/toolbox/ndi/ndi.zip
-
-.. _toolbox_ogrmerge:
+*  gis_url - https://demo.nextgis.com
+*  lines_id - 4702 (as the address of the layer with polylines https://demo.nextgis.com/resource/4702/feature/)
+*  points_id - 4700 (since the address of the layer with points is https://demo.nextgis.com/resource/4700/feature/)
+*  The requested year - 1000
+*  year_field - Year
+*  Result Field - Result
+*  Field with identifiers - fid_europe 
+*  Grouping field - linecomnt
  
-Merge vector layers
--------------------
-   
-.. figure:: _static/ogrmerge.png
+.. figure:: _static/lines2polygons_lines_points_map.png
    :align: center
    :width: 16cm
-
-   Initial and resulting data
    
-The tool merges many vector layers into one.
+   Sample input data. Layers of polylines and dots 
+   
+.. figure:: _static/lines2polygons_lines_table.png
+   :align: center
+   :width: 16cm
+   
+   Sample input data. Polyline Layer Attributes Table  
+   
+.. figure:: _static/lines2polygons_polygons_map_table.png
+   :align: center
+   :width: 16cm
+   
+   An example of the result of a tool    
+
+
+
+.. _toolbox_poly2explication:
+
+Polygon to explication (forestry)
+------------------------------
+
+Generating a report of explication of forest plots. Used to automatically obtain a table of lengths and azimuths from a polygon.
 
 Inputs:
 
-* ZIP archive with .shp, .geojson, .gpkg, .tab files
+* Polygonal layer (forest plot) - a vector data set (plot boundaries) in the format supported by OGR. Shape-files are transferred in an archive, single-file sets - uncompressed. There should be only 1 feature on the layer
+* Line layer (reference) - Vector data set (reference) in the format supported by OGR. Shape-files are transferred in an archive, single-file sets - uncompressed. There should be only 1 feature on the layer. If the reference section can not be filled out, the “Stub” can be used instead, which is a layer without features. A stub can be taken at https://nextgis.ru/data/toolbox/poly2explication/empty_line.geojson
+* Type on angles to calculate. 0 - direction angles (azimuths); 1 - magnetic angles; 2 - true angles. Magnetic and true angles can be calculated only if source data (plot polygon and reference line) have correct CRS description. To calculate true angles data is reprojected to corresponding UTM zone. To calculate magnetic angles World Magnetic Model is used to calculate deviation. 
+* Description of the binding method - free text
+* Forestry number - integer
 
 Outputs:
 
-* GeoPackage file with the result of the merge
+*  Excel report (xlsx)
 
-The tool has no limit on the number of initial layers. The name of the source layer is not saved.
+Launch tool: https://toolbox.nextgis.com/operation/poly2explication
 
-Launch tool: https://toolbox.nextgis.com/operation/ogrmerge
+Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/poly2explication/poly2explication.zip
 
-Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/ogrmerge/ogrmerge.zip
+.. figure:: _static/poly2explication-1.png
+   :align: center
+   :width: 16cm
+   
+   An example of the result of the tool’s usage 
+   
+
+
+.. _toolbox_geometry_changer:
+
+Change geometry for a group of layers
+------------------------------------
+
+The tool changes the geometry of features in a layer group of the Web GIS resource. The change is possible in 3 modes: Delete, Insert, Replace. In delete mode, the tool deletes the selected features. The selection is based on the specified values of a layer’s attribute field. In insert mode, the tool adds new features from the uploaded shp file, the structure of the file and the layer must match. Otherwise, the tool will not be able to add new features. 
+In replacement mode, the tool replaces the geometry value for features from the uploaded shp file, the values of the specified attribute of which match with the attribute values of the Web GIS layer. The attribute name in the shp file and the Web GIS layer must match.
+
+Inputs:
+
+* Web GIS Address — The URL of your Web GIS (http (s): //***.nextgis.com)
+* Login - The username of the user who has the permission to write data to the specified resource
+* Password - Web GIS user password
+* Resource Group Identifier - Web GIS Resource Identifier for a layer group
+* Initial field - Name of the initial field used to search for features
+* Mode - A type of mode, which changes the geometry of features. To delete features, select the Delete mode, to Add - insert, to Change - replace
+* Initial value - The value of the field by which the features are selected. If you need to specify multiple values, use a comma to separate
+* Start year - Starting date of the time range (optional parameter)
+* End year - Ending date of the time range (optional parameter)
+* SHP file - An ESRI Shapefile (zipped) that contains features. Required parameter in Add and Change modes
+
+.. note::
+    Start year and end year are optional parameters. These parameters allow you to limit the time range for the selected layers. To use these parameters, you must make sure that the time ranges are indicated in the names of the layers of the Web GIS resource. For example, in layer 1245_1246_rus_earl_v.1.0 1245 and 1246 the years are indicated. If these parameters are in use, you need to enter three or four digit values. Other parameters are **mandatory**.
+
+Outputs:
+
+*  A CSV file that contains data on the selected mode, the source field and its value, a list of hyperlinks to features that have been changed, in case of errors they will also be indicated in this file.
+
+.. figure:: _static/geometry_changer.PNG
+   :align: center
+   :width: 16cm
+
+   Launch tool: https://toolbox.nextgis.com/operation/geometry_changer
+
+
+.. _toolbox_demInPoints:
+
+Extract elevations from DEM
+---------------------------
+
+The extraction of elevations from DEM. Returns CSV with coordinates and altitude.
+
+Inputs:
+
+*  zip-compressed CSV - CSV table with coordinates of points. Delimiter should be comma. Corrdinates are floating values. Fieldnames should not have spaces.
+*  Latitude - fieldname for Latitude column. Case-sensitive.
+*  Longitude - fieldname for Lonitude column. Case-sensitive.
+*  Elevation dataset - choose from: gmted, gebco, alos. GMTED2010 resolution- 7.5 sec (about 250 meters), GEBCO resolution - 15 sec (about 500 meters), ALOS World 3D - 30 meters. 
+
+Outputs:
+
+*  zip-compressed CSV-file with coordinates and elevation values for given points.
+
+
+Launch tool: https://toolbox.nextgis.com/operation/demInPoints
+
+Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/deminpoints/deminpoints.zip
+
+
+
+.. _toolbox_hello:
+
+Hello, World!
+-----------------
+
+Operation for **testing** purposes. Return greeting string for given name. 
+
+Launch tool: https://toolbox.nextgis.com/operation/hello
+
+
+.. _toolbox_forest_declaration:
+
+Forest declaration in xml
+-----------------------------
+
+This tool was developed for users of NextGIS Les app. It generates forest declaration in xml format, taking files, exported from NextGIS Les and toolbox's `"Convert forest declaration supplements from png to pdf" <https://toolbox.nextgis.com/operation/ForestPDF>`_, as a basis.
+
+Each launch of the tool generates only one forest declaration.
+
+
+Input:
+
+*  Supplement 3 to the forest declaration - pdf file.
+*  Digital signature for Supplement 3 - file with .sig extension.
+*  Supplement 4 to the forest declaration - pdf file.
+*  Digital signature for Supplement 4 - file with .sig extension.
+*  Forest declaration - file in JSON format, exported from NextGIS Les app.
+
+Output:
+
+* xml file of forest declaration.
+
+Launch tool: https://toolbox.nextgis.com/operation/ForestDeclaration
+
+
+
+.. _toolbox_cadnums_to_geodata:
+
+Batch Search by cadastral numbers
+--------------------------------------
+
+The tool creates a set of layers with the boundaries of cadastral objects, receiving as input a text file with a list of their numbers.
+Requires access to `geoservices <https://geoservices.nextgis.com/settings/profile>`_. Auth via на my.nextgis.com (NextGIS ID)
+
+Input:
+
+* API-ключ из https://geoservices.nextgis.com/settings/profile (Settings -> Profile)
+* Текстовый файл (*.txt) с номерами объектов. Одна строка - один кадастровый номер
+
+Output:
+
+* Archive with geodata of cadastral objects
+
+Launch tool: https://toolbox.nextgis.com/operation/cadnums_to_geodata
+
+Download an example of source data and result: https://nextgis.ru/data/toolbox/cadnums_to_geodata/cadnums_to_geodata.zip
+
+
+
+.. _toolbox_forest_pdf:
+
+Convert forest declaration supplements from png to pdf
+-----------------------------------------------------------
+
+This tool converts single png file, as well as a set of png files, to pdf format. In the latter case all files will be merged into one pdf file. The tool will be helpful mostly for the users of NextGIS Les app. 
+
+
+Input:
+
+*  Supplement 3 to the forest declaration - one or more png files packed into ZIP archive. Supplement 3, exported from NextGIS Les, is ready for input as it is. However if you have several independent supplements exported from  NextGIS Les and all of them belong to the same declaration, than these ZIP archives should be packed together in one ZIP archive. The resulting ZIP archive with several ZIP archives inside is ready for the input
+*  Supplement 4 to the forest declaration - same as supplement 3
+
+Output:
+
+* pdf file with supplements 3
+* pdf file with supplements 4
+
+Launch tool: https://toolbox.nextgis.com/operation/ForestPDF
+
+
+
+.. _toolbox_joinreforma:
+
+Combine OSM and Reforma
+-----------------------
+   
+Combine building data from OpenStreetMap and Reforma to produce polygon layer with building outlines and all attributes from Reforma.
+
+
+.. figure:: _static/joinreforma.png
+   :align: center
+   :width: 16cm
+   
+   Example of the result data.
+
+Inputs:
+
+* Polygon building layer from OSM, ZIP file.
+* Point building data from Reforma, CSV file.
+
+Outputs:
+
+A compressed file containing:
+
+* Polygon layer with building footprints successfuly matched with OSM data, ESRI Shapefile.
+* Point layer with source points not matched with OSM data, ESRI Shapefile.
+* Source data, CSV file.
+
+Download an example of source data and result: https://nextgis.ru/data/toolbox/joinreforma/joinreforma.zip
+
+Launch tool: https://toolbox.nextgis.com/operation/JoinReforma
+
+
+
+.. _toolbox_update_vector_layer:
+
+Update a Web GIS layer from a CSV
+---------------------------------
+
+Update an existing Web GIS layer with uploaded CSV file. It is possible to completely REPLACE or ADD data.
+In ADD mode the tool adds features from a CSV to already existing features. In REPLACE mode the tool completely wipes already existing features first and then adds features from CSV.
+Data structure in CSV and target layer should match. Feature coordinates in CSV should be in WGS84 (EPSG:4326). Fields for coordinates should be named lat and lon. If one or both of the coordinates are missing the feature will be skipped. If coordinates can't be parsed the tool will raise and error and tell the row number.
+If the table contains dates, they must be written in `ISO <https://docs.python.org/3/library/datetime.html#datetime.datetime.isoformat>`_ format. For example - 2019-05-18T15:17:08.132263
+
+Inputs:
+
+* Web GIS address - Use https://*.nextgis.com notation.
+* Login - Web GIS user login. User must have permissions to update the resource.
+* Password - Web GIS user password
+* Vector layer ID - Vector layer resource identifier.
+* CSV file - Choose CSV file
+* First line number - Line number where data starts. First line is the header with field names (optional).
+* CSV separator - symbol used to separate values in CSV file (optional). Default is ;
+* Mode - Use Add to add to the data and Replace to completely replace existing data.
+
+.. note::
+    First line number and Separator are optional. Default values are 1 and ;. First line number 1 means that CSV file will be read right from the beginning. Other parameters and mandatory.
+
+Outputs:
+
+* CSV report showing ID of the updated layer, selected mode, number of uploaded features and hyperlink to updated layer in Web GIS.
+
+Troubleshooting
+
+* Invalid type error - incorrect resource ID. Specify vector layer resource ID, not resource group containing the layer.
+* Invalid type of the layer - incorrect layer type. Only vector layers can be used.
+* Invalid operation mode - incorrect mode. You can only type in Replace or Add. Case-insensitive.
+* Invalid geometry type - target layer geometry is not point. This tool works for points only.
+* Invalid structure of the layer - data structures of CSV and target layer mismatch.
+
+Launch tool: https://toolbox.nextgis.com/operation/update_vector_layer
+
+
+
+.. _toolbox_exif2resource:
+
+Photos with EXIF to NGW layer
+-----------------------------
+
+Convert a set of georeferenced photos with EXIF tags into NextGIS Web vector layer.
+
+Input:
+
+*  A set of photos as a ZIP file. No subfolders, no extra files - only photos.
+*  Web GIS link, example: https://sandbox.nextgis.com
+*  administrator or other Web GIS user login. User must have writing access
+*  User password
+*  Resource ID where layer will be created. Default is 0, layer will be created in the Main resource group.
+
+Output:
+
+* New vector layer where each photo is represented by point. The same photo is added as an attachment to this point.
+
+Launch tool: https://toolbox.nextgis.com/operation/exif2resource
+
+Download an example of source data: https://nextgis.ru/data/toolbox/exif2resource/exif2resource.zip
+
+Result on the web map: https://demo.nextgis.com/resource/5950/display?panel=info
+
+
+
+.. _toolbox_osm2mp:
+
+Converter from OSM XML into MP
+----------------------
+
+Converts OSM XML data into MP (aka "polish" format). OSM XML can be obtained at data.nextgis.com 
+
+Launch tool: https://toolbox.nextgis.com/operation/osm2mp
+
+
+
+.. _toolbox_kml2geodata:
+ 
+KML to geodata
+--------------
+   
+Convert KML, KMZ to structured geodata (GeoJSON). This tool can work with attachments (photo) and can parse structured tables added to description of the KML feature.
+
+Inputs:
+
+* Input dataset in KML/KMZ format.
+* NextGIS Drive ID or link (if you have access)
+* Table fields. Comma-separated list of table field names to be extracted from the description.
+
+Outputs:
+
+* ZIP compressed GeoJSON with attachments if any.
+
+Download an example of source data and result: https://nextgis.ru/data/toolbox/kml2geodata/kml2geodata.zip
+
+Launch tool: https://toolbox.nextgis.com/operation/kml2geodata
+
+
+.. figure:: _static/kml2geodata-src.png
+   :align: center
+   :width: 16cm
+   
+   Source data example. KML with attributes structured as the table in the description of a feature
+
+.. figure:: _static/kml2geodata-res.png 
+   :align: center
+   :width: 16cm
+   
+   Result example. Data opened in QGIS after conversion with the tool
+
+
+
+.. _toolbox_download_and_prepare_l8_s2:
+ 
+Prepare satellite data and download the result
+----------------------------------------------
+   
+The tool downloads source data, prepares Sentinel-2 data and provides link to download the result.
+
+Inputs:
+
+*  Scene identifier of Sentinel 2 (Level 1C and Level 2A). You can get ID via, e.g. https://earthexplorer.usgs.gov. While using EarthExplorer, for Sentinel data copy Vendor Product ID available in metadata of the scene. See also: Getting Sentinel ID `video <https://www.youtube.com/watch?v=GjZ_xdd5fQM>`_.
+*  The vector mask, which will crop the image. The format is GeoJSON, ESRI Shape (in a zip archive) or any other OGR-compatible file
+*  A list of bands. A comma separated list of numbers. The bands will be merged in the specified order, for example 2,3,4. Use - to load and merge all bands
+
+
+Outputs:
+
+*  GeoTIFF output image
+
+Launch tool: https://toolbox.nextgis.com/operation/download_and_prepare_l8_s2
+
+Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/download_and_prepare_l8_s2/download_and_prepare_l8_s2.zip
+
+View the result on an interactive map: https://demo.nextgis.com/resource/4805/display?panel=layers
+
+Examples of initial data:
+
+*  Scene S2A_MSIL1C_20191109T072121_N0208_R006_T41VLD_20191109T084554
+* Bands 4.3.2
+*  File
+
+```
+{
+"type": "FeatureCollection",
+"name": "ekb",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 60.46, 56.77 ], [ 60.7, 56.77 ], [ 60.7, 56.92 ], [ 60.46, 56.92 ], [ 60.46, 56.77 ] ] ] } }
+]
+}
+```
+
+
+.. _toolbox_les_remote_sensing:
+ 
+Prepare satellite data and upload it to Web GIS
+-----------------------------------------------
+   
+The tool allows you to get a Sentinel 2 scene in natural colors by its ID, crop it by the input vector mask and upload it to Web GIS with automatically created style.
+
+Inputs:
+
+*  Scene identifier of Sentinel 2 (Level 1C and Level 2A). You can get ID via, e.g. https://earthexplorer.usgs.gov. While using EarthExplorer, for Sentinel data copy Vendor Product ID available in metadata of the scene. See also: Getting Sentinel ID `video <https://www.youtube.com/watch?v=GjZ_xdd5fQM>`_.
+*  Vector mask to clip the scene. Possible formats - GeoJSON, ESRI Shape (in ZIP archive) or any other OGR-supported file. If you need the whole scene, please instead of mask use layer without features (ready one is available through this :download:`link <files/empty_layer.geojson>`).
+*  Output spatial resolution of the scene, in meters. Leave this field empty for original spatial resolution. If number is set, then all bands will be upscaled or downscaled to it using cubic interpolation. The example of interpolation is available `here <https://docs.nextgis.ru/_images/download_and_prepare_l8_s2.png>`_.
+*  URL of Web GIS which will host processed scene.
+*  Login for Web GIS which will host processed scene.
+*  Password for Web GIS which will host processed scene.
+*  Identifier of the parent Web GIS resource (folder) to which processed scene will be uploaded. Please specify the number corresponding to target resource, you can find it in address bar of the browser. For instance, corresponding number for resource “Examples” is 3880 since its address is  https://demo.nextgis.com/resource/3880
+*  Use naming convention for Les – applicable only for NextGIS Лес users, please ignore. 
+
+Outputs:
+
+*  GeoTIFF of processed scene and its style uploaded to Web GIS.
+
+Launch tool: https://toolbox.nextgis.com/operation/les_remote_sensing
+
+
+
+.. _toolbox_dezhurcad:
+
+Russian cadaster extracts to map
+----------------------------------------------------------
+
+Convert extracts from Russian Cadaster to webmap with one-direction sync. At next runs script detect changes in vector features and update or append new features. Features is no deleted. 
+
+
+Input:
+
+*  Russian Cadaster extract - one xml or zip
+*  Web GIS link, example: https://sandbox.nextgis.com
+*  administrator or other Web GIS user login. User must have writing access
+*  User password
+*  Resource group id for data. User must create group pnly before frist run
+
+Output:
+
+* Layers and web map.
+
+Launch tool: https://toolbox.nextgis.com/operation/Dezhurcad
+
+
+
+.. _toolbox_googlesheets2layer:
+
+Google sheets to Web GIS
+-------------------------
+
+Tool creates and updates point vector layer in NextGIS Web using Google Sheets.
+Table must contain 'lat and 'lon' fields and be accessible via shared link for reading.
+Coordinate reference system - WGS84.
+
+Input:
+
+*  Web GIS link, example: https://sandbox.nextgis.com
+*  Web GIS user login. User must have writing access
+*  Web GIS User password
+*  Vector layer ID to update. Use '0' to create new vector layer
+*  Resource group id for data. Use only to create new layer, not to update of existing
+*  Google Sheets ID (eg '1cKvjCMBZajaortAkdQqVwQ_06LuLm3bHyvybJgmAeQg') or URL. This link should be accessible for data reading.
+*  Mode - ADD or REPLACE new/existing layer
+
+Output:
+
+* Created/updated layer in Web GIS
+
+`Google Sheets sample <https://docs.google.com/spreadsheets/d/1cKvjCMBZajaortAkdQqVwQ_06LuLm3bHyvybJgmAeQg/edit?usp=sharing>`_
+
+Launch tool: https://toolbox.nextgis.com/operation/Googlesheets2layer
+
+
+
+.. _toolbox_polysimplifier:
+
+Polygons topological simplifier
+-------------------------------
+
+This tool simplifies linear and polygonal geometries. Useful for simplifying administrative boundaries, vegetation, and other polygons that touch each other. This tool keeps topology, boundaries between features will not get gaps or overlaps.
+
+Input:
+
+* Linear or polygonal layer in GeoJSON
+* Percentage of simplify - number of vertices to keep. Range 1 to 100. Use 90 for tesing. The **higher** the percentage - the **higher** the simplification.
+
+Output:
+
+* Simplified GeoJSON
+
+Launch tool: https://toolbox.nextgis.com/operation/polysimplifier
+
+Download an example of source data and result: https://nextgis.com/data/toolbox/polysimplifier/polysimplifier.zip
+
+
+
+.. _toolbox_import_egrn:
+
+EGRN data import
+-------------
+
+Convert official cadaster documents from EGRN into geodata package. Supportы batch mode. 
+
+Launch tool: https://toolbox.nextgis.com/operation/import_egrn
+
+Download an example of source data and result: https://nextgis.ru/data/toolbox/import_egrn/import_egrn.zip
+
+
+
+.. _toolbox_dem:
+
+DEM data package
+----------------
+  
+Generates elevation package.
+
+Inputs:
+
+* Elevation step. Integer value.
+* Database. Choice from: ALOS, GMTED, GEBCO.
+* Cropping boundary. Upload a compressed (zip) or uncompressed GeoJSON file (EPSG: 4326).
+
+The result of the process is a set of layers:
+
+* Elevation contours (isolines) with a given step
+* Digital elevation model (30 m resolution, if the area is below 60 ° N, 250 m if above)
+* Hillshading (same resolution as DEM)
+
+Launch tool: https://toolbox.nextgis.com/operation/dem
+
+Download sample results: https://demo.nextgis.com/api/resource/4548/export?zipped=true&format=shp
+
+View the results on an interactive map: https://demo.nextgis.com/resource/4108/display?panel=info
+
+.. figure:: _static/isolines_sample.png
+   :align: center
+   :width: 16cm
+   
+   Example of the output
+
+
 
 .. _toolbox_ngw_copy_layer:
  
@@ -597,109 +1818,6 @@ Launch tool: https://toolbox.nextgis.com/operation/pkk_kpt
 Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/kpt2geo/kpt2geo.zip
 
 
-.. _toolbox_ai2geo:
-
-Adobe Illustrator (*.ai) to geodata
------------------------------------
-
-The tool extracts vector data layers from an Adobe Illustrator (* .ai) file using an additional file in GeoTIFF format for georeference.
-
-Inputs:
-
-* An Adobe Illustrator file (with the .ai extension) that contains vector features 
-* A GeoTIFF file (.geotiff or .tif extension) of PNG+PGW pair, on the basis of which the georeferencing of the extracted vector features will be performed. The same rasters should be used as a basemap in *.ai itself.
-
-The tool works in the following way: geometries are extracted from the .ai file. For each geometry, its type (point, line or polygon) is determined, as well as the style with which it is drawn (line thickness, line color, fill color). Layers are created (according to the types of geometries) in which each feature will contain the resulting geometry and a style string in the “STYLE” field. In this case, the coordinates of the geometries are converted from local coordinates to spatial coordinates, based on the transmitted GeoTIFF file, which must contain the correct geospatial reference (it is implied, that the vector features in the .ai file were drawn “on top” of a similar image in Adobe Illustrator).
-
-The result of the process is a ZIP archive containing a set of files in the ESRI Shapefile format according to the created layers.
-
-Launch tool: https://toolbox.nextgis.com/operation/ai2geo
-
-.. figure:: _static/ai2geo_before.png
-   :align: center
-   :width: 32cm
-   
-   Source vector data in .ai file
-
-.. figure:: _static/ai2geo_after.png
-   :align: center
-   :width: 32cm
-   
-   The result of the tool’s usage: the resulting layers are loaded into QGIS and displayed on the background of the OSM basemap
-
-.. _toolbox_grid:
- 
-Meter grid
-----------
-   
-.. figure:: _static/grids-demo.png
-   :align: center
-   :width: 16cm
-
-   Generated grid
-   
-The tool generates a grid within the boundaries of features of a vector layer. The grid size is set in meters. Features can be anywhere in the world.
-
-Inputs:
-
-*  A multipolygon layer with one or more features. It should be GeoPackage
-*  Grid step in meters
-*  Mode: points (points), rect (squares)
-*  Algorithm for cropping the grid along the borders: all (leave all the squares in extent), touches (leave all the squares touching features), intersection (crop the squares along the borders of the features)
-
-.. figure:: _static/grid-1000-rect-all.png
-   :align: center
-   :width: 16cm
-
-   all
-   
-   
-.. figure:: _static/grid-1000-rect-touches.png
-   :align: center
-   :width: 16cm
-
-   touches
-   
-   
-.. figure:: _static/grid-1000-rect-intersection.png
-   :align: center
-   :width: 16cm
-
-   intersection
-   
-   
-.. figure:: _static/grid-1000-point-all.png
-   :align: center
-   :width: 16cm
-
-   all для точек
-   
-   
-.. figure:: _static/grid-1000-point-intersection.png
-   :align: center
-   :width: 16cm
-
-   touches и intersection для точек
-
-   
-.. figure:: _static/grid-planet.png
-   :align: center
-   :width: 16cm
-
-   Generated grids for several polygons in different places of the globe
-   
-
-*  output geodata format - GeoJSON, ESRI Shape, Mapinfo TAB
-
-Outputs:
-
-* Geopackage
-
-
-Launch tool: https://toolbox.nextgis.com/operation/grid
-
-
-
 .. _toolbox_last_img:
  
 Last GEE imagery
@@ -721,330 +1839,6 @@ Outputs:
 Launch tool: https://toolbox.nextgis.com/operation/last_img
 
 
-.. _toolbox_download_and_prepare_l8_s2:
- 
-Prepare satellite data and download the result
-----------------------------------------------
-   
-The tool downloads source data, prepares Sentinel-2 data and provides link to download the result.
-
-Inputs:
-
-*  Scene identifier of Sentinel 2 (Level 1C and Level 2A). You can get ID via, e.g. https://earthexplorer.usgs.gov. While using EarthExplorer, for Sentinel data copy Vendor Product ID available in metadata of the scene. See also: Getting Sentinel ID `video <https://www.youtube.com/watch?v=GjZ_xdd5fQM>`_.
-*  The vector mask, which will crop the image. The format is GeoJSON, ESRI Shape (in a zip archive) or any other OGR-compatible file
-*  A list of bands. A comma separated list of numbers. The bands will be merged in the specified order, for example 2,3,4. Use - to load and merge all bands
-
-
-Outputs:
-
-*  GeoTIFF output image
-
-Launch tool: https://toolbox.nextgis.com/operation/download_and_prepare_l8_s2
-
-Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/download_and_prepare_l8_s2/download_and_prepare_l8_s2.zip
-
-View the result on an interactive map: https://demo.nextgis.com/resource/4805/display?panel=layers
-
-Examples of initial data:
-
-*  Scene S2A_MSIL1C_20191109T072121_N0208_R006_T41VLD_20191109T084554
-* Bands 4.3.2
-*  File
-
-```
-{
-"type": "FeatureCollection",
-"name": "ekb",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 60.46, 56.77 ], [ 60.7, 56.77 ], [ 60.7, 56.92 ], [ 60.46, 56.92 ], [ 60.46, 56.77 ] ] ] } }
-]
-}
-```
-
-.. _tropomi2geotiff:
- 
-TROPOMI to GeoTIFF
-------------------
-   
-The tool converts TROPOMI nitrogen dioxide data to GeoTIFF format.
-
-Inputs:
-
-*  TROPOMI data file in NetCDF format obtained from https://s5phub.copernicus.eu/dhus/#/home. Product type: L2__NO2__, Timeliness: Offline. Example of a file’s name: S5P_OFFL_L2__NO2____20190901T091635_20190901T105804_09761_01_010302_20190907T113505.nc
-
-
-Outputs:
-
-*  GeoTIFF output image
-
-Launch tool: https://toolbox.nextgis.com/operation/tropomi2geotiff
-
-Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/tropomi2geotiff/tropomi2geotiff.zip
-
-View an example result on an interactive map: https://demo.nextgis.com/resource/4698/display?panel=layers
-
-.. figure:: _static/tropomi2geotiff.png
-   :align: center
-   :width: 16cm
-   
-The source scenes are supposed to be hosted on scihub.copernicus (https://scihub.copernicus.eu) in the future, but temporarily they are hosted on a copy of the Sentinel-5P Pre-Operations Hub web interface: https://s5phub.copernicus.eu/dhus/#/ home. Logins from scihub do not work, you need to use s5pguest / s5pguest. 
-   
-.. _mt2report:
- 
-Create marine traffic report
-----------------------------
-
-This tool generates a table (format - CSV), which lists the ships entering given territory, the date and coordinates of their last location, as well as the number of times each ship entered a given territory for a certain period of time. It makes sense to use this tool, if you have already configured a service that updates data on ship locations in your Web GIS.
-
-Inputs:
-
-* name - Web GIS Name
-* layer_id_border - zone resource ID
-* layer_id_ships - ship data resource ID
-* date - Start date
-
-Calculation algorithm: Uploading layers of the boundary of the analysis zone and ship locations. Checking each location for intersection with the analysis zone; locations registered later than the specified starting date are also selected. Among the selected locations for each ship the last location and its coordinates, as well as the total number of locations are obtained. The information obtained for each ship is recorded in a table. 
-
-The result of the process is a table in CSV format with information about all ships registered on a given territory later than the specified date, information about the last registered location and the number of registered locations within a given territory for a certain period of time.
-
-Launch tool: https://toolbox.nextgis.com/operation/mt2report
-
-View an example of initial data on an interactive map: https://demo.nextgis.com/resource/4693/display?panel=layers
-
-.. figure:: _static/mt2report_map.png
-   :align: center
-   :width: 16cm
-   
-   Initial Data Example
-   
-.. figure:: _static/mt2report_table.png
-   :align: center
-   :width: 16cm
-   
-   An example of the result of the tool’s usage 
-
-.. _toolbox_ngw_intersect:
-
-Intersector
------------
-
-The tool intersects all layers of the nextgis.com web map using the specified geometry and generates a report listing the layers, with which the intersection took place. If different features intersect in a separate layer, these cases are displayed as separate events in the report.
-
-Inputs:
-
-*  url - address of the used Web GIS
-*  webmap_id - web map ID from used Web GIS
-*  wkt - geometry with which the intersection of layers of the web map is checked. Indicated in wkt format, coordinate system - EPSG: 3857
-
-Outputs:
-
-*  .xlsx table with a list of intersected layers
-
-Launch tool: https://toolbox.nextgis.com/operation/ngw-intersect
-
-Usage example:
-
-How many types of anemones can you find on the Appalachian Trail?
-
-*  url - https://demo.nextgis.com
-*  webmap_id - 4714 (since the web map address is https://demo.nextgis.com/resource/4714/display)
-*  wkt - LineString (-9378421.57282677479088306 4115819.42546373652294278, -7678593.31173497438430786 5764332.11640937067568302)	
- 
-.. figure:: _static/ngw_intersect_layers.png
-   :align: center
-   :width: 16cm
-   
-   Initial Data Example
-   
-.. figure:: _static/ngw_intersect_result.png
-   :align: center
-   :width: 16cm
-   
-   An example of the result of the tool’s usage 
-   
-.. _toolbox_lines2polygons:
-
-Temporal polygons from lines and points
----------------------------------------
-
-The tool creates polygons that reflect the state of the area at a particular point in time. Polygons are formed from a set of polylines, each of which is characterized by the start and end dates of its existence. Attributes for polygons are assigned from a layer of points, which also has a time reference.
-
-In addition, grouping of polygon identifiers by a given parameter is carried out by creating a separate field with an ID common to each group (its minimum value). The geometry of the polygons does not change.
-
-Inputs:
-
-*  gis_url - address of the used Web GIS
-*  lines_id - ID of the polyline layer from the used Web GIS
-*  points_id - ID of the layer with points from the used Web GIS
-*  Requested year - the year for which you want to get a time slice
-*  year_field - name of the field where the requested year will be written
-*  Result field - a new field where the grouping results will be entered, that is, ID
-*  Field with identifiers - a field with unique values in the polyline layer; IDs for grouping are borrowed from it 
-*  Grouping field - the field by which polygons are grouped
-
-Outputs:
-
-*  a layer with polygons (shapefile) relevant for the given year
-
-Launch tool: https://toolbox.nextgis.com/operation/lines2polygons
-
-Usage example:
-
-What are the borders of the European states for the 1000th year of n. e.?
-
-*  gis_url - https://demo.nextgis.com
-*  lines_id - 4702 (as the address of the layer with polylines https://demo.nextgis.com/resource/4702/feature/)
-*  points_id - 4700 (since the address of the layer with points is https://demo.nextgis.com/resource/4700/feature/)
-*  The requested year - 1000
-*  year_field - Year
-*  Result Field - Result
-*  Field with identifiers - fid_europe 
-*  Grouping field - linecomnt
- 
-.. figure:: _static/lines2polygons_lines_points_map.png
-   :align: center
-   :width: 16cm
-   
-   Sample input data. Layers of polylines and dots 
-   
-.. figure:: _static/lines2polygons_lines_table.png
-   :align: center
-   :width: 16cm
-   
-   Sample input data. Polyline Layer Attributes Table  
-   
-.. figure:: _static/lines2polygons_polygons_map_table.png
-   :align: center
-   :width: 16cm
-   
-   An example of the result of a tool    
-
-.. _toolbox_temporal_split:
-
-Create temporal cache
----------------------
-
-The tool creates several layers from one. Each new layer is a selection of features for a period of time.
-
-Inputs:
-
-* gis_url - address of the used Web GIS
-* resource_id - ID of the polyline layer used by Web GIS
-* upper_field - date the feature disappeared
-* lower_field - date the feature appeared
-* year1_field - the start year of the interval
-* year2_field - the end year of the interval
-* Date Format - date format for dates
-* The output format is GeoJSON, GPKG, CSV, ESRI Shapefile (the default value is ESRI Shapefile)
-* Ignore errors - leave blank to stop completion if an empty range is found. Enter 1 to ignore errors
-
-Outputs:
-
-*  archive of layers, each of which is also in an archive (zip)
-
-Launch tool: https://toolbox.nextgis.com/operation/temporal_split
-
-Usage example:
-
-Make a temporary cache from the layer of cities appearing and disappearing at a certain time.
-
-* Web GIS URL - https://demo.nextgis.com
-* Source Resource ID - 4719
-* upper_field - upperdat
-* lower_field - lwdate
-* year1_field - YEAR1
-* year2_field - YEAR2
-* Date format - 
-* Output format -
-* Ignore Errors - 1
-
-Download sample results: https://nextgis.ru/data/toolbox/toolbox_temporal_split/toolbox_temporal_split.zip
-
-.. _toolbox_poly2explication:
-
-Polygon to explication (forestry)
-------------------------------
-
-Generating a report of explication of forest plots. Used to automatically obtain a table of lengths and azimuths from a polygon.
-
-Inputs:
-
-* Polygonal layer (forest plot) - a vector data set (plot boundaries) in the format supported by OGR. Shape-files are transferred in an archive, single-file sets - uncompressed. There should be only 1 feature on the layer
-* Line layer (reference) - Vector data set (reference) in the format supported by OGR. Shape-files are transferred in an archive, single-file sets - uncompressed. There should be only 1 feature on the layer. If the reference section can not be filled out, the “Stub” can be used instead, which is a layer without features. A stub can be taken at https://nextgis.ru/data/toolbox/poly2explication/empty_line.geojson
-* Type on angles to calculate. 0 - direction angles (azimuths); 1 - magnetic angles; 2 - true angles. Magnetic and true angles can be calculated only if source data (plot polygon and reference line) have correct CRS description. To calculate true angles data is reprojected to corresponding UTM zone. To calculate magnetic angles World Magnetic Model is used to calculate deviation. 
-* Description of the binding method - free text
-* Forestry number - integer
-
-Outputs:
-
-*  Excel report (xlsx)
-
-Launch tool: https://toolbox.nextgis.com/operation/poly2explication
-
-Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/poly2explication/poly2explication.zip
-
-.. figure:: _static/poly2explication-1.png
-   :align: center
-   :width: 16cm
-   
-   An example of the result of the tool’s usage 
-   
-
-.. _toolbox_kmldae2footprints:
-
-Projection (Dae, Collada) to Shapefile
---------------------------------------
-
-The tool makes a projection of three-dimensional features on the earth's surface.
-
-Inputs:
-
-* Zip archive containing * .kmz and * .dae files
-* *.kmz must contain the geolocation of * .dae models (coordinates of polygons in EPSG: 4326, units of measurement are metric)
-
-Outputs:
-
-*  A zip archive with Shapefile
-*  In the resulting Shapefile for each model, the attributes “name” and “altitude” are added
-
-You can submit several models, each of them gets a separate polygon.
-
-Launch tool: https://toolbox.nextgis.com/operation/kmldae2footprints
-
-Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/kmldae2footprints/kmldae2footprints.zip
-
-
-.. _toolbox_join_by_field:
-
-Join layer and table by field
------------------------------
-
-The tool combines data from a table and a layer using a given field. The tool involves the use of two different join types: one-to-one - finds the first matching element of the table and attaches its attributes; one-to-many - connects all elements of the table for which the given field matches, the geometry of the feature is duplicated for each element.
-
-Inputs:
-
-* gis_url - address of the used Web GIS
-* resource_id - layer ID to combine from the currently used Web GIS
-* src - table name
-* layer_field - the name of the field in the Web GIS layer
-* csv_field - field name in the table
-* join_type - type of join (1 - one-to-one, 0 - one-to-many)
-
-Outputs:
-
-*  layer in ESRI Shapefile format, which is in an archive (zip)
-
-Launch tool: https://toolbox.nextgis.com/operation/join_by_field
-
-Usage example:
-
-.. figure:: _static/join_by_field.png
-   :align: center
-   :width: 16cm
-
-Download sample results: https://nextgis.ru/data/toolbox/join_by_field/join_by_field.zip
-
 
 .. _toolbox_osmclip_bbox:
 
@@ -1064,167 +1858,6 @@ Outputs:
 
 Launch tool: https://toolbox.nextgis.com/operation/osmclip_bbox
 
-
-.. _toolbox_geometry_changer:
-
-Change geometry for a group of layers
-------------------------------------
-
-The tool changes the geometry of features in a layer group of the Web GIS resource. The change is possible in 3 modes: Delete, Insert, Replace. In delete mode, the tool deletes the selected features. The selection is based on the specified values of a layer’s attribute field. In insert mode, the tool adds new features from the uploaded shp file, the structure of the file and the layer must match. Otherwise, the tool will not be able to add new features. 
-In replacement mode, the tool replaces the geometry value for features from the uploaded shp file, the values of the specified attribute of which match with the attribute values of the Web GIS layer. The attribute name in the shp file and the Web GIS layer must match.
-
-Inputs:
-
-* Web GIS Address — The URL of your Web GIS (http (s): //***.nextgis.com)
-* Login - The username of the user who has the permission to write data to the specified resource
-* Password - Web GIS user password
-* Resource Group Identifier - Web GIS Resource Identifier for a layer group
-* Initial field - Name of the initial field used to search for features
-* Mode - A type of mode, which changes the geometry of features. To delete features, select the Delete mode, to Add - insert, to Change - replace
-* Initial value - The value of the field by which the features are selected. If you need to specify multiple values, use a comma to separate
-* Start year - Starting date of the time range (optional parameter)
-* End year - Ending date of the time range (optional parameter)
-* SHP file - An ESRI Shapefile (zipped) that contains features. Required parameter in Add and Change modes
-
-.. note::
-    Start year and end year are optional parameters. These parameters allow you to limit the time range for the selected layers. To use these parameters, you must make sure that the time ranges are indicated in the names of the layers of the Web GIS resource. For example, in layer 1245_1246_rus_earl_v.1.0 1245 and 1246 the years are indicated. If these parameters are in use, you need to enter three or four digit values. Other parameters are **mandatory**.
-
-Outputs:
-
-*  A CSV file that contains data on the selected mode, the source field and its value, a list of hyperlinks to features that have been changed, in case of errors they will also be indicated in this file.
-
-.. figure:: _static/geometry_changer.PNG
-   :align: center
-   :width: 16cm
-
-   Launch tool: https://toolbox.nextgis.com/operation/geometry_changer
-
-
-.. _toolbox_update_vector_layer:
-
-Update a Web GIS layer from a CSV
----------------------------------
-
-Update an existing Web GIS layer with uploaded CSV file. It is possible to completely REPLACE or ADD data.
-In ADD mode the tool adds features from a CSV to already existing features. In REPLACE mode the tool completely wipes already existing features first and then adds features from CSV.
-Data structure in CSV and target layer should match. Feature coordinates in CSV should be in WGS84 (EPSG:4326). Fields for coordinates should be named lat and lon. If one or both of the coordinates are missing the feature will be skipped. If coordinates can't be parsed the tool will raise and error and tell the row number.
-If the table contains dates, they must be written in `ISO <https://docs.python.org/3/library/datetime.html#datetime.datetime.isoformat>`_ format. For example - 2019-05-18T15:17:08.132263
-
-Inputs:
-
-* Web GIS address - Use https://*.nextgis.com notation.
-* Login - Web GIS user login. User must have permissions to update the resource.
-* Password - Web GIS user password
-* Vector layer ID - Vector layer resource identifier.
-* CSV file - Choose CSV file
-* First line number - Line number where data starts. First line is the header with field names (optional).
-* CSV separator - symbol used to separate values in CSV file (optional). Default is ;
-* Mode - Use Add to add to the data and Replace to completely replace existing data.
-
-.. note::
-    First line number and Separator are optional. Default values are 1 and ;. First line number 1 means that CSV file will be read right from the beginning. Other parameters and mandatory.
-
-Outputs:
-
-* CSV report showing ID of the updated layer, selected mode, number of uploaded features and hyperlink to updated layer in Web GIS.
-
-Troubleshooting
-
-* Invalid type error - incorrect resource ID. Specify vector layer resource ID, not resource group containing the layer.
-* Invalid type of the layer - incorrect layer type. Only vector layers can be used.
-* Invalid operation mode - incorrect mode. You can only type in Replace or Add. Case-insensitive.
-* Invalid geometry type - target layer geometry is not point. This tool works for points only.
-* Invalid structure of the layer - data structures of CSV and target layer mismatch.
-
-Launch tool: https://toolbox.nextgis.com/operation/update_vector_layer
-
-
-.. _toolbox_explication2poly:
-
-Explication to a polygon
-------------------------
-
-The tool converts an explication report in correct format to a polygon. Explication report has to be an excel-file that contains data about direcions and distances between points. Directions should be presented in degrees and corresponds to magnetic azimuth.
-
-.. figure:: _static/poly2explication-1.png
-   :align: center
-   :width: 16cm
-   
-   Example of an initial excel-file
-
-Inputs:
-
-* XLS(X) file - excel-file containing the explicaton report
-* Latitude of an anchor point. This value is specified in the coordinate system EPSG 4326. A separator between the integer part and the fractional part is a dot
-* Longitude of an anchor point. This value is specified in the coordinate system EPSG 4326. A separator between the integer part and the fractional part is a dot
-
-.. note::
-    The distance between the start point of the polygon and the last one can be more than on the ground because of measurement errors for azimuth and distances. Generally the difference is about 2-3 meters. 
-
-Outputs:
-
-*  Zip-archive with the shp-file that contains the resulting polygon
-
-   Launch tool: https://toolbox.nextgis.com/operation/explication2poly
-   
-   Download an example of source data and result: https://nextgis.ru/data/toolbox/explication2poly/explication2poly.zip
-
-
-.. _toolbox_intersect_layers:
-
-Intersect layers
-----------------
-
-The tool intersects a polygonal layer with another vector layer (any type of geometry) and outputs the result as a set of CSV files.
-
-Inputs:
-
-*  Field name for CSV file. The name of the attribute column in the polygonal layer for resulting CSV files. If this field is blank, CSV file names will be generated automatically.
-*  Polygonal shapefile. Polygonal layer in the ESRI Shapefile format (ZIP-archive), for the objects of which the fact of intersection (or non-intersection) with objects from another layer is defined.
-*  Shapefile with intersecting layer. The vector layer with any geometries in the ESRI Shapefile format (ZIP-archive), containing objects intersecting with objects from the polygonal layer. The layer must be in the same coordinate system as the polygon layer.
-
-Outputs:
-
-*  Zipped CSV files, each of which describes one of the objects of the polygonal layer. If an object from a polygon layer has an intersection with an object from another layer, the CSV file will contain the coordinates of the center and the WKT description of the polygon.
-
-Launch tool: https://toolbox.nextgis.com/operation/intersect_layers
-
-Download an example of source data and result :download:`here <files/intersect_layer_example.zip>`.
-   
-
-.. _toolbox_raster2tiles:
- 
-Generate tileset from raster
----------------------------------------------------
-   
-Service generates raster tiles (NGM format) from input gdal-supported raster.
-
-Inputs:
-
-*  Palette file - TXT file  with color scheme of each raster values  located in a separate line. Order: Value Red Green Blue Opacity. For example, for a value of 23, assigning a completely opaque lilac color looks like this: 23 200 162 200 255. Opacity ranges from 0 to 255, 0 - completely transparent, 255 - completely opaque.  Use an empty text file to keep the original palette (for single-band with palette) and for RGB / RGBA rasters.
-*  Raster dataset - RGB, RGBA, single-band gray or single-band with palette GDAL-compatible raster
-*  Tiles name - the name that will be used for the file name and for the layer in NGM
-*  Zoom levels - the levels at which the tiles will be displayed. This refers to `standard zoom levels <https://wiki.openstreetmap.org/wiki/Zoom_levels>`_, for example, as for OSM maps. Possible input values: a number indicating one level, for example, 10; a range of levels, for example, 8-14; hyphen - for auto-selection of levels
-
-Outputs:
-
-*  NGRC file with tileset
-
-.. figure:: _static/raster2tiles_input.png
-   :align: center
-   :width: 16cm
-   
-   Inputs example
-   
-.. figure:: _static/raster2tiles_output.png
-   :align: center
-   :width: 8cm
-   
-   Result example - NGRC file added to NextGIS Mobile
-
-Launch tool: https://toolbox.nextgis.com/operation/raster2tiles
-
-Download an example of source data and result :download:`here <files/raster2tiles_examples.zip>`.  
 
 .. _toolbox_gee_classifier:
 
@@ -1324,483 +1957,4 @@ and follow the instructions that appear. A URL will be generated where you can g
 
 Launch tool: https://toolbox.nextgis.com/operation/gee_classifier                     
    
-.. _toolbox_geocodetable:
- 
-Geocode a table
----------------
-   
-Add two coordinates for every address in the input table.
 
-Inputs:
-
-*  CSV file - input data in CSV format, first row is for field names. Encoding - UTF-8.
-*  Address field name - name of the table field that contains addresses.
-*  API key - Yandex.Geocoder service API key (JavaScript API and HTTP Geocoder), get one here: https://developer.tech.yandex.ru/services/. All limitations apply.
-
-Outputs:
-
-*  Input CSV file + two additional field containinf latitude and longitude for each address.
-
-Launch tool: https://toolbox.nextgis.com/operation/geocodetable
-
-.. _toolbox_forestplots_field:
-
-Create forestplots scheme for Garmin
-------------------------------------
-
-The tool generates forest field plots in KMZ format ready to upload to Garmin devices. Areas located closer than 10 m from the plot border are discarded. A buffer zone is added around the plot at a distance of 50 m.
-
-Inputs:
-
-*  Input polygon dataset. Supported formats are zipped shapefile, Mapinfo TAB or OGR-compatible file. Must contain only one feature without rings.
-*  Step between points. Distance between plots in meters. Default 55 meters.
-
-Outputs:
-
-* KMZ file with forest field plots ready to upload to Garmin devices.
-* Separate JPG file with forest plots scheme.
-
-Download an example of source data and result: https://nextgis.ru/data/toolbox/forestplots_field/forestplots_field.zip
-
-Launch tool: https://toolbox.nextgis.com/operation/forestplots_field
-
-.. figure:: _static/forest-circular-plots.jpg
-   :align: center
-   :width: 16cm
-
-   An example of result uploded to Garmin. 
-
-
-
-.. _toolbox_clip_polys_poly:
-
-Calculate area inside boundary
--------------------------------------------
-   
-Calculates area of polygons and area of polygons inside boundary. Areas calculated in hectares (ha)
-Module was created for registration of wildfires in natural protected area. Internal calculations use local UTM zones, so calculations will accurate for any places on Earth.
-
-Inputs:
-
-*  nextgisweb url, login and password
-*  nextgisweb layer id of boundary polygonal layer. Layer should have 1 feature, with polygon or multipolygon geometry
-*  nextgisweb layer id of feature polygonal layer. Layer should have 2 fields for area calculations results.
-
-Outputs:
-
-*  Areas values will write into fields of layers in nextgisweb
-
-
-.. figure:: _static/clip_polys_poly1.png
-   :align: center
-   :width: 16cm
-   
-   Example of source data
-   
-.. figure:: _static/clip_polys_poly2.png
-   :align: center
-   :width: 16cm
-   
-   Example of results
-   
-.. figure:: _static/clip_polys_poly.png
-   :align: center
-   :width: 16cm
-   
-   Example of results and custom styling
-
-Launch tool: https://toolbox.nextgis.com/operation/clip_polys_poly
-
-Download an example of source data and result: https://nextgis.ru/data/toolbox/clip_polys_poly/clip_polys_poly.zip
-
-.. _toolbox_explication2poly2:
-
-Explication to a polygon.
-------------------------------------
-The tool converts the explication report in the specified format into a polygon. An explication report is an Excel file that contains direction and distance data between points. Directions are in degrees and correspond to magnetic azimuth.
-
-.. figure:: _static/poly2explication-1.png
-   :align: center
-   :width: 16cm
-
-   An example of source Excel file.
-
-Inputs:
-
-* XLS(X) file. Excel file with explication report.
-* Latitude of anchor point. EPSG 4326 coordinate system. Use dot as a separator.
-* Longitude of anchor point. EPSG 4326 coordinate system. Use dot as a separator.
-
-.. note::
-    Due to inaccuracies in measuring angles and distances on the ground, the first point of the output polygon may be farther from the last one than on the ground. As a rule, the difference does not exceed 2-3 meters.
-
-Outputs:
-
-*  Zipped polygonal shapefile.
-
-Launch tool: https://toolbox.nextgis.com/operation/explication2poly
-
-Download an example of source data and result: https://nextgis.ru/data/toolbox/explication2poly/explication2poly.zip  
-
-
-.. _toolbox_les_remote_sensing:
- 
-Prepare satellite data and upload it to Web GIS
------------------------------------------------
-   
-The tool allows you to get a Sentinel 2 scene in natural colors by its ID, crop it by the input vector mask and upload it to Web GIS with automatically created style.
-
-Inputs:
-
-*  Scene identifier of Sentinel 2 (Level 1C and Level 2A). You can get ID via, e.g. https://earthexplorer.usgs.gov. While using EarthExplorer, for Sentinel data copy Vendor Product ID available in metadata of the scene. See also: Getting Sentinel ID `video <https://www.youtube.com/watch?v=GjZ_xdd5fQM>`_.
-*  Vector mask to clip the scene. Possible formats - GeoJSON, ESRI Shape (in ZIP archive) or any other OGR-supported file. If you need the whole scene, please instead of mask use layer without features (ready one is available through this :download:`link <files/empty_layer.geojson>`).
-*  Output spatial resolution of the scene, in meters. Leave this field empty for original spatial resolution. If number is set, then all bands will be upscaled or downscaled to it using cubic interpolation. The example of interpolation is available `here <https://docs.nextgis.ru/_images/download_and_prepare_l8_s2.png>`_.
-*  URL of Web GIS which will host processed scene.
-*  Login for Web GIS which will host processed scene.
-*  Password for Web GIS which will host processed scene.
-*  Identifier of the parent Web GIS resource (folder) to which processed scene will be uploaded. Please specify the number corresponding to target resource, you can find it in address bar of the browser. For instance, corresponding number for resource “Examples” is 3880 since its address is  https://demo.nextgis.com/resource/3880
-*  Use naming convention for Les – applicable only for NextGIS Лес users, please ignore. 
-
-Outputs:
-
-*  GeoTIFF of processed scene and its style uploaded to Web GIS.
-
-Launch tool: https://toolbox.nextgis.com/operation/les_remote_sensing
-
-.. _toolbox_kml2geodata:
- 
-KML to geodata
---------------
-   
-Convert KML, KMZ to structured geodata (GeoJSON). This tool can work with attachments (photo) and can parse structured tables added to description of the KML feature.
-
-Inputs:
-
-* Input dataset in KML/KMZ format.
-* NextGIS Drive ID or link (if you have access)
-* Table fields. Comma-separated list of table field names to be extracted from the description.
-
-Outputs:
-
-* ZIP compressed GeoJSON with attachments if any.
-
-Download an example of source data and result: https://nextgis.ru/data/toolbox/kml2geodata/kml2geodata.zip
-
-Launch tool: https://toolbox.nextgis.com/operation/kml2geodata
-
-
-.. figure:: _static/kml2geodata-src.png
-   :align: center
-   :width: 16cm
-   
-   Source data example. KML with attributes structured as the table in the description of a feature
-
-.. figure:: _static/kml2geodata-res.png 
-   :align: center
-   :width: 16cm
-   
-   Result example. Data opened in QGIS after conversion with the tool
-
-.. _toolbox_centroid2attr:
-
-Coordinates of center to attribute
-----------------------------------
-   
-Calculate center point of polygons (PointOnSurface), add fields point_X, point_Y with coordinates of point guaranteed to intersect a polygon.
-
-Inputs:
-
-* Polygon layer
-
-Outputs:
-
-* ZIP with polygonal Shapefile with two fielda added: point_X, point_Y 
-* QML style file
-
-.. figure:: _static/point_on_surface.png
-   :align: center
-   :width: 16cm
-   
-   
-.. figure:: _static/point_on_surface_attributes.png
-   :align: center
-   :width: 16cm
-   
-Download an example of source data and result: https://nextgis.ru/data/toolbox/centroid2attr/centroid2attr.zip
-
-Launch tool: https://toolbox.nextgis.com/operation/centroid2attr
-
-
-.. _toolbox_spatial_join:
-
-Spatial Join (Join by location)
------------------------------------------
-   
-Insert into layer 1 attribute from intersects feature in layer 2
-
-Inputs:
-
-* Vector layer 1
-* Polygon layer 2
-* Name of attibute in layer 2
-
-Outputs:
-
-* ZIP with Shapefile layer 1 with added attribute 
-* QML style file
-
-.. figure:: _static/spatial_join.png
-   :align: center
-   :width: 16cm
-   
-   Example of source data: cities and regions
-   
-.. figure:: _static/spatial_join_result.png
-   :align: center
-   :width: 16cm
-   
-   Example output: cities with added region name
-   
-Download an example of source data and result: https://nextgis.ru/data/toolbox/spatial_join/spatial_join.zip
-
-Launch tool: https://toolbox.nextgis.com/operation/spatial_join
-
-.. _toolbox_joinreforma:
-
-Combine OSM and Reforma
------------------------
-   
-Combine building data from OpenStreetMap and Reforma to produce polygon layer with building outlines and all attributes from Reforma.
-
-
-.. figure:: _static/joinreforma.png
-   :align: center
-   :width: 16cm
-   
-   Example of the result data.
-
-Inputs:
-
-* Polygon building layer from OSM, ZIP file.
-* Point building data from Reforma, CSV file.
-
-Outputs:
-
-A compressed file containing:
-
-* Polygon layer with building footprints successfuly matched with OSM data, ESRI Shapefile.
-* Point layer with source points not matched with OSM data, ESRI Shapefile.
-* Source data, CSV file.
-
-Download an example of source data and result: https://nextgis.ru/data/toolbox/joinreforma/joinreforma.zip
-
-Launch tool: https://toolbox.nextgis.com/operation/JoinReforma
-
-.. _toolbox_fsc_compare:
- 
-Comparison between leased land boundaries and FSC data
--------------------------------------------
-   
-Tool is designed for tenants of forest areas, holding FSC certificate. The boundaries, downloaded by the tenants, are treated as reference and compared with FSC data. The outcome is two vector layers: with an area, attributed by FSC to the target tenant by mistake, and, oppositely, with an area not counted by FSC. Result files can be sent to FSC as a reason to correct information about leased land boundaries.
-
-Input:
-
-*  Vector layer (ZIP archive with ESRI Shapefile) with polygon or polygons determining land boundary.
-
-Output:
-
-* Two ZIP archives with vector layers: with an area, attributed by FSC to the target tenant by mistake, and, oppositely, with an area not counted by FSC. If no contradiction is found, vector layer will be linear, not polygonal. 
-
-Launch tool: https://toolbox.nextgis.com/operation/fsc_compare
-
-.. figure:: _static/ fsc_compare.png
-   :align: center
-   :width: 16cm
-   
-   Example of the result. In FSC data several sectors falsely attributed to the target tenant.
-
-.. _toolbox_convert:
- 
-Convert format of vector layer
--------------------------------------------
-
-Convert vector layer to other file format.
-
-Coordinate refrence system (CRS) is not changing.
-If output format is ESRI Shapefile, encoding of attributes cast to UTF-8.
-
-Input:
-
-*  Vector layer file - GeoJSON, GPKG file, ZIP archive with ESRI Shapefile or any other vector file compatible with GDAL library.
-*  Name of output format
-
-Output:
-
-* ZIP archive with vector layers
-
-Launch tool: https://toolbox.nextgis.com/operation/convert
-
-.. _toolbox_forest_pdf:
-
-Convert forest declaration supplements from png to pdf
------------------------------------------------------------
-
-This tool converts single png file, as well as a set of png files, to pdf format. In the latter case all files will be merged into one pdf file. The tool will be helpful mostly for the users of NextGIS Les app. 
-
-
-Input:
-
-*  Supplement 3 to the forest declaration - one or more png files packed into ZIP archive. Supplement 3, exported from NextGIS Les, is ready for input as it is. However if you have several independent supplements exported from  NextGIS Les and all of them belong to the same declaration, than these ZIP archives should be packed together in one ZIP archive. The resulting ZIP archive with several ZIP archives inside is ready for the input
-*  Supplement 4 to the forest declaration - same as supplement 3
-
-Output:
-
-* pdf file with supplements 3
-* pdf file with supplements 4
-
-Launch tool: https://toolbox.nextgis.com/operation/ForestPDF
-
-.. _toolbox_forest_declaration:
-
-Forest declaration in xml
------------------------------
-
-This tool was developed for users of NextGIS Les app. It generates forest declaration in xml format, taking files, exported from NextGIS Les and toolbox's `"Convert forest declaration supplements from png to pdf" <https://toolbox.nextgis.com/operation/ForestPDF>`_, as a basis.
-
-Each launch of the tool generates only one forest declaration.
-
-
-Input:
-
-*  Supplement 3 to the forest declaration - pdf file.
-*  Digital signature for Supplement 3 - file with .sig extension.
-*  Supplement 4 to the forest declaration - pdf file.
-*  Digital signature for Supplement 4 - file with .sig extension.
-*  Forest declaration - file in JSON format, exported from NextGIS Les app.
-
-Output:
-
-* xml file of forest declaration.
-
-Launch tool: https://toolbox.nextgis.com/operation/ForestDeclaration
-
-.. _toolbox_exif2resource:
-
-Photos with EXIF to NGW layer
------------------------------
-
-Convert a set of georeferenced photos with EXIF tags into NextGIS Web vector layer.
-
-Input:
-
-*  A set of photos as a ZIP file. No subfolders, no extra files - only photos.
-*  Web GIS link, example: https://sandbox.nextgis.com
-*  administrator or other Web GIS user login. User must have writing access
-*  User password
-*  Resource ID where layer will be created. Default is 0, layer will be created in the Main resource group.
-
-Output:
-
-* New vector layer where each photo is represented by point. The same photo is added as an attachment to this point.
-
-Launch tool: https://toolbox.nextgis.com/operation/exif2resource
-
-Download an example of source data: https://nextgis.ru/data/toolbox/exif2resource/exif2resource.zip
-
-Result on the web map: https://demo.nextgis.com/resource/5950/display?panel=info
-
-
-.. _toolbox_cadnums_to_geodata:
-
-Batch Search by cadastral numbers
---------------------------------------
-
-The tool creates a set of layers with the boundaries of cadastral objects, receiving as input a text file with a list of their numbers.
-Requires access to `geoservices <https://geoservices.nextgis.com/settings/profile>`_. Auth via на my.nextgis.com (NextGIS ID)
-
-Input:
-
-* API-ключ из https://geoservices.nextgis.com/settings/profile (Settings -> Profile)
-* Текстовый файл (*.txt) с номерами объектов. Одна строка - один кадастровый номер
-
-Output:
-
-* Archive with geodata of cadastral objects
-
-Launch tool: https://toolbox.nextgis.com/operation/cadnums_to_geodata
-
-Download an example of source data and result: https://nextgis.ru/data/toolbox/cadnums_to_geodata/cadnums_to_geodata.zip
-
-
-.. _toolbox_dezhurcad:
-
-Russian cadaster extracts to map
-----------------------------------------------------------
-
-Convert extracts from Russian Cadaster to webmap with one-direction sync. At next runs script detect changes in vector features and update or append new features. Features is no deleted. 
-
-
-Input:
-
-*  Russian Cadaster extract - one xml or zip
-*  Web GIS link, example: https://sandbox.nextgis.com
-*  administrator or other Web GIS user login. User must have writing access
-*  User password
-*  Resource group id for data. User must create group pnly before frist run
-
-Output:
-
-* Layers and web map.
-
-
-
-Launch tool: https://toolbox.nextgis.com/operation/Dezhurcad
-
-
-.. _toolbox_googlesheets2layer:
-
-Google sheets to Web GIS
--------------------------
-
-Tool creates and updates point vector layer in NextGIS Web using Google Sheets.
-Table must contain 'lat and 'lon' fields and be accessible via shared link for reading.
-Coordinate reference system - WGS84.
-
-Input:
-
-*  Web GIS link, example: https://sandbox.nextgis.com
-*  Web GIS user login. User must have writing access
-*  Web GIS User password
-*  Vector layer ID to update. Use '0' to create new vector layer
-*  Resource group id for data. Use only to create new layer, not to update of existing
-*  Google Sheets ID (eg '1cKvjCMBZajaortAkdQqVwQ_06LuLm3bHyvybJgmAeQg') or URL. This link should be accessible for data reading.
-*  Mode - ADD or REPLACE new/existing layer
-
-Output:
-
-* Created/updated layer in Web GIS
-
-`Google Sheets sample <https://docs.google.com/spreadsheets/d/1cKvjCMBZajaortAkdQqVwQ_06LuLm3bHyvybJgmAeQg/edit?usp=sharing>`_
-
-Launch tool: https://toolbox.nextgis.com/operation/Googlesheets2layer
-
-
-.. _toolbox_polysimplifier:
-
-Polygons topological simplifier
--------------------------------
-
-This tool simplifies linear and polygonal geometries. Useful for simplifying administrative boundaries, vegetation, and other polygons that touch each other. This tool keeps topology, boundaries between features will not get gaps or overlaps.
-
-Input:
-
-* Linear or polygonal layer in GeoJSON
-* Percentage of simplify - number of vertices to keep. Range 1 to 100. Use 90 for tesing. The **higher** the percentage - the **higher** the simplification.
-
-Output:
-
-* Simplified GeoJSON
-
-Launch tool: https://toolbox.nextgis.com/operation/polysimplifier
-
-Download an example of source data and result: https://nextgis.com/data/toolbox/polysimplifier/polysimplifier.zip

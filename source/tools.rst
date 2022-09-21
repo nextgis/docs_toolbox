@@ -1389,7 +1389,7 @@ Requires access to `geoservices <https://geoservices.nextgis.com/settings/profil
 Input:
 
 * API-ключ из https://geoservices.nextgis.com/settings/profile (Settings -> Profile)
-* Текстовый файл (*.txt) с номерами объектов. Одна строка - один кадастровый номер
+* Text file (*.txt) containing numbers of items. One cadastral number per string.
 
 Output:
 
@@ -1718,7 +1718,24 @@ Download an example of source data and result: https://nextgis.com/data/toolbox/
 EGRN data import
 -------------
 
-Convert official cadaster documents from EGRN into geodata package. Supportы batch mode. 
+Convert official cadaster documents from EGRN into geodata package. Supports batch mode.
+
+Supported formats: KPT (cadastral register): extract_cadastral_plan_territory_v01 and KPT_v10, KVZU (cadastral excerpt): KVZU_v07, ОКС: KVOKS_v03.
+
+
+Inputs:
+
+* Source file - XML file of the excerpt or ZIP archive containing a batch of excerpts. Subarchives are supported.
+* Data format - output data format, GPKG, GeoJSON, ESRI Shapefile or MapInfo File. If left blank, GPKG will be used.
+* Identifier - Name to be used in the names of output files. If empty, "converted" is used.
+* Unite datasets - If a ZIP archive is converted, XML documents within it will be blocked by type (initial convert results will also be preserved). We do not recommend using it for MapInfo File format.
+* Do not transform coordinates - Keeps the source coordinates without recalculating them in WGS84. Also does not check if the item is within region borders.
+* Ignore objects without geometry - Skips entries in the XML documents that do not have geometry (coordinates)
+* parse_reestr_extract - Sometimes excerpts have a special section ReestrExtract containing additional information, for ex. ownership. If the option is enabled, that data will be added to separate layers without geometry.
+
+Outputs:
+
+* ZIP archive containing converted files. 
 
 Launch tool: https://toolbox.nextgis.com/operation/import_egrn
 

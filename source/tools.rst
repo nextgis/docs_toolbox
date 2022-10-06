@@ -1497,6 +1497,28 @@ forest_mask.tif * (land_temperature.tif < 30)
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/ForestDeclaration
 
+.. _toolbox_attach2resource:
+
+Добавить фото к существующему слою NGW
+--------------------------------------
+
+Добавляет набор фото существующему слою по идентификаторам (FID - feature ID).
+
+На входе:
+
+*  Исходный набор данных - архив с фото.
+*  Web GIS link - Ссылка вида https://sandbox.nextgis.com
+*  Login - имя пользователя Веб ГИС с соответствующими правами на запись
+*  Password - пароль пользователя
+*  layer_id - ID ресурса слоя к которому будут добавлены фото
+
+На выходе:
+
+* Отчет об импорте
+
+Запуск инструмента: https://toolbox.nextgis.com/operation/attach2resource
+
+Пример исходных данных: https://nextgis.ru/data/toolbox/attach2resource/attach2resource.zip
 
 .. _toolbox_cadnums_to_geodata:
 
@@ -1867,9 +1889,7 @@ KML в геоданные
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/import_egrn
 
-Пример исходны данных и результата работы инструмента: https://nextgis.ru/data/toolbox/import_egrn/import_egrn.zip
-
-
+Пример исходных данных и результата работы инструмента: https://nextgis.ru/data/toolbox/import_egrn/import_egrn.zip
 
 .. _toolbox_dem:
 

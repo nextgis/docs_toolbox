@@ -1355,14 +1355,14 @@ Launch tool: https://toolbox.nextgis.com/operation/hello
 .. _toolbox_forest_declaration:
 
 Forest declaration in xml
------------------------------
+-------------------------
 
 This tool was developed for users of NextGIS Les app. It generates forest declaration in xml format, taking files, exported from NextGIS Les and toolbox's `"Convert forest declaration supplements from png to pdf" <https://toolbox.nextgis.com/operation/ForestPDF>`_, as a basis.
 
 Each launch of the tool generates only one forest declaration.
 
 
-Input:
+Inputs:
 
 *  Supplement 3 to the forest declaration - pdf file.
 *  Digital signature for Supplement 3 - file with .sig extension.
@@ -1370,13 +1370,34 @@ Input:
 *  Digital signature for Supplement 4 - file with .sig extension.
 *  Forest declaration - file in JSON format, exported from NextGIS Les app.
 
-Output:
+Outputs:
 
 * xml file of forest declaration.
 
 Launch tool: https://toolbox.nextgis.com/operation/ForestDeclaration
 
+.. _toolbox_attach2resource:
 
+Add photos to an existing NGW layer
+-----------------------------------
+
+Add a set of photos to an existing layer by identifiers (FID - feature ID).
+
+Inputs:
+
+*  photos.zip - a compressed set with photos
+*  Web GIS link - address of a destination Web GIS https://sandbox.nextgis.com
+*  Login - administrator or other Web GIS user login. User must have writing access
+*  Password - Password for the user above
+*  layer_id - Layer resource ID to which attachments will be added
+
+Outputs:
+
+* Import report
+
+Launch tool: https://toolbox.nextgis.com/operation/attach2resource
+
+An example of source data: https://nextgis.ru/data/toolbox/attach2resource/attach2resource.zip
 
 .. _toolbox_cadnums_to_geodata:
 
@@ -1397,7 +1418,7 @@ Output:
 
 Launch tool: https://toolbox.nextgis.com/operation/cadnums_to_geodata
 
-Download an example of source data and result: https://nextgis.ru/data/toolbox/cadnums_to_geodata/cadnums_to_geodata.zip
+An example of source data and result: https://nextgis.ru/data/toolbox/cadnums_to_geodata/cadnums_to_geodata.zip
 
 
 

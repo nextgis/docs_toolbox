@@ -1567,6 +1567,9 @@ Inputs:
 * Input dataset in KML/KMZ format.
 * NextGIS Drive ID or link (if you have access)
 * Table fields. Comma-separated list of table field names to be extracted from the description.
+* Check files presence. If checked, the result will contain only the files that are present in the archive.
+* Ignore extended data. If checked, lc:attachment will be ignored.
+* Keep Z coordinate. If checked, Z coordinate will be preserved and PointZ/LinestringZ etc geometries will be created.
 
 Outputs:
 

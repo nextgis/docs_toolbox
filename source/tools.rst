@@ -1646,7 +1646,7 @@ The tool allows you to get a Sentinel 2 scene in natural colors by its ID, crop 
 Inputs:
 
 *  Scene identifier of Sentinel 2 (Level 1C and Level 2A). You can get ID via, e.g. https://earthexplorer.usgs.gov. While using EarthExplorer, for Sentinel data copy Vendor Product ID available in metadata of the scene. See also: Getting Sentinel ID `video <https://www.youtube.com/watch?v=GjZ_xdd5fQM>`_.
-*  Vector mask to clip the scene. Possible formats - GeoJSON, ESRI Shape (in ZIP archive) or any other OGR-supported file. If you need the whole scene, please instead of mask use layer without features (ready one is available through this :download:`link <files/empty_layer.geojson>`).
+*  Vector mask to clip the scene. Possible formats - GeoJSON, ESRI Shape (in ZIP archive) or any other OGR-supported file. If you need the whole scene, just leave this field empty.
 *  Output spatial resolution of the scene, in meters. Leave this field empty for original spatial resolution. If number is set, then all bands will be upscaled or downscaled to it using cubic interpolation. The example of interpolation is available `here <https://docs.nextgis.ru/_images/download_and_prepare_l8_s2.png>`_.
 *  URL of Web GIS which will host processed scene.
 *  Login for Web GIS which will host processed scene.

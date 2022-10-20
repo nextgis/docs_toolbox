@@ -1641,7 +1641,7 @@ Examples of initial data:
 Prepare satellite data and upload it to Web GIS
 -----------------------------------------------
    
-The tool allows you to get a Sentinel 2 scene in natural colors by its ID, crop it by the input vector mask and upload it to Web GIS with automatically created style.
+The tool allows you to get a Sentinel 2 scene by its ID, crop it by the input vector mask and upload it to Web GIS with automatically created style.
 
 Inputs:
 

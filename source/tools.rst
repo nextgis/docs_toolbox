@@ -1389,7 +1389,7 @@ Inputs:
 *  Web GIS link - address of a destination Web GIS https://sandbox.nextgis.com
 *  Login - administrator or other Web GIS user login. User must have writing access
 *  Password - Password for the user above
-*  layer_id - Layer resource ID to which attachments will be added
+*  layer_id - Layer resource ID to which attachments will be added. Layer ID is the number that indicates the unique number of the resource in your Web GIS. For example, your vector layer resource link is https://demo.nextgis.com/resource/6273, layer_id in this case is 6273.
 
 Outputs:
 

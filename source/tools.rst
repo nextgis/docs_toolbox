@@ -498,7 +498,7 @@ The tool merges many vector layers into one.
 
 Inputs:
 
-* ZIP archive with .shp, .geojson, .gpkg, .tab files
+* ZIP archive with .shp, .geojson, .gpkg, .tab files. No sub-folders.
 
 Outputs:
 

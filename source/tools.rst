@@ -1261,7 +1261,7 @@ Generating a report of explication of forest plots. Used to automatically obtain
 Inputs:
 
 * Polygonal layer (forest plot) - a vector data set (plot boundaries) in the format supported by OGR. Shape-files are transferred in an archive, single-file sets - uncompressed. There should be only 1 feature on the layer
-* Line layer (reference) - Vector data set (reference) in the format supported by OGR. Shape-files are transferred in an archive, single-file sets - uncompressed. There should be only 1 feature on the layer. If the reference section can not be filled out, the “Stub” can be used instead, which is a layer without features. A stub can be taken at https://nextgis.ru/data/toolbox/poly2explication/empty_line.geojson
+* Line layer (reference) - Vector data set (reference) in the format supported by OGR. Shape-files are transferred in an archive, single-file sets - uncompressed. There should be only 1 feature on the layer. If the reference section can not be filled out, the “Stub” can be used instead, which is a layer without features. A stub can be taken :download:`here <files/empty_layer.geojson>`.
 * Type on angles to calculate. 0 - direction angles (azimuths); 1 - magnetic angles; 2 - true angles. Magnetic and true angles can be calculated only if source data (plot polygon and reference line) have correct CRS description. To calculate true angles data is reprojected to corresponding UTM zone. To calculate magnetic angles World Magnetic Model is used to calculate deviation. 
 * Description of the binding method - free text
 * Forestry number - integer
@@ -1354,27 +1354,23 @@ Launch tool: https://toolbox.nextgis.com/operation/hello
 
 .. _toolbox_forest_declaration:
 
-Forest declaration in xml
+Forest declaration in XML
 -------------------------
 
-This tool was developed for users of NextGIS Les app. It generates forest declaration in xml format, taking files, exported from NextGIS Les and toolbox's `"Convert forest declaration supplements from png to pdf" <https://toolbox.nextgis.com/operation/ForestPDF>`_, as a basis.
-
-Each launch of the tool generates only one forest declaration.
+This tool was developed for users of NextGIS Les app. It generates forest declaration in XML format, taking files, exported from NextGIS Les, as a basis.
 
 
 Inputs:
 
-*  Supplement 3 to the forest declaration - pdf file.
-*  Digital signature for Supplement 3 - file with .sig extension.
-*  Supplement 4 to the forest declaration - pdf file.
-*  Digital signature for Supplement 4 - file with .sig extension.
+*  Supplement 3 to the forest declaration - Zip archive with one or several png files.
+*  Supplement 4 to the forest declaration - Zip archive with one or several png files.
 *  Forest declaration - file in JSON format, exported from NextGIS Les app.
 
 Outputs:
 
-* xml file of forest declaration.
+* Zip archive with XML file of forest declaration and supplement 3 and 4 in PDF format.
 
-Launch tool: https://toolbox.nextgis.com/operation/ForestDeclaration
+Launch tool: https://toolbox.nextgis.com/operation/ForestDeclaration2
 
 .. _toolbox_attach2resource:
 
@@ -1401,15 +1397,15 @@ An example of source data: https://nextgis.ru/data/toolbox/attach2resource/attac
 
 .. _toolbox_cadnums_to_geodata:
 
-Batch Search by cadastral numbers
+Batch search by cadastral numbers
 --------------------------------------
 
 The tool creates a set of layers with the boundaries of cadastral objects, receiving as input a text file with a list of their numbers.
-Requires access to `geoservices <https://geoservices.nextgis.com/settings/profile>`_. Auth via на my.nextgis.com (NextGIS ID)
+Requires access to `geoservices <https://geoservices.nextgis.com/settings/profile>`_. Auth via my.nextgis.com (NextGIS ID)
 
 Input:
 
-* API-ключ из https://geoservices.nextgis.com/settings/profile (Settings -> Profile)
+* API-key from https://geoservices.nextgis.com/settings/profile (Settings -> Profile)
 * Text file (*.txt) containing numbers of items. One cadastral number per string.
 
 Output:
@@ -1419,29 +1415,6 @@ Output:
 Launch tool: https://toolbox.nextgis.com/operation/cadnums_to_geodata
 
 An example of source data and result: https://nextgis.ru/data/toolbox/cadnums_to_geodata/cadnums_to_geodata.zip
-
-
-
-.. _toolbox_forest_pdf:
-
-Convert forest declaration supplements from png to pdf
------------------------------------------------------------
-
-This tool converts single png file, as well as a set of png files, to pdf format. In the latter case all files will be merged into one pdf file. The tool will be helpful mostly for the users of NextGIS Les app. 
-
-
-Input:
-
-*  Supplement 3 to the forest declaration - one or more png files packed into ZIP archive. Supplement 3, exported from NextGIS Les, is ready for input as it is. However if you have several independent supplements exported from  NextGIS Les and all of them belong to the same declaration, than these ZIP archives should be packed together in one ZIP archive. The resulting ZIP archive with several ZIP archives inside is ready for the input
-*  Supplement 4 to the forest declaration - same as supplement 3
-
-Output:
-
-* pdf file with supplements 3
-* pdf file with supplements 4
-
-Launch tool: https://toolbox.nextgis.com/operation/ForestPDF
-
 
 
 .. _toolbox_joinreforma:
@@ -1603,7 +1576,7 @@ The tool downloads source data, prepares Sentinel-2 data and provides link to do
 
 Inputs:
 
-*  Scene identifier of Sentinel 2 (Level 1C and Level 2A). You can get ID via, e.g. https://earthexplorer.usgs.gov. While using EarthExplorer, for Sentinel data copy Vendor Product ID available in metadata of the scene. See also: Getting Sentinel ID `video <https://www.youtube.com/watch?v=GjZ_xdd5fQM>`_.
+*  Scene identifier of Sentinel-2 (Level 1C and Level 2A). You can get ID from  https://scihub.copernicus.eu/dhus/, but only authorized users can search for data. You can download and explore instruction on registration and search performing :download:`here <files/Sentinel_scene_id_en.pdf>`
 *  The vector mask, which will crop the image. The format is GeoJSON, ESRI Shape (in a zip archive) or any other OGR-compatible file
 *  A list of bands. A comma separated list of numbers. The bands will be merged in the specified order, for example 2,3,4. Use - to load and merge all bands
 
@@ -1641,18 +1614,18 @@ Examples of initial data:
 Prepare satellite data and upload it to Web GIS
 -----------------------------------------------
    
-The tool allows you to get a Sentinel 2 scene by its ID, crop it by the input vector mask and upload it to Web GIS with automatically created style.
+The tool allows you to get a Sentinel-2 scene by its ID, crop it by the input vector mask and upload it to Web GIS with automatically created style.
 
 Inputs:
 
-*  Scene identifier of Sentinel 2 (Level 1C and Level 2A). You can get ID via, e.g. https://earthexplorer.usgs.gov. While using EarthExplorer, for Sentinel data copy Vendor Product ID available in metadata of the scene. See also: Getting Sentinel ID `video <https://www.youtube.com/watch?v=GjZ_xdd5fQM>`_.
+*  Scene identifier of Sentinel 2 (Level 1C and Level 2A). You can get ID from  https://scihub.copernicus.eu/dhus/, but only authorized users can search for data. You can download and explore instruction on registration and search performing :download:`here <files/Sentinel_scene_id_en.pdf>`
 *  Vector mask to clip the scene. Possible formats - GeoJSON, ESRI Shape (in ZIP archive) or any other OGR-supported file. If you need the whole scene, just leave this field empty.
 *  Output spatial resolution of the scene, in meters. Leave this field empty for original spatial resolution. If number is set, then all bands will be upscaled or downscaled to it using cubic interpolation. The example of interpolation is available `here <https://docs.nextgis.ru/_images/download_and_prepare_l8_s2.png>`_.
 *  URL of Web GIS which will host processed scene.
 *  Login for Web GIS which will host processed scene.
 *  Password for Web GIS which will host processed scene.
 *  Identifier of the parent Web GIS resource (folder) to which processed scene will be uploaded. Please specify the number corresponding to target resource, you can find it in address bar of the browser. For instance, corresponding number for resource “Examples” is 3880 since its address is  https://demo.nextgis.com/resource/3880
-*  Use naming convention for Les – applicable only for NextGIS Лес users, please ignore. 
+*  Use naming convention for Les – applicable only for NextGIS Les app users, please ignore. 
 
 Outputs:
 
@@ -1667,7 +1640,7 @@ Launch tool: https://toolbox.nextgis.com/operation/les_remote_sensing
 Russian cadaster extracts to map
 ----------------------------------------------------------
 
-Convert extracts from Russian Cadaster to webmap with one-direction sync. At next runs script detect changes in vector features and update or append new features. Features is no deleted. 
+Convert extracts from Russian Cadaster to webmap with one-direction sync. At next runs script detect changes in vector features and update or append new features. Features are not deleted. 
 
 
 Input:
@@ -1676,7 +1649,7 @@ Input:
 *  Web GIS link, example: https://sandbox.nextgis.com
 *  administrator or other Web GIS user login. User must have writing access
 *  User password
-*  Resource group id for data. User must create group pnly before frist run
+*  Resource group id for data. User must create group only before frist run
 
 Output:
 
@@ -1692,7 +1665,7 @@ Google sheets to Web GIS
 -------------------------
 
 Tool creates and updates point vector layer in NextGIS Web using Google Sheets.
-Table must contain 'lat and 'lon' fields and be accessible via shared link for reading.
+Table must contain 'lat' and 'lon' fields and be accessible via shared link for reading.
 Coordinate reference system - WGS84.
 
 Input:

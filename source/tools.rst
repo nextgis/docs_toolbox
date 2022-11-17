@@ -498,13 +498,13 @@ The tool merges many vector layers into one.
 
 Inputs:
 
-* ZIP archive with .shp, .geojson, .gpkg, .tab files. No sub-folders.
+* ZIP compressed file with .shp, .geojson, .gpkg, .tab layers. Files can be put into a single sub-folder.
 
 Outputs:
 
-* GeoPackage file with the result of the merge
+* GeoPackage file with the result of the merge.
 
-The tool has no limit on the number of initial layers. The name of the source layer is not saved.
+The tool has no limit on the number of input layers. The name of the source layer is currently not saved.
 
 Launch tool: https://toolbox.nextgis.com/operation/ogrmerge
 

@@ -1567,7 +1567,7 @@ forest_mask.tif * (land_temperature.tif < 30)
 
 Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/joinreforma/joinreforma.zip
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/JoinReforma
+Запуск инструмента: https://toolbox.nextgis.com/operation/joinreforma
 
 
 .. _toolbox_update_vector_layer:

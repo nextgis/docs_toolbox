@@ -1446,7 +1446,7 @@ A compressed file containing:
 
 Download an example of source data and result: https://nextgis.ru/data/toolbox/joinreforma/joinreforma.zip
 
-Launch tool: https://toolbox.nextgis.com/operation/JoinReforma
+Launch tool: https://toolbox.nextgis.com/operation/joinreforma
 
 
 

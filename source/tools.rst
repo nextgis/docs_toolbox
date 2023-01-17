@@ -1752,6 +1752,8 @@ KML в геоданные
 
 *  GeoTIFF обработанного снимка и стиль к нему, загруженные в Веб ГИС.
 
+Видео, показывающее получение снимков и загрузку в Веб ГИС https://youtu.be/vMFkarTFAk0.
+
 Запуск инструмента: https://toolbox.nextgis.com/operation/les_remote_sensing
 
 

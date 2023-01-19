@@ -1354,8 +1354,8 @@ Launch tool: https://toolbox.nextgis.com/operation/hello
 
 .. _toolbox_forest_declaration:
 
-Forest declaration in XML
--------------------------
+Forest declaration in XML for NextGIS Les users
+--------------------------------------------------
 
 This tool was developed for users of NextGIS Les app. It generates forest declaration in XML format, taking files, exported from NextGIS Les, as a basis.
 
@@ -1972,3 +1972,23 @@ and follow the instructions that appear. A URL will be generated where you can g
 Launch tool: https://toolbox.nextgis.com/operation/gee_classifier                     
    
 
+
+.. _toolbox_compile_forest_declaration:
+
+Forest declaration in XML from XLSX and PDF files
+--------------------------------------------------
+
+The tool compiles forest declaration in XML format from XLSX and PDF files. Specialized tool for forest users in Russia.
+
+
+Inputs:
+
+* XLSX files, filled according to templates
+* PDF files, prepared in third party software
+
+Outputs:
+
+* ZIP archive with XML file of forest declaration and supplement 3 and 4 in PDF format.
+* Forest declaration in PDF 
+
+Launch tool: https://toolbox.nextgis.com/operation/compile_forest_declaration

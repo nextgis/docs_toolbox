@@ -1997,3 +1997,55 @@ Outputs:
 * Forest declaration in PDF 
 
 Launch tool: https://toolbox.nextgis.com/operation/compile_forest_declaration
+
+
+.. _toolbox_ascii2geotiff:
+
+ASCII raster to GeoTIFF
+-------------------------------------------------
+
+Converts ASCII raster to GeoTIFF. 
+
+Launch tool:  https://toolbox.nextgis.com/operation/ascii2geotiff
+
+
+.. _toolbox_import_dwg:
+
+DWG to DXF
+-------------------------------------------------
+
+Converts DWG file into DXF that can be opened in QGIS. 
+
+Launch tool:  
+https://toolbox.nextgis.com/operation/import_dwg
+
+.. _toolbox_maxdist:
+
+Calculate max distance between polygon nodes
+-------------------------------------------------
+
+Adds an attribute to each polygon showing maximum distance between nodes. Distances are ellipsoidal Multipolygons are exploded. 
+
+Input: 1 geojson or geopackage file
+
+Launch tool: https://toolbox.nextgis.com/operation/maxdist
+
+.. _toolbox_lines2poly:
+
+Convert lines to polygons
+-------------------------------------------------
+
+Each line turns into a polygon. Straight lines are omitted.  Multilines are exploded to multiple features.
+
+Launch tool: https://toolbox.nextgis.com/operation/lines2poly
+
+.. _toolbox_flatten:
+
+Strip ZM from a vector layer
+-------------------------------------------------
+
+Convert vector layer to same format stripping ZM measurements.  I.e. convert geometries from PolygonZ into Polygon.
+
+Input: 1 geojson or geopackage file
+
+Launch tool: https://toolbox.nextgis.com/operation/flatten

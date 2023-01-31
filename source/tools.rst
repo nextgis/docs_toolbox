@@ -2024,7 +2024,7 @@ https://toolbox.nextgis.com/operation/import_dwg
 Calculate max distance between polygon nodes
 -------------------------------------------------
 
-Adds an attribute to each polygon showing maximum distance between nodes. Distances are ellipsoidal Multipolygons are exploded. 
+Adds an attribute to each polygon showing maximum distance between nodes. Distances are measured in meters along the edges. Multipolygons are exploded. 
 
 Input: 1 geojson or geopackage file
 

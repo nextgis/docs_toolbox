@@ -1347,16 +1347,16 @@ forest_mask.tif * (land_temperature.tif < 30)
 
 Пример использования:
 
-Каковы границы европейских государств на 1000-й год н. э.?
+Каковы границы России на 1598-й год н. э.?
 
 *  gis_url - https://demo.nextgis.com
-*  lines_id - 4702 (так как адрес слоя с полилиниями https://demo.nextgis.com/resource/4702/feature/)
-*  points_id - 4700 (так как адрес слоя с точками https://demo.nextgis.com/resource/4700/feature/)
-*  Запрашиваемый год - 1000
+*  lines_id - 6747 (так как адрес слоя с полилиниями https://demo.nextgis.com/resource/6747/feature/)
+*  points_id - 6749 (так как адрес слоя с точками https://demo.nextgis.com/resource/6749/feature/)
+*  Запрашиваемый год - 1598
 *  year_field - Year
 *  Поле результата - Result
-*  Поле с идентификаторами - fid_europe 
-*  Поле группировки - linecomnt
+*  Поле с идентификаторами - fid 
+*  Поле группировки - linecmnt
  
 .. figure:: _static/lines2polygons_lines_points_map.png
    :align: center

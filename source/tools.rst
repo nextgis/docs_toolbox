@@ -1225,30 +1225,30 @@ Launch tool: https://toolbox.nextgis.com/operation/lines2polygons
 
 Usage example:
 
-What are the borders of the European states for the 1000th year of n. e.?
+What are the borders of Russia for the 1598th year AD?
 
 *  gis_url - https://demo.nextgis.com
-*  lines_id - 4702 (as the address of the layer with polylines https://demo.nextgis.com/resource/4702/feature/)
-*  points_id - 4700 (since the address of the layer with points is https://demo.nextgis.com/resource/4700/feature/)
-*  The requested year - 1000
+*  lines_id - 6747 (as the address of the layer with polylines https://demo.nextgis.com/resource/6747/feature/)
+*  points_id - 6749 (since the address of the layer with points is https://demo.nextgis.com/resource/6749/feature/)
+*  The requested year - 1598
 *  year_field - Year
 *  Result Field - Result
-*  Field with identifiers - fid_europe 
-*  Grouping field - linecomnt
+*  Field with identifiers - fid 
+*  Grouping field - linecmnt
  
-.. figure:: _static/lines2polygons_lines_points_map.png
+.. figure:: _static/lines2polygons_lines_points_map2.png
    :align: center
    :width: 16cm
    
    Sample input data. Layers of polylines and dots 
    
-.. figure:: _static/lines2polygons_lines_table.png
+.. figure:: _static/lines2polygons_lines_table2.png
    :align: center
    :width: 16cm
    
    Sample input data. Polyline Layer Attributes Table  
    
-.. figure:: _static/lines2polygons_polygons_map_table.png
+.. figure:: _static/lines2polygons_polygons_map_table2.png
    :align: center
    :width: 16cm
    

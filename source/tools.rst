@@ -1358,19 +1358,19 @@ forest_mask.tif * (land_temperature.tif < 30)
 *  Поле с идентификаторами - fid 
 *  Поле группировки - linecmnt
  
-.. figure:: _static/lines2polygons_lines_points_map.png
+.. figure:: _static/lines2polygons_lines_points_map2.png
    :align: center
    :width: 16cm
    
    Пример исходных данных. Слои полилиний и точек 
    
-.. figure:: _static/lines2polygons_lines_table.png
+.. figure:: _static/lines2polygons_lines_table2.png
    :align: center
    :width: 16cm
    
    Пример исходных данных. Таблица атрибутов слоя полилиний  
    
-.. figure:: _static/lines2polygons_polygons_map_table.png
+.. figure:: _static/lines2polygons_polygons_map_table2.png
    :align: center
    :width: 16cm
    

@@ -2176,7 +2176,8 @@ DWG в DXF
 
 Пересохраняет векторный слой в такой же формат, удаляя ZM измерения. Например: из геометрий PolygonZ позволяет получить Polygon.
 
-На входе: 1 файл geojson, geopackage
+* На входе: 1 файл geojson, geopackage
+* На выходе: файл geojson или geopackage без Z координаты в геометрии
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/flatten
 

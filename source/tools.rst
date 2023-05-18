@@ -1648,6 +1648,13 @@ forest_mask.tif * (land_temperature.tif < 30)
 
 Конвертирование OSM XML в формат MP (т.е. "польский" формат). OSM XML можно взять на data.nextgis.com.
 
+На входе:
+
+* Файл в формате OSM
+
+На выходе:
+* Файл в "польском" формате с расширением .mp
+
 Запуск инструмента: https://toolbox.nextgis.com/operation/osm2mp
 
 

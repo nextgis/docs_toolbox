@@ -2099,6 +2099,6 @@ Input:
 * Archive with polygons in GeoJSON format, used for intersection with vector objects from SHP layers
 * An archive of vector layers with different types of geometry in the shp format
 
-The output:
+Output:
 
 * CSV-file containing the number of objects of each type from SHP files, intersected by each of the polygons from GeoJSON file

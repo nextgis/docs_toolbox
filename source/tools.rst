@@ -1653,6 +1653,7 @@ forest_mask.tif * (land_temperature.tif < 30)
 * Файл в формате OSM
 
 На выходе:
+
 * Файл в "польском" формате с расширением .mp
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/osm2mp

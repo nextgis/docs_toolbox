@@ -564,23 +564,6 @@ Launch tool: https://toolbox.nextgis.com/operation/intersect_layers
 Download an example of source data and result :download:`here <files/intersect_layer_example.zip>`.
 
 
-.. _toolbox_crossing_borders:
-
-Counting crossings with polygonal layers
----------------------------------------------------
-
-The tool counts the number of vector objects of different type in SHP format within specified polygons provided in GeoJSON format. The result is output as CSV files with identifiers derived from the polygonal file names.
-
-Input:
-
-* Archive with polygons in GeoJSON format, used for intersection with vector objects from SHP layers
-* An archive of vector layers with different types of geometry in the shp format
-
-The output:
-
-* CSV-file containing the number of objects of each type from SHP files, intersected by each of the polygons from GeoJSON file
-
-
 .. _toolbox_grid:
  
 Meter grid
@@ -2102,3 +2085,20 @@ Inputs:
 Outputs:
 
 ZIP archive with converted data
+
+
+.. _toolbox_crossing_borders:
+
+Counting crossings with polygonal layers
+---------------------------------------------------
+
+The tool counts the number of vector objects of different type in SHP format within specified polygons provided in GeoJSON format. The result is output as CSV files with identifiers derived from the polygonal file names.
+
+Input:
+
+* Archive with polygons in GeoJSON format, used for intersection with vector objects from SHP layers
+* An archive of vector layers with different types of geometry in the shp format
+
+The output:
+
+* CSV-file containing the number of objects of each type from SHP files, intersected by each of the polygons from GeoJSON file

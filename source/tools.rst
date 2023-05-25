@@ -1834,6 +1834,31 @@ KML в геоданные
 Запуск инструмента: https://toolbox.nextgis.com/operation/Googlesheets2layer
 
 
+
+.. _toolbox_table2geo:
+
+Таблица в векторный файл
+-------------------------------
+
+Конвертация файла электронной таблицы в векторный файл в выбраном формате.
+Таблица должна содержать поля 'lat'/'x' и 'lon'/'y'.
+Система координат - WGS84.
+
+На входе:
+
+*  Электронная таблица в форматах ODS, XSLX, CSV. Таблица открывается в LibreOffice, это позволяет инструменту открывать множество форматов.
+*  Опционально: Формат выходного файла. Один из ESRI SHAPEFILE, GEOPACKAGE, GEOJSON, TAB, MIF, SQL, CSV в любом регистре. Если поле оставить пустым, то будет ESRI SHAPEFILE
+*  Опционально: строка csvt - список типов полей через запятую без кавычек. Пример: String,Integer,String Это содержимое файла csvt для драйвера CSV в GDAL, описанного на https://gdal.org/drivers/vector/csv.html.
+
+На выходе:
+
+* zip архив с векторным файлом. Этот архив вы можете не распаковывая импортировать в NextGIS QGIS или NextGIS Web.
+
+`Пример таблицы <https://docs.google.com/spreadsheets/d/1cKvjCMBZajaortAkdQqVwQ_06LuLm3bHyvybJgmAeQg/edit?usp=sharing>`_ Для запуска примера: откройте ссылку, скачайте файл как ods, xls или csv.
+
+Запуск инструмента: https://toolbox.nextgis.com/operation/table2geo
+
+
 .. _toolbox_polysimplifier:
 
 Упрощение полигонов

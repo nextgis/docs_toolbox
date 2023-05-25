@@ -1699,6 +1699,31 @@ Output:
 Launch tool: https://toolbox.nextgis.com/operation/Googlesheets2layer
 
 
+.. _toolbox_table2geo:
+
+Table to vector file
+-------------------------------
+
+Convert spreadsheet file (XLSX, ODS, CSV) to vector file in several formats.
+Spreadsheet must contain fields lat/x , lon/y. Only frist page of file are used.
+Coordinate reference system - WGS84.
+
+Input:
+
+*  Spreadsheet file in ODS, XSLX, CSV formats.
+*  Optional: format of output vector file. One of ESRI SHAPEFILE, GEOPACKAGE, GEOJSON, TAB, MIF, SQL, CSV  in any register. When leaving blank, a ESRI SPAPEFILE format will used.
+*  Optional: csvt string - list of fields types, comma separated. Example: String,Integer,String. This is use in GDAL CSV driver as csvt file, as described on https://gdal.org/drivers/vector/csv.html.
+
+Output:
+
+* zip archive with vector file. You can import this file in NextGIS QGIS or NextGIS Web without unpacking
+
+
+`Sample table on Google Sheets <https://docs.google.com/spreadsheets/d/1cKvjCMBZajaortAkdQqVwQ_06LuLm3bHyvybJgmAeQg/edit?usp=sharing>`_ For run of sample: open link, save document as ODS format.
+
+Launch tool: https://toolbox.nextgis.com/operation/table2geo
+
+
 
 .. _toolbox_polysimplifier:
 

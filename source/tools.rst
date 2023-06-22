@@ -114,7 +114,16 @@ Launch tool: https://toolbox.nextgis.com/operation/split
 Updating layer attributes
 --------------
 
-Update attributes of shapefile(s) from attributes of another file(s)
+Update attributes of shapefile(s) from attributes of another file(s). The attributes of the shapefile(s) are updated based on the attributes of the other file(s). New objects are created if they are missing in the target shapefile.
+
+Input:
+* Source file (.csv) from which attributes and geometries will be taken.
+* Layer for update in ESRI Shapefile format packed in a ZIP-archive.
+* An additional layer in ESRI Shapefile format for updating packed in ZIP-archive (optional).
+
+Output:
+* Initial layer in ESRI Shapefile format with updated attributes and added objects from CSV file.
+* An additional layer in ESRI Shapefile format with updated attributes and added objects from the main Shapefile.
 
 Launch tool:  https://toolbox.nextgis.com/operation/update_attrs
 

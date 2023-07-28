@@ -2268,3 +2268,20 @@ Output:
 * ZIP-archive with tiles.
 
 Launch tool: https://toolbox.nextgis.com/operation/pointcloud2tileset
+
+
+.. _toolbox_grunt:
+
+Convert data about burial of sea bottom soil
+-----------------------------------------------
+Specialized tool for Russian users
+
+Input:
+
+* XLSX file - Contains coordinates of burial places
+
+Output:
+
+* GPKG file in WGS-84
+
+Launch tool: https://toolbox.nextgis.com/operation/grunt

@@ -75,29 +75,6 @@ Launch tool: https://toolbox.nextgis.com/operation/raster2tiles
 Download an example of source data and result :download:`here <files/raster2tiles_examples.zip>`.  
 
 
-.. _toolbox_fsc_compare:
- 
-Comparison between leased land boundaries and FSC data
--------------------------------------------
-   
-Tool is designed for tenants of forest areas, holding FSC certificate. The boundaries, downloaded by the tenants, are treated as reference and compared with FSC data. The outcome is two vector layers: with an area, attributed by FSC to the target tenant by mistake, and, oppositely, with an area not counted by FSC. Result files can be sent to FSC as a reason to correct information about leased land boundaries.
-
-Input:
-
-*  Vector layer (ZIP archive with ESRI Shapefile) with polygon or polygons determining land boundary.
-
-Output:
-
-* Two ZIP archives with vector layers: with an area, attributed by FSC to the target tenant by mistake, and, oppositely, with an area not counted by FSC. If no contradiction is found, vector layer will be linear, not polygonal. 
-
-Launch tool: https://toolbox.nextgis.com/operation/fsc_compare
-
-.. figure:: _static/ fsc_compare.png
-   :align: center
-   :width: 16cm
-   
-   Example of the result. In FSC data several sectors falsely attributed to the target tenant.
-
 
 .. _toolbox_split_alarm:
 
@@ -200,15 +177,6 @@ Evaluation of movement accessibility for arbitrary trajectory (the travel is not
 
 Launch tool: https://toolbox.nextgis.com/operation/TravelAccess
 
-
-.. _toolbox_irbis:
-
-Irbis - summaries
------------------
-
-Provide reports based on collected field data on irbis monitoring.
-
-Launch tool:  https://toolbox.nextgis.com/operation/irbis
 
 
 .. _toolbox_ngw_intersect:

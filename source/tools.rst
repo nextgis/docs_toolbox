@@ -1682,22 +1682,22 @@ Launch tool: https://toolbox.nextgis.com/operation/Dezhurcad
 
 .. _toolbox_googlesheets2layer:
 
-Google sheets to Web GIS
+Google Sheets to Web GIS
 -------------------------
 
-Tool creates and updates point vector layer in NextGIS Web using Google Sheets.
-Table must contain 'lat' and 'lon' fields and be accessible via shared link for reading.
+Tool creates or updates point vector layer in NextGIS Web using Google Sheets.
+Spreadsheet must contain 'lat' and 'lon' fields and be accessible for reading via shared link.
 Coordinate reference system - WGS84.
 
 Input:
 
-*  Web GIS link, example: https://sandbox.nextgis.com
-*  Web GIS user login. User must have writing access
-*  Web GIS User password
-*  Vector layer ID to update. Use '0' to create new vector layer
-*  Resource group id for data. Use only to create new layer, not to update of existing
-*  Google Sheets ID (eg '1cKvjCMBZajaortAkdQqVwQ_06LuLm3bHyvybJgmAeQg') or URL. This link should be accessible for data reading.
-*  Mode - ADD or REPLACE new/existing layer
+*  Web GIS link, example: https://sandbox.nextgis.com.
+*  Web GIS user login. User must have writing access.
+*  Web GIS User password.
+*  Vector layer ID to update. Use '0' to create new vector layer.
+*  Resource group ID. Specify the group to upload layer to. Use only if creating a new layer.
+*  Google Sheets ID (e.g. '1cKvjCMBZajaortAkdQqVwQ_06LuLm3bHyvybJgmAeQg') or URL. This link should be accessible for data reading.
+*  Mode: ADD - to append data to existing layer or to create a new layer; REPLACE - to rewrite existing layer.
 
 Output:
 

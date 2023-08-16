@@ -13,17 +13,16 @@ Tools
 Split into equal parts
 ----------------------
 
-Split polygon layer into equal parts.
+Tool splits all objects of polygon layer into parts with equal area.
 
 Inputs:
 
-* Source shapefile. Zipped polygonal shapefile for splitting.
-* Density shapefile. Layer for density accounting  when splitting in zipped shapefile format.
-* Number of parts. The number of parts into which to split source shapefile.
+* Shapefile - polygon layer to be splitted. Should be in ESRI Shapefile format and packed in ZIP-archive.
+* Number of parts - specify, into how many parts source Shapefile should be splitted.
 
 Outputs:
 
-* Polygons with approximately equal area.
+* ZIP-archive with modified Shapefile, where initial polygons are splitted into specified number of parts with equal area, and each part is an individual polygon itself. 
 
 Launch tool: https://toolbox.nextgis.com/operation/split_to_equal
 

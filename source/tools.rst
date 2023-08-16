@@ -1767,40 +1767,6 @@ Launch tool: https://toolbox.nextgis.com/operation/import_egrn
 Download an example of source data and result: https://nextgis.ru/data/toolbox/import_egrn/import_egrn.zip
 
 
-
-.. _toolbox_dem:
-
-DEM data package
-----------------
-  
-Generates elevation package.
-
-Inputs:
-
-* Elevation step. Integer value.
-* Database. Choice from: ALOS, GMTED, GEBCO.
-* Cropping boundary. Upload a compressed (zip) or uncompressed GeoJSON file (EPSG: 4326).
-
-The result of the process is a set of layers:
-
-* Elevation contours (isolines) with a given step
-* Digital elevation model (30 m resolution, if the area is below 60 ° N, 250 m if above)
-* Hillshading (same resolution as DEM)
-
-Launch tool: https://toolbox.nextgis.com/operation/dem
-
-Download sample results: https://demo.nextgis.com/api/resource/4548/export?zipped=true&format=shp
-
-View the results on an interactive map: https://demo.nextgis.com/resource/4108/display?panel=info
-
-.. figure:: _static/isolines_sample.png
-   :align: center
-   :width: 16cm
-   
-   Example of the output
-
-
-
 .. _toolbox_ngw_copy_layer:
  
 Duplicate nextgis.com vector layer
@@ -1858,47 +1824,6 @@ A description of the layers is given at https://data.nextgis.com/en/cadastre/#re
 Launch tool: https://toolbox.nextgis.com/operation/pkk_kpt
 
 Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/kpt2geo/kpt2geo.zip
-
-
-.. _toolbox_last_img:
- 
-Last GEE imagery
-----------------
-   
-The tool requests an image’s metadata of the user-specified Google Earth Engine image collection (images are analyzed within a fixed area), starting from a given date.
-
-Inputs:
-
-*  The name of the collection in GEE format (for example, LANDSAT / LC08 / C01 / T1_SR)
-*  Start date: collection images created earlier than this date are ignored. Metadata is returned from images created later than the date. Date format: YYYY-MM-DD
-*  The archive (zip) of the GEE access file can usually be found in the user's home directory (.config / earthengine / credentials)
-
-Outputs:
-
-*  Metadata for requested images
-*  The output data format is JSON (packed in zip)
-
-Launch tool: https://toolbox.nextgis.com/operation/last_img
-
-
-
-.. _toolbox_osmclip_bbox:
-
-Clip PBF file by bbox
----------------------
-
-The tool downloads PBF (openstreetmap format - https://wiki.openstreetmap.org/wiki/RU:PBF_Format) and crops it along the Bounding Box (bbox) border. 
-
-Inputs:
-
-*  The url where the pbf file is located. Example - https://download.geofabrik.de/europe/malta-latest.osm.pbf (Malta, 4 Mb)
-*  Bounding Box in CSV format. Example - 14.5013,35.887,14.5066,35.899 (coordinates of the lower left and upper right corner of the frame). The bbox line can be taken here - https://boundingbox.klokantech.com/ 
- 
-Outputs:
-
-*  Bounding Box cropped pbf file
-
-Launch tool: https://toolbox.nextgis.com/operation/osmclip_bbox
 
 
 .. _toolbox_gee_classifier:

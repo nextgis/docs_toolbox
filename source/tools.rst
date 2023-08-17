@@ -86,17 +86,6 @@ Launch tool: https://toolbox.nextgis.com/operation/raster2tiles
 Download an example of source data and result :download:`here <files/raster2tiles_examples.zip>`.  
 
 
-
-.. _toolbox_split_alarm:
-
-Export ALARM data for KEDR system
------------------------
-
-Postprocessing of ALARM data to conform KEDR requirements. Setup propriate data format and BBoxes. 
-
-Launch tool: https://toolbox.nextgis.com/operation/split
-
-
 .. _toolbox_forestplots_field:
 
 Create forestplots scheme for Garmin
@@ -158,17 +147,6 @@ View the source data and the results of calculations on an interactive map: http
    :width: 16cm
 
    An example of the result of the tool’s usage
-
-
-.. _toolbox_travel_access:
-
-Movement accessibility
-------------
-
-Evaluation of movement accessibility for arbitrary trajectory (the travel is not limited to the graph of roads). 
-
-Launch tool: https://toolbox.nextgis.com/operation/TravelAccess
-
 
 
 .. _toolbox_ngw_intersect:

@@ -1820,15 +1820,15 @@ KML в геоданные
 
 На входе:
 
-*  Электронная таблица в форматах ODS, XSLX, CSV. Таблица открывается в LibreOffice, это позволяет инструменту открывать множество форматов.
-*  Опционально: Формат выходного файла. Один из ESRI SHAPEFILE, GEOPACKAGE, GEOJSON, TAB, MIF, SQL, CSV в любом регистре. Если поле оставить пустым, то будет ESRI SHAPEFILE
-*  Опционально: строка csvt - список типов полей через запятую без кавычек. Пример: String,Integer,String Это содержимое файла csvt для драйвера CSV в GDAL, описанного на https://gdal.org/drivers/vector/csv.html.
+*  Электронная таблица в форматах ODS, XLSX, CSV. Таблица открывается в LibreOffice, это позволяет инструменту открывать множество форматов.
+*  Опционально: Формат выходного файла. Один из ESRI SHAPEFILE, GEOPACKAGE, GEOJSON, TAB, MIF, SQL, CSV в любом регистре. Если поле оставить пустым, то будет ESRI SHAPEFILE.
+*  Опционально: строка csvt - список типов полей через запятую без кавычек. Пример: String,Integer,String. Это содержимое файла csvt для драйвера CSV в GDAL, описанного на https://gdal.org/drivers/vector/csv.html.
 
 На выходе:
 
-* zip архив с векторным файлом. Этот архив вы можете не распаковывая импортировать в NextGIS QGIS или NextGIS Web.
+* ZIP-архив с векторным файлом. Этот архив вы можете, не распаковывая, импортировать в NextGIS QGIS или NextGIS Web.
 
-`Пример таблицы <https://docs.google.com/spreadsheets/d/1cKvjCMBZajaortAkdQqVwQ_06LuLm3bHyvybJgmAeQg/edit?usp=sharing>`_ Для запуска примера: откройте ссылку, скачайте файл как ods, xls или csv.
+`Пример таблицы <https://docs.google.com/spreadsheets/d/1cKvjCMBZajaortAkdQqVwQ_06LuLm3bHyvybJgmAeQg/edit?usp=sharing>`_. Для запуска примера: откройте ссылку, скачайте файл как ODS, XLSX или CSV.
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/table2geo
 

@@ -13,7 +13,7 @@ Tools
 Split into equal parts
 ----------------------
 
-Tool splits all objects of polygon layer into parts with equal area.
+Tool splits all objects of polygon layer into parts with equal area. Note: tool doesn't process multipolygons.
 
 Inputs:
 

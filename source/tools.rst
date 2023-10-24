@@ -2070,3 +2070,23 @@ Output:
 * GPKG file in WGS-84
 
 Launch tool: https://toolbox.nextgis.com/operation/grunt
+
+
+
+.. _toolbox_egrn_kvartals_cover:
+
+Cadastral plan of the territory
+-----------------------------------------------
+The tool forms list of ID of cadastral units. Valid for the territory of Russia.
+
+Input:
+
+* Area of interest - polygon in GeoJSON format.
+* Mode - choose between kpt and kvzu.
+
+Output:
+
+* CSV file
+
+Launch tool: https://toolbox.nextgis.com/operation/egrn_kvartals_cover
+

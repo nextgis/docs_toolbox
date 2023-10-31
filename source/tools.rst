@@ -455,11 +455,11 @@ Merge vector layers
 
    Initial and resulting data
    
-The tool merges many vector layers into one.
+The tool merges many vector layers into one. Layers should be of same geometry type.
 
 Inputs:
 
-* ZIP compressed file with .shp, .geojson, .gpkg, .tab layers. Files can be put into a single sub-folder.
+* ZIP archive with .shp, .geojson, .gpkg, .tab layers. You can combine files of different formats and coordinate reference systems together in one set. Inside archive files can also be stored in additional common folder.
 
 Outputs:
 

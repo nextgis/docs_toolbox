@@ -1430,35 +1430,30 @@ Launch tool: https://toolbox.nextgis.com/operation/joinreforma
 Update a Web GIS layer from a CSV
 ---------------------------------
 
-Update an existing Web GIS layer with uploaded CSV file. It is possible to completely REPLACE or ADD data.
-In ADD mode the tool adds features from a CSV to already existing features. In REPLACE mode the tool completely wipes already existing features first and then adds features from CSV.
-Data structure in CSV and target layer should match. Feature coordinates in CSV should be in WGS84 (EPSG:4326). Fields for coordinates should be named lat and lon. If one or both of the coordinates are missing the feature will be skipped. If coordinates can't be parsed the tool will raise and error and tell the row number.
-If the table contains dates, they must be written in `ISO <https://docs.python.org/3/library/datetime.html#datetime.datetime.isoformat>`_ format. For example - 2019-05-18T15:17:08.132263
+Update an existing Web GIS layer using uploaded CSV file. Works only with point vector layers. It is possible either to add data to existing one or to replace existing features.
+Data structure of CSV file should be the same as of target Web GIS layer. 
 
 Inputs:
 
-* Web GIS address - Use https://*.nextgis.com notation.
-* Login - Web GIS user login. User must have permissions to update the resource.
-* Password - Web GIS user password
-* Vector layer ID - Vector layer resource identifier.
-* CSV file - Choose CSV file
-* First line number - Line number where data starts. First line is the header with field names (optional).
-* CSV separator - symbol used to separate values in CSV file (optional). Default is ;
-* Mode - Use Add to add to the data and Replace to completely replace existing data.
-
-.. note::
-    First line number and Separator are optional. Default values are 1 and ;. First line number 1 means that CSV file will be read right from the beginning. Other parameters and mandatory.
+* Web GIS address - Your Web GIS URL, e.g. https://demo.nextgis.com.
+* Login - Web GIS user login.
+* Password - Web GIS user password.
+* Vector layer ID - Please specify the number corresponding to the target layer, you can find it in address bar of the browser. For instance, corresponding number for resource “Matter levels” is 5150 since its address is https://demo.nextgis.com/resource/5150.
+* CSV file - file with coordinates of the points. Fields with latitude and longitude should be named lat and lon, respectively. Coordinates should be in WGS84 (EPSG:4326). If the table contains dates, they must be written in `ISO <https://docs.python.org/3/library/datetime.html#datetime.datetime.isoformat>`_ format, for example, 2019-05-18T15:17:08.132263.
+* CSV separator - symbol used to separate values in CSV file, for example, ; (semicolon). 
+* Mode - Use Add to add features to already existing ones, and Replace to completely replace existing data. Case-insensitive.
 
 Outputs:
 
-* CSV report showing ID of the updated layer, selected mode, number of uploaded features and hyperlink to updated layer in Web GIS.
+* Updated vector layer in Web GIS.
+* CSV report, showing ID of the updated layer, selected mode, number of uploaded features and hyperlink to updated layer in Web GIS.
 
 Troubleshooting
 
 * Invalid type error - incorrect resource ID. Specify vector layer resource ID, not resource group containing the layer.
 * Invalid type of the layer - incorrect layer type. Only vector layers can be used.
-* Invalid operation mode - incorrect mode. You can only type in Replace or Add. Case-insensitive.
-* Invalid geometry type - target layer geometry is not point. This tool works for points only.
+* Invalid operation mode - incorrect mode. You can only type in Replace or Add. 
+* Invalid geometry type - target layer geometry is not point.
 * Invalid structure of the layer - data structures of CSV and target layer mismatch.
 
 Launch tool: https://toolbox.nextgis.com/operation/update_vector_layer

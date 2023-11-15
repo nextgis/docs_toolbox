@@ -1481,8 +1481,8 @@ forest_mask.tif * (land_temperature.tif < 30)
 
 На входе:
 
-* API-ключ из https://geoservices.nextgis.com/settings/profile (Settings -> Profile)
-* Текстовый файл (*.txt) с номерами объектов. Одна строка - один кадастровый номер
+* API-ключ из https://geoservices.nextgis.com/settings/profile (Settings -> Profile).
+* Текстовый файл (*.txt) с номерами объектов. Одна строка - один кадастровый номер. Максимально возможное количество номеров - 100.
 
 На выходе:
 

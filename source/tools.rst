@@ -1887,7 +1887,7 @@ Launch tool: https://toolbox.nextgis.com/operation/flatten
 Convert forest declaration into geodata
 -------------------------------------------------
 
-Converts XML with forest declaration into vector layer. Specialized tool for forest users in Russia.
+Converts XML with forest declaration into vector layer.
 
 Inputs:
 
@@ -2054,7 +2054,7 @@ Launch tool: https://toolbox.nextgis.com/operation/pointcloud2tileset
 
 Convert data about burial of sea bottom soil
 -----------------------------------------------
-Specialized tool for Russian users
+Tool converts data from `catalog <https://rpn.gov.ru/opendata/7703381225-grunt?sphrase_id=1181168>`_ into vector file.  
 
 Input:
 
@@ -2072,7 +2072,7 @@ Launch tool: https://toolbox.nextgis.com/operation/grunt
 
 Cadastral plan of the territory
 -----------------------------------------------
-The tool forms list of ID of cadastral units. Valid for the territory of Russia.
+The tool forms list of ID of cadastral units.
 
 Input:
 

@@ -1613,19 +1613,19 @@ Launch tool: https://toolbox.nextgis.com/operation/les_remote_sensing
 
 .. _toolbox_dezhurcad:
 
-Russian cadaster extracts to map
+Rosreestr extracts to map
 ----------------------------------------------------------
 
-Convert extracts from Russian Cadaster to webmap with one-direction sync. At next runs script detect changes in vector features and update or append new features. Features are not deleted. 
+The tool converts extracts from `Rosreestr <https://rosreestr.gov.ru>`_ to web map with one-direction sync. During next runs script detects changes in vector features and updates or appends new features. Features are not deleted. 
 
 
 Input:
 
-*  Russian Cadaster extract - one xml or zip
+*  Rosreestr extract - one xml or zip
 *  Web GIS link, example: https://sandbox.nextgis.com
-*  administrator or other Web GIS user login. User must have writing access
+*  Administrator or other Web GIS user login. User must have writing access
 *  User password
-*  Resource group id for data. User must create group only before frist run
+*  Resource group id for data. User must create group only before very first run
 
 Output:
 

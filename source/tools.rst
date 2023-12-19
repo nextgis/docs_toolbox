@@ -1901,20 +1901,31 @@ ZIP archive with converted data
 
 .. _toolbox_crossing_borders:
 
-Counting crossings with polygonal layers
+Counting intersections with polygon layers
 ---------------------------------------------------
 
-The tool counts the number of vector objects of different type in SHP format within specified polygons provided in GeoJSON format. The result is output as CSV files with identifiers derived from the polygonal file names.
+The tool counts the number of intersections between 2 sets of layers, one of the sets should contain only polygons. In other words, the tool finds, how many objects lay within area of interest, defined by polygons. The result is CSV file with information about each polygon.
 
 Input:
 
-* Archive with polygons in GeoJSON format, used for intersection with vector objects from SHP layers
-* An archive of vector layers with different types of geometry in the shp format
+* Area of interest - a set with one or several GeoJSON files, packed in ZIP-archive. Each file should consist only of 1 polygon. Names of the files will be displayed in resulting CSV.
+* Objects - one or several vector layers of any geometry type (could differ among layers) in Esri Shapefile format. Layer or layers should be packed in ZIP-archive.
 
 Output:
 
-* CSV-file containing the number of objects of each type from SHP files, intersected by each of the polygons from GeoJSON file
+* CSV file with information, how many objects and of which geometry type lay within each polygon. 
 
+
+.. figure:: _static/crossing_borders_1.png
+   :align: center
+   :width: 16cm
+
+   Resulting CSV
+
+
+Samples of :download:`input <files/crossing_borders_input_example.zip>` and :download:`output <files/crossing_borders_output.csv>` data.
+
+Launch tool: https://toolbox.nextgis.com/operation/crossing_borders
 
 .. _toolbox_add_lesobject_layer:
 

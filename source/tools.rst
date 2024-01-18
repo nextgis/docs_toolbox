@@ -2238,4 +2238,4 @@ collector_project – проект Collector
 
 * Файл GeoPackage в системе координат WGS 84, кодировка для атрибутов - UTF-8.
 
-Запуск инструмента: https://toolbox.nextgis.com/https://toolbox.nextgis.com/operation/ngw_to_gpkg
+Запуск инструмента: https://toolbox.nextgis.com/operation/ngw_to_gpkg

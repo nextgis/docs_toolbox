@@ -1,0 +1,25 @@
+Counting intersections with polygon layers
+==========================================
+
+The tool counts the number of intersections between 2 sets of layers, one of the sets should contain only polygons. In other words, the tool finds, how many objects lay within area of interest, defined by polygons. The result is CSV file with information about each polygon.
+
+Input:
+
+* Area of interest - a set with one or several GeoJSON files, packed in ZIP-archive. Each file should consist only of 1 polygon. Names of the files will be displayed in resulting CSV.
+* Objects - one or several vector layers of any geometry type (could differ among layers) in Esri Shapefile format. Layer or layers should be packed in ZIP-archive.
+
+Output:
+
+* CSV file with information, how many objects and of which geometry type lay within each polygon. 
+
+
+.. figure:: _static/crossing_borders_1.png
+   :align: center
+   :width: 16cm
+
+   Resulting CSV
+
+
+Samples of :download:`input <files/crossing_borders_input_example.zip>` and :download:`output <files/crossing_borders_output.csv>` data.
+
+Launch tool: https://toolbox.nextgis.com/operation/crossing_borders

@@ -1,0 +1,27 @@
+Координаты центра в атрибуты
+============================
+
+Инструмент рассчитывает центр полигона (PointOnSurface), добавляет поля point_X, point_Y с координатами точки, гарантировано находящейся внутри полигона. Работает только с полигонами.
+
+На входе:
+
+* Полигональный слой - векторный слой в одном из поддерживаемых GDAL форматов, например, Shapefile в ZIP-архиве, GeoJSON, GeoPackage.
+
+На выходе:
+
+* ZIP-архив с shp-файлом слоя полигонов, содержащим два новых поля point_X, point_Y 
+* Файл стиля .qml
+
+.. figure:: _static/point_on_surface.png
+   :align: center
+   :width: 16cm
+
+   Пример исходных данных - точки и полигоны регионов.
+   
+.. figure:: _static/point_on_surface_attributes.png
+   :align: center
+   :width: 16cm
+   
+Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/centroid2attr/centroid2attr.zip
+
+Запуск инструмента: https://toolbox.nextgis.com/operation/centroid2attr

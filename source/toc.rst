@@ -81,3 +81,4 @@ Contents:
    grunt
    egrn_kvartals_cover
    ngw_to_gpkg
+   mapinfo2qgis

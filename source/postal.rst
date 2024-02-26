@@ -12,4 +12,5 @@ Output:
 * Alternated CSV file, containing initial data as well as address elements divided into separate columns. 
 
 Launch the tool: https://toolbox.nextgis.com/operation/postal
+
 :download:`Example <files/example_postal.zip>` of a source and result data.

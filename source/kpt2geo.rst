@@ -18,7 +18,7 @@ Outputs:
 
 * zip archive with the QGIS project and geodata
 
-The archive contains directories: a geodata directory in the local coordinate system (msk), a geodata directory in EPSG: 4326 (wgs) and a project for QGIS with data in EPSG: 4326 with the design.
+The archive contains directories: a geodata directory in the original coordinate system, a geodata directory in EPSG: 4326 (wgs) and a project for QGIS with data in EPSG: 4326 with the design.
 
 A description of the layers is given at https://data.nextgis.com/en/cadastre/#region-layers
 

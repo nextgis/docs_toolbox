@@ -83,3 +83,4 @@ Contents:
    ngw_to_gpkg
    mapinfo2qgis
    postal
+   water_usage

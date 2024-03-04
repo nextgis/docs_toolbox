@@ -1,4 +1,4 @@
-Vector files from Web GIS to GeoPackage
+Vector layers from Web GIS to GeoPackage
 =======================================
 
 The tool agglomerates all vector layers from the target resource group in Web GIS into one GeoPackage file, available for download.

@@ -84,3 +84,4 @@ Contents:
    mapinfo2qgis
    postal
    water_usage
+   embedsvg

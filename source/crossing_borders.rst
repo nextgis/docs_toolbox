@@ -7,6 +7,8 @@ Input:
 
 * Area of interest - a set with one or several GeoJSON files, packed in ZIP-archive. Each file should consist only of 1 polygon. Names of the files will be displayed in resulting CSV.
 * Objects - one or several vector layers of any geometry type (could differ among layers) in Esri Shapefile or GeoPackage format. Layer or layers should be packed in ZIP-archive.
+* Group by layer - optional field. If the box is checked, data in CSV will be grouped by objects' layers. Otherwise - by geometry types of the objects.
+* Separate records - optional field. If the box is checked, each category value (layers or geometry types, depending on the choice above) will be put into a separate record.
 
 Output:
 

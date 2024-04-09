@@ -13,8 +13,11 @@
 
 .. note::
     **Как получить API ключ для геокодера**
+
     Яндекс.Геокодер -  https://developer.tech.yandex.ru/services/
+
     Geocoding API от Google - https://developers.google.com/maps/documentation/geocoding/usage-and-billing
+
 
 
 На выходе:

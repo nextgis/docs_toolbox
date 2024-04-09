@@ -1,21 +1,26 @@
 Geocode a table
 ===============
 
-Add two coordinates for every address in the input table.
+The tool processes addresses from a CSV file and adds its coordinates back to the file. A relevant geocoding license is needed.
 
 Inputs:
 
-*  CSV file - input data in CSV format, first row is for field names. Encoding - UTF-8.
-*  Address field name - name of the table field that contains addresses.
-*  API key 
+*  Source data - CSV file with a list of addresses. First row should contain field names. File should be in UTF-8 encoding.
+*  Field with address - name of the field that contains addresses in a source CSV file.
+*  Geocoder - specify one of the two available geocoder providers: Google or Yandex. Case insensitive. 
+*  API key - API key to run chosen geocoder.
 
-Currently two geocoding services are supported:
+.. note::
+    **How to get geocoder API key**
 
-1. Google Geocoding API (see https://developers.google.com/maps/documentation/geocoding/usage-and-billing)
-2. Yandex.Geocoder service API key (JavaScript API and HTTP Geocoder), get one here: https://developer.tech.yandex.ru/services/. All limitations apply.
+    Yandex.Geocoder -  https://developer.tech.yandex.ru/services/
+
+    Google Geocoding API - https://developers.google.com/maps/documentation/geocoding/usage-and-billing
+
+
 
 Outputs:
 
-*  Input CSV file + two additional field containinf latitude and longitude for each address.
+*  CSV file, containing two additional columns with latitude and longitude besides original data.
 
-Launch tool: https://toolbox.nextgis.com/operation/geocodetable
+Launch the tool: https://toolbox.nextgis.com/operation/geocodetable

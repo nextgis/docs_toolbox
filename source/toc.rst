@@ -84,3 +84,4 @@
    postal
    water_usage
    embedsvg
+   predict_overpass

@@ -1,9 +1,13 @@
 Strip ZM from a vector layer
 ============================
+The tool converts vector file to same format stripping ZM measurements. E.g., converts geometries from PolygonZ into Polygon.
 
-Convert vector layer to same format stripping ZM measurements.  I.e. convert geometries from PolygonZ into Polygon.
+Input: 
 
-* Input: 1 geojson or geopackage file
-* Output: geojson or geopackage file without Z coordinates in geometry
+* Source data - vector file in GeoPackage or GeoJSON format. Geometries could contain Z and/or M measurements.
+
+Output:
+
+* GeoPackage or GeoJSON file without ZM coordinates in geometry.
 
 Launch tool: https://toolbox.nextgis.com/operation/flatten

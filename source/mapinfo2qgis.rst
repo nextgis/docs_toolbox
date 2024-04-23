@@ -5,7 +5,7 @@ Despite that QGIS is able to work with  MapInfo TAB without any preliminary tran
 
 Inputs:
 
-* Source file - ZIP-archive with MapInfo TAB
+* Source file - ZIP-archive with MapInfo TAB. If archive also includes WOR file, it should be in the root of the archive, do not add it to any directory.
 
 Output:
 

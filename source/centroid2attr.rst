@@ -16,7 +16,6 @@
    :align: center
    :width: 16cm
 
-   Пример исходных данных - точки и полигоны регионов.
    
 .. figure:: _static/point_on_surface_attributes.png
    :align: center

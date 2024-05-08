@@ -27,20 +27,5 @@
 
    Изменение пространственного разрешения снимка Sentinel-2 с 10 до 2 метров 
    
-Пример исходных данных:
 
-*  Сцена S2A_MSIL1C_20191109T072121_N0208_R006_T41VLD_20191109T084554
-* Каналы 4,3,2
-*  файл
-
-```
-{
-"type": "FeatureCollection",
-"name": "ekb",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 60.46, 56.77 ], [ 60.7, 56.77 ], [ 60.7, 56.92 ], [ 60.46, 56.92 ], [ 60.46, 56.77 ] ] ] } }
-]
-}
-```
  

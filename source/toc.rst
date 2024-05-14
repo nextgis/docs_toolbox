@@ -85,3 +85,4 @@
    water_usage
    embedsvg
    predict_overpass
+   webmap2qgis

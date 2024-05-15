@@ -88,3 +88,4 @@ Contents:
    predict_overpass
    webmap2qgis
    vector2datalens
+   removecontents

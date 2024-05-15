@@ -11,3 +11,5 @@
 * CSV-файл с описанием исходных геоданных, готовый для импорта в DataLens.
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/vector2datalens
+
+:download:`Пример <files/vector2datalens_example.zip>` исходных данных и результата.

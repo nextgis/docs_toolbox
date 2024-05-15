@@ -86,4 +86,5 @@
    embedsvg
    predict_overpass
    webmap2qgis
+   removecontents
    vector2datalens

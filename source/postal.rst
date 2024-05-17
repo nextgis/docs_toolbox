@@ -12,6 +12,8 @@
 
 * Преобразованный файл CSV, содержащий исходную информацию и компоненты адреса, разнесенные в отдельные столбцы.
 
+`Видео <https://youtu.be/P7uJTYqgG-U?si=dmEzsMYvYUGGYyAy>`_
+
 Запуск инструмента: https://toolbox.nextgis.com/operation/postal
 
 :download:`Пример <files/example_postal.zip>` исходных данных и результата преобразования.

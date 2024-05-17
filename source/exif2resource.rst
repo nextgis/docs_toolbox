@@ -15,6 +15,8 @@
 
 * Новый векторный слой, где каждой фото соответствует точка и к этой точке приложено само фото в виде приложения.
 
+`Видео <https://youtu.be/7LHXa_8IUzo?si=jPoPYN6fzczblRCw>`_
+
 Запуск инструмента: https://toolbox.nextgis.com/operation/exif2resource
 
 Пример исходных данных: https://nextgis.ru/data/toolbox/exif2resource/exif2resource.zip

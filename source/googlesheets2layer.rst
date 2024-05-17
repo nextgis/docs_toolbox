@@ -19,7 +19,7 @@
 
 * Созданный/обновленный слой в Веб ГИС
 
-`Видео <https://youtu.be/MbZ1ZulLYcU?si=Hi70Bb4WQmeQTWDc>`_
+`Видео про Google Sheets <https://youtu.be/MbZ1ZulLYcU?si=Hi70Bb4WQmeQTWDc>`_, `Видео про Яндекс Таблицу <https://youtu.be/QcF7UGVVr5M?si=K3Fv2eezpk3WJzMb>`_
 
 `Пример таблицы <https://docs.google.com/spreadsheets/d/1cKvjCMBZajaortAkdQqVwQ_06LuLm3bHyvybJgmAeQg/edit?usp=sharing>`_
 

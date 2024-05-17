@@ -12,6 +12,8 @@
 
 * Векторный слой с результатами вычитания областей из исходного слоя.
 
+`Видео <https://youtu.be/-SoRofcKSb4?si=WzX6Y9jRcchZR-qC>`_
+
 Запуск инструмента: https://toolbox.nextgis.com/operation/eraser
 
 Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/eraser/eraser.zip

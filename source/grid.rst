@@ -62,5 +62,6 @@
 
 * Geopackage
 
+`Видео <https://youtu.be/v5WXJ7fhS9k?si=SrYXZERbxCcApcif>`_
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/grid

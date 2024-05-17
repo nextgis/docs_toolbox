@@ -16,4 +16,6 @@
 
 * Слои и веб-карта в Веб ГИС. При обновлении веб-карты также обновляется ее охват, с учетом добавленных объектов.
 
+`Видео <https://youtu.be/3wHFbP5-t8k?si=Z37abTXkXb4MCw7n>`_
+
 Запуск инструмента: https://toolbox.nextgis.com/operation/Dezhurcad

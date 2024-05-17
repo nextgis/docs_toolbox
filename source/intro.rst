@@ -11,7 +11,7 @@ Introduction
 Purpose
 -------
 
-**NextGIS Toolbox** is a collection of tools.
+**NextGIS Toolbox** is a collection of tools. `Video <https://youtu.be/MKzXvaPbGJY?si=iJxNjKjfzeU1EXhX>`_
 
 .. _toolbox_launch_conditions:
 
@@ -20,9 +20,5 @@ Purpose
 
 Installation and running
 ------------------------
-
-.. note::
-
-   Launching tools is available only for Premium account holders. Team members are not yet able to use them.
 
 You don't need to install anything to run NextGIS Toolbox tool. All tools can be run via browser.

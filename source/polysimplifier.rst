@@ -12,6 +12,8 @@
 
 * GeoJSON с упрощенной геометрией
 
+`Видео <https://youtu.be/X3jrMnyqKQE?si=7n-LX4z5Zwbn2lvx>`_
+
 Запуск инструмента: https://toolbox.nextgis.com/operation/polysimplifier
 
 Пример исходных данных и результат: https://nextgis.ru/data/toolbox/polysimplifier/polysimplifier.zip

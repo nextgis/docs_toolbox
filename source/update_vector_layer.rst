@@ -27,4 +27,6 @@
 * Ошибка Invalid geometry type - геометрия слоя содержит объекты, отличные от точки. Инструмент позволяет обновлять только точечные слои.
 * Ошибка Invalid structure of the layer указывает на различие в структурах загруженного CSV-файла и слоя Веб ГИС.
 
+`Видео <https://youtu.be/CmMcSA0-QIg?si=kGNTNcPvUBlmKSPY>`_
+
 Запуск инструмента: https://toolbox.nextgis.com/operation/update_vector_layer

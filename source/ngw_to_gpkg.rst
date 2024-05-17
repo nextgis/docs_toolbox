@@ -14,4 +14,6 @@
 
 * Файл GeoPackage в системе координат WGS 84, кодировка для атрибутов - UTF-8.
 
+`Видео <https://youtu.be/Cfs4IQB5F8k?si=K0SQj9TcZs5URTQf>`_
+
 Запуск инструмента: https://toolbox.nextgis.com/operation/ngw_to_gpkg

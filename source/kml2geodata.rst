@@ -18,6 +18,8 @@ KML в геоданные
 
 Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/kml2geodata/kml2geodata.zip
 
+`Видео <https://youtu.be/Qggg-0qqOs4?si=QjeK0q4BK8gGJOqz>`_
+
 Запуск инструмента: https://toolbox.nextgis.com/operation/kml2geodata
 
 .. figure:: _static/kml2geodata-src.png

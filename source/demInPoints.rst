@@ -14,6 +14,8 @@
 
 *  Архивированный CSV-файл с координатами и высотами для заданных точек.
 
+`Видео <https://youtu.be/yy3SlXBG6Xk?si=eXq1aurEi3lWsuJ7>`_
+
 Запуск инструмента: https://toolbox.nextgis.com/operation/demInPoints
 
 Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/deminpoints/deminpoints.zip

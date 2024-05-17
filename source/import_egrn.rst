@@ -26,6 +26,8 @@
 
 * ZIP архив с результатами конвертации. 
 
+`Видео <https://youtu.be/UbrepJSZpUQ?si=m41teMbdnMIt7Uzh>`_
+
 Запуск инструмента: https://toolbox.nextgis.com/operation/import_egrn
 
 Пример исходных данных и результата работы инструмента: https://nextgis.ru/data/toolbox/import_egrn/import_egrn.zip

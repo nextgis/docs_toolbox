@@ -14,4 +14,6 @@ Output:
 
 * GeoPackage file with all vector layers. CRS - WGS 84, attributes will be in UTF-8 encoding. 
 
+`Video <https://youtu.be/mp0Z4OTp4Ho?si=x4eyB_qTYj2W65ns>`_
+
 Launch tool: https://toolbox.nextgis.com/operation/ngw_to_gpkg

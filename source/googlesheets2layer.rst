@@ -19,6 +19,8 @@
 
 * Созданный/обновленный слой в Веб ГИС
 
+`Видео <https://youtu.be/MbZ1ZulLYcU?si=Hi70Bb4WQmeQTWDc>`_
+
 `Пример таблицы <https://docs.google.com/spreadsheets/d/1cKvjCMBZajaortAkdQqVwQ_06LuLm3bHyvybJgmAeQg/edit?usp=sharing>`_
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/Googlesheets2layer

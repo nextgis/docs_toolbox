@@ -21,4 +21,6 @@ Output:
 
 `Google Sheets sample <https://docs.google.com/spreadsheets/d/1cKvjCMBZajaortAkdQqVwQ_06LuLm3bHyvybJgmAeQg/edit?usp=sharing>`_
 
+`Video <https://youtu.be/mEhUaRTFl3M?si=xD8JZjZPL0qIam8F>`_
+
 Launch tool: https://toolbox.nextgis.com/operation/Googlesheets2layer

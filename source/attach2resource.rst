@@ -15,6 +15,8 @@
 
 * Обновление выбранного слоя в Веб ГИС.
 
+`Видео <https://youtu.be/CyG5pKxgwsE?si=B8DzqX8xyDszsRMF>`_
+
 Запуск инструмента: https://toolbox.nextgis.com/operation/attach2resource
 
 Пример исходных данных: https://nextgis.ru/data/toolbox/attach2resource/attach2resource.zip

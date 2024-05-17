@@ -19,6 +19,8 @@
 
 В инструменте нет ограничения на количество исходных слоёв. Они склеиваются по очереди. Название исходного слоя не сохраняется.
 
+`Видео <https://youtu.be/s-PMUZ7Ezy8?si=dheVKfxk7SjBBMfJ>`_
+
 Запуск инструмента: https://toolbox.nextgis.com/operation/ogrmerge
 
 Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/ogrmerge/ogrmerge.zip

@@ -6,4 +6,6 @@
 * На входе: 1 файл geojson или geopackage
 * На выходе: файл geojson или geopackage с созданным полем, содержащим информацию о максимальном расстоянии между узлами в каждом объекте
 
+`Видео <https://youtu.be/IGDTnfMaiVc?si=6j00v3BaBkwz7xwh>`_
+
 Запуск инструмента: https://toolbox.nextgis.com/operation/maxdist

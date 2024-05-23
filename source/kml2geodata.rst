@@ -5,12 +5,11 @@ Convert KML, KMZ to structured geodata (GeoJSON). This tool can work with attach
 
 Inputs:
 
-* Input dataset in KML/KMZ format.
-* NextGIS Drive ID or link (if you have access)
-* Table fields. Comma-separated list of table field names to be extracted from the description.
-* Check files presence. If checked, the result will contain only the files that are present in the archive.
-* Ignore extended data. If checked, lc:attachment will be ignored.
-* Keep Z coordinate. If checked, Z coordinate will be preserved and PointZ/LinestringZ etc geometries will be created.
+* Source data - KML or KMZ file.
+* Table fieldnames - optional. Indicate table fieldnames from Description section of KML file, which should be processed. Should be listed without space and separated by comma.
+* Check for files presence - if checked, the result GeoJSON will mention only the files that are present in the archive indeed.
+* Ignore extended data - if checked, lc:attachment will be ignored.
+* Keep Z coordinate -i f checked, Z coordinate will be preserved and PointZ/LinestringZ etc geometries will be created.
 
 Outputs:
 

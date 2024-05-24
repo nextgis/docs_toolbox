@@ -1,6 +1,7 @@
 Prepare vector layer for DataLens
-=====================================
-The tool converts vector dataset into CSV file, compatible with DataLens BI service. For now only multipolygons are supported.
+=================================
+The tool converts vector dataset in GeoJSON format to a CSV file, compatible with DataLens BI service. 
+Both Geopolygons and Geopoints are supported.
 
 Inputs:
 
@@ -8,8 +9,6 @@ Inputs:
 
 Outputs:
 
-* CSV file ready to be imported to DataLens.
+* CSV file ready to be imported in DataLens.
 
 Launch the tool: https://toolbox.nextgis.com/operation/vector2datalens
-
-:download:`Example <files/vector2datalens_example.zip>`of the input and output data.

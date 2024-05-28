@@ -1,12 +1,12 @@
-Raster calculator
-=================
+Raster calculator (GDAL)
+=========================
 
 .. figure:: _static/raster_calculator.png
    :align: center
    :width: 16cm
    
    
-A tool that implements raster arithmetics for multi-band rasters or groups of single-band rasters.
+A tool that implements raster arithmetics for multi-band rasters or groups of single-band rasters. Uses `gdal_calc.py <https://gdal.org/programs/gdal_calc.html>`_ script.
 
 Inputs:
 

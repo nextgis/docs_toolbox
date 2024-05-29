@@ -88,3 +88,4 @@
    webmap2qgis
    removecontents
    vector2datalens
+   r_mapcalc

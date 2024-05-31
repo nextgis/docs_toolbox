@@ -13,4 +13,6 @@
 
 * Текстовое сообщение о том, что содержимое слоёв удалено.
 
+`Видео <https://youtu.be/W-GtFRjQx2M?si=9m0ok52iZpd_U8eX>`_
+
 Запуск инструмента: https://toolbox.nextgis.com/operation/removecontents

@@ -13,4 +13,6 @@ Outputs:
 
 * ZIP-archive with QGIS project file (.qgs) and GeoPackage file, containing vector layers.
 
+`Video <https://youtu.be/uFiOJfK6VQw?si=9I9jZzElDqkDBq5M>`_
+
 Launch the tool: https://toolbox.nextgis.com/operation/webmap2qgis

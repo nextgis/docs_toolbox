@@ -13,4 +13,6 @@ Outputs:
 
 * Text message about successful deletion of the layers content.
 
+`Video <https://youtu.be/OBXqNRo_nEM?si=Woy4qgcFVHnJ_2Ga>`_
+
 Launch the tool: https://toolbox.nextgis.com/operation/removecontents

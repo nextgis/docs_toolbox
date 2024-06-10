@@ -35,4 +35,4 @@ ZIP-архив с обновленным файлом проекта QGS или 
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/embedsvg
 
-:download:`Пример <files/embedsvg_example.zip>` исходных данных и результата.
+:download:`Пример <files/SVG_embed_example.zip>` исходных данных и результата.

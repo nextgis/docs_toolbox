@@ -5,7 +5,7 @@ Both Geopolygons and Geopoints are supported.
 
 Inputs:
 
-* Input vector – vector data layer in GeoJSON format.
+* Input vector – vector data layer or zip-archive.
 
 Outputs:
 

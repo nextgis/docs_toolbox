@@ -1,6 +1,6 @@
 Prepare vector layer for DataLens
 =================================
-The tool converts vector dataset in GeoJSON format to a CSV file, compatible with DataLens BI service. 
+The tool converts vector dataset to a CSV file, compatible with DataLens BI service. 
 Both Geopolygons and Geopoints are supported.
 
 Inputs:

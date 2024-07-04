@@ -13,7 +13,7 @@ Inputs:
 
 Outputs:
 
-* Import report
+* Import report showing how many photos were uploaded successfuly.
 
 Launch tool: https://toolbox.nextgis.com/operation/attach2resource
 

@@ -1,11 +1,5 @@
 Merge vector layers
 ===================
-
-.. figure:: _static/ogrmerge.png
-   :align: center
-   :width: 16cm
-
-   Initial and resulting data
    
 The tool merges many vector layers into one. Layers should be of same geometry type.
 
@@ -17,7 +11,7 @@ Outputs:
 
 * GeoPackage file with the result of the merge.
 
-The tool has no limit on the number of input layers. The name of the source layer is currently not saved.
+The tool has no limit on the number of input layers. The name of the source layer is also saved.
 
 Launch tool: https://toolbox.nextgis.com/operation/ogrmerge
 

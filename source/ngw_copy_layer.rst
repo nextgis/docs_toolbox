@@ -17,7 +17,7 @@ Outputs:
 
 * There is no output, the result is the creation of a layer in nextgis.com
 
-Features: Suitable for layers created by NextGIS FormBuilder. Used in the process of layer replication. Data is not copied.
+Features: Suitable for layers created by NextGIS FormBuilder. Used in the process of layer replication. Data is copied also, without file atachments.
 
 Launch tool: https://toolbox.nextgis.com/operation/ngw_copy_layer
 

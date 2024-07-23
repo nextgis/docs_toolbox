@@ -14,14 +14,6 @@
 *  таблица в формате .xlsx с перечнем пересеченных слоев
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/ngw-intersect
-
-Пример использования:
-
-Сколько видов ветрениц можно встретить, пройдя по Appalachian Trail?
-
-*  url - https://demo.nextgis.com
-*  webmap_id - 4714 (так как адрес веб-карты https://demo.nextgis.com/resource/4714/display)
-*  wkt - LineString (-9378421.57282677479088306 4115819.42546373652294278, -7678593.31173497438430786 5764332.11640937067568302)	
  
 .. figure:: _static/ngw_intersect_layers.png
    :align: center
@@ -35,3 +27,8 @@
    
    Пример результата работы инструмента 
    
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/ngw_intersect/ngw_intersect_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/ngw_intersect/ngw_intersect_outputs.zip>`_ работы инструмента.

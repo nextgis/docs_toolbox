@@ -13,3 +13,9 @@
 
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/flatten
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/flatten/flatten_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/flatten/flatten_outputs.zip>`_ работы инструмента.

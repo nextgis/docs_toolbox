@@ -15,4 +15,9 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/intersect_layers
 
-Скачать пример исходных данных и результатов расчёта можно :download:`здесь <files/intersect_layer_example.zip>`.
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/intersect_layers/intersect_layers_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/intersect_layers/intersect_layers_outputs.zip>`_ работы инструмента.
+

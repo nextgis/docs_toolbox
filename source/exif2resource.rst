@@ -19,6 +19,11 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/exif2resource
 
-Пример исходных данных: https://nextgis.ru/data/toolbox/exif2resource/exif2resource.zip
-
 Пример результата работы инструмента на веб-карте: https://demo.nextgis.ru/resource/5929/display?panel=info
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/exif2resource/exif2resource_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/exif2resource/exif2resource_outputs.zip>`_ работы инструмента.
+

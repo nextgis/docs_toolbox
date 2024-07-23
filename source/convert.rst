@@ -18,5 +18,10 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/convert
 
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/convert/convert_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/convert/convert_outputs.zip>`_ работы инструмента.
 
    

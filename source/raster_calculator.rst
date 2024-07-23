@@ -72,15 +72,9 @@ forest_mask.tif * (land_temperature.tif < 30)
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/raster_calculator
 
-Скачать пример исходных данных (многоканальный растр, 11 каналов, фрагмент сцены Landsat 8): https://nextgis.ru/data/toolbox/raster_calculator/LC08_B1_B11.TIF
+**Попробуйте инструмент в действии, скачав наш пример:**
 
-Скачать пример исходных данных (архив с растрами, фрагменты сцены Landsat 8, доступные в выражении названия: band2.tif, band3.tif, band4.tif, band5.tif, band3_cropped.tif): https://nextgis.ru/data/toolbox/raster_calculator/LC08_20180530.zip
+`Набор исходных данных <https://nextgis.ru/data/toolbox/raster_calculator/raster_calculator_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
-Скачать примеры результатов расчёта:
+`Пример результата <https://nextgis.ru/data/toolbox/raster_calculator/raster_calculator_outputs.zip>`_ работы инструмента.
 
-* Для примера с архивом (расчёт NDVI). Выражение: (band5.tif - band4.tif) / (band5.tif + band4.tif). Файл: https://nextgis.ru/data/toolbox/raster_calculator/ndvi.tif
-
-* Для примера с многоканальным растром (маскирование участка реки). Выражение: ((&5 - &4) / (&5 + &4)) < -0.12. Файл: https://nextgis.ru/data/toolbox/raster_calculator/water_mask.tif
-
-
-Посмотреть исходные данные и результаты расчётов на интерактивной карте: https://demo.nextgis.com/resource/4566/display?panel=info

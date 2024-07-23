@@ -28,4 +28,8 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/raster2tiles
 
-Скачать пример исходных данных и результатов расчёта можно :download:`здесь <files/raster2tiles_examples.zip>`.
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/raster2tiles/raster2tiles_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/raster2tiles/raster2tiles_outputs.zip>`_ работы инструмента.

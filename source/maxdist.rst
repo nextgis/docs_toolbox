@@ -9,3 +9,10 @@
 `Видео <https://youtu.be/IGDTnfMaiVc?si=6j00v3BaBkwz7xwh>`_
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/maxdist
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/maxdist/maxdist_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/maxdist/maxdist_outputs.zip>`_ работы инструмента.
+

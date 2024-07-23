@@ -35,12 +35,14 @@
 Запуск инструмента: https://toolbox.nextgis.com/operation/clip_polys_poly
 
 
-Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/clip_polys_poly/clip_polys_poly.zip
-
-
 .. figure:: _static/clip_polys_poly.png
    :align: center
    :width: 16cm
    
    Пример загруженного в QGIS результата работы инструмента, с добавленым вручную оформлением
    
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/clip_polys_poly/clip_polys_poly_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/clip_polys_poly/clip_polys_poly_outputs.zip>`_ работы инструмента.

@@ -26,4 +26,8 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/add_lesobject_layer
 
-:download:`Примеры <files/add_lesobject_layer_vector_example.zip>` векторных файлов на вход.
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/add_lesobject_layer/add_lesobject_layer_inputs.zip>`_ для проверки работы инструмента.
+
+`Пример результата <https://nextgis.ru/data/toolbox/add_lesobject_layer/add_lesobject_layer_outputs.zip>`_ работы инструмента.

@@ -15,3 +15,9 @@
 *  Опционально - ZIP-архив c отсортированными файлами КПТ.
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/kptbatch_validator
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/kptbatch_validator/kptbatch_validator_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/kptbatch_validator/kptbatch_validator_outputs.zip>`_ работы инструмента.

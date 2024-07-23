@@ -16,4 +16,8 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/polysimplifier
 
-Пример исходных данных и результат: https://nextgis.ru/data/toolbox/polysimplifier/polysimplifier.zip
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/polysimplifier/polysimplifier_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/polysimplifier/polysimplifier_outputs.zip>`_ работы инструмента.

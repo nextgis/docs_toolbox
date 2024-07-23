@@ -13,8 +13,6 @@
 * Файл KMZ со схемой круговых площадок, пригодный для загрузки в Garmin.
 * Схема круговых площадок в формате JPG отдельным файлом.
 
-Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/forestplots_field/forestplots_field.zip
-
 Запуск инструмента: https://toolbox.nextgis.com/operation/forestplots_field
 
 .. figure:: _static/forest-circular-plots.jpg
@@ -23,3 +21,8 @@
    
    Пример результата работы инструмента, загруженный в Garmin
    
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/forestplots_field/forestplots_field_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/forestplots_field/forestplots_field_outputs.zip>`_ работы инструмента.

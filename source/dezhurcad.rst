@@ -19,3 +19,9 @@
 `Видео <https://youtu.be/3wHFbP5-t8k?si=Z37abTXkXb4MCw7n>`_
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/Dezhurcad
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/dezhurcad/dezhurcad_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/dezhurcad/dezhurcad_outputs.zip>`_ работы инструмента.

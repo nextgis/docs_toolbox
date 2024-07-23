@@ -15,8 +15,6 @@ KML в геоданные
 
 * Файл ZIP со слоем GeoJSON и приложениями, если они есть.
 
-Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/kml2geodata/kml2geodata.zip
-
 `Видео <https://youtu.be/Qggg-0qqOs4?si=QjeK0q4BK8gGJOqz>`_
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/kml2geodata
@@ -32,3 +30,9 @@ KML в геоданные
    :width: 16cm
    
    Пример результата работы инструмента. Загруженные в QGIS геоданные
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/kml2geodata/kml2geodata_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/kml2geodata/kml2geodata_outputs.zip>`_ работы инструмента.

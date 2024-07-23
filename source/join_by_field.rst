@@ -24,4 +24,8 @@
    :align: center
    :width: 16cm
 
-Скачать пример результатов: https://nextgis.ru/data/toolbox/join_by_field/join_by_field.zip
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/join_by_field/join_by_field_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/join_by_field/join_by_field_outputs.zip>`_ работы инструмента.

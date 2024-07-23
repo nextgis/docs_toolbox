@@ -22,4 +22,7 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/ngw_copy_layer
 
-Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/ngw_copy_layer/ngw_copy_layer.zip
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/ngw_copy_layer/ngw_copy_layer_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+

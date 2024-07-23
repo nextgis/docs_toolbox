@@ -26,12 +26,14 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/quadro
 
-Скачать пример результатов: https://nextgis.ru/data/toolbox/quadro/outputs.zip
-
-Посмотреть результаты на интерактивной карте: https://demo.nextgis.com/resource/4582/display?panel=layers
-
 .. figure:: _static/quadro.png
    :align: center
    :width: 16cm
    
    Пример результата работы инструмента 
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/quadro/quadro_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/quadro/quadro_outputs.zip>`_ работы инструмента.

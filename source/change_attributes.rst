@@ -45,3 +45,9 @@
 * Целевое значение = 1112
 * Год начала = 1244
 * Год окончания = 1300
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/field_value_changer/field_value_changer_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/field_value_changer/field_value_changer_outputs.zip>`_ работы инструмента.

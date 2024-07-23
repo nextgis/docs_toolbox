@@ -15,4 +15,9 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/cadnums_to_geodata
 
-Пример исходных данных и результат: https://nextgis.ru/data/toolbox/cadnums_to_geodata/cadnums_to_geodata.zip
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/cadnums_to_geodata/cadnums_to_geodata_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/cadnums_to_geodata/cadnums_to_geodata_outputs.zip>`_ работы инструмента.
+

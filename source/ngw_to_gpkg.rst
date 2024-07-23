@@ -17,3 +17,9 @@
 `Видео <https://youtu.be/Cfs4IQB5F8k?si=K0SQj9TcZs5URTQf>`_
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/ngw_to_gpkg
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/ngw_to_gpkg/ngw_to_gpkg_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/ngw_to_gpkg/ngw_to_gpkg_outputs.zip>`_ работы инструмента.

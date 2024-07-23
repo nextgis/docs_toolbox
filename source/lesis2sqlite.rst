@@ -98,4 +98,9 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/lesis2sqlite
 
-Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/lesis2sqlite/lesis.zip
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/lesis2sqlite/lesis2sqlite_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/lesis2sqlite/lesis2sqlite_outputs.zip>`_ работы инструмента.
+

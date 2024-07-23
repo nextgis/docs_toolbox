@@ -17,3 +17,9 @@
 *  ZIP-архив, готовый к подписанию усиленной квалифицированной электронной подписью и дальнейшей подачи на портале Госуслуг. Содержит XML файл с лесной декларацией и Приложение 3 и Приложения 4 к лесной декларации в формате PDF. 
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/ForestDeclaration2
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/forestdeclaration2/forestdeclaration2_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/forestdeclaration2/forestdeclaration2_outputs.zip>`_ работы инструмента.

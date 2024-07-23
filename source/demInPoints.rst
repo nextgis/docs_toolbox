@@ -18,4 +18,9 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/demInPoints
 
-Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/deminpoints/deminpoints.zip
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/deminpoints/deminpoints_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/deminpoints/deminpoints_outputs.zip>`_ работы инструмента.
+

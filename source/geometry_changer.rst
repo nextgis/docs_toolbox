@@ -33,3 +33,9 @@
    Пример результата работы инструмента
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/geometry_changer
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/geometry_changer/geometry_changer_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/geometry_changer/geometry_changer_outputs.zip>`_ работы инструмента.

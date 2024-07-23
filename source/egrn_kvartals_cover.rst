@@ -14,4 +14,8 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/egrn_kvartals_cover
 
-:download:`Пример <files/example_egrn_kvartals_cover.zip>` входных данных и результата.
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/egrn_kvartals_cover/egrn_kvartals_cover_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/egrn_kvartals_cover/egrn_kvartals_cover_outputs.zip>`_ работы инструмента.

@@ -18,9 +18,6 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/mt2report
 
-Посмотреть пример исходных данных на интерактивной карте:
-https://demo.nextgis.com/resource/4693/display?panel=layers
-
 .. figure:: _static/mt2report_map.png
    :align: center
    :width: 16cm
@@ -32,3 +29,9 @@ https://demo.nextgis.com/resource/4693/display?panel=layers
    :width: 16cm
    
    Пример результата работы инструмента
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/mt2report/mt2report_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/mt2report/mt2report_outputs.zip>`_ работы инструмента.

@@ -21,3 +21,9 @@
 * обновление выбранного слоя или слоев в Веб ГИСе.
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/add_lesobject_table 
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/add_lesobject_table/add_lesobject_table_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/add_lesobject_table/add_lesobject_table_outputs.zip>`_ работы инструмента.

@@ -32,12 +32,14 @@ ZIP-архив с ESRI Shapefile или отдельный файл формат
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/prepare_raster
 
-Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/prepare_raster/prepare_raster.zip
-
-Посмотреть исходные данные и результаты расчётов на интерактивной карте: https://demo.nextgis.com/resource/4595/display?panel=info
-
 .. figure:: _static/prepare_raster.png
    :align: center
    :width: 16cm
 
    Пример результата работы инструмента
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/prepare_raster/prepare_raster_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/prepare_raster/prepare_raster_outputs.zip>`_ работы инструмента.

@@ -21,5 +21,10 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/poly2explication
 
-Пример исходных данных и результатов расчёта доступен по :download:`ссылке <files/poly2explication_example.zip>`.
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/poly2explication/poly2explication_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/poly2explication/poly2explication_outputs.zip>`_ работы инструмента.
+
    

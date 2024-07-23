@@ -21,6 +21,10 @@
 
 `Видео про Google Sheets <https://youtu.be/MbZ1ZulLYcU?si=Hi70Bb4WQmeQTWDc>`_, `Видео про Яндекс Таблицу <https://youtu.be/QcF7UGVVr5M?si=K3Fv2eezpk3WJzMb>`_
 
-`Пример таблицы <https://docs.google.com/spreadsheets/d/1cKvjCMBZajaortAkdQqVwQ_06LuLm3bHyvybJgmAeQg/edit?usp=sharing>`_
-
 Запуск инструмента: https://toolbox.nextgis.com/operation/Googlesheets2layer
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/googlesheets2layer/googlesheets2layer_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/googlesheets2layer/googlesheets2layer_outputs.zip>`_ работы инструмента.

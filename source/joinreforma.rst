@@ -22,6 +22,10 @@
 * Слой остальные точки, к которым не были найдены полигоны в OpenStreetMap.
 * Исходные данные, файл CSV
 
-Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/joinreforma/joinreforma.zip
-
 Запуск инструмента: https://toolbox.nextgis.com/operation/joinreforma
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/joinreforma/joinreforma_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/joinreforma/joinreforma_outputs.zip>`_ работы инструмента.

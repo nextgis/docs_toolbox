@@ -15,4 +15,8 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/grunt
 
-:download:`Пример <files/grunt_source_example.xlsx>` входных данных.
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/grunt/grunt_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/grunt/grunt_outputs.zip>`_ работы инструмента.

@@ -33,4 +33,9 @@
 
 Имена подаваемых файлов не должны содержать знак "меньше" (<), знак "больше" (>), двоеточие (:), двойные кавычки (""), слеш (/), обратный слеш (\), вертикальную черту (|), вопросительный знак (?), звездочку (*).
 
-:download:`Примеры <files/compile_forest_declaration_Filled_in_Examples.zip>` заполненных XLSX файлов
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/compile_forest_declaration/compile_forest_declaration_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/compile_forest_declaration/compile_forest_declaration_outputs.zip>`_ работы инструмента.
+

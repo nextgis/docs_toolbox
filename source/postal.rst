@@ -16,4 +16,8 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/postal
 
-:download:`Пример <files/example_postal.zip>` исходных данных и результата преобразования.
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/postal/postal_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/postal/postal_outputs.zip>`_ работы инструмента.

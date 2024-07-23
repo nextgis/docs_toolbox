@@ -16,8 +16,6 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/eraser
 
-Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/eraser/eraser.zip
-
 Посмотреть исходные данные и результаты расчётов на интерактивной карте: https://demo.nextgis.com/resource/4611/display?panel=info
 
 .. figure:: _static/eraser.png
@@ -25,3 +23,9 @@
    :width: 16cm
 
    Пример результата работы инструмента
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/eraser/eraser_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/eraser/eraser_outputs.zip>`_ работы инструмента.

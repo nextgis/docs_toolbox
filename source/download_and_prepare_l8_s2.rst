@@ -17,8 +17,6 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/download_and_prepare_l8_s2
 
-Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/download_and_prepare_l8_s2/download_and_prepare_l8_s2.zip
-
 Посмотреть результат на интерактивной карте: https://demo.nextgis.com/resource/4805/display?panel=layers
 
 .. figure:: _static/download_and_prepare_l8_s2.png
@@ -28,4 +26,9 @@
    Изменение пространственного разрешения снимка Sentinel-2 с 10 до 2 метров 
    
 
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/download_and_prepare_l8_s2/download_and_prepare_l8_s2_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/download_and_prepare_l8_s2/download_and_prepare_l8_s2_outputs.zip>`_ работы инструмента.
  

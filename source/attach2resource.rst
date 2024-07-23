@@ -19,4 +19,9 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/attach2resource
 
-Пример исходных данных: https://nextgis.ru/data/toolbox/attach2resource/attach2resource.zip
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/attach2resource/attach2resource_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/attach2resource/attach2resource_outputs.zip>`_ работы инструмента.
+

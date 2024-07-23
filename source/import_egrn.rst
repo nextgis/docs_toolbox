@@ -30,6 +30,11 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/import_egrn
 
-Пример исходных данных и результата работы инструмента: https://nextgis.ru/data/toolbox/import_egrn/import_egrn.zip
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/import_egrn/import_egrn_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/import_egrn/import_egrn_outputs.zip>`_ работы инструмента.
+
 
 Для конвертации и других операций с кадастровыми данными вы также можете использовать конвертер Rosreestr Tools https://docs.nextgis.ru/docs_ngqgis/source/NGQ_Rosreestr_Tools.html

@@ -65,3 +65,9 @@
 `Видео <https://youtu.be/v5WXJ7fhS9k?si=SrYXZERbxCcApcif>`_
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/grid
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/grid/grid_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/grid/grid_outputs.zip>`_ работы инструмента.

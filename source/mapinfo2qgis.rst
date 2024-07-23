@@ -13,4 +13,8 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/mapinfo2qgis
 
-:download:`Пример <files/mapinfo2qgis_example.zip>` исходных данных и результат конвертации.
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/mapinfo2qgis/mapinfo2qgis_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/mapinfo2qgis/mapinfo2qgis_outputs.zip>`_ работы инструмента.

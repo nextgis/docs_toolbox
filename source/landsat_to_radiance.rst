@@ -29,4 +29,8 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/landsat_to_radiance
 
-Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/landsat_to_radiance/landsat_to_radiance.zip
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных https://nextgis.ru/data/toolbox/landsat_to_radiance/landsat_to_radiance_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/landsat_to_radiance/landsat_to_radiance_outputs.zip>`_ работы инструмента.

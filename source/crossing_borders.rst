@@ -22,6 +22,10 @@
    Итоговый файл CSV
 
 
-Пример :download:`исходных данных <files/crossing_borders_input_example.zip>` и :download:`результата <files/crossing_borders_output.csv>`.
-
 Запуск инструмента: https://toolbox.nextgis.com/operation/crossing_borders
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/crossing_borders/crossing_borders_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/crossing_borders/crossing_borders_outputs.zip>`_ работы инструмента.

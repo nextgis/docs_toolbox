@@ -25,3 +25,9 @@
 *  Файл CSV, помимо исходной информации содержащий два дополнительных столбца с координатами (широта и долгота).
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/geocodetable
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/geocodetable/geocodetable_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/geocodetable/geocodetable_outputs.zip>`_ работы инструмента.

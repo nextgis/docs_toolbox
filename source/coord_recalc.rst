@@ -17,4 +17,9 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/coord_recalc
 
-:download:`Пример <files/coord_recalc_example.csv>` входных данных.
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/coord_recalc/coord_recalc_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/coord_recalc/coord_recalc_outputs.zip>`_ работы инструмента.
+

@@ -89,3 +89,4 @@
    removecontents
    vector2datalens
    r_mapcalc
+   points_on_tracks_stats

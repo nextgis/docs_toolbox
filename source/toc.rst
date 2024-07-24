@@ -90,3 +90,4 @@ Contents:
    vector2datalens
    removecontents
    r_mapcalc
+   points_on_tracks_stats

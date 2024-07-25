@@ -21,8 +21,12 @@ The result of the process is a layer with simplified features (geometries).
 
 Launch tool: https://toolbox.nextgis.com/operation/generalization
 
-Download an example of source data and result: https://demo.nextgis.com/api/resource/4548/export?zipped=true&format=shp
-
 View the result on an interactive map: https://demo.nextgis.com/resource/4108/display?panel=info
+
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/generalization/generalization_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/generalization/generalization_outputs.zip>`_ to additionally check the results.
 
 More on startup options: https://grasswiki.osgeo.org/wiki/V.generalize_tutorial

@@ -13,3 +13,11 @@ Inputs:
 Outputs:
 
 ZIP archive with converted data
+
+Launch the tool: https://toolbox.nextgis.com/operation/xml_decl_to_vector
+
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/xml_decl_to_vector/xml_decl_to_vector_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/xml_decl_to_vector/xml_decl_to_vector_outputs.zip>`_ to additionally check the results.

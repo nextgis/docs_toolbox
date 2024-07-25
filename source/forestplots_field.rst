@@ -13,7 +13,6 @@ Outputs:
 * KMZ file with forest field plots ready to upload to Garmin devices.
 * Separate JPG file with forest plots scheme.
 
-Download an example of source data and result: https://nextgis.ru/data/toolbox/forestplots_field/forestplots_field.zip
 
 Launch tool: https://toolbox.nextgis.com/operation/forestplots_field
 
@@ -21,4 +20,10 @@ Launch tool: https://toolbox.nextgis.com/operation/forestplots_field
    :align: center
    :width: 16cm
 
-   An example of result uploded to Garmin. 
+   An example of result uploded to Garmin
+
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/forestplots_field/forestplots_field_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/tolbox/forestplots_field/forestplots_field_outputs.zip>`_ to additionally check the results."

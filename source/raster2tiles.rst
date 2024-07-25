@@ -28,4 +28,8 @@ Outputs:
 
 Launch tool: https://toolbox.nextgis.com/operation/raster2tiles
 
-Download an example of source data and result :download:`here <files/raster2tiles_examples.zip>`.  
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/raster2tiles/raster2tiles_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/raster2tiles/raster2tiles_outputs.zip>`_ to additionally check the results.

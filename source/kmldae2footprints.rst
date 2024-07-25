@@ -17,4 +17,8 @@ You can submit several models, each of them gets a separate polygon.
 
 Launch tool: https://toolbox.nextgis.com/operation/kmldae2footprints
 
-Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/kmldae2footprints/kmldae2footprints.zip
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/kmldae2footprints/kmldae2footprints_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/kmldae2footprints/kmldae2footprints_outputs.zip>`_ to additionally check the results.

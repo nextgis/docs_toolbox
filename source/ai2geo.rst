@@ -25,3 +25,9 @@ Launch tool: https://toolbox.nextgis.com/operation/ai2geo
    :width: 32cm
    
    Resulting layers are loaded into QGIS and displayed in front of the OSM basemap
+
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/ai2geo/ai2geo_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/ai2geo/ai2geo_outputs.zip>`_ to additionally check the results.

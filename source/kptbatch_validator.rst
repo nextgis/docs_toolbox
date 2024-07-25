@@ -15,3 +15,9 @@ Outputs:
 * Optional - ZIP-archive containing sorted XML files.
 
 Launch tool: https://toolbox.nextgis.com/operation/kptbatch_validator
+
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/kptbatch_validator/kptbatch_validator_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/kptbatch_validator/kptbatch_validator_outputs.zip>`_ to additionally check the results.

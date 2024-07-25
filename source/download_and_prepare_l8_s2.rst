@@ -28,7 +28,7 @@
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 
-`Набор исходных данных <https://nextgis.ru/data/toolbox/download_and_prepare_l8_s2/download_and_prepare_l8_s2_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+`Набор исходных данных <https://nextgis.ru/data/toolbox/download_and_prepare_l8_s2/download_and_prepare_l8_s2_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
-`Пример результата <https://nextgis.ru/data/toolbox/download_and_prepare_l8_s2/download_and_prepare_l8_s2_outputs.zip>`_ работы инструмента.
+`Пример результата <https://nextgis.ru/data/toolbox/download_and_prepare_l8_s2/download_and_prepare_l8_s2_outputs_ru.zip>`_ работы инструмента.
  

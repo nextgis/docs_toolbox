@@ -26,7 +26,7 @@
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 
-`Набор исходных данных <https://nextgis.ru/data/toolbox/centroid2attr/centroid2attr_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+`Набор исходных данных <https://nextgis.ru/data/toolbox/centroid2attr/centroid2attr_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
-`Пример результата <https://nextgis.ru/data/toolbox/centroid2attr/centroid2attr_outputs.zip>`_ работы инструмента.
+`Пример результата <https://nextgis.ru/data/toolbox/centroid2attr/centroid2attr_outputs_ru.zip>`_ работы инструмента.
 

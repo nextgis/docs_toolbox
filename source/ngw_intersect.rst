@@ -14,14 +14,7 @@ Outputs:
 *  .xlsx table with a list of intersected layers
 
 Launch tool: https://toolbox.nextgis.com/operation/ngw-intersect
-
-Usage example:
-
-How many types of anemones can you find on the Appalachian Trail?
-
-*  url - https://demo.nextgis.com
-*  webmap_id - 4714 (since the web map address is https://demo.nextgis.com/resource/4714/display)
-*  wkt - LineString (-9378421.57282677479088306 4115819.42546373652294278, -7678593.31173497438430786 5764332.11640937067568302)	
+	
  
 .. figure:: _static/ngw_intersect_layers.png
    :align: center
@@ -34,3 +27,9 @@ How many types of anemones can you find on the Appalachian Trail?
    :width: 16cm
    
    An example of the result of the tool’s usage 
+
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/ngw_intersect/ngw_intersect_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/ngw_intersect/ngw_intersect_outputs.zip>`_ to additionally check the results.

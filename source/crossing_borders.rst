@@ -22,6 +22,10 @@ Output:
    Resulting CSV
 
 
-Samples of :download:`input <files/crossing_borders_input_example.zip>` and :download:`output <files/crossing_borders_output.csv>` data.
-
 Launch tool: https://toolbox.nextgis.com/operation/crossing_borders
+
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/crossing_borders/crossing_borders_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/crossing_borders/crossing_borders_outputs.zip>`_ to additionally check the results.

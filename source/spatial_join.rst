@@ -26,7 +26,11 @@
    
    Выход - точки с добавленым атрибутом названия региона.
       
-   
-Скачать пример исходных данных и результатов расчёта: https://nextgis.ru/data/toolbox/spatial_join/spatial_join.zip
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/spatial_join
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/spatial_join/spatial_join_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/spatial_join/spatial_join_outputs_ru.zip>`_ работы инструмента.

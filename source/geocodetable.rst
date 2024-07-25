@@ -7,13 +7,11 @@ Inputs:
 
 *  Source data - CSV file with a list of addresses. First row should contain field names. File should be in UTF-8 encoding.
 *  Field with address - name of the field that contains addresses in a source CSV file.
-*  Geocoder - specify one of the two available geocoder providers: Google or Yandex. Case insensitive. 
+*  Geocoder - specify one of the two available geocoder providers: Google. Case insensitive. 
 *  API key - API key to run chosen geocoder.
 
 .. note::
-    **How to get geocoder API key**
-
-    Yandex.Geocoder -  https://developer.tech.yandex.ru/services/
+    **How to get a geocoder API key**
 
     Google Geocoding API - https://developers.google.com/maps/documentation/geocoding/usage-and-billing
 

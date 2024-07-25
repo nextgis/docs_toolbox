@@ -9,7 +9,7 @@ Input:
 
 Output:
 
-* Alternated CSV file, containing initial data as well as address elements divided into separate columns. 
+* Modified CSV file, containing initial data as well as address elements divided into separate columns. 
 
 `Video <https://youtu.be/CQjypOchMdE?si=JC2XlP5Y46QlVSlT>`_
 

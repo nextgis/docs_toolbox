@@ -13,3 +13,9 @@
 * Файл GeoPackage с полигонами, представляющими собой пересечения объектов из поданных на вход слоев.
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/vectorclip
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/vectorclip/vectorclip_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/vectorclip/vectorclip_outputs_ru.zip>`_ работы инструмента.

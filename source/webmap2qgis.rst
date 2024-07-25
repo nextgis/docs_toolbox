@@ -16,3 +16,9 @@
 `Видео <https://youtu.be/ejg4tdYrGdQ?si=B3u2pKggZymj3YWp>`_
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/webmap2qgis
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/webmap2qgis/webmap2qgis_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/webmap2qgis/webmap2qgis_outputs_ru.zip>`_ работы инструмента.

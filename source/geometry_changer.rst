@@ -28,4 +28,10 @@ Outputs:
    :align: center
    :width: 16cm
 
-   Launch tool: https://toolbox.nextgis.com/operation/geometry_changer
+Launch tool: https://toolbox.nextgis.com/operation/geometry_changer
+
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/geometry_changer/geometry_changer_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/geometry_changer/geometry_changer_outputs.zip>`_ to additionally check the results.

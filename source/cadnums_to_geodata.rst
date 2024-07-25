@@ -17,7 +17,7 @@
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 
-`Набор исходных данных <https://nextgis.ru/data/toolbox/cadnums_to_geodata/cadnums_to_geodata_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+`Набор исходных данных <https://nextgis.ru/data/toolbox/cadnums_to_geodata/cadnums_to_geodata_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
-`Пример результата <https://nextgis.ru/data/toolbox/cadnums_to_geodata/cadnums_to_geodata_outputs.zip>`_ работы инструмента.
+`Пример результата <https://nextgis.ru/data/toolbox/cadnums_to_geodata/cadnums_to_geodata_outputs_ru.zip>`_ работы инструмента.
 

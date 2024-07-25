@@ -35,4 +35,8 @@ Supported data:
 
 Launch tool: https://toolbox.nextgis.com/operation/landsat_to_radiance
 
-Download an example of source data and calculation results: https://nextgis.ru/data/toolbox/landsat_to_radiance/landsat_to_radiance.zip
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/landsat_to_radiance/landsat_to_radiance_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/landsat_to_radiance/landsat_to_radiance_outputs.zip>`_ to additionally check the results.

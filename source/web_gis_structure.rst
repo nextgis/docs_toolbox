@@ -8,51 +8,61 @@ Inputs:
 * Full Web GIS address (URL), e.g. https://les.nextgis.com
 * Web GIS user login
 * Password for Web GIS user
-* Resource type – specify the type of the resource for filtering data within your Web GIS. Possible options:
-all – all resources from Web GIS
+* Resource type – specify the type of the resource for filtering data within your Web GIS. 
 
-resource_group – resource group (directory)
+Possible type options:
 
-postgis_layer – PostGIS layer
+# all – all resources from Web GIS
 
-wmsserver_service – WMS service
+# resource_group – resource group (directory)
 
-baselayers – basemap
+# postgis_layer – PostGIS layer
 
-postgis_connection – PostGIS connection
+# wmsserver_service – WMS service
 
-webmap – web map
+# baselayers – basemap
 
-wfsserver_service – WFS service
+# postgis_connection – PostGIS connection
 
-vector_layer – vector layer
+# webmap – web map
 
-raster_layer – raster layer
+# wfsserver_service – WFS service
 
-mapserver_style – MapServer style
+# vector_layer – vector layer
 
-qgis_vector_style – QGIS vector style
+# raster_layer – raster layer
 
-raster_style – raster style
+# mapserver_style – MapServer style
 
-file_bucket
+# qgis_vector_style – QGIS vector style
 
-lookup_table – lookup table
+# raster_style – raster style
 
-wmsclient_layer – WMS layer
+# file_bucket
 
-wmsclient_connection – WMS connection
+# lookup_table – lookup table
 
-formbuilder_form - form
+# wmsclient_layer – WMS layer
 
-trackers_group – trackers group
+# wmsclient_connection – WMS connection
 
-tracker - tracker
+# formbuilder_form - form
 
-collector_project – Collector project
+# trackers_group – trackers group
+
+# tracker - tracker
+
+# collector_project – Collector project
+
 
 Output:
 
 * XLSX spreadsheet with the list of selected resources from Web GIS.
 
 Launch tool: https://toolbox.nextgis.com/operation/web_gis_structure
+
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/web_gis_structure/web_gis_structure_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/web_gis_structure/web_gis_structure_outputs.zip>`_ to additionally check the results.

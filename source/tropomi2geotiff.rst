@@ -14,8 +14,6 @@ TROPOMI в GeoTIFF
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/tropomi2geotiff
 
-Скачать пример исходных данных и результатов расчёта: http://nextgis.ru/data/toolbox/tropomi2geotiff/tropomi2geotiff.zip
-
 Посмотреть пример результата на интерактивной карте: https://demo.nextgis.com/resource/4698/display?panel=layers
 
 .. figure:: _static/tropomi2geotiff.png
@@ -23,3 +21,8 @@ TROPOMI в GeoTIFF
    :width: 16cm
    
    
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/tropomi2geotiff/tropomi2geotiff_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/tropomi2geotiff/tropomi2geotiff_outputs_ru.zip>`_ работы инструмента.

@@ -74,7 +74,7 @@ forest_mask.tif * (land_temperature.tif < 30)
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 
-`Набор исходных данных <https://nextgis.ru/data/toolbox/raster_calculator/raster_calculator_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+`Набор исходных данных <https://nextgis.ru/data/toolbox/raster_calculator/raster_calculator_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
-`Пример результата <https://nextgis.ru/data/toolbox/raster_calculator/raster_calculator_outputs.zip>`_ работы инструмента.
+`Пример результата <https://nextgis.ru/data/toolbox/raster_calculator/raster_calculator_outputs_ru.zip>`_ работы инструмента.
 

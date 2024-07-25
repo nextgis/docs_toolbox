@@ -31,17 +31,8 @@ Outputs:
 
 Launch tool: https://toolbox.nextgis.com/operation/field_value_changer
 
-Resource group example: https://demo.nextgis.com/resource/4793
+**Try it out using our sample:**
 
-Example of initial data:
+Download `input dataset <https://nextgis.ru/data/toolbox/field_value_changer/field_value_changer_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
-* Web gis address = https://demo.nextgis.com
-* Login = *****
-* Password = *****
-* Resource Group Id = 4793
-* Initial field = fid
-* Initial value = 1216
-* Target field = fid2
-* Target valuе = 1112
-* Start Year = 1244
-* End Year = 1300
+Get the `output <https://nextgis.ru/data/toolbox/field_value_changer/field_value_changer_outputs.zip>`_ to additionally check the results.

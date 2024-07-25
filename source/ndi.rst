@@ -28,4 +28,8 @@ Examples of common normalized difference indices:
 
 Launch tool: https://toolbox.nextgis.com/operation/ndi
 
-Download an example of source data and calculation results: https://nextgis.ru/data/toolbox/ndi/ndi.zip
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/ndi/ndi_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/ndi/ndi_outputs.zip>`_ to additionally check the results.

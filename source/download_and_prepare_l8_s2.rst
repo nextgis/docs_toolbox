@@ -21,19 +21,8 @@ Download an example of initial data and calculation results: https://nextgis.ru/
 
 View the result on an interactive map: https://demo.nextgis.com/resource/4805/display?panel=layers
 
-Examples of initial data:
+**Try it out using our sample:**
 
-*  Scene S2A_MSIL1C_20191109T072121_N0208_R006_T41VLD_20191109T084554
-* Bands 4.3.2
-*  File
+Download `input dataset <https://nextgis.ru/data/toolbox/download_and_prepare_l8_s2/download_and_prepare_l8_s2_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
-```
-{
-"type": "FeatureCollection",
-"name": "ekb",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 60.46, 56.77 ], [ 60.7, 56.77 ], [ 60.7, 56.92 ], [ 60.46, 56.92 ], [ 60.46, 56.77 ] ] ] } }
-]
-}
-```
+Get the `output <https://nextgis.ru/data/toolbox/download_and_prepare_l8_s2/download_and_prepare_l8_s2_outputs.zip>`_ to additionally check the results.

@@ -71,15 +71,11 @@ If the user sets one of the optional parameters (resolution along one of the axe
 
 Launch tool: https://toolbox.nextgis.com/operation/raster_calculator
 
-Download an example of initial data (multi-band raster, 11 bands, a fragment of the Landsat 8 scene): https://nextgis.ru/data/toolbox/raster_calculator/LC08_B1_B11.TIF
-
-Download an example of initial data (archive with rasters, fragments of the Landsat 8 scene, available in the name expression: band2.tif, band3.tif, band4.tif, band5.tif, band3_cropped.tif): https://nextgis.ru/data/ toolbox / raster_calculator / LC08_20180530.zip
-
-Download examples of calculation results:
-
-* For example with the archive (NDVI calculation). Expression: (band5.tif - band4.tif) / (band5.tif + band4.tif). File: https://nextgis.ru/data/toolbox/raster_calculator/ndvi.tif
-
-* For example with a multi-band raster (masking a section of a river). Expression: ((& 5 - & 4) / (& 5 + & 4)) <-0.12. File: https://nextgis.ru/data/toolbox/raster_calculator/water_mask.tif
-
 
 View source data and calculation results on an interactive map: https://demo.nextgis.com/resource/4566/display?panel=info
+
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/raster_calculator/raster_calculator_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/raster_calculator/raster_calculator_outputs.zip>`_ to additionally check the results.

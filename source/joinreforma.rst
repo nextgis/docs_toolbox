@@ -23,6 +23,10 @@ A compressed file containing:
 * Point layer with source points not matched with OSM data, ESRI Shapefile.
 * Source data, CSV file.
 
-Download an example of source data and result: https://nextgis.ru/data/toolbox/joinreforma/joinreforma.zip
-
 Launch tool: https://toolbox.nextgis.com/operation/joinreforma
+
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/joinreforma/joinreforma_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/joinreforma/joinreforma_outputs.zip>`_ to additionally check the results.

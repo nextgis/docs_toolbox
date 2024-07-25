@@ -37,5 +37,9 @@ Tool workflow:
 
 Launch tool: https://toolbox.nextgis.com/operation/points_on_tracks_stats
 
+**Try it out using our sample:**
 
+Download `input dataset <https://nextgis.ru/data/toolbox/points_on_tracks_stats/points_on_tracks_stats_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/points_on_tracks_stats/points_on_tracks_stats_outputs.zip>`_ to additionally check the results.
    

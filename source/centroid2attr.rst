@@ -21,6 +21,11 @@ Outputs:
    :align: center
    :width: 16cm
    
-Download an example of source data and result: https://nextgis.ru/data/toolbox/centroid2attr/centroid2attr.zip
 
 Launch tool: https://toolbox.nextgis.com/operation/centroid2attr
+
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/centroid2attr/centroid2attr_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/centroid2attr/centroid2attr_outputs.zip>`_ to additionally check the results.

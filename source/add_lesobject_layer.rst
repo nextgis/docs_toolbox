@@ -28,6 +28,4 @@
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 
-`Набор исходных данных <https://nextgis.ru/data/toolbox/add_lesobject_layer/add_lesobject_layer_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
-
-`Пример результата <https://nextgis.ru/data/toolbox/add_lesobject_layer/add_lesobject_layer_outputs.zip>`_ работы инструмента.
+`Набор исходных данных <https://nextgis.ru/data/toolbox/add_lesobject_layer/add_lesobject_layer_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.

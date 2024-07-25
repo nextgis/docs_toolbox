@@ -32,9 +32,9 @@
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 
-`Набор исходных данных <https://nextgis.ru/data/toolbox/import_egrn/import_egrn_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+`Набор исходных данных <https://nextgis.ru/data/toolbox/import_egrn/import_egrn_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
-`Пример результата <https://nextgis.ru/data/toolbox/import_egrn/import_egrn_outputs.zip>`_ работы инструмента.
+`Пример результата <https://nextgis.ru/data/toolbox/import_egrn/import_egrn_outputs_ru.zip>`_ работы инструмента.
 
 
 Для конвертации и других операций с кадастровыми данными вы также можете использовать конвертер Rosreestr Tools https://docs.nextgis.ru/docs_ngqgis/source/NGQ_Rosreestr_Tools.html

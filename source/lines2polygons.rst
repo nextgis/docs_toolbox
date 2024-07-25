@@ -22,18 +22,6 @@ Outputs:
 
 Launch tool: https://toolbox.nextgis.com/operation/lines2polygons
 
-Usage example:
-
-What are the borders of Russia for the 1598th year AD?
-
-*  gis_url - https://demo.nextgis.com
-*  lines_id - 6747 (as the address of the layer with polylines https://demo.nextgis.com/resource/6747/feature/)
-*  points_id - 6749 (since the address of the layer with points is https://demo.nextgis.com/resource/6749/feature/)
-*  The requested year - 1598
-*  year_field - Year
-*  Result Field - Result
-*  Field with identifiers - fid 
-*  Grouping field - linecmnt
  
 .. figure:: _static/lines2polygons_lines_points_map2.png
    :align: center
@@ -52,3 +40,9 @@ What are the borders of Russia for the 1598th year AD?
    :width: 16cm
    
    An example of the result of a tool    
+
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/lines2polygons/lines2polygons_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/lines2polygons/lines2polygons_outputs.zip>`_ to additionally check the results.

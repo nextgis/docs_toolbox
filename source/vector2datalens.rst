@@ -12,3 +12,9 @@
 * CSV-файл готовый для импорта в DataLens.
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/vector2datalens
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/vector2datalens/vector2datalens_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/vector2datalens/vector2datalens_outputs_ru.zip>`_ работы инструмента.

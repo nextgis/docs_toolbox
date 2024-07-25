@@ -31,23 +31,8 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/field_value_changer
 
-Пример группы ресурсов: https://demo.nextgis.com/resource/4793
-
-Пример исходных данных:
-
-* Адрес Веб гис = https://demo.nextgis.com
-* Логин = *****
-* Пароль = *****
-* Идентификатор группы ресурса = 4793
-* Исходное поле = fid
-* Исходное значение = 1216
-* Целевое поле = fid2
-* Целевое значение = 1112
-* Год начала = 1244
-* Год окончания = 1300
-
 **Попробуйте инструмент в действии, скачав наш пример:**
 
-`Набор исходных данных <https://nextgis.ru/data/toolbox/field_value_changer/field_value_changer_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+`Набор исходных данных <https://nextgis.ru/data/toolbox/field_value_changer/field_value_changer_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
-`Пример результата <https://nextgis.ru/data/toolbox/field_value_changer/field_value_changer_outputs.zip>`_ работы инструмента.
+`Пример результата <https://nextgis.ru/data/toolbox/field_value_changer/field_value_changer_outputs_ru.zip>`_ работы инструмента.

@@ -17,3 +17,9 @@ Output:
 * Layers and web map.
 
 Launch tool: https://toolbox.nextgis.com/operation/Dezhurcad
+
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/dezhurcad/dezhurcad_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+

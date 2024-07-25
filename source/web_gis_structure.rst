@@ -12,47 +12,47 @@ Inputs:
 
 Possible type options:
 
-# all – all resources from Web GIS
+#. all – all resources from Web GIS
 
-# resource_group – resource group (directory)
+#. resource_group – resource group (directory)
 
-# postgis_layer – PostGIS layer
+#. postgis_layer – PostGIS layer
 
-# wmsserver_service – WMS service
+#. wmsserver_service – WMS service
 
-# baselayers – basemap
+#. baselayers – basemap
 
-# postgis_connection – PostGIS connection
+#. postgis_connection – PostGIS connection
 
-# webmap – web map
+#. webmap – web map
 
-# wfsserver_service – WFS service
+#. wfsserver_service – WFS service
 
-# vector_layer – vector layer
+#. vector_layer – vector layer
 
-# raster_layer – raster layer
+#. raster_layer – raster layer
 
-# mapserver_style – MapServer style
+#. mapserver_style – MapServer style
 
-# qgis_vector_style – QGIS vector style
+#. qgis_vector_style – QGIS vector style
 
-# raster_style – raster style
+#. raster_style – raster style
 
-# file_bucket
+#. file_bucket
 
-# lookup_table – lookup table
+#. lookup_table – lookup table
 
-# wmsclient_layer – WMS layer
+#. wmsclient_layer – WMS layer
 
-# wmsclient_connection – WMS connection
+#. wmsclient_connection – WMS connection
 
-# formbuilder_form - form
+#. formbuilder_form - form
 
-# trackers_group – trackers group
+#. trackers_group – trackers group
 
-# tracker - tracker
+#. tracker - tracker
 
-# collector_project – Collector project
+#. collector_project – Collector project
 
 
 Output:

@@ -24,5 +24,5 @@
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 
-`Набор исходных данных <https://nextgis.ru/data/toolbox/ngw_copy_layer/ngw_copy_layer_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+`Набор исходных данных <https://nextgis.ru/data/toolbox/ngw_copy_layer/ngw_copy_layer_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 

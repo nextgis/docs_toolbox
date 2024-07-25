@@ -21,5 +21,8 @@ Output:
 
 Launch the tool: https://toolbox.nextgis.com/operation/r_mapcalc
 
-:download:`Example <files/r_mapcalc_example.zip>` of source data.
+**Try it out using our sample:**
 
+Download `input dataset <https://nextgis.ru/data/toolbox/r_mapcalc/r_mapcalc_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/r_mapcalc/r_mapcalc_outputs.zip>`_ to additionally check the results.

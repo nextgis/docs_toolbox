@@ -15,3 +15,9 @@ Outputs:
 Launch tool: https://toolbox.nextgis.com/operation/split_to_equal
 
 View the results of calculations on an interactive map: https://demo.nextgis.com/resource/4552/display?panel=layers 
+
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/split_to_equal/split_to_equal_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/split_to_equal/split_to_equal_outputs.zip>`_ to additionally check the results.

@@ -33,3 +33,9 @@ ZIP-архив с результатами конвертации – векто
 * lesoseka – номер лесосеки (если применимо)
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/xml_decl_to_vector
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/xml_decl_to_vector/xml_decl_to_vector_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/xml_decl_to_vector/xml_decl_to_vector_outputs_ru.zip>`_ работы инструмента.

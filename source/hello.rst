@@ -14,4 +14,4 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/hello
 
-**Попробуйте инструмент в действии**, скачав наш `пример <https://nextgis.ru/data/toolbox/hello/hello_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+**Попробуйте инструмент в действии**, скачав наш `пример <https://nextgis.ru/data/toolbox/hello/hello_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.

@@ -15,4 +15,8 @@ The tool has no limit on the number of input layers. The name of the source laye
 
 Launch tool: https://toolbox.nextgis.com/operation/ogrmerge
 
-Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/ogrmerge/ogrmerge.zip
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/ogrmerge/ogrmerge_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/ogrmerge/ogrmerge_outputs.zip>`_ to additionally check the results.

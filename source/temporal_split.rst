@@ -21,18 +21,8 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/temporal_split
 
-Пример использования:
+**Попробуйте инструмент в действии, скачав наш пример:**
 
-Сделать временной кэш из слоя городов появляющихся и исчезающих в определенное время.
+`Набор исходных данных <https://nextgis.ru/data/toolbox/temporal_split/temporal_split_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
-* Web GIS URL - https://demo.nextgis.com
-* ID ресурса исходных данных - 4719
-* upper_field - upperdat
-* lower_field - lwdate
-* year1_field - YEAR1
-* year2_field - YEAR2
-* Формат даты - 
-* Выходной формат - 
-* Игнорировать ошибки - 1
-
-Скачать пример результатов: https://nextgis.ru/data/toolbox/toolbox_temporal_split/toolbox_temporal_split.zip
+`Пример результата <https://nextgis.ru/data/toolbox/temporal_split/temporal_split_outputs_ru.zip>`_ работы инструмента.

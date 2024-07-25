@@ -17,11 +17,14 @@ Outputs:
 
 Launch tool: https://toolbox.nextgis.com/operation/poly2explication
 
-Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/poly2explication/poly2explication.zip
-
 .. figure:: _static/poly2explication-1.png
    :align: center
    :width: 16cm
    
    An example of the result of the tool’s usage 
    
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/poly2explication/poly2explication_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/poly2explication/poly2explication_outputs.zip>`_ to additionally check the results.

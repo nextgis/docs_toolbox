@@ -13,6 +13,10 @@ Output:
 
 * ZIP-archive with vector file. You can import this file into NextGIS QGIS or NextGIS Web without unpacking.
 
-Input data :download:`sample <files/table2geo_example.xlsx>`.
-
 Launch tool: https://toolbox.nextgis.com/operation/table2geo
+
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/table2geo/table2geo_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/table2geo/table2geo_outputs.zip>`_ to additionally check the results.

@@ -19,8 +19,12 @@ Output:
 
 * Created/updated layer in Web GIS
 
-`Google Sheets sample <https://docs.google.com/spreadsheets/d/1cKvjCMBZajaortAkdQqVwQ_06LuLm3bHyvybJgmAeQg/edit?usp=sharing>`_
-
 `Video <https://youtu.be/mEhUaRTFl3M?si=xD8JZjZPL0qIam8F>`_
 
 Launch tool: https://toolbox.nextgis.com/operation/Googlesheets2layer
+
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/googlesheets2layer/googlesheets2layer_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/googlesheets2layer/googlesheets2layer_outputs.zip>`_ to additionally check the results.

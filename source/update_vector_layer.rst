@@ -28,3 +28,9 @@ Troubleshooting
 * Invalid structure of the layer - data structures of CSV and target layer mismatch.
 
 Launch tool: https://toolbox.nextgis.com/operation/update_vector_layer
+
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/update_vector_layer/update_vector_layer_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/update_vector_layer/update_vector_layer_outputs.zip>`_ to additionally check the results.

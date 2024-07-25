@@ -30,3 +30,10 @@
 `Видео <https://youtu.be/CmMcSA0-QIg?si=kGNTNcPvUBlmKSPY>`_
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/update_vector_layer
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/update_vector_layer/update_vector_layer_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/update_vector_layer/update_vector_layer_outputs_ru.zip>`_ работы инструмента.
+

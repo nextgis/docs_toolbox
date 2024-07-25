@@ -17,4 +17,8 @@ Outputs:
 
 Launch tool: https://toolbox.nextgis.com/operation/attach2resource
 
-An example of source data: https://nextgis.ru/data/toolbox/attach2resource/attach2resource.zip
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/attach2resource/attach2resource_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/attach2resource/attach2resource_outputs.zip>`_ to additionally check the results.

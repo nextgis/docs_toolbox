@@ -56,3 +56,10 @@ collector_project – проект Collector
 * Таблица XLSX с перечнем найденных в Веб ГИС ресурсов.
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/web_gis_structure
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/web_gis_structure/web_gis_structure_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/web_gis_structure/web_gis_structure_outputs_ru.zip>`_ работы инструмента.
+

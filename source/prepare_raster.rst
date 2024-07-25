@@ -32,8 +32,6 @@ The initial rasters and the vector mask can be in different coordinate systems b
 
 Launch tool: https://toolbox.nextgis.com/operation/prepare_raster
 
-Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/prepare_raster/prepare_raster.zip
-
 View the source data and calculation results on the interactive map: https://demo.nextgis.com/resource/4595/display?panel=info
 
 .. figure:: _static/prepare_raster.png
@@ -41,3 +39,9 @@ View the source data and calculation results on the interactive map: https://dem
    :width: 16cm
 
    An example of the result of the tool’s usage
+
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/prepare_raster/prepare_raster_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/prepare_raster/prepare_raster_outputs.zip>`_ to additionally check the results.

@@ -66,6 +66,7 @@ Contents:
    ngw_to_gpkg
    ogrmerge
    osm2mp
+   osmclip_bbox
    pointcloud2tileset
    points_on_tracks_stats
    poly2explication
@@ -73,6 +74,7 @@ Contents:
    postal
    predict_overpass
    prepare_raster
+   qgis2pdf
    quadro
    r_mapcalc
    raster_calculator

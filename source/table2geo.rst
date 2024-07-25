@@ -13,6 +13,10 @@
 
 * ZIP-архив с векторным файлом. Этот архив вы можете, не распаковывая, импортировать в NextGIS QGIS или NextGIS Web.
 
-:download:`Пример <files/table2geo_example.xlsx>` исходных данных.
-
 Запуск инструмента: https://toolbox.nextgis.com/operation/table2geo
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/table2geo/table2geo_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/table2geo/table2geo_outputs_ru.zip>`_ работы инструмента.

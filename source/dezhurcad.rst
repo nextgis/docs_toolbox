@@ -22,6 +22,6 @@
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 
-`Набор исходных данных <https://nextgis.ru/data/toolbox/dezhurcad/dezhurcad_inputs.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+`Набор исходных данных <https://nextgis.ru/data/toolbox/dezhurcad/dezhurcad_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
-`Пример результата <https://nextgis.ru/data/toolbox/dezhurcad/dezhurcad_outputs.zip>`_ работы инструмента.
+

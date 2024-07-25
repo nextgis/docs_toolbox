@@ -19,11 +19,13 @@ The initial vector layers must have the same coordinate system.
 
 Launch tool: https://toolbox.nextgis.com/operation/eraser
 
-Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/eraser/eraser.zip
-
 View the source data and the results of calculations on an interactive map: https://demo.nextgis.com/resource/4611/display?panel=info
 
+**Try it out using our sample:**
 
+Download `input dataset <https://nextgis.ru/data/toolbox/eraser/eraser_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/eraser/eraser_outputs.zip>`_ to additionally check the results.
 .. figure:: _static/eraser.png
    :align: center
    :width: 16cm

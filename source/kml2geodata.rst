@@ -15,8 +15,6 @@ Outputs:
 
 * ZIP compressed GeoJSON with attachments if any.
 
-Download an example of source data and result: https://nextgis.ru/data/toolbox/kml2geodata/kml2geodata.zip
-
 Launch tool: https://toolbox.nextgis.com/operation/kml2geodata
 
 
@@ -31,3 +29,9 @@ Launch tool: https://toolbox.nextgis.com/operation/kml2geodata
    :width: 16cm
    
    Result example. Data opened in QGIS after conversion with the tool
+
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/kml2geodata/kml2geodata_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/kml2geodata/kml2geodata_outputs.zip>`_ to additionally check the results.

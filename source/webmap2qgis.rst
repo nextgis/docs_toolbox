@@ -16,3 +16,9 @@ Outputs:
 `Video <https://youtu.be/uFiOJfK6VQw?si=9I9jZzElDqkDBq5M>`_
 
 Launch the tool: https://toolbox.nextgis.com/operation/webmap2qgis
+
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/webmap2qgis/webmap2qgis_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/webmap2qgis/webmap2qgis_outputs.zip>`_ to additionally check the results.

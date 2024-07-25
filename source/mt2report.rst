@@ -29,3 +29,9 @@ View an example of initial data on an interactive map: https://demo.nextgis.com/
    :width: 16cm
    
    An example of the result of the tool’s usage 
+
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/mt2report/mt2report_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/mt2report/mt2report_outputs.zip>`_ to additionally check the results.

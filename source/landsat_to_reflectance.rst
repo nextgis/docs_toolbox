@@ -39,4 +39,8 @@ Supported data:
 
 Launch tool: https://toolbox.nextgis.com/operation/landsat_to_reflectance
 
-Download an example of source data and calculation results: https://nextgis.ru/data/toolbox/landsat_to_reflectance/landsat_to_reflectance.zip
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.ru/data/toolbox/landsat_to_reflectance/landsat_to_reflectance_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.ru/data/toolbox/landsat_to_reflectance/landsat_to_reflectance_outputs.zip>`_ to additionally check the results.

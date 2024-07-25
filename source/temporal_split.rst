@@ -21,18 +21,8 @@ Outputs:
 
 Launch tool: https://toolbox.nextgis.com/operation/temporal_split
 
-Usage example:
+**Try it out using our sample:**
 
-Make a temporary cache from the layer of cities appearing and disappearing at a certain time.
+Download `input dataset <https://nextgis.ru/data/toolbox/temporal_split/temporal_split_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
-* Web GIS URL - https://demo.nextgis.com
-* Source Resource ID - 4719
-* upper_field - upperdat
-* lower_field - lwdate
-* year1_field - YEAR1
-* year2_field - YEAR2
-* Date format - 
-* Output format -
-* Ignore Errors - 1
-
-Download sample results: https://nextgis.ru/data/toolbox/toolbox_temporal_split/toolbox_temporal_split.zip
+Get the `output <https://nextgis.ru/data/toolbox/temporal_split/temporal_split_outputs.zip>`_ to additionally check the results.

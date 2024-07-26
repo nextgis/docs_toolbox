@@ -18,6 +18,6 @@ Launch tool: https://toolbox.nextgis.com/operation/compile_forest_declaration
 
 **Try it out using our sample:**
 
-Download `input dataset <https://nextgis.ru/data/toolbox/compile_forest_declaration/compile_forest_declaration_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+Download `input dataset <https://nextgis.com/data/toolbox/compile_forest_declaration/compile_forest_declaration_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
-Get the `output <https://nextgis.ru/data/toolbox/compile_forest_declaration/compile_forest_declaration_outputs.zip>`_ to additionally check the results.
+Get the `output <https://nextgis.com/data/toolbox/compile_forest_declaration/compile_forest_declaration_outputs.zip>`_ to additionally check the results.

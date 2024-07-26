@@ -16,17 +16,6 @@ Outputs:
 Launch tool: https://toolbox.nextgis.com/operation/ngw-intersect
 	
  
-.. figure:: _static/ngw_intersect_layers.png
-   :align: center
-   :width: 16cm
-   
-   Initial Data Example
-   
-.. figure:: _static/ngw_intersect_result.png
-   :align: center
-   :width: 16cm
-   
-   An example of the result of the tool’s usage 
 
 **Try it out using our sample:**
 

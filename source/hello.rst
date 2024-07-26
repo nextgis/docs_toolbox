@@ -16,5 +16,5 @@ Launch tool: https://toolbox.nextgis.com/operation/hello
 
 **Try it out using our sample:**
 
-Download `step-by-step instructions <https://nextgis.ru/data/toolbox/hello/hello_inputs.zip>`_ to test the instrument.
+Download `step-by-step instructions <https://nextgis.com/data/toolbox/hello/hello_inputs.zip>`_ to test the instrument.
 

@@ -17,6 +17,6 @@ Launch the tool: https://toolbox.nextgis.com/operation/water_usage
 
 **Try it out using our sample:**
 
-Download `input dataset <https://nextgis.ru/data/toolbox/water_usage/water_usage_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+Download `input dataset <https://nextgis.com/data/toolbox/water_usage/water_usage_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
-Get the `output <https://nextgis.ru/data/toolbox/water_usage/water_usage_outputs.zip>`_ to additionally check the results.
+Get the `output <https://nextgis.com/data/toolbox/water_usage/water_usage_outputs.zip>`_ to additionally check the results.

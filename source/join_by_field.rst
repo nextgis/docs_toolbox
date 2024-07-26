@@ -26,6 +26,6 @@ Usage example:
 
 **Try it out using our sample:**
 
-Download `input dataset <https://nextgis.ru/data/toolbox/join_by_field/join_by_field_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+Download `input dataset <https://nextgis.com/data/toolbox/join_by_field/join_by_field_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
-Get the `output <https://nextgis.ru/data/toolbox/join_by_field/join_by_field_outputs.zip>`_ to additionally check the results.
+Get the `output <https://nextgis.com/data/toolbox/join_by_field/join_by_field_outputs.zip>`_ to additionally check the results.

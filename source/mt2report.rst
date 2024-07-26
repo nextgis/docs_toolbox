@@ -16,22 +16,11 @@ The result of the process is a table in CSV format with information about all sh
 
 Launch tool: https://toolbox.nextgis.com/operation/mt2report
 
-View an example of initial data on an interactive map: https://demo.nextgis.com/resource/4693/display?panel=layers
 
-.. figure:: _static/mt2report_map.png
-   :align: center
-   :width: 16cm
-   
-   Initial Data Example
-   
-.. figure:: _static/mt2report_table.png
-   :align: center
-   :width: 16cm
-   
-   An example of the result of the tool’s usage 
+
 
 **Try it out using our sample:**
 
-Download `input dataset <https://nextgis.ru/data/toolbox/mt2report/mt2report_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+Download `input dataset <https://nextgis.com/data/toolbox/mt2report/mt2report_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
-Get the `output <https://nextgis.ru/data/toolbox/mt2report/mt2report_outputs.zip>`_ to additionally check the results.
+Get the `output <https://nextgis.com/data/toolbox/mt2report/mt2report_outputs.zip>`_ to additionally check the results.

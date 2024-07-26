@@ -8,6 +8,6 @@ https://toolbox.nextgis.com/operation/import_dwg
 
 **Try it out using our sample:**
 
-Download `input dataset <https://nextgis.ru/data/toolbox/import_dwg/import_dwg_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+Download `input dataset <https://nextgis.com/data/toolbox/import_dwg/import_dwg_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
-Get the `output <https://nextgis.ru/data/toolbox/import_dwg/import_dwg_outputs.zip>`_ to additionally check the results.
+Get the `output <https://nextgis.com/data/toolbox/import_dwg/import_dwg_outputs.zip>`_ to additionally check the results.

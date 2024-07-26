@@ -42,6 +42,7 @@
    grid
    grunt
    hello
+   image_clustering
    import_dwg
    import_egrn
    intersect_layers

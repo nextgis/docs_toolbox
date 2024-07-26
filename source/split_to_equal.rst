@@ -14,7 +14,6 @@ Outputs:
 
 Launch tool: https://toolbox.nextgis.com/operation/split_to_equal
 
-View the results of calculations on an interactive map: https://demo.nextgis.com/resource/4552/display?panel=layers 
 
 **Try it out using our sample:**
 

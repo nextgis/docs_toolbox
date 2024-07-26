@@ -17,11 +17,7 @@ Outputs:
 
 Launch tool: https://toolbox.nextgis.com/operation/poly2explication
 
-.. figure:: _static/poly2explication-1.png
-   :align: center
-   :width: 16cm
-   
-   An example of the result of the tool’s usage 
+
    
 **Try it out using our sample:**
 

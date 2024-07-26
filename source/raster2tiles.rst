@@ -14,17 +14,7 @@ Outputs:
 
 *  NGRC file with tileset
 
-.. figure:: _static/raster2tiles_input.png
-   :align: center
-   :width: 16cm
-   
-   Inputs example
-   
-.. figure:: _static/raster2tiles_output.png
-   :align: center
-   :width: 8cm
-   
-   Result example - NGRC file added to NextGIS Mobile
+
 
 Launch tool: https://toolbox.nextgis.com/operation/raster2tiles
 

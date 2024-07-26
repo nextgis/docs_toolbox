@@ -24,7 +24,7 @@ Output:
 
 * CSV file with report
 
-The ID of resources and trackers can be obtained through the web interface of the Web GIS used. Open the resource of the vector layer or tracker, its address in the browser will look like https://demo.nextgis.ru/resource/6895. ID is the number on the right side of the address, in this case 6895 
+The ID of resources and trackers can be obtained through the web interface of the Web GIS used. Open the resource of the vector layer or tracker, its address in the browser will look like https://demo.nextgis.com/resource/6895. ID is the number on the right side of the address, in this case 6895 
 
 Tool workflow:
 
@@ -39,7 +39,7 @@ Launch tool: https://toolbox.nextgis.com/operation/points_on_tracks_stats
 
 **Try it out using our sample:**
 
-Download `input dataset <https://nextgis.ru/data/toolbox/points_on_tracks_stats/points_on_tracks_stats_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+Download `input dataset <https://nextgis.com/data/toolbox/points_on_tracks_stats/points_on_tracks_stats_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
-Get the `output <https://nextgis.ru/data/toolbox/points_on_tracks_stats/points_on_tracks_stats_outputs.zip>`_ to additionally check the results.
+Get the `output <https://nextgis.com/data/toolbox/points_on_tracks_stats/points_on_tracks_stats_outputs.zip>`_ to additionally check the results.
    

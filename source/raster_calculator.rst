@@ -72,7 +72,7 @@ If the user sets one of the optional parameters (resolution along one of the axe
 Launch tool: https://toolbox.nextgis.com/operation/raster_calculator
 
 
-View source data and calculation results on an interactive map: https://demo.nextgis.com/resource/4566/display?panel=info
+
 
 **Try it out using our sample:**
 

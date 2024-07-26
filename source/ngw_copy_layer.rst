@@ -18,4 +18,4 @@ Launch tool: https://toolbox.nextgis.com/operation/ngw_copy_layer
 
 **Try it out using our sample:**
 
-Download `input dataset <https://nextgis.ru/data/toolbox/ngw_copy_layer/ngw_copy_layer_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+Download `input dataset <https://nextgis.com/data/toolbox/ngw_copy_layer/ngw_copy_layer_inputs.zip>`_ to test the instrument. Step-by-step instructions included.

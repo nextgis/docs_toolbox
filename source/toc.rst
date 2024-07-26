@@ -64,6 +64,7 @@
    ngw_intersect
    ngw_to_gpkg
    ogrmerge
+   osmclip_bbox
    osm2mp
    pointcloud2tileset
    points_on_tracks_stats
@@ -72,6 +73,7 @@
    postal
    predict_overpass
    prepare_raster
+   qgis2pdf
    quadro
    r_mapcalc
    raster_calculator

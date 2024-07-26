@@ -27,6 +27,6 @@ Launch tool: https://toolbox.nextgis.com/operation/joinreforma
 
 **Try it out using our sample:**
 
-Download `input dataset <https://nextgis.ru/data/toolbox/joinreforma/joinreforma_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+Download `input dataset <https://nextgis.com/data/toolbox/joinreforma/joinreforma_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
-Get the `output <https://nextgis.ru/data/toolbox/joinreforma/joinreforma_outputs.zip>`_ to additionally check the results.
+Get the `output <https://nextgis.com/data/toolbox/joinreforma/joinreforma_outputs.zip>`_ to additionally check the results.

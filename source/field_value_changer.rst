@@ -23,11 +23,7 @@ Outputs:
 
 *  A CSV file that contains data about the initial and target fields, the identifier value, the previous and new values ​​of the target field, as well as a list of hyperlinks to features that have been changed.
 
-.. figure:: _static/result.PNG
-   :align: center
-   :width: 16cm
 
-   An example of the result of the tool’s usage
 
 Launch tool: https://toolbox.nextgis.com/operation/field_value_changer
 

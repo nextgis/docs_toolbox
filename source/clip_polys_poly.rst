@@ -15,23 +15,7 @@ Outputs:
 *  Areas values will write into fields of layers in nextgisweb
 
 
-.. figure:: _static/clip_polys_poly1.png
-   :align: center
-   :width: 16cm
-   
-   Example of source data
-   
-.. figure:: _static/clip_polys_poly2.png
-   :align: center
-   :width: 16cm
-   
-   Example of results
-   
-.. figure:: _static/clip_polys_poly.png
-   :align: center
-   :width: 16cm
-   
-   Example of results and custom styling
+
 
 Launch tool: https://toolbox.nextgis.com/operation/clip_polys_poly
 

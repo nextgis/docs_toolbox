@@ -23,11 +23,6 @@ Inputs:
    all
    
    
-.. figure:: _static/grid-1000-rect-touches.png
-   :align: center
-   :width: 16cm
-
-   touches
    
    
 .. figure:: _static/grid-1000-rect-intersection.png
@@ -36,26 +31,6 @@ Inputs:
 
    intersection
    
-   
-.. figure:: _static/grid-1000-point-all.png
-   :align: center
-   :width: 16cm
-
-   all для точек
-   
-   
-.. figure:: _static/grid-1000-point-intersection.png
-   :align: center
-   :width: 16cm
-
-   touches и intersection для точек
-
-   
-.. figure:: _static/grid-planet.png
-   :align: center
-   :width: 16cm
-
-   Generated grids for several polygons in different places of the globe
    
 
 *  output geodata format - GeoJSON, ESRI Shape, Mapinfo TAB

@@ -18,12 +18,12 @@ Launch tool: https://toolbox.nextgis.com/operation/forestplots_field
 
 .. figure:: _static/forest-circular-plots.jpg
    :align: center
-   :width: 16cm
+   :width: 12cm
 
    An example of result uploded to Garmin
 
 **Try it out using our sample:**
 
-Download `input dataset <https://nextgis.ru/data/toolbox/forestplots_field/forestplots_field_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+Download `input dataset <https://nextgis.com/data/toolbox/forestplots_field/forestplots_field_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
-Get the `output <https://nextgis.ru/data/tolbox/forestplots_field/forestplots_field_outputs.zip>`_ to additionally check the results."
+Get the `output <https://nextgis.com/data/tolbox/forestplots_field/forestplots_field_outputs.zip>`_ to additionally check the results."

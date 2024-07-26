@@ -16,12 +16,8 @@ Outputs:
 
 Launch tool: https://toolbox.nextgis.com/operation/tropomi2geotiff
 
-View an example result on an interactive map: https://demo.nextgis.com/resource/4698/display?panel=layers
 
-.. figure:: _static/tropomi2geotiff.png
-   :align: center
-   :width: 16cm
-   
+
 The source scenes are supposed to be hosted on scihub.copernicus (https://scihub.copernicus.eu) in the future, but temporarily they are hosted on a copy of the Sentinel-5P Pre-Operations Hub web interface: https://s5phub.copernicus.eu/dhus/#/ home. Logins from scihub do not work, you need to use s5pguest / s5pguest. 
 
 **Try it out using our sample:**

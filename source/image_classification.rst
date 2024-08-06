@@ -22,6 +22,7 @@ Set up the parameters:
 Output:
 
 * Classified raster.
+* Classification report. It records the overall quality of the classification, the number of misclassified pixels in each class (and indicates the classes to which they were put instead).
 
 Launch instrument: https://toolbox.nextgis.com/operation/image_classification
 

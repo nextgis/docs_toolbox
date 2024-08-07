@@ -32,6 +32,7 @@
    geometry_changer
    raster_calculator
    r_mapcalc
+   image_classification
    image_clustering
    mapinfo2qgis
    convert

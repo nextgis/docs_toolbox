@@ -42,6 +42,7 @@ Contents:
    grid
    grunt
    hello
+   image_classification
    image_clustering
    import_dwg
    import_egrn

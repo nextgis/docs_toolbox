@@ -69,6 +69,7 @@
    cadnums_to_geodata
    poly2explication
    lines2polygons
+   rosreestr2coord
    hello
    kptbatch_validator
    predict_overpass

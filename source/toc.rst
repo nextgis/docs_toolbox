@@ -82,6 +82,7 @@ Contents:
    raster_calculator
    raster2tiles
    removecontents
+   rosreestr2coord
    spatial_join
    split_to_equal
    split_to_rect

@@ -18,3 +18,9 @@ Input: ZIP archive with GPX files. Subdirectories are allowed
 * You can have files with the same name in different folders, the tool can process them anyway.
 
 Output: GPX file.
+
+**Try it out using our sample:**
+
+Download `input dataset <https://nextgis.com/data/toolbox/gpxmerge/gpxmerge_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+
+Get the `output <https://nextgis.com/data/toolbox/gpxmerge/gpxmerge_outputs.zip>`_ to additionally check the results.

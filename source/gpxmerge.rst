@@ -1,20 +1,20 @@
-.. sectionauthor:: Юлия Григоренко <grigorenko.j@gmail.com>
+.. sectionauthor::  <grigorenko.j@gmail.com>
 
-Объединение GPX файлов 
+Merge GPX files
 ========================
 
-Объединяет GPS треки в формате GPX в один. Большинство программ открывает треки по одному, и с помощью этого инструмента нет необходимости выяснять, в какую дату был записан трек нужного места, можно открыть все собранные данные сразу.
+Merge multiple GPS logs in GPX format to one. Most programms open tracks one by one. With this instrument you don't have to know in advance what day the information for a certain area was collected, all tracks will be viewed at once. 
 
-Кроме того, некоторые программы и устройства при выключении питания оставляют GPX без закрывающих тегов, и  многие программы такие файлы не открывает. Этот инструмент позволяет починить такие файлы.
+Additionaly, some apps and devices in case of power down leave GPX file without closing tags, making them impossible to open in some programms. This instrument fixes such files.
 
 
-На входе: ZIP архив с GPX файлами.
+Input: ZIP archive with GPX files. Subdirectories are allowed
 
-* В архиве могут быть многократно вложенные папки.
+* Subdirectories of several leverls are allowed.
 
 .. important::
-	Архивы внутри архива не поддерживаются. 
+	Archives inside the archive are not supported. 
 
-* Файлы в разных папках внутри архива могут называться одинаково, инструмент их примет.
+* You can have files with the same name in different folders, the tool can process them anyway.
 
-На выходе: файл GPX.
+Output: GPX file.

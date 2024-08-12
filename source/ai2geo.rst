@@ -1,12 +1,12 @@
 Adobe Illustrator (*.ai) to geodata
 ===================================
 
-The tool extracts vector layers from a PDF file or Adobe Illustrator (* .ai) file.  An additional raster file could be used for georeference.
+The tool extracts vector layers from an Adobe Illustrator (* .ai) file.  An additional raster file could be used for georeference.
 
 Inputs:
 
-* PDF file or Adobe Illustrator file (with the .ai extension) which contains vector features.
-* Raster file for georeferencing - GeoTIFF file (with the .geotiff or .tif extension) or ZIP-archive with PNG + PGW (world-file). Same files should be used as a base layer in PDF or AI file. This is an optional field, if you leave it blank, vector layers will be in a relative coordinate system.
+* Adobe Illustrator file (with the .ai extension) which contains vector features.
+* Raster file for georeferencing - GeoTIFF file (with the .geotiff or .tif extension) or ZIP-archive with PNG + PGW (world-file). Same files should be used as a base layer in AI file. This is an optional field, if you leave it blank, vector layers will be in a relative coordinate system.
 
 Output:
 

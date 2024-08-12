@@ -17,3 +17,9 @@
 На выходе: CSV со списком знаков. 
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/rsc2csv
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/rsc2csv/rsc2csv_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/rsc2csv/rsc2csv_outputs_ru.zip>`_ работы инструмента.

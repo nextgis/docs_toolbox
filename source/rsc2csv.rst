@@ -1,19 +1,15 @@
-.. sectionauthor:: Юлия Григоренко <grigorenko.j@gmail.com>
+.. sectionauthor::  <grigorenko.j@gmail.com>
 
-Конвертация RSC в CSV 
+Convert RSC to CSV
 ==========================
 
-Конвертация файла классификатора RSC из ГИС Панорама в CSV для анализа. Он используется для сравнения списка условных знаков в Панораме с другими программами.
+Convert Panorama RSC export file to CSV table for analysis purposes. 
 
-В ГИС Панорама версии 15 откройте редактор классификатора. Общие данные - Сохранить как. Выберите следующие параметры сохранения:
+In GIS Panorama 15 open the classificator editor. Save as: Report form - Short. Table - feature table.
 
-* Форма отчетов: Краткая. 
-* Таблицы: Таблица объектов. 
 
-Полученый файл в формате txt загрузите в инструмент. 
+Input: TXT-file
 
-На входе: TXT-файл
+Output: CSV-file 
 
-На выходе: CSV со списком знаков. 
-
-Запуск инструмента: https://toolbox.nextgis.com/operation/rsc2csv
+Launch instrument: https://toolbox.nextgis.com/operation/rsc2csv

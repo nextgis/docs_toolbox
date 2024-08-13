@@ -12,9 +12,23 @@
 
 Полученый файл в формате txt загрузите в инструмент. 
 
-На входе: TXT-файл
+**На входе:** TXT-файл
 
-На выходе: CSV со списком знаков. 
+.. figure:: _static/rsc2csv_input_ru.png
+   :name: rsc2csv_input_pic
+   :align: center
+   :width: 16cm
+
+   Исходный файл TXT
+
+**На выходе:** CSV со списком знаков. 
+
+.. figure:: _static/rsc2csv_output_ru.png
+   :name: rsc2csv_output_pic
+   :align: center
+   :width: 16cm
+
+   Полученный файл CSV
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/rsc2csv
 

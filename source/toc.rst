@@ -86,6 +86,7 @@
    egrn_kvartals_cover
    points_on_tracks_stats
    web_gis_structure
+   s2_search
    googlesheets2layer
    table2geo
    flatten

@@ -83,6 +83,7 @@ Contents:
    raster2tiles
    removecontents
    rosreestr2coord
+   s2_search
    spatial_join
    split_to_equal
    split_to_rect

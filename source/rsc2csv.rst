@@ -10,7 +10,23 @@ In GIS Panorama 15 open the classificator editor. Save as: Report form - Short. 
 
 Input: TXT file
 
+.. figure:: _static/rsc2csv_input_en.png
+   :name: rsc2csv_input_pic
+   :align: center
+   :width: 16cm
+
+   Input TXT
+
+
 Output: CSV file 
+
+.. figure:: _static/rsc2csv_output_en.png
+   :name: rsc2csv_output_pic
+   :align: center
+   :width: 16cm
+
+   Output CSV
+
 
 Launch instrument: https://toolbox.nextgis.com/operation/rsc2csv
 

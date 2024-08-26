@@ -8,8 +8,11 @@ If output format is ESRI Shapefile, encoding of attributes cast to UTF-8.
 
 Input:
 
-*  Vector layer file - GeoJSON, GPKG file, ZIP archive with ESRI Shapefile or any other vector file compatible with GDAL library.
+*  Vector layer file - GeoJSON, GPKG, GPX or KMZ file, ZIP archive with ESRI Shapefile or any other vector file compatible with GDAL library.
 *  Name of output format
+
+.. note::
+   If uploaded file has incompatible format (SQL or singe SHP file) an error message will appear.
 
 Output:
 

@@ -1,7 +1,7 @@
 Point inside polygon coordinates
 ================================
 
-Calculate coorinates of a point guaranteed inside a polygon and add calculated coordinates to point_X, point_Y attributes.
+Calculate coorinates of a point guaranteed inside a polygon and add calculated coordinates to point_X, point_Y attributes. PointOnSurface method.
 
 Inputs:
 

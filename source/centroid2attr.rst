@@ -1,7 +1,7 @@
-Coordinates of center to attribute
-==================================
+Point inside polygon coordinates
+================================
 
-Calculate center point of polygons (PointOnSurface), add fields point_X, point_Y with coordinates of point guaranteed to intersect a polygon.
+Calculate coorinates of a point guaranteed inside a polygon and add calculated coordinates to point_X, point_Y attributes.
 
 Inputs:
 
@@ -9,7 +9,7 @@ Inputs:
 
 Outputs:
 
-* ZIP with polygonal Shapefile with two fielda added: point_X, point_Y 
+* ZIP with polygonal shapefile with two fielda added: point_X, point_Y 
 * QML style file
 
 .. figure:: _static/point_on_surface.png

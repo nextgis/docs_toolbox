@@ -39,6 +39,7 @@ Contents:
    geocodetable
    geometry_changer
    googlesheets2layer
+   gpx2exif
    grid
    grunt
    hello

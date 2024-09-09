@@ -15,7 +15,6 @@
    import_dwg
    kml2geodata
    tropomi2geotiff
-   polysimplifier
    webmap2qgis
    ngw_to_gpkg
    quadro
@@ -25,6 +24,7 @@
    attach2resource
    add_lesobject_table
    add_lesobject_layer
+   gpx2exif
    ngw_copy_layer
    embedsvg
    deminpoints
@@ -74,6 +74,7 @@
    kptbatch_validator
    predict_overpass
    generalization
+   polysimplifier
    kmldae2footprints
    spatial_join
    landsat_to_radiance

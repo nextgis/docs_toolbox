@@ -20,6 +20,8 @@ Output:
 
 * Vector layer where each photo corresponds to a point. The same photo is added as an attachment to this point.
 
+`Video <https://youtu.be/r5v0wzOufV8>`_
+
 Launch tool: https://toolbox.nextgis.com/operation/exif2resource
 
 

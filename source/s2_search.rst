@@ -11,6 +11,7 @@ To run a search, enter following parameters:
 * **Year(s)** - Simple,list or range e.g. "2016,2020,2021-2024"
 * **Month(s)** - Simple,list or range e.g. "1,5,9-12"
 * **Max cloud** - Max cloud coverage in %, int or float e.g. 10 or 10.5
+* **Custom order name** - optional, you can enter a name for the Toolbox task to make it easier to tell them apart without comparing all the parameters.
 
 There is also option to **No preview**. If ticked, the resulting GeoPackage will contain only vector footprint itendifiers.
 
@@ -24,7 +25,9 @@ Output:
 
 If previews are included, to view the result in QGIS select Project ‣ Open From ‣ GeoPackage.
 
-By default, layer visibility is disabled. Select the layers you want to display.
+Project also includes a layer with geometries of selected S2 tiles and a search_result layer containing scene IDs, attributes and borders of satellite images from dataspace catalog.
+
+By default, tile layer and the earliest preview are visible. Select the layers you want to display.
 
 .. figure:: _static/s2_search_output_en.png
    :name: s2_search_output_pic

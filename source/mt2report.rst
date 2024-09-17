@@ -6,7 +6,7 @@ This tool generates a table (format - CSV), which lists the ships entering given
 Inputs:
 
 * Web GIS - URL of your Web GIS (for example, http(s)://mywebgis.nextgis.com)
-* login - login of a user with permission to write data in the resource group
+* login - login of a user with permission to write data in the resource
 * password - password for the user
 * AOI resource ID - ID of a polygon layer in Web GIS representing the area of interest
 * Ship data resource ID - ID of a point layer in Web GIS containing data on ships

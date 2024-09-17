@@ -7,7 +7,7 @@ Requires access to `geoservices <https://geoservices.nextgis.com/settings/profil
 Input:
 
 * API-key from https://geoservices.nextgis.com/settings/profile (Settings -> Profile)
-* Text file (*.txt) containing numbers of items. One cadastral number per string. Max 100 numbers.
+* Text file (\*.txt) containing numbers of items. One cadastral number per string. Max 100 numbers.
 
 Output:
 

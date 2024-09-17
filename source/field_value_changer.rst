@@ -5,7 +5,7 @@ The tool changes the value of the target attribute for the selected features in 
 
 Inputs:
 
-* Web GIS Address — The URL of your Web GIS (http(s): //***.nextgis.com)
+* Web GIS Address — The URL of your Web GIS (for example, http(s): //mywebgis.nextgis.com)
 * Login - The username of the user who has the permission to write data to the specified resource
 * Password - Web GIS user password
 * Resource Group Identifier - Web GIS Resource Identifier that contains layer groups

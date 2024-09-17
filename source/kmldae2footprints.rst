@@ -5,8 +5,8 @@ The tool makes a projection of three-dimensional features on the earth's surface
 
 Inputs:
 
-* Zip archive containing * .kmz and * .dae files
-* *.kmz must contain the geolocation of * .dae models (coordinates of polygons in EPSG: 4326, units of measurement are metric)
+* Zip archive containing \*.kmz and \*.dae files
+* \*.kmz must contain the geolocation of \*.dae models (coordinates of polygons in EPSG: 4326, units of measurement are metric)
 
 Outputs:
 

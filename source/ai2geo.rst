@@ -1,7 +1,7 @@
-Adobe Illustrator (*.ai) to geodata
+Adobe Illustrator (\*.ai) to geodata
 ===================================
 
-The tool extracts vector layers from an Adobe Illustrator (* .ai) file.  An additional raster file could be used for georeference.
+The tool extracts vector layers from an Adobe Illustrator (\*.ai) file.  An additional raster file could be used for georeference.
 
 Inputs:
 

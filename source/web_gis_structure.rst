@@ -8,48 +8,51 @@
 * Адрес Веб ГИС - полный адрес Веб ГИС, например, https://sandbox.nextgis.com
 * Логин – имя пользователя Веб ГИС
 * Пароль – пароль пользователя Веб ГИС
-* Тип ресурса – необходимо указать тип ресурса, по которому будет произведен фильтр среди всех ресурсов данной Веб ГИС. Возможные варианты:
-all – все ресурсы Веб ГИС
+* Тип ресурса – необходимо указать тип ресурса, по которому будет произведен фильтр среди всех ресурсов данной Веб ГИС. 
 
-resource_group – группа ресурсов (директория)
+Возможные варианты:
 
-postgis_layer – слой PostGIS
+#. all – все ресурсы Веб ГИС
 
-wmsserver_service – сервис WMS
+#. resource_group – группа ресурсов (директория)
 
-baselayers – базовая карта, подложка
+#. postgis_layer – слой PostGIS
 
-postgis_connection – соединение PostGIS
+#. wmsserver_service – сервис WMS
 
-webmap – веб-карта
+#. baselayers – базовая карта, подложка
 
-wfsserver_service – сервис WFS
+#. postgis_connection – соединение PostGIS
 
-vector_layer – векторный слой
+#. webmap – веб-карта
 
-raster_layer – растровый слой
+#. wfsserver_service – сервис WFS
 
-mapserver_style – стиль MapServer
+#. vector_layer – векторный слой
 
-qgis_vector_style – векторный стиль QGIS
+#. raster_layer – растровый слой
 
-raster_style – растровый стиль
+#. mapserver_style – стиль MapServer
 
-file_bucket
+#. qgis_vector_style – векторный стиль QGIS
 
-lookup_table - справочник
+#. raster_style – растровый стиль
 
-wmsclient_layer – слой WMS
+#. file_bucket
 
-wmsclient_connection – соединение WMS
+#. lookup_table - справочник
 
-formbuilder_form - форма
+#. wmsclient_layer – слой WMS
 
-trackers_group – группа трекеров
+#. wmsclient_connection – соединение WMS
 
-tracker - трекер
+#. formbuilder_form - форма
 
-collector_project – проект Collector
+#. trackers_group – группа трекеров
+
+#. tracker - трекер
+
+#. collector_project – проект Collector
 
 На выходе:
 

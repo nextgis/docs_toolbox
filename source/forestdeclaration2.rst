@@ -6,9 +6,9 @@ FormPython-code
 
 Input:
 
-* Supplement 3 - Select a file or drag and drop here ZIP-archive with one or several PNG files
-* Supplement 4 - Select a file or drag and drop here ZIP-archive with one or several PNG files
-* Forest declaration - Select a file or drag and drop here File in JSON format, exported from NextGIS Les app
+* Supplement 3 - ZIP-archive with one or several PNG files
+* Supplement 4 - ZIP-archive with one or several PNG files
+* Forest declaration - File in JSON format, exported from NextGIS Les app
 
 
 Launch insrument: https://toolbox.nextgis.com/operation/forestdeclaration2

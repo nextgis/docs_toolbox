@@ -5,10 +5,12 @@ This tool generates a table (format - CSV), which lists the ships entering given
 
 Inputs:
 
-* name - Web GIS Name
-* layer_id_border - zone resource ID
-* layer_id_ships - ship data resource ID
-* date - Start date
+* Web GIS - URL of your Web GIS (for example, http(s)://mywebgis.nextgis.com)
+* login - login of a user with permission to write data in the resource group
+* password - password for the user
+* AOI resource ID - ID of a polygon layer in Web GIS representing the area of interest
+* Ship data resource ID - ID of a point layer in Web GIS containing data on ships
+* Start date - Starting date for ship data selection (e.g., 2019-09-22)
 
 Calculation algorithm: Uploading layers of the boundary of the analysis zone and ship locations. Checking each location for intersection with the analysis zone; locations registered later than the specified starting date are also selected. Among the selected locations for each ship the last location and its coordinates, as well as the total number of locations are obtained. The information obtained for each ship is recorded in a table. 
 

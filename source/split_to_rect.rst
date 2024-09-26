@@ -5,7 +5,7 @@ Splits polygon layer into equal rectangular parts and calculates number of recta
 
 Inputs:
 
-*  Shapefile - polygonal layer in ESRI Shapefile format, for which the number of rectangles will be calculated. Should be packed in ZIP-archive. Attributes should contain empty string field, where the results of calculation will be recorded.
+*  Shapefile - polygonal layer in ESRI Shapefile format, for which the number of rectangles will be calculated. Should be packed in ZIP-archive. Attributes should contain empty integer field, where the results of calculation will be recorded. Layer CRS must be use meters, EPSG:4326 and EPSG:3857 are not suitable.
 * Length of rectangle - longer side of rectangle, should be specified in meters.
 * Width of rectangle - shorter side of rectangle, should be specified in meters.
 * Field name - name of the string field in initial layer, where to write the number of calculated rectangles for each polygon.

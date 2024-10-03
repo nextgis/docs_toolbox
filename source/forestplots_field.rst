@@ -17,7 +17,7 @@
 
 .. figure:: _static/forest-circular-plots.jpg
    :align: center
-   :width: 16cm
+   :width: 8cm
    
    Пример результата работы инструмента, загруженный в Garmin
    

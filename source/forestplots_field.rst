@@ -18,7 +18,7 @@ Launch tool: https://toolbox.nextgis.com/operation/forestplots_field
 
 .. figure:: _static/forest-circular-plots.jpg
    :align: center
-   :width: 12cm
+   :width: 8cm
 
    An example of result uploded to Garmin
 

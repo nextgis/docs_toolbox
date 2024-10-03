@@ -10,7 +10,7 @@ Merge multiple GPS logs in GPX format to one. Most programms open tracks one by 
    :align: center
    :width: 20cm
 
-   Multiplte murged tracks on a Web Map
+   Multiple merged tracks on a Web Map
 
 Additionaly, some apps and devices in case of power down leave GPX file without closing tags, making them impossible to open in some programms. This instrument fixes such files.
 

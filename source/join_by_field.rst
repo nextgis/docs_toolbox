@@ -5,12 +5,12 @@ The tool combines data from a table and a layer using a given field. The tool in
 
 Inputs:
 
-* gis_url - address of the used Web GIS
+* Web GIS URL - address of the used Web GIS
 * resource_id - layer ID to combine from the currently used Web GIS
-* src - table name
-* layer_field - the name of the field in the Web GIS layer
-* csv_field - field name in the table
-* join_type - type of join (1 - one-to-one, 0 - one-to-many)
+* CSV file for join
+* Key field in WebGIS layer - the name of the field in the Web GIS layer
+* Target field in CSV - field name in the table
+* Join type - enter "1" for one-to-one, otherwise the default join bype is "one-to-many"
 
 Outputs:
 

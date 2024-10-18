@@ -41,6 +41,7 @@
    grunt
    xml_decl_to_vector
    pointcloud2tileset
+   rsc2csv
    qgis2pdf
    centroid2attr
    lesis2sqlite
@@ -51,6 +52,7 @@
    ndi
    update_vector_layer
    osmclip_bbox
+   gpxmerge
    joinreforma
    ogrmerge
    join_by_field

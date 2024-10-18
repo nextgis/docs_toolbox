@@ -7,7 +7,7 @@ Search and save Sentinel-2 scene previews to GPKG.
 
 To run a search, enter following parameters:
 
-* **S2 tile index(es)** - Simple or list e.g. "36VWJ" or "36VWJ,36VXJ" - limit 50 id
+* **S2 tile index(es)** - Simple or list e.g. "36VWJ" or "36VWJ,36VXJ" - limit 50 id. You can check the ID of the scene you need on our `Web Map <https://demo.nextgis.com/resource/7697/display?panel=layers>`_ or  :download:`download the scene division file <files/sentinel_2_index.gpkg>`.
 * **Year(s)** - Simple,list or range e.g. "2016,2020,2021-2024"
 * **Month(s)** - Simple,list or range e.g. "1,5,9-12"
 * **Max cloud** - Max cloud coverage in %, int or float e.g. 10 or 10.5

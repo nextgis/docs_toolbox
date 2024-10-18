@@ -40,6 +40,7 @@ Contents:
    geometry_changer
    googlesheets2layer
    gpx2exif
+   gpxmerge
    grid
    grunt
    hello
@@ -84,6 +85,7 @@ Contents:
    raster2tiles
    removecontents
    rosreestr2coord
+   rsc2csv
    s2_search
    spatial_join
    split_to_equal

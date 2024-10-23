@@ -16,6 +16,12 @@ or
 * Layer ID - ID of an existing layer, the photos will be added to this layer.
 * Working mode: set to ADD to add points to the layer alongside the existing ones or REPLACE to delete existing points and add new ones.
 
+Also you can create an additional field storing some information, for example, the author of the photos.
+
+* Additional attribute - Name of the attribute field to store a custom value
+* Additional field value - A text string to add to each new feature
+
+
 Output:
 
 * Vector layer where each photo corresponds to a point. The same photo is added as an attachment to this point.

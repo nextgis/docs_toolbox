@@ -3,20 +3,12 @@
 Convert RSC to CSV
 ==========================
 
-Convert Panorama RSC export file to CSV table for analysis purposes. 
-
-In GIS Panorama 15 open the classificator editor. Save as: Report form - Short. Table - feature table.
+Convert Panorama RSC file to CSV table for analysis purposes. 
 
 
-Input: TXT file
 
-.. figure:: _static/rsc2csv_input_en.png
-   :name: rsc2csv_input_pic
-   :align: center
-   :width: 16cm
 
-   Input TXT
-
+Input: RSC file
 
 Output: CSV file 
 

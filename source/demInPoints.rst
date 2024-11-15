@@ -14,6 +14,15 @@ Outputs:
 
 *  zip-compressed CSV-file with coordinates and elevation values for given points.
 
+To save a point layer as a CSV file with coordinates, during export in the **Layer options** section select for the GEOMETRY field the option ``AS_XY``. The resulting file will have longitude in the X column and latitude in Y column. 
+
+
+.. figure:: _static/save_as_cvs_coord_en.png
+   :name: save_as_cvs_coord_pic
+   :align: center
+   :width: 14cm
+
+   Exporting point layer as CSV
 
 Launch tool: https://toolbox.nextgis.com/operation/demInPoints
 

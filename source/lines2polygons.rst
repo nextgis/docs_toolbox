@@ -5,24 +5,16 @@ The tool creates polygons that reflect the state of the area at a particular poi
 
 In addition, grouping of polygon identifiers by a given parameter is carried out by creating a separate field with an ID common to each group (its minimum value). The geometry of the polygons does not change.
 
-Inputs:
+**Preparing the data**
 
-*  gis_url - address of the used Web GIS
-*  lines_id - ID of the polyline layer from the used Web GIS
-*  points_id - ID of the layer with points from the used Web GIS
-*  Requested year - the year for which you want to get a time slice
-*  year_field - name of the field where the requested year will be written
-*  Result field - a new field where the grouping results will be entered, that is, ID
-*  Field with identifiers - a field with unique values in the polyline layer; IDs for grouping are borrowed from it 
-*  Grouping field - the field by which polygons are grouped
+Make sure to set the following access permissions for both layers: Resource: Read and Data: Read data for **Guest**. All the resource groups that include the layers, up to the Main resource group, must also have Resource: Read permission set for Guest.
 
-Outputs:
+The layer of polylines must include the following fields:
 
-*  a layer with polygons (shapefile) relevant for the given year
+* upperdat - the start date of the line's existence;
+* lwdate - the end date of the line's existence;
+* a field that will be used for grouping.
 
-Launch tool: https://toolbox.nextgis.com/operation/lines2polygons
-
- 
 .. figure:: _static/lines2polygons_lines_points_map2.png
    :align: center
    :width: 16cm
@@ -40,6 +32,26 @@ Launch tool: https://toolbox.nextgis.com/operation/lines2polygons
    :width: 16cm
    
    An example of the result of a tool    
+
+
+Inputs:
+
+*  Web GIS URL - address of the used Web GIS (it must end on *.com*, no / or other symbols after it)
+*  Line resource ID - ID of the polyline layer from the used Web GIS
+*  Point resource ID - ID of the layer with points from the used Web GIS
+*  Requested year - the year for which you want to get a time slice
+*  Request year field name - name of the field where the requested year will be written
+*  Result field - a new field where the grouping results will be entered, that is, ID
+*  ID field - a field with unique values in the polyline layer; IDs for grouping are borrowed from it 
+*  Group field - the field by which polygons are grouped
+
+Outputs:
+
+*  a layer with polygons (shapefile) relevant for the given year
+
+Launch tool: https://toolbox.nextgis.com/operation/lines2polygons
+
+ 
 
 **Try it out using our sample:**
 

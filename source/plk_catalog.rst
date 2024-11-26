@@ -25,5 +25,5 @@
 
 .. to do:: `Пример результата <https://nextgis.ru/data/toolbox/plk_catalog/plk_catalog_outputs_ru.zip>`_ работы инструмента.
 
-Пример результата работы инструмента в формате :download:`CSV <_static/43_31_7_25-11-2024.csv>` и :download:`DB <files/43_31_7_25-11-2024.db>`.
+Пример результата работы инструмента в формате :download:`CSV <_static/43_31_7_25-11-2024.csv>` и :download:`DB <_static/43_31_7_25-11-2024.db>`.
 

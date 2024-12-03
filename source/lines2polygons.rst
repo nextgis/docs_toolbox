@@ -15,19 +15,19 @@ The layer of polylines must include the following fields:
 * lwdate - the end date of the line's existence;
 * a field that will be used for grouping.
 
-.. figure:: _static/lines2polygons_lines_points_map2.png
+.. figure:: _static/lines2polygons_lines_points_map.png
    :align: center
    :width: 16cm
    
-   Sample input data. Layers of polylines and dots 
+   Input data. Layers of polylines and points 
    
-.. figure:: _static/lines2polygons_lines_table2.png
+.. to do:: _static/lines2polygons_lines_table.png
    :align: center
    :width: 16cm
    
-   Sample input data. Polyline Layer Attributes Table  
+   Input data. Polyline Layer Attributes Table  
    
-.. figure:: _static/lines2polygons_polygons_map_table2.png
+.. figure:: _static/lines2polygons_polygons_map_table_en.png
    :align: center
    :width: 16cm
    
@@ -53,8 +53,4 @@ Launch tool: https://toolbox.nextgis.com/operation/lines2polygons
 
  
 
-**Try it out using our sample:**
-
-Download `input dataset <https://nextgis.com/data/toolbox/lines2polygons/lines2polygons_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
-
-Get the `output <https://nextgis.com/data/toolbox/lines2polygons/lines2polygons_outputs.zip>`_ to additionally check the results.
+.. to do:: **Try it out using our sample:** Download `input dataset <https://nextgis.com/data/toolbox/lines2polygons/lines2polygons_inputs.zip>`_ to test the instrument. Step-by-step instructions included. Get the `output <https://nextgis.com/data/toolbox/lines2polygons/lines2polygons_outputs.zip>`_ to additionally check the results.

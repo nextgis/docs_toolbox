@@ -19,11 +19,11 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/t/plk_catalog
 
-.. to do:: **Попробуйте инструмент в действии, скачав наш пример:**
+**Попробуйте инструмент в действии, скачав наш пример:**
 
-.. to do:: `Набор исходных данных <https://nextgis.ru/data/toolbox/plk_catalog/plk_catalog_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+`Набор исходных данных <https://nextgis.ru/data/toolbox/plk_catalog/plk_catalog_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
-.. to do:: `Пример результата <https://nextgis.ru/data/toolbox/plk_catalog/plk_catalog_outputs_ru.zip>`_ работы инструмента.
+`Пример результата <https://nextgis.ru/data/toolbox/plk_catalog/plk_catalog_outputs_ru.zip>`_ работы инструмента в формате DB.
 
-Пример результата работы инструмента в формате :download:`CSV <_static/43_31_7_25-11-2024.csv>` и :download:`DB <_static/43_31_7_23-11-2024.db>`.
+Пример результата работы инструмента в формате :download:`CSV <_static/43_31_7_25-11-2024.csv>`.
 

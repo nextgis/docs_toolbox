@@ -2,7 +2,7 @@
 
 .. NextGIS Toolbox TOC
 
-NextGIS Toolbox documentation
+NextGIS Toolbox
 =============================
 
 Contents:

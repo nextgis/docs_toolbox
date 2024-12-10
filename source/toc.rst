@@ -19,7 +19,6 @@ NextGIS Toolbox
    ai2geo
    geocodetable
    dezhurcad
-   attach2resource
    add_lesobject_table
    add_lesobject_layer
    gpx2exif

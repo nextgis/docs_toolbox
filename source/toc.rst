@@ -15,7 +15,6 @@ Contents:
    add_lesobject_table
    ai2geo
    ascii2geotiff
-   attach2resource
    cadnums_to_geodata
    centroid2attr
    clip_polys_poly

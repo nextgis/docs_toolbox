@@ -17,6 +17,12 @@
 
 * Слои и веб-карта в Веб ГИС. 
 
+.. raw:: html
+
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/ef945b072d5e0cbcba1d379b3cade622/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+
 `Видео <https://youtu.be/3wHFbP5-t8k?si=Z37abTXkXb4MCw7n>`_
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/Dezhurcad

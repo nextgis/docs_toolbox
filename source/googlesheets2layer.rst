@@ -19,7 +19,21 @@
 
 * Созданный/обновленный слой в Веб ГИС
 
-`Видео про Google Sheets <https://youtu.be/MbZ1ZulLYcU?si=Hi70Bb4WQmeQTWDc>`_, `Видео про Яндекс Таблицу <https://youtu.be/QcF7UGVVr5M?si=K3Fv2eezpk3WJzMb>`_
+Видео про Яндекс Таблицу
+
+.. raw:: html
+
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/8c3858379f57e8aeef833c92b290de55/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/QcF7UGVVr5M?si=2MTORwqb0N-0gjb4>`_, `rutube <https://rutube.ru/video/8c3858379f57e8aeef833c92b290de55/?r=wd>`_.
+
+Видео про Google Sheets
+
+.. raw:: html
+
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/f3a609e3af7f7161144db9388f448340/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/MbZ1ZulLYcU?si=lTyCAoCVRaypqsZv>`_, `rutube <https://rutube.ru/video/f3a609e3af7f7161144db9388f448340/>`_.
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/Googlesheets2layer
 

@@ -23,7 +23,7 @@
 
 
 
-`Видео <https://youtu.be/3wHFbP5-t8k?si=Z37abTXkXb4MCw7n>`_
+`Посмотреть на youtube <https://youtu.be/3wHFbP5-t8k?si=Z37abTXkXb4MCw7n>`_
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/Dezhurcad
 

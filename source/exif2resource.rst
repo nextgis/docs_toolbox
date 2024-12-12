@@ -26,7 +26,11 @@
 
 * Векторный слой, где каждой фотографии соответствует точка и к этой точке приложено само фото в виде вложения.
 
-`Видео <https://rutube.ru/video/6862ea5bcd63956b0f4972e23641b40e/>`_
+.. raw:: html
+
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/6862ea5bcd63956b0f4972e23641b40e/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/oIsugGukBGs?si=GqJQI8cQK50p00SM>`_, `rutube <https://rutube.ru/video/6862ea5bcd63956b0f4972e23641b40e/>`_.
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/exif2resource
 

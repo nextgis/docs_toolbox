@@ -19,7 +19,11 @@ Output:
 
 * Created/updated layer in Web GIS
 
-`Video <https://youtu.be/mEhUaRTFl3M?si=xD8JZjZPL0qIam8F>`_
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/mEhUaRTFl3M?si=N8n7IOYa65xmcVSv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Watch the video on `youtube <https://youtu.be/mEhUaRTFl3M>`_.
 
 Launch tool: https://toolbox.nextgis.com/operation/Googlesheets2layer
 

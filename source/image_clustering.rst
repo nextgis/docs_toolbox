@@ -26,6 +26,12 @@ Lloyd — это классический вариант K-Means, который
 
 * Кластеризованый растр.
 
+.. raw:: html
+
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/e9edaa738a086259c597953bc1650a09/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/xiiwYEFULIc>`_, `rutube <https://rutube.ru/video/e9edaa738a086259c597953bc1650a09/>`_.
+
 Запуск инструмента: https://toolbox.nextgis.com/operation/image_clustering
 
 **Попробуйте инструмент в действии, скачав наш пример:**

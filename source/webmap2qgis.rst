@@ -13,7 +13,11 @@
 
 * ZIP-архив с файлом проекта для QGIS (.qgs) и файлом GeoPackage, содержащим векторные слои.
 
-`Видео <https://youtu.be/ejg4tdYrGdQ?si=B3u2pKggZymj3YWp>`_
+.. raw:: html
+
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/75b01414079e651694d96f9dc41a1a16/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/ejg4tdYrGdQ>`_, `rutube <https://rutube.ru/video/75b01414079e651694d96f9dc41a1a16/>`_.
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/webmap2qgis
 

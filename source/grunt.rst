@@ -11,7 +11,11 @@
 
 Файл GeoPackage с точками и контурами захоронений в системе координат WGS-84
 
-`Видео <https://youtu.be/QUhAjnB86GE?si=G-yUAGMfMwP66PNM>`_
+.. raw:: html
+
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/147bd4bd5bbe46d41d9c76aa90c31007/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/QUhAjnB86GE?si=ViTBiL7Q2XENw6hu>`_, `rutube <https://rutube.ru/video/147bd4bd5bbe46d41d9c76aa90c31007/>`_.
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/grunt
 

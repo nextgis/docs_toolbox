@@ -11,7 +11,11 @@ Output:
 
 * Modified CSV file, containing initial data as well as address elements divided into separate columns. 
 
-`Video <https://youtu.be/CQjypOchMdE?si=JC2XlP5Y46QlVSlT>`_
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/CQjypOchMdE?si=NSzyfMehE5W2DasZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Watch the video on `youtube <https://youtu.be/CQjypOchMdE>`_.
 
 Launch the tool: https://toolbox.nextgis.com/operation/postal
 

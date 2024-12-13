@@ -11,6 +11,12 @@
 
 * CSV-файл готовый для импорта в DataLens.
 
+.. raw:: html
+
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/127bf6c6a2b7e66022e05a09615a2897/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/BAUPdUcQR3E>`_, `rutube <https://rutube.ru/video/127bf6c6a2b7e66022e05a09615a2897/>`_.
+
 Запуск инструмента: https://toolbox.nextgis.com/operation/vector2datalens
 
 **Попробуйте инструмент в действии, скачав наш пример:**

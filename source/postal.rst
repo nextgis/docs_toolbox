@@ -12,7 +12,11 @@
 
 * Преобразованный файл CSV, содержащий исходную информацию и компоненты адреса, разнесенные в отдельные столбцы.
 
-`Видео <https://youtu.be/P7uJTYqgG-U?si=dmEzsMYvYUGGYyAy>`_
+.. raw:: html
+
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/3525575b46ff852d8e61dc9c4f8b97cf/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/P7uJTYqgG-U>`_, `rutube <https://rutube.ru/video/3525575b46ff852d8e61dc9c4f8b97cf/>`_.
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/postal
 

@@ -13,7 +13,11 @@
 
 * Текстовое сообщение о том, что содержимое слоёв удалено.
 
-`Видео <https://youtu.be/W-GtFRjQx2M?si=9m0ok52iZpd_U8eX>`_
+.. raw:: html
+
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/1db7663baf849b62d4446cbc60da968a/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/W-GtFRjQx2M>`_, `rutube <https://rutube.ru/video/1db7663baf849b62d4446cbc60da968a/>`_.
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/removecontents
 

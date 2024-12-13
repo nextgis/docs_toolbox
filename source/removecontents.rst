@@ -13,7 +13,11 @@ Outputs:
 
 * Text message about successful deletion of the layers content.
 
-`Video <https://youtu.be/OBXqNRo_nEM?si=Woy4qgcFVHnJ_2Ga>`_
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/OBXqNRo_nEM?si=qdCxBhwPMD6H9Nm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Watch the video on `youtube <https://youtu.be/OBXqNRo_nEM>`_.
 
 Launch the tool: https://toolbox.nextgis.com/operation/removecontents
 

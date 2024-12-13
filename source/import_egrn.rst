@@ -1,15 +1,14 @@
 Конвертация данных ЕГРН
 =======================
 
-.. figure:: _static/import_egrn_ex.png
+
+Конвертация выписок ЕГРН в геоданные. `Поддерживаемые форматы данных ЕГРН <https://docs.nextgis.ru/docs_rosreestr_tools/source/rr-import.html#ngq-rr-import-supported>`_.
+
+.. figure:: _static/import_egrn_ex_ru.png
    :align: center
-   :width: 16cm
+   :width: 20cm
 
    Результирующие данные
-
-
-Конвертация выписок ЕГРН в геоданные. Поддерживаемые форматы данных ЕГРН: https://docs.nextgis.ru/docs_rosreestr_tools/source/rr-import.html#id2
-
 
 На входе:
 

@@ -24,6 +24,12 @@ Output:
 * Classified raster.
 * Classification report. It records the overall quality of the classification, the number of misclassified pixels in each class (and indicates the classes to which they were put instead).
 
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/S7APVbtR-5s?si=iEuQf3VO8YUPx0PW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Watch the video on `youtube <https://youtu.be/S7APVbtR-5s>`_.
+
 Launch instrument: https://toolbox.nextgis.com/operation/image_classification
 
 **Try it out using our sample:**

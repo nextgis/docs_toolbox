@@ -26,7 +26,13 @@ Output:
 
 * Vector layer where each photo corresponds to a point. The same photo is added as an attachment to this point.
 
-`Video <https://youtu.be/r5v0wzOufV8>`_
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/r5v0wzOufV8?si=VIIy1yaVWmXAtxLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+Watch the video on `youtube <https://youtu.be/r5v0wzOufV8>`_.
+
 
 Launch tool: https://toolbox.nextgis.com/operation/exif2resource
 

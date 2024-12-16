@@ -18,7 +18,7 @@ Output:
 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/mp0Z4OTp4Ho?si=xpNnAcoTAVfNHfAK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Watch the video on `youtube <https://youtu.be/mp0Z4OTp4Ho?si=QY41ZFrHMQla22k7 >`_.
+Watch the video on `youtube <https://youtu.be/mp0Z4OTp4Ho?si=QY41ZFrHMQla22k7>`_.
 
 Launch tool: https://toolbox.nextgis.com/operation/ngw_to_gpkg
 

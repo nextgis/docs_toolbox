@@ -1,7 +1,7 @@
 .. sectionauthor:: Maxim Dubinin <maxim.dubinin@nextgis.com>
 
 
-Tools
+Инструменты
 ================================
 
 .. toctree::

@@ -66,6 +66,7 @@ Tools
    ogrmerge
    osm2mp
    osmclip_bbox
+   plk_catalog
    pointcloud2tileset
    points_on_tracks_stats
    poly2explication

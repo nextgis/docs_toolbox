@@ -27,6 +27,7 @@
    geometry_changer
    raster_calculator
    r_mapcalc
+   plk_catalog
    image_classification
    image_clustering
    mapinfo2qgis

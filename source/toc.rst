@@ -4,8 +4,6 @@
 
 NextGIS Toolbox
 =============================
-
-Contents:
     
 .. toctree::
    :maxdepth: 2

@@ -15,7 +15,11 @@
 
 Один запуск инструмента - это решение одной определенной задачи, как конвертация формата векторных данных или расчет спектрального альбедо. Некоторые инструменты ориентированы на интеграцию с Веб ГИС, другие работают с материалами Росреестра. Есть и узкоспециализированные инструменты, созданные для решения конкретной задачи на специфическом наборе данных.
 
-`Видео <https://youtu.be/Jsf4wXvuHFA?si=Px6lptMgqE4NYZo_>`_
+.. raw:: html
+
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/47caa124d3161224181ffef914d11b3c/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/Jsf4wXvuHFA>`_, `rutube <https://rutube.ru/video/47caa124d3161224181ffef914d11b3c/>`_.
 
 .. _toolbox_launch_conditions:
 

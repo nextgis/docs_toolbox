@@ -68,7 +68,12 @@ forest_mask.tif * (land_temperature.tif < 30)
 3. Выходной охват вычисляется как охват пересечений всех исходных растров.
 
 
-`Видео <https://youtu.be/ItkjxjZ7aw0?si=kAr4pCg3Pp_oF6Pr>`_
+.. raw:: html
+
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/0c758b622c232815eb557658ee602085/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/ItkjxjZ7aw0>`_, `rutube <https://rutube.ru/video/0c758b622c232815eb557658ee602085/>`_.
+
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/raster_calculator
 

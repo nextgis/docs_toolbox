@@ -62,7 +62,11 @@
 
 * Geopackage
 
-`Видео <https://youtu.be/v5WXJ7fhS9k?si=SrYXZERbxCcApcif>`_
+.. raw:: html
+
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/a1d38a2a282c05facfe4b6edf69136fb/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/v5WXJ7fhS9k>`_, `rutube <https://rutube.ru/video/a1d38a2a282c05facfe4b6edf69136fb/>`_.
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/grid
 

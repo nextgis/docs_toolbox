@@ -25,7 +25,11 @@
 
 * ZIP архив с результатами конвертации. 
 
-`Видео <https://youtu.be/UbrepJSZpUQ?si=m41teMbdnMIt7Uzh>`_
+.. raw:: html
+
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/5255ec9b95e6f34d0e5d4ceb8fb20f82/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/UbrepJSZpUQ>`_, `rutube <https://rutube.ru/video/5255ec9b95e6f34d0e5d4ceb8fb20f82/>`_.
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/import_egrn
 

@@ -17,6 +17,12 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/download_and_prepare_l8_s2
 
+.. raw:: html
+
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/757dd9d2f0c2831f996592e823c351b7/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/vMFkarTFAk0>`_, `rutube <https://rutube.ru/video/757dd9d2f0c2831f996592e823c351b7/>`_.
+
 Посмотреть результат на интерактивной карте: https://demo.nextgis.com/resource/4805/display?panel=layers
 
 .. figure:: _static/download_and_prepare_l8_s2.png

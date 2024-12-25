@@ -24,7 +24,11 @@
 
    Экспорт точечного слоя в CSV
 
-`Видео <https://youtu.be/yy3SlXBG6Xk?si=eXq1aurEi3lWsuJ7>`_
+.. raw:: html
+
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/6110c141543a4b13609b5d645736fca9/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/yy3SlXBG6Xk>`_, `rutube <https://rutube.ru/video/6110c141543a4b13609b5d645736fca9/>`_.
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/demInPoints
 

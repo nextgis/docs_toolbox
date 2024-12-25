@@ -15,7 +15,11 @@ KML в геоданные
 
 * Файл ZIP со слоем GeoJSON и приложениями, если они есть.
 
-`Видео <https://youtu.be/Qggg-0qqOs4?si=QjeK0q4BK8gGJOqz>`_
+.. raw:: html
+
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/efdde3953825f0b071f93b35f67103df/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/Qggg-0qqOs4>`_, `rutube <https://rutube.ru/video/efdde3953825f0b071f93b35f67103df/>`_.
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/kml2geodata
 

@@ -18,6 +18,12 @@
 
 *  GeoTIFF обработанного снимка и стиль к нему, загруженные в Веб ГИС.
 
+.. raw:: html
+
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/f8d7e5864a0dfd1aa7818fcffca13b58/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/ak0SIvEMSGY>`_, `rutube <https://rutube.ru/video/f8d7e5864a0dfd1aa7818fcffca13b58/>`_.
+
 Запуск инструмента: https://toolbox.nextgis.com/operation/les_remote_sensing
 
 **Попробуйте инструмент в действии, скачав наш пример:**

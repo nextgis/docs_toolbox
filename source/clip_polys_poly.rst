@@ -30,7 +30,11 @@
    
    Пример результата работы инструмента
 
-`Видео <https://youtu.be/w8ONg0bgqcQ?si=ITzcPPd2PCPvQZBL>`_
+.. raw:: html
+
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/2ef2dd438e84795185a2ee27110d3596/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/w8ONg0bgqcQ>`_, `rutube <https://rutube.ru/video/2ef2dd438e84795185a2ee27110d3596/>`_.
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/clip_polys_poly
 

@@ -12,7 +12,11 @@
 
 * Векторный слой с результатами вычитания областей из исходного слоя.
 
-`Видео <https://youtu.be/-SoRofcKSb4?si=WzX6Y9jRcchZR-qC>`_
+.. raw:: html
+
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/29c5a454cb52ff070d29f649424d77d3/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/-SoRofcKSb4>`_, `rutube <https://rutube.ru/video/29c5a454cb52ff070d29f649424d77d3/>`_.
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/eraser
 

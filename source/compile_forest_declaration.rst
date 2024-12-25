@@ -25,7 +25,11 @@
 * ZIP-архив, готовый для подписания усиленной квалифицированной электронной подписью и дальнейшей подачи на портале Госуслуг. Содержит XML файл с лесной декларацией и Приложение 3 и Приложения 4 к лесной декларации в формате PDF.
 * PDF файл с лесной декларацией, если на входе был поставлен соответствующий флажок.
 
-`Видео <https://youtu.be/o20ul5NLpjE?si=WallrKHCTcSa_G-z>`_
+.. raw:: html
+
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/e074adaad40428aa5faa0fd610c60190/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/o20ul5NLpjE>`_, `rutube <https://rutube.ru/video/e074adaad40428aa5faa0fd610c60190/>`_.
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/compile_forest_declaration
 

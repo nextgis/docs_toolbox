@@ -12,7 +12,11 @@
 
 * GeoJSON с упрощенной геометрией
 
-`Видео <https://youtu.be/X3jrMnyqKQE?si=7n-LX4z5Zwbn2lvx>`_
+.. raw:: html
+
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/a7a7d0595300bb2efe4af86baf2eb4fd/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/X3jrMnyqKQE>`_, `rutube <https://rutube.ru/video/a7a7d0595300bb2efe4af86baf2eb4fd/>`_.
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/polysimplifier
 

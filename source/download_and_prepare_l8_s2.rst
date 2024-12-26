@@ -17,6 +17,12 @@ Outputs:
 
 Launch tool: https://toolbox.nextgis.com/operation/download_and_prepare_l8_s2
 
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/avKvKrsjDSI?si=5ODVonI0TYbDtw4v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Watch on `youtube <https://youtu.be/avKvKrsjDSI?si=sJZqD5IEeZmJOxIJ>`_.
+
 Download an example of initial data and calculation results: https://nextgis.com/data/toolbox/download_and_prepare_l8_s2/download_and_prepare_l8_s2.zip
 
 View the result on an interactive map: https://demo.nextgis.com/resource/4805/display?panel=layers

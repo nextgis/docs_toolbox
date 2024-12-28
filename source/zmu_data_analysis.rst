@@ -19,9 +19,9 @@
 
 .. raw:: html
 
-   <iframe width="560" height="315" src="https://rutube.ru/play/embed/a9f8266a4d13084276b4d77bb85e4503/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/bf25be714ad825a86bb100ef6a11f53b/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-Смотреть на `youtube <https://youtu.be/ezk8Jot6rCg>`_, `rutube <https://rutube.ru/video/a9f8266a4d13084276b4d77bb85e4503/>`_.
+Смотреть на `youtube <https://youtu.be/zQF_dutJQMY>`_, `rutube <https://rutube.ru/video/bf25be714ad825a86bb100ef6a11f53b/>`_.
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

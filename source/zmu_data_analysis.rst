@@ -14,3 +14,18 @@
 * Добавление веб-карты - При выборе формирует в веб-ГИС пользователя веб-карту с маршрутами, и добавляет ссылку на неё в ведомость
 
 Запуск инструмента: https://toolbox.nextgis.com/t/zmu_data_analysis
+
+Посмотрите, как работает инструмент, в видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/a9f8266a4d13084276b4d77bb85e4503/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Смотреть на `youtube <https://youtu.be/ezk8Jot6rCg>`_, `rutube <https://rutube.ru/video/a9f8266a4d13084276b4d77bb85e4503/>`_.
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/zmu_data_analysis/zmu_data_analysis_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/zmu_data_analysis/zmu_data_analysis_outputs_ru.zip>`_ работы инструмента.
+

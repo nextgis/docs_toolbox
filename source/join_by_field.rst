@@ -5,7 +5,7 @@ The tool combines data from a table and a layer using a given field. The tool in
 
 Inputs:
 
-* Web GIS URL - address of the used Web GIS
+* Web GIS URL - address of the used Web GIS in the following format: ``https://example.nextgis.com``
 * resource_id - layer ID to combine from the currently used Web GIS
 * CSV file for join
 * Key field in WebGIS layer - the name of the field in the Web GIS layer

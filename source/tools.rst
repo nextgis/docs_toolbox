@@ -22,6 +22,7 @@
    gpx2exif
    ngw_copy_layer
    embedsvg
+   zmu_data_analysis
    deminpoints
    field_value_changer
    geometry_changer

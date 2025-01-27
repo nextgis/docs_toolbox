@@ -5,10 +5,10 @@
 
 Позволяет сохранить представляемую сервисом Публичной лесной карты (ПЛК) информацию об учетных номерах кварталов и выделов в границах участкового лесничества в виде геоданных и таблиц.
 
-.. figure:: _static/plk_catalog_gpkg_ru.png
+.. figure:: _static/plk_catalog_example_gpkg_ru.png
    :name: plk_catalog_gpkg_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
 
    Результат работы инструмента на карте.
 

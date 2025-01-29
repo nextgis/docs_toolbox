@@ -9,7 +9,9 @@ Input:
 
 Output:
 
-* GPKG file in EPSG:4326
+* GPKG file
+
+If the SRS of the input data is other than EPSG:4326, you'll need to select it manually in QGIS. After that the layer can be display in the project.
 
 Launch tool: https://toolbox.nextgis.com/operation/import_glr
 

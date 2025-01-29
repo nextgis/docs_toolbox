@@ -17,6 +17,13 @@
 
 * Файл GPKG в системе координат EPSG:4326
 
+.. figure:: _static/import_glr_result_ru.png
+   :name: import_glr_result_pic
+   :align: center
+   :width: 20cm
+
+   Геоданные, полученные с помощью инструмента, в проекте QGIS
+
 Запуск инструмента: https://toolbox.nextgis.com/t/import_glr
 
 **Попробуйте инструмент в действии, скачав наш пример:**

@@ -33,6 +33,7 @@
    image_clustering
    mapinfo2qgis
    convert
+   import_glr
    import_egrn
    water_usage
    grunt

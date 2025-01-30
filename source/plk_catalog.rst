@@ -6,12 +6,11 @@ Get registration numbers by forestry. The tool allows to get information on the 
 Inputs:
 
 * Forestry registration number e.g. 43:31:7
-* DB out format - tick to get the data in DB format, otherwise the output will be in CSV format. 
 
 Outputs:
 
-* File in CSV or DB format. The table contains names, code numbers and forest management numbers of various items: region, forestry, district forestry, quarter, plot.
-If there is no data about plots, the table will be divided by quarters.
+* CSV file. The table contains names, code numbers and forest management numbers of various items: region, forestry, district forestry, quarter, plot. If there is no data about plots, the table will be divided by quarters.
+* GeoPackage file with boundaries.
 
 Launch tool: https://toolbox.nextgis.com/operation/plk_catalog
 

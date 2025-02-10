@@ -7,11 +7,15 @@
 
 * выписка на лесной квартал (stateForestRegisterExtractForestQuarter)
 * выписка на лесотаксационный выдел (stateForestRegisterExtractForestTaxingAllocation)
+* выписка на лесничество (stateForestRegisterExtractForestry)
+* выписка на участковое лесничество (stateForestRegisterExtractPartForestry)
+
 
 
 На входе:
 
 * Исходный набор данных - Один файл выписки в формате XML
+* Добавить слой вершин - опция, при включении которой дополнительно к слою полигонов будет создан точечный слой вершин с каталогом координат в атрибутивной таблице
 
 На выходе:
 

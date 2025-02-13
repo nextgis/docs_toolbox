@@ -12,14 +12,7 @@ Merge multiple GPS logs in GPX format to one. Most programms open tracks one by 
 
    Multiple merged tracks on a Web Map
 
-Additionaly, some apps and devices in case of power down leave GPX file without closing tags, making them impossible to open in some programms. This instrument fixes such files.
-
-.. figure:: _static/gpxmerge_missing_tags_en.png
-   :name: gpxmerge_missing_tags_pic
-   :align: center
-   :width: 14cm
-
-   End of GPX file with proper closing tags and without them
+Additionaly, This instrument fixes GPX files damaged by power down.
 
 Input: ZIP archive with GPX files. Subdirectories are allowed
 

@@ -5,7 +5,7 @@ Convert National Forest Registy XML file to geodata.
 
 Input:
 
-* single XML file
+* single XML file or ZIP archive containing one XML file
 * Create points layer - optional, creates a point layer in addition to polygon layer
 
 

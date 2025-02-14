@@ -2,8 +2,12 @@ Google Sheets to Web GIS
 ========================
 
 Tool creates or updates point vector layer in NextGIS Web using Google Sheets.
-Spreadsheet must contain 'lat' and 'lon' fields and be accessible for reading via shared link.
-Coordinate reference system - WGS84.
+Spreadsheet must be accessible for reading via shared link.
+
+There are two ways to store coordinates for this tool:
+
+1. Coumns 'lat' and 'lon', Coordinate reference system - WGS84.
+2. Google maps links to locations.
 
 Input:
 

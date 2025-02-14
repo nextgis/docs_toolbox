@@ -10,16 +10,19 @@
 На выходе:
 
 * ZIP-архив с shp-файлом слоя полигонов, содержащим два новых поля point_X, point_Y 
-* Файл стиля .qml
+
 
 .. figure:: _static/point_on_surface.png
    :align: center
    :width: 16cm
 
+   Визуализация центроидов, используемых для вычисления координат
    
 .. figure:: _static/point_on_surface_attributes.png
    :align: center
    :width: 16cm
+
+   Таблица объектов слоя, полученная с помощью инструмента
    
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/centroid2attr

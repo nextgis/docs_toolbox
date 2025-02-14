@@ -1,26 +1,28 @@
 Point inside polygon coordinates
 ================================
 
-Calculate coorinates of a point guaranteed inside a polygon and add calculated coordinates to point_X, point_Y attributes. PointOnSurface method.
+Calculate coorinates of a point guaranteed to be inside a polygon and add the calculated coordinates to point_X, point_Y attributes. PointOnSurface method.
 
 Inputs:
 
-* Polygon layer
+* Polygon vector layer in one of the formats, supported by GDAL, e.g. Shapefile in ZIP-archive, GeoJSON, GeoPackage.
 
 Outputs:
 
-* ZIP with polygonal shapefile with two fielda added: point_X, point_Y 
-* QML style file
+* ZIP with polygonal shapefile with two fields added: point_X, point_Y 
+
 
 .. figure:: _static/point_on_surface.png
    :align: center
    :width: 16cm
    
-   
-.. figure:: _static/point_on_surface_attributes.png
+   Visualization of the calculated centroids 
+
+.. figure:: _static/centroid2attr_en.png
    :align: center
    :width: 16cm
-   
+
+   Resulting feature table of the layer with added attributes
 
 Launch tool: https://toolbox.nextgis.com/operation/centroid2attr
 

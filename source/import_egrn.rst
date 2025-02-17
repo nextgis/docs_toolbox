@@ -9,10 +9,12 @@ Supported formats: KPT (cadastral register): extract_cadastral_plan_territory_v0
 Inputs:
 
 * Source file - XML file or ZIP archive, containing a batch of XML. Subarchives are supported.
+* Source CRS (optional) - proj4, WKT or EPSG code string.
 * Data format - output data format, GPKG, GeoJSON, ESRI Shapefile or MapInfo File. If left blank, GPKG will be used.
-* Identifier - Name to be used in the names of output files. If empty, "converted" is used.
+* Identifier - Prefix for output files.
+* Target crs (optional) - proj4, WKT or EPSG code string.
 * Merge datasets - Merge layers of same type derived from different XML files (initial result of conversion will also be preserved). We do not recommend this option for MapInfo File format.
-* Do not transform coordinates - Leave objects in their initial CRS, without transforming into WGS84.
+* Merge not recognized CRS - if ticked, merges all layers of the same geometry type with unrecognized CRS into one.
 * Ignore objects without geometry - Skip entries in the XML documents that don't have geometry (coordinates).
 * Remove empty attributes - Attributes that have no data even for a one object will be removed.
 * Convert additional data - Sometimes XML docs have a special section ReestrExtract, containing additional information, e.g. ownership. If the option is enabled, such data will be added to separate layers without geometry.

@@ -11,6 +11,15 @@
 
 * Векторный слой в формате GeoPackage.
 
+Чтобы затем слой правильно отобразился на веб-карте, нужно включить адаптер "Тайлы". Посмотрите, как это работает, в нашем видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/8c7d98d7332b1483d731eb70645ca3f2/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/w3viKZQyReg>`_, `rutube <https://rutube.ru/video/8c7d98d7332b1483d731eb70645ca3f2/>`_.
+
+
 Запуск инструмента: https://toolbox.nextgis.com/t/split180
 
 **Попробуйте инструмент в действии, скачав наш пример:**

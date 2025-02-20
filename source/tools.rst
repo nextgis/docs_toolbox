@@ -94,6 +94,7 @@
    eraser
    removecontents
    exif2resource
+   centerline
    explication2poly
 
 

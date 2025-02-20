@@ -12,6 +12,7 @@ Tools
    ai2geo
    ascii2geotiff
    cadnums_to_geodata
+   centerline
    centroid2attr
    clip_polys_poly
    compile_forest_declaration

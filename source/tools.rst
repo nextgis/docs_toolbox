@@ -87,6 +87,7 @@ Tools
    spatial_join
    split_to_equal
    split_to_rect
+   split180
    table2geo
    temporal_split
    tropomi2geotiff

@@ -40,10 +40,10 @@
 
 Посмотреть видео на `youtube <https://youtu.be/MbZ1ZulLYcU?si=lTyCAoCVRaypqsZv>`_, `rutube <https://rutube.ru/video/f3a609e3af7f7161144db9388f448340/>`_.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/Googlesheets2layer
+Запуск инструмента: https://toolbox.nextgis.com/operation/spreadsheet2layer
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 
-`Набор исходных данных <https://nextgis.ru/data/toolbox/googlesheets2layer/googlesheets2layer_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+`Набор исходных данных <https://nextgis.ru/data/toolbox/googlesheets2layer/spreadsheet2layer_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
-`Пример результата <https://nextgis.ru/data/toolbox/googlesheets2layer/googlesheets2layer_outputs_ru.zip>`_ работы инструмента.
+`Пример результата <https://nextgis.ru/data/toolbox/googlesheets2layer/spreadsheet2layer_outputs_ru.zip>`_ работы инструмента.

@@ -34,7 +34,7 @@ Tools
    generalization
    geocodetable
    geometry_changer
-   googlesheets2layer
+   spreadsheet2layer
    gpx2exif
    gpxmerge
    grid

@@ -47,6 +47,7 @@
    compile_forest_declaration
    maxdist
    temporal_split
+   split180
    ndi
    update_vector_layer
    osmclip_bbox

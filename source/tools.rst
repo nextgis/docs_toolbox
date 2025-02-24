@@ -88,7 +88,7 @@
    points_on_tracks_stats
    web_gis_structure
    s2_search
-   googlesheets2layer
+   spreadsheet2layer
    table2geo
    flatten
    eraser

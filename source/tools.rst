@@ -10,7 +10,6 @@
    ascii2geotiff
    import_dwg
    kml2geodata
-   tropomi2geotiff
    webmap2qgis
    ngw_to_gpkg
    quadro

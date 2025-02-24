@@ -90,7 +90,6 @@ Tools
    split180
    table2geo
    temporal_split
-   tropomi2geotiff
    update_vector_layer
    vector2datalens
    vectorclip

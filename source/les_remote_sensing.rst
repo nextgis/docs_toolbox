@@ -25,3 +25,11 @@ Launch tool: https://toolbox.nextgis.com/operation/les_remote_sensing
 Download `input dataset <https://nextgis.com/data/toolbox/les_remote_sensing/les_remote_sensing_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/les_remote_sensing/les_remote_sensing_outputs.zip>`_ to additionally check the results.
+
+See how to find out Sentinel image ID in our video:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/GjZ_xdd5fQM?si=KMpgqF8pMRSReBYy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Watch on `youtube <https://youtu.be/GjZ_xdd5fQM?si=0_JC77fRnPxI-aCo>`_.

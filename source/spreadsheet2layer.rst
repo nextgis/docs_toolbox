@@ -14,10 +14,10 @@ Input:
 *  Web GIS link, example: https://sandbox.nextgis.com.
 *  Web GIS user login. User must have writing access.
 *  Web GIS User password.
-*  Vector layer ID to update. Use '0' to create new vector layer.
+*  Vector layer ID to update. Leave blank to create new vector layer.
 *  Resource group ID. Specify the group to upload layer to. Use only if creating a new layer.
 *  Google Sheets ID (e.g. '1cKvjCMBZajaortAkdQqVwQ_06LuLm3bHyvybJgmAeQg') or URL. This link should be accessible for data reading.
-*  Mode: ADD - to append data to existing layer or to create a new layer; REPLACE - to rewrite existing layer.
+*  Mode: by default the tool appends data to existing layer or creates a new layer; enter REPLACE to rewrite an existing layer (ID specified above).
 
 Output:
 

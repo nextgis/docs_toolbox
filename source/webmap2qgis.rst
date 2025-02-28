@@ -1,13 +1,14 @@
-Web map into QGIS project
+Web Map into QGIS project
 =======================
-The tool works with Web GIS data: converts vector layers and its styles from any chosen web map into QGIS project and GeoPackage file.
+The tool works with Web GIS data: converts vector layers and its styles from any chosen Web Map into QGIS project and GeoPackage file.
 
 Inputs:
 
-* Web GIS address – URL of the Web GIS, containing target web map. For example, https://demo.nextgis.com.
-* Web map ID - numeric value, ID of the Web GIS resource (web map) to be converted into QGIS project.
+* Web GIS address – URL of the Web GIS, containing target Web Map. For example, https://demo.nextgis.com.
+* Web Map ID - numeric value, ID of the Web GIS resource (Web Map) to be converted into QGIS project.
 * Login – Web GIS user login.
 * Password – Web GIS user password.
+* Extent - by default, the extent of the Web Map is used. You can enter a different extent in EPSG:4326. Format: bottom, left, top, right (South, West, North, East). Separate by comma. Example: ``54.5, 102.5, 59, 116``.
 
 Outputs:
 

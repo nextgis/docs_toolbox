@@ -1,28 +1,26 @@
-Set of squares generator
-========================
+Generate a set of squares with transects
+==========================================
 
-This tool creates a set of square grids (polygons) and a transect of their detour for a given territory.
+This tool creates a set of square grids (polygons) and a transect for the territory.
 
 Inputs:
 
-* x0 - Longitude of point 0
-* y0 - Latitude of point 0
-* x1 - Longitude of point 1
-* y1 - Latitude of point 1
+* Coordinates of the first point (center of the first cell), in decimal degrees, example ``40.415378, -3.688743``
+* Coordinates of the second point that indicates direction, in decimal degrees, example ``40.417436, -3.683170``
 * Size 1 - Number of cells on the first axis
 * Size 2 - Number of cells on the second axis
-* Side - Cell generation side (right, left)
-* Cell size - The size of a cell’s side, meters
-
-Calculation algorithm: from the point 0 in the direction of the point 1 a line is drawn with a length equal to "Size 1" * "Cell size". From this line, either to the right or left of it, a second line is laid out with the length of "Size 2" * "Cell size", meters. These two lines form a grid of squares.
+* Side - Cell generation side ``right`` or ``left``
+* Cell size - The size of a cell’s side, in meters
 
 The result of the process is a set of layers:
 
-* rect1 - a grid of cells the size of "Size 1" * "Size 2" cells, the center of the first cell is at the point 0
-* rect2 - a grid of smaller cells the size of "Size 1" * "Size 2" cells (i.e. 4 times larger cells, each large cell is divided into 4 parts)
-* line1 - bypass lines in the direction, which if perpendicular to the line represented by the point 0 and point 1
-* line2 - bypass lines in the direction, which is parallel to the line represented by the point 0 and point 1
+* rect1 - a grid of cells "Size 1" by "Size 2", the center of the first cell is at the point 1
+* rect2 - a grid of smaller cells (i.e. each large cell is divided into 4 parts)
+* line1 - transect lines in the direction perpendicular to the line between points 1 and 2
+* line2 - transect lines in the direction parallel to the line between points 1 and 2
 * centers - cell centers of rect1 grid
+
+Styles for all the layers are also included as QML files.
 
 Launch tool: https://toolbox.nextgis.com/operation/quadro
 
@@ -30,9 +28,9 @@ Launch tool: https://toolbox.nextgis.com/operation/quadro
 
 View the results on an interactive map: https://demo.nextgis.com/resource/4582/display?panel=layers
 
-.. figure:: _static/quadro.png
+.. figure:: _static/quadro_result_styles.png
    :align: center
-   :width: 16cm
+   :width: 18cm
    
    An example of the results
 

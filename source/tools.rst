@@ -12,7 +12,6 @@
    kml2geodata
    webmap2qgis
    ngw_to_gpkg
-   quadro
    ai2geo
    geocodetable
    dezhurcad
@@ -45,6 +44,7 @@
    forestdeclaration2
    compile_forest_declaration
    maxdist
+   quadro
    temporal_split
    split180
    ndi

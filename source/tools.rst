@@ -66,6 +66,7 @@
    les_remote_sensing
    download_and_prepare_l8_s2
    crossing_borders
+   split_to_rect
    cadnums_to_geodata
    poly2explication
    lines2polygons

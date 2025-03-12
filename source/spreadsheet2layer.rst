@@ -38,7 +38,7 @@
 
    <iframe width="720" height="405" src="https://rutube.ru/play/embed/f3a609e3af7f7161144db9388f448340/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-Посмотреть видео на `youtube <https://youtu.be/MbZ1ZulLYcU?si=lTyCAoCVRaypqsZv>`_, `rutube <https://rutube.ru/video/f3a609e3af7f7161144db9388f448340/>`_.
+Посмотреть видео на `youtube <https://youtu.be/MbZ1ZulLYcU?si=lTyCAoCVRaypqsZv>`__, `rutube <https://rutube.ru/video/f3a609e3af7f7161144db9388f448340/>`__.
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/spreadsheet2layer
 

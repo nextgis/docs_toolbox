@@ -44,6 +44,7 @@ Tools
    image_clustering
    import_dwg
    import_egrn
+   improvedem
    intersect_layers
    join_by_field
    joinreforma

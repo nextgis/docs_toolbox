@@ -1,4 +1,4 @@
-Prepare satellite data and download the result
+Prepare and download Sentinel-2 data
 ==============================================
 
 The tool downloads source data, prepares Sentinel-2 data and provides link to download the result.

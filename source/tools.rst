@@ -94,6 +94,7 @@
    flatten
    eraser
    removecontents
+   improvedem
    exif2resource
    centerline
    explication2poly

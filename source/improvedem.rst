@@ -18,6 +18,20 @@
 * Файл улучшенной цифровой модели рельефа в формате TIFF;
 * Файл изолиний в формате GeoPackage.
 
+.. figure:: _static/improvedem_input.png
+   :name: improvedem_input_pic
+   :align: center
+   :width: 10cm
+
+   Исходный растр
+
+.. figure:: _static/improvedem_result.png
+   :name: improvedem_result_pic
+   :align: center
+   :width: 10cm
+
+   Растр после обработки инструментом и построенные на его основе изолинии
+
 Запуск инструмента: https://toolbox.nextgis.com/t/improvedem
 
 **Попробуйте инструмент в действии, скачав наш пример:**

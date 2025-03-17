@@ -18,6 +18,20 @@ Output:
 * TIFF file of the refined DEM;
 * GeoPackage file of the contour lines.
 
+.. figure:: _static/improvedem_input.png
+   :name: improvedem_input_pic
+   :align: center
+   :width: 10cm
+
+   Input raster
+
+.. figure:: _static/improvedem_result.png
+   :name: improvedem_result_pic
+   :align: center
+   :width: 10cm
+
+   Processed raster and contours generated from it
+
 Launch tool: https://toolbox.nextgis.com/t/improvedem
 
 **Try it out using our sample:**

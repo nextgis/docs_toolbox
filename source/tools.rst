@@ -68,6 +68,7 @@
    crossing_borders
    split_to_rect
    cadnums_to_geodata
+   imagesearch
    poly2explication
    lines2polygons
    rosreestr2coord

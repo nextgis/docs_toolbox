@@ -42,6 +42,7 @@ Tools
    hello
    image_classification
    image_clustering
+   imagesearch
    import_dwg
    import_egrn
    improvedem

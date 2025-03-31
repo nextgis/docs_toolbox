@@ -1,3 +1,5 @@
+.. todo:: Does not work, removed from tools.rst
+
 TROPOMI to GeoTIFF
 ==================
 

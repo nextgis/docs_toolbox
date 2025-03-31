@@ -19,7 +19,7 @@ Tools
    convert
    coord_recalc
    crossing_borders
-   demInPoints
+   deminpoints
    dezhurcad
    download_and_prepare_l8_s2
    egrn_kvartals_cover

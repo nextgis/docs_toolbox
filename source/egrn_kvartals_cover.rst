@@ -5,7 +5,7 @@ The tool forms list of ID of cadastral units.
 
 Input:
 
-* Area of interest - polygon in GeoJSON format.
+* Area of interest - polygon in GeoJSON format. Area must be up to 50 km².
 * Mode - choose between kpt and kvzu.
 
 Output:

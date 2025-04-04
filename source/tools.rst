@@ -11,6 +11,7 @@
    import_dwg
    kml2geodata
    webmap2qgis
+   layers2ngw
    ngw_to_gpkg
    ai2geo
    geocodetable

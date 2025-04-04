@@ -55,6 +55,7 @@ Tools
    kptbatch_validator
    landsat_to_radiance
    landsat_to_reflectance
+   layers2ngw
    les_remote_sensing
    lesis2sqlite
    lines2poly

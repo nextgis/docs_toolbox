@@ -1,6 +1,8 @@
 Vector layers from an archive to Web GIS 
 =========================================
 
+This tool allows to create multiple vector layers in Web GIS at once using a ZIP archive of geodata files.
+
 Input:
 
 * Web GIS - URL of the Web GIS, i.e. https://sandbox.nextgis.com

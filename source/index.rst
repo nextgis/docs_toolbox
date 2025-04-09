@@ -3,17 +3,15 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. include:: toc.rst
+NextGIS Toolbox
+================================
 
 .. toctree::
    :maxdepth: 2
 
-   glossary
-   
-Индекс и таблицы
-================
+   intro
+   tools
 
 * :ref:`genindex`
-* :ref:`search`
 * :ref:`glossary`
 

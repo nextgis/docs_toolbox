@@ -2,7 +2,7 @@ Batch search by cadastral numbers
 =================================
 
 The tool creates a set of layers with the boundaries of cadastral objects, receiving as input a text file with a list of their numbers.
-Requires access to `geoservices <https://geoservices.nextgis.com/settings/profile>`_. Auth via my.nextgis.com (NextGIS ID)
+
 
 Input:
 

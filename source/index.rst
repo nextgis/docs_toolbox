@@ -12,6 +12,6 @@ NextGIS Toolbox
    intro
    tools
 
-* :ref:`genindex`
+
 * :ref:`glossary`
 

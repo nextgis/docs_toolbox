@@ -45,6 +45,7 @@
    forestdeclaration2
    compile_forest_declaration
    maxdist
+   qgis_multiparttosingleparts
    quadro
    temporal_split
    split180

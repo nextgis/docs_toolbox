@@ -13,6 +13,7 @@
    webmap2qgis
    layers2ngw
    ngw_to_gpkg
+   cadastre2img
    ai2geo
    geocodetable
    dezhurcad

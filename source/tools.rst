@@ -1,4 +1,4 @@
-.. sectionauthor:: Maxim Dubinin <maxim.dubinin@nextgis.com>
+
 
 
 Инструменты
@@ -26,6 +26,7 @@
    deminpoints
    field_value_changer
    geometry_changer
+   fix_geometries
    raster_calculator
    r_mapcalc
    plk_catalog
@@ -77,6 +78,7 @@
    rosreestr2coord
    hello
    kptbatch_validator
+   check_geometries
    predict_overpass
    generalization
    polysimplifier

@@ -13,19 +13,19 @@ Outputs:
 
 Launch the tool: https://toolbox.nextgis.com/t/fix_geometries
 
-.. figure:: static/fix_geometries_input.png
+.. figure:: _static/fix_geometries_input.png
    :name: fix_geometries_input_pic
    :align: center
    :width: 16cm
 
-   Example input
+   Self-intersection detected
 
 .. figure:: _static/fix_geometries_result.png
    :name: fix_geometries_result_pic
    :align: center
    :width: 16cm
 
-   Example output image
+   Geometry fixed by the tool
 
 **Try the tool in action by downloading our example:**
 

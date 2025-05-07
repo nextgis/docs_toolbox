@@ -5,26 +5,30 @@ Checking the vector file for geometry validity. The output is a CSV file with a 
 
 Inputs:
 
-* ZIP archive with vector files. A ZIP archive should be arranged in this way: files of formats consisting of a single file should be in the form of the file itself. files of multiple file formats must be in the form of a ZIP archive
+* ZIP archive with vector files. 
+
+Single-file formats should be in the root of the archive. For multi-file formats such as ESRI Shapefile, each layer should be put in a separate ZIP inside the main input archive. Input archive may contain mixed files.
+
+.. figure:: _static/check_geometries_structure_en.png
+   :name: check_geometries_structure_pic
+   :align: center
+   :width: 18cm
+
+   Example of possible archive structure. Archive input.zip contains a single-file GeoJSON and a zipped MapInfo TAB
 
 Outputs:
 
-* output_csv_file
-* output_geojson_file
+* CSV file containing the list of errors;
+* GeoJSON file with points marking the placement of the errors.
 
 Launch the tool: https://toolbox.nextgis.com/t/check_geometries
 
-.. figure:: static/check_geometries_input_en.png
-   :name: check_geometries_input_pic
-   :align: center
-   :width: 16cm
 
-   Example input
 
-.. figure:: _static/check_geometries_result_en.png
+.. figure:: _static/check_geometries_result.png
    :name: check_geometries_result_pic
    :align: center
-   :width: 16cm
+   :width: 18cm
 
    Example output image
 

@@ -15,6 +15,7 @@ Tools
    cadnums_to_geodata
    centerline
    centroid2attr
+   check_geometries
    clip_polys_poly
    compile_forest_declaration
    convert
@@ -29,6 +30,7 @@ Tools
    exif2resource
    explication2poly
    field_value_changer
+   fix_geometries
    flatten
    forest_declaration
    forestplots_field

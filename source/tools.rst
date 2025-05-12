@@ -11,7 +11,6 @@ Tools
    add_lesobject_table
    ai2geo
    ascii2geotiff
-   cadastre2img
    cadnums_to_geodata
    centerline
    centroid2attr

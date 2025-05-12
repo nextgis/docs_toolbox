@@ -13,7 +13,8 @@ Inputs:
 * Fill opacity for the object. Between 0 (transparent) and 1 (opaque), with decimal point, the default value is 0.6.
 * Stroke color - color for the object outline. If not specified, the fill color is used. Accepts HTML color names or HEX format (e.g., ``orange``, ``#FFA500``).
 * Stroke opacity. Between 0 (transparent) and 1 (opaque), with decimal point, the default value is 1.
-QMS ID - ID of a basemap service in NextGIS QMS catalogue (QuickMapServices - https://qms.nextgis.com) to use for the map background. If not specified, defaults to OpenStreetMap. Example: ``1300`` – Satellite imagery, ``519`` – Topographic map.
+* Stroke width in pixels, the default value is 1.
+* QMS ID - ID of a basemap service in NextGIS QMS catalogue (QuickMapServices - https://qms.nextgis.com) to use for the map background. If not specified, defaults to OpenStreetMap. Example: ``1300`` – Satellite imagery, ``519`` – Topographic map.
 Maximum zoom level used when fitting the layer (default: 18). Valid range: 0 (world view) to 22 (building-level detail).
 * Padding around the fitted layer in pixels (default: 5),
 

@@ -13,6 +13,8 @@
    webmap2qgis
    layers2ngw
    ngw_to_gpkg
+   qgis_vectortiles
+   qgis_rastertiles
    cadastre2img
    ai2geo
    geocodetable

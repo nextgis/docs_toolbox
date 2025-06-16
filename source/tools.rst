@@ -45,6 +45,8 @@
    rsc2csv
    qgis2pdf
    centroid2attr
+   xml_plv_to_vector
+   xml_tol_to_vector
    lesis2sqlite
    forestdeclaration2
    compile_forest_declaration

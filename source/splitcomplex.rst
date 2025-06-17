@@ -18,14 +18,14 @@
 .. figure:: _static/splitcomplex_input_ru.png
    :name: splitcomplex_input_pic
    :align: center
-   :width: 16cm
+   :width: 20cm
 
    Пример исходных данных
 
 .. figure:: _static/splitcomplex_result_ru.png
    :name: splitcomplex_result_pic
    :align: center
-   :width: 16cm
+   :width: 20cm
 
    Пример результата работы инструмента, полигон разбит на составные части
 

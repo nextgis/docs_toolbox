@@ -1,4 +1,4 @@
-Convert XML: forestReforestation.
+Convert XML: forestReforestation
 =================================
 
 Convert XML: forestReforestation to geodata.

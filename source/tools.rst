@@ -73,6 +73,7 @@ Tools
    removecontents
    s2_search
    spatial_join
+   splitcomplex
    split_to_equal
    split_to_rect
    split180

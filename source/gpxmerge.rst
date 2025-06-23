@@ -1,16 +1,16 @@
-.. sectionauthor::  <grigorenko.j@gmail.com>
+
 
 Merge GPX files
 ========================
 
 Merge multiple GPS logs in GPX format to one. Most programms open tracks one by one. With this instrument you don't have to know in advance what day the information for a certain area was collected, all tracks will be viewed at once. 
 
-.. figure:: _static/gpxmerge_output_en.png
+.. figure:: _static/gpxmerge_output_en_2.png
    :name: gpxmerge_output_pic
    :align: center
    :width: 20cm
 
-   Multiple merged tracks on a Web Map
+   Multiple merged tracks in one layer in QGIS
 
 Additionaly, This instrument fixes GPX files damaged by power down.
 

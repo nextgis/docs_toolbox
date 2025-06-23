@@ -1,11 +1,11 @@
-.. sectionauthor:: Юлия Григоренко <grigorenko.j@gmail.com>
+
 
 Объединение GPX файлов 
 ========================
 
 Объединяет GPS треки в формате GPX в один. Большинство программ открывает треки по одному, и с помощью этого инструмента нет необходимости выяснять, в какую дату был записан трек нужного места, можно открыть все собранные данные сразу.
 
-.. figure:: _static/gpxmerge_output_ru.png
+.. figure:: _static/gpxmerge_output_ru_2.png
    :name: gpxmerge_output_pic
    :align: center
    :width: 20cm

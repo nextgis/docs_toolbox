@@ -1,43 +1,71 @@
 Meter grid
-==========
+========================
 
-.. figure:: _static/grids-demo.png
+.. figure:: _static/grids_multi.png
    :align: center
-   :width: 16cm
+   :name: grids_multi_pic
+   :width: 10cm
 
-   Generated grid
+   A combination of generated grids
    
-The tool generates a grid within the boundaries of features of a vector layer. The grid size is set in meters. Features can be anywhere in the world.
+The tool generates a grid within the boundaries of features of a vector layer or a bounding box. The grid size is set in meters. Features can be anywhere in the world.
 
 Inputs:
 
-*  A multipolygon layer with one or more features. It should be GeoPackage
-*  Grid step in meters
-*  Mode: points (points), rect (squares)
-*  Algorithm for cropping the grid along the borders: all (leave all the squares in extent), touches (leave all the squares touching features), intersection (crop the squares along the borders of the features)
+* Cell size in meters;
+* Mode: ``points`` or ``rect`` (squares);
+* Algorithm for cropping the grid along the feature borders: ``all`` (leave all the squares in extent), ``touches`` (leave all the squares touching features), ``intersection`` (crop the squares along the borders of the features);
+* GeoPackage file with polygons or multipolygons. Calculation time depends on the number of nodes in the boundary layer; 
+* Extent. Instead of uploading a layer, you can set a bounding box. Draw a custom rectangle on the map below. The Extent field will be filled with the numeric value that you can adjust manually.
 
-.. figure:: _static/grid-1000-rect-all.png
+Resulting grids with different settings:
+
+.. figure:: _static/grid_rect_all.png
    :align: center
-   :width: 16cm
+   :name: grid_rect_all_pic
+   :width: 10cm
 
-   all
+   Squares - all
    
    
-   
-   
-.. figure:: _static/grid-1000-rect-intersection.png
+.. figure:: _static/grid_rect_touches.png
    :align: center
-   :width: 16cm
+   :name: grid_rect_touches_pic
+   :width: 10cm
 
-   intersection
+   Squares - touches
    
    
+.. figure:: _static/grid_rect_intersection.png
+   :align: center
+   :name: grid_rect_intersection_pic
+   :width: 10cm
 
-*  output geodata format - GeoJSON, ESRI Shape, Mapinfo TAB
+   Squares - intersection
+   
+   
+.. figure:: _static/grid_point_all.png
+   :align: center
+   :name: grid_point_all_pic
+   :width: 10cm
 
-Outputs:
+   Points - all
+   
+   
+.. figure:: _static/grid_point_intersection.png
+   :align: center
+   :name: grid_point_intersection_pic
+   :width: 10cm
 
-* Geopackage
+   Points - intersection
+
+.. todo:: _static/grid_point_touches.png
+   :align: center
+   :name: grid_point_touches_pic
+   :width: 10cm
+
+   Points - touches
+
 
 
 Launch tool: https://toolbox.nextgis.com/operation/grid

@@ -1,56 +1,72 @@
 Генерация сетки в метрах
 ========================
 
-.. figure:: _static/grids-demo.png
+.. figure:: _static/grids_multi.png
    :align: center
-   :width: 16cm
+   :name: grids_multi_pic
+   :width: 10cm
 
    Сгенерированные сетки
    
-Инструмент осуществляет генерацию сетки в границах объектов из векторного слоя. Размер сетки задаётся в метрах. Объекты могут быть в любом месте Эемли.
+Инструмент осуществляет генерацию сетки в границах объектов из векторного слоя или заданной на карте области. Размер сетки задаётся в метрах. Объекты могут быть в любом месте Земли.
 
 На входе:
 
-*  Мультиполигональный слой с одним или несколькими объектами. Принимается формат Geopackage
 *  Шаг сетки в метрах
-*  Режим: points (точки), rect (квадраты).
-*  Алгоритм обрезки сетки по границам: all (оставлять все квадраты в охвате объекта), touches (оставлять все квадраты касающиеся объекта), intersection (обрезать квадраты по границе объекта).
+*  Режим: ``points`` (точки), ``rect`` (квадраты).
+*  Алгоритм обрезки сетки по границам: ``all`` (оставлять все квадраты в охвате объекта), ``touches`` (оставлять все квадраты, касающиеся объекта), ``intersection`` (обрезать квадраты по границе объекта).
+* Векторный файл границы в формате Geopackage, содержащий полигоны или мультиполигоны. Время расчёта зависит от количества узлов в слое границ. 
+* Охват. Вместо загрузки файла границ можно задать охват. Для этого нарисуйте произвольный прямоугольник на карте ниже. В поле охвата отобразится цифровое значение, которое также можно откорректировать.
 
-.. figure:: _static/grid-1000-rect-all.png
+Результат работы инструмента при разных настройках:
+
+.. figure:: _static/grid_rect_all.png
    :align: center
-   :width: 16cm
+   :name: grid_rect_all_pic
+   :width: 10cm
 
-   all
+   Квадраты - all
    
    
-.. figure:: _static/grid-1000-rect-touches.png
+.. figure:: _static/grid_rect_touches.png
    :align: center
-   :width: 16cm
+   :name: grid_rect_touches_pic
+   :width: 10cm
 
-   touches
+   Квадраты - touches
    
    
-.. figure:: _static/grid-1000-rect-intersection.png
+.. figure:: _static/grid_rect_intersection.png
    :align: center
-   :width: 16cm
+   :name: grid_rect_intersection_pic
+   :width: 10cm
 
-   intersection
+   Квадраты - intersection
    
    
-.. figure:: _static/grid-1000-point-all.png
+.. figure:: _static/grid_point_all.png
    :align: center
-   :width: 16cm
+   :name: grid_point_all_pic
+   :width: 10cm
 
-   all для точек
+   Точки - all
    
    
-.. figure:: _static/grid-1000-point-intersection.png
+.. figure:: _static/grid_point_intersection.png
    :align: center
-   :width: 16cm
+   :name: grid_point_intersection_pic
+   :width: 10cm
 
-   touches и intersection для точек
+   Точки - intersection
 
-   
+.. todo:: _static/grid_point_touches.png
+   :align: center
+   :name: grid_point_touches_pic
+   :width: 10cm
+
+   Точки - touches
+
+
 .. figure:: _static/grid-planet.png
    :align: center
    :width: 16cm
@@ -60,7 +76,7 @@
 
 На выходе:
 
-* Geopackage
+* GeoPackage с выбранной геометрией: точки или полигоны
 
 .. raw:: html
 

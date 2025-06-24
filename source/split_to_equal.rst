@@ -1,22 +1,32 @@
 Split into equal parts
-======================
+=======================
 
-Tool splits all objects of polygon layer into parts with equal area. Note: tool doesn't process multipolygons.
+Splits polygon layer into equal parts. 
+
+.. note:: Doesn't process multipolygons. You can first `transform Multipart to singleparts <https://toolbox.nextgis.com/t/qgis_multiparttosingleparts>`_.
 
 Inputs:
 
-* Shapefile - polygon layer to be splitted. Should be in ESRI Shapefile format and packed in ZIP-archive.
-* Number of parts - specify, into how many parts source Shapefile should be splitted.
+* Source file. Vector polygon layer in one of the formats, supported by GDAL, e.g. Shapefile in ZIP-archive, GeoJSON, GeoPackage.
+* Number of parts. Specify, into how many parts source polygon should be split. 
 
-Outputs:
+Output:
 
-* ZIP-archive with modified Shapefile, where initial polygons are splitted into specified number of parts with equal area, and each part is an individual polygon itself. 
+* Polygon GeoPackaged in a ZIP archive.
 
-Launch tool: https://toolbox.nextgis.com/operation/split_to_equal
+Launch the tool: https://toolbox.nextgis.com/t/split_to_equal
 
 
-**Try it out using our sample:**
+.. figure:: _static/split_to_equal_result.png
+   :name: split_to_equal_result_pic
+   :align: center
+   :width: 11cm
 
-Download `input dataset <https://nextgis.com/data/toolbox/split_to_equal/split_to_equal_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+   Example of a split polygon
 
-Get the `output <https://nextgis.com/data/toolbox/split_to_equal/split_to_equal_outputs.zip>`_ to additionally check the results.
+**Try the tool in action by downloading our example:**
+
+`Input data set <https://nextgis.ru/data/toolbox/split_to_equal/split_to_equal_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
+
+`Result example <https://nextgis.ru/data/toolbox/split_to_equal/split_to_equal_outputs.zip>`_ of the tool run.
+

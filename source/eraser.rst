@@ -1,36 +1,29 @@
-Erase from target
-=================
+Erase overlapping areas from the layer
+======================================
 
-A tool that allows you to erase areas from the target layer. Areas to be erased are taken from another layer.
+Erases parts of polygonal features, overlapping with geometries from another layer.
 
 Inputs:
 
-* Vector layer from which some areas are needed to be erased
+* Target layer (erase from) - file in OGR-supported format (ZIP archive for ESRI Shapfile);
+* Layer with subtractable objects. File in OGR-supported format (ZIP archive for ESRI Shapfile).
 
-ZIP archive with ESRI Shapefile or an other file format supported by OGR.
+Outputs:
 
-* Vector layer containing features representing areas needed to be erased from the target layer
+* File with modified features in the same format.
 
-ZIP archive with ESRI Shapefile or other file format supported by OGR.
-
-The result of the tool’s usage is a new vector layer.
-
-The initial vector layers must have the same coordinate system.
-
-Launch tool: https://toolbox.nextgis.com/operation/eraser
-
-View the source data and the results of calculations on an interactive map: https://demo.nextgis.com/resource/4611/display?panel=info
+Launch the tool: https://toolbox.nextgis.com/t/eraser
 
 
-.. figure:: _static/eraser.png
+.. figure:: _static/eraser_result_en.png
+   :name: eraser_result_pic
    :align: center
    :width: 16cm
 
-   An example of the result of the tool’s usage
+   Administratived boundaries minus the lake
 
+**Try the tool in action by downloading our example:**
 
-**Try it out using our sample:**
+`Input data set <https://nextgis.ru/data/toolbox/eraser/eraser_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
 
-Download `input dataset <https://nextgis.com/data/toolbox/eraser/eraser_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
-
-Get the `output <https://nextgis.com/data/toolbox/eraser/eraser_outputs.zip>`_ to additionally check the results.
+`Result example <https://nextgis.ru/data/toolbox/eraser/eraser_outputs.zip>`_ of the tool run.

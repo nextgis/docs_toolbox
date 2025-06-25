@@ -1,24 +1,24 @@
 Intersection areas inside/outside boundary
 ==========================================
 
-Calculates area of polygons and area of polygons inside boundary. Areas calculated in hectares (ha)
-Module was created for registration of wildfires in natural protected area. Internal calculations use local UTM zones, so calculations will accurate for any places on Earth.
+Calculates area of polygons inside and outside given boundary. Records results in Web GIS layer attributes, in hectares (ha).
 
 Inputs:
 
-*  nextgisweb url, login and password
-*  nextgisweb layer id of boundary polygonal layer. Layer should have 1 feature, with polygon or multipolygon geometry
-*  nextgisweb layer id of feature polygonal layer. Layer should have 2 fields for area calculations results.
+* Web GIS URL - URL of a NextGIS Web instance. Example: https://sandbox.nextgis.com;
+* Login - NextGIS ID or username of a user who has write access to the resource group;
+* Password;
+* Boundary layer ID - ID of the boundary polygon layer in Web GIS;
+* Polygons layer ID - ID of a layer with polygon features in Web GIS;
+* Area field - attribute in the features layer where the area of the features will be stored;
+* Area field (within boundary) - attribute in the features layer where the area of features falling within the boundary will be stored.
 
 Outputs:
 
-*  Areas values will write into fields of layers in nextgisweb
+* Modified layer in Web GIS.
 
+Launch the tool: https://toolbox.nextgis.com/t/clip_polys_poly
 
+**Try the tool in action by downloading our example:**
 
-
-Launch tool: https://toolbox.nextgis.com/operation/clip_polys_poly
-
-**Try it out using our sample:**
-
-Download `input dataset <https://nextgis.com/data/toolbox/clip_polys_poly/clip_polys_poly_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+`Input data set <https://nextgis.ru/data/toolbox/clip_polys_poly/clip_polys_poly_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.

@@ -18,7 +18,6 @@ Tools
    coord_recalc
    crossing_borders
    deminpoints
-   dezhurcad
    download_and_prepare_l8_s2
    embedsvg
    eraser

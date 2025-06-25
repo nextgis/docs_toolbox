@@ -3,8 +3,16 @@ Convert lines to polygons
 
 Each line turns into a polygon. Straight and self-intersected lines are omitted.  Multilines are exploded to multiple features.
 
-* Input: linear vector layer in geojson or geopackage format or ESRI Shapefile in a zip archive.
-* Output: polygon layer in geojson or geopackage format, linear layer with remaining self-intersecting lines
+Input: 
+
+* Linear vector layer in GeoJSON or GeoPackage format or ESRI Shapefile in a zip archive.
+
+Output: 
+
+* Polygon layer;
+* Linear layer with remaining self-intersecting lines.
+
+Both files are in the same format as the input.
 
 Launch tool: https://toolbox.nextgis.com/operation/lines2poly
 

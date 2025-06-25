@@ -20,7 +20,7 @@ Launch tool: https://toolbox.nextgis.com/operation/join_by_field
 
 Usage example:
 
-.. figure:: _static/join_by_field.png
+.. todo:: _static/join_by_field.png
    :align: center
    :width: 16cm
 

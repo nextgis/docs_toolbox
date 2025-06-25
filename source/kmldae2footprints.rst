@@ -1,24 +1,20 @@
 Projection (Dae, Collada) to Shapefile
 ======================================
 
-The tool makes a projection of three-dimensional features on the earth's surface.
+Get footprints of COLLADA files.
 
 Inputs:
 
-* Zip archive containing \*.kmz and \*.dae files
-* \*.kmz must contain the geolocation of \*.dae models (coordinates of polygons in EPSG: 4326, units of measurement are metric)
+* ZIP archive with DAE and KMZ files.
 
 Outputs:
 
-*  A zip archive with Shapefile
-*  In the resulting Shapefile for each model, the attributes “name” and “altitude” are added
+* GeoJSON file.
 
-You can submit several models, each of them gets a separate polygon.
+Launch the tool: https://toolbox.nextgis.com/t/kmldae2footprints
 
-Launch tool: https://toolbox.nextgis.com/operation/kmldae2footprints
+**Try the tool in action by downloading our example:**
 
-**Try it out using our sample:**
+`Input data set <https://nextgis.ru/data/toolbox/kmldae2footprints/kmldae2footprints_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
 
-Download `input dataset <https://nextgis.com/data/toolbox/kmldae2footprints/kmldae2footprints_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
-
-Get the `output <https://nextgis.com/data/toolbox/kmldae2footprints/kmldae2footprints_outputs.zip>`_ to additionally check the results.
+`Result example <https://nextgis.ru/data/toolbox/kmldae2footprints/kmldae2footprints_outputs.zip>`_ of the tool run.

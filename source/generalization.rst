@@ -1,5 +1,5 @@
-Generalization of vector data
-=============================
+Advanced vector generalization
+==============================
 
 Simplification of vector layer features to reduce data volume.
 

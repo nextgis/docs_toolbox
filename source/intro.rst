@@ -28,3 +28,21 @@ Installation and running
 ------------------------
 
 You don't need to install anything to run NextGIS Toolbox tool. All tools can be run via browser.
+
+.. _toolbox_auth:
+
+Authorization
+--------------
+
+To log in to the service use your `NextGIS ID <https://docs.nextgis.com/docs_ngcom/source/create.html>`_.
+
+Click **Sign in** in the top right corner and enter the email address you used to sign up, then your password. 
+
+.. figure:: _static/ngid_signup_signin_en.png
+   :align: center
+   :name: ngid_signup_signin_pic
+   :width: 10cm
+
+   Loggin in via NextGIS ID
+
+If you don't have a NextGIS ID, click **Sign up** and `create an account <https://docs.nextgis.com/docs_ngcom/source/create.html#how-to-create-account-nextgis-id>`_.

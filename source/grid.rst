@@ -16,7 +16,20 @@ Inputs:
 * Mode: ``points`` or ``rect`` (squares);
 * Algorithm for cropping the grid along the feature borders: ``all`` (leave all the squares in extent), ``touches`` (leave all the squares touching features), ``intersection`` (crop the squares along the borders of the features);
 * GeoPackage file with polygons or multipolygons. Calculation time depends on the number of nodes in the boundary layer; 
-* Extent. Instead of uploading a layer, you can set a bounding box. Draw a custom rectangle on the map below. The Extent field will be filled with the numeric value that you can adjust manually.
+* Extent. Instead of uploading a layer, you can set a bounding box. Draw a custom rectangle on the map below. The Extent field will be filled with the numeric value that you can adjust manually;
+*  Vertical orienting or with fine size. By default, ``simple`` mode is used, the grid looks vertical in WGS 84 (EPSG:3857) projection, but angles and distances may be distorted. Enter ``fine`` to get a grid with more precizely matching angles and distances, however it will look tilted in EPSG:3857.
+
+Output:
+
+* GeoPackage containing the grid. Each cell/point of the grid has the following attributes: number (cells are numbered vertically, top to bottom, left to right, starting with the first left column even if it doesn't reach the top), row_index and col_index. To display the numbers, enable lables in the layer style settings and select the desired attribute.
+
+.. figure:: _static/grid_numbers.png
+   :align: center
+   :name: grid_rect_all_pic
+   :width: 10cm
+
+   Cell numbers displayed
+
 
 Resulting grids with different settings:
 

@@ -41,7 +41,7 @@
 .. figure:: _static/ngid_signup_signin_ru.png
    :align: center
    :name: ngid_signup_signin_pic
-   :width: 10cm
+   :width: 16cm
 
    Вход по NextGIS ID
 

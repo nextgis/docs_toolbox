@@ -41,7 +41,7 @@ Click **Sign in** in the top right corner and enter the email address you used t
 .. figure:: _static/ngid_signup_signin_en.png
    :align: center
    :name: ngid_signup_signin_pic
-   :width: 10cm
+   :width: 16cm
 
    Loggin in via NextGIS ID
 

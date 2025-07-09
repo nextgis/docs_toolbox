@@ -1,4 +1,4 @@
-.. sectionauthor:: Maxim Dubinin <maxim.dubinin@nextgis.com>
+
 .. NextGIS Toolbox TOC
 
 .. _toolbox_intro:
@@ -29,4 +29,20 @@
 
 Рекомендуемые параметры системы для запуска инструментов NextGIS Toolbox: ОС Windows XP/7/10/11; ОС Ubuntu Linux не ниже 18.04; 50 Мб свободного пространства на жёстком диске.
 
+.. _toolbox_auth:
 
+Авторизация
+------------
+
+Для авторизации в сервисе используется аккаунт `NextGIS ID <https://docs.nextgis.ru/docs_ngcom/source/create.html>`_.
+
+В правом верхнем углу экрана нажмите **Войти** и введите адрес электронной почты, на который вы регистрировались, и пароль. 
+
+.. figure:: _static/ngid_signup_signin_ru.png
+   :align: center
+   :name: ngid_signup_signin_pic
+   :width: 10cm
+
+   Вход по NextGIS ID
+
+Если у вас ещё нет NextGIS ID, нажмите **Создать аккаунт** и пройдите `регистрацию <https://docs.nextgis.ru/docs_ngcom/source/create.html#nextgis-id>`_.

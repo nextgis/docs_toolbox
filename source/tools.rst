@@ -53,6 +53,7 @@
    maxdist
    qgis_multiparttosingleparts
    splitcomplex
+   infomap
    quadro
    temporal_split
    split180

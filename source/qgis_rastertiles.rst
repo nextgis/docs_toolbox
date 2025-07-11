@@ -6,7 +6,7 @@ Generate zipped raster tiles from an archive with QGIS project and data.
 Inputs:
 
 * ZIP file containing QGIS project and data files;
-* Extent. If empty, a combined extent of all layers will be used. It may unexpectedly calculate an extent of the entire planet, then the tool will take a lot of time to process. You can mark it on a map, draw it and then correct the numbers or enter the extent manually following the format 'xmin, xmax, ymin, ymax'. Enter coordinates in WGS 84 (EPSG:4326), for example ``-7.3,42.1,10.5,50.5``;
+* Extent. If empty, a combined extent of all layers will be used. It may unexpectedly calculate an extent of the entire planet, then the tool will take a lot of time to process. Options to set the extent are: 1) upload a file with polygons - it's handy if you need tiles for a complex area, along a coastline, for example, 2) mark it on a map, 3) draw it on the map and then correct the numbers or 4) enter the extent manually following the format 'xmin, xmax, ymin, ymax'. Enter coordinates in WGS 84 (EPSG:4326), for example ``-7.3,42.1,10.5,50.5``;
 * Min zoom level - between 0 and 25, the default value is 0;
 * Max zoom level - between 0 and 25, the default value is 9;
 * Tile image format - if not specified generates PNG tiles. You can also enter ``JPG``;

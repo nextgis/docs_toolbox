@@ -13,6 +13,8 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/t/fix_geometries
 
+Пример работы инструмента:
+
 .. figure:: _static/fix_geometries_input.png
    :name: fix_geometries_input_pic
    :align: center

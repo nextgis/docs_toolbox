@@ -1,17 +1,17 @@
 Intersector
 ===========
 
-The tool intersects all layers of the nextgis.com web map using the specified geometry and generates a report listing the layers, with which the intersection took place. If different features intersect in a separate layer, these cases are displayed as separate events in the report.
+The tool intersects all layers of the nextgis.com web map using the specified geometry and generates a report for each layer. 
 
 Inputs:
 
-*  url - address of the used Web GIS
-*  webmap_id - web map ID from used Web GIS
-*  wkt - geometry with which the intersection of layers of the web map is checked. Indicated in wkt format, coordinate system - EPSG: 3857
+* Web GIS address. Example: https://sandbox.nextgis.com;
+* Web map ID. Web map resource ID - the numbers at the end of the resource page URL;
+* WKT geometry. Object geometry for intersection in WKT format. Coordinate system: EPSG:3857.
 
 Outputs:
 
-*  .xlsx table with a list of intersected layers
+*  XLSX table with a list of intersected layers.
 
 Launch tool: https://toolbox.nextgis.com/operation/ngw-intersect
 	

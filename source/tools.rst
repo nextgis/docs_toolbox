@@ -55,7 +55,6 @@ Tools
    ngw_intersect
    ngw_to_gpkg
    ogrmerge
-   osm2mp
    osmclip_bbox
    pointcloud2tileset
    points_on_tracks_stats

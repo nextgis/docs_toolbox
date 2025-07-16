@@ -23,6 +23,13 @@ Output:
 
 Launch the tool: https://toolbox.nextgis.com/t/qgis_rastertiles
 
+.. figure:: _static/qgis_rastertiles_input.png
+   :name: qgis_rastertiles_input_pic
+   :align: center
+   :width: 16cm
+
+   Example polygons with complicated geometry used to calculate the extent
+
 **Try the tool in action by downloading our example:**
 
 `Input data set <https://nextgis.ru/data/toolbox/qgis_rastertiles/qgis_rastertiles_inputs.zip>`_ to test the tool. Step-by-step instructions included.

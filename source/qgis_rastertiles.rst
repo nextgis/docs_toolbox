@@ -23,6 +23,13 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/t/qgis_rastertiles
 
+.. figure:: _static/qgis_rastertiles_input.png
+   :name: qgis_rastertiles_input_pic
+   :align: center
+   :width: 16cm
+
+   Пример полигонов со сложной геометрией, использующихся для задания охвата
+
 **Попробуйте инструмент в действии, скачав наш пример:**
 
 `Набор исходных данных <https://nextgis.ru/data/toolbox/qgis_rastertiles/qgis_rastertiles_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.

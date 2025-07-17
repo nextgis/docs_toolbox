@@ -1,7 +1,16 @@
-Обрезать PBF по прямоугольнику FREE
-=========================================
+Обрезать PBF по прямоугольнику
+==============================
 
-Инструмент выкачивает OSM PBF из сети и обрезает его по границе Bounding Box (bbox). 
+Инструмент выкачивает OSM PBF из сети и обрезает его по границе Bounding Box (bbox). Строку границы можно сгенерировать на сайте https://boundingbox.klokantech.com.
+
+На входе:
+
+* Адрес файла PBF. URL файла pbf. Пример:  https://nextgis.com/data/toolbox_static_testfiles/osmclip_bbox/maldives-latest.osm.pbf
+* BBOX. Охват в формате CSV, пример: 72.961503,3.748809,72.978497,3.76609.
+
+На выходе:
+
+* Обрезанный PBF
 
 Запуск инструмента: https://toolbox.nextgis.com/operation/osmclip_bbox
 

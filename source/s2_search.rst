@@ -1,27 +1,22 @@
-.. sectionauthor:: Юлия Григоренко <grigorenko.j@gmail.com>
-
 Sentinel-2 scenes to GPKG 
 ============================
 
 Search and save Sentinel-2 scene previews to GPKG.
 
-To run a search, enter following parameters:
-
-* **S2 tile index(es)** - Simple or list e.g. "36VWJ" or "36VWJ,36VXJ" - limit 50 id. You can check the ID of the scene you need on our `Web Map <https://demo.nextgis.com/resource/7697/display?panel=layers>`_ or  :download:`download the scene division file <files/sentinel_2_index.gpkg>`.
-* **Year(s)** - Simple,list or range e.g. "2016,2020,2021-2024"
-* **Month(s)** - Simple,list or range e.g. "1,5,9-12"
-* **Max cloud** - Max cloud coverage in %, int or float e.g. 10 or 10.5
-* **Custom order name** - optional, you can enter a name for the Toolbox task to make it easier to tell them apart without comparing all the parameters.
-
-There is also option to **No preview**. If ticked, the resulting GeoPackage will contain only vector footprint itendifiers.
-
 Input:
 
-* Search parameters.
+* **S2 tile index(es)** - Simple or list e.g. "36VWJ" or "36VWJ,36VXJ" - limit 50 id. You can check the ID of the scene you need on our `Web Map <https://demo.nextgis.com/resource/7697/display?panel=layers>`_ or  :download:`download the scene division file <files/sentinel_2_index.gpkg>`;
+* **Year(s)** - Simple,list or range e.g. "2016,2020,2021-2024";
+* **Month(s)** - Simple,list or range e.g. "1,5,9-12";
+* **Max cloud** - Max cloud coverage in %, int or float e.g. 10 or 10.5;
+* **Custom order name** - optional, you can enter a name for the Toolbox task to make it easier to tell them apart without comparing all the parameters.
+
+There is also **No preview** option. If ticked, the resulting GeoPackage will contain only vector footprint itendifiers.
+
 
 Output:
 
-* GPKG file
+* GPKG file.
 
 If previews are included, to view the result in QGIS select Project ‣ Open From ‣ GeoPackage.
 
@@ -36,7 +31,7 @@ By default, tile layer and the earliest preview are visible. Select the layers y
 
    Search result with layer visibility enabled
 
-Launch instrument: https://toolbox.nextgis.com/operation/s2_search
+Launch instrument: https://toolbox.nextgis.com/t/s2_search
 
 **Try it out using our sample:**
 

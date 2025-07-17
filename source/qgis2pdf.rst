@@ -1,12 +1,37 @@
 Converting a QGIS project to PDF
-======================================
+================================
 
 Whole map and each map layer as PDF.
 
-Launch tool: https://toolbox.nextgis.com/operation/qgis2pdf
+Inputs:
 
-**Try it out using our sample:**
+* The QGIS project. Archive of the QGIS project in ZIP format;
+* Extent. Optional parameter. If left blank, the coverage will be calculated as the sum of the coverage of the project layers;
+* The width of the PDF file, mm;
+* The height of the PDF file, mm.
 
-Download `input dataset <https://nextgis.com/data/toolbox/qgis2pdf/qgis2pdf_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+Outputs:
 
-Get the `output <https://nextgis.com/data/toolbox/qgis2pdf/qgis2pdf_outputs.zip>`_ to additionally check the results.
+* ZIP archive with PDF files.
+
+Launch the tool: https://toolbox.nextgis.com/t/qgis2pdf
+
+.. figure:: _static/qgis2pdf_input_en.png
+   :name: qgis2pdf_input_pic
+   :align: center
+   :width: 20cm
+
+   Example input
+
+.. figure:: _static/qgis2pdf_result.png
+   :name: qgis2pdf_result_pic
+   :align: center
+   :width: 16cm
+
+   Example output image
+
+**Try the tool in action by downloading our example:**
+
+`Input data set <https://nextgis.ru/data/toolbox/qgis2pdf/qgis2pdf_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
+
+`Result example <https://nextgis.ru/data/toolbox/qgis2pdf/qgis2pdf_outputs.zip>`_ of the tool run.

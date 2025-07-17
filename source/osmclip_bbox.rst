@@ -12,7 +12,7 @@ Outputs:
 
 * Clipped PBF.
 
-Launch the tool: https://toolbox.nextgis.com/operation/osmclip_bbox
+Launch the tool: https://toolbox.nextgis.com/t/osmclip_bbox
 
 **Try it out using our sample:**
 

@@ -22,7 +22,7 @@
 
 Ко всем слоям прилагаются стили в формате QML.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/quadro
+Запуск инструмента: https://toolbox.nextgis.com/t/quadro
 
 .. figure:: _static/quadro_result_styles.png
    :align: center

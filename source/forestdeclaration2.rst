@@ -11,7 +11,7 @@ Input:
 * Forest declaration - File in JSON format, exported from NextGIS Les app
 
 
-Launch insrument: https://toolbox.nextgis.com/operation/forestdeclaration2
+Launch insrument: https://toolbox.nextgis.com/t/forestdeclaration2
 
 **Try it out using our sample:**
 

@@ -15,7 +15,7 @@ Outputs:
 
 *  Excel report (xlsx)
 
-Launch tool: https://toolbox.nextgis.com/operation/poly2explication
+Launch tool: https://toolbox.nextgis.com/t/poly2explication
 
 
    

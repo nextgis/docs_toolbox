@@ -30,7 +30,7 @@ Outputs:
 *  A CSV file that contains data on the selected mode, the source field and its value, a list of hyperlinks to features that have been changed. If there are errors, they will also be indicated in this file.
 
 
-Launch tool: https://toolbox.nextgis.com/operation/geometry_changer
+Launch tool: https://toolbox.nextgis.com/t/geometry_changer
 
 **Try it out using our sample:**
 

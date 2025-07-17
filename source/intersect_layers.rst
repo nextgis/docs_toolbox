@@ -13,7 +13,7 @@ Outputs:
 
 *  Zipped CSV files, each of which describes one of the objects of the polygonal layer. If an object from a polygon layer has an intersection with an object from another layer, the CSV file will contain the coordinates of the center and the WKT description of the polygon.
 
-Launch tool: https://toolbox.nextgis.com/operation/intersect_layers
+Launch tool: https://toolbox.nextgis.com/t/intersect_layers
 
 **Try it out using our sample:**
 

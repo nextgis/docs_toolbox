@@ -11,4 +11,4 @@ Output:
 
 * File in "polish" format with .mp extension
 
-Launch tool: https://toolbox.nextgis.com/operation/osm2mp
+Launch tool: https://toolbox.nextgis.com/t/osm2mp

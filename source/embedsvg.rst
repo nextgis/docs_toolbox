@@ -14,7 +14,7 @@ Output:
 
 * ZIP-archive with updated QGS project file / QML style file (depending on the input). 
 
-Launch the tool: https://toolbox.nextgis.com/operation/embedsvg
+Launch the tool: https://toolbox.nextgis.com/t/embedsvg
 
 **Try it out using our sample:**
 

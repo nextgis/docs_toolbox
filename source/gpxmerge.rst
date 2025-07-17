@@ -25,7 +25,7 @@ Input: ZIP archive with GPX files. Subdirectories are allowed
 
 Output: GPX file.
 
-Launch instrument: https://toolbox.nextgis.com/operation/gpxmerge
+Launch instrument: https://toolbox.nextgis.com/t/gpxmerge
 
 **Try it out using our sample:**
 

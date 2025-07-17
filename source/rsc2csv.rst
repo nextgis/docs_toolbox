@@ -20,7 +20,7 @@ Output: CSV file
    Output CSV
 
 
-Launch instrument: https://toolbox.nextgis.com/operation/rsc2csv
+Launch instrument: https://toolbox.nextgis.com/t/rsc2csv
 
 **Try it out using our sample:**
 

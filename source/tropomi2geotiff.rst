@@ -16,7 +16,7 @@ Outputs:
 
 *  GeoTIFF output image
 
-Launch tool: https://toolbox.nextgis.com/operation/tropomi2geotiff
+Launch tool: https://toolbox.nextgis.com/t/tropomi2geotiff
 
 
 

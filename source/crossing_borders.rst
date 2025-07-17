@@ -15,7 +15,7 @@ Output:
 * CSV file with information, how many objects and of which geometry type lay within each polygon. 
 
 
-Launch tool: https://toolbox.nextgis.com/operation/crossing_borders
+Launch tool: https://toolbox.nextgis.com/t/crossing_borders
 
 **Try it out using our sample:**
 

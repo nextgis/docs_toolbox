@@ -24,7 +24,7 @@ Outputs:
 
    Resulting feature table of the layer with added attributes
 
-Launch tool: https://toolbox.nextgis.com/operation/centroid2attr
+Launch tool: https://toolbox.nextgis.com/t/centroid2attr
 
 **Try it out using our sample:**
 

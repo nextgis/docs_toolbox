@@ -16,7 +16,7 @@ Calculation algorithm: Uploading layers of the boundary of the analysis zone and
 
 The result of the process is a table in CSV format with information about all ships registered on a given territory later than the specified date, information about the last registered location and the number of registered locations within a given territory for a certain period of time.
 
-Launch tool: https://toolbox.nextgis.com/operation/mt2report
+Launch tool: https://toolbox.nextgis.com/t/mt2report
 
 
 

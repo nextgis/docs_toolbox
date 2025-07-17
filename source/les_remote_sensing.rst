@@ -18,7 +18,7 @@ Outputs:
 
 *  GeoTIFF of processed scene and its style uploaded to Web GIS.
 
-Launch tool: https://toolbox.nextgis.com/operation/les_remote_sensing
+Launch tool: https://toolbox.nextgis.com/t/les_remote_sensing
 
 **Try it out using our sample:**
 

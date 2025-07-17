@@ -23,7 +23,7 @@ Outputs:
 
 * ZIP archive, containing converted files. 
 
-Launch tool: https://toolbox.nextgis.com/operation/import_egrn
+Launch tool: https://toolbox.nextgis.com/t/import_egrn
 
 **Try it out using our sample:**
 

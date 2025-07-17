@@ -22,6 +22,6 @@ The archive contains directories: a geodata directory in the original coordinate
 
 A description of the layers is given at https://data.nextgis.com/en/cadastre/#region-layers
 
-Launch tool: https://toolbox.nextgis.com/operation/pkk_kpt
+Launch tool: https://toolbox.nextgis.com/t/pkk_kpt
 
 Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/kpt2geo/kpt2geo.zip

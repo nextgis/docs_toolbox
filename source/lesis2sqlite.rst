@@ -3,7 +3,7 @@ Lesis (TopoL) to SQLite
 
 Conversion of the Lesis database (TopoL-L GIS) to SQLite format to open in NextGIS QGIS.
 
-Launch tool: https://toolbox.nextgis.com/operation/lesis2sqlite
+Launch tool: https://toolbox.nextgis.com/t/lesis2sqlite
 
 **Try it out using our sample:**
 

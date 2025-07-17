@@ -18,7 +18,7 @@ Output:
 
 * XLSX file with the date and time of the satellite overpasses.
 
-Launch the tool: https://toolbox.nextgis.com/operation/predict_overpass
+Launch the tool: https://toolbox.nextgis.com/t/predict_overpass
 
 **Try it out using our sample:**
 

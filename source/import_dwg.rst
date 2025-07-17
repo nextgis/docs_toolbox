@@ -12,7 +12,7 @@ Output:
 * DXF file.
 
 Launch tool:  
-https://toolbox.nextgis.com/operation/import_dwg
+https://toolbox.nextgis.com/t/import_dwg
 
 **Try it out using our sample:**
 

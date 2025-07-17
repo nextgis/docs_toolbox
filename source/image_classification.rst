@@ -30,7 +30,7 @@ Output:
 
 Watch the video on `youtube <https://youtu.be/S7APVbtR-5s>`_.
 
-Launch instrument: https://toolbox.nextgis.com/operation/image_classification
+Launch instrument: https://toolbox.nextgis.com/t/image_classification
 
 **Try it out using our sample:**
 

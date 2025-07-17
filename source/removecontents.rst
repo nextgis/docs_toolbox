@@ -19,7 +19,7 @@ Outputs:
 
 Watch the video on `youtube <https://youtu.be/OBXqNRo_nEM>`_.
 
-Launch the tool: https://toolbox.nextgis.com/operation/removecontents
+Launch the tool: https://toolbox.nextgis.com/t/removecontents
 
 **Try it out using our sample:**
 

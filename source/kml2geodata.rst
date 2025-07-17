@@ -15,7 +15,7 @@ Outputs:
 
 * ZIP compressed GeoJSON with attachments if any.
 
-Launch tool: https://toolbox.nextgis.com/operation/kml2geodata
+Launch tool: https://toolbox.nextgis.com/t/kml2geodata
 
 
 .. todo:: _static/kml2geodata-src.png

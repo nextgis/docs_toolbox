@@ -20,7 +20,7 @@ Output:
 
 Watch the video on `youtube <https://youtu.be/mp0Z4OTp4Ho?si=QY41ZFrHMQla22k7>`_.
 
-Launch tool: https://toolbox.nextgis.com/operation/ngw_to_gpkg
+Launch tool: https://toolbox.nextgis.com/t/ngw_to_gpkg
 
 **Try it out using our sample:**
 

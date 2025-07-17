@@ -15,6 +15,7 @@ Inputs:
 
     Google Geocoding API - https://developers.google.com/maps/documentation/geocoding/usage-and-billing
 
+Launch the tool: https://toolbox.nextgis.com/t/geocodetable
 
 **Try it out using our sample:**
 
@@ -25,4 +26,4 @@ Outputs:
 
 *  CSV file, containing two additional columns with latitude and longitude besides original data.
 
-Launch the tool: https://toolbox.nextgis.com/operation/geocodetable
+

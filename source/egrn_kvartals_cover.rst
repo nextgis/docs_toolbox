@@ -12,7 +12,7 @@ Output:
 
 * CSV file
 
-Launch tool: https://toolbox.nextgis.com/operation/egrn_kvartals_cover
+Launch tool: https://toolbox.nextgis.com/t/egrn_kvartals_cover
 
 **Try it out using our sample:**
 

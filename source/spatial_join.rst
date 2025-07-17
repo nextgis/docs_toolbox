@@ -27,7 +27,7 @@ Outputs:
    Example output: cities with added region name
    
 
-Launch tool: https://toolbox.nextgis.com/operation/spatial_join
+Launch tool: https://toolbox.nextgis.com/t/spatial_join
 
 **Try it out using our sample:**
 

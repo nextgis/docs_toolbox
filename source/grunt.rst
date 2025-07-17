@@ -11,7 +11,7 @@ Output:
 
 * GPKG file in WGS-84
 
-Launch tool: https://toolbox.nextgis.com/operation/grunt
+Launch tool: https://toolbox.nextgis.com/t/grunt
 
 **Try it out using our sample:**
 

@@ -12,7 +12,7 @@ Output:
 
 * ZIP-archive with a set of ESRI Shapefile files.
 
-Launch tool: https://toolbox.nextgis.com/operation/ai2geo
+Launch tool: https://toolbox.nextgis.com/t/ai2geo
 
 .. figure:: _static/ai2geo_before.png
    :align: center

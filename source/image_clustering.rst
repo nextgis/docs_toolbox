@@ -1,5 +1,3 @@
-.. sectionauthor:: Юлия Григоренко <grigorenko.j@gmail.com>
-
 Image clustering 
 =================
 
@@ -36,7 +34,7 @@ Output:
 
 Watch the video on `youtube <https://youtu.be/Ib9bwQPGLro>`_.
 
-Launch tool: https://toolbox.nextgis.com/operation/image_clustering
+Launch tool: https://toolbox.nextgis.com/t/image_clustering
 
 
 **Try it out using our sample:**

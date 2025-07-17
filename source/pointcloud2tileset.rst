@@ -12,7 +12,7 @@ Output:
 
 * ZIP-archive with tiles.
 
-Launch tool: https://toolbox.nextgis.com/operation/pointcloud2tileset
+Launch tool: https://toolbox.nextgis.com/t/pointcloud2tileset
 
 **Try it out using our sample:**
 

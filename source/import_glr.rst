@@ -15,7 +15,7 @@ Output:
 
 If the SRS of the input data is other than EPSG:4326, you'll need to select it manually in QGIS. After that the layer can be display in the project.
 
-Launch tool: https://toolbox.nextgis.com/operation/import_glr
+Launch tool: https://toolbox.nextgis.com/t/import_glr
 
 **Try it out using our sample:**
 

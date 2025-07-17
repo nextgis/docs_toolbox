@@ -17,7 +17,7 @@ Output:
 
 Watch the video on `youtube <https://youtu.be/CQjypOchMdE>`_.
 
-Launch the tool: https://toolbox.nextgis.com/operation/postal
+Launch the tool: https://toolbox.nextgis.com/t/postal
 
 **Try it out using our sample:**
 

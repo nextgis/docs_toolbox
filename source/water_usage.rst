@@ -13,7 +13,7 @@ Output:
                                                                                         
 * GeoPackage file with water marks on water objects and attributes from the source file.
 
-Launch the tool: https://toolbox.nextgis.com/operation/water_usage
+Launch the tool: https://toolbox.nextgis.com/t/water_usage
 
 **Try it out using our sample:**
 

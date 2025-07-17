@@ -20,7 +20,7 @@ Outputs:
 
 * Chosen layer or layers will be updated with new objects.
 
-Launch tool: https://toolbox.nextgis.com/operation/add_lesobject_table
+Launch tool: https://toolbox.nextgis.com/t/add_lesobject_table
 
 **Try it out using our sample:**
 

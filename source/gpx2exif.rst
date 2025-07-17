@@ -15,7 +15,7 @@ Output:
 * ZIP with photos that have new EXIF tags
 
 
-Launch instrument: https://toolbox.nextgis.com/operation/gpx2exif
+Launch instrument: https://toolbox.nextgis.com/t/gpx2exif
 
 **Try it out using our sample:**
 

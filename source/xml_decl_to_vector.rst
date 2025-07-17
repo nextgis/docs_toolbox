@@ -20,7 +20,7 @@ Outputs:
 
 Watch the video on `youtube <https://youtu.be/uFiOJfK6VQw>`_.
 
-Launch the tool: https://toolbox.nextgis.com/operation/xml_decl_to_vector
+Launch the tool: https://toolbox.nextgis.com/t/xml_decl_to_vector
 
 **Try it out using our sample:**
 

@@ -11,7 +11,7 @@ Output:
 
 * ZIP-archive with GeoPackage and  QML style files for each layer.
 
-Launch the tool: https://toolbox.nextgis.com/operation/mapinfo2qgis
+Launch the tool: https://toolbox.nextgis.com/t/mapinfo2qgis
 
 **Try it out using our sample:**
 

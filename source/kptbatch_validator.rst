@@ -14,7 +14,7 @@ Outputs:
 * CSV file with report. 
 * Optional - ZIP-archive containing sorted XML files.
 
-Launch tool: https://toolbox.nextgis.com/operation/kptbatch_validator
+Launch tool: https://toolbox.nextgis.com/t/kptbatch_validator
 
 **Try it out using our sample:**
 

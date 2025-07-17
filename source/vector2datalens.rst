@@ -11,7 +11,7 @@ Outputs:
 
 * CSV file ready to be imported in DataLens.
 
-Launch the tool: https://toolbox.nextgis.com/operation/vector2datalens
+Launch the tool: https://toolbox.nextgis.com/t/vector2datalens
 
 **Try it out using our sample:**
 

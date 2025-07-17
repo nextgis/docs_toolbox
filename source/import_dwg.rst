@@ -3,7 +3,7 @@ DWG в DXF
 
 Конвертирует файл DWG в DXF, который можно открыть в QGIS.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/import_dwg
+Запуск инструмента: https://toolbox.nextgis.com/t/import_dwg
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

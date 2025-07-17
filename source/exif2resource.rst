@@ -32,7 +32,7 @@
 
 Посмотреть видео на `youtube <https://youtu.be/oIsugGukBGs?si=GqJQI8cQK50p00SM>`_, `rutube <https://rutube.ru/video/6862ea5bcd63956b0f4972e23641b40e/>`_.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/exif2resource
+Запуск инструмента: https://toolbox.nextgis.com/t/exif2resource
 
 Пример результата работы инструмента на веб-карте: https://demo.nextgis.ru/resource/5929/display?panel=info
 

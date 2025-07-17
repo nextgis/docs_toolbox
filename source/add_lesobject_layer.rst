@@ -24,7 +24,7 @@
 
 * обновление выбранного слоя или слоев в Веб ГИС.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/add_lesobject_layer
+Запуск инструмента: https://toolbox.nextgis.com/t/add_lesobject_layer
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

@@ -40,7 +40,7 @@
 
 Посмотреть видео на `youtube <https://youtu.be/MbZ1ZulLYcU?si=lTyCAoCVRaypqsZv>`__, `rutube <https://rutube.ru/video/f3a609e3af7f7161144db9388f448340/>`__.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/spreadsheet2layer
+Запуск инструмента: https://toolbox.nextgis.com/t/spreadsheet2layer
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

@@ -13,7 +13,7 @@
 
 На вход можно подать несколько моделей, на выходе по каждой из них получить отдельный полигон.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/kmldae2footprints
+Запуск инструмента: https://toolbox.nextgis.com/t/kmldae2footprints
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

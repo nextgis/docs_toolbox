@@ -18,7 +18,7 @@
 
 * XLSX-файл с датой и временем начала и окончания пролета спутников над заданной территорией.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/predict_overpass
+Запуск инструмента: https://toolbox.nextgis.com/t/predict_overpass
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

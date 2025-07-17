@@ -14,7 +14,7 @@ TROPOMI в GeoTIFF
 
 *  GeoTIFF готового снимка
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/tropomi2geotiff
+Запуск инструмента: https://toolbox.nextgis.com/t/tropomi2geotiff
 
 Посмотреть пример результата на интерактивной карте: https://demo.nextgis.com/resource/4698/display?panel=layers
 

@@ -96,7 +96,7 @@
    
 
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/lesis2sqlite
+Запуск инструмента: https://toolbox.nextgis.com/t/lesis2sqlite
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

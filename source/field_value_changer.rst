@@ -29,7 +29,7 @@
 
    Пример результата работы инструмента
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/field_value_changer
+Запуск инструмента: https://toolbox.nextgis.com/t/field_value_changer
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

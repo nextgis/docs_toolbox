@@ -27,7 +27,7 @@
 
 * Landsat 4 (TM)
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/landsat_to_radiance
+Запуск инструмента: https://toolbox.nextgis.com/t/landsat_to_radiance
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

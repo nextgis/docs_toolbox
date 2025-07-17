@@ -24,7 +24,7 @@
 
 Посмотреть видео на `youtube <https://youtu.be/ak0SIvEMSGY>`_, `rutube <https://rutube.ru/video/f8d7e5864a0dfd1aa7818fcffca13b58/>`_.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/les_remote_sensing
+Запуск инструмента: https://toolbox.nextgis.com/t/les_remote_sensing
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

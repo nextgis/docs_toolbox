@@ -19,7 +19,7 @@
 
 Посмотреть видео на `youtube <https://youtu.be/W-GtFRjQx2M>`_, `rutube <https://rutube.ru/video/1db7663baf849b62d4446cbc60da968a/>`_.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/removecontents
+Запуск инструмента: https://toolbox.nextgis.com/t/removecontents
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

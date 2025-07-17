@@ -36,7 +36,7 @@
 
 Посмотреть видео на `youtube <https://youtu.be/w8ONg0bgqcQ>`_, `rutube <https://rutube.ru/video/2ef2dd438e84795185a2ee27110d3596/>`_.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/clip_polys_poly
+Запуск инструмента: https://toolbox.nextgis.com/t/clip_polys_poly
 
 
 .. figure:: _static/clip_polys_poly.png

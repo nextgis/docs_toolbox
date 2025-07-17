@@ -32,7 +32,7 @@ Lloyd — это классический вариант K-Means, который
 
 Посмотреть видео на `youtube <https://youtu.be/xiiwYEFULIc>`_, `rutube <https://rutube.ru/video/e9edaa738a086259c597953bc1650a09/>`_.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/image_clustering
+Запуск инструмента: https://toolbox.nextgis.com/t/image_clustering
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

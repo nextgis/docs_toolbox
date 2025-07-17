@@ -21,7 +21,7 @@
   
 * Файл GeoTIFF с результатом вычислений.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/r_mapcalc
+Запуск инструмента: https://toolbox.nextgis.com/t/r_mapcalc
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

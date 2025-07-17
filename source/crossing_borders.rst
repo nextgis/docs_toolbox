@@ -22,7 +22,7 @@
    Итоговый файл CSV
 
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/crossing_borders
+Запуск инструмента: https://toolbox.nextgis.com/t/crossing_borders
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

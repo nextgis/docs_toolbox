@@ -18,7 +18,7 @@
 
 Посмотреть видео на `youtube <https://youtu.be/-SoRofcKSb4>`_, `rutube <https://rutube.ru/video/29c5a454cb52ff070d29f649424d77d3/>`_.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/eraser
+Запуск инструмента: https://toolbox.nextgis.com/t/eraser
 
 Посмотреть исходные данные и результаты расчётов на интерактивной карте: https://demo.nextgis.com/resource/4611/display?panel=info
 

@@ -14,7 +14,7 @@
 
 * Архив с геоданными кадастровых объектов
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/cadnums_to_geodata
+Запуск инструмента: https://toolbox.nextgis.com/t/cadnums_to_geodata
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

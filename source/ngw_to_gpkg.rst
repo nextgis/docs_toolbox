@@ -20,7 +20,7 @@
 
 Посмотреть видео на `youtube <https://youtu.be/Cfs4IQB5F8k>`_, `rutube <https://rutube.ru/video/2ee1d2b8f9278c357a711d0077576e38/>`_.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/ngw_to_gpkg
+Запуск инструмента: https://toolbox.nextgis.com/t/ngw_to_gpkg
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

@@ -49,7 +49,7 @@
 
 *  слой с полигонами (shapefile), актуальными для заданного года
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/lines2polygons
+Запуск инструмента: https://toolbox.nextgis.com/t/lines2polygons
 
  
 **Попробуйте инструмент в действии, скачав наш пример:**

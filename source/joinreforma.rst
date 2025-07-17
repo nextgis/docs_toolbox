@@ -22,7 +22,7 @@
 * Слой остальные точки, к которым не были найдены полигоны в OpenStreetMap.
 * Исходные данные, файл CSV
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/joinreforma
+Запуск инструмента: https://toolbox.nextgis.com/t/joinreforma
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

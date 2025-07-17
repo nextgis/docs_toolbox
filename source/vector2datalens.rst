@@ -17,7 +17,7 @@
 
 Посмотреть видео на `youtube <https://youtu.be/BAUPdUcQR3E>`_, `rutube <https://rutube.ru/video/127bf6c6a2b7e66022e05a09615a2897/>`_.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/vector2datalens
+Запуск инструмента: https://toolbox.nextgis.com/t/vector2datalens
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

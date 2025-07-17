@@ -16,7 +16,7 @@
 
    Полученный файл CSV
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/rsc2csv
+Запуск инструмента: https://toolbox.nextgis.com/t/rsc2csv
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

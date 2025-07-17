@@ -12,7 +12,7 @@
 
 Посмотреть видео на `youtube <https://youtu.be/IGDTnfMaiVc>`_, `rutube <https://rutube.ru/video/e26ba65515ddc42e1d57295eaa567d36/?r=wd>`_.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/maxdist
+Запуск инструмента: https://toolbox.nextgis.com/t/maxdist
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

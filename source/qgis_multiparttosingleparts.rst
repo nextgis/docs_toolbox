@@ -13,7 +13,7 @@
 
 * Новый векторный файл GeoJSON, где каждый объект содержит только однокомпонентную геометрию. Выходной файл будет иметь те же поля атрибутов, что и входной, но потенциально больше объектов, если входной файл содержал составные геометрии.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/qgis_multiparttosingleparts
+Запуск инструмента: https://toolbox.nextgis.com/t/qgis_multiparttosingleparts
 
 .. figure:: _static/qgis_multiparttosingleparts_before_ru.png
    :align: center

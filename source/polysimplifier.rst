@@ -18,7 +18,7 @@
 
 Посмотреть видео на `youtube <https://youtu.be/X3jrMnyqKQE>`_, `rutube <https://rutube.ru/video/a7a7d0595300bb2efe4af86baf2eb4fd/>`_.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/polysimplifier
+Запуск инструмента: https://toolbox.nextgis.com/t/polysimplifier
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

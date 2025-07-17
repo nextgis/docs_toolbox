@@ -12,7 +12,7 @@
 
 * ZIP-архив, содержащий набор векторных файлов в формате ESRI Shapefile.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/ai2geo
+Запуск инструмента: https://toolbox.nextgis.com/t/ai2geo
 
 
 .. figure:: _static/ai2geo_before.png

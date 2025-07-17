@@ -30,7 +30,7 @@
 
 *  ZIP-архив с shp-файлом, содержащим полученный полигон
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/explication2poly
+Запуск инструмента: https://toolbox.nextgis.com/t/explication2poly
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

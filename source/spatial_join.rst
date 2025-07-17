@@ -27,7 +27,7 @@
    Выход - точки с добавленым атрибутом названия региона.
       
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/spatial_join
+Запуск инструмента: https://toolbox.nextgis.com/t/spatial_join
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

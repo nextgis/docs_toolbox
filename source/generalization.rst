@@ -21,7 +21,7 @@
 
 * Результатом работы инструмента является файл слоя в формате ESRI Shapefile с измененными объектами (геометриями).
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/generalization
+Запуск инструмента: https://toolbox.nextgis.com/t/generalization
 
 
 

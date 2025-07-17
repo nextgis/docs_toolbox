@@ -14,7 +14,7 @@
 
 * ZIP-файл: фотографии с новыми EXIF-тегами
 
-Запустить инструмент: https://toolbox.nextgis.com/operation/gpx2exif
+Запустить инструмент: https://toolbox.nextgis.com/t/gpx2exif
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

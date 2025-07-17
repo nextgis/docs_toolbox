@@ -36,7 +36,7 @@ ZIP-архив с результатами конвертации – векто
 
 Посмотреть видео на `youtube <https://youtu.be/2Q7v2msbRHc>`_, `rutube <https://rutube.ru/video/df8edc86a3f6720543cbd275adec2284/>`_.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/xml_decl_to_vector
+Запуск инструмента: https://toolbox.nextgis.com/t/xml_decl_to_vector
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

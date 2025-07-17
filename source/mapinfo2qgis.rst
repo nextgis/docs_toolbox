@@ -11,7 +11,7 @@
 
 * ZIP-архив с GeoPackage и файлами стиля QML для каждого слоя.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/mapinfo2qgis
+Запуск инструмента: https://toolbox.nextgis.com/t/mapinfo2qgis
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

@@ -21,7 +21,7 @@ KML в геоданные
 
 Посмотреть видео на `youtube <https://youtu.be/Qggg-0qqOs4>`_, `rutube <https://rutube.ru/video/efdde3953825f0b071f93b35f67103df/>`_.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/kml2geodata
+Запуск инструмента: https://toolbox.nextgis.com/t/kml2geodata
 
 .. figure:: _static/kml2geodata-src.png
    :align: center

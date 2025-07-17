@@ -15,7 +15,7 @@
 
 На выходе:
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/coord_recalc
+Запуск инструмента: https://toolbox.nextgis.com/t/coord_recalc
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

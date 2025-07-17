@@ -10,7 +10,7 @@
 
 На выходе: Геометрия в форматах KML и GeoJSON.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/rosreestr2coord
+Запуск инструмента: https://toolbox.nextgis.com/t/rosreestr2coord
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

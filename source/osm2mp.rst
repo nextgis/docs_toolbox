@@ -11,4 +11,4 @@
 
 * Файл в "польском" формате с расширением .mp
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/osm2mp
+Запуск инструмента: https://toolbox.nextgis.com/t/osm2mp

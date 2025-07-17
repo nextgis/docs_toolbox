@@ -17,7 +17,7 @@
 
 Посмотреть видео на `youtube <https://youtu.be/QUhAjnB86GE?si=ViTBiL7Q2XENw6hu>`_, `rutube <https://rutube.ru/video/147bd4bd5bbe46d41d9c76aa90c31007/>`_.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/grunt
+Запуск инструмента: https://toolbox.nextgis.com/t/grunt
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

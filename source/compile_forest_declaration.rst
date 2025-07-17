@@ -31,7 +31,7 @@
 
 Посмотреть видео на `youtube <https://youtu.be/o20ul5NLpjE>`_, `rutube <https://rutube.ru/video/e074adaad40428aa5faa0fd610c60190/>`_.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/compile_forest_declaration
+Запуск инструмента: https://toolbox.nextgis.com/t/compile_forest_declaration
 
 Пожалуйста, скачайте :download:`шаблоны XLSX файлов <files/compile_forest_declaration_Empty_Templates.zip>`, необходимых для подачи в инструмент. Поля в таблицах, помеченные звездочкой (*), должны быть заполнены в соответствии со значениями из :download:`справочника <files/compile_forest_declaration_Spravochnik.xlsx>`. В качестве разделителя для дробных чисел должна использоваться точка (.).
 

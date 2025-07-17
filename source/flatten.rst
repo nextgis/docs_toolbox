@@ -12,7 +12,7 @@
 * Файл GeoPackage или GeoJSON без Z и/или M координат.
 
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/flatten
+Запуск инструмента: https://toolbox.nextgis.com/t/flatten
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

@@ -25,7 +25,7 @@
    Таблица объектов слоя, полученная с помощью инструмента
    
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/centroid2attr
+Запуск инструмента: https://toolbox.nextgis.com/t/centroid2attr
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

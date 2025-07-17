@@ -16,7 +16,7 @@
 
 *  слой в формате ESRI Shapefile, который находится в архиве (zip)
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/join_by_field
+Запуск инструмента: https://toolbox.nextgis.com/t/join_by_field
 
 Пример использования:
 

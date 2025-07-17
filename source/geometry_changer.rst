@@ -36,7 +36,7 @@
 
    Пример результата работы инструмента
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/geometry_changer
+Запуск инструмента: https://toolbox.nextgis.com/t/geometry_changer
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

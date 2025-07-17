@@ -30,7 +30,7 @@
 
 Посмотреть видео на `youtube <https://youtu.be/uuiUiB85DBU>`_, `rutube <https://rutube.ru/video/a7d2e53ab4721c809984a033207e7951/>`_.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/image_classification
+Запуск инструмента: https://toolbox.nextgis.com/t/image_classification
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

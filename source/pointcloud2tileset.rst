@@ -12,7 +12,7 @@
 
 * ZIP-архив с тайлами.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/pointcloud2tileset
+Запуск инструмента: https://toolbox.nextgis.com/t/pointcloud2tileset
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

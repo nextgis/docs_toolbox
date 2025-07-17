@@ -11,7 +11,7 @@
 
 * полигональный слой в формате geojson или geopackage, линейный слой с оставшимися самопересекающимися линиями.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/lines2poly
+Запуск инструмента: https://toolbox.nextgis.com/t/lines2poly
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

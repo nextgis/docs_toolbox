@@ -25,7 +25,7 @@
 
 Посмотреть видео на `youtube <https://youtu.be/3wHFbP5-t8k?si=Z37abTXkXb4MCw7n>`_, `rutube <https://rutube.ru/play/embed/ef945b072d5e0cbcba1d379b3cade622/>`_.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/dezhurcad
+Запуск инструмента: https://toolbox.nextgis.com/t/dezhurcad
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

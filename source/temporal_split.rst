@@ -19,7 +19,7 @@
 
 *  архив слоёв, каждый из которых также находится в архиве (zip)
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/temporal_split
+Запуск инструмента: https://toolbox.nextgis.com/t/temporal_split
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

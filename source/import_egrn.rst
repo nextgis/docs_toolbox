@@ -33,7 +33,7 @@
 
 Посмотреть видео на `youtube <https://youtu.be/UbrepJSZpUQ>`_, `rutube <https://rutube.ru/video/5255ec9b95e6f34d0e5d4ceb8fb20f82/>`_.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/import_egrn
+Запуск инструмента: https://toolbox.nextgis.com/t/import_egrn
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

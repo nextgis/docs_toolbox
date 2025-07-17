@@ -13,7 +13,7 @@
 
 *  таблица в формате XLSX с перечнем пересеченных слоев.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/ngw-intersect
+Запуск инструмента: https://toolbox.nextgis.com/t/ngw-intersect
  
 .. figure:: _static/ngw_intersect_layers.png
    :align: center

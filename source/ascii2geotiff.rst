@@ -6,7 +6,7 @@ ASCII растр в GeoTIFF
 * На входе: ASCII файл, содержащий описание растра
 * На выходе: растр в в формате GeoTIFF 
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/ascii2geotiff
+Запуск инструмента: https://toolbox.nextgis.com/t/ascii2geotiff
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

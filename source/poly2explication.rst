@@ -19,7 +19,7 @@
 
 *  отчёт в формате Excel (xlsx)
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/poly2explication
+Запуск инструмента: https://toolbox.nextgis.com/t/poly2explication
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

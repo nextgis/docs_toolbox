@@ -20,7 +20,7 @@
 
 * обновление выбранного слоя или слоев в Веб ГИСе.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/add_lesobject_table 
+Запуск инструмента: https://toolbox.nextgis.com/t/add_lesobject_table 
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

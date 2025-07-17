@@ -15,7 +15,7 @@
 
 *  GeoTIFF готового снимка
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/download_and_prepare_l8_s2
+Запуск инструмента: https://toolbox.nextgis.com/t/download_and_prepare_l8_s2
 
 .. raw:: html
 

@@ -12,7 +12,7 @@
 
 * Файл CSV с кадастровыми номерами кварталов.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/egrn_kvartals_cover
+Запуск инструмента: https://toolbox.nextgis.com/t/egrn_kvartals_cover
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

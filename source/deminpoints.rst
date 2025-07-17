@@ -30,7 +30,7 @@
 
 Посмотреть видео на `youtube <https://youtu.be/yy3SlXBG6Xk>`_, `rutube <https://rutube.ru/video/6110c141543a4b13609b5d645736fca9/>`_.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/demInPoints
+Запуск инструмента: https://toolbox.nextgis.com/t/demInPoints
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

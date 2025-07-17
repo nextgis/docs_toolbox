@@ -18,7 +18,7 @@
 
 Посмотреть видео на `youtube <https://youtu.be/P7uJTYqgG-U>`_, `rutube <https://rutube.ru/video/3525575b46ff852d8e61dc9c4f8b97cf/>`_.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/postal
+Запуск инструмента: https://toolbox.nextgis.com/t/postal
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

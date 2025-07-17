@@ -26,7 +26,7 @@
 
 На выходе: файл GPX.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/gpxmerge
+Запуск инструмента: https://toolbox.nextgis.com/t/gpxmerge
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

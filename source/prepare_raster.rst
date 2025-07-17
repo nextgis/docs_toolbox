@@ -3,27 +3,18 @@ Prepare raster
 
 A tool that performs a per-band connection of a set of single-band rasters and crops the result using a vector mask.
 
-Input:
+Inputs:
 
-* Initial raster data
+* Input raster dataset. Input raster could be presented as 1) multiband GDAL-supported raster or 2) ZIP archive with singleband GDAL-supported rasters;
+* Input vector dataset. Input vector could be presented as 1) OGR-supported single file 2) ZIP archive with ESRI Shapefile. It will be used for clipping input raster.
+* Nodata value. Optional. Value that will be set as Nodata. Default is 0.
+* Output dataset name. Optional. No extension (e.g. ndvi, water). Extension will be automatically set to .tif.
 
-The initial raster data can be presented in two forms:
+Outputs:
 
-1. Multi-band raster in GDAL-compatible format
+* Result raster in TIFF format.
 
-2. ZIP archive with a set of single-baned GDAL-compatible rasters
 
-* Vector layer, which is used as mask
-
-ZIP archive with ESRI Shapefile or a other file format supported by OGR.
-
-* “No data” value
-
-The value that is marked as “No data”. Use the - symbol to use the default value.
-
-* The name of the resulting raster
-
-No file extension (e.g. ndvi, water). The extension will be automatically installed in .tif
 
 If the input is an archive with single-band rasters, the tool first combines them into a multi-band raster. The order of the bands is determined by alphabetically sorting the names of the initial rasters in the archive. 
 Then the multi-band raster (assembled from the archive or submitted immediately) is cropped with a vector mask.

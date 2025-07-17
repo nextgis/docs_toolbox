@@ -20,7 +20,7 @@
 
 Посмотреть видео на `youtube <https://youtu.be/ejg4tdYrGdQ>`_, `rutube <https://rutube.ru/video/75b01414079e651694d96f9dc41a1a16/>`_.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/webmap2qgis
+Запуск инструмента: https://toolbox.nextgis.com/t/webmap2qgis
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

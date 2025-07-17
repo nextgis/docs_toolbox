@@ -5,24 +5,24 @@ This tool creates a set of square grids (polygons) and a transect for the territ
 
 Inputs:
 
-* Coordinates of the first point (center of the first cell), in decimal degrees, example ``40.415378, -3.688743``
-* Coordinates of the second point that indicates direction, in decimal degrees, example ``40.417436, -3.683170``
-* Size 1 - Number of cells on the first axis
-* Size 2 - Number of cells on the second axis
-* Side - Cell generation side ``right`` or ``left``
-* Cell size - The size of a cell’s side, in meters
+* Coordinates of the first point (center of the first cell), in decimal degrees, example ``40.415378, -3.688743``;
+* Coordinates of the second point that indicates direction, in decimal degrees, example ``40.417436, -3.683170``;
+* Size 1 - Number of cells on the first axis;
+* Size 2 - Number of cells on the second axis;
+* Side - Cell generation side ``right`` or ``left``;
+* Cell size - The size of a cell’s side, in meters.
 
 The result of the process is a set of layers:
 
-* rect1 - a grid of cells "Size 1" by "Size 2", the center of the first cell is at the point 1
-* rect2 - a grid of smaller cells (i.e. each large cell is divided into 4 parts)
-* line1 - transect lines in the direction perpendicular to the line between points 1 and 2
-* line2 - transect lines in the direction parallel to the line between points 1 and 2
-* centers - cell centers of rect1 grid
+* rect1 - a grid of cells "Size 1" by "Size 2", the center of the first cell is at the point 1;
+* rect2 - a grid of smaller cells (i.e. each large cell is divided into 4 parts);
+* line1 - transect lines in the direction perpendicular to the line between points 1 and 2;
+* line2 - transect lines in the direction parallel to the line between points 1 and 2;
+* centers - cell centers of rect1 grid.
 
 Styles for all the layers are also included as QML files.
 
-Launch tool: https://toolbox.nextgis.com/operation/quadro
+Launch tool: https://toolbox.nextgis.com/t/quadro
 
 
 

@@ -1,12 +1,37 @@
 Polygon intersection
 ====================
 
-Clips one polygonal layer with another.
+Finds overlapping areas between objects from 2 polygon layers.
 
-Launch tool: https://toolbox.nextgis.com/operation/vectorclip
+Inputs:
 
-**Try it out using our sample:**
+* Polygon layer 1. 
+* Polygon layer 2. 
 
-Download `input dataset <https://nextgis.com/data/toolbox/vectorclip/vectorclip_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+Files should be in GDAL-supported format, e.g. GeoPackage, GeoJSON, MapInfo TAB, ESRI Shapefile (the last two - in ZIP-archive).
 
-Get the `output <https://nextgis.com/data/toolbox/vectorclip/vectorclip_outputs.zip>`_ to additionally check the results.
+Outputs:
+
+* GeoPackage file with polygon layer containing only the overlapping areas.
+
+Launch the tool: https://toolbox.nextgis.com/t/vectorclip
+
+.. figure:: _static/vectorclip_input_en.png
+   :name: vectorclip_input_pic
+   :align: center
+   :width: 16cm
+
+   Example input
+
+.. figure:: _static/vectorclip_result_en.png
+   :name: vectorclip_result_pic
+   :align: center
+   :width: 16cm
+
+   Example output image
+
+**Try the tool in action by downloading our example:**
+
+`Input data set <https://nextgis.ru/data/toolbox/vectorclip/vectorclip_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
+
+`Result example <https://nextgis.ru/data/toolbox/vectorclip/vectorclip_outputs.zip>`_ of the tool run.

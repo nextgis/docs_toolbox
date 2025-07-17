@@ -1,4 +1,4 @@
-Update a Web GIS layer from a CSV
+Update Web GIS layer from CSV
 =================================
 
 Update an existing Web GIS layer using uploaded CSV file. Works only with point vector layers. It is possible either to add data to existing one or to replace existing features.
@@ -27,7 +27,7 @@ Troubleshooting
 * Invalid geometry type - target layer geometry is not point.
 * Invalid structure of the layer - data structures of CSV and target layer mismatch.
 
-Launch tool: https://toolbox.nextgis.com/operation/update_vector_layer
+Launch tool: https://toolbox.nextgis.com/t/update_vector_layer
 
 **Try it out using our sample:**
 

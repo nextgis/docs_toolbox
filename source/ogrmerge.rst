@@ -19,7 +19,7 @@
 
 Посмотреть видео на `youtube <https://youtu.be/s-PMUZ7Ezy8>`_, `rutube <https://rutube.ru/video/ef96651ed566cc0ffe90e2ca910244e4/>`_.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/ogrmerge
+Запуск инструмента: https://toolbox.nextgis.com/t/ogrmerge
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

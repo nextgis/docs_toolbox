@@ -33,7 +33,7 @@
 
 Посмотреть видео на `youtube <https://youtu.be/CmMcSA0-QIg>`_, `rutube <https://rutube.ru/video/89309c3cd9d4e762dc07df83db3774ba/>`_.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/update_vector_layer
+Запуск инструмента: https://toolbox.nextgis.com/t/update_vector_layer
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

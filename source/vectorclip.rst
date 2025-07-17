@@ -5,14 +5,30 @@
 
 На входе:
 
-* Полигональный слой 1 - файл в поддерживаемом GDAL формате, например, GeoPackage, GeoJSON, MapInfo TAB, ESRI Shapefile (последний - в ZIP-архиве).
-* Полигональный слой 2 - файл в поддерживаемом GDAL формате, например, GeoPackage, GeoJSON, MapInfo TAB, ESRI Shapefile (последний - в ZIP-архиве).
+* Полигональный слой 1. 
+* Полигональный слой 2.
+
+Файлы должны быть в поддерживаемом GDAL формате, например, GeoPackage, GeoJSON, MapInfo TAB, ESRI Shapefile (последние два - в ZIP-архиве).
 
 На выходе:
 
-* Файл GeoPackage с полигонами, представляющими собой пересечения объектов из поданных на вход слоев.
+* Файл GeoPackage, содержащий полигональный слой с областями пересечения.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/vectorclip
+Запуск инструмента: https://toolbox.nextgis.com/t/vectorclip
+
+.. figure:: _static/vectorclip_input_en.png
+   :name: vectorclip_input_pic
+   :align: center
+   :width: 16cm
+
+   Пример исходных данных
+
+.. figure:: _static/vectorclip_result_en.png
+   :name: vectorclip_result_pic
+   :align: center
+   :width: 16cm
+
+   Пример работы инструмента (красным) - только те части реки, которые находятся внутри парка
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

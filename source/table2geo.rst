@@ -13,7 +13,7 @@
 
 * ZIP-архив с векторным файлом. Этот архив вы можете, не распаковывая, импортировать в NextGIS QGIS или NextGIS Web.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/table2geo
+Запуск инструмента: https://toolbox.nextgis.com/t/table2geo
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

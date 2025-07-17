@@ -12,7 +12,7 @@
 
 * Обрезанный PBF
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/osmclip_bbox
+Запуск инструмента: https://toolbox.nextgis.com/t/osmclip_bbox
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

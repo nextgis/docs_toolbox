@@ -21,7 +21,7 @@ Then the multi-band raster (assembled from the archive or submitted immediately)
 
 The initial rasters and the vector mask can be in different coordinate systems before processing, all data is brought into a single spatial domain.
 
-Launch tool: https://toolbox.nextgis.com/operation/prepare_raster
+Launch tool: https://toolbox.nextgis.com/t/prepare_raster
 
 
 **Try it out using our sample:**

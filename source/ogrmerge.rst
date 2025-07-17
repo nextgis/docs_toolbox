@@ -1,22 +1,28 @@
-Merge vector layers
-===================
-   
-The tool merges many vector layers into one. Layers should be of same geometry type.
+Объединение векторных слоёв
+===========================
 
-Inputs:
+Инструмент объединяет векторные слои одного типа геометрии в один слой.
 
-* ZIP archive with SHP, GeoJSON, GeoPackage or MapInfo TAB layers. You can combine files of different formats and coordinate reference systems together in one set. Subfolders in the archive are supported.
+На входе:
 
-Outputs:
+* ZIP-архив с файлами формата ESRI Shapefile, GeoJSON, GeoPackage, MapInfo TAB. В одном архиве могут быть файлы разных форматов и с разной системой координат. Внутри архива файлы могут лежать во вложенной папке.
 
-* GeoPackage file with the result of the merge.
+На выходе:
 
-The tool has no limit on the number of input layers. The name of the source layer is stored in the attributes.
+* Файл в формате GeoPackage с результатом объединения.
 
-Launch tool: https://toolbox.nextgis.com/operation/ogrmerge
+Ограничения на количество исходных слоёв нет. Слои склеиваются по очереди. Название исходного слоя сохраняется в атрибутах результата.
 
-**Try it out using our sample:**
+.. raw:: html
 
-Download `input dataset <https://nextgis.com/data/toolbox/ogrmerge/ogrmerge_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+   <iframe width="720" height="405" src="https://rutube.ru/play/embed/ef96651ed566cc0ffe90e2ca910244e4/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-Get the `output <https://nextgis.com/data/toolbox/ogrmerge/ogrmerge_outputs.zip>`_ to additionally check the results.
+Посмотреть видео на `youtube <https://youtu.be/s-PMUZ7Ezy8>`_, `rutube <https://rutube.ru/video/ef96651ed566cc0ffe90e2ca910244e4/>`_.
+
+Запуск инструмента: https://toolbox.nextgis.com/operation/ogrmerge
+
+**Попробуйте инструмент в действии, скачав наш пример:**
+
+`Набор исходных данных <https://nextgis.ru/data/toolbox/ogrmerge/ogrmerge_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+`Пример результата <https://nextgis.ru/data/toolbox/ogrmerge/ogrmerge_outputs_ru.zip>`_ работы инструмента.

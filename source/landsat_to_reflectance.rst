@@ -7,7 +7,7 @@ Inputs:
 
 * The file with the radiation intensity of one of the Landsat bands
 
-The result of radiometric calibrations of the Landsat source data, for example, using the tool https://toolbox.nextgis.com/operation/landsat_to_radiance
+The result of radiometric calibrations of the Landsat source data, for example, using the tool https://toolbox.nextgis.com/t/landsat_to_radiance
 
 * Band number
 

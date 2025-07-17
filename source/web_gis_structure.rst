@@ -5,10 +5,10 @@ Creates XLSX spreadsheet with a Web GIS structure (a list of resources).
 
 Inputs:
 
-* Full Web GIS address (URL), e.g. https://les.nextgis.com
-* Web GIS user login
-* Password for Web GIS user
-* Resource type – specify the type of the resource for filtering data within your Web GIS. 
+* Web GIS address. Your full Web GIS address, example: https://sandbox.nextgis.com
+* Login. NextGIS ID or Web GIS username;
+* Password. Web GIS user password;
+* Resource type. ``all`` - all resources, see other options below.
 
 Possible type options:
 
@@ -59,7 +59,7 @@ Output:
 
 * XLSX spreadsheet with the list of selected resources from Web GIS.
 
-Launch tool: https://toolbox.nextgis.com/operation/web_gis_structure
+Launch tool: https://toolbox.nextgis.com/t/web_gis_structure
 
 **Try it out using our sample:**
 

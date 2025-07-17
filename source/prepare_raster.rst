@@ -19,7 +19,7 @@
 
 Исходные растры и векторная маска могут быть в разных системах координат, перед началом обработки все данные приводятся в единый пространственный домен.
 
-Запуск инструмента: https://toolbox.nextgis.com/operation/prepare_raster
+Запуск инструмента: https://toolbox.nextgis.com/t/prepare_raster
 
 .. figure:: _static/prepare_raster.png
    :align: center

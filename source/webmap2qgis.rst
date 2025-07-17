@@ -1,5 +1,6 @@
 Web Map into QGIS project
 =========================
+
 The tool works with Web GIS data: converts vector layers and its styles from any chosen Web Map into QGIS project and GeoPackage file.
 
 Inputs:
@@ -20,7 +21,7 @@ Outputs:
 
 Watch on `youtube <https://youtu.be/uFiOJfK6VQw?si=VN6jPbsW_5TSWNRY>`_.
 
-Launch the tool: https://toolbox.nextgis.com/operation/webmap2qgis
+Launch the tool: https://toolbox.nextgis.com/t/webmap2qgis
 
 **Try it out using our sample:**
 

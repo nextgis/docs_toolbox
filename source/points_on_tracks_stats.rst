@@ -37,7 +37,7 @@ Tool workflow:
 5. Calculate statistics on the number of points per 1 km of tracks in each polygon, taking into account all previous divisions - by individual trackers or by all, by all points or with division by categories;
 6. Generate a report.
 
-Launch tool: https://toolbox.nextgis.com/operation/points_on_tracks_stats
+Launch tool: https://toolbox.nextgis.com/t/points_on_tracks_stats
 
 **Try it out using our sample:**
 

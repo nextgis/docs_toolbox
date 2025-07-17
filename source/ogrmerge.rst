@@ -13,7 +13,7 @@ Outputs:
 
 The tool has no limit on the number of input layers. The name of the source layer is also saved.
 
-Launch tool: https://toolbox.nextgis.com/operation/ogrmerge
+Launch tool: https://toolbox.nextgis.com/t/ogrmerge
 
 **Try it out using our sample:**
 

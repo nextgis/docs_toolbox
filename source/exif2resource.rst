@@ -1,7 +1,7 @@
 Photos with EXIF to NGW layer
 =============================
 
-Convert a set of georeferenced photos with EXIF tags into NextGIS Web vector layer. You can also add photos to an existing layer.
+Convert a set of georeferenced photos with EXIF tags into NextGIS Web point vector layer. You can also add photos to an existing point layer.
 
 Input:
 

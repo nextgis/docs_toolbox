@@ -54,6 +54,7 @@
    maxdist
    qgis_multiparttosingleparts
    splitcomplex
+   gpxdailysplit
    infomap
    quadro
    temporal_split

@@ -7,7 +7,7 @@ Tools
 .. toctree::
    :maxdepth: 1
 
-
+   add_regions
    ai2geo
    ascii2geotiff
    centerline

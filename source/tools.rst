@@ -19,6 +19,7 @@
    ai2geo
    geocodetable
    dezhurcad
+   add_regions
    add_lesobject_table
    add_lesobject_layer
    gpx2exif

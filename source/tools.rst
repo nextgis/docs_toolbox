@@ -66,6 +66,7 @@
    joinreforma
    ogrmerge
    join_by_field
+   ngw_merge_layers
    mt2report
    postal
    coord_recalc

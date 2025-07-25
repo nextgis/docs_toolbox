@@ -1,0 +1,29 @@
+Split GPX file by days
+======================
+
+Splits a GPX file tracks and waypoints by days (cut by midnight) and saves each day's data to a separate GPX file.
+
+Inputs:
+
+* GPX file. Needs to be a single file. If you have several files, first merge them using `gpxmerge tool <https://toolbox.nextgis.com/t/gpxmerge>`_;
+* Time zone. GPX tracks store time in UTC. To split tracks at midnight, provide the time difference from UTC, ex. ``+09:00``.
+
+Outputs:
+
+* ZIP archive containing GPX files, one for each day.
+
+Launch the tool: https://toolbox.nextgis.com/t/gpxdailysplit
+
+
+.. figure:: _static/gpxdailysplit_result_en.png
+   :name: gpxdailysplit_result_pic
+   :align: center
+   :width: 20cm
+
+   Tracks split by date on a map
+
+**Try the tool in action by downloading our example:**
+
+`Input data set <https://nextgis.ru/data/toolbox/gpxdailysplit/gpxdailysplit_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
+
+`Result example <https://nextgis.ru/data/toolbox/gpxdailysplit/gpxdailysplit_outputs.zip>`_ of the tool run.

@@ -29,6 +29,12 @@ Outputs:
 
 *  A CSV file that contains data on the selected mode, the source field and its value, a list of hyperlinks to features that have been changed. If there are errors, they will also be indicated in this file.
 
+.. figure:: _static/geometry_changer_result.png
+   :name: geometry_changer_result_pic
+   :align: center
+   :width: 7cm
+
+   Report example
 
 Launch tool: https://toolbox.nextgis.com/t/geometry_changer
 

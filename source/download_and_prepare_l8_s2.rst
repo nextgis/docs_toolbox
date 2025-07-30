@@ -3,10 +3,14 @@ Prepare and download Sentinel-2 data
 
 The tool downloads source data, prepares Sentinel-2 data and provides link to download the result.
 
+Supported ID types are Copernicus, GoogleCloud and MPC (L2A only).
+
+You can get ID for Copernicus catalog using the tool `Copernicus Sentinel image search <https://toolbox.nextgis.com/t/imagesearch>`_ or `Sentinel-2 scenes to GPKG <https://toolbox.nextgis.com/t/s2_search>`_.
+
 Inputs:
 
-* Scene identifier of Sentinel-2 (Level 1C and Level 2A). You can get ID using the tool `Copernicus Sentinel image search <https://toolbox.nextgis.com/t/imagesearch>`_;
-* Vector mask to clip the image. The format is GeoJSON, ESRI Shape (in a ZIP-archive) or any other OGR-compatible file. If you don't need to clip the scene, leave this field empty.
+* Scene identifier of Sentinel-2 (Level 1C and Level 2A). 
+* Vector mask to clip the image. The format is GeoJSON, ESRI Shape (in a ZIP-archive) or any other OGR-compatible single-file format. If you don't need to clip the scene, leave this field empty.
 * A list of bands. A comma separated list of numbers. The bands will be merged in the specified order, for example 4,3,2. Leave this field empty to merge all bands.
 * Output spatial resolution of the scene, in meters. Leave this field empty for original spatial resolution. If number is set, then all bands will be upscaled or downscaled to it using cubic interpolation. The example of interpolation is available `here <https://docs.nextgis.com/_images/download_and_prepare_l8_s2.png>`_.
 

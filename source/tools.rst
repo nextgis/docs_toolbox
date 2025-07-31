@@ -65,6 +65,7 @@ Tools
    predict_overpass
    prepare_raster
    qgis2pdf
+   qgis_check_geometries
    qgis_multiparttosingleparts
    quadro
    r_mapcalc

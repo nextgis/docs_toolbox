@@ -88,6 +88,7 @@
    hello
    kptbatch_validator
    check_geometries
+   qgis_check_geometries
    predict_overpass
    generalization
    polysimplifier

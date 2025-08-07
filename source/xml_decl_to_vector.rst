@@ -1,4 +1,4 @@
-Конвертация лесной декларации в геоданные 
+Конвертация XML: Лесная декларация
 ==========================================
 
 Инструмент конвертирует XML лесной декларации в полигональный слой с объектами из декларации.
@@ -43,3 +43,9 @@ ZIP-архив с результатами конвертации – векто
 `Набор исходных данных <https://nextgis.ru/data/toolbox/xml_decl_to_vector/xml_decl_to_vector_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/xml_decl_to_vector/xml_decl_to_vector_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   `Конвертация выписок ГЛР <https://toolbox.nextgis.com/t/import_glr>`_
+   `Конвертация XML: Проект лесовосстановления <https://toolbox.nextgis.com/t/xml_plv_to_vector>`_
+   `Конвертация XML: Таксационное описание лесосеки <https://toolbox.nextgis.com/t/xml_tol_to_vector>`_

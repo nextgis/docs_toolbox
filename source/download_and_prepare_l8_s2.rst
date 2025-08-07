@@ -43,3 +43,6 @@
 `Пример результата <https://nextgis.ru/data/toolbox/download_and_prepare_l8_s2/download_and_prepare_l8_s2_outputs_ru.zip>`_ работы инструмента.
  
 .. note:: Скачать превью выбранных сцен, чтобы определиться, какие данные загружать полностью, можно при помощи инструмента `Cцены Sentinel-2 в GPKG <https://toolbox.nextgis.com/t/s2_search>`_.
+
+.. seealso::
+   `Нормализованный разностный индекс <https://toolbox.nextgis.com/t/ndi>`_ (NDVI, NDWI, NDSI и т.д.)

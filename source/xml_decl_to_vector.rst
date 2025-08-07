@@ -47,5 +47,7 @@ ZIP-архив с результатами конвертации – векто
 .. seealso::
 
    `Конвертация выписок ГЛР <https://toolbox.nextgis.com/t/import_glr>`_
+
    `Конвертация XML: Проект лесовосстановления <https://toolbox.nextgis.com/t/xml_plv_to_vector>`_
+   
    `Конвертация XML: Таксационное описание лесосеки <https://toolbox.nextgis.com/t/xml_tol_to_vector>`_

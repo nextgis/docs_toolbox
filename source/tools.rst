@@ -53,6 +53,7 @@ Tools
    mt2report
    ndi
    ngw_copy_layer
+   ngw_feature_history
    ngw_intersect
    ngw_merge_layers
    ngw_to_gpkg

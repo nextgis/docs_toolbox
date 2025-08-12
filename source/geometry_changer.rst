@@ -16,7 +16,7 @@ Inputs:
 * Password of that user;
 * Group resource ID. ID of the Web GIS resource that contains the layer group;
 * Source field. The name of the source field by which objects are searched.
-* Mode. Enter ``DELETE``, ``ADD`` or ``CHANGE``;
+* Mode. Select ``DELETE``, ``ADD`` or ``CHANGE``;
 * Initial value. The value of the field by which objects are selected. If you need to specify multiple values, use a comma as a separator. The parameter is required in the Delete and Change modes.
 * First year. Start of time range (optional).
 * Last year. End of time range (optional parameter).

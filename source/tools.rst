@@ -84,6 +84,7 @@
    imagesearch
    poly2explication
    lines2polygons
+   ngw_feature_history
    rosreestr2coord
    hello
    kptbatch_validator

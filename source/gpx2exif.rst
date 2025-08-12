@@ -1,4 +1,4 @@
-Add coordinates to images using track 
+Geotag photos using GPX track
 =====================================
 
 Use timing information to assign coordinates to photos matching them with a GPX track. Coordinates are added to EXIF tags. If your camera doesn't store coordinates or does so incorrectly, you can match photos made while recording a track by using timestamps.

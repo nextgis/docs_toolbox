@@ -8,7 +8,7 @@ Inputs:
 *  ZIP-compressed CSV - CSV table with coordinates of points. Delimiter should be comma. Corrdinates are floating values. File should not have spaces and should contain only latin symbols.
 *  Latitude - fieldname for Latitude column. Case-sensitive.
 *  Longitude - fieldname for Lonitude column. Case-sensitive.
-*  Elevation dataset - enter one of the following: ``gmted``, ``gebco``, ``alos``. GMTED2010 resolution is 7.5 sec (about 250 meters), GEBCO resolution is 15 sec (about 500 meters), ALOS World 3D - 30 meters. 
+*  Elevation dataset - enter one of the following: ``alos, copernicus, meritdem, gebco``. GEBCO resolution is 15 sec (about 500 meters), ALOS World 3D - 30 meters. 
 
 Outputs:
 

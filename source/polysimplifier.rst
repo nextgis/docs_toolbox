@@ -12,7 +12,7 @@ Output:
 
 * Simplified GeoJSON
 
-Launch tool: https://toolbox.nextgis.com/t/polysimplifier
+Launch the tool: https://toolbox.nextgis.com/t/polysimplifier
 
 **Try it out using our sample:**
 

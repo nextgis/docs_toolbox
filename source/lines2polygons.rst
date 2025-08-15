@@ -49,7 +49,7 @@ Outputs:
 
 *  a layer with polygons (shapefile) relevant for the given year
 
-Launch tool: https://toolbox.nextgis.com/t/lines2polygons
+Launch the tool: https://toolbox.nextgis.com/t/lines2polygons
 
  
 

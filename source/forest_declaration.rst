@@ -15,7 +15,7 @@ Outputs:
 *  Forest declaration in PDF file, handy to read.
 *  Zip archive with XML file of forest declaration and supplement 3 and 4 in PDF format.
 
-Launch tool: https://toolbox.nextgis.com/t/ForestDeclaration2
+Launch the tool: https://toolbox.nextgis.com/t/ForestDeclaration2
 
 **Try it out using our sample:**
 

@@ -18,7 +18,7 @@ Output:
 
 * Layers and web map.
 
-Launch tool: https://toolbox.nextgis.com/t/Dezhurcad
+Launch the tool: https://toolbox.nextgis.com/t/Dezhurcad
 
 **Try it out using our sample:**
 

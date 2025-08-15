@@ -15,7 +15,7 @@ Outputs:
 
 * ZIP-archive with modified Shapefile, with a number of rectangles recorded in attribute table. 
 
-Launch tool: https://toolbox.nextgis.com/t/split_to_rect
+Launch the tool: https://toolbox.nextgis.com/t/split_to_rect
 
 **Try the tool in action by downloading our example:**
 

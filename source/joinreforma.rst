@@ -23,7 +23,7 @@ A compressed file containing:
 * Point layer with source points not matched with OSM data, ESRI Shapefile.
 * Source data, CSV file.
 
-Launch tool: https://toolbox.nextgis.com/t/joinreforma
+Launch the tool: https://toolbox.nextgis.com/t/joinreforma
 
 **Try it out using our sample:**
 

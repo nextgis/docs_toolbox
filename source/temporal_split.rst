@@ -19,7 +19,7 @@ Outputs:
 
 *  archive of layers, each of which is also in an archive (zip)
 
-Launch tool: https://toolbox.nextgis.com/t/temporal_split
+Launch the tool: https://toolbox.nextgis.com/t/temporal_split
 
 **Try it out using our sample:**
 

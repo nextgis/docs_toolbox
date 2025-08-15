@@ -15,7 +15,7 @@ Inputs:
 
 Output: 
 
-Launch tool: https://toolbox.nextgis.com/t/coord_recalc
+Launch the tool: https://toolbox.nextgis.com/t/coord_recalc
 
 **Try it out using our sample:**
 

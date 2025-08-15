@@ -14,7 +14,7 @@ Outputs:
 * Separate JPG file with forest plots scheme.
 
 
-Launch tool: https://toolbox.nextgis.com/t/forestplots_field
+Launch the tool: https://toolbox.nextgis.com/t/forestplots_field
 
 .. figure:: _static/forest-circular-plots.jpg
    :align: center

@@ -22,7 +22,7 @@ Output:
 
 * PNG image.
 
-Launch tool: https://toolbox.nextgis.com/t/cadastre2img
+Launch the tool: https://toolbox.nextgis.com/t/cadastre2img
 
 .. figure:: _static/cadastre2img_result.png
    :name: cadastre2img_result

@@ -12,7 +12,7 @@ Outputs:
 * CSV file. The table contains names, code numbers and forest management numbers of various items: region, forestry, district forestry, quarter, plot. If there is no data about plots, the table will be divided by quarters.
 * GeoPackage file with boundaries.
 
-Launch tool: https://toolbox.nextgis.com/t/plk_catalog
+Launch the tool: https://toolbox.nextgis.com/t/plk_catalog
 
 **Try it out using our sample:**
 

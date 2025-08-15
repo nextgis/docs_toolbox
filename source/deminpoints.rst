@@ -24,7 +24,7 @@ To save a point layer as a CSV file with coordinates, during export in the **Lay
 
    Exporting point layer as CSV
 
-Launch tool: https://toolbox.nextgis.com/t/demInPoints
+Launch the tool: https://toolbox.nextgis.com/t/demInPoints
 
 **Try it out using our sample:**
 

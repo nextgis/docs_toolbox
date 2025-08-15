@@ -13,7 +13,7 @@ Outputs:
 
 *  XLSX table with a list of intersected layers.
 
-Launch tool: https://toolbox.nextgis.com/t/ngw-intersect
+Launch the tool: https://toolbox.nextgis.com/t/ngw-intersect
 	
  
 

@@ -59,7 +59,7 @@ Output:
 
 * XLSX spreadsheet with the list of selected resources from Web GIS.
 
-Launch tool: https://toolbox.nextgis.com/t/web_gis_structure
+Launch the tool: https://toolbox.nextgis.com/t/web_gis_structure
 
 **Try it out using our sample:**
 

@@ -22,7 +22,7 @@ The result of the process is a set of layers:
 
 Styles for all the layers are also included as QML files.
 
-Launch tool: https://toolbox.nextgis.com/t/quadro
+Launch the tool: https://toolbox.nextgis.com/t/quadro
 
 
 

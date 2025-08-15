@@ -25,7 +25,7 @@ Outputs:
 
 
 
-Launch tool: https://toolbox.nextgis.com/t/field_value_changer
+Launch the tool: https://toolbox.nextgis.com/t/field_value_changer
 
 **Try it out using our sample:**
 

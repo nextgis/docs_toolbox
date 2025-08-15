@@ -11,7 +11,7 @@ Output:
 
 * GeoJSON or GeoPackage file with added field containing information about the maximum distance between nodes in each object.
 
-Launch tool: https://toolbox.nextgis.com/t/maxdist
+Launch the tool: https://toolbox.nextgis.com/t/maxdist
 
 **Try it out using our sample:**
 

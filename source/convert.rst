@@ -18,7 +18,7 @@ Output:
 
 * ZIP archive with vector layers
 
-Launch tool: https://toolbox.nextgis.com/t/convert
+Launch the tool: https://toolbox.nextgis.com/t/convert
 
 **Try it out using our sample:**
 

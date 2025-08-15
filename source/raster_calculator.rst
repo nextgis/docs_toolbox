@@ -69,7 +69,7 @@ If the user sets one of the optional parameters (resolution along one of the axe
 
 
 
-Launch tool: https://toolbox.nextgis.com/t/raster_calculator
+Launch the tool: https://toolbox.nextgis.com/t/raster_calculator
 
 
 

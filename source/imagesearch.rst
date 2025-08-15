@@ -26,7 +26,7 @@ Outputs:
 
 * XLSX file containing a list of scene IDs.
 
-Launch tool: https://toolbox.nextgis.com/t/imagesearch
+Launch the tool: https://toolbox.nextgis.com/t/imagesearch
 
 **Try it out using our sample:**
 

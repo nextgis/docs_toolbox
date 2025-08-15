@@ -21,7 +21,7 @@ Examples of common normalized difference indices:
 * NDWI - for the detection of water bodies (the first raster - NIR, the second - SWIR). For Landsat 8 data: 5 and 6 bands.
 * NDSI - for assessing the snow cover (the first raster - GREEN, the second - SWIR). For Landsat 8 data: 3 and 6 bands.
 
-Launch tool: https://toolbox.nextgis.com/t/ndi
+Launch the tool: https://toolbox.nextgis.com/t/ndi
 
 **Try it out using our sample:**
 

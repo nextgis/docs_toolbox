@@ -16,7 +16,7 @@ Outputs:
 
 *  layer in ESRI Shapefile format, which is in an archive (zip)
 
-Launch tool: https://toolbox.nextgis.com/t/join_by_field
+Launch the tool: https://toolbox.nextgis.com/t/join_by_field
 
 Usage example:
 

@@ -12,7 +12,7 @@ Output:
 
 * String with greeting "Hello, (your name)"
 
-Launch tool: https://toolbox.nextgis.com/t/hello
+Launch the tool: https://toolbox.nextgis.com/t/hello
 
 **Try it out using our sample:**
 

@@ -17,7 +17,7 @@ Output:
 
 * Layers created in NextGIS Web in the selected resource group
 
-Launch tool: https://toolbox.nextgis.com/t/layers2ngw
+Launch the tool: https://toolbox.nextgis.com/t/layers2ngw
 
 **Try it out using our sample:**
 

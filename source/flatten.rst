@@ -10,7 +10,7 @@ Output:
 
 * GeoPackage or GeoJSON file without ZM coordinates in geometry.
 
-Launch tool: https://toolbox.nextgis.com/t/flatten
+Launch the tool: https://toolbox.nextgis.com/t/flatten
 
 **Try it out using our sample:**
 

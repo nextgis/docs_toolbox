@@ -33,7 +33,7 @@ Supported data:
 
 * Landsat 4 (TM)
 
-Launch tool: https://toolbox.nextgis.com/t/landsat_to_radiance
+Launch the tool: https://toolbox.nextgis.com/t/landsat_to_radiance
 
 **Try it out using our sample:**
 

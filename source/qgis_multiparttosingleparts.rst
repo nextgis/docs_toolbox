@@ -13,7 +13,7 @@ Output:
 
 * A new vector GeoJSON file where each feature contains only a single-part geometry. The output will have the same attribute fields as the input, but potentially more features if the input contained multipart geometries.
 
-Launch tool: https://toolbox.nextgis.com/t/qgis_multiparttosingleparts
+Launch the tool: https://toolbox.nextgis.com/t/qgis_multiparttosingleparts
 
 .. figure:: _static/qgis_multiparttosingleparts_before_en.png
    :align: center

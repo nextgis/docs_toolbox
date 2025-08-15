@@ -14,7 +14,7 @@ Output:
 
 Both files are in the same format as the input.
 
-Launch tool: https://toolbox.nextgis.com/t/lines2poly
+Launch the tool: https://toolbox.nextgis.com/t/lines2poly
 
 **Try it out using our sample:**
 

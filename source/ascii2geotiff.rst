@@ -11,7 +11,7 @@ Output:
 
 * Raster in GeoTIFF format.
 
-Launch tool:  https://toolbox.nextgis.com/t/ascii2geotiff
+Launch the tool:  https://toolbox.nextgis.com/t/ascii2geotiff
 
 **Try it out using our sample:**
 

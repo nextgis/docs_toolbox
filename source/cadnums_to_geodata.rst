@@ -12,7 +12,7 @@ Output:
 
 * Archive with geodata of cadastral objects
 
-Launch tool: https://toolbox.nextgis.com/t/cadnums_to_geodata
+Launch the tool: https://toolbox.nextgis.com/t/cadnums_to_geodata
 
 **Try it out using our sample:**
 

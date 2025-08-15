@@ -19,7 +19,7 @@ Outputs:
 * Line vector layer in GeoPackage.
 
 
-Launch tool: https://toolbox.nextgis.com/t/centerline
+Launch the tool: https://toolbox.nextgis.com/t/centerline
 
 **Try it out using our sample:**
 

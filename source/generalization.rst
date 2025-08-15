@@ -27,7 +27,7 @@ Output:
 
 The result of the process is a layer with simplified features (geometries).
 
-Launch tool: https://toolbox.nextgis.com/t/generalization
+Launch the tool: https://toolbox.nextgis.com/t/generalization
 
 View the result on an interactive map: https://demo.nextgis.com/resource/4108/display?panel=info
 

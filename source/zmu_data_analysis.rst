@@ -19,7 +19,7 @@ Output:
 
 * .DOCX report file
 
-Launch tool: https://toolbox.nextgis.com/t/zmu_data_analysis
+Launch the tool: https://toolbox.nextgis.com/t/zmu_data_analysis
 
 **Try it out using our sample:**
 

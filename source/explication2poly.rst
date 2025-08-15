@@ -22,7 +22,7 @@ Outputs:
 
 *  Zipped polygonal shapefile
 
-   Launch tool: https://toolbox.nextgis.com/t/explication2poly
+   Launch the tool: https://toolbox.nextgis.com/t/explication2poly
    
 **Try it out using our sample:**
 

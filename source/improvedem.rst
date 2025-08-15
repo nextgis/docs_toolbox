@@ -32,7 +32,7 @@ Output:
 
    Processed raster and contours generated from it
 
-Launch tool: https://toolbox.nextgis.com/t/improvedem
+Launch the tool: https://toolbox.nextgis.com/t/improvedem
 
 **Try it out using our sample:**
 

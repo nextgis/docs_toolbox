@@ -16,7 +16,7 @@ Outputs:
 
 
 
-Launch tool: https://toolbox.nextgis.com/t/raster2tiles
+Launch the tool: https://toolbox.nextgis.com/t/raster2tiles
 
 **Try it out using our sample:**
 

@@ -29,7 +29,7 @@ Output:
 
 Watch the video on `youtube <https://youtu.be/mEhUaRTFl3M>`_.
 
-Launch tool: https://toolbox.nextgis.com/t/spreadsheet2layer
+Launch the tool: https://toolbox.nextgis.com/t/spreadsheet2layer
 
 **Try it out using our sample:**
 

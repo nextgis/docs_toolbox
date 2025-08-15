@@ -24,7 +24,7 @@ To make sure the layer is correctly displayed on the Web Map, set the adapter to
 
 
 
-Launch tool: https://toolbox.nextgis.com/t/split180
+Launch the tool: https://toolbox.nextgis.com/t/split180
 
 **Try it out using our sample:**
 

@@ -37,7 +37,7 @@ Supported data:
 
 * Landsat 4 (TM)
 
-Launch tool: https://toolbox.nextgis.com/t/landsat_to_reflectance
+Launch the tool: https://toolbox.nextgis.com/t/landsat_to_reflectance
 
 **Try it out using our sample:**
 

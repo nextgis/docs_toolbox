@@ -13,7 +13,7 @@ Output:
 
 * ZIP-archive with vector file. You can import this file into NextGIS QGIS or NextGIS Web without unpacking.
 
-Launch tool: https://toolbox.nextgis.com/t/table2geo
+Launch the tool: https://toolbox.nextgis.com/t/table2geo
 
 **Try it out using our sample:**
 

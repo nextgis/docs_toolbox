@@ -36,7 +36,7 @@ Outputs:
 
    Report example
 
-Launch tool: https://toolbox.nextgis.com/t/geometry_changer
+Launch the tool: https://toolbox.nextgis.com/t/geometry_changer
 
 **Try it out using our sample:**
 

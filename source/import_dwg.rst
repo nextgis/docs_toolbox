@@ -11,7 +11,7 @@ Output:
 
 * DXF file.
 
-Launch tool:  
+Launch the tool:  
 https://toolbox.nextgis.com/t/import_dwg
 
 **Try it out using our sample:**

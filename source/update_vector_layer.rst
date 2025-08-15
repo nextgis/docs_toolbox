@@ -27,7 +27,7 @@ Troubleshooting
 * Invalid geometry type - target layer geometry is not point.
 * Invalid structure of the layer - data structures of CSV and target layer mismatch.
 
-Launch tool: https://toolbox.nextgis.com/t/update_vector_layer
+Launch the tool: https://toolbox.nextgis.com/t/update_vector_layer
 
 **Try it out using our sample:**
 

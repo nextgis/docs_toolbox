@@ -81,7 +81,7 @@ Resulting grids with different settings:
 
 
 
-Launch tool: https://toolbox.nextgis.com/t/grid
+Launch the tool: https://toolbox.nextgis.com/t/grid
 
 **Try it out using our sample:**
 

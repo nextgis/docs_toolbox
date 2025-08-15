@@ -19,7 +19,7 @@ Outputs:
 
 *  GeoTIFF output image
 
-Launch tool: https://toolbox.nextgis.com/t/download_and_prepare_l8_s2
+Launch the tool: https://toolbox.nextgis.com/t/download_and_prepare_l8_s2
 
 .. raw:: html
 

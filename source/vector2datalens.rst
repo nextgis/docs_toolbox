@@ -2,7 +2,7 @@ Prepare vector layer for DataLens
 =================================
 The tool converts vector dataset to a CSV file, compatible with DataLens BI service. Both Geopolygons and Geopoints are supported. Inputs must be points or polygons.
 
-You can get a vector data layer at `data.nextgis.com <data.nextgis.com>`_.
+You can get a vector data layer at `data.nextgis.com <https://data.nextgis.com>`_.
 
 Inputs:
 

@@ -18,7 +18,7 @@ Launch the tool: https://toolbox.nextgis.com/t/qgis_check_geometries
 
 Example:
 
-.. figure:: _static/qgis_check_geometries_result_en.png
+.. figure:: _static/qgis_check_geometries_result.png
    :name: qgis_check_geometries_result_pic
    :align: center
    :width: 16cm

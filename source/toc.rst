@@ -1,15 +1,8 @@
-.. sectionauthor:: Maxim Dubinin <maxim.dubinin@nextgis.com>
+.. important::
 
-.. NextGIS Toolbox TOC
+   Оглавление раздела теперь находится здесь:
 
-NextGIS Toolbox
-================================
-
-.. toctree::
-   :maxdepth: 2
-
-   intro
-   tools
+   `NextGIS Toolbox <https://docs.nextgis.ru/docs_toolbox/source/index.html>`_
 
 
 

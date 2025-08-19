@@ -1,12 +1,5 @@
-.. sectionauthor:: Maxim Dubinin <maxim.dubinin@nextgis.com>
+.. important::
 
-.. NextGIS Toolbox TOC
+   Table of contents is moved here:
 
-NextGIS Toolbox
-=============================
-    
-.. toctree::
-   :maxdepth: 2
-
-   intro
-   tools
+   `NextGIS Toolbox <https://docs.nextgis.com/docs_toolbox/source/index.html>`_

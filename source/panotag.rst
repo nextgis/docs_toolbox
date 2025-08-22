@@ -8,7 +8,7 @@ Sometimes spherical panoramic images don't have the neccessary tags which stops 
 
 So the input image must indeed have 360x180 field of view.
 
-GPano:PoseHeadingDegrees is copied from GPSImgDirection.
+GPano:PoseHeadingDegrees is copied from GPSImgDirection if it's present.
 
 Inputs:
 

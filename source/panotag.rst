@@ -12,11 +12,11 @@ GPano:PoseHeadingDegrees is copied from GPSImgDirection if it's present.
 
 Inputs:
 
-* ZIP with photos.
+* ZIP with photos. Subfolders supported.
 
 Outputs:
 
-* ZIP with modified photos with added tags.
+* ZIP with modified photos with added tags. All images are stored in the root of the arhcive.
 
 You can `add spherical panoramas to features on a Web Map <https://docs.nextgis.com/docs_ngweb/source/feature_edit.html#ngw-attachments>`_ and display them in NextGIS Web.
 

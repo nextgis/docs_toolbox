@@ -1,47 +1,45 @@
-Добавить к фотографиям теги Google Photosphere
-==============================================
+Add Google Photosphere XMP metadata to photos
+=============================================
 
-Случается так, что при записи панорамы к файлу не добавляются нужные тэги, и тогда программа просмотра не понимает, что это сферическая панорама.
+Sometimes spherical panoramic images don't have the neccessary tags which stops the viewers from displaying them correctly. This tool adds XMP tags corresponding to the `specification <https://developers.google.com/streetview/spherical-metadata>`_ that notify the viewing widget that:
 
-Инструмент добавляет к изображениям тэги в соответствии со `спецификацией <https://developers.google.com/streetview/spherical-metadata>`_, сообщающие:
+* it's a spherical panoramic image;
+* FOV is 360x180.
 
-* "это панорама",
-* "углы охвата - 360х180"
+So the input image must indeed have 360x180 field of view.
 
-Соответственно, все изображения должны иметь угол обзора 360x180.
+GPano:PoseHeadingDegrees is copied from GPSImgDirection.
 
-GPano:PoseHeadingDegrees копируется из GPSImgDirection
+Inputs:
 
-На входе:
+* ZIP with photos.
 
-* ZIP-архив с фотографиями.
+Outputs:
 
-На выходе:
+* ZIP with modified photos with added tags.
 
-* ZIP-архив с фотографиями, к которым добавлены теги.
+You can `add spherical panoramas to features on a Web Map <https://docs.nextgis.com/docs_ngweb/source/feature_edit.html#ngw-attachments>`_ and display them in NextGIS Web.
 
-Такую панораму можно `прикрепить к векторному объекту на веб-карте <https://docs.nextgis.ru/docs_ngweb/source/feature_edit.html#ngw-attachments>`_ в NextGIS Web.
+Launch the tool: https://toolbox.nextgis.com/t/panotag
 
-Запуск инструмента: https://toolbox.nextgis.com/t/panotag
-
-Пример работы инструмента:
+Example:
 
 .. figure:: _static/panotag_input.png
    :name: panotag_input_pic
    :align: center
-   :width: 20cm
+   :width: 16cm
 
-   Пример исходного изображения без нужных тэгов
+   Untagged image
 
 .. figure:: _static/panotag_result.png
    :name: panotag_result_pic
    :align: center
-   :width: 20cm
+   :width: 16cm
 
-   Просмотр того же изображения как сферической панорамы
+   Tags allow the image to be viewed as a spherical panorama
 
-**Попробуйте инструмент в действии, скачав наш пример:**
+**Try the tool in action by downloading our example:**
 
-`Набор исходных данных <https://nextgis.ru/data/toolbox/panotag/panotag_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+`Input data set <https://nextgis.ru/data/toolbox/panotag/panotag_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
 
-`Пример результата <https://nextgis.ru/data/toolbox/panotag/panotag_outputs_ru.zip>`_ работы инструмента.
+`Result example <https://nextgis.ru/data/toolbox/panotag/panotag_outputs.zip>`_ of the tool run.

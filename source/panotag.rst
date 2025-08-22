@@ -27,14 +27,14 @@ Example:
 .. figure:: _static/panotag_input.png
    :name: panotag_input_pic
    :align: center
-   :width: 16cm
+   :width: 20cm
 
    Untagged image
 
 .. figure:: _static/panotag_result.png
    :name: panotag_result_pic
    :align: center
-   :width: 16cm
+   :width: 20cm
 
    Tags allow the image to be viewed as a spherical panorama
 

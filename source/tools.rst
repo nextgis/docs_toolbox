@@ -59,6 +59,7 @@ Tools
    ngw_to_gpkg
    ogrmerge
    osmclip_bbox
+   panotag
    pointcloud2tileset
    points_on_tracks_stats
    polysimplifier

@@ -10,7 +10,7 @@
 
 Соответственно, все изображения должны иметь угол обзора 360x180.
 
-GPano:PoseHeadingDegrees копируется из GPSImgDirection
+GPano:PoseHeadingDegrees копируется из GPSImgDirection, если такой тэг есть в исходных изображениях.
 
 На входе:
 

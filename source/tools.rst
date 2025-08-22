@@ -19,6 +19,7 @@
    ai2geo
    geocodetable
    dezhurcad
+   panotag
    add_regions
    add_lesobject_table
    add_lesobject_layer

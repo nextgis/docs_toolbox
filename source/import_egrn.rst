@@ -42,4 +42,4 @@
 `Пример результата <https://nextgis.ru/data/toolbox/import_egrn/import_egrn_outputs_ru.zip>`_ работы инструмента.
 
 
-Для конвертации и других операций с кадастровыми данными вы также можете использовать конвертер Rosreestr Tools https://docs.nextgis.ru/docs_ngqgis/source/NGQ_Rosreestr_Tools.html
+Для конвертации и других операций с кадастровыми данными вы также можете использовать `конвертер Rosreestr Tools <https://docs.nextgis.ru/docs_rosreestr_tools/source/rr-import.html#>`_.

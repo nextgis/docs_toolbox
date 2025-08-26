@@ -13,7 +13,24 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/t/lines2poly
 
+Пример работы инструмента:
+
+.. figure:: _static/lines2poly_input_ru.png
+   :name: lines2poly_input_pic
+   :align: center
+   :width: 20cm
+
+   Пример исходных данных
+
+.. figure:: _static/lines2poly_result_ru.png
+   :name: lines2poly_result_pic
+   :align: center
+   :width: 20cm
+
+   Полученные полигоны и линии, из которых не удалось создать полигоны
+
 **Попробуйте инструмент в действии, скачав наш пример:**
+
 
 `Набор исходных данных <https://nextgis.ru/data/toolbox/lines2poly/lines2poly_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 

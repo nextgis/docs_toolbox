@@ -37,18 +37,19 @@
    image_classification
    image_clustering
    mapinfo2qgis
+   rsc2csv
+   xml_lpo_to_vector
+   xml_decl_to_vector
+   xml_plv_to_vector
+   xml_tol_to_vector
    convert
    import_glr
    import_egrn
    water_usage
    grunt
-   xml_decl_to_vector
    pointcloud2tileset
-   rsc2csv
    qgis2pdf
    centroid2attr
-   xml_plv_to_vector
-   xml_tol_to_vector
    lesis2sqlite
    forestdeclaration2
    compile_forest_declaration

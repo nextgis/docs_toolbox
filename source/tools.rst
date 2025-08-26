@@ -10,6 +10,7 @@
    ascii2geotiff
    import_dwg
    kml2geodata
+   coords2poly
    webmap2qgis
    layers2ngw
    ngw_to_gpkg

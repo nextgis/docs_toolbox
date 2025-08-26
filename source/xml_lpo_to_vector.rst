@@ -31,7 +31,7 @@
 
 `Пример результата <https://nextgis.ru/data/toolbox/xml_lpo_to_vector/xml_lpo_to_vector_outputs_ru.zip>`_ работы инструмента.
 
-..seealso::
+.. seealso::
 
    Попробуйте также другие инструменты конвертации XML:
 

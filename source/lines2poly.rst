@@ -16,6 +16,22 @@ Both files are in the same format as the input.
 
 Launch the tool: https://toolbox.nextgis.com/t/lines2poly
 
+Example:
+
+.. figure:: _static/lines2poly_input_en.png
+   :name: lines2poly_input_pic
+   :align: center
+   :width: 20cm
+
+   Example input
+
+.. figure:: _static/lines2poly_result_en.png
+   :name: lines2poly_result_pic
+   :align: center
+   :width: 20cm
+
+   Example output: polygons and sefl-intersecting lines
+
 **Try it out using our sample:**
 
 Download `input dataset <https://nextgis.com/data/toolbox/lines2poly/lines2poly_inputs.zip>`_ to test the instrument. Step-by-step instructions included.

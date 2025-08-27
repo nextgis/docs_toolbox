@@ -19,6 +19,7 @@ Tools
    crossing_borders
    deminpoints
    download_and_prepare_l8_s2
+   download_glad
    embedsvg
    eraser
    exif2resource

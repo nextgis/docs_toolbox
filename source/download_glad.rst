@@ -5,7 +5,7 @@ Generates commands to download Landsat Analysis Ready Data (GLAD ARD, https://gl
 
 The data is organized as follows:
 
-ARD tile name contains the coordinates of the bottom left corner of the grid cell. You can see the online interactive `grid <https://demo.nextgis.com/resource/9192/display?panel=layers>`.
+ARD tile name contains the coordinates of the bottom left corner of the grid cell. You can see the online interactive `grid <https://demo.nextgis.com/resource/9192/display?panel=layers>`_.
 
 .. figure:: _static/download_glad_tile_id_en.png
    :name: download_glad_input_pic

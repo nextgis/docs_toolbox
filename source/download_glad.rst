@@ -5,7 +5,7 @@
 
 Данные организованы следующим образом:
 
-ARD-ID тайла формируется из координат нижнего левого угла ячейки сетки. Вы можете скачать :download:`разграфку тайлов <https://glad.umd.edu/users/Potapov/ARD/Global_ARD_tiles.zip>` в формате ESRI Shapefile.
+ARD-ID тайла формируется из координат нижнего левого угла ячейки сетки. Вы можете посмотреть `разграфку тайлов <https://demo-ru.nextgis.com/resource/10150/display?panel=layers>`_ на онлайн-карте.
 
 .. figure:: _static/download_glad_tile_id_ru.png
    :name: download_glad_input_pic

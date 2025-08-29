@@ -17,10 +17,10 @@ Launch the tool: https://toolbox.nextgis.com/t/coords2poly
 
 Example:
 
-.. todo:: _static/coords2poly_result_en.png
+.. figure:: _static/coords2poly_result_en.png
    :name: coords2poly_result_pic
    :align: center
-   :width: 16cm
+   :width: 20cm
 
    Example output image
 

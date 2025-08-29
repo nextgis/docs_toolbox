@@ -16,6 +16,7 @@ Tools
    clip_polys_poly
    convert
    coord_recalc
+   coords2poly
    crossing_borders
    deminpoints
    download_and_prepare_l8_s2

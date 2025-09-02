@@ -25,7 +25,6 @@
    add_lesobject_table
    add_lesobject_layer
    gpx2exif
-   gpxclipbbox
    ngw_copy_layer
    embedsvg
    download_glad
@@ -66,6 +65,7 @@
    split180
    ndi
    update_vector_layer
+   gpxclipbbox
    osmclip_bbox
    gpxmerge
    joinreforma

@@ -5,7 +5,7 @@
 
 Поддерживаются идентификаторы из каталога Copernicus, GoogleCloud или MPC (только L2A).
 
-Нужные идентификаторы Copernicus можно получить с помощью инструмента `Поиск снимков Sentinel через Copernicus <https://toolbox.nextgis.com/t/imagesearch>`_ или `Сцены Sentinel-2 в GPKG <https://toolbox.nextgis.com/t/s2_search>`_.
+Нужные идентификаторы Copernicus можно получить с помощью инструмента `Поиск снимков Sentinel через Copernicus <https://toolbox.nextgis.com/t/imagesearch>`_ или `Поиск ID сцен Sentinel-L2A и загрузка превью <https://toolbox.nextgis.com/t/s2_search>`_.
 
 На входе:
 
@@ -42,7 +42,9 @@
 
 `Пример результата <https://nextgis.ru/data/toolbox/download_and_prepare_l8_s2/download_and_prepare_l8_s2_outputs_ru.zip>`_ работы инструмента.
  
-.. note:: Скачать превью выбранных сцен, чтобы определиться, какие данные загружать полностью, можно при помощи инструмента `Cцены Sentinel-2 в GPKG <https://toolbox.nextgis.com/t/s2_search>`_.
 
 .. seealso::
+
+   Скачать превью выбранных сцен, чтобы определиться, какие данные загружать полностью, можно при помощи инструмента `Поиск ID сцен Sentinel-L2A и загрузка превью <https://toolbox.nextgis.com/t/s2_search>`_.
+
    `Нормализованный разностный индекс <https://toolbox.nextgis.com/t/ndi>`_ (NDVI, NDWI, NDSI и т.д.)

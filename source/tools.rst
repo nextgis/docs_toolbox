@@ -32,6 +32,7 @@ Tools
    geometry_changer
    spreadsheet2layer
    gpx2exif
+   gpxclipbbox
    gpxdailysplit
    gpxmerge
    grid

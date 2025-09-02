@@ -25,6 +25,7 @@
    add_lesobject_table
    add_lesobject_layer
    gpx2exif
+   gpxclipbbox
    ngw_copy_layer
    embedsvg
    download_glad

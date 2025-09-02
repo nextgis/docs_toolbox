@@ -8,51 +8,51 @@ Inputs:
 * Web GIS address. Your full Web GIS address, example: https://sandbox.nextgis.com
 * Login. NextGIS ID or Web GIS username;
 * Password. Web GIS user password;
-* Resource type. ``all`` - all resources, see other options below.
+* Resource type. Keep the default option "All resources" or select from the resource type from the dropdown menu (see the full list below).
 
 Possible type options:
 
-#. all – all resources from Web GIS
+#. All resources from Web GIS
 
-#. resource_group – resource group (directory)
+#. Resource group (directory)
 
-#. postgis_layer – PostGIS layer
+#. PostGIS layer
 
-#. wmsserver_service – WMS service
+#. WMS service
 
-#. baselayers – basemap
+#. Basemap
 
-#. postgis_connection – PostGIS connection
+#. PostGIS connection
 
-#. webmap – web map
+#. Web Map
 
-#. wfsserver_service – WFS service
+#. WFS service
 
-#. vector_layer – vector layer
+#. Vector layer
 
-#. raster_layer – raster layer
+#. Raster layer
 
-#. mapserver_style – MapServer style
+#. MapServer style
 
-#. qgis_vector_style – QGIS vector style
+#. QGIS vector style
 
-#. raster_style – raster style
+#. Raster style
 
-#. file_bucket
+#. File bucket
 
-#. lookup_table – lookup table
+#. Lookup table
 
-#. wmsclient_layer – WMS layer
+#. WMS layer
 
-#. wmsclient_connection – WMS connection
+#. WMS connection
 
-#. formbuilder_form - form
+#. Form
 
-#. trackers_group – trackers group
+#. Trackers group
 
-#. tracker - tracker
+#. Tracker
 
-#. collector_project – Collector project
+#. Collector project
 
 
 Output:

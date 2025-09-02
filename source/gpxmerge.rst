@@ -14,16 +14,19 @@ Merge multiple GPS logs in GPX format to one. Most programms open tracks one by 
 
 Additionaly, This instrument fixes GPX files damaged by power down.
 
-Input: ZIP archive with GPX files. Subdirectories are allowed
+Input: 
 
-* Subdirectories of several leverls are allowed.
+* ZIP archive with GPX files. Subdirectories of several leverls are allowed. You can have files with the same name in different folders, the tool can process them anyway;
+* Mode - select from the menu. **Strict**: merge all content of GPX files using gpsbabel, may take long if there are many files. **Quick**: concat XML code as string, remove GPX extensions, quick, data is simplified.
+
 
 .. important::
 	Archives inside the archive are not supported. 
 
-* You can have files with the same name in different folders, the tool can process them anyway.
+Output: 
 
-Output: GPX file.
+* Merged GPX. Resulting GPX file with all tracks merged.
+* Skipped files. List of skipped/invalid files (if any).
 
 Launch instrument: https://toolbox.nextgis.com/t/gpxmerge
 

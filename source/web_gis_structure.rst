@@ -12,47 +12,27 @@
 
 Возможные варианты:
 
-#. all – все ресурсы Веб ГИС
-
-#. resource_group – группа ресурсов (директория)
-
-#. postgis_layer – слой PostGIS
-
-#. wmsserver_service – сервис WMS
-
-#. baselayers – базовая карта, подложка
-
-#. postgis_connection – соединение PostGIS
-
-#. webmap – веб-карта
-
-#. wfsserver_service – сервис WFS
-
-#. vector_layer – векторный слой
-
-#. raster_layer – растровый слой
-
-#. mapserver_style – стиль MapServer
-
-#. qgis_vector_style – векторный стиль QGIS
-
-#. raster_style – растровый стиль
-
-#. file_bucket
-
-#. lookup_table - справочник
-
-#. wmsclient_layer – слой WMS
-
-#. wmsclient_connection – соединение WMS
-
-#. formbuilder_form - форма
-
-#. trackers_group – группа трекеров
-
-#. tracker - трекер
-
-#. collector_project – проект Collector
+#. Все ресурсы Веб ГИС
+#. Группа ресурсов (директория)
+#. Слой PostGIS
+#. Сервис WMS
+#. Базовая карта, подложка
+#. Соединение PostGIS
+#. Веб-карта
+#. Сервис WFS
+#. Векторный слой
+#. Растровый слой
+#. Стиль MapServer
+#. Векторный стиль QGIS
+#. Растровый стиль
+#. Набор файлов
+#. Справочник
+#. Слой WMS
+#. Соединение WMS
+#. Форма
+#. Группа трекеров
+#. Трекер
+#. Проект Collector
 
 На выходе:
 

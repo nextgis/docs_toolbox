@@ -4,7 +4,7 @@ The tool converts vector dataset to a CSV file, compatible with DataLens BI serv
 
 You can get a vector data layer at `data.nextgis.com <https://data.nextgis.com>`_.
 
-See also a `detailed instruction <https://docs.nextgis.com/docs_data/source/yandex_datalens.html>`_ on how to upload data to Yandex DataLens.
+See also a `detailed instruction <https://data.nextgis.com/en/howto/yandex_datalens/>`_ on how to upload data to Yandex DataLens.
 
 Inputs:
 

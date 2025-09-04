@@ -5,7 +5,7 @@
 
 Векторные данные можно получить на `data.nextgis.com <https://data.nextgis.com/ru/howto/yandex_datalens/>`_.
 
-`Подробная инструкция <https://docs.nextgis.ru/docs_data/source/yandex_datalens.html>`_ по загрузке данных на Яндекс DataLens.
+`Подробная инструкция <https://data.nextgis.com/ru/howto/yandex_datalens/>`_ по загрузке данных на Яндекс DataLens.
 
 На входе:
 

@@ -5,7 +5,7 @@ The tool works with Web GIS data: converts vector layers and its styles from any
 
 Inputs:
 
-* Web GIS address – URL of the Web GIS on NextGIS Web platfomr, containing the Web Map to be converted into QGIS project. For example, ``https://demo.nextgis.com``;
+* Web GIS address – URL of the Web GIS on NextGIS Web platform, containing the Web Map to be converted into QGIS project. For example, ``https://demo.nextgis.com``;
 * Web Map ID - numbers at the end of the Web Map URL;
 * Login – NextGIS ID or username of a Web GIS user that has permissions to read the data;
 * Password – password for the user;

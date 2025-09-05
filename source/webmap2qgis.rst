@@ -5,10 +5,10 @@ The tool works with Web GIS data: converts vector layers and its styles from any
 
 Inputs:
 
-* Web GIS address – URL of the Web GIS, containing target Web Map. For example, https://demo.nextgis.com.
-* Web Map ID - numeric value, ID of the Web GIS resource (Web Map) to be converted into QGIS project.
-* Login – Web GIS user login.
-* Password – Web GIS user password.
+* Web GIS address – URL of the Web GIS on NextGIS Web platfomr, containing the Web Map to be converted into QGIS project. For example, ``https://demo.nextgis.com``;
+* Web Map ID - numbers at the end of the Web Map URL;
+* Login – NextGIS ID or username of a Web GIS user that has permissions to read the data;
+* Password – password for the user;
 * Extent - by default, the extent of the Web Map is used. You can enter a different extent in EPSG:4326. Format: bottom, left, top, right (South, West, North, East). Separate by comma. Example: ``54.5, 102.5, 59, 116``.
 
 Outputs:

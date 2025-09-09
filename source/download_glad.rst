@@ -49,7 +49,7 @@ Example data downloaded using the BAT file provided by the tool.
 
 `Result example <https://nextgis.ru/data/toolbox/download_glad/download_glad_outputs.zip>`_ of the tool run.
 
-.. note:: Related tools
+.. admonition:: Related tools
 
    * `Search and save Sentinel-2 scene previews to GPKG <https://toolbox.nextgis.com/t/s2_search>`_
    * `Prepare and download Sentinel-2 data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_

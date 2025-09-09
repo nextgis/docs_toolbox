@@ -48,7 +48,7 @@ Example data downloaded using the BAT file provided by the tool.
 
 .. seealso::
 
-   `Search and save Sentinel-2 scene previews to GPKG <https://toolbox.nextgis.com/t/s2_search>`_
-   `Prepare and download Sentinel-2 data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_
-   `Landsat radiometric calibration <https://toolbox.nextgis.com/t/landsat_to_radiance>`_
-   `Landsat reflectance calculation <https://toolbox.nextgis.com/t/landsat_to_reflectance>`_
+   * `Search and save Sentinel-2 scene previews to GPKG <https://toolbox.nextgis.com/t/s2_search>`_
+   * `Prepare and download Sentinel-2 data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_
+   * `Landsat radiometric calibration <https://toolbox.nextgis.com/t/landsat_to_radiance>`_
+   * `Landsat reflectance calculation <https://toolbox.nextgis.com/t/landsat_to_reflectance>`_

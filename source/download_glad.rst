@@ -1,7 +1,7 @@
 Загрузить Landsat Analysis Ready Data (GLAD ARD)
 ================================================
 
-Генерирует команды для скачивания Landsat Analysis Ready Data (GLAD ARD) с https://glad.umd.edu/ard/home. 
+Генерирует команды для удобного скачивания Landsat Analysis Ready Data (GLAD ARD) с https://glad.umd.edu/ard/home. 
 
 Данные организованы следующим образом:
 
@@ -16,7 +16,6 @@ ARD-ID тайла формируется из координат нижнего 
 
 Нумерация 16-дневных интервалов сквозная с 1997 года. Идентификаторы интервалов интересующего вас периода можно посмотреть в :download:`таблице <https://glad.umd.edu/users/Potapov/ARD/16d_intervals.xlsx>`.
 
-
 На входе:
 
 * CSV файл со списком ID тайлов, записанных в соответствующем формате, например ``039E_44N``;
@@ -25,8 +24,9 @@ ARD-ID тайла формируется из координат нижнего 
 
 На выходе:
 
-* BAT-файл для Windows;
-* TXT-файл со списком адресов для менеджеров закачек.
+* BAT-файл для Windows для скачивания через стандартный Powershell. Не требует никак дополнительных установок;
+* BAT-файл для Windows для скачивания через AWS. Требует предварительной установки AWS CLI https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html;
+* TXT-файл со списком адресов для утилит закачек, например wget или curl.
 
 Запуск инструмента: https://toolbox.nextgis.com/t/download_glad
 

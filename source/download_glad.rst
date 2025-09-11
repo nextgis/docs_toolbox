@@ -1,9 +1,12 @@
 Landsat Analysis Ready Data (GLAD ARD) download helper
 ======================================================
 
+
+
+
 Generates commands to download Landsat Analysis Ready Data (GLAD ARD, https://glad.umd.edu/ard/home).  
 
-The data is organized as follows:
+The source data is organized as follows:
 
 ARD tile name contains the coordinates of the bottom left corner of the grid cell. You can see the online interactive `grid <https://demo.nextgis.com/resource/9192/display?panel=layers>`_.
 
@@ -16,17 +19,17 @@ ARD tile name contains the coordinates of the bottom left corner of the grid cel
 
 Data collected in a 16-day interval are consolidated into a single ARD composite. The intervals are numbered consecutively since 1997. See the IDs of the intervals intersecting with your period of interest in the :download:`table  <https://glad.umd.edu/users/Potapov/ARD/16d_intervals.xlsx>`.
 
-
 Inputs:
 
 * CSV file containing a list of tile names, i.e. ``006E_46N``;
 * Starting interval - ID of the first 16-day interval intersecting with your period of interest;
 * Ending interval - ID of the last 16-day interval of your period of interest.
 
-Output:
+Outputs:
 
-* BAT file for Windows;
-* TXT file containing a list for wget / curl.
+* Windows batch file for downloading with Powershell. No additional tools required;
+* Windows batch file for downloading with AWS (same data, different server). AWS CLI installation is required https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html;
+* TXT file containing a list of urls for downloading with wget, curl or similar tools.
 
 Launch the tool: https://toolbox.nextgis.com/t/download_glad
 
@@ -46,9 +49,9 @@ Example data downloaded using the BAT file provided by the tool.
 
 `Result example <https://nextgis.ru/data/toolbox/download_glad/download_glad_outputs.zip>`_ of the tool run.
 
-.. seealso::
+.. admonition:: Related tools
 
-   `Search and save Sentinel-2 scene previews to GPKG <https://toolbox.nextgis.com/t/s2_search>`_
-   `Prepare and download Sentinel-2 data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_
-   `Landsat radiometric calibration <https://toolbox.nextgis.com/t/landsat_to_radiance>`_
-   `Landsat reflectance calculation <https://toolbox.nextgis.com/t/landsat_to_reflectance>`_
+   * `Search and save Sentinel-2 scene previews to GPKG <https://toolbox.nextgis.com/t/s2_search>`_
+   * `Prepare and download Sentinel-2 data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_
+   * `Landsat radiometric calibration <https://toolbox.nextgis.com/t/landsat_to_radiance>`_
+   * `Landsat reflectance calculation <https://toolbox.nextgis.com/t/landsat_to_reflectance>`_

@@ -5,19 +5,18 @@ The tool creates several layers from one. Each new layer is a selection of featu
 
 Inputs:
 
-* gis_url - address of the used Web GIS
-* resource_id - ID of the polyline layer used by Web GIS
-* upper_field - date the feature disappeared
-* lower_field - date the feature appeared
-* year1_field - the start year of the interval
-* year2_field - the end year of the interval
-* Date Format - date format for dates
-* The output format is GeoJSON, GPKG, CSV, ESRI Shapefile (the default value is ESRI Shapefile)
-* Ignore errors - leave blank to stop completion if an empty range is found. Enter 1 to ignore errors
+* Web GIS URL, example: https://demo.nextgis.com;
+* Input resource ID - numbers at the end of the URL of the input layer;
+* Date the feature disappeared - field containing the date when the feature stopped existing;
+* Date the feature appeared - field containing the date when the feature started existing;
+* The start year of the interval - name for the 'year1' field (the field will be created);
+* The end year of the interval - name for the 'year2' field (the field will be created);
+* Output format - enter one of the following: ``GeoJSON, GPKG, CSV, ESRI Shapefile``. ESRI Shapefile is the default;
+* Ignore errors - Leave empty to **stop execution** if an empty time slice is found. Enter 1 to **ignore** time slices with no features (ignore errors).
 
 Outputs:
 
-*  archive of layers, each of which is also in an archive (zip)
+*  ZIP archive of layers, each also in an archive.
 
 Launch the tool: https://toolbox.nextgis.com/t/temporal_split
 

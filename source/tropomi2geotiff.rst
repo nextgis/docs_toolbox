@@ -11,6 +11,7 @@ Inputs:
    Product type: L2__NO2__, Timeliness: Offline. 
    Example of a file’s name: S5P_OFFL_L2__NO2____20190901T091635_20190901T105804_09761_01_010302_20190907T113505.nc
 
+This dataset is available at https://browser.dataspace.copernicus.eu or ``s3://meeo-s5p/OFFL/L2__NO2___/`` (access via AWS CLI).
 
 Outputs:
 

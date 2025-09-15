@@ -56,6 +56,7 @@
    forestdeclaration2
    compile_forest_declaration
    maxdist
+   ngw_contribution_activity
    qgis_multiparttosingleparts
    splitcomplex
    gpxdailysplit

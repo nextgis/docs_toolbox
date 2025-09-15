@@ -55,6 +55,7 @@ Tools
    maxdist
    mt2report
    ndi
+   ngw_contribution_activity
    ngw_copy_layer
    ngw_feature_history
    ngw_intersect

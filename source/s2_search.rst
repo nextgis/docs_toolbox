@@ -1,4 +1,4 @@
-.. sectionauthor:: Юлия Григоренко <grigorenko.j@gmail.com>
+
 
 Cцены Sentinel-2 в GPKG
 ========================

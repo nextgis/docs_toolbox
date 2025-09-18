@@ -21,6 +21,23 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/t/ogrmerge
 
+Пример работы инструмента:
+
+.. figure:: _static/ogrmerge_input_ru.png
+   :name: ogrmerge_input_pic
+   :align: center
+   :width: 16cm
+
+   Исходные данные
+
+.. figure:: _static/ogrmerge_result_ru.png
+   :name: ogrmerge_result_pic
+   :align: center
+   :width: 16cm
+
+   Объединённый слой
+
+
 **Попробуйте инструмент в действии, скачав наш пример:**
 
 `Набор исходных данных <https://nextgis.ru/data/toolbox/ogrmerge/ogrmerge_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.

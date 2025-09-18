@@ -43,3 +43,7 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/ogrmerge/ogrmerge_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/ogrmerge/ogrmerge_outputs_ru.zip>`_ работы инструмента.
+
+.. admonition:: Похожие инструменты
+
+   * `Объединить два векторных слоя в Веб ГИС <https://toolbox.nextgis.com/t/ngw_merge_layers>`_

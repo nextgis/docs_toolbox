@@ -3,6 +3,14 @@ Get the contribution activity for the resource
 
 Get user activity report for a resource from the NextGIS Web server.
 
+Works for one of the following resource types: 
+
+* vector layer - you'll get user activity for a particular layer;
+* resource group - all versioned vector layers within this group are analyzed;
+* Web Map - all versioned layers added to the map are analyzed.
+
+
+
 Inputs:
 
 * NGW URL - Web GIS address (e.g., https://demo.nextgis.com);

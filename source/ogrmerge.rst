@@ -15,6 +15,22 @@ The tool has no limit on the number of input layers. The name of the source laye
 
 Launch the tool: https://toolbox.nextgis.com/t/ogrmerge
 
+Example:
+
+.. figure:: _static/ogrmerge_input_en.png
+   :name: ogrmerge_input_pic
+   :align: center
+   :width: 16cm
+
+   Example input
+
+.. figure:: _static/ogrmerge_result_en.png
+   :name: ogrmerge_result_pic
+   :align: center
+   :width: 16cm
+
+   Example output
+
 **Try it out using our sample:**
 
 Download `input dataset <https://nextgis.com/data/toolbox/ogrmerge/ogrmerge_inputs.zip>`_ to test the instrument. Step-by-step instructions included.

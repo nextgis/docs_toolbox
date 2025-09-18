@@ -7,8 +7,8 @@ Inputs:
 
 *  Source data - CSV file with a list of addresses. First row should contain field names. File should be in UTF-8 encoding.
 *  Field with address - name of the field that contains addresses in a source CSV file.
-*  Geocoder - specify one of the two available geocoder providers: Google. Case insensitive. 
-*  API key - API key to run chosen geocoder.
+*  Geocoder - specify one of the available geocoder providers. Note that only Nominatim is free, for others you need a license.
+*  API key - API key to run the chosen geocoder. For Nominatim leave empty.
 
 .. note::
     **How to get a geocoder API key**

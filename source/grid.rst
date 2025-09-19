@@ -12,12 +12,12 @@ The tool generates a grid within the boundaries of features of a vector layer or
 
 Inputs:
 
-* Cell size in meters;
-* Mode: ``points`` or ``rect`` (squares);
-* Algorithm for cropping the grid along the feature borders: ``all`` (leave all the squares in extent), ``touches`` (leave all the squares touching features), ``intersection`` (crop the squares along the borders of the features);
-* GeoPackage file with polygons or multipolygons. Calculation time depends on the number of nodes in the boundary layer; 
-* Extent. Instead of uploading a layer, you can set a bounding box. Draw a custom rectangle on the map below. The Extent field will be filled with the numeric value that you can adjust manually;
-*  Vertical orienting or with fine size. By default, ``simple`` mode is used, the grid looks vertical in WGS 84 (EPSG:3857) projection, but angles and distances may be distorted. Enter ``fine`` to get a grid with more precizely matching angles and distances, however it will look tilted in EPSG:3857.
+* Step. Grid cell size in meters;
+* Mode. Squares or points. Default: points;
+* Clip. How to clip the grid: 1) By feature boundaries, 2) Keeping all grid cells that intersect boundaries, 3) Keeping all grid cells in the extent;
+* Boundary polygon vector file in Geopackage format. Multipolygons are supported. Calculation time depends on the number of nodes in the boundary layer;
+* Extent. Set the extent on the map or upload as file;
+* Grid alignment. Mode of clipping edges of grid. 1) Vertical - the grid looks vertical in WGS 84 (EPSG:3857) projection, but angles and distances may be distorted.; 2) Precise - a grid with more precizely matching angles and distances, however it will look tilted in EPSG:3857.
 
 Output:
 
@@ -25,7 +25,7 @@ Output:
 
 .. figure:: _static/grid_numbers.png
    :align: center
-   :name: grid_rect_all_pic
+   :name: grid_numbers_pic
    :width: 10cm
 
    Cell numbers displayed
@@ -46,7 +46,7 @@ Resulting grids with different settings:
    :name: grid_rect_touches_pic
    :width: 10cm
 
-   Squares - touches
+   Squares - including all intersecting
    
    
 .. figure:: _static/grid_rect_intersection.png
@@ -54,7 +54,7 @@ Resulting grids with different settings:
    :name: grid_rect_intersection_pic
    :width: 10cm
 
-   Squares - intersection
+   Squares - clipped by the boundary
    
    
 .. figure:: _static/grid_point_all.png
@@ -70,14 +70,7 @@ Resulting grids with different settings:
    :name: grid_point_intersection_pic
    :width: 10cm
 
-   Points - intersection
-
-.. todo:: _static/grid_point_touches.png
-   :align: center
-   :name: grid_point_touches_pic
-   :width: 10cm
-
-   Points - touches
+   Points - clipped by the boundary
 
 
 

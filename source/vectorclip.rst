@@ -1,14 +1,16 @@
 Polygon intersection
 ====================
 
-Finds overlapping areas between objects from 2 polygon layers.
+Finds overlapping areas between features of 2 polygon layers.
 
 Inputs:
 
-* Polygon layer 1. 
-* Polygon layer 2. 
+* Polygon layer 1
+* Polygon layer 2
 
 Files should be in GDAL-supported format, e.g. GeoPackage, GeoJSON, MapInfo TAB, ESRI Shapefile (the last two - in ZIP-archive).
+
+You can use this tool to clip line geometry. Upload the line layer to the field 1 and the clipping boundary to the field 2. 
 
 Outputs:
 

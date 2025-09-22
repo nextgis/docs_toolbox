@@ -30,7 +30,7 @@ Launch the tool: https://toolbox.nextgis.com/t/vectorclip
    :align: center
    :width: 16cm
 
-   Example output image
+   Example output
 
 **Try the tool in action by downloading our example:**
 

@@ -5,8 +5,8 @@ A tool that performs a per-band connection of a set of single-band rasters and c
 
 Inputs:
 
-* Input raster dataset. Input raster could be presented as 1) multiband GDAL-supported raster or 2) ZIP archive with singleband GDAL-supported rasters;
-* Input vector dataset. Input vector could be presented as 1) OGR-supported single file 2) ZIP archive with ESRI Shapefile. It will be used for clipping input raster.
+* Input raster dataset. 1) multiband GDAL-supported raster or 2) ZIP archive with singleband GDAL-supported rasters;
+* Input vector dataset. It will be used for clipping input raster. 1) OGR-supported single file or 2) ZIP archive with ESRI Shapefile. 
 * Nodata value. Optional. Value that will be set as Nodata. Default is 0.
 * Output dataset name. Optional. No extension (e.g. ndvi, water). Extension will be automatically set to .tif.
 
@@ -14,6 +14,12 @@ Outputs:
 
 * Result raster in TIFF format.
 
+.. figure:: _static/prepare_raster_result_en.png
+   :name: prepare_raster_result_pic
+   :align: center
+   :width: 16cm
+
+   Example output
 
 
 If the input is an archive with single-band rasters, the tool first combines them into a multi-band raster. The order of the bands is determined by alphabetically sorting the names of the initial rasters in the archive. 

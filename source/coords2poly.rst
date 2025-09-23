@@ -3,7 +3,7 @@
 
 Построение полигона из таблицы с координатами поворотных точек.
 
-.. seealso:: Другие `инструменты, связанные с лесным хозяйством <https://toolbox.nextgis.com/?tags=1>`_.
+
 
 На входе:
 
@@ -31,3 +31,12 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/coords2poly/coords2poly_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/coords2poly/coords2poly_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso:: 
+
+   * `Каталог учетных номеров <https://toolbox.nextgis.com/t/plk_catalog>`_
+   * `Конвертация XML: Таксационное описание лесосеки <https://toolbox.nextgis.com/t/xml_tol_to_vector>`_
+   * `Экспликация в полигон отвода <https://toolbox.nextgis.com/t/explication2poly>`_
+   * `Полигон в экспликацию отвода <https://toolbox.nextgis.com/t/poly2explication>`_
+
+

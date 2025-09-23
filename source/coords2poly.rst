@@ -36,7 +36,7 @@
 
    * `Каталог учетных номеров <https://toolbox.nextgis.com/t/plk_catalog>`_
    * `Конвертация XML: Таксационное описание лесосеки <https://toolbox.nextgis.com/t/xml_tol_to_vector>`_
-   * `Экспликация в полигон отвода <https://toolbox.nextgis.com/t/explication2poly>`_
-   * `Полигон в экспликацию отвода <https://toolbox.nextgis.com/t/poly2explication>`_
+   * `Абрис лесосеки: экспликация (промеры) в геоданные <https://toolbox.nextgis.com/t/explication2poly>`_
+   * `Абрис лесосеки: геоданные в экспликацию и координаты <https://toolbox.nextgis.com/t/poly2explication>`_
 
 

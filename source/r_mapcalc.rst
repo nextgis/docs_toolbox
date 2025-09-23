@@ -1,22 +1,22 @@
 Raster calculator (GRASS)
 ==============================
 
-The tool allows calculations with single band rasters. The tool is based on `r.mapcalc <https://grass.osgeo.org/grass83/manuals/r.mapcalc.html>`_.
+This tool performs calculations on single band rasters. The tool is based on `r.mapcalc <https://grass.osgeo.org/grass83/manuals/r.mapcalc.html>`_.
 
 Input:
 
 * Single band GDAL supported raster, e.g. GeoTIFF. Add at least one raster file (to the "A" field). You can upload up to 8 raster files.
 
-    * A – obligatory field.
-    * B – optional field. 
-    * C – optional field. 
-    * D – optional field. 
-    * E – optional field. 
-    * F – optional field. 
-    * G – optional field. 
-    * H – optional field. 
+    * A – required field;
+    * B – optional field;
+    * C – optional field;
+    * D – optional field;
+    * E – optional field;
+    * F – optional field;
+    * G – optional field;
+    * H – optional field;
 
-* Expression – obligatory field. Use arithmetic (``+, -, /, *`` etc.) or logical (``>, ==`` etc.) operators, as well as functions (``log(x), if(x) `` etc.) to build an expression.  The whole list is available `here <https://grass.osgeo.org/grass83/manuals/r.mapcalc.html>`_.  Variables (rasters) should be specified as A, B, C etc. An example of expression: **(A+B)/C**
+* Expression – required field. Use arithmetic (``+, -, /, *`` etc.) or logical (``>, ==`` etc.) operators, or functions (``log(x), if(x) `` etc.) to build an expression.  The whole list is available `here <https://grass.osgeo.org/grass83/manuals/r.mapcalc.html>`_.  Variables (rasters) should be specified as A, B, C etc. Example: ``(A+B)/C``.
 
 Output:
 

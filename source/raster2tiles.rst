@@ -14,9 +14,23 @@ Outputs:
 
 *  NGRC file with tileset.
 
-
-
 Launch the tool: https://toolbox.nextgis.com/t/raster2tiles
+
+Example of the tool's work:
+
+.. figure:: _static/raster2tiles_input_en.png
+   :name: raster2tiles_input_pic
+   :align: center
+   :width: 16cm
+
+   Example input
+
+.. figure:: _static/raster2tiles_result_en.png
+   :name: raster2tiles_result_pic
+   :align: center
+   :width: 8cm
+
+   Example output
 
 **Try it out using our sample:**
 

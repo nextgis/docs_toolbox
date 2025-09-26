@@ -25,6 +25,15 @@ Output:
 
 Launch the tool: https://toolbox.nextgis.com/t/generalization
 
+Example:
+
+.. figure:: _static/generalization_result.png
+   :name: generalization_result_pic
+   :align: center
+   :width: 16cm
+
+   Light line - input geometries, dark line - output geometries
+
 **Try it out using our sample:**
 
 Download `input dataset <https://nextgis.com/data/toolbox/generalization/generalization_inputs.zip>`_ to test the instrument. Step-by-step instructions included.

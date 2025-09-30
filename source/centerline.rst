@@ -26,3 +26,8 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/centerline/centerline_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/centerline/centerline_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Максимальная дистанция между узлами полигона <https://toolbox.nextgis.com/t/maxdist>`_
+   * `Координаты точки в полигоне <https://toolbox.nextgis.com/t/centroid2attr>`_

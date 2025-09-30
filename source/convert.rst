@@ -29,3 +29,9 @@
 `Пример результата <https://nextgis.ru/data/toolbox/convert/convert_outputs_ru.zip>`_ работы инструмента.
 
    
+.. seealso::
+
+   * `Перепроецирование координат <https://toolbox.nextgis.com/t/coord_recalc>`_
+   * `Проверка геометрии <https://toolbox.nextgis.com/t/check_geometries>`_
+   * `KML в геоданные <https://toolbox.nextgis.com/t/kml2geodata>`_
+   * `Конвертация MapInfo для QGIS <https://toolbox.nextgis.com/t/mapinfo2qgis>`_

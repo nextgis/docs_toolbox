@@ -35,3 +35,7 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/check_geometries/check_geometries_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/check_geometries/check_geometries_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Проверка геометрии (QGIS) <https://toolbox.nextgis.com/t/qgis_check_geometries>`_

@@ -23,3 +23,7 @@
 
 `Пример результата <https://nextgis.ru/data/toolbox/coord_recalc/coord_recalc_outputs_ru.zip>`_ работы инструмента.
 
+.. seealso::
+
+    * `Конвертация векторных слоев <https://toolbox.nextgis.com/t/convert>`_
+    * `KML в геоданные <https://toolbox.nextgis.com/t/kml2geodata>`_

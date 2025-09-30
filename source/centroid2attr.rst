@@ -33,3 +33,7 @@
 
 `Пример результата <https://nextgis.ru/data/toolbox/centroid2attr/centroid2attr_outputs_ru.zip>`_ работы инструмента.
 
+.. seealso::
+
+   * `Центральные линии полигонов <https://toolbox.nextgis.com/t/centerline>`_
+

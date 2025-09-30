@@ -31,4 +31,10 @@
 
 `Набор исходных данных <https://nextgis.ru/data/toolbox/dezhurcad/dezhurcad_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
+.. seealso::
+
+   * `Конвертация данных ЕГРН <https://toolbox.nextgis.com/t/import_egrn>`_
+   * `Получить геометрию участка по кадастровому номеру <https://toolbox.nextgis.com/t/rosreestr2coord>`_
+   * `Генерация изображения кадастрового участка по номеру <https://toolbox.nextgis.com/t/cadastre2img>`_
+   * `Список КПТ по заданной области <https://toolbox.nextgis.com/t/egrn_kvartals_cover>`_
 

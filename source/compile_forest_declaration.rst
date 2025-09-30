@@ -43,3 +43,6 @@
 
 `Пример результата <https://nextgis.ru/data/toolbox/compile_forest_declaration/compile_forest_declaration_outputs_ru.zip>`_ работы инструмента.
 
+.. seealso::
+
+   * `Лесная декларация в XML и PDF для пользователей NextGIS Лес <https://toolbox.nextgis.com/t/forestdeclaration2>`_

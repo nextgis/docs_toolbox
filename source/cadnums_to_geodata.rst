@@ -22,3 +22,6 @@
 
 `Пример результата <https://nextgis.ru/data/toolbox/cadnums_to_geodata/cadnums_to_geodata_outputs_ru.zip>`_ работы инструмента.
 
+.. seealso::
+
+   * `Список КПТ по заданной области <https://toolbox.nextgis.com/t/egrn_kvartals_cover>`_

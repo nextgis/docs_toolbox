@@ -49,3 +49,7 @@
 
 `Набор исходных данных <https://nextgis.ru/data/toolbox/clip_polys_poly/clip_polys_poly_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
+.. seealso::
+
+   * `Пересекатор <https://toolbox.nextgis.com/t/ngw_intersect>`_
+   * `Пересечение полигонов <https://toolbox.nextgis.com/t/vectorclip>`_

@@ -45,6 +45,10 @@
 
 .. seealso::
 
-   Скачать превью выбранных сцен, чтобы определиться, какие данные загружать полностью, можно при помощи инструмента `Поиск ID сцен Sentinel-L2A и загрузка превью <https://toolbox.nextgis.com/t/s2_search>`_.
+   * `Создание тайлового набора по растру <https://toolbox.nextgis.com/t/raster2tiles>`_
+   
+   * Скачать превью выбранных сцен, чтобы определиться, какие данные загружать полностью, можно при помощи инструмента `Поиск ID сцен Sentinel-L2A и загрузка превью <https://toolbox.nextgis.com/t/s2_search>`_.
 
-   `Нормализованный разностный индекс <https://toolbox.nextgis.com/t/ndi>`_ (NDVI, NDWI, NDSI и т.д.)
+   * `Нормализованный разностный индекс <https://toolbox.nextgis.com/t/ndi>`_ (NDVI, NDWI, NDSI и т.д.)
+
+   * `Кластеризация изображений <https://toolbox.nextgis.com/t/image_clustering>`_

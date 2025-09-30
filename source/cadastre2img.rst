@@ -36,3 +36,7 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/cadastre2img/cadastre2img_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/cadastre2img/cadastre2img_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Список КПТ по заданной области <https://toolbox.nextgis.com/t/egrn_kvartals_cover>`_

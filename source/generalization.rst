@@ -79,5 +79,9 @@
 
 Подробнее о параметрах запуска: https://grasswiki.osgeo.org/wiki/V.generalize_tutorial
 
+.. seealso::
 
+   * `Базовое упрощение векторных данных <https://toolbox.nextgis.com/t/polysimplifier>`_
+   * `Улучшение dem.tif и перерасчёт горизонталей <https://toolbox.nextgis.com/t/improvedem>`_
+   * `Разделить сложные полигоны <https://toolbox.nextgis.com/t/splitcomplex>`_
 

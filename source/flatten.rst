@@ -19,3 +19,7 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/flatten/flatten_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/flatten/flatten_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+    * `Мультигеометрии в простые геометрии <https://toolbox.nextgis.com/t/qgis_multiparttosingleparts>`_

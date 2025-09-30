@@ -33,3 +33,8 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/eraser/eraser_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/eraser/eraser_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Пересечение полигонов <https://toolbox.nextgis.com/t/vectorclip>`_
+   * `Пересечение слоёв <https://toolbox.nextgis.com/t/intersect_layers>`_

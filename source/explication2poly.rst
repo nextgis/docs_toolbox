@@ -38,3 +38,9 @@
 
 `Пример результата <https://nextgis.ru/data/toolbox/explication2poly/explication2poly_outputs_ru.zip>`_ работы инструмента.
 
+.. seealso::
+
+    * `Каталог учетных номеров <https://toolbox.nextgis.com/t/plk_catalog>`_
+    * `Конвертация XML: Таксационное описание лесосеки <https://toolbox.nextgis.com/t/xml_tol_to_vector>`_
+    * `Абрис лесосеки: каталог координат в геоданные <https://toolbox.nextgis.com/t/coords2poly>`_
+    * `Абрис лесосеки: геоданные в экспликацию и координаты <https://toolbox.nextgis.com/t/poly2explication>`_

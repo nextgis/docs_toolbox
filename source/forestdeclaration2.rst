@@ -17,3 +17,7 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/forestdeclaration2/forestdeclaration2_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/forestdeclaration2/forestdeclaration2_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+    * `Лесная декларация в XML из XLSX и PDF файлов <https://toolbox.nextgis.com/t/compile_forest_declaration>`_

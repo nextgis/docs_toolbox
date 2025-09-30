@@ -36,3 +36,7 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/field_value_changer/field_value_changer_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/field_value_changer/field_value_changer_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+    * `Изменение геометрии в группе слоев <https://toolbox.nextgis.com/t/geometry_changer>`_

@@ -39,4 +39,7 @@ NextGIS Web (NGW) — это система управления геоданн�
 
 `Набор исходных данных <https://nextgis.ru/data/toolbox/exif2resource/exif2resource_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
+.. seealso::
 
+   * `Добавить к фотографиям координаты из GPX-трека <https://toolbox.nextgis.com/t/gpx2exif>`_
+   * `panotag <https://toolbox.nextgis.com/t/panotag>`_

@@ -34,3 +34,8 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/fix_geometries/fix_geometries_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/fix_geometries/fix_geometries_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Проверка геометрии <https://toolbox.nextgis.com/t/check_geometries>`_
+   * `Проверка геометрии (QGIS) <https://toolbox.nextgis.com/t/qgis_check_geometries>`_

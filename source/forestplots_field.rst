@@ -26,3 +26,10 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/forestplots_field/forestplots_field_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/forestplots_field/forestplots_field_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Генератор набора квадратов <https://toolbox.nextgis.com/t/quadro>`_
+   * `Абрис лесосеки: каталог координат в геоданные <https://toolbox.nextgis.com/t/coords2poly>`_
+   * `Добавить к фотографиям координаты из GPX-трека <https://toolbox.nextgis.com/t/gpx2exif>`_
+   * `KML в геоданные <https://toolbox.nextgis.com/t/kml2geodata>`_

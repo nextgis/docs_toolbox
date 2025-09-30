@@ -31,3 +31,10 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/geocodetable/geocodetable_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/geocodetable/geocodetable_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+    * `Таблица в векторный файл <https://toolbox.nextgis.com/t/table2geo>`_
+    * `Таблица Google/Яндекс в Веб ГИС <https://toolbox.nextgis.com/t/spreadsheet2layer>`_
+    * `Парсер адреса из CSV <https://toolbox.nextgis.com/t/postal>`_
+    * `Генерирует карту в Веб ГИС по таблице со списком кодов регионов ОКАТО и вашим числовым значениям <https://toolbox.nextgis.com/t/infomap>`_

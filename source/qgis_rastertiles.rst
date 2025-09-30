@@ -35,3 +35,9 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/qgis_rastertiles/qgis_rastertiles_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/qgis_rastertiles/qgis_rastertiles_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Генерация векторных тайлов из проекта QGIS <https://toolbox.nextgis.com/t/qgis_vectortiles>`_
+   * `Создание тайлового набора по растру <https://toolbox.nextgis.com/t/raster2tiles>`_
+   * `Конвертация проекта QGIS в PDF <https://toolbox.nextgis.com/t/qgis2pdf>`_

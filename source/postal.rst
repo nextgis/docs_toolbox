@@ -25,3 +25,7 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/postal/postal_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/postal/postal_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Геокодировать таблицу <https://toolbox.nextgis.com/t/geocodetable>`_

@@ -30,3 +30,8 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/qgis_check_geometries/qgis_check_geometries_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/qgis_check_geometries/qgis_check_geometries_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Исправление геометрий (QGIS) <https://toolbox.nextgis.com/t/qgis_fix_geometries>`_
+   * `Исправление геометрий <https://toolbox.nextgis.com/t/fix_geometries>`_

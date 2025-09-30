@@ -36,3 +36,9 @@
 `Пример результата <https://nextgis.ru/data/toolbox/plk_catalog/plk_catalog_outputs_ru.zip>`_ работы инструмента в формате DB (SQLite).
 
 
+.. seealso::
+
+   * `Конвертация выписок ГЛР <https://toolbox.nextgis.com/t/import_glr>`_
+   * `rosreestr2coords <https://toolbox.nextgis.com/t/rosreestr2coords>`_
+   * `Конвертация данных ЕГРН <https://toolbox.nextgis.com/t/import_egrn>`_
+   * `Конвертация XML: Лесная декларация <https://toolbox.nextgis.com/t/xml_decl_to_vector>`_

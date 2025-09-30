@@ -32,3 +32,10 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/prepare_raster/prepare_raster_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/prepare_raster/prepare_raster_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Калькулятор растров (GRASS) <https://toolbox.nextgis.com/t/r_mapcalc>`_
+   * `Калькулятор растров (GDAL) <https://toolbox.nextgis.com/t/raster_calculator>`_
+   * `Подготовка и скачивание данных Sentinel-2 <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_
+   * `Cцены Sentinel-2 в GPKG <https://toolbox.nextgis.com/t/s2_search>`_

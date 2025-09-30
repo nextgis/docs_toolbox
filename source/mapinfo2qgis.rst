@@ -18,3 +18,10 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/mapinfo2qgis/mapinfo2qgis_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/mapinfo2qgis/mapinfo2qgis_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+    * `Конвертация векторных слоев <https://toolbox.nextgis.com/t/convert>`_
+    * `DWG в DXF <https://toolbox.nextgis.com/t/import_dwg>`_
+    * `KML в геоданные <https://toolbox.nextgis.com/t/kml2geodata>`_
+    * `Конвертация SXF + RSC в QGIS со стилями <https://toolbox.nextgis.com/t/eeko2qgis>`_

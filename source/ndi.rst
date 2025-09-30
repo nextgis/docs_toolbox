@@ -29,3 +29,9 @@
 
 `Пример результата <https://nextgis.ru/data/toolbox/ndi/ndi_outputs_ru.zip>`_ работы инструмента.
 
+.. seealso::
+
+    * `Подготовка и скачивание данных Sentinel-2 <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_
+    * `Cцены Sentinel-2 в GPKG <https://toolbox.nextgis.com/t/s2_search>`_
+    * `Расчёт спектрального альбедо объектов по данным Landsat <https://toolbox.nextgis.com/t/landsat_to_reflectance>`_
+    * `Калькулятор растров (GDAL) <https://toolbox.nextgis.com/t/raster_calculator>`_

@@ -35,3 +35,8 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/quadro/quadro_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/quadro/quadro_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Создание схемы круговых площадок для Garmin <https://toolbox.nextgis.com/t/forestplots_field>`_
+   * `Сетка в метрах <https://toolbox.nextgis.com/t/grid>`_

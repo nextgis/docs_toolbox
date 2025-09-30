@@ -44,3 +44,9 @@ ID ресурсов и трекеров можно получить через �
 
 `Пример результата <https://nextgis.ru/data/toolbox/points_on_tracks_stats/points_on_tracks_stats_outputs_ru.zip>`_ работы инструмента.
    
+.. seealso::
+
+   * `Ведомость ЗМУ <https://toolbox.nextgis.com/t/zmu_data_analysis>`_
+   * `Разрезать GPX трек по дням <https://toolbox.nextgis.com/t/gpxdailysplit>`_
+   * `Объединение GPX файлов <https://toolbox.nextgis.com/t/gpxmerge>`_
+   * `Обрезать GPX файл по прямоугольнику <https://toolbox.nextgis.com/t/gpxclipbbox>`_

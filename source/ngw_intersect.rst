@@ -32,3 +32,8 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/ngw_intersect/ngw_intersect_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/ngw_intersect/ngw_intersect_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `operation/clip_polys_poly <https://toolbox.nextgis.com/t/operation/clip_polys_poly>`_
+   * `Пересечение полигонов <https://toolbox.nextgis.com/t/vectorclip>`_

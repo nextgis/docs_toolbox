@@ -20,3 +20,6 @@
 
 `Пример результата <https://nextgis.ru/data/toolbox/maxdist/maxdist_outputs_ru.zip>`_ работы инструмента.
 
+.. seealso::
+
+   * `Полигоны из линий и точек по времени <https://toolbox.nextgis.com/t/lines2polygons>`_

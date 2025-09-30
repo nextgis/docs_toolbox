@@ -27,3 +27,7 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/ngw_to_gpkg/ngw_to_gpkg_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/ngw_to_gpkg/ngw_to_gpkg_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Веб-карта в проект QGIS <https://toolbox.nextgis.com/t/webmap2qgis>`_

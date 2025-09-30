@@ -32,3 +32,7 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/qgis_multiparttosingleparts/qgis_multiparttosingleparts_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/qgis_multiparttosingleparts/qgis_multiparttosingleparts_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Удалить ZM координаты из векторного слоя <https://toolbox.nextgis.com/t/flatten>`_

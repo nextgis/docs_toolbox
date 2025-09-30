@@ -41,7 +41,7 @@
 
 `Пример результата <https://nextgis.ru/data/toolbox/ngw_contribution_activity/ngw_contribution_activity_outputs_ru.zip>`_ работы инструмента.
 
-.. admonition:: Похожие инструменты
+.. seealso::
 
    * `Получить историю векторного объекта <https://toolbox.nextgis.com/t/ngw_feature_history>`_
    * `Структура Веб ГИС в таблицу <https://toolbox.nextgis.com/t/web_gis_structure>`_

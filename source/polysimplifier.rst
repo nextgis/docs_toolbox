@@ -25,3 +25,8 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/polysimplifier/polysimplifier_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/polysimplifier/polysimplifier_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Продвинутое упрощение векторных данных <https://toolbox.nextgis.com/t/generalization>`_
+   * `Разделить сложные полигоны <https://toolbox.nextgis.com/t/splitcomplex>`_

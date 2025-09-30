@@ -19,3 +19,7 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/pointcloud2tileset/pointcloud2tileset_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/pointcloud2tileset/pointcloud2tileset_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Проекция Dae (Collada) в Shapefile <https://toolbox.nextgis.com/t/kmldae2footprints>`_

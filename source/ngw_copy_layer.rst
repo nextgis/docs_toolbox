@@ -26,3 +26,7 @@
 
 `Набор исходных данных <https://nextgis.ru/data/toolbox/ngw_copy_layer/ngw_copy_layer_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
+.. seealso::
+
+   * `Объединить два векторных слоя в Веб ГИС <https://toolbox.nextgis.com/t/ngw_merge_layers>`_
+   * `Объединение векторных слоёв <https://toolbox.nextgis.com/t/ogrmerge>`_

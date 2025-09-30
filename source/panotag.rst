@@ -45,3 +45,8 @@ GPano:PoseHeadingDegrees копируется из GPSImgDirection, если т�
 `Набор исходных данных <https://nextgis.ru/data/toolbox/panotag/panotag_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/panotag/panotag_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Добавить к фотографиям координаты из GPX-трека <https://toolbox.nextgis.com/t/gpx2exif>`_
+   * `Фото с EXIF в слой NGW <https://toolbox.nextgis.com/t/exif2resource>`_

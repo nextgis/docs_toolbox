@@ -11,3 +11,9 @@ DWG в DXF
 
 `Пример результата <https://nextgis.ru/data/toolbox/import_dwg/import_dwg_outputs_ru.zip>`_ работы инструмента.
 
+.. seealso::
+
+    * `Конвертация данных ЕГРН <https://toolbox.nextgis.com/t/import_egrn>`_
+    * `Конвертация MapInfo для QGIS <https://toolbox.nextgis.com/t/mapinfo2qgis>`_
+    * `KML в геоданные <https://toolbox.nextgis.com/t/kml2geodata>`_
+    * `Конвертация SXF + RSC в QGIS со стилями <https://toolbox.nextgis.com/t/eeko2qgis>`_

@@ -34,8 +34,13 @@
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 
-`Набор исходных данных <https://nextgis.ru/data/toolbox/image_classification/image_classification
-_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+`Набор исходных данных <https://nextgis.ru/data/toolbox/image_classification/image_classification_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
-`Пример результата <https://nextgis.ru/data/toolbox/image_classification/image_classification
-_outputs_ru.zip>`_ работы инструмента.
+`Пример результата <https://nextgis.ru/data/toolbox/image_classification/image_classification_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Кластеризация изображений <https://toolbox.nextgis.com/t/image_clustering>`_
+   * `Нормализованный разностный индекс <https://toolbox.nextgis.com/t/ndi>`_
+   * `Cцены Sentinel-2 в GPKG <https://toolbox.nextgis.com/t/s2_search>`_
+   * `Подготовка и скачивание данных Sentinel-2 <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_

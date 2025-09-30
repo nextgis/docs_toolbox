@@ -21,3 +21,8 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/gpx2exif/gpx2exif_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/gpx2exif/gpx2exif_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+    * `Объединение GPX файлов <https://toolbox.nextgis.com/t/gpxmerge>`_
+    * `Фото с EXIF в слой NGW <https://toolbox.nextgis.com/t/exif2resource>`_

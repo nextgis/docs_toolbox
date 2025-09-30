@@ -24,3 +24,8 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/grunt/grunt_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/grunt/grunt_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Конвертация данных о водных объектах <https://toolbox.nextgis.com/t/water_usage>`_
+   * `Конвертация данных ЕГРН <https://toolbox.nextgis.com/t/import_egrn>`_

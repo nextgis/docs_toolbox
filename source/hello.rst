@@ -15,3 +15,7 @@
 Запуск инструмента: https://toolbox.nextgis.com/t/hello
 
 **Попробуйте инструмент в действии**, скачав наш `пример <https://nextgis.ru/data/toolbox/hello/hello_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
+
+.. seealso::
+
+    * `Проверка корректности файлов <https://toolbox.nextgis.com/t/geospatial_input_explainer>`_

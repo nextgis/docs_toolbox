@@ -32,3 +32,10 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/imagesearch/imagesearch_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/imagesearch/imagesearch_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+  * `Cцены Sentinel-2 в GPKG <https://toolbox.nextgis.com/t/s2_search>`_
+  * `Подготовка и скачивание данных Sentinel-2 <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_
+  * `Кластеризация изображений <https://toolbox.nextgis.com/t/image_clustering>`_
+  * `Классификация изображений <https://toolbox.nextgis.com/t/image_classification>`_

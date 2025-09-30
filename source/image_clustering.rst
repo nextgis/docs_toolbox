@@ -39,3 +39,10 @@ Lloyd — это классический вариант K-Means, который
 `Набор исходных данных <https://nextgis.ru/data/toolbox/image_clustering/image_clustering_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/image_clustering/image_clustering_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Классификация изображений <https://toolbox.nextgis.com/t/image_classification>`_
+   * `Нормализованный разностный индекс <https://toolbox.nextgis.com/t/ndi>`_
+   * `Cцены Sentinel-2 в GPKG <https://toolbox.nextgis.com/t/s2_search>`_
+   * `Подготовка и скачивание данных Sentinel-2 <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_

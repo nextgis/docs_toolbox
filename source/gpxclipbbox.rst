@@ -35,3 +35,9 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/gpxclipbbox/gpxclipbbox_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/gpxclipbbox/gpxclipbbox_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Разрезать GPX трек по дням <https://toolbox.nextgis.com/t/gpxdailysplit>`_
+   * `Объединение GPX файлов <https://toolbox.nextgis.com/t/gpxmerge>`_
+   * `Статистика по точкам и трекам в полигонах из NGW <https://toolbox.nextgis.com/t/points_on_tracks_stats>`_

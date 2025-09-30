@@ -31,3 +31,7 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/les_remote_sensing/les_remote_sensing_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/les_remote_sensing/les_remote_sensing_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Подготовка и скачивание данных Sentinel-2 <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_

@@ -104,3 +104,9 @@
 
 `Пример результата <https://nextgis.ru/data/toolbox/lesis2sqlite/lesis2sqlite_outputs_ru.zip>`_ работы инструмента.
 
+.. seealso::
+
+        * `Каталог учетных номеров <https://toolbox.nextgis.com/t/plk_catalog>`_
+        * `Конвертация MapInfo для QGIS <https://toolbox.nextgis.com/t/mapinfo2qgis>`_
+        * `KML в геоданные <https://toolbox.nextgis.com/t/kml2geodata>`_
+        * `Конвертация SXF + RSC в QGIS со стилями <https://toolbox.nextgis.com/t/eeko2qgis>`_

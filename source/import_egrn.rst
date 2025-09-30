@@ -41,5 +41,10 @@
 
 `Пример результата <https://nextgis.ru/data/toolbox/import_egrn/import_egrn_outputs_ru.zip>`_ работы инструмента.
 
+.. seealso::
 
-Для конвертации и других операций с кадастровыми данными вы также можете использовать `конвертер Rosreestr Tools <https://docs.nextgis.ru/docs_rosreestr_tools/source/rr-import.html#>`_.
+   * `Получить геометрию участка по кадастровому номеру <https://toolbox.nextgis.com/t/rosreestr2coord>`_
+   * `Дежурная кадастровая карта <https://toolbox.nextgis.com/t/dezhurcad>`_
+   * `Список КПТ по заданной области <https://toolbox.nextgis.com/t/egrn_kvartals_cover>`_
+   * `DWG в DXF <https://toolbox.nextgis.com/t/import_dwg>`_
+   * Для конвертации и других операций с кадастровыми данными вы также можете использовать `конвертер Rosreestr Tools <https://docs.nextgis.ru/docs_rosreestr_tools/source/rr-import.html#>`_.

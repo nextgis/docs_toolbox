@@ -39,3 +39,9 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/improvedem/improvedem_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/improvedem/improvedem_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Базовое упрощение векторных данных <https://toolbox.nextgis.com/t/polysimplifier>`_
+   * `Продвинутое упрощение векторных данных <https://toolbox.nextgis.com/t/generalization>`_
+   * `Разделить сложные полигоны <https://toolbox.nextgis.com/t/splitcomplex>`_

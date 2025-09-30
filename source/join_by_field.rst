@@ -29,3 +29,7 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/join_by_field/join_by_field_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/join_by_field/join_by_field_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Обновление слоя Веб ГИС из CSV <https://toolbox.nextgis.com/t/update_vector_layer>`_

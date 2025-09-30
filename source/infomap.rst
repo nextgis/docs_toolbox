@@ -47,3 +47,9 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/infomap/infomap_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/infomap/infomap_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Таблица в векторный файл <https://toolbox.nextgis.com/t/table2geo>`_
+   * `Таблица Google/Яндекс в Веб ГИС <https://toolbox.nextgis.com/t/spreadsheet2layer>`_
+   * `Добавление названий АТД и НП в атрибуты <https://toolbox.nextgis.com/t/add_regions>`_

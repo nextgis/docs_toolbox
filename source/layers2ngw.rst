@@ -24,3 +24,6 @@
 
 `Набор исходных данных <https://nextgis.ru/data/toolbox/layers2ngw/layers2ngw_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
+.. seealso::
+
+    * `Векторные слои из Веб ГИС в GeoPackage <https://toolbox.nextgis.com/t/ngw_to_gpkg>`_

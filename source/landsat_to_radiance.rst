@@ -34,3 +34,10 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/landsat_to_radiance/landsat_to_radiance_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/landsat_to_radiance/landsat_to_radiance_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+    * `Расчёт спектрального альбедо объектов по данным Landsat <https://toolbox.nextgis.com/t/landsat_to_reflectance>`_
+    * `Загрузить Landsat Analysis Ready Data (GLAD ARD) <https://toolbox.nextgis.com/t/download_glad>`_
+    * `Нормализованный разностный индекс <https://toolbox.nextgis.com/t/ndi>`_
+    * `Калькулятор растров (GDAL) <https://toolbox.nextgis.com/t/raster_calculator>`_

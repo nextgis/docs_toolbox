@@ -21,3 +21,7 @@
 
 `Пример результата <https://nextgis.ru/data/toolbox/kmldae2footprints/kmldae2footprints_outputs_ru.zip>`_ работы инструмента.
 
+.. seealso::
+
+    * `Обрезать PBF по прямоугольнику <https://toolbox.nextgis.com/t/osmclip_bbox>`_
+    * `Конвертация облака точек в тайлсет <https://toolbox.nextgis.com/t/pointcloud2tileset>`_

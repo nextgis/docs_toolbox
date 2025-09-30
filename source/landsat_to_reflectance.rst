@@ -29,3 +29,9 @@
 
 `Пример результата <https://nextgis.ru/data/toolbox/landsat_to_reflectance/landsat_to_reflectance_outputs_ru.zip>`_ работы инструмента.
 
+.. seealso::
+
+    * `Радиометрическая калибровка данных Landsat <https://toolbox.nextgis.com/t/landsat_to_radiance>`_
+    * `Загрузить Landsat Analysis Ready Data (GLAD ARD) <https://toolbox.nextgis.com/t/download_glad>`_
+    * `Нормализованный разностный индекс <https://toolbox.nextgis.com/t/ndi>`_
+    * `Калькулятор растров (GDAL) <https://toolbox.nextgis.com/t/raster_calculator>`_

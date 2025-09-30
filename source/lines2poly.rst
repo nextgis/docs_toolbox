@@ -35,3 +35,7 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/lines2poly/lines2poly_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/lines2poly/lines2poly_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Полигоны из линий и точек по времени <https://toolbox.nextgis.com/t/lines2polygons>`_

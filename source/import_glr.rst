@@ -48,3 +48,10 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/import_glr/import_glr_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/import_glr/import_glr_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Каталог учетных номеров <https://toolbox.nextgis.com/t/plk_catalog>`_
+   * `rosreestr2coords <https://toolbox.nextgis.com/t/rosreestr2coords>`_
+   * `Конвертация данных ЕГРН <https://toolbox.nextgis.com/t/import_egrn>`_
+   * `Конвертация XML: Лесная декларация <https://toolbox.nextgis.com/t/xml_decl_to_vector>`_

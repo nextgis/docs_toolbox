@@ -21,3 +21,8 @@
 
 `Пример результата <https://nextgis.ru/data/toolbox/intersect_layers/intersect_layers_outputs_ru.zip>`_ работы инструмента.
 
+.. seealso::
+
+    * `Пересекатор <https://toolbox.nextgis.com/t/ngw_intersect>`_
+    * `Пересечение полигонов <https://toolbox.nextgis.com/t/vectorclip>`_
+    * `Удалить области пересечения из слоя <https://toolbox.nextgis.com/t/eraser>`_

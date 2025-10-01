@@ -38,3 +38,10 @@ Download `input dataset <https://nextgis.com/data/toolbox/download_and_prepare_l
 Get the `output <https://nextgis.com/data/toolbox/download_and_prepare_l8_s2/download_and_prepare_l8_s2_outputs.zip>`_ to additionally check the results.
 
 .. note:: You can download previews of the scenes using the gool `Sentinel-2 scenes to GPKG <https://toolbox.nextgis.com/t/s2_search>`_ to determine for which of them to download the full raster images.
+
+.. admonition:: Related tools
+
+   * `Sentinel-2 scenes to GPKG <https://toolbox.nextgis.com/t/s2_search>`_
+   * `Normalized difference index <https://toolbox.nextgis.com/t/ndi>`_
+   * `Image clustering <https://toolbox.nextgis.com/t/image_clustering>`_
+   * `Generate tileset from raster <https://toolbox.nextgis.com/t/raster2tiles>`_

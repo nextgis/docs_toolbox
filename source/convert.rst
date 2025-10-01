@@ -25,3 +25,10 @@ Launch the tool: https://toolbox.nextgis.com/t/convert
 Download `input dataset <https://nextgis.com/data/toolbox/convert/convert_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/convert/convert_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Reprojecting coordinates <https://toolbox.nextgis.com/t/coord_recalc>`_
+   * `Check geometries <https://toolbox.nextgis.com/t/check_geometries>`_
+   * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata>`_
+   * `MapInfo ready for QGIS <https://toolbox.nextgis.com/t/mapinfo2qgis>`_

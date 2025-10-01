@@ -31,3 +31,7 @@ Launch the tool: https://toolbox.nextgis.com/t/centroid2attr
 Download `input dataset <https://nextgis.com/data/toolbox/centroid2attr/centroid2attr_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/centroid2attr/centroid2attr_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Central lines of polygons <https://toolbox.nextgis.com/t/centerline>`_

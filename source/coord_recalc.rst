@@ -22,3 +22,8 @@ Launch the tool: https://toolbox.nextgis.com/t/coord_recalc
 Download `input dataset <https://nextgis.com/data/toolbox/coord_recalc/coord_recalc_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/coord_recalc/coord_recalc_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Convert format of vector layer <https://toolbox.nextgis.com/t/convert>`_
+   * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata>`_

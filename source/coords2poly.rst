@@ -29,3 +29,7 @@ Example:
 `Input data set <https://nextgis.ru/data/toolbox/coords2poly/coords2poly_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
 
 `Result example <https://nextgis.ru/data/toolbox/coords2poly/coords2poly_outputs.zip>`_ of the tool run.
+
+.. admonition:: Related tools
+
+   * `Change attributes in the layer group <https://toolbox.nextgis.com/t/explication2poly>`_

@@ -31,3 +31,7 @@ Launch the tool: https://toolbox.nextgis.com/t/demInPoints
 Download `input dataset <https://nextgis.com/data/toolbox/deminpoints/deminpoints_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/deminpoints/deminpoints_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Improve DEM <https://toolbox.nextgis.com/t/improvedem>`_

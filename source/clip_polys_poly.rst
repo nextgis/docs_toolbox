@@ -22,3 +22,8 @@ Launch the tool: https://toolbox.nextgis.com/t/clip_polys_poly
 **Try the tool in action by downloading our example:**
 
 `Input data set <https://nextgis.ru/data/toolbox/clip_polys_poly/clip_polys_poly_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
+
+.. admonition:: Related tools
+
+   * `Intersector <https://toolbox.nextgis.com/t/ngw_intersect>`_
+   * `Polygon intersection <https://toolbox.nextgis.com/t/vectorclip>`_

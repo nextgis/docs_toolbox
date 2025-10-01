@@ -26,3 +26,8 @@ Launch the tool: https://toolbox.nextgis.com/t/centerline
 Download `input dataset <https://nextgis.com/data/toolbox/centerline/centerline_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/centerline/centerline_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Calculate max distance between polygon nodes <https://toolbox.nextgis.com/t/maxdist>`_
+   * `Point inside polygon coordinates <https://toolbox.nextgis.com/t/centroid2attr>`_

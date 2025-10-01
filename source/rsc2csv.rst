@@ -24,6 +24,3 @@
 
 `Пример результата <https://nextgis.ru/data/toolbox/rsc2csv/rsc2csv_outputs_ru.zip>`_ работы инструмента.
 
-.. seealso::
-
-   * `Конвертация SXF + RSC в QGIS со стилями <https://toolbox.nextgis.com/t/eeko2qgis>`_

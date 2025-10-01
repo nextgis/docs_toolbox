@@ -24,4 +24,3 @@
     * `Конвертация векторных слоев <https://toolbox.nextgis.com/t/convert>`_
     * `DWG в DXF <https://toolbox.nextgis.com/t/import_dwg>`_
     * `KML в геоданные <https://toolbox.nextgis.com/t/kml2geodata>`_
-    * `Конвертация SXF + RSC в QGIS со стилями <https://toolbox.nextgis.com/t/eeko2qgis>`_

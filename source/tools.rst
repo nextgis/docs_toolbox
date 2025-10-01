@@ -30,7 +30,6 @@ Tools
    generalization
    geocodetable
    geometry_changer
-   spreadsheet2layer
    gpx2exif
    gpxclipbbox
    gpxdailysplit
@@ -70,9 +69,9 @@ Tools
    postal
    predict_overpass
    prepare_raster
-   qgis2pdf
    qgis_check_geometries
    qgis_multiparttosingleparts
+   qgis2pdf
    quadro
    r_mapcalc
    raster_calculator
@@ -80,10 +79,11 @@ Tools
    removecontents
    s2_search
    spatial_join
-   splitcomplex
    split_to_equal
    split_to_rect
    split180
+   splitcomplex
+   spreadsheet2layer
    table2geo
    temporal_split
    tropomi2geotiff
@@ -92,4 +92,5 @@ Tools
    vectorclip
    web_gis_structure
    webmap2qgis
+
 

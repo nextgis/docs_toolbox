@@ -39,3 +39,8 @@ View the results on an interactive map: https://demo.nextgis.com/resource/4582/d
 Download `input dataset <https://nextgis.com/data/toolbox/quadro/quadro_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/quadro/quadro_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Create forestplots scheme for Garmin <https://toolbox.nextgis.com/t/forestplots_field>`_
+   * `Meter grid <https://toolbox.nextgis.com/t/grid>`_

@@ -36,3 +36,8 @@ Launch the tool: https://toolbox.nextgis.com/t/qgis_rastertiles
 
 `Result example <https://nextgis.ru/data/toolbox/qgis_rastertiles/qgis_rastertiles_outputs.zip>`_ of the tool run.
 
+.. admonition:: Related tools
+
+   * `Generate vector tiles from QGIS project <https://toolbox.nextgis.com/t/qgis_vectortiles>`_
+   * `Generate tileset from raster <https://toolbox.nextgis.com/t/raster2tiles>`_
+   * `Converting a QGIS project to PDF <https://toolbox.nextgis.com/t/qgis2pdf>`_

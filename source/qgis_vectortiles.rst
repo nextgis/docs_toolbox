@@ -21,3 +21,9 @@ Launch the tool: https://toolbox.nextgis.com/t/qgis_vectortiles
 `Input data set <https://nextgis.ru/data/toolbox/qgis_vectortiles/qgis_vectortiles_inputs.zip>`_ to test the tool. Step-by-step instructions included.
 
 `Result example <https://nextgis.ru/data/toolbox/qgis_vectortiles/qgis_vectortiles_outputs.zip>`_ of the tool run.
+
+.. admonition:: Related tools
+
+   * `Generate raster tiles from QGIS project <https://toolbox.nextgis.com/t/qgis_rastertiles>`_
+   * `Generate tileset from raster <https://toolbox.nextgis.com/t/raster2tiles>`_
+   * `Converting a QGIS project to PDF <https://toolbox.nextgis.com/t/qgis2pdf>`_

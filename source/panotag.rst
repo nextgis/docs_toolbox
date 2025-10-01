@@ -43,3 +43,8 @@ Example:
 `Input data set <https://nextgis.ru/data/toolbox/panotag/panotag_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
 
 `Result example <https://nextgis.ru/data/toolbox/panotag/panotag_outputs.zip>`_ of the tool run.
+
+.. admonition:: Related tools
+
+   * `Geotag photos using GPX track <https://toolbox.nextgis.com/t/gpx2exif>`_
+   * `Photos with EXIF to NGW layer <https://toolbox.nextgis.com/t/exif2resource>`_

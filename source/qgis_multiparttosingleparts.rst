@@ -32,3 +32,7 @@ Launch the tool: https://toolbox.nextgis.com/t/qgis_multiparttosingleparts
 Download `input dataset <https://nextgis.com/data/toolbox/qgis_multiparttosingleparts/qgis_multiparttosingleparts_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/qgis_multiparttosingleparts/qgis_multiparttosingleparts_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Strip ZM from a vector layer <https://toolbox.nextgis.com/t/flatten>`_

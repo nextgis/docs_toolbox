@@ -24,3 +24,7 @@ Launch the tool: https://toolbox.nextgis.com/t/postal
 Download `input dataset <https://nextgis.com/data/toolbox/postal/postal_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/postal/postal_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Geocode a table <https://toolbox.nextgis.com/t/geocodetable>`_

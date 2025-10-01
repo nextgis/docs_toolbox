@@ -30,3 +30,8 @@ Example:
 `Input data set <https://nextgis.ru/data/toolbox/qgis_check_geometries/qgis_check_geometries_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
 
 `Result example <https://nextgis.ru/data/toolbox/qgis_check_geometries/qgis_check_geometries_outputs.zip>`_ of the tool run.
+
+.. admonition:: Related tools
+
+   * `Fix geometries (QGIS) <https://toolbox.nextgis.com/t/qgis_fix_geometries>`_
+   * `Fix geometries <https://toolbox.nextgis.com/t/fix_geometries>`_

@@ -19,3 +19,7 @@ Launch the tool: https://toolbox.nextgis.com/t/pointcloud2tileset
 Download `input dataset <https://nextgis.com/data/toolbox/pointcloud2tileset/pointcloud2tileset_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/pointcloud2tileset/pointcloud2tileset_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Projection (Dae, Collada) to Shapefile <https://toolbox.nextgis.com/t/kmldae2footprints>`_

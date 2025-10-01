@@ -43,3 +43,7 @@ Launch the tool: https://toolbox.nextgis.com/t/geometry_changer
 Download `input dataset <https://nextgis.com/data/toolbox/geometry_changer/geometry_changer_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/geometry_changer/geometry_changer_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `field_value_changer <https://toolbox.nextgis.com/t/field_value_changer>`_

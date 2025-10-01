@@ -18,3 +18,6 @@ Launch the tool: https://toolbox.nextgis.com/t/hello
 
 Download `step-by-step instructions <https://nextgis.com/data/toolbox/hello/hello_inputs.zip>`_ to test the instrument.
 
+.. admonition:: Related tools
+
+   * `geospatial_input_explainer <https://toolbox.nextgis.com/t/geospatial_input_explainer>`_

@@ -32,3 +32,7 @@ Launch the tool: https://toolbox.nextgis.com/t/field_value_changer
 Download `input dataset <https://nextgis.com/data/toolbox/field_value_changer/field_value_changer_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/field_value_changer/field_value_changer_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Change geometry for a group of layers <https://toolbox.nextgis.com/t/geometry_changer>`_

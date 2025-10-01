@@ -22,3 +22,8 @@ Launch instrument: https://toolbox.nextgis.com/t/gpx2exif
 Download `input dataset <https://nextgis.com/data/toolbox/gpx2exif/gpx2exif_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/gpx2exif/gpx2exif_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Merge GPX files <https://toolbox.nextgis.com/t/gpxmerge>`_
+   * `Photos with EXIF to NGW layer <https://toolbox.nextgis.com/t/exif2resource>`_

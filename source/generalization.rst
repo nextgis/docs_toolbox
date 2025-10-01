@@ -41,3 +41,8 @@ Download `input dataset <https://nextgis.com/data/toolbox/generalization/general
 Get the `output <https://nextgis.com/data/toolbox/generalization/generalization_outputs.zip>`_ to additionally check the results.
 
 
+.. admonition:: Related tools
+
+   * `Polygons topological simplifier <https://toolbox.nextgis.com/t/polysimplifier>`_
+   * `Improve DEM <https://toolbox.nextgis.com/t/improvedem>`_
+   * `Split Complex Polygons <https://toolbox.nextgis.com/t/splitcomplex>`_

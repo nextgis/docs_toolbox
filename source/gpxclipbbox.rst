@@ -35,3 +35,9 @@ Example:
 `Input data set <https://nextgis.ru/data/toolbox/gpxclipbbox/gpxclipbbox_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
 
 `Result example <https://nextgis.ru/data/toolbox/gpxclipbbox/gpxclipbbox_outputs.zip>`_ of the tool run.
+
+.. admonition:: Related tools
+
+   * `Split GPX file by days <https://toolbox.nextgis.com/t/gpxdailysplit>`_
+   * `Merge GPX files <https://toolbox.nextgis.com/t/gpxmerge>`_
+   * `Statistics of points and tracks in polygons from NGW <https://toolbox.nextgis.com/t/points_on_tracks_stats>`_

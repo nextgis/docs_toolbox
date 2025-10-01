@@ -35,3 +35,9 @@ Launch instrument: https://toolbox.nextgis.com/t/gpxmerge
 Download `input dataset <https://nextgis.com/data/toolbox/gpxmerge/gpxmerge_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/gpxmerge/gpxmerge_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Clip GPX file by bounding box <https://toolbox.nextgis.com/t/gpxclipbbox>`_
+   * `Split GPX file by days <https://toolbox.nextgis.com/t/gpxdailysplit>`_
+   * `Statistics of points and tracks in polygons from NGW <https://toolbox.nextgis.com/t/points_on_tracks_stats>`_

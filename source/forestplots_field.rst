@@ -27,3 +27,10 @@ Launch the tool: https://toolbox.nextgis.com/t/forestplots_field
 Download `input dataset <https://nextgis.com/data/toolbox/forestplots_field/forestplots_field_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/tolbox/forestplots_field/forestplots_field_outputs.zip>`_ to additionally check the results."
+
+.. admonition:: Related tools
+
+   * `Generate a set of squares with transects <https://toolbox.nextgis.com/t/quadro>`_
+   * `Coordinates to polygon <https://toolbox.nextgis.com/t/coords2poly>`_
+   * `Geotag photos using GPX track <https://toolbox.nextgis.com/t/gpx2exif>`_
+   * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata>`_

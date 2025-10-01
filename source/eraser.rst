@@ -27,3 +27,8 @@ Launch the tool: https://toolbox.nextgis.com/t/eraser
 `Input data set <https://nextgis.ru/data/toolbox/eraser/eraser_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
 
 `Result example <https://nextgis.ru/data/toolbox/eraser/eraser_outputs.zip>`_ of the tool run.
+
+.. admonition:: Related tools
+
+   * `Polygon intersection <https://toolbox.nextgis.com/t/vectorclip>`_
+   * `Intersect layers <https://toolbox.nextgis.com/t/intersect_layers>`_

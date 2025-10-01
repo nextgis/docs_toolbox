@@ -42,3 +42,7 @@ Result on the web map: https://demo.nextgis.com/resource/5950/display?panel=info
 
 Download `input dataset <https://nextgis.com/data/toolbox/exif2resource/exif2resource_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
+.. admonition:: Related tools
+
+   * `Geotag photos using GPX track <https://toolbox.nextgis.com/t/gpx2exif>`_
+   * `Add Google Photosphere XMP metadata to photos <https://toolbox.nextgis.com/t/panotag>`_

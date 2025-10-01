@@ -81,3 +81,7 @@ Launch the tool: https://toolbox.nextgis.com/t/grid
 Download `input dataset <https://nextgis.com/data/toolbox/grid/grid_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/grid/grid_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Generate a set of squares with transects <https://toolbox.nextgis.com/t/quadro>`_

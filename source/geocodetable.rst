@@ -27,3 +27,8 @@ Outputs:
 *  CSV file, containing two additional columns with latitude and longitude besides original data.
 
 
+.. admonition:: Related tools
+
+   * `Table to vector file <https://toolbox.nextgis.com/t/table2geo>`_
+   * `Google Sheets to Web GIS <https://toolbox.nextgis.com/t/spreadsheet2layer>`_
+   * `Address parser from CSV <https://toolbox.nextgis.com/t/postal>`_

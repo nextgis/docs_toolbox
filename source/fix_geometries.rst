@@ -32,3 +32,8 @@ Launch the tool: https://toolbox.nextgis.com/t/fix_geometries
 `Input data set <https://nextgis.ru/data/toolbox/fix_geometries/fix_geometries_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
 
 `Result example <https://nextgis.ru/data/toolbox/fix_geometries/fix_geometries_outputs.zip>`_ of the tool run.
+
+.. admonition:: Related tools
+
+   * `Check geometries <https://toolbox.nextgis.com/t/check_geometries>`_
+   * `Check geometries (QGIS) <https://toolbox.nextgis.com/t/qgis_check_geometries>`_

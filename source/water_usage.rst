@@ -24,3 +24,9 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/water_usage/water_usage_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/water_usage/water_usage_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Конвертация выписок ГЛР <https://toolbox.nextgis.com/t/import_glr>`_
+   * `Конвертация данных о захоронении грунтов <https://toolbox.nextgis.com/t/grunt>`_
+   * `Центральные линии полигонов <https://toolbox.nextgis.com/t/centerline>`_

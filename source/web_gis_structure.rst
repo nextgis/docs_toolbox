@@ -46,3 +46,7 @@
 
 `Пример результата <https://nextgis.ru/data/toolbox/web_gis_structure/web_gis_structure_outputs_ru.zip>`_ работы инструмента.
 
+.. seealso::
+
+   * `Веб-карта в проект QGIS <https://toolbox.nextgis.com/t/webmap2qgis>`_
+   * `Векторные слои из Веб ГИС в GeoPackage <https://toolbox.nextgis.com/t/ngw_to_gpkg>`_

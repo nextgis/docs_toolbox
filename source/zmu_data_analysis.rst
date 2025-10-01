@@ -52,3 +52,7 @@
 
 `Пример результата <https://nextgis.ru/data/toolbox/zmu_data_analysis/zmu_data_analysis_outputs_ru.zip>`_ работы инструмента.
 
+.. seealso::
+
+   * `Генератор набора квадратов <https://toolbox.nextgis.com/t/quadro>`_
+   * `Статистика по точкам и трекам в полигонах из NGW <https://toolbox.nextgis.com/t/points_on_tracks_stats>`_

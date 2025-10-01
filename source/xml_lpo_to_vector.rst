@@ -33,12 +33,7 @@
 
 .. seealso::
 
-   Попробуйте также другие инструменты конвертации XML:
-
-   `Лесная декларация <https://toolbox.nextgis.com/t/xml_decl_to_vector>`_
-
-   `Проект лесовосстановления <https://toolbox.nextgis.com/t/xml_plv_to_vector>`_
-
-   `Таксационное описание лесосеки <https://toolbox.nextgis.com/t/xml_tol_to_vector>`_
-
-   `Конвертация выписок ГЛР <https://toolbox.nextgis.com/t/import_glr>`_
+   * `Конвертация XML: Таксационное описание лесосеки <https://toolbox.nextgis.com/t/xml_tol_to_vector>`_
+   * `Каталог учетных номеров <https://toolbox.nextgis.com/t/plk_catalog>`_
+   * `Абрис лесосеки: каталог координат в геоданные <https://toolbox.nextgis.com/t/coords2poly>`_
+   * `Подготовка и скачивание данных Sentinel-2 <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_

@@ -27,3 +27,8 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/webmap2qgis/webmap2qgis_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/webmap2qgis/webmap2qgis_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Векторные слои из Веб ГИС в GeoPackage <https://toolbox.nextgis.com/t/ngw_to_gpkg>`_
+   * `Структура Веб ГИС в таблицу <https://toolbox.nextgis.com/t/web_gis_structure>`_

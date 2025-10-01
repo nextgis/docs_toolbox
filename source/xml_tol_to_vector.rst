@@ -29,3 +29,10 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/xml_tol_to_vector/xml_tol_to_vector_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/xml_tol_to_vector/xml_tol_to_vector_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Конвертация XML: Лесная декларация <https://toolbox.nextgis.com/t/xml_decl_to_vector>`_
+   * `Каталог учетных номеров <https://toolbox.nextgis.com/t/plk_catalog>`_
+   * `Абрис лесосеки: каталог координат в геоданные <https://toolbox.nextgis.com/t/coords2poly>`_
+   * `Подготовка и скачивание данных Sentinel-2 <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_

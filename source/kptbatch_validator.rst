@@ -27,4 +27,3 @@
     * `Список КПТ по заданной области <https://toolbox.nextgis.com/t/egrn_kvartals_cover>`_
     * `Конвертация данных ЕГРН <https://toolbox.nextgis.com/t/import_egrn>`_
     * `Дежурная кадастровая карта <https://toolbox.nextgis.com/t/dezhurcad>`_
-    * `rosreestr2coords <https://toolbox.nextgis.com/t/rosreestr2coords>`_

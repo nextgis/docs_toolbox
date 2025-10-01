@@ -23,6 +23,6 @@
 .. seealso::
 
    * `Проверить набор КПТ (Кадастровый план территории) <https://toolbox.nextgis.com/t/kptbatch_validator>`_
-    * `Конвертация данных ЕГРН <https://toolbox.nextgis.com/t/import_egrn>`_
-    * `Дежурная кадастровая карта <https://toolbox.nextgis.com/t/dezhurcad>`_
-    * `rosreestr2coords <https://toolbox.nextgis.com/t/rosreestr2coords>`_
+   * `Конвертация данных ЕГРН <https://toolbox.nextgis.com/t/import_egrn>`_
+   * `Дежурная кадастровая карта <https://toolbox.nextgis.com/t/dezhurcad>`_
+   * `rosreestr2coords <https://toolbox.nextgis.com/t/rosreestr2coords>`_

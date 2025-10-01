@@ -35,7 +35,3 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/qgis2pdf/qgis2pdf_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/qgis2pdf/qgis2pdf_outputs_ru.zip>`_ работы инструмента.
-
-.. seealso::
-
-   * `PDF с картой из hardcoded OSM PostGIS по охвату и размеру бумаги <https://toolbox.nextgis.com/t/pdf2data>`_

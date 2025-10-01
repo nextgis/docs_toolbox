@@ -35,5 +35,5 @@
 
 .. seealso::
 
-   * `operation/clip_polys_poly <https://toolbox.nextgis.com/t/operation/clip_polys_poly>`_
+   * `Площади пересечений вне/внутри границ <https://toolbox.nextgis.com/t/operation/clip_polys_poly>`_
    * `Пересечение полигонов <https://toolbox.nextgis.com/t/vectorclip>`_

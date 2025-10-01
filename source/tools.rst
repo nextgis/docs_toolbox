@@ -23,8 +23,6 @@
    dezhurcad
    panotag
    add_regions
-   add_lesobject_table
-   add_lesobject_layer
    gpx2exif
    ngw_copy_layer
    embedsvg
@@ -54,8 +52,6 @@
    qgis2pdf
    centroid2attr
    lesis2sqlite
-   forestdeclaration2
-   compile_forest_declaration
    maxdist
    ngw_contribution_activity
    qgis_multiparttosingleparts
@@ -83,7 +79,6 @@
    clip_polys_poly
    vector2datalens
    prepare_raster
-   les_remote_sensing
    download_and_prepare_l8_s2
    crossing_borders
    split_to_rect

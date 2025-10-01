@@ -17,6 +17,7 @@
    ngw_to_gpkg
    qgis_vectortiles
    qgis_rastertiles
+   grid
    cadastre2img
    ai2geo
    geocodetable
@@ -53,14 +54,8 @@
    centroid2attr
    lesis2sqlite
    maxdist
-   ngw_contribution_activity
-   qgis_multiparttosingleparts
-   splitcomplex
-   gpxdailysplit
-   infomap
    quadro
    temporal_split
-   split180
    ndi
    update_vector_layer
    gpxclipbbox
@@ -88,19 +83,23 @@
    lines2polygons
    ngw_feature_history
    rosreestr2coord
+   ngw_contribution_activity
    hello
    kptbatch_validator
    check_geometries
    qgis_check_geometries
    predict_overpass
    generalization
-   polysimplifier
    kmldae2footprints
    spatial_join
-   landsat_to_radiance
    split_to_equal
+   qgis_multiparttosingleparts
+   splitcomplex
+   gpxdailysplit
+   split180
+   infomap
+   landsat_to_radiance
    landsat_to_reflectance
-   grid
    lines2poly
    forestplots_field
    raster2tiles
@@ -114,6 +113,7 @@
    eraser
    removecontents
    improvedem
+   polysimplifier
    exif2resource
    centerline
    explication2poly

@@ -41,3 +41,9 @@ Cцены Sentinel-2 в GPKG
 
 `Пример результата <https://nextgis.ru/data/toolbox/s2_search/s2_search_outputs_ru.zip>`_ работы инструмента.
 
+.. seealso::
+
+   * `Подготовка и скачивание данных Sentinel-2 <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_
+   * `Поиск снимков Sentinel через Copernicus <https://toolbox.nextgis.com/t/imagesearch>`_
+   * `Нормализованный разностный индекс <https://toolbox.nextgis.com/t/ndi>`_
+   * `Кластеризация изображений <https://toolbox.nextgis.com/t/image_clustering>`_

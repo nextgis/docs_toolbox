@@ -42,3 +42,7 @@
 
 `Пример результата <https://nextgis.ru/data/toolbox/update_vector_layer/update_vector_layer_outputs_ru.zip>`_ работы инструмента.
 
+.. seealso::
+
+   * `Объединение слоя и таблицы по полю <https://toolbox.nextgis.com/t/join_by_field>`_
+   * `Пространственное объединение <https://toolbox.nextgis.com/t/spatial_join>`_

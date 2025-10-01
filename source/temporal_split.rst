@@ -26,3 +26,7 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/temporal_split/temporal_split_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/temporal_split/temporal_split_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Полигоны из линий и точек по времени <https://toolbox.nextgis.com/t/lines2polygons>`_

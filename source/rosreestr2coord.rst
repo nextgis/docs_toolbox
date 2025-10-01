@@ -17,3 +17,10 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/rosreestr2coord/rosreestr2coord_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/rosreestr2coord/rosreestr2coord_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Поиск по кадастровым номерам <https://toolbox.nextgis.com/t/cadnums_to_geodata>`_
+   * `Генерация изображения кадастрового участка по номеру <https://toolbox.nextgis.com/t/cadastre2img>`_
+   * `Конвертация данных ЕГРН <https://toolbox.nextgis.com/t/import_egrn>`_
+   * `Список КПТ по заданной области <https://toolbox.nextgis.com/t/egrn_kvartals_cover>`_

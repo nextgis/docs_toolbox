@@ -33,3 +33,9 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/raster2tiles/raster2tiles_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/raster2tiles/raster2tiles_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Генерация растровых тайлов из проекта QGIS <https://toolbox.nextgis.com/t/qgis_rastertiles>`_
+   * `Конвертация облака точек в тайлсет <https://toolbox.nextgis.com/t/pointcloud2tileset>`_
+   * `Генерация векторных тайлов из проекта QGIS <https://toolbox.nextgis.com/t/qgis_vectortiles>`_

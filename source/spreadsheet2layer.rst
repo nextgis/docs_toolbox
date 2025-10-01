@@ -47,3 +47,7 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/spreadsheet2layer/spreadsheet2layer_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/spreadsheet2layer/spreadsheet2layer_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Таблица в векторный файл <https://toolbox.nextgis.com/t/table2geo>`_

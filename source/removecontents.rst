@@ -25,3 +25,8 @@
 
 `Набор исходных данных <https://nextgis.ru/data/toolbox/removecontents/removecontents_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
+.. seealso::
+
+   * `Объединить два векторных слоя в Веб ГИС <https://toolbox.nextgis.com/t/ngw_merge_layers>`_
+   * `Дублировать векторный слой nextgis.com <https://toolbox.nextgis.com/t/ngw_copy_layer>`_
+   * `Векторные слои из архива в Веб ГИС <https://toolbox.nextgis.com/t/layers2ngw>`_

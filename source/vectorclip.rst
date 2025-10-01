@@ -37,3 +37,9 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/vectorclip/vectorclip_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/vectorclip/vectorclip_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Пересекатор <https://toolbox.nextgis.com/t/ngw_intersect>`_
+   * `Пересечение слоёв <https://toolbox.nextgis.com/t/intersect_layers>`_
+   * `Удалить области пересечения из слоя <https://toolbox.nextgis.com/t/eraser>`_

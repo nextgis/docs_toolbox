@@ -22,3 +22,8 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/split_to_rect/split_to_rect_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/split_to_rect/split_to_rect_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Генератор набора квадратов <https://toolbox.nextgis.com/t/quadro>`_
+   * `Сетка в метрах <https://toolbox.nextgis.com/t/grid>`_

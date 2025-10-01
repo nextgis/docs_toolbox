@@ -30,3 +30,7 @@
 
 `Пример результата <https://nextgis.ru/data/toolbox/split_to_equal/split_to_equal_outputs_ru.zip>`_ работы инструмента.
 
+.. seealso::
+
+   * `Сетка в метрах <https://toolbox.nextgis.com/t/grid>`_
+   * `Генератор набора квадратов <https://toolbox.nextgis.com/t/quadro>`_

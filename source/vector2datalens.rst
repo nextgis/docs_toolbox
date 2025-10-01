@@ -28,3 +28,8 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/vector2datalens/vector2datalens_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/vector2datalens/vector2datalens_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Мультигеометрии в простые геометрии <https://toolbox.nextgis.com/t/qgis_multiparttosingleparts>`_
+   * `KML в геоданные <https://toolbox.nextgis.com/t/kml2geodata>`_

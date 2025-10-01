@@ -20,3 +20,10 @@
 `Набор исходных данных <https://nextgis.ru/data/toolbox/table2geo/table2geo_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
 
 `Пример результата <https://nextgis.ru/data/toolbox/table2geo/table2geo_outputs_ru.zip>`_ работы инструмента.
+
+.. seealso::
+
+   * `Таблица Google/Яндекс в Веб ГИС <https://toolbox.nextgis.com/t/spreadsheet2layer>`_
+   * `Абрис лесосеки: каталог координат в геоданные <https://toolbox.nextgis.com/t/coords2poly>`_
+   * `Абрис лесосеки: экспликация (промеры) в геоданные <https://toolbox.nextgis.com/t/explication2poly>`_
+   * `Объединение слоя и таблицы по полю <https://toolbox.nextgis.com/t/join_by_field>`_

@@ -22,3 +22,8 @@ Launch the tool: https://toolbox.nextgis.com/t/split_to_rect
 `Input data set <https://nextgis.ru/data/toolbox/split_to_rect/split_to_rect_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
 
 `Result example <https://nextgis.ru/data/toolbox/split_to_rect/split_to_rect_outputs.zip>`_ of the tool run.
+
+.. admonition:: Related tools
+
+   * `Generate a set of squares with transects <https://toolbox.nextgis.com/t/quadro>`_
+   * `Meter grid <https://toolbox.nextgis.com/t/grid>`_

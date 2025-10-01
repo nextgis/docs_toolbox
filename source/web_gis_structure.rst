@@ -66,3 +66,8 @@ Launch the tool: https://toolbox.nextgis.com/t/web_gis_structure
 Download `input dataset <https://nextgis.com/data/toolbox/web_gis_structure/web_gis_structure_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/web_gis_structure/web_gis_structure_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Web Map into QGIS project <https://toolbox.nextgis.com/t/webmap2qgis>`_
+   * `Vector layers from Web GIS to GeoPackage <https://toolbox.nextgis.com/t/ngw_to_gpkg>`_

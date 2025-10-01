@@ -33,3 +33,10 @@ Launch the tool: https://toolbox.nextgis.com/t/splitcomplex
 `Input data set <https://nextgis.ru/data/toolbox/splitcomplex/splitcomplex_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
 
 `Result example <https://nextgis.ru/data/toolbox/splitcomplex/splitcomplex_outputs.zip>`_ of the tool run.
+
+.. admonition:: Related tools
+
+   * `Polygons topological simplifier <https://toolbox.nextgis.com/t/polysimplifier>`_
+   * `Split into equal parts <https://toolbox.nextgis.com/t/split_to_equal>`_
+   * `Advanced vector generalization <https://toolbox.nextgis.com/t/generalization>`_
+   * `Split data by 180 degrees <https://toolbox.nextgis.com/t/split180>`_

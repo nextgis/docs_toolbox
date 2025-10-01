@@ -29,3 +29,10 @@ Launch the tool: https://toolbox.nextgis.com/t/r_mapcalc
 Download `input dataset <https://nextgis.com/data/toolbox/r_mapcalc/r_mapcalc_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/r_mapcalc/r_mapcalc_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Raster calculator (GDAL) <https://toolbox.nextgis.com/t/raster_calculator>`_
+   * `Prepare raster <https://toolbox.nextgis.com/t/prepare_raster>`_
+   * `Image clustering <https://toolbox.nextgis.com/t/image_clustering>`_
+   * `Prepare and download Sentinel-2 data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_

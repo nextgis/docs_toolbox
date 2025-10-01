@@ -36,3 +36,7 @@ Launch the tool: https://toolbox.nextgis.com/t/spreadsheet2layer
 Download `input dataset <https://nextgis.com/data/toolbox/spreadsheet2layer/spreadsheet2layer_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/spreadsheet2layer/spreadsheet2layer_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Table to vector file <https://toolbox.nextgis.com/t/table2geo>`_

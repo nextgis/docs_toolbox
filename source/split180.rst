@@ -31,3 +31,8 @@ Launch the tool: https://toolbox.nextgis.com/t/split180
 Download `input dataset <https://nextgis.com/data/toolbox/split180/split180_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/split180/split180_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Split Complex Polygons <https://toolbox.nextgis.com/t/splitcomplex>`_
+   * `Split into equal parts <https://toolbox.nextgis.com/t/split_to_equal>`_

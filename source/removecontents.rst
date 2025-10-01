@@ -26,3 +26,9 @@ Launch the tool: https://toolbox.nextgis.com/t/removecontents
 Download `input dataset <https://nextgis.com/data/toolbox/removecontents/removecontents_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/removecontents/removecontents_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Merge two Web GIS vector layers <https://toolbox.nextgis.com/t/ngw_merge_layers>`_
+   * `Duplicate nextgis.com vector layer <https://toolbox.nextgis.com/t/ngw_copy_layer>`_
+   * `Vector layers from an archive to Web GIS <https://toolbox.nextgis.com/t/layers2ngw>`_

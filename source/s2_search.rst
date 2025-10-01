@@ -38,3 +38,10 @@ Launch instrument: https://toolbox.nextgis.com/t/s2_search
 Download `input dataset <https://nextgis.com/data/toolbox/s2_search/s2_search_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/s2_search/s2_search_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Prepare and download Sentinel-2 data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_
+   * `Copernicus Sentinel image search <https://toolbox.nextgis.com/t/imagesearch>`_
+   * `Normalized difference index <https://toolbox.nextgis.com/t/ndi>`_
+   * `Image clustering <https://toolbox.nextgis.com/t/image_clustering>`_

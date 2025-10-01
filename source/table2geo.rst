@@ -20,3 +20,9 @@ Launch the tool: https://toolbox.nextgis.com/t/table2geo
 Download `input dataset <https://nextgis.com/data/toolbox/table2geo/table2geo_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/table2geo/table2geo_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Google Sheets to Web GIS <https://toolbox.nextgis.com/t/spreadsheet2layer>`_
+   * `Coordinates to polygon <https://toolbox.nextgis.com/t/coords2poly>`_
+   * `Join layer and table by field <https://toolbox.nextgis.com/t/join_by_field>`_

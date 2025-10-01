@@ -21,3 +21,8 @@ Launch the tool: https://toolbox.nextgis.com/t/vector2datalens
 Download `input dataset <https://nextgis.com/data/toolbox/vector2datalens/vector2datalens_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/vector2datalens/vector2datalens_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Multipart to singleparts <https://toolbox.nextgis.com/t/qgis_multiparttosingleparts>`_
+   * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata>`_

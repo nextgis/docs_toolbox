@@ -35,3 +35,8 @@ Launch the tool: https://toolbox.nextgis.com/t/update_vector_layer
 Download `input dataset <https://nextgis.com/data/toolbox/update_vector_layer/update_vector_layer_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/update_vector_layer/update_vector_layer_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Join layer and table by field <https://toolbox.nextgis.com/t/join_by_field>`_
+   * `Spatial Join (Join by location) <https://toolbox.nextgis.com/t/spatial_join>`_

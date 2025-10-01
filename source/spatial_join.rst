@@ -34,3 +34,8 @@ Launch the tool: https://toolbox.nextgis.com/t/spatial_join
 Download `input dataset <https://nextgis.com/data/toolbox/spatial_join/spatial_join_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/spatial_join/spatial_join_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Merge vector layers <https://toolbox.nextgis.com/t/ogrmerge>`_
+   * `Join layer and table by field <https://toolbox.nextgis.com/t/join_by_field>`_

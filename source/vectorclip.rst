@@ -37,3 +37,9 @@ Launch the tool: https://toolbox.nextgis.com/t/vectorclip
 `Input data set <https://nextgis.ru/data/toolbox/vectorclip/vectorclip_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
 
 `Result example <https://nextgis.ru/data/toolbox/vectorclip/vectorclip_outputs.zip>`_ of the tool run.
+
+.. admonition:: Related tools
+
+   * `Intersector <https://toolbox.nextgis.com/t/ngw_intersect>`_
+   * `Intersect layers <https://toolbox.nextgis.com/t/intersect_layers>`_
+   * `Erase overlapping areas from the layer <https://toolbox.nextgis.com/t/eraser>`_

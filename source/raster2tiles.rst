@@ -37,3 +37,9 @@ Example of the tool's work:
 Download `input dataset <https://nextgis.com/data/toolbox/raster2tiles/raster2tiles_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/raster2tiles/raster2tiles_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Generate raster tiles from QGIS project <https://toolbox.nextgis.com/t/qgis_rastertiles>`_
+   * `Convert point cloud into tileset <https://toolbox.nextgis.com/t/pointcloud2tileset>`_
+   * `Generate vector tiles from QGIS project <https://toolbox.nextgis.com/t/qgis_vectortiles>`_

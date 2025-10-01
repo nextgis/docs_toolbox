@@ -46,4 +46,4 @@ Get the `output <https://nextgis.com/data/toolbox/geometry_changer/geometry_chan
 
 .. admonition:: Related tools
 
-   * `field_value_changer <https://toolbox.nextgis.com/t/field_value_changer>`_
+   * `Change attributes in the layer group <https://toolbox.nextgis.com/t/field_value_changer>`_

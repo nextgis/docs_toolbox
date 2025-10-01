@@ -29,3 +29,7 @@ Usage example:
 Download `input dataset <https://nextgis.com/data/toolbox/join_by_field/join_by_field_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/join_by_field/join_by_field_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Update Web GIS layer from CSV <https://toolbox.nextgis.com/t/update_vector_layer>`_

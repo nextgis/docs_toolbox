@@ -19,3 +19,8 @@ https://toolbox.nextgis.com/t/import_dwg
 Download `input dataset <https://nextgis.com/data/toolbox/import_dwg/import_dwg_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/import_dwg/import_dwg_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `MapInfo ready for QGIS <https://toolbox.nextgis.com/t/mapinfo2qgis>`_
+   * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata>`_

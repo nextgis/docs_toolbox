@@ -39,3 +39,9 @@ Launch the tool: https://toolbox.nextgis.com/t/improvedem
 Download `input dataset <https://nextgis.com/data/toolbox/improvedem/improvedem_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/improvedem/improvedem_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Polygons topological simplifier <https://toolbox.nextgis.com/t/polysimplifier>`_
+   * `Advanced vector generalization <https://toolbox.nextgis.com/t/generalization>`_
+   * `Split Complex Polygons <https://toolbox.nextgis.com/t/splitcomplex>`_

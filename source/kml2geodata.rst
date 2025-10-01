@@ -35,3 +35,9 @@ Launch the tool: https://toolbox.nextgis.com/t/kml2geodata
 Download `input dataset <https://nextgis.com/data/toolbox/kml2geodata/kml2geodata_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/kml2geodata/kml2geodata_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Convert format of vector layer <https://toolbox.nextgis.com/t/convert>`_
+   * `MapInfo ready for QGIS <https://toolbox.nextgis.com/t/mapinfo2qgis>`_
+   * `DWG to DXF <https://toolbox.nextgis.com/t/import_dwg>`_

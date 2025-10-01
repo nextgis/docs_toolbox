@@ -20,3 +20,9 @@ Launch the tool: https://toolbox.nextgis.com/t/intersect_layers
 Download `input dataset <https://nextgis.com/data/toolbox/intersect_layers/intersect_layers_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/intersect_layers/intersect_layers_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Intersector <https://toolbox.nextgis.com/t/ngw_intersect>`_
+   * `Polygon intersection <https://toolbox.nextgis.com/t/vectorclip>`_
+   * `Erase overlapping areas from the layer <https://toolbox.nextgis.com/t/eraser>`_

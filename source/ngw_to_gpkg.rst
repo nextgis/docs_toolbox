@@ -27,3 +27,7 @@ Launch the tool: https://toolbox.nextgis.com/t/ngw_to_gpkg
 Download `input dataset <https://nextgis.com/data/toolbox/ngw_to_gpkg/ngw_to_gpkg_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/ngw_to_gpkg/ngw_to_gpkg_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Web Map into QGIS project <https://toolbox.nextgis.com/t/webmap2qgis>`_

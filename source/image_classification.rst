@@ -37,3 +37,10 @@ Launch instrument: https://toolbox.nextgis.com/t/image_classification
 Download `input dataset <https://nextgis.com/data/toolbox/image_classification/image_classification_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/image_classification/image_classification_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Image clustering <https://toolbox.nextgis.com/t/image_clustering>`_
+   * `Normalized difference index <https://toolbox.nextgis.com/t/ndi>`_
+   * `Search and save Sentinel-2 scene previews <https://toolbox.nextgis.com/t/s2_search>`_
+   * `Prepare and download Sentinel-2 data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_

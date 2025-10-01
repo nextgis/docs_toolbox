@@ -18,3 +18,9 @@ Launch the tool: https://toolbox.nextgis.com/t/mapinfo2qgis
 Download `input dataset <https://nextgis.com/data/toolbox/mapinfo2qgis/mapinfo2qgis_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/mapinfo2qgis/mapinfo2qgis_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Convert format of vector layer <https://toolbox.nextgis.com/t/convert>`_
+   * `DWG to DXF <https://toolbox.nextgis.com/t/import_dwg>`_
+   * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata>`_

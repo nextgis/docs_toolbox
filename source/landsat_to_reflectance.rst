@@ -44,3 +44,10 @@ Launch the tool: https://toolbox.nextgis.com/t/landsat_to_reflectance
 Download `input dataset <https://nextgis.com/data/toolbox/landsat_to_reflectance/landsat_to_reflectance_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/landsat_to_reflectance/landsat_to_reflectance_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Landsat radiometric calibration <https://toolbox.nextgis.com/t/landsat_to_radiance>`_
+   * `Landsat Analysis Ready Data (GLAD ARD) download helper <https://toolbox.nextgis.com/t/download_glad>`_
+   * `Normalized difference index <https://toolbox.nextgis.com/t/ndi>`_
+   * `Raster calculator (GDAL) <https://toolbox.nextgis.com/t/raster_calculator>`_

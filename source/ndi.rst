@@ -28,3 +28,10 @@ Launch the tool: https://toolbox.nextgis.com/t/ndi
 Download `input dataset <https://nextgis.com/data/toolbox/ndi/ndi_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/ndi/ndi_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Prepare and download Sentinel-2 data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_
+   * `Search and save Sentinel-2 scene previews <https://toolbox.nextgis.com/t/s2_search>`_
+   * `Landsat reflectance calculation <https://toolbox.nextgis.com/t/landsat_to_reflectance>`_
+   * `Raster calculator (GDAL) <https://toolbox.nextgis.com/t/raster_calculator>`_

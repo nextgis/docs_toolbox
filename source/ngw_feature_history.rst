@@ -34,3 +34,8 @@ Example:
 `Input data set <https://nextgis.ru/data/toolbox/ngw_feature_history/ngw_feature_history_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
 
 `Result example <https://nextgis.ru/data/toolbox/ngw_feature_history/ngw_feature_history_outputs.zip>`_ of the tool run.
+
+.. admonition:: Related tools
+
+   * `Get the contribution activity for the resource <https://toolbox.nextgis.com/t/ngw_contribution_activity>`_
+   * `Web GIS structure into spreadsheet <https://toolbox.nextgis.com/t/web_gis_structure>`_

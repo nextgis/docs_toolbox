@@ -23,3 +23,6 @@ Launch the tool: https://toolbox.nextgis.com/t/layers2ngw
 
 Download `input dataset <https://nextgis.com/data/toolbox/layers2ngw/layers2ngw_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
+.. admonition:: Related tools
+
+   * `Vector layers from Web GIS to GeoPackage <https://toolbox.nextgis.com/t/ngw_to_gpkg>`_

@@ -42,3 +42,10 @@ Launch the tool: https://toolbox.nextgis.com/t/image_clustering
 Download `input dataset <https://nextgis.com/data/toolbox/image_clustering/image_clustering_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/image_clustering/image_clustering_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `Image classification <https://toolbox.nextgis.com/t/image_classification>`_
+   * `Normalized difference index <https://toolbox.nextgis.com/t/ndi>`_
+   * `Search and save Sentinel-2 scene previews <https://toolbox.nextgis.com/t/s2_search>`_
+   * `Prepare and download Sentinel-2 data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_

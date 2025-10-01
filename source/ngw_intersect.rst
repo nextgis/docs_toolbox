@@ -22,3 +22,8 @@ Launch the tool: https://toolbox.nextgis.com/t/ngw-intersect
 Download `input dataset <https://nextgis.com/data/toolbox/ngw_intersect/ngw_intersect_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
 
 Get the `output <https://nextgis.com/data/toolbox/ngw_intersect/ngw_intersect_outputs.zip>`_ to additionally check the results.
+
+.. admonition:: Related tools
+
+   * `operation/clip_polys_poly <https://toolbox.nextgis.com/t/operation/clip_polys_poly>`_
+   * `Polygon intersection <https://toolbox.nextgis.com/t/vectorclip>`_

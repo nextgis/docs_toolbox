@@ -27,3 +27,8 @@ Launch the tool: https://toolbox.nextgis.com/t/ngw_copy_layer
 `Input data set <https://nextgis.ru/data/toolbox/ngw_copy_layer/ngw_copy_layer_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
 
 `Result example <https://nextgis.ru/data/toolbox/ngw_copy_layer/ngw_copy_layer_outputs.zip>`_ of the tool run.
+
+.. admonition:: Related tools
+
+   * `Merge two Web GIS vector layers <https://toolbox.nextgis.com/t/ngw_merge_layers>`_
+   * `Merge vector layers <https://toolbox.nextgis.com/t/ogrmerge>`_

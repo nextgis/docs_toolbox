@@ -43,3 +43,7 @@ Launch the tool: https://toolbox.nextgis.com/t/ngw_merge_layers
 `Input data set <https://nextgis.ru/data/toolbox/ngw_merge_layers/ngw_merge_layers_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
 
 `Result example <https://nextgis.ru/data/toolbox/ngw_merge_layers/ngw_merge_layers_outputs.zip>`_ of the tool run.
+
+.. admonition:: Related tools
+
+   * `Duplicate nextgis.com vector layer <https://toolbox.nextgis.com/t/ngw_copy_layer>`_

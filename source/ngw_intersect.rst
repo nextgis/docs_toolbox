@@ -25,5 +25,4 @@ Get the `output <https://nextgis.com/data/toolbox/ngw_intersect/ngw_intersect_ou
 
 .. admonition:: Related tools
 
-   * `operation/clip_polys_poly <https://toolbox.nextgis.com/t/operation/clip_polys_poly>`_
    * `Polygon intersection <https://toolbox.nextgis.com/t/vectorclip>`_

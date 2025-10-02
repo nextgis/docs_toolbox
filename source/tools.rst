@@ -33,6 +33,7 @@
    field_value_changer
    geometry_changer
    fix_geometries
+   qgis_fix_geometries
    raster_calculator
    r_mapcalc
    plk_catalog

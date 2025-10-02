@@ -28,7 +28,7 @@
 
 Пример работы инструмента:
 
-.. figure:: _static/ngw_contribution_activity_result_ru.png
+.. figure:: _static/ngw_contribution_activity_result_ru_2.png
    :name: ngw_contribution_activity_result_pic
    :align: center
    :width: 16cm

@@ -70,6 +70,7 @@ Tools
    predict_overpass
    prepare_raster
    qgis_check_geometries
+   qgis_fix_geometries
    qgis_multiparttosingleparts
    qgis2pdf
    quadro

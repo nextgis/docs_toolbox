@@ -52,6 +52,6 @@
 .. seealso::
 
    * `Каталог учетных номеров <https://toolbox.nextgis.com/t/plk_catalog>`_
-   * `rosreestr2coords <https://toolbox.nextgis.com/t/rosreestr2coords>`_
+   * `Получить геометрию участка по кадастровому номеру <https://toolbox.nextgis.com/t/rosreestr2coords>`_
    * `Конвертация данных ЕГРН <https://toolbox.nextgis.com/t/import_egrn>`_
    * `Конвертация XML: Лесная декларация <https://toolbox.nextgis.com/t/xml_decl_to_vector>`_

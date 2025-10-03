@@ -35,7 +35,7 @@
 
    <iframe width="560" height="315" src="https://rutube.ru/play/embed/1d37d449fcdb5493823fc037e3b7c3ba/" style="border: none;" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-Посмотреть видео на `rutube <https://rutube.ru/video/1d37d449fcdb5493823fc037e3b7c3ba/>`_.
+Посмотреть видео на `youtube <https://youtu.be/HKwTf1osVYc?si=geWM21y_Bh9bThCy>`_, `rutube <https://rutube.ru/video/1d37d449fcdb5493823fc037e3b7c3ba/>`_.
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

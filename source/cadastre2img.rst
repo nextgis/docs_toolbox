@@ -31,6 +31,12 @@
 
    Пример полученного изображения
 
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/1d37d449fcdb5493823fc037e3b7c3ba/" style="border: none;" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `rutube <https://rutube.ru/video/1d37d449fcdb5493823fc037e3b7c3ba/>`_.
+
 **Попробуйте инструмент в действии, скачав наш пример:**
 
 `Набор исходных данных <https://nextgis.ru/data/toolbox/cadastre2img/cadastre2img_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.

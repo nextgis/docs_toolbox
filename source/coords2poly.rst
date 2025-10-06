@@ -6,7 +6,7 @@ Create polygon geometry from Excel or CSV file with lat/lon columns.
 Inputs:
 
 * Source file. Input table with lat/lon columns, supported formats:  XLSX,XLS,CSV;
-* Output format. Enter one of the options: ``GPKG, GEOJSON, SHP, TAB``;
+* Output format. Select one of the options: GPKG, GEOJSON, SHP, TAB;
 * Lat/Lon. Switch the order of the columns. By default, the tool presumes that the order is Longitude, then Latitude. If it's the opposite, tick this field.
 
 Outputs:

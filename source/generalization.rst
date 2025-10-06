@@ -8,7 +8,7 @@ Inputs:
 * Vector layer. Layer in GeoPackage, GeoJSON or ESRI Shapefile (ZIP-archived) format
 * Merge nodes closer than. The value (in coordinate system units) at which geometry nodes are merged. Default is -1 meaning no merging. Optional
 * Number of iterations. An integer indicating the number of iterations of the simplification, smoothing, or shifting procedure. Optional
-* Method of generalization. Choose a generalization method: ``douglas, douglas_reduction, lang, reduction, reumann, boyle, sliding_averaging, distance_weighting, chaiken, hermite, snakes, displacement``;
+* Method of generalization. Choose a generalization method: douglas, douglas_reduction, lang, reduction, reumann, boyle, sliding_averaging, distance_weighting, chaiken, hermite, snakes, displacement;
 * Max tolerance value (threshold). Number between 0 and 1000000000. If the method does not refer to this parameter, specify any number
 * Number of points. An integer that specifies the number of points used in some methods. Optional. The default value is 7
 * Reduction. A number from 0 to 100. In the simplification algorithm, it characterizes the percentage of points that are preserved relative to the original number of points. An optional parameter. The default value is 50

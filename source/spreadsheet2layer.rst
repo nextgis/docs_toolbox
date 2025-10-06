@@ -17,7 +17,7 @@ Input:
 *  Vector layer ID to update. Leave blank to create new vector layer.
 *  Resource group ID. Specify the group to upload layer to. Use only if creating a new layer.
 *  Google Sheets ID (e.g. '1cKvjCMBZajaortAkdQqVwQ_06LuLm3bHyvybJgmAeQg') or URL. This link should be accessible for data reading.
-*  Mode: by default the tool appends data to existing layer or creates a new layer; enter REPLACE to rewrite an existing layer (ID specified above).
+*  Mode: by default the tool appends data to existing layer or creates a new layer; select REPLACE to overwrite an existing layer (ID specified above).
 
 Output:
 

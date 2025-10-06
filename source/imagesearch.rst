@@ -7,8 +7,8 @@ The tool generates a list of Sentinel scenes in the Copernicus archive that matc
 Inputs:
 
 * **Image search area** ``Required field`` - GeoJSON file with one polygon covering the area of interest;
-* **Start date**, in dd.mm.yyyy format - scenes produced before that date won't be included;
-* **End date**, in dd.mm.yyyy format - scenes produced after that date won't be included;
+* **Start date**, pick in the calender or enter in yyyy-mm-dd format - scenes produced before that date won't be included;
+* **End date**, pick in the calender or enter in yyyy-mm-dd format - scenes produced after that date won't be included;
 * **Service username** ``Required field`` - your username on https://scihub.copernicus.eu website;
 * **Service password** ``Required field`` - your password for https://scihub.copernicus.eu website;
 * **Mission** ``Required field`` - Enter one of the mission names: ``Sentinel-1``, ``Sentinel-2``, ``Sentinel-3``;

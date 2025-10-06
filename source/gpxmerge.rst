@@ -17,7 +17,10 @@ Additionaly, This instrument fixes GPX files damaged by power down.
 Input: 
 
 * ZIP archive with GPX files. Subdirectories of several leverls are allowed. You can have files with the same name in different folders, the tool can process them anyway;
-* Mode - select from the menu. **Strict**: merge all content of GPX files using gpsbabel, may take long if there are many files. **Quick**: concat XML code as string, remove GPX extensions, quick, data is simplified.
+* Mode - select from the menu:
+
+	* **Strict**: merge all content of GPX files using gpsbabel, may take long if there are many files. 
+	* **Quick**: concat XML code as string, remove GPX extensions, quick, data is simplified.
 
 
 .. important::

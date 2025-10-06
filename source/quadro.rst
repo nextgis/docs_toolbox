@@ -7,9 +7,9 @@ Inputs:
 
 * Coordinates of the first point (center of the first cell), in decimal degrees, example ``40.415378, -3.688743``;
 * Coordinates of the second point that indicates direction, in decimal degrees, example ``40.417436, -3.683170``;
-* Size 1 - Number of cells on the first axis;
-* Size 2 - Number of cells on the second axis;
-* Side - Cell generation side ``right`` or ``left``;
+* Side - on which side to generate the grid: right or left;
+* Cell count 1 - Number of cells on the first axis;
+* Cell count 2 - Number of cells on the second axis;
 * Cell size - The size of a cell’s side, in meters.
 
 The result of the process is a set of layers:

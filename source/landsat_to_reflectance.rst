@@ -5,25 +5,20 @@ The tool recalculates the ToA Radiance of Landsat data into reflectivity with th
 
 Inputs:
 
-* The file with the radiation intensity of one of the Landsat bands
+* The file with the radiation intensity of one of the Landsat bands - The result of radiometric calibrations of the Landsat source data, for example, using the tool https://toolbox.nextgis.com/t/landsat_to_radiance;
 
-The result of radiometric calibrations of the Landsat source data, for example, using the tool https://toolbox.nextgis.com/t/landsat_to_radiance
+* Band number - The band number corresponding to the downloaded file. Usually a number, for ETM + it can also be 6_VCID_1 and 6_VCID_2;
 
-* Band number
+* Landsat Metadata File - Text file from the original Landsat data archive. Depending on the data type, it is a * MTL.txt or * .MTL file;
 
-The band number corresponding to the downloaded file. Usually a number, for ETM + it can also be 6_VCID_1 and 6_VCID_2
+* Processing Result Type:
 
-* Landsat Metadata File
-
-Text file from the original Landsat data archive. Depending on the data type, it is a * MTL.txt or * .MTL file
-
-* Processing Result Type
-
-0 for calculating the default albedo, 1 for applying atmospheric corrections using the DOS method
+ - Default reflectance calculation (0),
+ - Application of DOS atmospheric correction (1).
 
 Outputs:
 
-* Spectral albedo of the corresponding band in GeoTIFF format
+* Spectral albedo of the corresponding band in GeoTIFF format.
 
 Spectral albedo is the main type of information that should be used in the analysis of remote sensing data. It is best suited for time series analysis. The ability to apply atmospheric corrections also improves data quality.
 

@@ -5,12 +5,12 @@ The tool combines data from a table and a layer using a given field. The tool in
 
 Inputs:
 
-* Web GIS URL - address of the used Web GIS in the following format: ``https://example.nextgis.com``
-* resource_id - layer ID to combine from the currently used Web GIS
-* CSV file for join
-* Key field in WebGIS layer - the name of the field in the Web GIS layer
-* Target field in CSV - field name in the table
-* Join type - enter "1" for one-to-one, otherwise the default join bype is "one-to-many"
+* Web GIS URL - address of the Web GIS on NextGIS Web platform in the following format: ``https://example.nextgis.com``;
+* Resource ID - numbers at the end of the source layer URL;
+* CSV file for join;
+* Key field in WebGIS layer - the name of the field in the Web GIS layer;
+* Target field in CSV - field name in the table;
+* Join type - select one-to-one or one-to-many.
 
 Outputs:
 

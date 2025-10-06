@@ -9,6 +9,7 @@ Inputs:
 *  Latitude - fieldname for Latitude column. Case-sensitive.
 *  Longitude - fieldname for Lonitude column. Case-sensitive.
 *  Elevation dataset - select one of the following: 
+
     - Copernicus
     - ALOS -  ALOS World 3D has resolution of 30 meters
     - MERITDEM

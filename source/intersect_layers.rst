@@ -5,15 +5,22 @@ The tool intersects a polygonal layer with another vector layer (any type of geo
 
 Inputs:
 
-*  Field name for CSV file. The name of the attribute column in the polygonal layer for resulting CSV files. If this field is blank, CSV file names will be generated automatically.
-*  Polygonal shapefile. Polygonal layer in the ESRI Shapefile format (ZIP-archive), for the objects of which the fact of intersection (or non-intersection) with objects from another layer is defined.
-*  Shapefile with intersecting layer. The vector layer with any geometries in the ESRI Shapefile format (ZIP-archive), containing objects intersecting with objects from the polygonal layer. The layer must be in the same coordinate system as the polygon layer.
+* Shapefile with a layer to intersect. ESRI Shapefile (ZIP-archive) with any type of geometries. Objects from this layer are meant to be intersected with the objects from the polygonal layer
+* Shapefile with a polygonal layer. ESRI Shapefile (ZIP-archive) with a polygonal layer. Intersection status with another layer will be traced for each object from this layer
+* Field name for CSV files. Field name from the polygonal layer. Values from this field will be used to name CSV files. If this field is blank, CSV file names will be generated automatically.
 
 Outputs:
 
 *  Zipped CSV files, each of which describes one of the objects of the polygonal layer. If an object from a polygon layer has an intersection with an object from another layer, the CSV file will contain the coordinates of the center and the WKT description of the polygon.
 
 Launch the tool: https://toolbox.nextgis.com/t/intersect_layers
+
+.. figure:: _static/intersect_layers_result.png
+   :name: intersect_layers_result_pic
+   :align: center
+   :width: 16cm
+
+   Parts of hydrography intersecting with the park are marked by dotted lines
 
 **Try it out using our sample:**
 

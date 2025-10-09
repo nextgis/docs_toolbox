@@ -5,7 +5,7 @@ The extraction of elevations from DEM. Returns CSV with coordinates and altitude
 
 Inputs:
 
-*  ZIP-compressed CSV - CSV table with coordinates of points. Delimiter should be comma. Corrdinates are floating values. File should not have spaces and should contain only latin symbols.
+*  ZIP-compressed CSV - CSV table with coordinates of points. Delimiter should be comma. Corrdinates are floating values. File should not have spaces and should contain only latin symbols. `How to prepare the file in QGIS <https://toolbox.nextgis.com/t/deminpoints#prepare>`_.
 *  Latitude - fieldname for Latitude column. Case-sensitive.
 *  Longitude - fieldname for Lonitude column. Case-sensitive.
 *  Elevation dataset - select one of the following: 
@@ -19,7 +19,14 @@ Outputs:
 
 *  ZIP-compressed CSV-file with coordinates and elevation values for the points.
 
-To save a point layer as a CSV file with coordinates, during export in the **Layer options** section select for the GEOMETRY field the option ``AS_XY``. The resulting file will have longitude in the X column and latitude in Y column. 
+.. _prepare:
+
+How to prepare data
+~~~~~~~~~~~~~~~~~~~~~
+
+To save a point layer as a CSV file with coordinates in QGIS, go to Layer --> Save as. In the Format field select "Comma separated values.
+
+In the **Layer options** section select for the GEOMETRY field the option ``AS_XY``. The resulting file will have longitude in the X column and latitude in Y column. 
 
 
 .. figure:: _static/save_as_cvs_coord_en.png

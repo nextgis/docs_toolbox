@@ -36,7 +36,7 @@ Watch the video on `youtube <https://youtu.be/r5v0wzOufV8>`_.
 Launch the tool: https://toolbox.nextgis.com/t/exif2resource
 
 
-Result on the web map: https://demo.nextgis.com/resource/5950/display?panel=info
+.. todo:: eng example Result on the web map: https://demo.nextgis.com/resource/5950/display?panel=info
 
 **Try it out using our sample:**
 

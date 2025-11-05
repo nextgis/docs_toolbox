@@ -10,22 +10,41 @@
 * CSV файл для присоединения - таблица для присоединения в формате CSV;
 * Поле в слое Веб ГИС - название поля в слое Веб ГИС, по которому будет выполняться присоединение;
 * Ключ в CSV - название столбца в таблице, по которому будет выполняться присоединение;
-* Вид JOIN - тип объединения: 
+* Вид присоединения: 
 
     - Один ко многим (0)
     - Один к одному (1).
 
 На выходе:
 
-*  слой в формате ESRI Shapefile, который находится в архиве (zip)
+*  Слой в формате ESRI Shapefile, запакованный в ZIP-архив
 
 Запуск инструмента: https://toolbox.nextgis.com/t/join_by_field
 
 Пример использования:
 
-.. figure:: _static/join_by_field.png
+
+.. figure:: _static/join_by_field_input_layer_ru.png
+   :name: join_by_field_input_layer_pic
    :align: center
    :width: 16cm
+
+   Таблица объектов исходного слоя
+
+
+.. figure:: _static/join_by_field_input_csv.png
+   :name: join_by_field_input_csv_pic
+   :align: center
+   :width: 16cm
+
+   Таблица в CSV
+
+.. figure:: _static/join_by_field_result_ru.png
+   :name: join_by_field_result_pic
+   :align: center
+   :width: 16cm
+
+   Пример результата работы инструмента
 
 **Попробуйте инструмент в действии, скачав наш пример:**
 

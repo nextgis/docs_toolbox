@@ -93,6 +93,7 @@
    generalization
    kmldae2footprints
    spatial_join
+   empty_geoms
    split_to_equal
    qgis_multiparttosingleparts
    splitcomplex

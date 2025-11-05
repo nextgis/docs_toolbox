@@ -7,7 +7,7 @@ Inputs:
 
 * Source file. Input table with lat/lon columns, supported formats:  XLSX,XLS,CSV;
 * Output format. Select one of the options: GPKG, GEOJSON, SHP, TAB;
-* Lat/Lon. Switch the order of the columns. By default, the tool presumes that the order is Longitude, then Latitude. If it's the opposite, tick this field.
+* Columns order. Check if the order of the columns is **Lat/Lon**. Default order: Lon/Lat.
 
 Outputs:
 

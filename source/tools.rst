@@ -22,6 +22,7 @@ Tools
    download_and_prepare_l8_s2
    download_glad
    embedsvg
+   empty_geoms
    eraser
    exif2resource
    field_value_changer

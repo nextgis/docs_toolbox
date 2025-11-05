@@ -5,8 +5,10 @@ The tool calculates the normalized difference index for any two input images.
 
 Inputs:
 
-* First component of the difference index - Any GDAL-compatible raster;
-* Second component of the difference index - Any GDAL-compatible raster.
+GDAL-supported rasters (the first band will be used for the calculations).
+
+* First raster. First measurement for the NDVI calculation, e.g. NIR band;
+* Second raster. Second measurement for the NDI calculation, e.g. red band.
 
 Outputs:
 
@@ -20,6 +22,22 @@ Examples of common normalized difference indices:
 * NDVI - for vegetation assessment (the first raster - NIR, the second - RED) For Landsat 8 data: 5 and 4 bands.
 * NDWI - for the detection of water bodies (the first raster - NIR, the second - SWIR). For Landsat 8 data: 5 and 6 bands.
 * NDSI - for assessing the snow cover (the first raster - GREEN, the second - SWIR). For Landsat 8 data: 3 and 6 bands.
+
+Example:
+
+.. figure:: _static/ndi_input_en.png
+   :name: ndi_input_pic
+   :align: center
+   :width: 16cm
+
+   Example input
+
+.. figure:: _static/ndi_result_en.png
+   :name: ndi_result_pic
+   :align: center
+   :width: 16cm
+
+   Example output
 
 Launch the tool: https://toolbox.nextgis.com/t/ndi
 

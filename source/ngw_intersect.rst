@@ -5,15 +5,15 @@
 
 На входе:
 
-* Адрес Веб ГИС. Пример: https://sandbox.nextgis.com;
-* ID Веб карты. Идентификатор ресурса Веб карты;
+* Адрес Веб ГИС. Веб ГИС на портале NextGIS Web, ссылка вида: https://sandbox.nextgis.com;
+* ID веб-карты. Цифры в конце ссылки на ресурс веб-карты;
 * Геометрия в WKT. Геометрия объекта для пересечения в формате WKT. Система координат: EPSG:3857.
 
 На выходе:
 
-*  таблица в формате XLSX с перечнем пересеченных слоев.
+*  таблица в формате XLSX с перечнем пересечённых слоев.
 
-Запуск инструмента: https://toolbox.nextgis.com/t/ngw-intersect
+Запуск инструмента: https://toolbox.nextgis.com/t/ngw_intersect
  
 .. figure:: _static/ngw_intersect_layers.png
    :align: center
@@ -21,7 +21,7 @@
    
    Пример исходных данных 
    
-.. figure:: _static/ngw_intersect_result.png
+.. figure:: _static/ngw_intersect_result_ru.png
    :align: center
    :width: 16cm
    

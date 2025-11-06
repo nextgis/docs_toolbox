@@ -7,17 +7,17 @@ Calculating the number of points per kilometer of tracks inside polygons, all da
 Inputs:
 
 
-* Web GIS address. Example: https://sandbox.nextgis.com
-* Login. Web GIS user login;
+* Web GIS address. NextGIS Web URL. Example: https://sandbox.nextgis.com;
+* Login. NextGIS ID or Web GIS user login;
 * Password. Web GIS user password;
-* Polygons resource ID. Resource ID of the vector layer that contains polygons;
-* Polygons layer name field. Name of the field with the name in the polygon layer. The names of the polygons (for example, area names or grid cell numbers) will be used in the report;
-* Points resource ID. Resource ID of the vector layer that contains points;
-* Fields with point categories. You can specify multiple attributes separated by commas, for example: author,species. Leave the input blank if you do not need to use point categories for calculations;
+* Polygons resource ID. Numbers at the end of the UR of the vector layer that contains polygons
+* Polygons layer name field. Field in the polygon layer that contains feature names (for example, area names or grid cell numbers) that will be used in the report;
+* Points resource ID. Numbers at the end of the link to the vector layer that contains points;
+* Fields with point categories. You can specify multiple attributes separated by commas, for example: ``author,species``. Leave the input blank if you do not need to use point categories for calculations;
 * Field with point date. The name of the field that stores the date the point was registered. Leave blank if you do not need to filter points by date;
-* Start date. Start date for filtering tracks and points. Recorded in the format yyyy-mm-dd, for example 2024-02-01. Leave input empty to use tracks from first day of database;
-* End date. End date for filtering tracks and points. Recorded in the format yyyy-mm-dd, for example 2024-02-01. Leave input empty to use all tracks up to today;
-* Trackers list. List of trackers whose data needs to be processed. Tracker IDs are written in comma-separated format, for example 314,318,340. Leave blank to use all available trackers;
+* Start date. Start date for filtering tracks and points (YYYY-MM-DD). Leave empty to use tracks from first day of database;
+* End date. End date for filtering tracks and points (YYYY-MM-DD). Leave empty to use all tracks up to today;
+* Trackers list. List of trackers whose data needs to be processed. Tracker IDs are written in comma-separated format, for example ``314,318,340``. Leave blank to use all available trackers;
 * Split statistics by trackers. Use tracker ID as another category for calculating statistics;
 * Ignore polygons without tracks. Do not include statistics when there are points in polygon, but no tracks.
 
@@ -38,6 +38,22 @@ Tool workflow:
 6. Generate a report.
 
 Launch the tool: https://toolbox.nextgis.com/t/points_on_tracks_stats
+
+Example:
+
+.. figure:: _static/points_on_tracks_stats_input_en.png
+   :name: points_on_tracks_stats_input_pic
+   :align: center
+   :width: 16cm
+
+   Example input
+
+.. figure:: _static/points_on_tracks_stats_result.png
+   :name: points_on_tracks_stats_result_pic
+   :align: center
+   :width: 16cm
+
+   Example output
 
 **Try it out using our sample:**
 

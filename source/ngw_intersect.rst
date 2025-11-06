@@ -5,9 +5,9 @@ The tool intersects all layers of the nextgis.com web map using the specified ge
 
 Inputs:
 
-* Web GIS address. Example: https://sandbox.nextgis.com;
-* Web map ID. Web map resource ID - the numbers at the end of the resource page URL;
-* WKT geometry. Object geometry for intersection in WKT format. Coordinate system: EPSG:3857.
+* Web GIS address. NextGIS Web URL, e.g.: https://sandbox.nextgis.com;
+* Web Map ID. Numbers at the end of the Web Map URL;
+* WKT geometry. Geometry for intersection in WKT format. Coordinate system: EPSG:3857.
 
 Outputs:
 
@@ -15,7 +15,21 @@ Outputs:
 
 Launch the tool: https://toolbox.nextgis.com/t/ngw-intersect
 	
- 
+Example:
+
+.. figure:: _static/ngw_intersect_input_en.png
+   :name: ngw_intersect_input_pic
+   :align: center
+   :width: 16cm
+
+   Example input
+
+.. figure:: _static/ngw_intersect_result_en.png
+   :name: ngw_intersect_result_pic
+   :align: center
+   :width: 16cm
+
+   Example output
 
 **Try it out using our sample:**
 

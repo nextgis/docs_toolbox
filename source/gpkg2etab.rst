@@ -15,19 +15,12 @@ Launch the tool: https://toolbox.nextgis.com/t/gpkg2etab
 
 Example:
 
-.. todo:: _static/gpkg2etab_input_en.png
-   :name: gpkg2etab_input_pic
-   :align: center
-   :width: 16cm
-
-   Example input
-
-.. todo:: _static/gpkg2etab_result_en.png
+.. figure:: _static/gpkg2etab_result_en.jpg
    :name: gpkg2etab_result_pic
    :align: center
-   :width: 16cm
+   :width: 20cm
 
-   Example output
+   Example output with Greek names
 
 **Try the tool in action by downloading our example:**
 

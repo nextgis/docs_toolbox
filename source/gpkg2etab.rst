@@ -15,17 +15,10 @@
 
 Пример работы инструмента:
 
-.. todo:: _static/gpkg2etab_input_ru.png
-   :name: gpkg2etab_input_pic
-   :align: center
-   :width: 16cm
-
-   Пример исходных данных
-
-.. todo:: _static/gpkg2etab_result_ru.png
+.. figure:: _static/gpkg2etab_result_ru.jpg
    :name: gpkg2etab_result_pic
    :align: center
-   :width: 16cm
+   :width: 20cm
 
    Пример результата работы инструмента
 

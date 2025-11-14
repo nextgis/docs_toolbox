@@ -1,7 +1,7 @@
-Конвертация GeoPackage в Mapinfo Enhanced TAB
+Конвертация GeoPackage в MapInfo Enhanced TAB
 =============================================
 
-Конверация GeoPackage (GPKG) в Enhanced TAB (NativeX), работает в Mapinfo 15.2 и выше. 
+Конвертация GeoPackage (GPKG) в Enhanced TAB (NativeX), работает в MapInfo Pro 15.2 и выше. 
 
 Позволяет конвертировать файл GeoPackage с атрибутивной информацией на разных языках в формат MapInfo. Есть поддержка Unicode, благодаря чему при конвертации корректно сохраняются символы алфавитов, отличных от латиницы и кирилицы. Выходной файл имеет кодировку UTF-8.
 
@@ -11,7 +11,7 @@
 
 На выходе:
 
-* ZIP-архив с полученным Mapinfo Enhanced TAB (NativeX) файлом.
+* ZIP-архив с полученным MapInfo Enhanced TAB (NativeX) файлом.
 
 Запуск инструмента: https://toolbox.nextgis.com/t/gpkg2etab
 

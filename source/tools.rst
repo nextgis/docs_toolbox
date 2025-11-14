@@ -39,6 +39,7 @@
    plk_catalog
    image_classification
    image_clustering
+   gpkg2etab
    mapinfo2qgis
    rsc2csv
    xml_lpo_to_vector

@@ -12,7 +12,7 @@ The tool converts one or several Rosreestr KPT from XML format into a convenient
 Inputs:
 
 *  Zip archive with zip archives of Rosreestr downloads (archive of archives with the name format Response-80-105152635.zip)
-*  Output geodata format - GeoJSON, ESRI Shape, Mapinfo TAB
+*  Output geodata format - GeoJSON, ESRI Shape, MapInfo TAB
 
 Outputs:
 

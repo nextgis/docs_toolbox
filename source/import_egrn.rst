@@ -3,7 +3,7 @@ EGRN data import
 
 Convert official cadaster documents from EGRN into geodata package. Supports batch mode.
 
-Supported formats: KPT (cadastral register): extract_cadastral_plan_territory_v01 and KPT_v10, KVZU (cadastral excerpt): KVZU_v07, ОКС: KVOKS_v03.
+Supported formats: KPT (cadastral register): extract_cadastral_plan_territory_v01 and KPT_v10, KVZU (cadastral excerpt): KVZU_v07, construction: KVOKS_v03.
 
 
 Inputs:

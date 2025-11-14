@@ -31,6 +31,7 @@ Tools
    generalization
    geocodetable
    geometry_changer
+   gpkg2etab
    gpx2exif
    gpxclipbbox
    gpxdailysplit

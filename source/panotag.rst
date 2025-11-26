@@ -12,7 +12,7 @@ GPano:PoseHeadingDegrees is copied from GPSImgDirection if it's present.
 
 Inputs:
 
-* ZIP with photos. Subfolders supported.
+* ZIP with photos or single JPG file. Subfolders supported for the archive.
 
 Outputs:
 

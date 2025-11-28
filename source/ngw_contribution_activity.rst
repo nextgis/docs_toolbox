@@ -43,5 +43,5 @@
 
 .. seealso::
 
-   * `Получить историю векторного объекта <https://toolbox.nextgis.com/t/ngw_feature_history?from-related-tools>`_
-   * `Структура Веб ГИС в таблицу <https://toolbox.nextgis.com/t/web_gis_structure?from-related-tools>`_
+   * `Получить историю векторного объекта <https://toolbox.nextgis.com/t/ngw_feature_history?from-related-tools=1>`_
+   * `Структура Веб ГИС в таблицу <https://toolbox.nextgis.com/t/web_gis_structure?from-related-tools=1>`_

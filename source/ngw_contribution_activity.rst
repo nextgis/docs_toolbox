@@ -44,5 +44,5 @@ Example:
 
 .. admonition:: Related tools
 
-   * `Get the history of a vector feature <https://toolbox.nextgis.com/t/ngw_feature_history>`_
-   * `Web GIS structure into spreadsheet <https://toolbox.nextgis.com/t/web_gis_structure>`_
+   * `Get the history of a vector feature <https://toolbox.nextgis.com/t/ngw_feature_history?from-related-tools>`_
+   * `Web GIS structure into spreadsheet <https://toolbox.nextgis.com/t/web_gis_structure?from-related-tools>`_

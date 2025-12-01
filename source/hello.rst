@@ -18,4 +18,4 @@
 
 .. seealso::
 
-    * `Проверка корректности файлов <https://toolbox.nextgis.com/t/geospatial_input_explainer>`_
+    * `Проверка корректности файлов <https://toolbox.nextgis.com/t/geospatial_input_explainer?from-related-tools=1>`_

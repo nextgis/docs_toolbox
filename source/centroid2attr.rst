@@ -35,5 +35,5 @@
 
 .. seealso::
 
-   * `Центральные линии полигонов <https://toolbox.nextgis.com/t/centerline>`_
+   * `Центральные линии полигонов <https://toolbox.nextgis.com/t/centerline?from-related-tools=1>`_
 

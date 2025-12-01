@@ -52,6 +52,6 @@
 
 .. seealso::
 
-   * `Базовое упрощение векторных данных <https://toolbox.nextgis.com/t/polysimplifier>`_
-   * `Продвинутое упрощение векторных данных <https://toolbox.nextgis.com/t/generalization>`_
-   * `Разделить сложные полигоны <https://toolbox.nextgis.com/t/splitcomplex>`_
+   * `Базовое упрощение векторных данных <https://toolbox.nextgis.com/t/polysimplifier?from-related-tools=1>`_
+   * `Продвинутое упрощение векторных данных <https://toolbox.nextgis.com/t/generalization?from-related-tools=1>`_
+   * `Разделить сложные полигоны <https://toolbox.nextgis.com/t/splitcomplex?from-related-tools=1>`_

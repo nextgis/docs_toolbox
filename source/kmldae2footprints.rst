@@ -23,5 +23,5 @@
 
 .. seealso::
 
-    * `Обрезать PBF по прямоугольнику <https://toolbox.nextgis.com/t/osmclip_bbox>`_
-    * `Конвертация облака точек в тайлсет <https://toolbox.nextgis.com/t/pointcloud2tileset>`_
+    * `Обрезать PBF по прямоугольнику <https://toolbox.nextgis.com/t/osmclip_bbox?from-related-tools=1>`_
+    * `Конвертация облака точек в тайлсет <https://toolbox.nextgis.com/t/pointcloud2tileset?from-related-tools=1>`_

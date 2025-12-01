@@ -37,5 +37,5 @@
 
 .. seealso::
 
-   * `Проверка геометрии <https://toolbox.nextgis.com/t/check_geometries>`_
-   * `Проверка геометрии (QGIS) <https://toolbox.nextgis.com/t/qgis_check_geometries>`_
+   * `Проверка геометрии <https://toolbox.nextgis.com/t/check_geometries?from-related-tools=1>`_
+   * `Проверка геометрии (QGIS) <https://toolbox.nextgis.com/t/qgis_check_geometries?from-related-tools=1>`_

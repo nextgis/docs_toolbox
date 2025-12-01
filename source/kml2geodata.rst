@@ -43,6 +43,6 @@ KML в геоданные
 
 .. seealso::
 
-   * `Конвертация векторных слоев <https://toolbox.nextgis.com/t/convert>`_
-   * `Конвертация MapInfo для QGIS <https://toolbox.nextgis.com/t/mapinfo2qgis>`_
-   * `DWG в DXF <https://toolbox.nextgis.com/t/import_dwg>`_
+   * `Конвертация векторных слоев <https://toolbox.nextgis.com/t/convert?from-related-tools=1>`_
+   * `Конвертация MapInfo для QGIS <https://toolbox.nextgis.com/t/mapinfo2qgis?from-related-tools=1>`_
+   * `DWG в DXF <https://toolbox.nextgis.com/t/import_dwg?from-related-tools=1>`_

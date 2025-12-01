@@ -34,9 +34,9 @@
 
 .. seealso:: 
 
-   * `Абрис лесосеки: геоданные в экспликацию и координаты <https://toolbox.nextgis.com/t/poly2explication>`_
+   * `Абрис лесосеки: геоданные в экспликацию и координаты <https://toolbox.nextgis.com/t/poly2explication?from-related-tools=1>`_
    * `Каталог учетных номеров <https://toolbox.nextgis.com/t/plk_catalog>`_
-   * `Конвертация XML: Таксационное описание лесосеки <https://toolbox.nextgis.com/t/xml_tol_to_vector>`_
-   * `Абрис лесосеки: экспликация (промеры) в геоданные <https://toolbox.nextgis.com/t/explication2poly>`_
+   * `Конвертация XML: Таксационное описание лесосеки <https://toolbox.nextgis.com/t/xml_tol_to_vector?from-related-tools=1>`_
+   * `Абрис лесосеки: экспликация (промеры) в геоданные <https://toolbox.nextgis.com/t/explication2poly?from-related-tools=1>`_
 
 

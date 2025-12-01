@@ -24,5 +24,5 @@
 
 .. seealso::
 
-    * `Объединение GPX файлов <https://toolbox.nextgis.com/t/gpxmerge>`_
-    * `Фото с EXIF в слой NGW <https://toolbox.nextgis.com/t/exif2resource>`_
+    * `Объединение GPX файлов <https://toolbox.nextgis.com/t/gpxmerge?from-related-tools=1>`_
+    * `Фото с EXIF в слой NGW <https://toolbox.nextgis.com/t/exif2resource?from-related-tools=1>`_

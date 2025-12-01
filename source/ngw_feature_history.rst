@@ -36,5 +36,5 @@
 
 .. seealso::
 
-   * `Получить отчёт об изменениях ресурса <https://toolbox.nextgis.com/t/ngw_contribution_activity>`_
-   * `Структура Веб ГИС в таблицу <https://toolbox.nextgis.com/t/web_gis_structure>`_
+   * `Получить отчёт об изменениях ресурса <https://toolbox.nextgis.com/t/ngw_contribution_activity?from-related-tools=1>`_
+   * `Структура Веб ГИС в таблицу <https://toolbox.nextgis.com/t/web_gis_structure?from-related-tools=1>`_

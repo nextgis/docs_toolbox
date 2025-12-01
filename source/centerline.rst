@@ -29,5 +29,5 @@
 
 .. seealso::
 
-   * `Максимальная дистанция между узлами полигона <https://toolbox.nextgis.com/t/maxdist>`_
-   * `Координаты точки в полигоне <https://toolbox.nextgis.com/t/centroid2attr>`_
+   * `Максимальная дистанция между узлами полигона <https://toolbox.nextgis.com/t/maxdist?from-related-tools=1>`_
+   * `Координаты точки в полигоне <https://toolbox.nextgis.com/t/centroid2attr?from-related-tools=1>`_

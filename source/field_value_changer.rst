@@ -39,4 +39,4 @@
 
 .. seealso::
 
-    * `Изменение геометрии в группе слоев <https://toolbox.nextgis.com/t/geometry_changer>`_
+    * `Изменение геометрии в группе слоев <https://toolbox.nextgis.com/t/geometry_changer?from-related-tools=1>`_

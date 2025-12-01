@@ -21,6 +21,6 @@
 
 .. seealso::
 
-    * `Конвертация векторных слоев <https://toolbox.nextgis.com/t/convert>`_
-    * `DWG в DXF <https://toolbox.nextgis.com/t/import_dwg>`_
-    * `KML в геоданные <https://toolbox.nextgis.com/t/kml2geodata>`_
+    * `Конвертация векторных слоев <https://toolbox.nextgis.com/t/convert?from-related-tools=1>`_
+    * `DWG в DXF <https://toolbox.nextgis.com/t/import_dwg?from-related-tools=1>`_
+    * `KML в геоданные <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_

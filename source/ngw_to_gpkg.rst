@@ -30,4 +30,4 @@
 
 .. seealso::
 
-   * `Веб-карта в проект QGIS <https://toolbox.nextgis.com/t/webmap2qgis>`_
+   * `Веб-карта в проект QGIS <https://toolbox.nextgis.com/t/webmap2qgis?from-related-tools=1>`_

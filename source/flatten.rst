@@ -22,4 +22,4 @@
 
 .. seealso::
 
-    * `Мультигеометрии в простые геометрии <https://toolbox.nextgis.com/t/qgis_multiparttosingleparts>`_
+    * `Мультигеометрии в простые геометрии <https://toolbox.nextgis.com/t/qgis_multiparttosingleparts?from-related-tools=1>`_

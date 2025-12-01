@@ -81,7 +81,7 @@
 
 .. seealso::
 
-   * `Базовое упрощение векторных данных <https://toolbox.nextgis.com/t/polysimplifier>`_
-   * `Улучшение ЦМР <https://toolbox.nextgis.com/t/improvedem>`_
-   * `Разделить сложные полигоны <https://toolbox.nextgis.com/t/splitcomplex>`_
+   * `Базовое упрощение векторных данных <https://toolbox.nextgis.com/t/polysimplifier?from-related-tools=1>`_
+   * `Улучшение ЦМР <https://toolbox.nextgis.com/t/improvedem?from-related-tools=1>`_
+   * `Разделить сложные полигоны <https://toolbox.nextgis.com/t/splitcomplex?from-related-tools=1>`_
 

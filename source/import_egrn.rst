@@ -43,8 +43,8 @@
 
 .. seealso::
 
-   * `Получить геометрию участка по кадастровому номеру <https://toolbox.nextgis.com/t/rosreestr2coord>`_
-   * `Дежурная кадастровая карта <https://toolbox.nextgis.com/t/dezhurcad>`_
-   * `Список КПТ по заданной области <https://toolbox.nextgis.com/t/egrn_kvartals_cover>`_
-   * `DWG в DXF <https://toolbox.nextgis.com/t/import_dwg>`_
-   * Для конвертации и других операций с кадастровыми данными вы также можете использовать `конвертер Rosreestr Tools <https://docs.nextgis.ru/docs_rosreestr_tools/source/rr-import.html#>`_.
+   * `Получить геометрию участка по кадастровому номеру <https://toolbox.nextgis.com/t/rosreestr2coord?from-related-tools=1>`_
+   * `Дежурная кадастровая карта <https://toolbox.nextgis.com/t/dezhurcad?from-related-tools=1>`_
+   * `Список КПТ по заданной области <https://toolbox.nextgis.com/t/egrn_kvartals_cover?from-related-tools=1>`_
+   * `DWG в DXF <https://toolbox.nextgis.com/t/import_dwg?from-related-tools=1>`_
+   * Для конвертации и других операций с кадастровыми данными вы также можете использовать `конвертер Rosreestr Tools <https://docs.nextgis.ru/docs_rosreestr_tools/source/rr-import.html?from-related-tools=1>`_.

@@ -54,4 +54,4 @@
 
 .. seealso::
 
-   * `Обновление слоя Веб ГИС из CSV <https://toolbox.nextgis.com/t/update_vector_layer>`_
+   * `Обновление слоя Веб ГИС из CSV <https://toolbox.nextgis.com/t/update_vector_layer?from-related-tools=1>`_

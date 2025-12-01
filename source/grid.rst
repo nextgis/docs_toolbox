@@ -100,4 +100,4 @@
 
 .. seealso::
 
-   * `Генератор набора квадратов <https://toolbox.nextgis.com/t/quadro>`_
+   * `Генератор набора квадратов <https://toolbox.nextgis.com/t/quadro?from-related-tools=1>`_

@@ -30,6 +30,6 @@
 
 .. admonition:: Related tools
 
-    * `Пересекатор <https://toolbox.nextgis.com/t/ngw_intersect>`_
-    * `Пересечение полигонов <https://toolbox.nextgis.com/t/vectorclip>`_
-    * `Удалить области пересечения из слоя <https://toolbox.nextgis.com/t/eraser>`_
+    * `Пересекатор <https://toolbox.nextgis.com/t/ngw_intersect?from-related-tools=1>`_
+    * `Пересечение полигонов <https://toolbox.nextgis.com/t/vectorclip?from-related-tools=1>`_
+    * `Удалить области пересечения из слоя <https://toolbox.nextgis.com/t/eraser?from-related-tools=1>`_

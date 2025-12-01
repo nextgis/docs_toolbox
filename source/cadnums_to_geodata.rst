@@ -24,4 +24,4 @@
 
 .. seealso::
 
-   * `Список КПТ по заданной области <https://toolbox.nextgis.com/t/egrn_kvartals_cover>`_
+   * `Список КПТ по заданной области <https://toolbox.nextgis.com/t/egrn_kvartals_cover?from-related-tools=1>`_

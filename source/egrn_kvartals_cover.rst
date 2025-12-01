@@ -25,7 +25,7 @@
 
 .. seealso::
 
-   * `Проверить набор КПТ (Кадастровый план территории) <https://toolbox.nextgis.com/t/kptbatch_validator>`_
-   * `Конвертация данных ЕГРН <https://toolbox.nextgis.com/t/import_egrn>`_
-   * `Дежурная кадастровая карта <https://toolbox.nextgis.com/t/dezhurcad>`_
-   * `Получить геометрию участка по кадастровому номеру <https://toolbox.nextgis.com/t/rosreestr2coord>`_
+   * `Проверить набор КПТ (Кадастровый план территории) <https://toolbox.nextgis.com/t/kptbatch_validator?from-related-tools=1>`_
+   * `Конвертация данных ЕГРН <https://toolbox.nextgis.com/t/import_egrn?from-related-tools=1>`_
+   * `Дежурная кадастровая карта <https://toolbox.nextgis.com/t/dezhurcad?from-related-tools=1>`_
+   * `Получить геометрию участка по кадастровому номеру <https://toolbox.nextgis.com/t/rosreestr2coord?from-related-tools=1>`_

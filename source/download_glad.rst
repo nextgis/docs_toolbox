@@ -48,7 +48,7 @@ ARD-ID тайла формируется из координат нижнего 
 
 .. seealso::  
 
-   * `Cцены Sentinel-2 в GPKG <https://toolbox.nextgis.com/t/s2_search>`_
-   * `Подготовка и скачивание данных Sentinel-2 <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_
-   * `Радиометрическая калибровка данных Landsat <https://toolbox.nextgis.com/t/landsat_to_radiance>`_
-   * `Расчёт спектрального альбедо объектов по данным Landsat <https://toolbox.nextgis.com/t/landsat_to_reflectance>`_
+   * `Cцены Sentinel-2 в GPKG <https://toolbox.nextgis.com/t/s2_search?from-related-tools=1>`_
+   * `Подготовка и скачивание данных Sentinel-2 <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2?from-related-tools=1>`_
+   * `Радиометрическая калибровка данных Landsat <https://toolbox.nextgis.com/t/landsat_to_radiance?from-related-tools=1>`_
+   * `Расчёт спектрального альбедо объектов по данным Landsat <https://toolbox.nextgis.com/t/landsat_to_reflectance?from-related-tools=1>`_

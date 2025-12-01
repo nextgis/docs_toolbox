@@ -50,6 +50,6 @@
 
 .. seealso::
 
-   * `Таблица в векторный файл <https://toolbox.nextgis.com/t/table2geo>`_
-   * `Таблица Google/Яндекс в Веб ГИС <https://toolbox.nextgis.com/t/spreadsheet2layer>`_
-   * `Добавление названий АТД и НП в атрибуты <https://toolbox.nextgis.com/t/add_regions>`_
+   * `Таблица в векторный файл <https://toolbox.nextgis.com/t/table2geo?from-related-tools=1>`_
+   * `Таблица Google/Яндекс в Веб ГИС <https://toolbox.nextgis.com/t/spreadsheet2layer?from-related-tools=1>`_
+   * `Добавление названий АТД и НП в атрибуты <https://toolbox.nextgis.com/t/add_regions?from-related-tools=1>`_

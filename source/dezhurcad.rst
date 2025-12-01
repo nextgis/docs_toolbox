@@ -33,8 +33,8 @@
 
 .. seealso::
 
-   * `Конвертация данных ЕГРН <https://toolbox.nextgis.com/t/import_egrn>`_
-   * `Получить геометрию участка по кадастровому номеру <https://toolbox.nextgis.com/t/rosreestr2coord>`_
-   * `Генерация изображения кадастрового участка по номеру <https://toolbox.nextgis.com/t/cadastre2img>`_
-   * `Список КПТ по заданной области <https://toolbox.nextgis.com/t/egrn_kvartals_cover>`_
+   * `Конвертация данных ЕГРН <https://toolbox.nextgis.com/t/import_egrn?from-related-tools=1>`_
+   * `Получить геометрию участка по кадастровому номеру <https://toolbox.nextgis.com/t/rosreestr2coord?from-related-tools=1>`_
+   * `Генерация изображения кадастрового участка по номеру <https://toolbox.nextgis.com/t/cadastre2img?from-related-tools=1>`_
+   * `Список КПТ по заданной области <https://toolbox.nextgis.com/t/egrn_kvartals_cover?from-related-tools=1>`_
 

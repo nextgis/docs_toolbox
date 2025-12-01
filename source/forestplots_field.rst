@@ -29,7 +29,7 @@
 
 .. seealso::
 
-   * `Генератор набора квадратов <https://toolbox.nextgis.com/t/quadro>`_
-   * `Абрис лесосеки: каталог координат в геоданные <https://toolbox.nextgis.com/t/coords2poly>`_
-   * `Добавить к фотографиям координаты из GPX-трека <https://toolbox.nextgis.com/t/gpx2exif>`_
-   * `KML в геоданные <https://toolbox.nextgis.com/t/kml2geodata>`_
+   * `Генератор набора квадратов <https://toolbox.nextgis.com/t/quadro?from-related-tools=1>`_
+   * `Абрис лесосеки: каталог координат в геоданные <https://toolbox.nextgis.com/t/coords2poly?from-related-tools=1>`_
+   * `Добавить к фотографиям координаты из GPX-трека <https://toolbox.nextgis.com/t/gpx2exif?from-related-tools=1>`_
+   * `KML в геоданные <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_

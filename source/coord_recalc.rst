@@ -25,5 +25,5 @@
 
 .. seealso::
 
-    * `Конвертация векторных слоев <https://toolbox.nextgis.com/t/convert>`_
-    * `KML в геоданные <https://toolbox.nextgis.com/t/kml2geodata>`_
+    * `Конвертация векторных слоев <https://toolbox.nextgis.com/t/convert?from-related-tools=1>`_
+    * `KML в геоданные <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_

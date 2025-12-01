@@ -34,7 +34,7 @@
 
 .. seealso::
 
-    * `Таблица в векторный файл <https://toolbox.nextgis.com/t/table2geo>`_
-    * `Таблица Google/Яндекс в Веб ГИС <https://toolbox.nextgis.com/t/spreadsheet2layer>`_
-    * `Парсер адреса из CSV <https://toolbox.nextgis.com/t/postal>`_
-    * `Генерирует карту в Веб ГИС по таблице со списком кодов регионов ОКАТО и вашим числовым значениям <https://toolbox.nextgis.com/t/infomap>`_
+    * `Таблица в векторный файл <https://toolbox.nextgis.com/t/table2geo?from-related-tools=1>`_
+    * `Таблица Google/Яндекс в Веб ГИС <https://toolbox.nextgis.com/t/spreadsheet2layer?from-related-tools=1>`_
+    * `Парсер адреса из CSV <https://toolbox.nextgis.com/t/postal?from-related-tools=1>`_
+    * `Генерирует карту в Веб ГИС по таблице со списком кодов регионов ОКАТО и вашим числовым значениям <https://toolbox.nextgis.com/t/infomap?from-related-tools=1>`_

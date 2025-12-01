@@ -31,7 +31,7 @@
    
 .. seealso::
 
-   * `Перепроецирование координат <https://toolbox.nextgis.com/t/coord_recalc>`_
-   * `Проверка геометрии <https://toolbox.nextgis.com/t/check_geometries>`_
-   * `KML в геоданные <https://toolbox.nextgis.com/t/kml2geodata>`_
-   * `Конвертация MapInfo для QGIS <https://toolbox.nextgis.com/t/mapinfo2qgis>`_
+   * `Перепроецирование координат <https://toolbox.nextgis.com/t/coord_recalc?from-related-tools=1>`_
+   * `Проверка геометрии <https://toolbox.nextgis.com/t/check_geometries?from-related-tools=1>`_
+   * `KML в геоданные <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_
+   * `Конвертация MapInfo для QGIS <https://toolbox.nextgis.com/t/mapinfo2qgis?from-related-tools=1>`_

@@ -38,4 +38,4 @@
 
 .. seealso::
 
-   * `Проверка геометрии (QGIS) <https://toolbox.nextgis.com/t/qgis_check_geometries>`_
+   * `Проверка геометрии (QGIS) <https://toolbox.nextgis.com/t/qgis_check_geometries?from-related-tools=1>`_

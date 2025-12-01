@@ -46,4 +46,4 @@
 
 .. seealso::
 
-   * `Дублировать векторный слой nextgis.com <https://toolbox.nextgis.com/t/ngw_copy_layer>`_
+   * `Дублировать векторный слой nextgis.com <https://toolbox.nextgis.com/t/ngw_copy_layer?from-related-tools=1>`_

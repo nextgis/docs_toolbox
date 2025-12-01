@@ -50,4 +50,4 @@
 
 .. seealso::
 
-    * `Изменение атрибутов в группе слоев <https://toolbox.nextgis.com/t/field_value_changer>`_
+    * `Изменение атрибутов в группе слоев <https://toolbox.nextgis.com/t/field_value_changer?from-related-tools=1>`_

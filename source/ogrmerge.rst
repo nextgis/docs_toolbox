@@ -46,4 +46,4 @@
 
 .. admonition:: Похожие инструменты
 
-   * `Объединить два векторных слоя в Веб ГИС <https://toolbox.nextgis.com/t/ngw_merge_layers>`_
+   * `Объединить два векторных слоя в Веб ГИС <https://toolbox.nextgis.com/t/ngw_merge_layers?from-related-tools=1>`_

@@ -40,7 +40,7 @@
 
 .. seealso::
 
-   * `Кластеризация изображений <https://toolbox.nextgis.com/t/image_clustering>`_
-   * `Нормализованный разностный индекс <https://toolbox.nextgis.com/t/ndi>`_
-   * `Cцены Sentinel-2 в GPKG <https://toolbox.nextgis.com/t/s2_search>`_
-   * `Подготовка и скачивание данных Sentinel-2 <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_
+   * `Кластеризация изображений <https://toolbox.nextgis.com/t/image_clustering?from-related-tools=1>`_
+   * `Нормализованный разностный индекс <https://toolbox.nextgis.com/t/ndi?from-related-tools=1>`_
+   * `Cцены Sentinel-2 в GPKG <https://toolbox.nextgis.com/t/s2_search?from-related-tools=1>`_
+   * `Подготовка и скачивание данных Sentinel-2 <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2?from-related-tools=1>`_

@@ -28,5 +28,5 @@
 
 .. seealso::
 
-   * `Объединить два векторных слоя в Веб ГИС <https://toolbox.nextgis.com/t/ngw_merge_layers>`_
-   * `Объединение векторных слоёв <https://toolbox.nextgis.com/t/ogrmerge>`_
+   * `Объединить два векторных слоя в Веб ГИС <https://toolbox.nextgis.com/t/ngw_merge_layers?from-related-tools=1>`_
+   * `Объединение векторных слоёв <https://toolbox.nextgis.com/t/ogrmerge?from-related-tools=1>`_

@@ -32,5 +32,6 @@
 
 .. seealso::
 
-   * `Генерирует карту в Веб ГИС по таблице со списком кодов регионов ОКАТО и вашим числовым значениям <https://toolbox.nextgis.com/t/infomap>`_
-   * `Объединение OSM и РеформаЖКХ файлами <https://toolbox.nextgis.com/t/joinreforma>`_
+   * `Генерирует карту в Веб ГИС по таблице со списком кодов регионов ОКАТО и вашим числовым значениям <https://toolbox.nextgis.com/t/infomap?from-related-tools=1>`_
+   * `Объединение OSM и РеформаЖКХ файлами <https://toolbox.nextgis.com/t/joinreforma?from-related-tools=1>`_
+

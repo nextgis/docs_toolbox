@@ -22,4 +22,4 @@
 
 .. seealso::
 
-   * `Проекция Dae (Collada) в Shapefile <https://toolbox.nextgis.com/t/kmldae2footprints>`_
+   * `Проекция Dae (Collada) в Shapefile <https://toolbox.nextgis.com/t/kmldae2footprints?from-related-tools=1>`_

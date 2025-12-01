@@ -78,7 +78,7 @@
 
 .. seealso::
 
-   * `Калькулятор растров (GRASS) <https://toolbox.nextgis.com/t/r_mapcalc>`_
-   * `Подготовить растр <https://toolbox.nextgis.com/t/prepare_raster>`_
-   * `Кластеризация изображений <https://toolbox.nextgis.com/t/image_clustering>`_
-   * `Подготовка и скачивание данных Sentinel-2 <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_
+   * `Калькулятор растров (GRASS) <https://toolbox.nextgis.com/t/r_mapcalc?from-related-tools=1>`_
+   * `Подготовить растр <https://toolbox.nextgis.com/t/prepare_raster?from-related-tools=1>`_
+   * `Кластеризация изображений <https://toolbox.nextgis.com/t/image_clustering?from-related-tools=1>`_
+   * `Подготовка и скачивание данных Sentinel-2 <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2?from-related-tools=1>`_

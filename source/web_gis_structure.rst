@@ -48,5 +48,5 @@
 
 .. seealso::
 
-   * `Веб-карта в проект QGIS <https://toolbox.nextgis.com/t/webmap2qgis>`_
-   * `Векторные слои из Веб ГИС в GeoPackage <https://toolbox.nextgis.com/t/ngw_to_gpkg>`_
+   * `Веб-карта в проект QGIS <https://toolbox.nextgis.com/t/webmap2qgis?from-related-tools=1>`_
+   * `Векторные слои из Веб ГИС в GeoPackage <https://toolbox.nextgis.com/t/ngw_to_gpkg?from-related-tools=1>`_

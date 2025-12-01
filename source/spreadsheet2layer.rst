@@ -50,4 +50,4 @@
 
 .. seealso::
 
-   * `Таблица в векторный файл <https://toolbox.nextgis.com/t/table2geo>`_
+   * `Таблица в векторный файл <https://toolbox.nextgis.com/t/table2geo?from-related-tools=1>`_

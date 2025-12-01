@@ -30,5 +30,5 @@
 
 .. seealso::
 
-   * `Векторные слои из Веб ГИС в GeoPackage <https://toolbox.nextgis.com/t/ngw_to_gpkg>`_
-   * `Структура Веб ГИС в таблицу <https://toolbox.nextgis.com/t/web_gis_structure>`_
+   * `Векторные слои из Веб ГИС в GeoPackage <https://toolbox.nextgis.com/t/ngw_to_gpkg?from-related-tools=1>`_
+   * `Структура Веб ГИС в таблицу <https://toolbox.nextgis.com/t/web_gis_structure?from-related-tools=1>`_

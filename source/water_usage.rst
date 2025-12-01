@@ -27,6 +27,6 @@
 
 .. seealso::
 
-   * `Конвертация выписок ГЛР <https://toolbox.nextgis.com/t/import_glr>`_
-   * `Конвертация данных о захоронении грунтов <https://toolbox.nextgis.com/t/grunt>`_
-   * `Центральные линии полигонов <https://toolbox.nextgis.com/t/centerline>`_
+   * `Конвертация выписок ГЛР <https://toolbox.nextgis.com/t/import_glr?from-related-tools=1>`_
+   * `Конвертация данных о захоронении грунтов <https://toolbox.nextgis.com/t/grunt?from-related-tools=1>`_
+   * `Центральные линии полигонов <https://toolbox.nextgis.com/t/centerline?from-related-tools=1>`_

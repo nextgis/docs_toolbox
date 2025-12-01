@@ -32,4 +32,4 @@
 
 .. seealso::
 
-   * `Геокодировать таблицу <https://toolbox.nextgis.com/t/geocodetable>`_
+   * `Геокодировать таблицу <https://toolbox.nextgis.com/t/geocodetable?from-related-tools=1>`_

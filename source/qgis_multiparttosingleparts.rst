@@ -35,4 +35,4 @@
 
 .. seealso::
 
-   * `Удалить ZM координаты из векторного слоя <https://toolbox.nextgis.com/t/flatten>`_
+   * `Удалить ZM координаты из векторного слоя <https://toolbox.nextgis.com/t/flatten?from-related-tools=1>`_

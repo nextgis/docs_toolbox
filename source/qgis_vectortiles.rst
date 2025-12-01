@@ -24,6 +24,6 @@
 
 .. seealso::
 
-   * `Генерация растровых тайлов из проекта QGIS <https://toolbox.nextgis.com/t/qgis_rastertiles>`_
-   * `Создание тайлового набора по растру <https://toolbox.nextgis.com/t/raster2tiles>`_
-   * `Конвертация проекта QGIS в PDF <https://toolbox.nextgis.com/t/qgis2pdf>`_
+   * `Генерация растровых тайлов из проекта QGIS <https://toolbox.nextgis.com/t/qgis_rastertiles?from-related-tools=1>`_
+   * `Создание тайлового набора по растру <https://toolbox.nextgis.com/t/raster2tiles?from-related-tools=1>`_
+   * `Конвертация проекта QGIS в PDF <https://toolbox.nextgis.com/t/qgis2pdf?from-related-tools=1>`_

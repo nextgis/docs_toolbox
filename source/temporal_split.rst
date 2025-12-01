@@ -29,4 +29,4 @@
 
 .. seealso::
 
-   * `Полигоны из линий и точек по времени <https://toolbox.nextgis.com/t/lines2polygons>`_
+   * `Полигоны из линий и точек по времени <https://toolbox.nextgis.com/t/lines2polygons?from-related-tools=1>`_

@@ -44,5 +44,5 @@
 
 .. seealso::
 
-   * `Объединение слоя и таблицы по полю <https://toolbox.nextgis.com/t/join_by_field>`_
-   * `Пространственное объединение <https://toolbox.nextgis.com/t/spatial_join>`_
+   * `Объединение слоя и таблицы по полю <https://toolbox.nextgis.com/t/join_by_field?from-related-tools=1>`_
+   * `Пространственное объединение <https://toolbox.nextgis.com/t/spatial_join?from-related-tools=1>`_

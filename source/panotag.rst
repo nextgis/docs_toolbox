@@ -48,5 +48,5 @@ GPano:PoseHeadingDegrees копируется из GPSImgDirection, если т�
 
 .. seealso::
 
-   * `Добавить к фотографиям координаты из GPX-трека <https://toolbox.nextgis.com/t/gpx2exif>`_
-   * `Фото с EXIF в слой NGW <https://toolbox.nextgis.com/t/exif2resource>`_
+   * `Добавить к фотографиям координаты из GPX-трека <https://toolbox.nextgis.com/t/gpx2exif?from-related-tools=1>`_
+   * `Фото с EXIF в слой NGW <https://toolbox.nextgis.com/t/exif2resource?from-related-tools=1>`_

@@ -31,5 +31,5 @@
 
 .. seealso::
 
-   * `Мультигеометрии в простые геометрии <https://toolbox.nextgis.com/t/qgis_multiparttosingleparts>`_
-   * `KML в геоданные <https://toolbox.nextgis.com/t/kml2geodata>`_
+   * `Мультигеометрии в простые геометрии <https://toolbox.nextgis.com/t/qgis_multiparttosingleparts?from-related-tools=1>`_
+   * `KML в геоданные <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_

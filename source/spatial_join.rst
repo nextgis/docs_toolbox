@@ -37,5 +37,5 @@
 
 .. seealso::
 
-   * `Объединение векторных слоёв <https://toolbox.nextgis.com/t/ogrmerge>`_
-   * `Объединение слоя и таблицы по полю <https://toolbox.nextgis.com/t/join_by_field>`_
+   * `Объединение векторных слоёв <https://toolbox.nextgis.com/t/ogrmerge?from-related-tools=1>`_
+   * `Объединение слоя и таблицы по полю <https://toolbox.nextgis.com/t/join_by_field?from-related-tools=1>`_

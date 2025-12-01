@@ -37,5 +37,5 @@
 
 .. seealso::
 
-   * `Разделить сложные полигоны <https://toolbox.nextgis.com/t/splitcomplex>`_
-   * `Разбить на равные части <https://toolbox.nextgis.com/t/split_to_equal>`_
+   * `Разделить сложные полигоны <https://toolbox.nextgis.com/t/splitcomplex?from-related-tools=1>`_
+   * `Разбить на равные части <https://toolbox.nextgis.com/t/split_to_equal?from-related-tools=1>`_

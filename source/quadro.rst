@@ -38,5 +38,5 @@
 
 .. seealso::
 
-   * `Создание схемы круговых площадок для Garmin <https://toolbox.nextgis.com/t/forestplots_field>`_
-   * `Сетка в метрах <https://toolbox.nextgis.com/t/grid>`_
+   * `Создание схемы круговых площадок для Garmin <https://toolbox.nextgis.com/t/forestplots_field?from-related-tools=1>`_
+   * `Сетка в метрах <https://toolbox.nextgis.com/t/grid?from-related-tools=1>`_

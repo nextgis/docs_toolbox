@@ -25,5 +25,5 @@
 
 .. seealso::
 
-   * `Генератор набора квадратов <https://toolbox.nextgis.com/t/quadro>`_
-   * `Сетка в метрах <https://toolbox.nextgis.com/t/grid>`_
+   * `Генератор набора квадратов <https://toolbox.nextgis.com/t/quadro?from-related-tools=1>`_
+   * `Сетка в метрах <https://toolbox.nextgis.com/t/grid?from-related-tools=1>`_

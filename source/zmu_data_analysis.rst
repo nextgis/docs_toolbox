@@ -54,5 +54,5 @@
 
 .. seealso::
 
-   * `Генератор набора квадратов <https://toolbox.nextgis.com/t/quadro>`_
-   * `Статистика по точкам и трекам в полигонах из NGW <https://toolbox.nextgis.com/t/points_on_tracks_stats>`_
+   * `Генератор набора квадратов <https://toolbox.nextgis.com/t/quadro?from-related-tools=1>`_
+   * `Статистика по точкам и трекам в полигонах из NGW <https://toolbox.nextgis.com/t/points_on_tracks_stats?from-related-tools=1>`_

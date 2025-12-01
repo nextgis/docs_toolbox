@@ -43,6 +43,6 @@ Get the `output <https://nextgis.com/data/toolbox/generalization/generalization_
 
 .. admonition:: Related tools
 
-   * `Polygons topological simplifier <https://toolbox.nextgis.com/t/polysimplifier>`_
-   * `Improve DEM <https://toolbox.nextgis.com/t/improvedem>`_
-   * `Split Complex Polygons <https://toolbox.nextgis.com/t/splitcomplex>`_
+   * `Polygons topological simplifier <https://toolbox.nextgis.com/t/polysimplifier?from-related-tools=1>`_
+   * `Improve DEM <https://toolbox.nextgis.com/t/improvedem?from-related-tools=1>`_
+   * `Split Complex Polygons <https://toolbox.nextgis.com/t/splitcomplex?from-related-tools=1>`_

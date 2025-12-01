@@ -25,5 +25,5 @@ Get the `output <https://nextgis.com/data/toolbox/coord_recalc/coord_recalc_outp
 
 .. admonition:: Related tools
 
-   * `Convert format of vector layer <https://toolbox.nextgis.com/t/convert>`_
-   * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata>`_
+   * `Convert format of vector layer <https://toolbox.nextgis.com/t/convert?from-related-tools=1>`_
+   * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_

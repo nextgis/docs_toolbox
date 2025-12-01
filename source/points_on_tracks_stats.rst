@@ -63,6 +63,6 @@ Get the `output <https://nextgis.com/data/toolbox/points_on_tracks_stats/points_
    
 .. admonition:: Related tools
 
-   * `Split GPX file by days <https://toolbox.nextgis.com/t/gpxdailysplit>`_
-   * `Merge GPX files <https://toolbox.nextgis.com/t/gpxmerge>`_
-   * `Clip GPX file by bounding box <https://toolbox.nextgis.com/t/gpxclipbbox>`_
+   * `Split GPX file by days <https://toolbox.nextgis.com/t/gpxdailysplit?from-related-tools=1>`_
+   * `Merge GPX files <https://toolbox.nextgis.com/t/gpxmerge?from-related-tools=1>`_
+   * `Clip GPX file by bounding box <https://toolbox.nextgis.com/t/gpxclipbbox?from-related-tools=1>`_

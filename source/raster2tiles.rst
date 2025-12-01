@@ -40,6 +40,6 @@ Get the `output <https://nextgis.com/data/toolbox/raster2tiles/raster2tiles_outp
 
 .. admonition:: Related tools
 
-   * `Generate raster tiles from QGIS project <https://toolbox.nextgis.com/t/qgis_rastertiles>`_
-   * `Convert point cloud into tileset <https://toolbox.nextgis.com/t/pointcloud2tileset>`_
-   * `Generate vector tiles from QGIS project <https://toolbox.nextgis.com/t/qgis_vectortiles>`_
+   * `Generate raster tiles from QGIS project <https://toolbox.nextgis.com/t/qgis_rastertiles?from-related-tools=1>`_
+   * `Convert point cloud into tileset <https://toolbox.nextgis.com/t/pointcloud2tileset?from-related-tools=1>`_
+   * `Generate vector tiles from QGIS project <https://toolbox.nextgis.com/t/qgis_vectortiles?from-related-tools=1>`_

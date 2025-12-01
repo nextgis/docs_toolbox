@@ -42,5 +42,5 @@ Get the `output <https://nextgis.com/data/toolbox/quadro/quadro_outputs.zip>`_ t
 
 .. admonition:: Related tools
 
-   * `Create forestplots scheme for Garmin <https://toolbox.nextgis.com/t/forestplots_field>`_
-   * `Meter grid <https://toolbox.nextgis.com/t/grid>`_
+   * `Create forestplots scheme for Garmin <https://toolbox.nextgis.com/t/forestplots_field?from-related-tools=1>`_
+   * `Meter grid <https://toolbox.nextgis.com/t/grid?from-related-tools=1>`_

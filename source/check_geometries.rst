@@ -40,6 +40,6 @@ Launch the tool: https://toolbox.nextgis.com/t/check_geometries
 
 .. admonition:: Related tools
 
-   * `Fix geometries <https://toolbox.nextgis.com/t/fix_geometries>`_
-   * `Fix geometries (QGIS) <https://toolbox.nextgis.com/t/qgis_fix_geometries>`_
-   * `Check geometries (QGIS) <https://toolbox.nextgis.com/t/qgis_check_geometries>`_
+   * `Fix geometries <https://toolbox.nextgis.com/t/fix_geometries?from-related-tools=1>`_
+   * `Fix geometries (QGIS) <https://toolbox.nextgis.com/t/qgis_fix_geometries?from-related-tools=1>`_
+   * `Check geometries (QGIS) <https://toolbox.nextgis.com/t/qgis_check_geometries?from-related-tools=1>`_

@@ -42,7 +42,7 @@ Get the `output <https://nextgis.com/data/toolbox/landsat_to_reflectance/landsat
 
 .. admonition:: Related tools
 
-   * `Landsat radiometric calibration <https://toolbox.nextgis.com/t/landsat_to_radiance>`_
-   * `Landsat Analysis Ready Data (GLAD ARD) download helper <https://toolbox.nextgis.com/t/download_glad>`_
-   * `Normalized difference index <https://toolbox.nextgis.com/t/ndi>`_
-   * `Raster calculator (GDAL) <https://toolbox.nextgis.com/t/raster_calculator>`_
+   * `Landsat radiometric calibration <https://toolbox.nextgis.com/t/landsat_to_radiance?from-related-tools=1>`_
+   * `Landsat Analysis Ready Data (GLAD ARD) download helper <https://toolbox.nextgis.com/t/download_glad?from-related-tools=1>`_
+   * `Normalized difference index <https://toolbox.nextgis.com/t/ndi?from-related-tools=1>`_
+   * `Raster calculator (GDAL) <https://toolbox.nextgis.com/t/raster_calculator?from-related-tools=1>`_

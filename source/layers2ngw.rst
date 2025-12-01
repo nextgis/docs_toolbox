@@ -25,4 +25,4 @@ Download `input dataset <https://nextgis.com/data/toolbox/layers2ngw/layers2ngw_
 
 .. admonition:: Related tools
 
-   * `Vector layers from Web GIS to GeoPackage <https://toolbox.nextgis.com/t/ngw_to_gpkg>`_
+   * `Vector layers from Web GIS to GeoPackage <https://toolbox.nextgis.com/t/ngw_to_gpkg?from-related-tools=1>`_

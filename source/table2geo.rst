@@ -32,6 +32,6 @@ Get the `output <https://nextgis.com/data/toolbox/table2geo/table2geo_outputs.zi
 
 .. admonition:: Related tools
 
-   * `Google Sheets to Web GIS <https://toolbox.nextgis.com/t/spreadsheet2layer>`_
-   * `Coordinates to polygon <https://toolbox.nextgis.com/t/coords2poly>`_
-   * `Join layer and table by field <https://toolbox.nextgis.com/t/join_by_field>`_
+   * `Google Sheets to Web GIS <https://toolbox.nextgis.com/t/spreadsheet2layer?from-related-tools=1>`_
+   * `Coordinates to polygon <https://toolbox.nextgis.com/t/coords2poly?from-related-tools=1>`_
+   * `Join layer and table by field <https://toolbox.nextgis.com/t/join_by_field?from-related-tools=1>`_

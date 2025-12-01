@@ -22,5 +22,5 @@ Get the `output <https://nextgis.com/data/toolbox/polysimplifier/polysimplifier_
 
 .. admonition:: Related tools
 
-   * `Advanced vector generalization <https://toolbox.nextgis.com/t/generalization>`_
-   * `Split Complex Polygons <https://toolbox.nextgis.com/t/splitcomplex>`_
+   * `Advanced vector generalization <https://toolbox.nextgis.com/t/generalization?from-related-tools=1>`_
+   * `Split Complex Polygons <https://toolbox.nextgis.com/t/splitcomplex?from-related-tools=1>`_

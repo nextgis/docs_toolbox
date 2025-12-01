@@ -39,4 +39,4 @@ Get the `output <https://nextgis.com/data/toolbox/ogrmerge/ogrmerge_outputs.zip>
 
 .. admonition:: Related tools
 
-   * `Merge two Web GIS vector layers <https://toolbox.nextgis.com/t/ngw_merge_layers>`_
+   * `Merge two Web GIS vector layers <https://toolbox.nextgis.com/t/ngw_merge_layers?from-related-tools=1>`_

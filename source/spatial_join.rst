@@ -37,5 +37,5 @@ Get the `output <https://nextgis.com/data/toolbox/spatial_join/spatial_join_outp
 
 .. admonition:: Related tools
 
-   * `Merge vector layers <https://toolbox.nextgis.com/t/ogrmerge>`_
-   * `Join layer and table by field <https://toolbox.nextgis.com/t/join_by_field>`_
+   * `Merge vector layers <https://toolbox.nextgis.com/t/ogrmerge?from-related-tools=1>`_
+   * `Join layer and table by field <https://toolbox.nextgis.com/t/join_by_field?from-related-tools=1>`_

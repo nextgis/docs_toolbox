@@ -44,5 +44,5 @@ Download `input dataset <https://nextgis.com/data/toolbox/exif2resource/exif2res
 
 .. admonition:: Related tools
 
-   * `Geotag photos using GPX track <https://toolbox.nextgis.com/t/gpx2exif>`_
-   * `Add Google Photosphere XMP metadata to photos <https://toolbox.nextgis.com/t/panotag>`_
+   * `Geotag photos using GPX track <https://toolbox.nextgis.com/t/gpx2exif?from-related-tools=1>`_
+   * `Add Google Photosphere XMP metadata to photos <https://toolbox.nextgis.com/t/panotag?from-related-tools=1>`_

@@ -41,6 +41,6 @@ Get the `output <https://nextgis.com/data/toolbox/gpxmerge/gpxmerge_outputs.zip>
 
 .. admonition:: Related tools
 
-   * `Clip GPX file by bounding box <https://toolbox.nextgis.com/t/gpxclipbbox>`_
-   * `Split GPX file by days <https://toolbox.nextgis.com/t/gpxdailysplit>`_
-   * `Statistics of points and tracks in polygons from NGW <https://toolbox.nextgis.com/t/points_on_tracks_stats>`_
+   * `Clip GPX file by bounding box <https://toolbox.nextgis.com/t/gpxclipbbox?from-related-tools=1>`_
+   * `Split GPX file by days <https://toolbox.nextgis.com/t/gpxdailysplit?from-related-tools=1>`_
+   * `Statistics of points and tracks in polygons from NGW <https://toolbox.nextgis.com/t/points_on_tracks_stats?from-related-tools=1>`_

@@ -13,5 +13,5 @@ Get the `output <https://nextgis.com/data/toolbox/lesis2sqlite/lesis2sqlite_outp
 
 .. admonition:: Related tools
 
-   * `MapInfo ready for QGIS <https://toolbox.nextgis.com/t/mapinfo2qgis>`_
-   * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata>`_
+   * `MapInfo ready for QGIS <https://toolbox.nextgis.com/t/mapinfo2qgis?from-related-tools=1>`_
+   * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_

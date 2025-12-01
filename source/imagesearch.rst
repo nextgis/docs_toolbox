@@ -36,7 +36,7 @@ Get the `output <https://nextgis.com/data/toolbox/imagesearch/imagesearch_output
 
 .. admonition:: Related tools
 
-   * `Search and save Sentinel-2 scene previews <https://toolbox.nextgis.com/t/s2_search>`_
-   * `Prepare and download Sentinel-2 data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_
-   * `Image clustering <https://toolbox.nextgis.com/t/image_clustering>`_
-   * `Image classification <https://toolbox.nextgis.com/t/image_classification>`_
+   * `Search and save Sentinel-2 scene previews <https://toolbox.nextgis.com/t/s2_search?from-related-tools=1>`_
+   * `Prepare and download Sentinel-2 data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2?from-related-tools=1>`_
+   * `Image clustering <https://toolbox.nextgis.com/t/image_clustering?from-related-tools=1>`_
+   * `Image classification <https://toolbox.nextgis.com/t/image_classification?from-related-tools=1>`_

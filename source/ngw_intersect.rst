@@ -39,4 +39,4 @@ Get the `output <https://nextgis.com/data/toolbox/ngw_intersect/ngw_intersect_ou
 
 .. admonition:: Related tools
 
-   * `Polygon intersection <https://toolbox.nextgis.com/t/vectorclip>`_
+   * `Polygon intersection <https://toolbox.nextgis.com/t/vectorclip?from-related-tools=1>`_

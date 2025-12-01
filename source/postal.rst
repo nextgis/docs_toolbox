@@ -27,4 +27,4 @@ Get the `output <https://nextgis.com/data/toolbox/postal/postal_outputs.zip>`_ t
 
 .. admonition:: Related tools
 
-   * `Geocode a table <https://toolbox.nextgis.com/t/geocodetable>`_
+   * `Geocode a table <https://toolbox.nextgis.com/t/geocodetable?from-related-tools=1>`_

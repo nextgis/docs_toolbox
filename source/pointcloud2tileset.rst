@@ -22,4 +22,4 @@ Get the `output <https://nextgis.com/data/toolbox/pointcloud2tileset/pointcloud2
 
 .. admonition:: Related tools
 
-   * `Projection (Dae, Collada) to Shapefile <https://toolbox.nextgis.com/t/kmldae2footprints>`_
+   * `Projection (Dae, Collada) to Shapefile <https://toolbox.nextgis.com/t/kmldae2footprints?from-related-tools=1>`_

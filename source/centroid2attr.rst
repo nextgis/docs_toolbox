@@ -34,4 +34,4 @@ Get the `output <https://nextgis.com/data/toolbox/centroid2attr/centroid2attr_ou
 
 .. admonition:: Related tools
 
-   * `Central lines of polygons <https://toolbox.nextgis.com/t/centerline>`_
+   * `Central lines of polygons <https://toolbox.nextgis.com/t/centerline?from-related-tools=1>`_

@@ -38,6 +38,6 @@ Get the `output <https://nextgis.com/data/toolbox/kml2geodata/kml2geodata_output
 
 .. admonition:: Related tools
 
-   * `Convert format of vector layer <https://toolbox.nextgis.com/t/convert>`_
-   * `MapInfo ready for QGIS <https://toolbox.nextgis.com/t/mapinfo2qgis>`_
-   * `DWG to DXF <https://toolbox.nextgis.com/t/import_dwg>`_
+   * `Convert format of vector layer <https://toolbox.nextgis.com/t/convert?from-related-tools=1>`_
+   * `MapInfo ready for QGIS <https://toolbox.nextgis.com/t/mapinfo2qgis?from-related-tools=1>`_
+   * `DWG to DXF <https://toolbox.nextgis.com/t/import_dwg?from-related-tools=1>`_

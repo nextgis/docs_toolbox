@@ -30,6 +30,6 @@ Get the `output <https://nextgis.com/data/toolbox/intersect_layers/intersect_lay
 
 .. admonition:: Related tools
 
-   * `Intersector <https://toolbox.nextgis.com/t/ngw_intersect>`_
-   * `Polygon intersection <https://toolbox.nextgis.com/t/vectorclip>`_
-   * `Erase overlapping areas from the layer <https://toolbox.nextgis.com/t/eraser>`_
+   * `Intersector <https://toolbox.nextgis.com/t/ngw_intersect?from-related-tools=1>`_
+   * `Polygon intersection <https://toolbox.nextgis.com/t/vectorclip?from-related-tools=1>`_
+   * `Erase overlapping areas from the layer <https://toolbox.nextgis.com/t/eraser?from-related-tools=1>`_

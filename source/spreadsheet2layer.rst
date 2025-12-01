@@ -39,4 +39,4 @@ Get the `output <https://nextgis.com/data/toolbox/spreadsheet2layer/spreadsheet2
 
 .. admonition:: Related tools
 
-   * `Table to vector file <https://toolbox.nextgis.com/t/table2geo>`_
+   * `Table to vector file <https://toolbox.nextgis.com/t/table2geo?from-related-tools=1>`_

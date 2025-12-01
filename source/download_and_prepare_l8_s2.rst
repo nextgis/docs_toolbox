@@ -41,7 +41,7 @@ Get the `output <https://nextgis.com/data/toolbox/download_and_prepare_l8_s2/dow
 
 .. admonition:: Related tools
 
-   * `Sentinel-2 scenes to GPKG <https://toolbox.nextgis.com/t/s2_search>`_
-   * `Normalized difference index <https://toolbox.nextgis.com/t/ndi>`_
-   * `Image clustering <https://toolbox.nextgis.com/t/image_clustering>`_
-   * `Generate tileset from raster <https://toolbox.nextgis.com/t/raster2tiles>`_
+   * `Sentinel-2 scenes to GPKG <https://toolbox.nextgis.com/t/s2_search?from-related-tools=1>`_
+   * `Normalized difference index <https://toolbox.nextgis.com/t/ndi?from-related-tools=1>`_
+   * `Image clustering <https://toolbox.nextgis.com/t/image_clustering?from-related-tools=1>`_
+   * `Generate tileset from raster <https://toolbox.nextgis.com/t/raster2tiles?from-related-tools=1>`_

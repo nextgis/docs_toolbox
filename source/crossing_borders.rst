@@ -25,5 +25,5 @@ Get the `output <https://nextgis.com/data/toolbox/crossing_borders/crossing_bord
 
 .. admonition:: Related tools
 
-   * `Intersector <https://toolbox.nextgis.com/t/ngw_intersect>`_
-   * `Polygon intersection <https://toolbox.nextgis.com/t/vectorclip>`_
+   * `Intersector <https://toolbox.nextgis.com/t/ngw_intersect?from-related-tools=1>`_
+   * `Polygon intersection <https://toolbox.nextgis.com/t/vectorclip?from-related-tools=1>`_

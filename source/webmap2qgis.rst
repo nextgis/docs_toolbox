@@ -31,5 +31,5 @@ Get the `output <https://nextgis.com/data/toolbox/webmap2qgis/webmap2qgis_output
 
 .. admonition:: Related tools
 
-   * `Vector layers from Web GIS to GeoPackage <https://toolbox.nextgis.com/t/ngw_to_gpkg>`_
-   * `Web GIS structure into spreadsheet <https://toolbox.nextgis.com/t/web_gis_structure>`_
+   * `Vector layers from Web GIS to GeoPackage <https://toolbox.nextgis.com/t/ngw_to_gpkg?from-related-tools=1>`_
+   * `Web GIS structure into spreadsheet <https://toolbox.nextgis.com/t/web_gis_structure?from-related-tools=1>`_

@@ -20,4 +20,4 @@ Get the `output <https://nextgis.com/data/toolbox/flatten/flatten_outputs.zip>`_
 
 .. admonition:: Related tools
 
-   * `Multipart to singleparts <https://toolbox.nextgis.com/t/qgis_multiparttosingleparts>`_
+   * `Multipart to singleparts <https://toolbox.nextgis.com/t/qgis_multiparttosingleparts?from-related-tools=1>`_

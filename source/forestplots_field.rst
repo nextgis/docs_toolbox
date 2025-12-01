@@ -30,7 +30,7 @@ Get the `output <https://nextgis.com/data/tolbox/forestplots_field/forestplots_f
 
 .. admonition:: Related tools
 
-   * `Generate a set of squares with transects <https://toolbox.nextgis.com/t/quadro>`_
-   * `Coordinates to polygon <https://toolbox.nextgis.com/t/coords2poly>`_
-   * `Geotag photos using GPX track <https://toolbox.nextgis.com/t/gpx2exif>`_
-   * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata>`_
+   * `Generate a set of squares with transects <https://toolbox.nextgis.com/t/quadro?from-related-tools=1>`_
+   * `Coordinates to polygon <https://toolbox.nextgis.com/t/coords2poly?from-related-tools=1>`_
+   * `Geotag photos using GPX track <https://toolbox.nextgis.com/t/gpx2exif?from-related-tools=1>`_
+   * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_

@@ -35,4 +35,4 @@ Get the `output <https://nextgis.com/data/toolbox/field_value_changer/field_valu
 
 .. admonition:: Related tools
 
-   * `Change geometry for a group of layers <https://toolbox.nextgis.com/t/geometry_changer>`_
+   * `Change geometry for a group of layers <https://toolbox.nextgis.com/t/geometry_changer?from-related-tools=1>`_

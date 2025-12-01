@@ -32,4 +32,4 @@ Example:
 
 .. admonition:: Related tools
 
-   * `Change attributes in the layer group <https://toolbox.nextgis.com/t/explication2poly>`_
+   * `Change attributes in the layer group <https://toolbox.nextgis.com/t/explication2poly?from-related-tools=1>`_

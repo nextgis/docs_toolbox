@@ -52,6 +52,6 @@ Get the `output <https://nextgis.com/data/toolbox/improvedem/improvedem_outputs.
 
 .. admonition:: Related tools
 
-   * `Polygons topological simplifier <https://toolbox.nextgis.com/t/polysimplifier>`_
-   * `Advanced vector generalization <https://toolbox.nextgis.com/t/generalization>`_
-   * `Split Complex Polygons <https://toolbox.nextgis.com/t/splitcomplex>`_
+   * `Polygons topological simplifier <https://toolbox.nextgis.com/t/polysimplifier?from-related-tools=1>`_
+   * `Advanced vector generalization <https://toolbox.nextgis.com/t/generalization?from-related-tools=1>`_
+   * `Split Complex Polygons <https://toolbox.nextgis.com/t/splitcomplex?from-related-tools=1>`_

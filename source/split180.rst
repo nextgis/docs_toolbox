@@ -34,5 +34,5 @@ Get the `output <https://nextgis.com/data/toolbox/split180/split180_outputs.zip>
 
 .. admonition:: Related tools
 
-   * `Split Complex Polygons <https://toolbox.nextgis.com/t/splitcomplex>`_
-   * `Split into equal parts <https://toolbox.nextgis.com/t/split_to_equal>`_
+   * `Split Complex Polygons <https://toolbox.nextgis.com/t/splitcomplex?from-related-tools=1>`_
+   * `Split into equal parts <https://toolbox.nextgis.com/t/split_to_equal?from-related-tools=1>`_

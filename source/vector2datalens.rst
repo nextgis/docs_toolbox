@@ -24,5 +24,5 @@ Get the `output <https://nextgis.com/data/toolbox/vector2datalens/vector2datalen
 
 .. admonition:: Related tools
 
-   * `Multipart to singleparts <https://toolbox.nextgis.com/t/qgis_multiparttosingleparts>`_
-   * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata>`_
+   * `Multipart to singleparts <https://toolbox.nextgis.com/t/qgis_multiparttosingleparts?from-related-tools=1>`_
+   * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_

@@ -57,4 +57,4 @@ Launch the tool: https://toolbox.nextgis.com/t/lines2polygons
 
 .. admonition:: Related tools
 
-   * `Convert lines to polygons <https://toolbox.nextgis.com/t/lines2poly>`_
+   * `Convert lines to polygons <https://toolbox.nextgis.com/t/lines2poly?from-related-tools=1>`_

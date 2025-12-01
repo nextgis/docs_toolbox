@@ -40,6 +40,6 @@ Launch the tool: https://toolbox.nextgis.com/t/vectorclip
 
 .. admonition:: Related tools
 
-   * `Intersector <https://toolbox.nextgis.com/t/ngw_intersect>`_
-   * `Intersect layers <https://toolbox.nextgis.com/t/intersect_layers>`_
-   * `Erase overlapping areas from the layer <https://toolbox.nextgis.com/t/eraser>`_
+   * `Intersector <https://toolbox.nextgis.com/t/ngw_intersect?from-related-tools=1>`_
+   * `Intersect layers <https://toolbox.nextgis.com/t/intersect_layers?from-related-tools=1>`_
+   * `Erase overlapping areas from the layer <https://toolbox.nextgis.com/t/eraser?from-related-tools=1>`_

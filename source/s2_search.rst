@@ -41,7 +41,7 @@ Get the `output <https://nextgis.com/data/toolbox/s2_search/s2_search_outputs.zi
 
 .. admonition:: Related tools
 
-   * `Prepare and download Sentinel-2 data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_
-   * `Copernicus Sentinel image search <https://toolbox.nextgis.com/t/imagesearch>`_
-   * `Normalized difference index <https://toolbox.nextgis.com/t/ndi>`_
-   * `Image clustering <https://toolbox.nextgis.com/t/image_clustering>`_
+   * `Prepare and download Sentinel-2 data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2?from-related-tools=1>`_
+   * `Copernicus Sentinel image search <https://toolbox.nextgis.com/t/imagesearch?from-related-tools=1>`_
+   * `Normalized difference index <https://toolbox.nextgis.com/t/ndi?from-related-tools=1>`_
+   * `Image clustering <https://toolbox.nextgis.com/t/image_clustering?from-related-tools=1>`_

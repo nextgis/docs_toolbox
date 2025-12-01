@@ -69,5 +69,5 @@ Get the `output <https://nextgis.com/data/toolbox/web_gis_structure/web_gis_stru
 
 .. admonition:: Related tools
 
-   * `Web Map into QGIS project <https://toolbox.nextgis.com/t/webmap2qgis>`_
-   * `Vector layers from Web GIS to GeoPackage <https://toolbox.nextgis.com/t/ngw_to_gpkg>`_
+   * `Web Map into QGIS project <https://toolbox.nextgis.com/t/webmap2qgis?from-related-tools=1>`_
+   * `Vector layers from Web GIS to GeoPackage <https://toolbox.nextgis.com/t/ngw_to_gpkg?from-related-tools=1>`_

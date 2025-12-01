@@ -32,5 +32,5 @@ Launch the tool: https://toolbox.nextgis.com/t/split_to_equal
 
 .. admonition:: Related tools
 
-   * `Meter grid <https://toolbox.nextgis.com/t/grid>`_
-   * `Generate a set of squares with transects <https://toolbox.nextgis.com/t/quadro>`_
+   * `Meter grid <https://toolbox.nextgis.com/t/grid?from-related-tools=1>`_
+   * `Generate a set of squares with transects <https://toolbox.nextgis.com/t/quadro?from-related-tools=1>`_

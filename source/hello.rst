@@ -20,4 +20,4 @@ Download `step-by-step instructions <https://nextgis.com/data/toolbox/hello/hell
 
 .. admonition:: Related tools
 
-   * `Input file explainer (for developers) <https://toolbox.nextgis.com/t/geospatial_input_explainer>`_
+   * `Input file explainer (for developers) <https://toolbox.nextgis.com/t/geospatial_input_explainer?from-related-tools=1>`_

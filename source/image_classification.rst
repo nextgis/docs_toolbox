@@ -40,7 +40,7 @@ Get the `output <https://nextgis.com/data/toolbox/image_classification/image_cla
 
 .. admonition:: Related tools
 
-   * `Image clustering <https://toolbox.nextgis.com/t/image_clustering>`_
-   * `Normalized difference index <https://toolbox.nextgis.com/t/ndi>`_
-   * `Search and save Sentinel-2 scene previews <https://toolbox.nextgis.com/t/s2_search>`_
-   * `Prepare and download Sentinel-2 data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_
+   * `Image clustering <https://toolbox.nextgis.com/t/image_clustering?from-related-tools=1>`_
+   * `Normalized difference index <https://toolbox.nextgis.com/t/ndi?from-related-tools=1>`_
+   * `Search and save Sentinel-2 scene previews <https://toolbox.nextgis.com/t/s2_search?from-related-tools=1>`_
+   * `Prepare and download Sentinel-2 data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2?from-related-tools=1>`_

@@ -46,4 +46,4 @@ Get the `output <https://nextgis.com/data/toolbox/deminpoints/deminpoints_output
 
 .. admonition:: Related tools
 
-   * `Improve DEM <https://toolbox.nextgis.com/t/improvedem>`_
+   * `Improve DEM <https://toolbox.nextgis.com/t/improvedem?from-related-tools=1>`_

@@ -21,5 +21,5 @@ Launch the tool: https://toolbox.nextgis.com/t/kmldae2footprints
 
 .. admonition:: Related tools
 
-   * `Clip PBF file by bbox <https://toolbox.nextgis.com/t/osmclip_bbox>`_
-   * `Convert point cloud into tileset <https://toolbox.nextgis.com/t/pointcloud2tileset>`_
+   * `Clip PBF file by bbox <https://toolbox.nextgis.com/t/osmclip_bbox?from-related-tools=1>`_
+   * `Convert point cloud into tileset <https://toolbox.nextgis.com/t/pointcloud2tileset?from-related-tools=1>`_

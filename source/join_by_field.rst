@@ -32,4 +32,4 @@ Get the `output <https://nextgis.com/data/toolbox/join_by_field/join_by_field_ou
 
 .. admonition:: Related tools
 
-   * `Update Web GIS layer from CSV <https://toolbox.nextgis.com/t/update_vector_layer>`_
+   * `Update Web GIS layer from CSV <https://toolbox.nextgis.com/t/update_vector_layer?from-related-tools=1>`_

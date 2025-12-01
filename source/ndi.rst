@@ -49,7 +49,7 @@ Get the `output <https://nextgis.com/data/toolbox/ndi/ndi_outputs.zip>`_ to addi
 
 .. admonition:: Related tools
 
-   * `Prepare and download Sentinel-2 data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_
-   * `Search and save Sentinel-2 scene previews <https://toolbox.nextgis.com/t/s2_search>`_
-   * `Landsat reflectance calculation <https://toolbox.nextgis.com/t/landsat_to_reflectance>`_
-   * `Raster calculator (GDAL) <https://toolbox.nextgis.com/t/raster_calculator>`_
+   * `Prepare and download Sentinel-2 data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2?from-related-tools=1>`_
+   * `Search and save Sentinel-2 scene previews <https://toolbox.nextgis.com/t/s2_search?from-related-tools=1>`_
+   * `Landsat reflectance calculation <https://toolbox.nextgis.com/t/landsat_to_reflectance?from-related-tools=1>`_
+   * `Raster calculator (GDAL) <https://toolbox.nextgis.com/t/raster_calculator?from-related-tools=1>`_

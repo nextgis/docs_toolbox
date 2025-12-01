@@ -35,4 +35,4 @@ Get the `output <https://nextgis.com/data/toolbox/qgis_multiparttosingleparts/qg
 
 .. admonition:: Related tools
 
-   * `Strip ZM from a vector layer <https://toolbox.nextgis.com/t/flatten>`_
+   * `Strip ZM from a vector layer <https://toolbox.nextgis.com/t/flatten?from-related-tools=1>`_

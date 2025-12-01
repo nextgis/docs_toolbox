@@ -30,4 +30,4 @@ Get the `output <https://nextgis.com/data/toolbox/ngw_to_gpkg/ngw_to_gpkg_output
 
 .. admonition:: Related tools
 
-   * `Web Map into QGIS project <https://toolbox.nextgis.com/t/webmap2qgis>`_
+   * `Web Map into QGIS project <https://toolbox.nextgis.com/t/webmap2qgis?from-related-tools=1>`_

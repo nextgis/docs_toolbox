@@ -38,6 +38,6 @@ Example:
 
 .. admonition:: Related tools
 
-   * `Split GPX file by days <https://toolbox.nextgis.com/t/gpxdailysplit>`_
-   * `Merge GPX files <https://toolbox.nextgis.com/t/gpxmerge>`_
-   * `Statistics of points and tracks in polygons from NGW <https://toolbox.nextgis.com/t/points_on_tracks_stats>`_
+   * `Split GPX file by days <https://toolbox.nextgis.com/t/gpxdailysplit?from-related-tools=1>`_
+   * `Merge GPX files <https://toolbox.nextgis.com/t/gpxmerge?from-related-tools=1>`_
+   * `Statistics of points and tracks in polygons from NGW <https://toolbox.nextgis.com/t/points_on_tracks_stats?from-related-tools=1>`_

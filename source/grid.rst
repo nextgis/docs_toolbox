@@ -84,4 +84,4 @@ Get the `output <https://nextgis.com/data/toolbox/grid/grid_outputs.zip>`_ to ad
 
 .. admonition:: Related tools
 
-   * `Generate a set of squares with transects <https://toolbox.nextgis.com/t/quadro>`_
+   * `Generate a set of squares with transects <https://toolbox.nextgis.com/t/quadro?from-related-tools=1>`_

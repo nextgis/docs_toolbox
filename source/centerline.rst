@@ -29,5 +29,5 @@ Get the `output <https://nextgis.com/data/toolbox/centerline/centerline_outputs.
 
 .. admonition:: Related tools
 
-   * `Calculate max distance between polygon nodes <https://toolbox.nextgis.com/t/maxdist>`_
-   * `Point inside polygon coordinates <https://toolbox.nextgis.com/t/centroid2attr>`_
+   * `Calculate max distance between polygon nodes <https://toolbox.nextgis.com/t/maxdist?from-related-tools=1>`_
+   * `Point inside polygon coordinates <https://toolbox.nextgis.com/t/centroid2attr?from-related-tools=1>`_

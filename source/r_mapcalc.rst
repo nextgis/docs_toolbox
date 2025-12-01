@@ -32,7 +32,7 @@ Get the `output <https://nextgis.com/data/toolbox/r_mapcalc/r_mapcalc_outputs.zi
 
 .. admonition:: Related tools
 
-   * `Raster calculator (GDAL) <https://toolbox.nextgis.com/t/raster_calculator>`_
-   * `Prepare raster <https://toolbox.nextgis.com/t/prepare_raster>`_
-   * `Image clustering <https://toolbox.nextgis.com/t/image_clustering>`_
-   * `Prepare and download Sentinel-2 data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_
+   * `Raster calculator (GDAL) <https://toolbox.nextgis.com/t/raster_calculator?from-related-tools=1>`_
+   * `Prepare raster <https://toolbox.nextgis.com/t/prepare_raster?from-related-tools=1>`_
+   * `Image clustering <https://toolbox.nextgis.com/t/image_clustering?from-related-tools=1>`_
+   * `Prepare and download Sentinel-2 data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2?from-related-tools=1>`_

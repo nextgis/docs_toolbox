@@ -37,5 +37,5 @@ Example:
 
 .. admonition:: Related tools
 
-   * `Get the contribution activity for the resource <https://toolbox.nextgis.com/t/ngw_contribution_activity>`_
-   * `Web GIS structure into spreadsheet <https://toolbox.nextgis.com/t/web_gis_structure>`_
+   * `Get the contribution activity for the resource <https://toolbox.nextgis.com/t/ngw_contribution_activity?from-related-tools=1>`_
+   * `Web GIS structure into spreadsheet <https://toolbox.nextgis.com/t/web_gis_structure?from-related-tools=1>`_

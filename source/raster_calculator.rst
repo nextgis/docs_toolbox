@@ -88,7 +88,7 @@ Get the `output <https://nextgis.com/data/toolbox/raster_calculator/raster_calcu
 
 .. admonition:: Related tools
 
-   * `Raster calculator (GRASS) <https://toolbox.nextgis.com/t/r_mapcalc>`_
-   * `Prepare raster <https://toolbox.nextgis.com/t/prepare_raster>`_
-   * `Image clustering <https://toolbox.nextgis.com/t/image_clustering>`_
-   * `Prepare and download Sentinel-2 data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2>`_
+   * `Raster calculator (GRASS) <https://toolbox.nextgis.com/t/r_mapcalc?from-related-tools=1>`_
+   * `Prepare raster <https://toolbox.nextgis.com/t/prepare_raster?from-related-tools=1>`_
+   * `Image clustering <https://toolbox.nextgis.com/t/image_clustering?from-related-tools=1>`_
+   * `Prepare and download Sentinel-2 data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2?from-related-tools=1>`_

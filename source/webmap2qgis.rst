@@ -11,13 +11,15 @@ Inputs:
 * Password – password for the user;
 * Extent - by default, the extent of the Web Map is used. You can enter a different extent in EPSG:4326. Format: bottom, left, top, right (South, West, North, East). Separate by comma. Example: ``54.5, 102.5, 59, 116``;
 * Output format. Format in which vector layers from the Web Map will be saved:
+
     - Geopackage (GeoPackage)
     - GML
     - MID/MIF
     - ESRI Shapefile
     - CSV
     - DXF
-* CRS ID - Coordinate system identifier for the output project. NextGIS Web codes are used. Default is 3857. To view all available codes use the following API: ``/api/component/spatial_ref_sys/``.
+    
+* CRS ID - Coordinate system identifier for the output project. For standard CRS use the numbers of the EPSG code. Default is 3857. For custom CRS see the id in the `Control panel <https://docs.nextgis.com/docs_ngweb/source/ngw_srs.html#ngw-srs-id>`_ To view the list of all available codes use the following API: ``/api/component/spatial_ref_sys/``.
 
 Outputs:
 

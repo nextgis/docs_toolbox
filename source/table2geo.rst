@@ -5,7 +5,7 @@ The tool converts spreadsheet file (XLSX, ODS, CSV) to a vector file in a format
 
 Input:
 
-*  Spreadsheet file in ODS, XSLX or CSV format. Spreadsheet must be located on the first page (if input file format implies books) and contain fields ``lat`` and ``lon`` for latitude and longitude, respectively. Coordinate reference system - WGS84. Coordinates should be expressed as decimal degrees.
+*  Spreadsheet file in ODS, XSLX or CSV format. Spreadsheet must be located on the first page (if input file format implies books) and contain fields named ``lat`` and ``lon`` for latitude and longitude, respectively. Coordinate reference system - WGS84. Coordinates should be expressed as decimal degrees.
 *  Optional: format of an output vector file. Choose one from the list:
 
     - ESRI Shapefile

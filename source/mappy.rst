@@ -22,6 +22,13 @@
 
    Пример результата работы инструмента
 
+.. figure:: _static/mappy_result_social_ru.jpg
+   :name: mappy_result_social_pic
+   :align: center
+   :width: 10cm
+
+   Пост с картой
+
 **Попробуйте инструмент в действии, скачав наш пример:**
 
 `Набор исходных данных <https://nextgis.ru/data/toolbox/mappy/mappy_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.

@@ -36,6 +36,7 @@
    qgis_fix_geometries
    raster_calculator
    r_mapcalc
+   mappy
    plk_catalog
    image_classification
    image_clustering

@@ -53,6 +53,7 @@ Tools
    lines2poly
    lines2polygons
    mapinfo2qgis
+   mappy
    maxdist
    mt2report
    ndi

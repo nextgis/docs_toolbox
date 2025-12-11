@@ -35,3 +35,8 @@ Launch the tool: https://toolbox.nextgis.com/t/qgis2pdf
 `Input data set <https://nextgis.ru/data/toolbox/qgis2pdf/qgis2pdf_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
 
 `Result example <https://nextgis.ru/data/toolbox/qgis2pdf/qgis2pdf_outputs.zip>`_ of the tool run.
+
+.. admonition:: Related tools
+
+   * `Map from OSM to PDF for printing <https://toolbox.nextgis.com/t/pdf2data>`_
+   * `Vertical map for Social Media <https://toolbox.nextgis.com/t/mappy>`_

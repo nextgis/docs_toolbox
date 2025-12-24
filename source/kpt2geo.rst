@@ -24,4 +24,7 @@ A description of the layers is given at https://data.nextgis.com/en/cadastre/#re
 
 Launch the tool: https://toolbox.nextgis.com/t/pkk_kpt
 
-Download an example of initial data and calculation results: https://nextgis.ru/data/toolbox/kpt2geo/kpt2geo.zip
+**Try the tool in action**
+
+1. Click on the **Demo** button above the tool form. The fields are filled in with demo values.
+2. Click on the **Run** button.

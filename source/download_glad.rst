@@ -43,11 +43,10 @@ Example data downloaded using the BAT file provided by the tool.
 
    Tiles in QGIS opened alongside the grid
 
-**Try the tool in action by downloading our example:**
+**Try the tool in action**
 
-`Input data set <https://nextgis.ru/data/toolbox/download_glad/download_glad_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
-
-`Result example <https://nextgis.ru/data/toolbox/download_glad/download_glad_outputs.zip>`_ of the tool run.
+1. Click on the **Demo** button above the tool form. The fields are filled in with demo values.
+2. Click on the **Run** button.
 
 .. admonition:: Related tools
 

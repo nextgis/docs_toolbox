@@ -30,11 +30,10 @@ The initial rasters and the vector mask can be in different coordinate systems b
 Launch the tool: https://toolbox.nextgis.com/t/prepare_raster
 
 
-**Try it out using our sample:**
+**Try the tool in action**
 
-Download `input dataset <https://nextgis.com/data/toolbox/prepare_raster/prepare_raster_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
-
-Get the `output <https://nextgis.com/data/toolbox/prepare_raster/prepare_raster_outputs.zip>`_ to additionally check the results.
+1. Click on the **Demo** button above the tool form. The fields are filled in with demo values.
+2. Click on the **Run** button.
 
 .. admonition:: Related tools
 

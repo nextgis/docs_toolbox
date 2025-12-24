@@ -15,16 +15,17 @@ Inputs:
 
     Google Geocoding API - https://developers.google.com/maps/documentation/geocoding/usage-and-billing
 
-Launch the tool: https://toolbox.nextgis.com/t/geocodetable
-
-**Try it out using our sample:**
-
-Download `input dataset <https://nextgis.com/data/toolbox/geocodetable/geocodetable_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
-
-Get the `output <https://nextgis.com/data/toolbox/geocodetable/geocodetable_outputs.zip>`_ to additionally check the results.
 Outputs:
 
 *  CSV file, containing two additional columns with latitude and longitude besides original data.
+
+Launch the tool: https://toolbox.nextgis.com/t/geocodetable
+
+**Try the tool in action**
+
+1. Click on the **Demo** button above the tool form. The fields are filled in with demo values.
+2. Click on the **Run** button.
+
 
 
 .. admonition:: Related tools

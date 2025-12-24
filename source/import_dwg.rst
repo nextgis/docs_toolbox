@@ -14,11 +14,10 @@ Output:
 Launch the tool:  
 https://toolbox.nextgis.com/t/import_dwg
 
-**Try it out using our sample:**
+**Try the tool in action**
 
-Download `input dataset <https://nextgis.com/data/toolbox/import_dwg/import_dwg_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
-
-Get the `output <https://nextgis.com/data/toolbox/import_dwg/import_dwg_outputs.zip>`_ to additionally check the results.
+1. Click on the **Demo** button above the tool form. The fields are filled in with demo values.
+2. Click on the **Run** button.
 
 .. admonition:: Related tools
 

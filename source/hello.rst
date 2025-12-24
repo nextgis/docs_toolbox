@@ -14,9 +14,10 @@ Output:
 
 Launch the tool: https://toolbox.nextgis.com/t/hello
 
-**Try it out using our sample:**
+**Try the tool in action**
 
-Download `step-by-step instructions <https://nextgis.com/data/toolbox/hello/hello_inputs.zip>`_ to test the instrument.
+1. Click on the **Demo** button above the tool form. The fields are filled in with demo values.
+2. Click on the **Run** button.
 
 .. admonition:: Related tools
 

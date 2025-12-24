@@ -33,11 +33,10 @@ By default, tile layer and the earliest preview are visible. Select the layers y
 
 Launch instrument: https://toolbox.nextgis.com/t/s2_search
 
-**Try it out using our sample:**
+**Try the tool in action**
 
-Download `input dataset <https://nextgis.com/data/toolbox/s2_search/s2_search_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
-
-Get the `output <https://nextgis.com/data/toolbox/s2_search/s2_search_outputs.zip>`_ to additionally check the results.
+1. Click on the **Demo** button above the tool form. The fields are filled in with demo values.
+2. Click on the **Run** button.
 
 .. admonition:: Related tools
 

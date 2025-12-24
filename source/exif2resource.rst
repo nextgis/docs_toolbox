@@ -38,9 +38,10 @@ Launch the tool: https://toolbox.nextgis.com/t/exif2resource
 
 .. todo:: eng example Result on the web map: https://demo.nextgis.com/resource/5950/display?panel=info
 
-**Try it out using our sample:**
+**Try the tool in action**
 
-Download `input dataset <https://nextgis.com/data/toolbox/exif2resource/exif2resource_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+1. Click on the **Demo** button above the tool form. The fields are filled in with demo values.
+2. Click on the **Run** button.
 
 .. admonition:: Related tools
 

@@ -38,11 +38,10 @@ In the **Layer options** section select for the GEOMETRY field the option ``AS_X
 
 Launch the tool: https://toolbox.nextgis.com/t/demInPoints
 
-**Try it out using our sample:**
+**Try the tool in action**
 
-Download `input dataset <https://nextgis.com/data/toolbox/deminpoints/deminpoints_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
-
-Get the `output <https://nextgis.com/data/toolbox/deminpoints/deminpoints_outputs.zip>`_ to additionally check the results.
+1. Click on the **Demo** button above the tool form. The fields are filled in with demo values.
+2. Click on the **Run** button.
 
 .. admonition:: Related tools
 

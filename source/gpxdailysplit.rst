@@ -22,11 +22,10 @@ Launch the tool: https://toolbox.nextgis.com/t/gpxdailysplit
 
    Tracks split by date on a map
 
-**Try the tool in action by downloading our example:**
+**Try the tool in action**
 
-`Input data set <https://nextgis.ru/data/toolbox/gpxdailysplit/gpxdailysplit_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
-
-`Result example <https://nextgis.ru/data/toolbox/gpxdailysplit/gpxdailysplit_outputs.zip>`_ of the tool run.
+1. Click on the **Demo** button above the tool form. The fields are filled in with demo values.
+2. Click on the **Run** button.
 
 .. admonition:: Related tools
 

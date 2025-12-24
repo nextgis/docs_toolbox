@@ -34,11 +34,10 @@ Supported data:
 
 Launch the tool: https://toolbox.nextgis.com/t/landsat_to_reflectance
 
-**Try it out using our sample:**
+**Try the tool in action**
 
-Download `input dataset <https://nextgis.com/data/toolbox/landsat_to_reflectance/landsat_to_reflectance_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
-
-Get the `output <https://nextgis.com/data/toolbox/landsat_to_reflectance/landsat_to_reflectance_outputs.zip>`_ to additionally check the results.
+1. Click on the **Demo** button above the tool form. The fields are filled in with demo values.
+2. Click on the **Run** button.
 
 .. admonition:: Related tools
 

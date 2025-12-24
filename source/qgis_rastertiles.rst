@@ -30,11 +30,10 @@ Launch the tool: https://toolbox.nextgis.com/t/qgis_rastertiles
 
    Example polygons with complicated geometry used to calculate the extent
 
-**Try the tool in action by downloading our example:**
+**Try the tool in action**
 
-`Input data set <https://nextgis.ru/data/toolbox/qgis_rastertiles/qgis_rastertiles_inputs.zip>`_ to test the tool. Step-by-step instructions included.
-
-`Result example <https://nextgis.ru/data/toolbox/qgis_rastertiles/qgis_rastertiles_outputs.zip>`_ of the tool run.
+1. Click on the **Demo** button above the tool form. The fields are filled in with demo values.
+2. Click on the **Run** button.
 
 .. admonition:: Related tools
 

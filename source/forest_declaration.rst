@@ -18,8 +18,7 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/t/ForestDeclaration2
 
-**Попробуйте инструмент в действии, скачав наш пример:**
+**Попробуйте инструмент в действии**
 
-`Набор исходных данных <https://nextgis.ru/data/toolbox/forestdeclaration2/forestdeclaration2_inputs_ru.zip?from-related-tools=1>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
-
-`Пример результата <https://nextgis.ru/data/toolbox/forestdeclaration2/forestdeclaration2_outputs_ru.zip?from-related-tools=1>`_ работы инструмента.
+1. Нажмите кнопку **Демо** над формой инструмента. Поля будут автоматически заполнены демонстрационными значениями.
+2. Нажмите кнопку **Запустить**.

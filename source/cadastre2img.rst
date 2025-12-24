@@ -37,11 +37,10 @@
 
 Посмотреть видео на `youtube <https://youtu.be/HKwTf1osVYc?si=geWM21y_Bh9bThCy>`_, `rutube <https://rutube.ru/video/1d37d449fcdb5493823fc037e3b7c3ba/>`_.
 
-**Попробуйте инструмент в действии, скачав наш пример:**
+**Попробуйте инструмент в действии**
 
-`Набор исходных данных <https://nextgis.ru/data/toolbox/cadastre2img/cadastre2img_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
-
-`Пример результата <https://nextgis.ru/data/toolbox/cadastre2img/cadastre2img_outputs_ru.zip>`_ работы инструмента.
+1. Нажмите кнопку **Демо** над формой инструмента. Поля будут автоматически заполнены демонстрационными значениями.
+2. Нажмите кнопку **Запустить**.
 
 .. seealso::
 

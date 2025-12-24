@@ -26,11 +26,10 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/t/landsat_to_reflectance
 
-**Попробуйте инструмент в действии, скачав наш пример:**
+**Попробуйте инструмент в действии**
 
-`Набор исходных данных <https://nextgis.ru/data/toolbox/landsat_to_reflectance/landsat_to_reflectance_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
-
-`Пример результата <https://nextgis.ru/data/toolbox/landsat_to_reflectance/landsat_to_reflectance_outputs_ru.zip>`_ работы инструмента.
+1. Нажмите кнопку **Демо** над формой инструмента. Поля будут автоматически заполнены демонстрационными значениями.
+2. Нажмите кнопку **Запустить**.
 
 .. seealso::
 

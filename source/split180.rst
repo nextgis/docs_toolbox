@@ -1,7 +1,9 @@
 Split data by 180 degrees 
 =====================================
 
-Split vector layer feature geometries at antimeridian (180th meridian) for correct visualization on online maps.
+Split vector layer feature geometries at antimeridian (180th meridian).
+
+Such split is often required for correct use of such feature in different GIS software and for correct visualization on online maps.
 
 .. figure:: _static/split180tiles_en.png
    :name: split180tiles_pic

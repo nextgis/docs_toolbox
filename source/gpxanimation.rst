@@ -17,17 +17,17 @@ Launch the tool: https://toolbox.nextgis.com/t/gpxanimation
 
 Example:
 
-.. todo:: _static/gpxanimation_input_en.png
+.. figure:: _static/gpxanimation_input_en.png
    :name: gpxanimation_input_pic
    :align: center
-   :width: 16cm
+   :width: 20cm
 
    Example input
 
-.. todo:: _static/gpxanimation_result_en.png
+.. figure:: _static/gpxanimation_result.gif
    :name: gpxanimation_result_pic
    :align: center
-   :width: 16cm
+   :width: 8cm
 
    Example output
 

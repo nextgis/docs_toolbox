@@ -15,17 +15,17 @@
 
 Пример работы инструмента:
 
-.. todo:: _static/gpxanimation_input_ru.png
+.. figure:: _static/gpxanimation_input_ru.png
    :name: gpxanimation_input_pic
    :align: center
-   :width: 16cm
+   :width: 20cm
 
-   Пример исходных данных
+   Исходный трек в QGIS
 
-.. todo:: _static/gpxanimation_result_ru.png
+.. figure:: _static/gpxanimation_result.gif
    :name: gpxanimation_result_pic
    :align: center
-   :width: 16cm
+   :width: 8cm
 
    Пример результата работы инструмента
 

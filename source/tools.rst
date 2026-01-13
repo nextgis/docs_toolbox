@@ -11,6 +11,7 @@
    import_dwg
    kml2geodata
    tropomi2geotiff
+   gpxanimation
    coords2poly
    webmap2qgis
    layers2ngw

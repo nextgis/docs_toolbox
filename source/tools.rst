@@ -32,6 +32,7 @@ Tools
    geocodetable
    geometry_changer
    gpkg2etab
+   gpxanimation
    gpx2exif
    gpxclipbbox
    gpxdailysplit

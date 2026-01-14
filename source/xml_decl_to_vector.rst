@@ -3,6 +3,17 @@
 
 Инструмент конвертирует XML лесной декларации в полигональный слой с объектами из декларации.
 
+.. note:: 
+
+   Этот документ обрабатывает только лесные декларации. 
+   Если вам нужно сконвертировать документ XML другого типа, воспользуйтесь другими `инструментами конвертации XML <https://toolbox.nextgis.com/?tags=6>`_:
+   
+   * `Конвертация данных ЕГРН <https://toolbox.nextgis.com/t/import_egrn?from-related-tools=1>`_ (`поддерживаемые типы документов <https://docs.nextgis.ru/docs_rosreestr_tools/source/rr-import.html#ngq-rr-import-supported>`_), 
+   * `Таксационное описание лесосеки <https://toolbox.nextgis.com/t/xml_tol_to_vector?from-related-tools=1>`_,
+   * `Акт лесопатологического обследования <https://toolbox.nextgis.com/t/xml_lpo_to_vector>`_
+   * `Проект лесовосстановления <https://toolbox.nextgis.com/t/xml_plv_to_vector>`_,
+   * `Выписки ГЛР <https://toolbox.nextgis.com/t/import_glr>`_.
+
 На входе:
 
 * Исходный набор данных – Файл XML с лесной декларацией или ZIP-архив с несколькими XML. Также поддерживается архив с вложенными ZIP-архивами. Поддерживаемые версии: 4.3,4.4, 7.0.2 и 7.0.3.

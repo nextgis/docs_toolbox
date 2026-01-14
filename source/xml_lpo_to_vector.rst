@@ -3,7 +3,16 @@
 
 Конвертация XML-документа Акт лесопатологического обследования.
 
+.. note:: 
 
+   Этот документ обрабатывает только Акт лесопатологического обследования. 
+   Если вам нужно сконвертировать документ XML другого типа, воспользуйтесь другими `инструментами конвертации <https://toolbox.nextgis.com/?tags=6>`_:
+   
+   * `Конвертация данных ЕГРН <https://toolbox.nextgis.com/t/import_egrn?from-related-tools=1>`_ (`поддерживаемые типы документов <https://docs.nextgis.ru/docs_rosreestr_tools/source/rr-import.html#ngq-rr-import-supported>`_), 
+   * `Лесная декларация <https://toolbox.nextgis.com/t/xml_decl_to_vector?from-related-tools=1>`_,
+   * `Акт лесопатологического обследования <https://toolbox.nextgis.com/t/xml_lpo_to_vecto?from-related-tools=1r>`_,
+   * `Проект лесовосстановления <https://toolbox.nextgis.com/t/xml_plv_to_vector?from-related-tools=1>`_,
+   * `Выписки ГЛР <https://toolbox.nextgis.com/t/import_glr?from-related-tools=1>`_.
 
 На входе:
 

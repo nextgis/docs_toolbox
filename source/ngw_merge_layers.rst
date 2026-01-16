@@ -40,9 +40,9 @@ Launch the tool: https://toolbox.nextgis.com/t/ngw_merge_layers
 
 **Try the tool in action by downloading our example:**
 
-`Input data set <https://nextgis.ru/data/toolbox/ngw_merge_layers/ngw_merge_layers_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
+`Input data set <https://nextgis.com/data/toolbox/ngw_merge_layers/ngw_merge_layers_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
 
-`Result example <https://nextgis.ru/data/toolbox/ngw_merge_layers/ngw_merge_layers_outputs.zip>`_ of the tool run.
+`Result example <https://nextgis.com/data/toolbox/ngw_merge_layers/ngw_merge_layers_outputs.zip>`_ of the tool run.
 
 .. admonition:: Related tools
 

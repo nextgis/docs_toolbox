@@ -1,7 +1,9 @@
 Change attributes in the layer group
 ====================================
 
-The tool changes the value of the target attribute for the selected features in the layer group in the specified Web GIS resource. Features are selected according to the set value of the selected field.
+The tool changes the value of the target attribute for the selected features in the layer group in the specified Web GIS resource on NextGIS platform. Features are selected according to the set value of the selected field.
+
+NextGIS Web (NGW) is a geodata managing system. You can use it for free after `signing up <https://docs.nextgis.com/docs_ngcom/source/create.html>`_. With NextGIS Web you can store geodata, create interactive online maps, give access to them to your teammates and clients, edit features directly on the map and in the feature tables, as well as process them with specialized Toolbox tools. `More on what NGW can do <https://docs.nextgis.com/docs_ngweb/source/general.html>`_.
 
 Inputs:
 

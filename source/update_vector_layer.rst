@@ -1,8 +1,10 @@
 Update Web GIS layer from CSV
 =================================
 
-Update an existing Web GIS layer using uploaded CSV file. Works only with point vector layers. It is possible either to add data to existing one or to replace existing features.
+Update an existing Web GIS layer on NextGIS platform using uploaded CSV file. Works only with point vector layers. It is possible either to add data to existing one or to replace existing features.
 Data structure of CSV file should be the same as of target Web GIS layer. 
+
+NextGIS Web (NGW) is a geodata managing system. You can use it for free after `signing up <https://docs.nextgis.com/docs_ngcom/source/create.html>`_. With NextGIS Web you can store geodata, create interactive online maps, give access to them to your teammates and clients, edit features directly on the map and in the feature tables, as well as process them with specialized Toolbox tools. `More on what NGW can do <https://docs.nextgis.com/docs_ngweb/source/general.html>`_.
 
 Inputs:
 

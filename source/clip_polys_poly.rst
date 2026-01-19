@@ -1,7 +1,9 @@
 Intersection areas inside/outside boundary
 ==========================================
 
-Calculates area of polygons inside and outside given boundary. Records results in Web GIS layer attributes, in hectares (ha).
+Calculates area of polygons inside and outside given boundary. Records results in hectares (ha) to the attributes of a vector layer in Web GIS on NextGIS platform.
+
+NextGIS Web (NGW) is a geodata managing system. You can use it for free after `signing up <https://docs.nextgis.com/docs_ngcom/source/create.html>`_. With NextGIS Web you can store geodata, create interactive online maps, give access to them to your teammates and clients, edit features directly on the map and in the feature tables, as well as process them with specialized Toolbox tools. `More on what NGW can do <https://docs.nextgis.com/docs_ngweb/source/general.html>`_.
 
 Inputs:
 

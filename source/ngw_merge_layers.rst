@@ -1,7 +1,9 @@
 Merge two Web GIS vector layers
 ===============================
 
-This tool allows you to copy data from one layer to another with the same structure, including attachments and attribute values.
+This tool allows you to copy data from one layer to another with the same Web GIS on NextGIS platform, including attachments and attribute values.
+
+NextGIS Web (NGW) is a geodata managing system. You can use it for free after `signing up <https://docs.nextgis.com/docs_ngcom/source/create.html>`_. With NextGIS Web you can store geodata, create interactive online maps, give access to them to your teammates and clients, edit features directly on the map and in the feature tables, as well as process them with specialized Toolbox tools. `More on what NGW can do <https://docs.nextgis.com/docs_ngweb/source/general.html>`_.
 
 The layer you copy features from is **source**.
 

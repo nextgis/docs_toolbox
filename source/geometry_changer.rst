@@ -1,7 +1,9 @@
 Change geometry for a group of layers
 =====================================
 
-The tool changes the geometry of features in all the layers of a group in Web GIS. 
+The tool changes the geometry of features in all the layers of a group in Web GIS on NextGIS platform. 
+
+NextGIS Web (NGW) is a geodata managing system. You can use it for free after `signing up <https://docs.nextgis.com/docs_ngcom/source/create.html>`_. With NextGIS Web you can store geodata, create interactive online maps, give access to them to your teammates and clients, edit features directly on the map and in the feature tables, as well as process them with specialized Toolbox tools. `More on what NGW can do <https://docs.nextgis.com/docs_ngweb/source/general.html>`_.
 
 Three modes are available:
 

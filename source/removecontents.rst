@@ -1,6 +1,8 @@
 Remove layers content
 ========================
-The tool removes features for all vector layers in a target Web GIS group. Layer resources are not removed.
+The tool removes features for all vector layers in a target resource group in Web GIS on NextGIS platform. Layer resources are not removed.
+
+NextGIS Web (NGW) is a geodata managing system. You can use it for free after `signing up <https://docs.nextgis.com/docs_ngcom/source/create.html>`_. With NextGIS Web you can store geodata, create interactive online maps, give access to them to your teammates and clients, edit features directly on the map and in the feature tables, as well as process them with specialized Toolbox tools. `More on what NGW can do <https://docs.nextgis.com/docs_ngweb/source/general.html>`_.
 
 Inputs:
 

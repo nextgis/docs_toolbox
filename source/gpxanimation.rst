@@ -17,7 +17,7 @@ Launch the tool: https://toolbox.nextgis.com/t/gpxanimation
 
 Example:
 
-.. figure:: _static/gpxanimation_input_en.png
+.. figure:: _static/gpxanimation_input_en_2.png
    :name: gpxanimation_input_pic
    :align: center
    :width: 20cm

@@ -15,7 +15,7 @@
 
 Пример работы инструмента:
 
-.. figure:: _static/gpxanimation_input_ru.png
+.. figure:: _static/gpxanimation_input_ru_2.png
    :name: gpxanimation_input_pic
    :align: center
    :width: 20cm

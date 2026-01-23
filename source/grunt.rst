@@ -26,5 +26,5 @@
 
 .. seealso::
 
-   * `Конвертация данных о водных объектах <https://toolbox.nextgis.com/t/water_usage?from-related-tools=1>`_
+   * `XLSX данных о водных объектах в GeoPackage <https://toolbox.nextgis.com/t/water_usage?from-related-tools=1>`_
    * `Конвертация данных ЕГРН <https://toolbox.nextgis.com/t/import_egrn?from-related-tools=1>`_

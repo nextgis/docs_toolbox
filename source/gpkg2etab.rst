@@ -1,4 +1,4 @@
-Конвертация GeoPackage в MapInfo Enhanced TAB
+GeoPackage в MapInfo Enhanced TAB
 =============================================
 
 Конвертация GeoPackage (GPKG) в Enhanced TAB (NativeX), работает в MapInfo Pro 15.2 и выше. 

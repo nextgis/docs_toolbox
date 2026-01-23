@@ -106,5 +106,5 @@
 .. seealso::
 
         * `Каталог учетных номеров <https://toolbox.nextgis.com/t/plk_catalog?from-related-tools=1>`_
-        * `Конвертация MapInfo для QGIS <https://toolbox.nextgis.com/t/mapinfo2qgis?from-related-tools=1>`_
+        * `MapInfo в GeoPackage <https://toolbox.nextgis.com/t/mapinfo2qgis?from-related-tools=1>`_
         * `KML в геоданные <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_

@@ -13,5 +13,5 @@ DWG в DXF
 .. seealso::
 
     * `Конвертация данных ЕГРН <https://toolbox.nextgis.com/t/import_egrn?from-related-tools=1>`_
-    * `Конвертация MapInfo для QGIS <https://toolbox.nextgis.com/t/mapinfo2qgis?from-related-tools=1>`_
+    * `MapInfo в GeoPackage <https://toolbox.nextgis.com/t/mapinfo2qgis?from-related-tools=1>`_
     * `KML в геоданные <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_

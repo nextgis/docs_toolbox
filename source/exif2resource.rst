@@ -42,5 +42,5 @@ NextGIS Web (NGW) — это система управления геоданн�
 
 .. seealso::
 
-   * `Добавить к фотографиям координаты из GPX-трека <https://toolbox.nextgis.com/t/gpx2exif?from-related-tools=1>`_
-   * `Добавить к фотографиям теги Google Photosphere <https://toolbox.nextgis.com/t/panotag?from-related-tools=1>`_
+   * `Добавление координат к фотографиям <https://toolbox.nextgis.com/t/gpx2exif?from-related-tools=1>`_
+   * `Добавление тегов Photospere к фотографиям <https://toolbox.nextgis.com/t/panotag?from-related-tools=1>`_

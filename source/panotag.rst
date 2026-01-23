@@ -1,4 +1,4 @@
-Добавить к фотографиям теги Google Photosphere
+Добавление тегов Photospere к фотографиям
 ==============================================
 
 Случается так, что при записи панорамы к файлу не добавляются нужные тэги, и тогда программа просмотра не понимает, что это сферическая панорама.
@@ -47,5 +47,5 @@ GPano:PoseHeadingDegrees копируется из GPSImgDirection, если т�
 
 .. seealso::
 
-   * `Добавить к фотографиям координаты из GPX-трека <https://toolbox.nextgis.com/t/gpx2exif?from-related-tools=1>`_
+   * `Добавление координат к фотографиям <https://toolbox.nextgis.com/t/gpx2exif?from-related-tools=1>`_
    * `Фото с EXIF в слой NGW <https://toolbox.nextgis.com/t/exif2resource?from-related-tools=1>`_

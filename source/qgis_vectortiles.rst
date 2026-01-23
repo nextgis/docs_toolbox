@@ -1,4 +1,4 @@
-Генерация векторных тайлов из проекта QGIS
+Векторные тайлы из проекта QGIS
 ==========================================
 
 Из архива с проектом QGIS и данными генерирует архив с векторными тайлами. Из проекта берутся только векторные слои, оформление не создаётся.
@@ -23,6 +23,6 @@
 
 .. seealso::
 
-   * `Генерация растровых тайлов из проекта QGIS <https://toolbox.nextgis.com/t/qgis_rastertiles?from-related-tools=1>`_
+   * `Растровые тайлы из проекта QGIS <https://toolbox.nextgis.com/t/qgis_rastertiles?from-related-tools=1>`_
    * `Создание тайлового набора по растру <https://toolbox.nextgis.com/t/raster2tiles?from-related-tools=1>`_
    * `Конвертация проекта QGIS в PDF <https://toolbox.nextgis.com/t/qgis2pdf?from-related-tools=1>`_

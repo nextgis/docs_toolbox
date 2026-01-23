@@ -15,16 +15,22 @@
 
 На выходе:
 
-* Итоговый GeoPackage. Файл GeoPackage с историей изменения объекта.
+* Итоговый GeoPackage. Файл GeoPackage с историей изменения объекта. Для каждой версии сохраняется геометрия объекта, значения его атрибутов и следующие дополнительные атрибуты:
+
+   * vid - номер версии
+   * author - пользователь, внесший изменения
+   * time - дата и время изменения
+   * action - действие с объектом: создание, изменение, удаление, восстановление
+
 
 Запуск инструмента: https://toolbox.nextgis.com/t/ngw_feature_history
 
 Пример работы инструмента:
 
-.. figure:: _static/ngw_feature_history_result_ru.png
+.. figure:: _static/ngw_feature_history_result_ru_2.png
    :name: ngw_feature_history_result_pic
    :align: center
-   :width: 14cm
+   :width: 20cm
 
    История изменений точечного объекта
 

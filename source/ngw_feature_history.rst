@@ -16,16 +16,21 @@ Inputs:
 
 Outputs:
 
-* Result GeoPackage. GeoPackage file with feature history versions.
+* Result GeoPackage. GeoPackage file with feature history versions. Each version has the geometry of the feature, attribute values plus additional fields:
+
+   * vid - number of the version;
+   * author - user who made the changes;
+   * time - date and time of the edits;
+   * action - what happened to the feature: created, updated, deleted, restored.
 
 Launch the tool: https://toolbox.nextgis.com/t/ngw_feature_history
 
 Example:
 
-.. figure:: _static/ngw_feature_history_result_en.png
+.. figure:: _static/ngw_feature_history_result_en_2.png
    :name: ngw_feature_history_result_pic
    :align: center
-   :width: 14cm
+   :width: 20cm
 
    History of changes for a point feature
 

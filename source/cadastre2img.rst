@@ -44,7 +44,7 @@
 
 .. seealso::
 
-   * `Получить геометрию участка по кадастровому номеру <https://toolbox.nextgis.com/t/rosreestr2coord?from-related-tools=1>`_
+   * `Геометрия участка по кадастровому номеру <https://toolbox.nextgis.com/t/rosreestr2coord?from-related-tools=1>`_
    * `Конвертация данных ЕГРН <https://toolbox.nextgis.com/t/import_egrn?from-related-tools=1>`_
    * `Дежурная кадастровая карта <https://toolbox.nextgis.com/t/dezhurcad>?from-related-tools=1`_
    * `Список КПТ по заданной области <https://toolbox.nextgis.com/t/egrn_kvartals_cover?from-related-tools=1>`_

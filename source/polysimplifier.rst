@@ -28,4 +28,4 @@
 .. seealso::
 
    * `Продвинутое упрощение векторных данных <https://toolbox.nextgis.com/t/generalization?from-related-tools=1>`_
-   * `Разделить сложные полигоны <https://toolbox.nextgis.com/t/splitcomplex?from-related-tools=1>`_
+   * `Разбиение сложных полигонов <https://toolbox.nextgis.com/t/splitcomplex?from-related-tools=1>`_

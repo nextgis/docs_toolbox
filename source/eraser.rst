@@ -36,4 +36,4 @@
 .. seealso::
 
    * `Пересечение полигонов <https://toolbox.nextgis.com/t/vectorclip?from-related-tools=1>`_
-   * `Пересечение слоёв <https://toolbox.nextgis.com/t/intersect_layers?from-related-tools=1>`_
+   * `Ведомость пересечений <https://toolbox.nextgis.com/t/intersect_layers?from-related-tools=1>`_

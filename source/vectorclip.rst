@@ -40,5 +40,5 @@
 .. seealso::
 
    * `Пересекатор <https://toolbox.nextgis.com/t/ngw_intersect?from-related-tools=1>`_
-   * `Пересечение слоёв <https://toolbox.nextgis.com/t/intersect_layers?from-related-tools=1>`_
+   * `Ведомость пересечений <https://toolbox.nextgis.com/t/intersect_layers?from-related-tools=1>`_
    * `Удалить области пересечения из слоя <https://toolbox.nextgis.com/t/eraser?from-related-tools=1>`_

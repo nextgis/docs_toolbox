@@ -44,5 +44,5 @@
 .. seealso::
 
    * `Обрезка GPX файла по прямоугольнику <https://toolbox.nextgis.com/t/gpxclipbbox?from-related-tools=1>`_
-   * `Разрезать GPX трек по дням <https://toolbox.nextgis.com/t/gpxdailysplit?from-related-tools=1>`_
+   * `Разбивка GPX-файла по дням <https://toolbox.nextgis.com/t/gpxdailysplit?from-related-tools=1>`_
    * `Статистика по точкам и трекам в полигонах из NGW <https://toolbox.nextgis.com/t/points_on_tracks_stats?from-related-tools=1>`_

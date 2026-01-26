@@ -36,5 +36,5 @@
 .. seealso::
 
    * `Растровые тайлы из проекта QGIS <https://toolbox.nextgis.com/t/qgis_rastertiles?from-related-tools=1>`_
-   * `Конвертация облака точек в тайлсет <https://toolbox.nextgis.com/t/pointcloud2tileset?from-related-tools=1>`_
+   * `Облако точек в набор тайлов <https://toolbox.nextgis.com/t/pointcloud2tileset?from-related-tools=1>`_
    * `Векторные тайлы из проекта QGIS <https://toolbox.nextgis.com/t/qgis_vectortiles?from-related-tools=1>`_

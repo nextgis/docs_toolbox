@@ -53,5 +53,5 @@ NextGIS Web (NGW) — это система управления геоданн�
 
 .. seealso::
 
-   * `Пересекатор <https://toolbox.nextgis.com/t/ngw_intersect?from-related-tools=1>`_
+   * `Ведомость пересечений для Веб ГИС <https://toolbox.nextgis.com/t/ngw_intersect?from-related-tools=1>`_
    * `Пересечение слоёв <https://toolbox.nextgis.com/t/vectorclip?from-related-tools=1>`_

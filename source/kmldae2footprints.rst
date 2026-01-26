@@ -22,5 +22,5 @@
 
 .. seealso::
 
-    * `Обрезать PBF по прямоугольнику <https://toolbox.nextgis.com/t/osmclip_bbox?from-related-tools=1>`_
+    * `Обрезка PBF по прямоугольнику <https://toolbox.nextgis.com/t/osmclip_bbox?from-related-tools=1>`_
     * `Облако точек в набор тайлов <https://toolbox.nextgis.com/t/pointcloud2tileset?from-related-tools=1>`_

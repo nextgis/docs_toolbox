@@ -29,6 +29,6 @@ NextGIS Web (NGW) — это система управления геоданн�
 
 .. seealso::
 
-   * `Объединить два векторных слоя в Веб ГИС <https://toolbox.nextgis.com/t/ngw_merge_layers?from-related-tools=1>`_
+   * `Объединение двух векторных слоёв Веб ГИС <https://toolbox.nextgis.com/t/ngw_merge_layers?from-related-tools=1>`_
    * `Дублировать векторный слой nextgis.com <https://toolbox.nextgis.com/t/ngw_copy_layer?from-related-tools=1>`_
    * `Векторные слои из архива в Веб ГИС <https://toolbox.nextgis.com/t/layers2ngw?from-related-tools=1>`_

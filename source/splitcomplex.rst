@@ -39,4 +39,4 @@
    * `Базовое упрощение векторных данных <https://toolbox.nextgis.com/t/polysimplifier?from-related-tools=1>`_
    * `Разбить на равные части <https://toolbox.nextgis.com/t/split_to_equal?from-related-tools=1>`_
    * `Продвинутое упрощение векторных данных <https://toolbox.nextgis.com/t/generalization?from-related-tools=1>`_
-   * `Разрезать геометрии по 180 меридиану <https://toolbox.nextgis.com/t/split180?from-related-tools=1>`_
+   * `Разрезание геометрий по 180 меридиану <https://toolbox.nextgis.com/t/split180?from-related-tools=1>`_

@@ -60,5 +60,5 @@
 
 .. seealso::
 
-   * `Сконвертировать линии в полигоны <https://toolbox.nextgis.com/t/lines2poly?from-related-tools=1>`_
+   * `Линии в полигоны <https://toolbox.nextgis.com/t/lines2poly?from-related-tools=1>`_
    * `Нарезка слоя данных на временной кэш <https://toolbox.nextgis.com/t/temporal_split?from-related-tools=1>`_

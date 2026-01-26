@@ -17,8 +17,8 @@ Inputs:
 * Login - NextGIS ID or user login;
 * Password - password for that user;
 * Resource ID - numbers at the end of the resource URL;
-* Start time - optional. First day of the period, in YYYY-mm-dd format;
-* End time - optionsl. Last day of the period, in YYYY-mm-dd format, not less than 28 days and not over 366 days from the initial date.
+* Start date - optional. First day of the period, in YYYY-mm-dd format;
+* End date - optionsl. Last day of the period, in YYYY-mm-dd format, not less than 28 days and not over 366 days from the initial date.
 
 Outputs:
 

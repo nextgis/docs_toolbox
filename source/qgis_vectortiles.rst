@@ -25,4 +25,4 @@
 
    * `Растровые тайлы из проекта QGIS <https://toolbox.nextgis.com/t/qgis_rastertiles?from-related-tools=1>`_
    * `Набор тайлов из растра <https://toolbox.nextgis.com/t/raster2tiles?from-related-tools=1>`_
-   * `Конвертация проекта QGIS в PDF <https://toolbox.nextgis.com/t/qgis2pdf?from-related-tools=1>`_
+   * `PDF из проекта QGIS <https://toolbox.nextgis.com/t/qgis2pdf?from-related-tools=1>`_

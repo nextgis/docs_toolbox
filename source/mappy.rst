@@ -37,4 +37,4 @@
 .. seealso::
 
    * `Карта OSM в PDF для печати <https://toolbox.nextgis.com/t/pdf2data>`_
-   * `Конвертация проекта QGIS в PDF <https://toolbox.nextgis.com/t/qgis2pdf>`_
+   * `PDF из проекта QGIS <https://toolbox.nextgis.com/t/qgis2pdf>`_

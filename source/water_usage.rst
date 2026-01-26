@@ -26,6 +26,6 @@ XLSX данных о водных объектах в GeoPackage
 
 .. seealso::
 
-   * `Конвертация выписок ГЛР <https://toolbox.nextgis.com/t/import_glr?from-related-tools=1>`_
+   * `Выписки ГЛР в геоданные <https://toolbox.nextgis.com/t/import_glr?from-related-tools=1>`_
    * `Таблица данных о захоронении грунтов в геоданные <https://toolbox.nextgis.com/t/grunt?from-related-tools=1>`_
    * `Центральные линии полигонов <https://toolbox.nextgis.com/t/centerline?from-related-tools=1>`_

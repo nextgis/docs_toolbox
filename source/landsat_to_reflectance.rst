@@ -34,6 +34,6 @@
 .. seealso::
 
     * `Радиометрическая калибровка данных Landsat <https://toolbox.nextgis.com/t/landsat_to_radiance?from-related-tools=1>`_
-    * `Загрузить Landsat Analysis Ready Data (GLAD ARD) <https://toolbox.nextgis.com/t/download_glad?from-related-tools=1>`_
+    * `Загрузка Landsat Analysis Ready Data (GLAD ARD) <https://toolbox.nextgis.com/t/download_glad?from-related-tools=1>`_
     * `Нормализованный разностный индекс <https://toolbox.nextgis.com/t/ndi?from-related-tools=1>`_
     * `Калькулятор растров (GDAL) <https://toolbox.nextgis.com/t/raster_calculator?from-related-tools=1>`_

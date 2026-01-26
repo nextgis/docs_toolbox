@@ -37,7 +37,7 @@
 
 .. seealso::
 
-   * `Конвертация выписок ГЛР <https://toolbox.nextgis.com/t/import_glr?from-related-tools=1>`_
+   * `Выписки ГЛР в геоданные <https://toolbox.nextgis.com/t/import_glr?from-related-tools=1>`_
    * `Геометрия участка по кадастровому номеру <https://toolbox.nextgis.com/t/rosreestr2coord?from-related-tools=1>`_
    * `Конвертация данных ЕГРН <https://toolbox.nextgis.com/t/import_egrn?from-related-tools=1>`_
    * `Конвертация XML: Лесная декларация <https://toolbox.nextgis.com/t/xml_decl_to_vector?from-related-tools=1>`_

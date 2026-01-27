@@ -6,75 +6,79 @@
 
 .. toctree::
    :maxdepth: 1
-
+   
    ascii2geotiff
+   s2_search
    import_dwg
    kml2geodata
+   mapinfo2qgis
+   qgis2pdf
+   rsc2csv
    tropomi2geotiff
-   gpxanimation
+   water_usage
+   poly2explication
    coords2poly
+   explication2poly
+   gpxanimation
+   polysimplifier
    webmap2qgis
+   intersect_layers
+   ngw_intersect
    layers2ngw
    ngw_to_gpkg
    qgis_vectortiles
-   qgis_rastertiles
-   grid
+   mappy
+   import_glr
+   quadro
    cadastre2img
    ai2geo
    geocodetable
+   rosreestr2coord
    dezhurcad
    panotag
-   add_regions
    gpx2exif
+   add_regions
    ngw_copy_layer
-   embedsvg
    download_glad
+   embedsvg
    zmu_data_analysis
    deminpoints
    field_value_changer
    geometry_changer
    fix_geometries
    qgis_fix_geometries
+   ngw_feature_history 
    raster_calculator
    r_mapcalc
-   mappy
    plk_catalog
    image_classification
    image_clustering
-   gpkg2etab
-   mapinfo2qgis
-   rsc2csv
    xml_lpo_to_vector
    xml_decl_to_vector
    xml_plv_to_vector
    xml_tol_to_vector
    convert
-   import_glr
    import_egrn
-   water_usage
-   grunt
-   pointcloud2tileset
-   qgis2pdf
    centroid2attr
    lesis2sqlite
    maxdist
-   quadro
+   qgis_multiparttosingleparts
+   raster2tiles
    temporal_split
    ndi
+   pointcloud2tileset
    update_vector_layer
    gpxclipbbox
    osmclip_bbox
    gpxmerge
-   joinreforma
    ogrmerge
-   join_by_field
    ngw_merge_layers
+   join_by_field
    mt2report
+   ngw_contribution_activity
    postal
    coord_recalc
-   ngw_intersect
    vectorclip
-   intersect_layers
    clip_polys_poly
    vector2datalens
    prepare_raster
@@ -83,42 +87,37 @@
    split_to_rect
    cadnums_to_geodata
    imagesearch
-   poly2explication
    lines2polygons
-   ngw_feature_history
-   rosreestr2coord
-   ngw_contribution_activity
    hello
-   kptbatch_validator
    check_geometries
    qgis_check_geometries
+   geospatial_input_explainer
+   kptbatch_validator
    predict_overpass
    generalization
    kmldae2footprints
    spatial_join
    empty_geoms
-   split_to_equal
-   qgis_multiparttosingleparts
-   splitcomplex
+   landsat_to_radiance
    gpxdailysplit
+   splitcomplex
+   split_to_equal
    split180
    infomap
-   landsat_to_radiance
+   qgis_rastertiles
    landsat_to_reflectance
+   grid
    lines2poly
    forestplots_field
-   raster2tiles
    egrn_kvartals_cover
    points_on_tracks_stats
    web_gis_structure
-   s2_search
    spreadsheet2layer
    table2geo
+   grunt
+   removecontents
    flatten
    eraser
-   removecontents
    improvedem
-   polysimplifier
    exif2resource
    centerline
-   explication2poly

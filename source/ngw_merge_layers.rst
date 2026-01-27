@@ -48,4 +48,4 @@ NextGIS Web (NGW) — это система управления геоданн�
 
 .. seealso::
 
-   * `Дублировать векторный слой nextgis.com <https://toolbox.nextgis.com/t/ngw_copy_layer?from-related-tools=1>`_
+   * `Дублирование векторного слоя Веб ГИС <https://toolbox.nextgis.com/t/ngw_copy_layer?from-related-tools=1>`_

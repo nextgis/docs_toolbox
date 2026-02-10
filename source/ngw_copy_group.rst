@@ -1,7 +1,7 @@
 Copyng nextgis.com resource group with data
 ===========================================
 
-Copyng structure+data of resource group on NextGIS platform to other resourse group or Web GIS. Copies the data, subgroups, styles and Web Maps with layers added. The following resource types are supported: 
+Copies structure+data of resource group on NextGIS platform to other resourse group or Web GIS. Copies the data, subgroups, styles and Web Maps with layers added. The following resource types are supported: 
 
 * resource group;
 * vector layer;

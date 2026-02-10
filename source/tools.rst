@@ -10,6 +10,7 @@
    ascii2geotiff
    s2_search
    import_dwg
+   gpkg2etab
    kml2geodata
    mapinfo2qgis
    qgis2pdf

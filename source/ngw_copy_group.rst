@@ -1,6 +1,8 @@
 Copy nextgis.com resource group with data
 ===========================================
 
+.. warning:: By default the tool deletes all files in the target group. Make sure you don't pick a group that contains important data!
+
 Copies structure+data of resource group on NextGIS platform to other resourse group or Web GIS. Copies the data, subgroups, styles and Web Maps with layers added. The following resource types are supported: 
 
 * resource group;

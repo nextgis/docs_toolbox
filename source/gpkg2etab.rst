@@ -17,10 +17,10 @@ GeoPackage в MapInfo Enhanced TAB
 
 Пример работы инструмента:
 
-.. figure:: _static/gpkg2etab_result_ru.jpg
+.. figure:: _static/gpkg2etab_result_ru_2.png
    :name: gpkg2etab_result_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
 
    Пример результата работы инструмента
 

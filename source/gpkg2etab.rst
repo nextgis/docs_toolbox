@@ -19,10 +19,10 @@ Launch the tool: https://toolbox.nextgis.com/t/gpkg2etab
 
 Example:
 
-.. figure:: _static/gpkg2etab_result_en.jpg
+.. figure:: _static/gpkg2etab_result_en_2.png
    :name: gpkg2etab_result_pic
    :align: center
-   :width: 20cm
+   :width: 24cm
 
    Example output with Greek names
 

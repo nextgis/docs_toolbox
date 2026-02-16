@@ -1,4 +1,4 @@
-Erase overlapping areas from the layer
+Erase overlapping areas from layer
 ======================================
 
 Erases parts of polygonal features, overlapping with geometries from another layer.

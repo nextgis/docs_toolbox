@@ -41,4 +41,4 @@ Launch the tool: https://toolbox.nextgis.com/t/vectorclip
 
    * `Intersector <https://toolbox.nextgis.com/t/ngw_intersect?from-related-tools=1>`_
    * `Intersect layers <https://toolbox.nextgis.com/t/intersect_layers?from-related-tools=1>`_
-   * `Erase overlapping areas from the layer <https://toolbox.nextgis.com/t/eraser?from-related-tools=1>`_
+   * `Erase overlapping areas from layer <https://toolbox.nextgis.com/t/eraser?from-related-tools=1>`_

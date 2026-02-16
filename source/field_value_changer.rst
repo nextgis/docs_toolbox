@@ -1,4 +1,4 @@
-Change attributes in the layer group
+Change attributes in layer group
 ====================================
 
 The tool changes the value of the target attribute for the selected features in the layer group in the specified Web GIS resource on NextGIS platform. Features are selected according to the set value of the selected field.

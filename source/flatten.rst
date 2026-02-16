@@ -1,4 +1,4 @@
-Strip ZM from a vector layer
+Strip ZM from vector layer
 ============================
 The tool converts vector file to same format stripping ZM measurements. E.g., converts geometries from PolygonZ into Polygon.
 

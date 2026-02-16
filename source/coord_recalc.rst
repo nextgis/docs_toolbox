@@ -1,4 +1,4 @@
-Reprojecting coordinates
+Reproject coordinates
 ========================
 
 Tool reprojects coordinates of the objects, presented in CSV file, into a given coordinate system.

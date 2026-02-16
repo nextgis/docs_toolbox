@@ -1,4 +1,4 @@
-Intersection areas inside/outside boundary
+Calculate areas of intersection
 ==========================================
 
 Calculates area of polygons inside and outside given boundary. Records results in hectares (ha) to the attributes of a vector layer in Web GIS on NextGIS platform.

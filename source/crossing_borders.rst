@@ -1,4 +1,4 @@
-Counting intersections with polygon layers
+Count number of layer intersections
 ==========================================
 
 The tool counts the number of intersections between 2 sets of layers, one of the sets should contain only polygons. In other words, the tool finds, how many objects lay within area of interest, defined by polygons. The result is CSV file with information about each polygon.

@@ -1,4 +1,4 @@
-Get the history of a vector object
+Feature history
 ==================================
 
 Get the history of a feature from NextGIS Web versioned vector layer.

@@ -1,4 +1,4 @@
-Convert GeoPackage to MapInfo Enhanced TAB
+GeoPackage to MapInfo Enhanced TAB
 ==========================================
 
 Convert GeoPackage (GPKG) to Enhanced TAB (NativeX) for MapInfo Pro 15.2 and above. 

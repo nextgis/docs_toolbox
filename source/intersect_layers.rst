@@ -1,4 +1,4 @@
-Intersect layers
+Intersection registry
 ================
 
 The tool intersects a polygonal layer with another vector layer (any type of geometry) and outputs the result as a set of CSV files.

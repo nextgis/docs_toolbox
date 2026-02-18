@@ -30,4 +30,4 @@ Launch the tool: https://toolbox.nextgis.com/t/eraser
 .. admonition:: Related tools
 
    * `Polygon intersection <https://toolbox.nextgis.com/t/vectorclip?from-related-tools=1>`_
-   * `Intersect layers <https://toolbox.nextgis.com/t/intersect_layers?from-related-tools=1>`_
+   * `Intersection registry <https://toolbox.nextgis.com/t/intersect_layers?from-related-tools=1>`_

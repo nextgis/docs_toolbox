@@ -1,4 +1,4 @@
-Split data by 180 degrees 
+Split at 180th meridian 
 =====================================
 
 Split vector layer feature geometries at antimeridian (180th meridian).

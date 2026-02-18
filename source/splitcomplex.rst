@@ -38,4 +38,4 @@ Launch the tool: https://toolbox.nextgis.com/t/splitcomplex
    * `Polygons topological simplifier <https://toolbox.nextgis.com/t/polysimplifier?from-related-tools=1>`_
    * `Split into equal parts <https://toolbox.nextgis.com/t/split_to_equal?from-related-tools=1>`_
    * `Advanced vector generalization <https://toolbox.nextgis.com/t/generalization?from-related-tools=1>`_
-   * `Split data by 180 degrees <https://toolbox.nextgis.com/t/split180?from-related-tools=1>`_
+   * `Split at 180th meridian <https://toolbox.nextgis.com/t/split180?from-related-tools=1>`_

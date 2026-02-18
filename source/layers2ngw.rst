@@ -1,4 +1,4 @@
-Vector layers from an archive to Web GIS 
+Vector layers in Web GIS from archive 
 =========================================
 
 This tool allows to create multiple vector layers in Web GIS at once using a ZIP archive of geodata files.

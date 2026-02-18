@@ -33,4 +33,4 @@ Get the `output <https://nextgis.com/data/toolbox/removecontents/removecontents_
 
    * `Merge two Web GIS vector layers <https://toolbox.nextgis.com/t/ngw_merge_layers?from-related-tools=1>`_
    * `Duplicate nextgis.com vector layer <https://toolbox.nextgis.com/t/ngw_copy_layer?from-related-tools=1>`_
-   * `Vector layers from an archive to Web GIS <https://toolbox.nextgis.com/t/layers2ngw?from-related-tools=1>`_
+   * `Vector layers in Web GIS from archive <https://toolbox.nextgis.com/t/layers2ngw?from-related-tools=1>`_

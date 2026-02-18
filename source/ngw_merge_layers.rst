@@ -48,4 +48,4 @@ Launch the tool: https://toolbox.nextgis.com/t/ngw_merge_layers
 
 .. admonition:: Related tools
 
-   * `Duplicate nextgis.com vector layer <https://toolbox.nextgis.com/t/ngw_copy_layer?from-related-tools=1>`_
+   * `Duplicate Web GIS layer <https://toolbox.nextgis.com/t/ngw_copy_layer?from-related-tools=1>`_

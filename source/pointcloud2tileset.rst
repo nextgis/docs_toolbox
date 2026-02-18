@@ -1,4 +1,4 @@
-Convert point cloud into tileset
+Point cloud to tileset
 ================================
 
 Converts LIDAR data into set of tiles. The result can be added to 3D scene in NextGIS Web 3D.

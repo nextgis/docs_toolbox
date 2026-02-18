@@ -1,4 +1,4 @@
-Change geometry for a group of layers
+Change geometries in layer groups
 =====================================
 
 The tool changes the geometry of features in all the layers of a group in Web GIS on NextGIS platform. 

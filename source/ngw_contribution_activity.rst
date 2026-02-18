@@ -1,4 +1,4 @@
-Get the contribution activity for the resource
+Get the Contribution activity report for resource
 ==============================================
 
 Get user activity report for a resource from the NextGIS Web server.

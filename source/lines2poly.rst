@@ -1,4 +1,4 @@
-Convert lines to polygons
+Lines to polygons
 =========================
 
 Each line turns into a polygon. Straight and self-intersected lines are omitted.  Multilines are exploded to multiple features.

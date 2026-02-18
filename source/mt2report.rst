@@ -1,4 +1,4 @@
-Create marine traffic report
+Marine traffic report
 ============================
 
 This tool generates a table (format - CSV), which lists the ships entering given territory, the date and coordinates of their last location, as well as the number of times each ship entered a given territory for a certain period of time. It makes sense to use this tool, if you have already configured a service that updates data on ship locations in your Web GIS.

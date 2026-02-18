@@ -25,4 +25,4 @@ Launch the tool: https://toolbox.nextgis.com/t/crossing_borders
 .. admonition:: Related tools
 
    * `Intersection registry for Web GIS <https://toolbox.nextgis.com/t/ngw_intersect?from-related-tools=1>`_
-   * `Polygon intersection <https://toolbox.nextgis.com/t/vectorclip?from-related-tools=1>`_
+   * `Layer intersection <https://toolbox.nextgis.com/t/vectorclip?from-related-tools=1>`_

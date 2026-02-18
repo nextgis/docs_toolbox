@@ -1,4 +1,4 @@
-Polygon intersection
+Layer intersection
 ====================
 
 Finds overlapping areas between features of 2 polygon layers.

@@ -1,4 +1,4 @@
-Generate a set of squares with transects
+Set of squares with transects
 ==========================================
 
 This tool creates a set of square grids (polygons) and a transect for the territory.

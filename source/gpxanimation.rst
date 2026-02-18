@@ -1,4 +1,4 @@
-GPS track animation for Social Media
+GPS track animation for social media
 ====================================
 
 Generate video dinamically drawing the line of your track on a map for posting in social networks like Instagram and TikTok. 

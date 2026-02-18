@@ -6,8 +6,8 @@ The extraction of elevations from DEM. Returns CSV with coordinates and altitude
 Inputs:
 
 *  ZIP-compressed CSV - CSV table with coordinates of points. Delimiter should be comma. Corrdinates are floating values. File should not have spaces and should contain only latin symbols. `How to prepare the file in QGIS <https://toolbox.nextgis.com/t/deminpoints#prepare>`_.
-*  Latitude - fieldname for Latitude column. Case-sensitive.
-*  Longitude - fieldname for Lonitude column. Case-sensitive.
+*  Latitude - name of the Latitude column. Case-sensitive.
+*  Longitude - name of the Lonitude column. Case-sensitive.
 *  Elevation dataset - select one of the following: 
 
     - Copernicus

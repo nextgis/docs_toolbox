@@ -1,4 +1,4 @@
-Geocode a table
+Geocode table
 ===============
 
 The tool processes addresses from a CSV file and adds its coordinates back to the file. A relevant geocoding license is needed.

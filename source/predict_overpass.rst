@@ -1,4 +1,4 @@
-Prediction of a satellite overpass
+Predict satellite overpass
 ===================================
 
 The tool forms an XLSX file with the data on Aqua, Terra, S-NPP, NOAA 20 and NOAA 21 satellites passing over an area of interest in a selected period of time.

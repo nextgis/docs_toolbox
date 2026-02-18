@@ -1,7 +1,7 @@
-Web Map into QGIS project
+Web Map to QGIS project
 =========================
 
-The tool works with Web GIS data: converts vector layers and its styles from any chosen Web Map into QGIS project and GeoPackage file.
+The tool works with Web GIS data: converts vector layers and its styles from any chosen Web Map to QGIS project and GeoPackage file.
 
 Inputs:
 

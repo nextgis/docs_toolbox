@@ -1,4 +1,4 @@
-Address parser from CSV
+Parse addresses
 ========================
 The tool allows to divide text of an address into separate hierarchical elements, such as region, city, street, etc.
 

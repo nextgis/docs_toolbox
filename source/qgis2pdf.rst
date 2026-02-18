@@ -1,4 +1,4 @@
-Converting a QGIS project to PDF
+QGIS project to PDF
 ================================
 
 Whole map and each map layer as PDF.

@@ -30,4 +30,4 @@ Example:
 .. seealso::
 
    * `Map from OSM to PDF for printing <https://toolbox.nextgis.com/t/pdf2data>`_
-   * `Converting a QGIS project to PDF <https://toolbox.nextgis.com/t/qgis2pdf>`_
+   * `QGIS project to PDF <https://toolbox.nextgis.com/t/qgis2pdf>`_

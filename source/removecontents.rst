@@ -1,4 +1,4 @@
-Remove layers content
+Erase features
 ========================
 The tool removes features for all vector layers in a target resource group in Web GIS on NextGIS platform. Layer resources are not removed.
 

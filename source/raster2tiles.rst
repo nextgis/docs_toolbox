@@ -1,4 +1,4 @@
-Generate tileset from raster
+Tileset from raster
 ============================
 
 Service generates raster tiles (NGM format) from input gdal-supported raster.

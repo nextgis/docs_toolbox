@@ -1,4 +1,4 @@
-Calculate max distance between polygon nodes
+Max distance between polygon nodes
 ============================================
 
 Adds an attribute to each polygon showing maximum distance between nodes. Distances are measured in meters along the edges. Multipolygons are exploded. 

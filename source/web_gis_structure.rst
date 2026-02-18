@@ -1,4 +1,4 @@
-Web GIS structure into spreadsheet
+Web GIS structure to spreadsheet
 ==================================
 
 Creates XLSX spreadsheet with a Web GIS structure (a list of resources).

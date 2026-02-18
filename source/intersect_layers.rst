@@ -29,6 +29,6 @@ Launch the tool: https://toolbox.nextgis.com/t/intersect_layers
 
 .. admonition:: Related tools
 
-   * `Intersector <https://toolbox.nextgis.com/t/ngw_intersect?from-related-tools=1>`_
+   * `Intersection registry for Web GIS <https://toolbox.nextgis.com/t/ngw_intersect?from-related-tools=1>`_
    * `Polygon intersection <https://toolbox.nextgis.com/t/vectorclip?from-related-tools=1>`_
    * `Erase overlapping areas from layer <https://toolbox.nextgis.com/t/eraser?from-related-tools=1>`_

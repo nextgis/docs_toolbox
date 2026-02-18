@@ -1,4 +1,4 @@
-Intersector
+Intersection registry for Web GIS
 ===========
 
 The tool intersects all layers of the nextgis.com web map using the specified geometry and generates a report for each layer. 

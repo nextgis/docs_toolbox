@@ -5,7 +5,7 @@ Calculates the number of TMS tiles for a given vector polygon.
 
 Inputs:
 
-* Boundary polygon vector file. File with polygons or multipolygons. Only frist feature of layer is used.
+* Boundary polygon vector file in OGR format or ZIP-archive with single layer. Geometry: polygon or multipolygon. Only the frist feature of the layer is used.
 
 Outputs:
 

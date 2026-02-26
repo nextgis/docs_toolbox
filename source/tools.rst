@@ -84,6 +84,7 @@
    vector2datalens
    prepare_raster
    download_and_prepare_l8_s2
+   count_tiles
    crossing_borders
    split_to_rect
    cadnums_to_geodata

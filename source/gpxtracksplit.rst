@@ -15,7 +15,7 @@ Launch the tool: https://toolbox.nextgis.com/t/gpxtracksplit
 
 Example:
 
-.. figure:: _static/gpxtracksplit_input_en.png
+.. todo:: _static/gpxtracksplit_input_en.png
    :name: gpxtracksplit_input_pic
    :align: center
    :width: 16cm
@@ -25,9 +25,9 @@ Example:
 .. figure:: _static/gpxtracksplit_result_en.png
    :name: gpxtracksplit_result_pic
    :align: center
-   :width: 16cm
+   :width: 20cm
 
-   Example output
+   Example output: three individual tracks
 
 **Try the tool in action by downloading our example:**
 

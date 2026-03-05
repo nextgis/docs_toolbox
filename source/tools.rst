@@ -104,6 +104,7 @@
    gpxdailysplit
    splitcomplex
    split_to_equal
+   gpxtracksplit
    split180
    infomap
    qgis_rastertiles

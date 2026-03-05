@@ -38,6 +38,7 @@ Tools
    gpxclipbbox
    gpxdailysplit
    gpxmerge
+   gpxtracksplit
    grid
    hello
    image_classification

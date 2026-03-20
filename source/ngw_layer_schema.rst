@@ -1,5 +1,5 @@
-Table settings to CSV
-=====================
+Manage Web GIS layer structure
+==============================
 
 Save NextGIS Web vector layer attribute table settings and schema to CSV. Or update table settings from CSV file.
 

@@ -36,7 +36,7 @@
 
 .. admonition:: Связанные инструменты
 
-   * `Объединение треков GPX <https://toolbox.nextgis.com/t/gpxmerge>`_
-   * `Разбивка GPX-файла по дням <https://toolbox.nextgis.com/t/gpxdailysplit>`_
-   * `Обрезка GPX файла по прямоугольнику <https://toolbox.nextgis.com/t/gpxclipbbox>`_
-   * `Добавление координат к фотографиям <https://toolbox.nextgis.com/t/gpx2exif>`_
+   * `Объединение треков GPX <https://toolbox.nextgis.com/t/gpxmerge?from-related-tools=1>`_
+   * `Разбивка GPX-файла по дням <https://toolbox.nextgis.com/t/gpxdailysplit?from-related-tools=1>`_
+   * `Обрезка GPX файла по прямоугольнику <https://toolbox.nextgis.com/t/gpxclipbbox?from-related-tools=1>`_
+   * `Добавление координат к фотографиям <https://toolbox.nextgis.com/t/gpx2exif?from-related-tools=1>`_

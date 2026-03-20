@@ -38,4 +38,4 @@
 
    * `Разбивка GPX-файла по дням <https://toolbox.nextgis.com/t/gpxdailysplit?from-related-tools=1>`_
    * `Объединение GPX файлов <https://toolbox.nextgis.com/t/gpxmerge?from-related-tools=1>`_
-   * `Обрезка GPX файла по прямоугольнику <https://toolbox.nextgis.com/t/gpxclipbbox>`_
+   * `Обрезка GPX файла по прямоугольнику <https://toolbox.nextgis.com/t/gpxclipbbox?from-related-tools=1>`_

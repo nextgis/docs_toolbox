@@ -37,4 +37,4 @@ PDF из проекта QGIS
 
 .. seealso::
 
-   * `Карта для соцсетей <https://toolbox.nextgis.com/t/mappy>`_
+   * `Карта для соцсетей <https://toolbox.nextgis.com/t/mappy?from-related-tools=1>`_

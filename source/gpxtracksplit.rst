@@ -38,7 +38,7 @@ Example:
 
 .. admonition:: Related tools
 
-   * `Merge GPX Tracks <https://toolbox.nextgis.com/t/gpxmerge>`_
-   * `Split GPX file by days <https://toolbox.nextgis.com/t/gpxdailysplit>`_
-   * `Clip GPX file by bounding box <https://toolbox.nextgis.com/t/gpxclipbbox>`_
-   * `Geotag photos using GPX track <https://toolbox.nextgis.com/t/gpx2exif>`_
+   * `Merge GPX Tracks <https://toolbox.nextgis.com/t/gpxmerge?from-related-tools=1>`_
+   * `Split GPX file by days <https://toolbox.nextgis.com/t/gpxdailysplit?from-related-tools=1>`_
+   * `Clip GPX file by bounding box <https://toolbox.nextgis.com/t/gpxclipbbox?from-related-tools=1>`_
+   * `Geotag photos using GPX track <https://toolbox.nextgis.com/t/gpx2exif?from-related-tools=1>`_

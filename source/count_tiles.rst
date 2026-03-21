@@ -47,7 +47,7 @@ Example output::
     Total: 728
 
 
-**Try the tool in action by downloading our example:**
+**Try the tool in action:**
 
 **Try the tool in action**
 

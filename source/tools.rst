@@ -122,5 +122,6 @@
    flatten
    eraser
    improvedem
+   ngw_layer_schema
    exif2resource
    centerline

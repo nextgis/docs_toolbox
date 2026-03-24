@@ -41,3 +41,7 @@
 1. Нажмите кнопку **Демо** над формой инструмента. Поля будут автоматически заполнены демонстрационными значениями.
 2. Нажмите кнопку **Запустить**.
 
+.. admonition:: Связанные инструменты
+
+   * `История векторного объекта <https://toolbox.nextgis.com/t/ngw_feature_history?from-related-tools=1>`_
+   * `Отчёт об изменениях ресурса <https://toolbox.nextgis.com/t/ngw_contribution_activity?from-related-tools=1>`_

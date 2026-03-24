@@ -41,3 +41,8 @@ Example:
 
 1. Click on the **Demo** button above the tool form. The fields are filled in with demo values.
 2. Click on the **Run** button.
+
+.. admonition:: Related tools
+
+   * `Feature history <https://toolbox.nextgis.com/t/ngw_feature_history?from-related-tools=1>`_
+   * `Contribution activity report for resource <https://toolbox.nextgis.com/t/ngw_contribution_activity?from-related-tools=1>`_

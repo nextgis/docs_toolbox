@@ -64,6 +64,7 @@ Tools
    ngw_copy_layer
    ngw_feature_history
    ngw_intersect
+   ngw_layer_historical_state
    ngw_layer_schema
    ngw_merge_layers
    ngw_to_gpkg

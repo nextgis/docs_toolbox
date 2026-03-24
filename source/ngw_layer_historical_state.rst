@@ -10,7 +10,7 @@ Inputs:
 * Select the version of the layer you wish to download using **one of the options**:
 
    1) Timestamp - indicate a moment in YYYY-mm-dd HH:MM:SS format, the tool will automatically pick the corresponding version. Use this field OR the 'Version ID' field.
-   2) Version ID - ID of the target version, can be obtained `via API <https://docs.nextgis.com/docs_ngweb/source/version.html#vers-ngw-api>`_. Use this field OR the 'Timestamp' field.
+   2) Version ID - ID of the target version, you can check the number of the current version `via API <https://docs.nextgis.com/docs_ngweb/source/version.html#vers-ngw-api>`_. Enter an integer equal or below the current version number. Use this field OR the 'Timestamp' field.
 
 
 Outputs:

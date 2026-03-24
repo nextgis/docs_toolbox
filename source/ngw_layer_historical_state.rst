@@ -3,6 +3,8 @@ Get the layer historical state
 
 Get a GPKG file with the state of the NextGIS Web versioned vector layer at a certain point in time or at the time of a certain version.
 
+Learn more about `versioning <https://docs.nextgis.com/docs_ngweb/source/version.html>`_.
+
 Inputs:
 
 * Web GIS address - URL of your Web GIS on NextGIS platform, e.g. https://sandbox.nextgis.com, NextGIS ID and password;

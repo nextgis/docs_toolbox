@@ -47,3 +47,8 @@
 1. Нажмите кнопку **Демо** над формой инструмента. Поля будут автоматически заполнены демонстрационными значениями.
 2. Нажмите кнопку **Запустить**.
 
+.. admonition:: Related tools
+
+   * `Веб-карта в проект QGIS <https://toolbox.nextgis.com/t/webmap2qgis?from-related-tools=1>`_
+   * `Растровые тайлы из проекта QGIS <https://toolbox.nextgis.com/t/qgis_rastertiles?from-related-tools=1>`_
+   * `Проект QGIS в PDF <https://toolbox.nextgis.com/t/qgis2pdf?from-related-tools=1>`_

@@ -22,6 +22,7 @@
    explication2poly
    gpxanimation
    polysimplifier
+   ngw_webmap2image
    webmap2qgis
    intersect_layers
    ngw_intersect

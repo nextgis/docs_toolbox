@@ -68,6 +68,7 @@ Tools
    ngw_layer_schema
    ngw_merge_layers
    ngw_to_gpkg
+   ngw_webmap2image
    ogrmerge
    osmclip_bbox
    panotag

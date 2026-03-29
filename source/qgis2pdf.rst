@@ -1,14 +1,14 @@
 QGIS project to PDF
 ================================
 
-Whole map and each map layer as PDF.
+Output the whole map and each separate map layer as PDF.
 
 Inputs:
 
 * The QGIS project. Archive of the QGIS project in ZIP format;
 * Extent. Optional parameter. If left blank, the coverage will be calculated as the sum of the coverage of the project layers;
-* The width of the PDF file, mm;
-* The height of the PDF file, mm.
+* The width of the output PDF file, mm;
+* The height of the output PDF file, mm.
 
 Outputs:
 

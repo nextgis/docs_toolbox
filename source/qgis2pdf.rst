@@ -37,5 +37,4 @@ Launch the tool: https://toolbox.nextgis.com/t/qgis2pdf
 
 .. admonition:: Related tools
 
-   * `Map from OSM to PDF for printing <https://toolbox.nextgis.com/t/pdf2data?from-related-tools=1>`_
    * `Vertical map for Social Media <https://toolbox.nextgis.com/t/mappy?from-related-tools=1>`_

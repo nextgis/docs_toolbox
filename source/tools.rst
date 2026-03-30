@@ -20,6 +20,7 @@ Tools
    count_tiles
    crossing_borders
    deminpoints
+   doc2pdf
    download_and_prepare_l8_s2
    download_glad
    embedsvg

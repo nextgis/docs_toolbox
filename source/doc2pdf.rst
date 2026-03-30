@@ -34,7 +34,7 @@ Example:
 .. figure:: _static/doc2pdf_result.png
    :name: doc2pdf_result_pic
    :align: center
-   :width: 16cm
+   :width: 12cm
 
    Example output
 

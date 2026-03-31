@@ -36,6 +36,7 @@
    cadastre2img
    ai2geo
    geocodetable
+   rosreestr_from_coord
    rosreestr2coord
    dezhurcad
    panotag

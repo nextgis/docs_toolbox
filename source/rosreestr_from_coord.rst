@@ -16,8 +16,8 @@
 
 На выходе:
 
-* GeoJSON
-* KML
+* Файл с геометрией объекта в формате GeoJSON;
+* Файл с геометрией объекта в формате KML.
 
 Запуск инструмента: https://toolbox.nextgis.com/t/rosreestr_from_coord
 

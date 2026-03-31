@@ -29,7 +29,7 @@
 * Ведомость зимнего маршрутного учёта
 * Ведомость расчёта численности зверей на исследуемой территории
 
-.. figure:: _static/zmu_data_analysis_output_ru.png
+.. figure:: _static/zmu_data_analysis_output_ru_2.png
    :name: zmu_data_analysis_output_pic
    :align: center
    :width: 20cm

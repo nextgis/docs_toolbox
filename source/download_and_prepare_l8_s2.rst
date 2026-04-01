@@ -29,11 +29,12 @@
 
 Посмотреть результат на интерактивной карте: https://demo.nextgis.com/resource/4805/display?panel=layers
 
-.. figure:: _static/download_and_prepare_l8_s2.png
+.. figure:: _static/download_and_prepare_l8_s2_output_ru.png
+   :name: download_and_prepare_l8_s2_output_pic
    :align: center
-   :width: 16cm
+   :width: 20cm
 
-   Изменение пространственного разрешения снимка Sentinel-2 с 10 до 2 метров 
+   Разные разрешения для одной территории:  10 м и 100 м. Для сравнения слоёв используется `шторка <https://docs.nextgis.ru/docs_ngweb/source/webmaps_client.html#ngw-webmaps-client-tools-swipe>`_
    
 
 **Попробуйте инструмент в действии**

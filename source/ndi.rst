@@ -19,9 +19,14 @@ Before the calculation, both images are brought into a single spatial domain. Th
 
 Examples of common normalized difference indices:
 
-* NDVI - for vegetation assessment (the first raster - NIR, the second - RED) For Landsat 8 data: 5 and 4 bands.
-* NDWI - for the detection of water bodies (the first raster - NIR, the second - SWIR). For Landsat 8 data: 5 and 6 bands.
-* NDSI - for assessing the snow cover (the first raster - GREEN, the second - SWIR). For Landsat 8 data: 3 and 6 bands.
+* NDVI - for vegetation assessment (the first raster - NIR, the second - RED) For Landsat 8 data: 5 and 4 bands. For Sentinel: 4 - RED, 8 - NIR.
+* NDWI - for the detection of water bodies (the first raster - NIR, the second - SWIR). For Landsat 8 data: 5 and 6 bands. For Sentinel: 4 - RED, 11 (SWIR, 1610nm) and 12 (SWIR, 2190nm).
+* NDSI - for assessing the snow cover (the first raster - GREEN, the second - SWIR). For Landsat 8 data: 3 and 6 bands. For Sentinel: 3 - GREEN, 11 (SWIR, 1610nm) and 12 (SWIR, 2190nm).
+
+.. seealso:: 
+
+   * `List of Sentinel-2 bands <https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/bands/>`_ 
+   * `List of Landsat 8 bands <https://www.usgs.gov/landsat-missions/landsat-8>`_
 
 Example:
 

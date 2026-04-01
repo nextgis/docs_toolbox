@@ -5,7 +5,11 @@
 
 Поддерживаются идентификаторы из каталога Copernicus, GoogleCloud или MPC (только L2A).
 
-Нужные идентификаторы Copernicus можно получить с помощью инструмента `Поиск снимков Sentinel через Copernicus <https://toolbox.nextgis.com/t/imagesearch>`_ или `Поиск ID сцен Sentinel-L2A и загрузка превью <https://toolbox.nextgis.com/t/s2_search>`_.
+Нужные идентификаторы Copernicus можно получить:
+
+* с помощью инструмента `Поиск снимков Sentinel через Copernicus <https://toolbox.nextgis.com/t/imagesearch>`_ или `Поиск ID сцен Sentinel-L2A и загрузка превью <https://toolbox.nextgis.com/t/s2_search>`_.
+* На сайте https://dataspace.copernicus.eu. Там нужно зарегистрироваться, подобрать подходящий снимок и скопировать его ID.
+
 
 На входе:
 

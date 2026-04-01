@@ -5,7 +5,10 @@ The tool downloads source data, prepares Sentinel-2 data and provides link to do
 
 Supported ID types are Copernicus, GoogleCloud and MPC (L2A only).
 
-You can get ID for Copernicus catalog using the tool `Copernicus Sentinel image search <https://toolbox.nextgis.com/t/imagesearch>`_ or `Sentinel-2 scenes to GPKG <https://toolbox.nextgis.com/t/s2_search>`_.
+You can get ID for Copernicus catalog:
+
+* using the tool `Copernicus Sentinel image search <https://toolbox.nextgis.com/t/imagesearch>`_ or `Sentinel-2 scenes to GPKG <https://toolbox.nextgis.com/t/s2_search>`_;
+* on https://dataspace.copernicus.eu: sign up, find an image for your area of interest and copy its ID.
 
 Inputs:
 

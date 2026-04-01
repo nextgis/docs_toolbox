@@ -27,7 +27,12 @@ Launch the tool: https://toolbox.nextgis.com/t/download_and_prepare_l8_s2
 
 Watch on `youtube <https://youtu.be/avKvKrsjDSI?si=sJZqD5IEeZmJOxIJ>`_.
 
-Download an example of initial data and calculation results: https://nextgis.com/data/toolbox/download_and_prepare_l8_s2/download_and_prepare_l8_s2.zip
+.. figure:: _static/download_and_prepare_l8_s2_output_en.png
+   :name: download_and_prepare_l8_s2_output_pic
+   :align: center
+   :width: 20cm
+
+   Same territory, different resolutions: 10 m and 100 m. `Swipe <https://docs.nextgis.com/docs_ngweb/source/webmaps_client.html#ngw-webmaps-client-tools-swipe>`_ is used to compare the two layers
 
 View the result on an interactive map: https://demo.nextgis.com/resource/4805/display?panel=layers
 

@@ -80,6 +80,7 @@
    join_by_field
    mt2report
    ngw_contribution_activity
+   pzz_report
    postal
    coord_recalc
    vectorclip

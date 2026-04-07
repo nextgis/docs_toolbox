@@ -22,6 +22,7 @@
    coords2poly
    explication2poly
    gpxanimation
+   ngw_attribute2description
    polysimplifier
    ngw_webmap2image
    webmap2qgis

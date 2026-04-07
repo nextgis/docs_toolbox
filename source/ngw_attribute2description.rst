@@ -38,5 +38,10 @@
 1. Нажмите кнопку **Демо** над формой инструмента. Поля будут автоматически заполнены демонстрационными значениями.
 2. Нажмите кнопку **Запустить**.
 
+.. admonition:: Связанные инструменты
 
+   * `Векторные слои из Веб ГИС в GeoPackage <https://toolbox.nextgis.com/t/ngw_to_gpkg?from-related-tools=1>`_
+   * `Изменение атрибутов в группе слоев <https://toolbox.nextgis.com/t/field_value_changer?from-related-tools=1>`_
+   * `Объединение слоя и таблицы по полю <https://toolbox.nextgis.com/t/join_by_field?from-related-tools=1>`_
+   * `Фото с EXIF в слой Веб ГИС <https://toolbox.nextgis.com/t/exif2resource?from-related-tools=1>`_
 

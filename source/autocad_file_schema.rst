@@ -1,4 +1,4 @@
-Get layer list from DWG / DXF file
+Layer list from DWG / DXF file
 ==================================
 
 This tool generates a CSV containing the list of layers from a DWG or DXF file with information on geometry and feature count.

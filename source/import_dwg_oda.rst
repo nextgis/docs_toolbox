@@ -15,14 +15,14 @@ DWG в DXF (ODA)
 
 Пример работы инструмента:
 
-.. figure:: _static/import_dwg_oda_input_ru.png
+.. todo:: _static/import_dwg_oda_input_ru.png
    :name: import_dwg_oda_input_pic
    :align: center
    :width: 16cm
 
    Пример исходных данных
 
-.. figure:: _static/import_dwg_oda_result_ru.png
+.. todo:: _static/import_dwg_oda_result_ru.png
    :name: import_dwg_oda_result_pic
    :align: center
    :width: 16cm

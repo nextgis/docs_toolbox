@@ -15,14 +15,14 @@
 
 Пример работы инструмента:
 
-.. figure:: _static/autocad_file_schema_input_ru.png
+.. todo:: _static/autocad_file_schema_input_ru.png
    :name: autocad_file_schema_input_pic
    :align: center
    :width: 16cm
 
    Пример исходных данных
 
-.. figure:: _static/autocad_file_schema_result_ru.png
+.. todo:: _static/autocad_file_schema_result_ru.png
    :name: autocad_file_schema_result_pic
    :align: center
    :width: 16cm

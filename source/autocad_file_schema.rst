@@ -15,19 +15,19 @@
 
 Пример работы инструмента:
 
-.. todo:: _static/autocad_file_schema_input_ru.png
+.. figure:: _static/import_dwg_oda_input_ru.png
    :name: autocad_file_schema_input_pic
    :align: center
-   :width: 16cm
+   :width: 22cm
 
-   Пример исходных данных
+   Исходный чертёж в AutoCAD
 
-.. todo:: _static/autocad_file_schema_result_ru.png
+.. figure:: _static/autocad_file_schema_result_ru.png
    :name: autocad_file_schema_result_pic
    :align: center
-   :width: 16cm
+   :width: 20cm
 
-   Пример результата работы инструмента
+   Полученный файл CSV с информацией о слоях
 
 **Попробуйте инструмент в действии:**
 

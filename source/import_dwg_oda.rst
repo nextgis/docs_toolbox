@@ -11,23 +11,25 @@ DWG в DXF (ODA)
 
 * Файл в формате DXF
 
+Обратите внимание: чтобы файл корректно открылся в QGIS, нужно `добавить соответствующую систему координат <https://docs.nextgis.ru/docs_ngqgis/source/srs.html#ngq-custom-projections>`_.
+
 Запуск инструмента: https://toolbox.nextgis.com/t/import_dwg_oda
 
 Пример работы инструмента:
 
-.. todo:: _static/import_dwg_oda_input_ru.png
+.. figure:: _static/import_dwg_oda_input_ru.png
    :name: import_dwg_oda_input_pic
    :align: center
-   :width: 16cm
+   :width: 22cm
 
-   Пример исходных данных
+   Исходный чертёж в AutoCAD
 
-.. todo:: _static/import_dwg_oda_result_ru.png
+.. figure:: _static/import_dwg_oda_result_ru.png
    :name: import_dwg_oda_result_pic
    :align: center
-   :width: 16cm
+   :width: 22cm
 
-   Пример результата работы инструмента
+   Полученный файл DXF открыт в NextGIS QGIS
 
 **Попробуйте инструмент в действии:**
 

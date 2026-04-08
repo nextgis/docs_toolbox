@@ -1,5 +1,5 @@
-Get layers list in DWG / DXF file
-=================================
+Get layer list from DWG / DXF file
+==================================
 
 This tool generates a CSV containing the list of layers from a DWG or DXF file with information on geometry and feature count.
 
@@ -38,4 +38,4 @@ Example:
 .. admonition:: Related tools
 
    * `DWG to DXF <https://toolbox.nextgis.com/t/import_dwg?from-related-tools=1>`_
-   * `DWG in DXF (ODA) <https://toolbox.nextgis.com/t/import_dwg_oda?from-related-tools=1>`_
+   * `DWG to DXF (ODA) <https://toolbox.nextgis.com/t/import_dwg_oda?from-related-tools=1>`_

@@ -34,3 +34,8 @@ Example:
 
 1. Click on the **Demo** button above the tool form. The fields are filled in with demo values.
 2. Click on the **Run** button.
+
+.. admonition:: Related tools
+
+   * `DWG to DXF <https://toolbox.nextgis.com/t/import_dwg?from-related-tools=1>`_
+   * `Get layer list from DWG / DXF file <https://toolbox.nextgis.com/t/autocad_file_schema?from-related-tools=1>`_

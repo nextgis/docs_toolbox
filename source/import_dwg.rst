@@ -23,3 +23,5 @@ https://toolbox.nextgis.com/t/import_dwg
 
    * `MapInfo ready for QGIS <https://toolbox.nextgis.com/t/mapinfo2qgis?from-related-tools=1>`_
    * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_
+   * `DWG to DXF (ODA) <https://toolbox.nextgis.com/t/import_dwg_oda?from-related-tools=1>`_
+   * `Get layer list from DWG / DXF file <https://toolbox.nextgis.com/t/autocad_file_schema?from-related-tools=1>`_

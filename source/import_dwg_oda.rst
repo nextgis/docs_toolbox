@@ -1,0 +1,36 @@
+DWG to DXF (ODA)
+================
+
+Converts DWG file into DXF using ODA File Converter
+
+Inputs:
+
+* Source DWG. Source file in AutoCAD DWG format
+
+Outputs:
+
+* DXF file
+
+Launch the tool: https://toolbox.nextgis.com/t/import_dwg_oda
+
+Example:
+
+.. todo:: _static/import_dwg_oda_input_en.png
+   :name: import_dwg_oda_input_pic
+   :align: center
+   :width: 16cm
+
+   Example input
+
+.. todo:: _static/import_dwg_oda_result_en.png
+   :name: import_dwg_oda_result_pic
+   :align: center
+   :width: 16cm
+
+   Example output
+
+
+**Try the tool in action**
+
+1. Click on the **Demo** button above the tool form. The fields are filled in with demo values.
+2. Click on the **Run** button.

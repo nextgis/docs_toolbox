@@ -22,12 +22,12 @@ Example:
 
    Example input
 
-.. todo:: _static/autocad_file_schema_result_en.png
+.. figure:: _static/autocad_file_schema_result_en.png
    :name: autocad_file_schema_result_pic
    :align: center
    :width: 16cm
 
-   Example output
+   Example output: list of layers
 
 
 **Try the tool in action**

@@ -22,12 +22,12 @@ Example:
 
    Example input
 
-.. todo:: _static/import_dwg_oda_result_en.png
+.. figure:: _static/import_dwg_oda_result_en.png
    :name: import_dwg_oda_result_pic
    :align: center
-   :width: 16cm
+   :width: 20cm
 
-   Example output
+   Converted file opened in QGIS
 
 
 **Try the tool in action**

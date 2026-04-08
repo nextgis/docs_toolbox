@@ -11,6 +11,7 @@
    s2_search
    doc2pdf
    import_dwg
+   import_dwg_oda
    gpkg2etab
    kml2geodata
    mapinfo2qgis
@@ -119,6 +120,7 @@
    ngw_layer_historical_state
    forestplots_field
    egrn_kvartals_cover
+   autocad_file_schema
    points_on_tracks_stats
    web_gis_structure
    spreadsheet2layer

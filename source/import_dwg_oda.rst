@@ -15,17 +15,17 @@ Launch the tool: https://toolbox.nextgis.com/t/import_dwg_oda
 
 Example:
 
-.. todo:: _static/import_dwg_oda_input_en.png
+.. figure:: _static/import_dwg_oda_input_en.png
    :name: import_dwg_oda_input_pic
    :align: center
-   :width: 16cm
+   :width: 22cm
 
    Example input
 
 .. figure:: _static/import_dwg_oda_result_en.png
    :name: import_dwg_oda_result_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
 
    Converted file opened in QGIS
 

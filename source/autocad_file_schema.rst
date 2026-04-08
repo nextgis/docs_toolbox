@@ -15,10 +15,10 @@ Launch the tool: https://toolbox.nextgis.com/t/autocad_file_schema
 
 Example:
 
-.. todo:: _static/autocad_file_schema_input_en.png
+.. figure:: _static/import_dwg_oda_input_en.png
    :name: autocad_file_schema_input_pic
    :align: center
-   :width: 16cm
+   :width: 22cm
 
    Example input
 

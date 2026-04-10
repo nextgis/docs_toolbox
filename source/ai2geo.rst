@@ -1,6 +1,8 @@
 Adobe Illustrator (\*.ai) to geodata
 ====================================
 
+Launch the tool: https://toolbox.nextgis.com/t/ai2geo
+
 The tool extracts vector layers from an Adobe Illustrator (\*.ai) file.  An additional raster file could be used for georeference.
 
 Inputs:
@@ -12,7 +14,7 @@ Output:
 
 * ZIP-archive with a set of ESRI Shapefile files.
 
-Launch the tool: https://toolbox.nextgis.com/t/ai2geo
+Example:
 
 .. figure:: _static/ai2geo_before.png
    :align: center

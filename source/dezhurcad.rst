@@ -20,8 +20,9 @@ Output:
 
 Launch the tool: https://toolbox.nextgis.com/t/Dezhurcad
 
-**Try it out using our sample:**
+**Try the tool in action**
 
-Download `input dataset <https://nextgis.com/data/toolbox/dezhurcad/dezhurcad_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+1. Click on the **Demo** button above the tool form. The fields are filled in with demo values.
+2. Click on the **Run** button.
 
 

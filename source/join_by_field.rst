@@ -24,9 +24,10 @@ Usage example:
    :align: center
    :width: 16cm
 
-**Try the tool in action by downloading our example:**
+**Try the tool in action**
 
-`Input data set <https://nextgis.com/data/toolbox/empty_geoms/empty_geoms_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
+1. Click on the **Demo** button above the tool form. The fields are filled in with demo values.
+2. Click on the **Run** button.
 
 .. admonition:: Related tools
 

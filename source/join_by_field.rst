@@ -24,11 +24,9 @@ Usage example:
    :align: center
    :width: 16cm
 
-**Try it out using our sample:**
+**Try the tool in action by downloading our example:**
 
-Download `input dataset <https://nextgis.com/data/toolbox/join_by_field/join_by_field_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
-
-Get the `output <https://nextgis.com/data/toolbox/join_by_field/join_by_field_outputs.zip>`_ to additionally check the results.
+`Input data set <https://nextgis.com/data/toolbox/empty_geoms/empty_geoms_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
 
 .. admonition:: Related tools
 

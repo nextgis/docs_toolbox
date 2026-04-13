@@ -31,11 +31,9 @@ Watch the video on `youtube <https://youtu.be/mEhUaRTFl3M>`_.
 
 Launch the tool: https://toolbox.nextgis.com/t/spreadsheet2layer
 
-**Try it out using our sample:**
+**Try the tool in action by downloading our example:**
 
-Download `input dataset <https://nextgis.com/data/toolbox/spreadsheet2layer/spreadsheet2layer_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
-
-Get the `output <https://nextgis.com/data/toolbox/spreadsheet2layer/spreadsheet2layer_outputs.zip>`_ to additionally check the results.
+`Input data set <https://nextgis.com/data/toolbox/empty_geoms/empty_geoms_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
 
 .. admonition:: Related tools
 

@@ -51,9 +51,9 @@ Outputs:
 
 Launch the tool: https://toolbox.nextgis.com/t/lines2polygons
 
- 
+**Try the tool in action by downloading our example:**
 
-.. to do:: **Try it out using our sample:** Download `input dataset <https://nextgis.com/data/toolbox/lines2polygons/lines2polygons_inputs.zip>`_ to test the instrument. Step-by-step instructions included. Get the `output <https://nextgis.com/data/toolbox/lines2polygons/lines2polygons_outputs.zip>`_ to additionally check the results.
+`Input data set <https://nextgis.com/data/toolbox/empty_geoms/empty_geoms_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
 
 .. admonition:: Related tools
 

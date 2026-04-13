@@ -19,9 +19,9 @@ Output:
 
 Launch the tool: https://toolbox.nextgis.com/t/layers2ngw
 
-**Try it out using our sample:**
+**Try the tool in action by downloading our example:**
 
-Download `input dataset <https://nextgis.com/data/toolbox/layers2ngw/layers2ngw_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
+`Input data set <https://nextgis.com/data/toolbox/empty_geoms/empty_geoms_inputs.zip>`_ to test the tool. The archive contains step-by-step instructions.
 
 .. admonition:: Related tools
 

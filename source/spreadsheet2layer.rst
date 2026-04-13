@@ -42,11 +42,10 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/t/spreadsheet2layer
 
-**Попробуйте инструмент в действии, скачав наш пример:**
+**Попробуйте инструмент в действии**
 
-`Набор исходных данных <https://nextgis.ru/data/toolbox/spreadsheet2layer/spreadsheet2layer_inputs_ru.zip>`_ для проверки работы инструмента. Внутри архива пошаговая инструкция.
-
-`Пример результата <https://nextgis.ru/data/toolbox/spreadsheet2layer/spreadsheet2layer_outputs_ru.zip>`_ работы инструмента.
+1. Нажмите кнопку **Демо** над формой инструмента. Поля будут автоматически заполнены демонстрационными значениями.
+2. Нажмите кнопку **Запустить**.
 
 .. seealso::
 

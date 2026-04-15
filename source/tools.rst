@@ -53,6 +53,7 @@ Tools
    join_by_field
    kml2geodata
    kmldae2footprints
+   landsat_search
    landsat_to_radiance
    landsat_to_reflectance
    layers2ngw

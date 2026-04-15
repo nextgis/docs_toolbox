@@ -93,6 +93,7 @@
    count_tiles
    crossing_borders
    split_to_rect
+   landsat_search
    cadnums_to_geodata
    imagesearch
    lines2polygons
@@ -107,6 +108,7 @@
    spatial_join
    empty_geoms
    landsat_to_radiance
+   egrn_splitter
    gpxdailysplit
    splitcomplex
    split_to_equal

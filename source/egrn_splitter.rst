@@ -34,3 +34,8 @@
 1. Нажмите кнопку **Демо** над формой инструмента. Поля будут автоматически заполнены демонстрационными значениями.
 2. Нажмите кнопку **Запустить**.
 
+.. seealso::
+
+   * `Конвертация данных ЕГРН <https://toolbox.nextgis.com/t/import_egrn?from-related-tools=1>`_
+   * `Дежурная кадастровая карта <https://toolbox.nextgis.com/t/dezhurcad?from-related-tools=1>`_
+   * `Отчет по ПЗЗ по участку <https://toolbox.nextgis.com/t/pzz_report?from-related-tools=1>`_

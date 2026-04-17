@@ -1,6 +1,8 @@
 Planetary Computer Search & Download
 ====================================
 
+Launch the tool: https://toolbox.nextgis.com/t/planetary_search
+
 Search and download satellite imagery and elevation data from Microsoft Planetary Computer (Sentinel-2, Landsat, Copernicus DEM, etc.) for a given bounding box and time range. Returns a ZIP archive of GeoTIFF files.
 
 Inputs:
@@ -30,7 +32,7 @@ Outputs:
 * Report.
 
 
-Launch the tool: https://toolbox.nextgis.com/t/planetary_search
+
 
 Example:
 
@@ -53,3 +55,10 @@ Example:
 
 1. Click on the **Demo** button above the tool form. The fields are filled in with demo values.
 2. Click on the **Run** button.
+
+.. seealso::
+
+   * `Search and save Sentinel-2 scene previews <https://toolbox.nextgis.com/t/s2_search?from-related-tools=1>`_
+   * `Download Sentinel-2 satellite data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2?from-related-tools=1>`_
+   * `Copernicus Sentinel image search <https://toolbox.nextgis.com/t/imagesearch?from-related-tools=1>`_
+   * `Search and save Landsat-L2C2 scene previews <https://toolbox.nextgis.com/t/landsat_search?from-related-tools=1>`_

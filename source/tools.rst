@@ -94,6 +94,7 @@
    crossing_borders
    split_to_rect
    landsat_search
+   planetary_search
    cadnums_to_geodata
    imagesearch
    lines2polygons

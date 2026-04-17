@@ -77,6 +77,7 @@ Tools
    ogrmerge
    osmclip_bbox
    panotag
+   planetary_search
    pointcloud2tileset
    points_on_tracks_stats
    polysimplifier

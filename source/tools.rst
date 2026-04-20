@@ -69,6 +69,7 @@
    lesis2sqlite
    maxdist
    qgis_multiparttosingleparts
+   inaturalist_download
    raster2tiles
    temporal_split
    ndi

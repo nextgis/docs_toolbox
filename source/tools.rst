@@ -43,6 +43,7 @@ Tools
    gpxtracksplit
    grid
    hello
+   inaturalist_download
    image_classification
    image_clustering
    imagesearch

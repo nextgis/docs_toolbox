@@ -1,7 +1,7 @@
 История векторного объекта
 ===================================
 
-Получить историю изменений объекта из версионируемого векторного слоя NextGIS Web. Подробнее `о версионировании <https://docs.nextgis.ru/docs_ngweb/source/version.html>`_. Включить версионирование можно `в настройках слоя <https://docs.nextgis.ru/docs_ngweb/source/layers.html#create-vector-layer-vers-pic>`_.
+Получить историю изменений объекта из версионируемого векторного слоя NextGIS Web. Подробнее `о версионировании <https://docs.nextgis.ru/docs_ngweb/source/version.html>`_. Включить версионирование можно `в настройках слоя <https://docs.nextgis.ru/docs_ngweb/source/layers_settings.html#create-vector-layer-vers-pic>`_.
 
 На входе:
 

@@ -8,8 +8,8 @@ Downloads species observations from the public iNaturalist API for a given bound
 Inputs:
 
 * Bounding box - draw your area of interest on the map or enter coordinates in decimal degrees (West, South, East, North in WGS84).
-* Taxon name - ccientific or common taxon name (e.g. 'Bubo bubo'). Resolved via iNaturalist /taxa/autocomplete to a taxon id; all descendants are included. Leave empty to download all species in the area.
-* Iconic taxon group. Restrict to one iconic taxon group (Birds, Plants, Insects, Fungi, Mammals, …). Combined with 'Taxon name' if both are set. Options:
+* Taxon name - ccientific or common taxon name (e.g. ``Bubo bubo`` or ``Eagle-owl``). Leave empty to download all species in the area.
+* Iconic taxon group. Select one iconic taxon group (Birds, Plants, Insects, Fungi, Mammals, etc). Combines with 'Taxon name' if both are set. Options:
 
     - Animalia
     - Actinopterygii
@@ -25,15 +25,15 @@ Inputs:
     - Protozoa
     - Reptilia
 
-* Quality grade. iNaturalist quality grade filter. Default: Research Grade. Options:
+* Observation quality. iNaturalist quality grade filter. Options:
 
     - Research Grade (research)
     - Needs ID (needs_id)
     - Casual (casual)
 
-* Only wild. Exclude captive / cultivated observations. Default: all are included.
-* Observation date from. Lower bound of observation date (ISO 8601, YYYY-MM-DD).
-* Observation date to. Upper bound of observation date (ISO 8601, YYYY-MM-DD).
+* Only wild. Exclude captive / cultivated observations. Default: all observation types.
+* Observation date from. Lower bound of observation date. Format: YYYY-MM-DD.
+* Observation date to. Upper bound of observation date. Format: YYYY-MM-DD.
 
 Outputs:
 

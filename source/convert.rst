@@ -9,7 +9,7 @@ If output format is ESRI Shapefile, encoding of attributes cast to UTF-8.
 Input:
 
 *  Vector layer file or ZIP archive compatible with GDAL library. `List of supported formats <https://docs.nextgis.com/docs_toolbox/source/convert.html#format-list>`_
-*  Name of output format: ESRI Shapefile, MapInfo File, GeoJSON, GPKG, DXF, FlatGeobuf.
+*  Name of output format: ESRI Shapefile, MapInfo TAB, GeoJSON, GPKG, DXF, FlatGeobuf.
 
 .. note::
    If uploaded file has incompatible format (for example, single SHP file) an error message will appear.

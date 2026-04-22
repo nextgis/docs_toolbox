@@ -2,7 +2,7 @@ Feature history
 ==================================
 
 Get the history of a feature from NextGIS Web versioned vector layer.
-More on `versioning <https://docs.nextgis.com/docs_ngweb/source/version.html>`_. You can enable versionin in the `layer settings <https://docs.nextgis.com/docs_ngweb/source/layers.html#create-vector-layer-vers-pic>`_.
+More on `versioning <https://docs.nextgis.com/docs_ngweb/source/version.html>`_. You can enable versionin in the `layer settings <https://docs.nextgis.com/docs_ngweb/source/layers_settings.html#create-vector-layer-vers-pic>`_.
 
 Inputs:
 

@@ -7,7 +7,7 @@
 На входе:
 
 *  Векторный слой. Одиночный файл или ZIP-архив с одним векторным слоем любого формата, поддерживаемого библиотекой GDAL, например GeoPackage или архив с ESRI Shapefile. `Список поддерживаемых исходных форматов <https://docs.nextgis.ru/docs_toolbox/source/convert.html#format-list>`_.
-*  Название выходного формата: ESRI Shapefile, MapInfo File, GeoJSON, GPKG, DXF, FlatGeobuf.
+*  Название выходного формата: ESRI Shapefile, MapInfo TAB, GeoJSON, GPKG, DXF, FlatGeobuf.
 
 .. note::
    Если загрузить в инструмент файл неподходящего формата (например, SQL или одиночный файл SHP), появится сообщение об ошибке.
@@ -74,7 +74,7 @@
 * KML -  Keyhole Markup Language
 * LIBKML -  LIBKML Driver (.kml .kmz)
 * LVBAG -  Dutch Kadaster LV BAG 2.0 Extract
-* MapInfo File -  MapInfo TAB and MIF/MID
+* MapInfo TAB -  MapInfo TAB and MIF/MID
 * MapML -  MapML
 * MEM -  In Memory datasets
 * Memory -  Memory (deprecated)

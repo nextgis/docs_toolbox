@@ -28,7 +28,7 @@ Inputs:
 
 Outputs:
 
-*  ZIP-compressed CSV-file with coordinates and elevation values for the points.
+*  CSV file or ZIP-compressed file of other selected format with coordinates and elevation values for the points.
 
 .. _prepare:
 

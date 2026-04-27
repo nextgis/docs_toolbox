@@ -31,6 +31,7 @@ Tools
    field_value_changer
    fix_geometries
    flatten
+   gbif_download
    generalization
    geocodetable
    geometry_changer

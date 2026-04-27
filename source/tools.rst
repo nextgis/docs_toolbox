@@ -70,6 +70,7 @@
    maxdist
    qgis_multiparttosingleparts
    inaturalist_download
+   gbif_download
    raster2tiles
    temporal_split
    ndi

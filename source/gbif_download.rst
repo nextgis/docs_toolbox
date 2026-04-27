@@ -37,7 +37,7 @@
 Пример работы инструмента:
 
 
-.. figure:: _static/gbif_download_result_ru.png
+.. figure:: _static/gbif_download_result_en.png
    :name: gbif_download_result_pic
    :align: center
    :width: 22cm

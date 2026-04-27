@@ -1,39 +1,32 @@
-iNaturalist species observations to geodata
-===========================================
+GBIF species observations to geodata
+====================================
 
-Launch the tool: https://toolbox.nextgis.com/t/inaturalist_download
+Launch the tool: https://toolbox.nextgis.com/t/gbif_download
 
-Downloads species observations from the public iNaturalist API for a given bounding box, optionally filtered by taxon (scientific name), iconic group, quality grade, wildness and observation date. Hard limit: 10 000 records per run.
+Downloads species observations from the public GBIF API for a given bounding box, optionally filtered by taxon (scientific name), kingdom, quality grade, wildness and observation date. Hard limit: 10 000 records per run.
 
 Inputs:
 
 * Bounding box - draw your area of interest on the map or enter coordinates in decimal degrees (West, South, East, North in WGS84).
-* Taxon name - ccientific or common taxon name (e.g. ``Bubo bubo`` or ``Eagle-owl``). Leave empty to download all species in the area.
-* Iconic taxon group. Select one iconic taxon group (Birds, Plants, Insects, Fungi, Mammals, etc). Combines with 'Taxon name' if both are set. Options:
+* Country code (ISO 3166-1 alpha-2) - two-letter country code (e.g. 'DE', 'FR', 'US'). Filters by the country where the occurrence was recorded. Combined with 'Bounding box' if both are set (AND).
+* Taxon name - scientific name (e.g. ``Bubo bubo``). Leave empty to download all species in the area.
+* Kingdom. Select one iconic taxon group (Birds, Plants, Insects, Fungi, Mammals, etc). Combines with 'Taxon name' if both are set. Options:
 
     - Animalia
-    - Actinopterygii
-    - Amphibia
-    - Arachnida
-    - Aves
+    - Archaea
+    - Bacteria
     - Chromista
     - Fungi
-    - Insecta
-    - Mammalia
-    - Mollusca
-    - Plantae
+    - Plataea
     - Protozoa
-    - Reptilia
+    - Viruses
 
-* Observation quality. iNaturalist quality grade filter. Options:
-
-    - Research Grade (research)
-    - Needs ID (needs_id)
-    - Casual (casual)
-
-* Only wild. Exclude captive / cultivated observations. Default: all observation types.
-* Observation date from. Lower bound of observation date. Format: YYYY-MM-DD.
-* Observation date to. Upper bound of observation date. Format: YYYY-MM-DD.
+* Record type - which categories of GBIF records to include. 'Wild observations & specimens' (default) covers the typical ecological use case — it excludes zoo/botanical-garden (LIVING_SPECIMEN) records.
+* Observation date from - Lower bound of observation date. Format: YYYY-MM-DD.
+* Observation date to - Upper bound of observation date. Format: YYYY-MM-DD.
+* Only with photo - restrict to records that have at least one image attached (mediaType=StillImage). Default: off.
+* Only commercially reusable licences - restrict to records licensed CC0 or CC-BY (excludes CC-BY-NC). Default: off (all licences).
+* Exclude records with geospatial issues - exclude records that GBIF has flagged with geospatial quality issues (hasGeospatialIssue=false). Default: on.
 
 Outputs:
 
@@ -44,8 +37,8 @@ Outputs:
 
 Example:
 
-.. figure:: _static/inaturalist_download_result_en.png
-   :name: inaturalist_download_result_pic
+.. figure:: _static/gbif_download_result_en.png
+   :name: gbif_download_result_pic
    :align: center
    :width: 22cm
 
@@ -59,5 +52,6 @@ Example:
 
 .. seealso::
 
+   * `iNaturalist species observations to geodata <https://toolbox.nextgis.com/t/inaturalist_download?from-related-tools=1>`_
    * `Download Sentinel-2 and Landsat-C2L2 satellite data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2?from-related-tools=1>`_
    * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_

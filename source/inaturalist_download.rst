@@ -60,6 +60,7 @@
 
 .. seealso::
 
+   * `Наблюдения видов GBIF в геоданные <https://toolbox.nextgis.com/t/gbif_download?from-related-tools=1>`_
    * `Скачивание спутниковых данных Sentinel-2 и Landsat-C2L2 <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2?from-related-tools=1>`_
    * `KML в геоданные <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_
 

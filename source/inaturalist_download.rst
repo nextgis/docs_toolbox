@@ -59,5 +59,6 @@ Example:
 
 .. seealso::
 
+   * `GBIF species observations to geodata <https://toolbox.nextgis.com/t/gbif_download?from-related-tools=1>`_
    * `Download Sentinel-2 and Landsat-C2L2 satellite data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2?from-related-tools=1>`_
    * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_

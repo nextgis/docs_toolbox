@@ -28,6 +28,8 @@
 
 Запуск инструмента: https://toolbox.nextgis.com/t/raster2tiles
 
+.. seealso:: Если вам нужны тайлы в формате PMTiles, воспользуйтесь инструментом `Геоданные в PMTiles <https://toolbox.nextgis.com/t/geodata2pmtiles>`_
+
 **Попробуйте инструмент в действии**
 
 1. Нажмите кнопку **Демо** над формой инструмента. Поля будут автоматически заполнены демонстрационными значениями.
@@ -38,3 +40,4 @@
    * `Растровые тайлы из проекта QGIS <https://toolbox.nextgis.com/t/qgis_rastertiles?from-related-tools=1>`_
    * `Облако точек в набор тайлов <https://toolbox.nextgis.com/t/pointcloud2tileset?from-related-tools=1>`_
    * `Векторные тайлы из проекта QGIS <https://toolbox.nextgis.com/t/qgis_vectortiles?from-related-tools=1>`_
+   * `Геоданные в PMTiles <https://toolbox.nextgis.com/t/geodata2pmtiles>`_

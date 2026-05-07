@@ -1,7 +1,7 @@
 Растровые тайлы из проекта QGIS
 ==========================================
 
-Из архива с проектом QGIS и данными генерирует архив с растровыми тайлами. Используются все настройки стилей QGIS.
+Из архива с проектом QGIS и данными генерирует архив с растровыми тайлами. Используются все настройки стилей QGIS. Эти тайлы можно использовать в приложении `NextGIS Mobile <https://nextgis.ru/nextgis-mobile/>`_
 
 На входе:
 
@@ -20,6 +20,8 @@
 На выходе:
 
 * ZIP-архив, содержащий папки с тайлами в выбранном формате, сгруппированными по уровням зума.
+
+.. seealso:: Если вам нужны тайлы в формате PMTiles, воспользуйтесь инструментом `Геоданные в PMTiles <https://toolbox.nextgis.com/t/geodata2pmtiles>`_
 
 Запуск инструмента: https://toolbox.nextgis.com/t/qgis_rastertiles
 
@@ -40,3 +42,4 @@
    * `Векторные тайлы из проекта QGIS <https://toolbox.nextgis.com/t/qgis_vectortiles?from-related-tools=1>`_
    * `Набор тайлов из растра <https://toolbox.nextgis.com/t/raster2tiles?from-related-tools=1>`_
    * `Проект QGIS в PDF <https://toolbox.nextgis.com/t/qgis2pdf?from-related-tools=1>`_
+   * `Геоданные в PMTiles <https://toolbox.nextgis.com/t/geodata2pmtiles>`_

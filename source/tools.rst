@@ -47,6 +47,7 @@
    ngw_copy_layer
    download_glad
    embedsvg
+   zmu_deploy
    zmu_data_analysis
    deminpoints
    field_value_changer

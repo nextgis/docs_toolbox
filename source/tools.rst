@@ -37,6 +37,7 @@
    quadro
    cadastre2img
    ai2geo
+   geodata2pmtiles
    geocodetable
    rosreestr_from_coord
    rosreestr2coord

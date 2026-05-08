@@ -34,6 +34,7 @@ Tools
    gbif_download
    generalization
    geocodetable
+   geodata2pmtiles
    geometry_changer
    gpkg2etab
    gpxanimation

@@ -50,6 +50,7 @@
    embedsvg
    zmu_deploy
    zmu_data_analysis
+   zmu_update
    deminpoints
    field_value_changer
    geometry_changer

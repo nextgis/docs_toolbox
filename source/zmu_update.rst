@@ -47,7 +47,7 @@
 
 **Попробуйте инструмент в действии:**
 
-Вам понадобится группа "Данные ЗМУ", развёрнутая при помощи инструмента "ЗМУ: развёртывание" (`Набор данных для развёртывания <https://nextgis.ru/data/toolbox/zmu_deploy/zmu_deploy_inputs_ru.zip>`_). `Набор данных для обновления <https://nextgis.ru/data/toolbox/zmu_update/zmu_deploy_update_ru.zip>`_ Внутри архивов пошаговые инструкции.
+Вам понадобится группа "Данные ЗМУ", развёрнутая при помощи инструмента "ЗМУ: развёртывание" (`Набор данных для развёртывания <https://nextgis.ru/data/toolbox/zmu_deploy/zmu_deploy_inputs_ru.zip>`_). `Набор данных для обновления <https://nextgis.ru/data/toolbox/zmu_update/zmu_update_ru.zip>`_ Внутри архивов пошаговые инструкции.
 
 .. seealso::
 

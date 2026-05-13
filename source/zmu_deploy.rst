@@ -57,5 +57,6 @@
 .. seealso::
 
    * `ЗМУ: анализ и отчётность <https://toolbox.nextgis.com/t/zmu_data_analysis?from-related-tools=1>`_
+   * `ЗМУ: обновление <https://toolbox.nextgis.com/t/zmu_update?from-related-tools=1>`_
    * `Генератор набора квадратов <https://toolbox.nextgis.com/t/quadro?from-related-tools=1>`_
    * `Статистика по точкам и трекам в полигонах из NGW <https://toolbox.nextgis.com/t/points_on_tracks_stats?from-related-tools=1>`_

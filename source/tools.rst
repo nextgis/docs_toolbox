@@ -10,6 +10,7 @@ Tools
    add_regions
    ai2geo
    autocad_file_schema
+   autocad_version
    ascii2geotiff
    centerline
    centroid2attr
@@ -50,6 +51,7 @@ Tools
    image_clustering
    imagesearch
    import_dwg
+   import_dwg_libdxfrw
    import_dwg_oda
    improvedem
    intersect_layers

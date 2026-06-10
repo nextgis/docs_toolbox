@@ -21,6 +21,4 @@ DWG в DXF
 .. seealso::
 
    * `Конвертация данных ЕГРН <https://toolbox.nextgis.com/t/import_egrn?from-related-tools=1>`_
-   * `DWG в DXF (ODA) <https://toolbox.nextgis.com/t/import_dwg_oda?from-related-tools=1>`_
-   * `Список слоёв в файле DWG / DXF <https://toolbox.nextgis.com/t/autocad_file_schema?from-related-tools=1>`_
    * `Версия DWG / DXF <https://toolbox.nextgis.com/t/autocad_version?from-related-tools=1>`_

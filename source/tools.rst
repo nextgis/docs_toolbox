@@ -11,6 +11,7 @@
    s2_search
    doc2pdf
    import_dwg
+   import_dwg_libdxfrw
    import_dwg_oda
    gpkg2etab
    kml2geodata
@@ -32,6 +33,7 @@
    layers2ngw
    ngw_to_gpkg
    qgis_vectortiles
+   autocad_version
    mappy
    import_glr
    quadro

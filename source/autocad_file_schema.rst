@@ -36,5 +36,7 @@
 
 .. seealso::
 
+   * `Версия DWG / DXF <https://toolbox.nextgis.com/t/autocad_version?from-related-tools=1>`_
    * `DWG в DXF <https://toolbox.nextgis.com/t/import_dwg?from-related-tools=1>`_
    * `DWG в DXF (ODA) <https://toolbox.nextgis.com/t/import_dwg_oda?from-related-tools=1>`_
+   * `DWG в DXF (libdxfrw) <https://toolbox.nextgis.com/t/import_dwg_libdxfrw?from-related-tools=1>`_

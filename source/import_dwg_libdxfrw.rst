@@ -45,3 +45,4 @@ DWG в DXF (libdxfrw)
 
    * `Версия DWG / DXF <https://toolbox.nextgis.com/t/autocad_version?from-related-tools=1>`_
    * `DWG в DXF <https://toolbox.nextgis.com/t/import_dwg?from-related-tools=1>`_
+   * `Список слоёв в файле DWG / DXF <https://toolbox.nextgis.com/t/autocad_file_schema?from-related-tools=1>`_

@@ -46,3 +46,4 @@ Example:
 
    * `Report DWG / DXF file version <https://toolbox.nextgis.com/t/autocad_version?from-related-tools=1>`_
    * `DWG to DXF <https://toolbox.nextgis.com/t/import_dwg?from-related-tools=1>`_
+   * `List of layers from DWG / DXF file <https://toolbox.nextgis.com/t/autocad_file_schema?from-related-tools=1>`_

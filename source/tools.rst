@@ -9,6 +9,7 @@ Tools
 
    add_regions
    ai2geo
+   autocad_file_schema
    autocad_version
    ascii2geotiff
    centerline

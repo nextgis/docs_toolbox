@@ -24,3 +24,4 @@ https://toolbox.nextgis.com/t/import_dwg
    * `MapInfo ready for QGIS <https://toolbox.nextgis.com/t/mapinfo2qgis?from-related-tools=1>`_
    * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_
    * `Report DWG / DXF file version <https://toolbox.nextgis.com/t/autocad_version?from-related-tools=1>`_
+   * `List of layers from DWG / DXF file <https://toolbox.nextgis.com/t/autocad_file_schema?from-related-tools=1>`_

@@ -8,11 +8,11 @@ DWG в DXF (libdxfrw)
 * Исходный файл в формате AutoCAD DWG;
 * Выходной формат. Выберите выходную кодировку (по умолчанию: UTF-8):
 
-    - UTF-8 (utf-8)
-    - UTF-16 (utf-16)
-    - Windows-1251 / CP1251 (windows-1251)
-    - Windows-1252 / CP1252 (windows-1252)
-    - ISO-8859-1 / Latin-1 (iso-8859-1)
+  - UTF-8 (utf-8)
+  - UTF-16 (utf-16)
+  - Windows-1251 / CP1251 (windows-1251)
+  - Windows-1252 / CP1252 (windows-1252)
+  - ISO-8859-1 / Latin-1 (iso-8859-1)
 
 На выходе:
 

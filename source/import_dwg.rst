@@ -5,7 +5,15 @@ Converts DWG file into DXF that can be opened in QGIS.
 
 Input:
 
-* DWG file.
+* DWG file;
+* Output format. Choose output encodings (Default is UTF-8):
+
+  - UTF-8 (utf-8)
+  - UTF-16 (utf-16)
+  - Windows-1251 / CP1251 (windows-1251)
+  - Windows-1252 / CP1252 (windows-1252)
+  - ISO-8859-1 / Latin-1 (iso-8859-1)
+
 
 Output:
 

@@ -10,21 +10,21 @@ Inputs:
 * Longitude - name of the Lonitude column. Case-sensitive.
 * Output format:
 
-   - CSV
-   - ESRI Shapefile
-   - MapInfo TAB
-   - GeoJSON
-   - GPKG
-   - DXF
-   - FlatGeobuf.
+  - CSV
+  - ESRI Shapefile
+  - MapInfo TAB
+  - GeoJSON
+  - GPKG
+  - DXF
+  - FlatGeobuf.
 
 
 * Elevation dataset - select one of the following: 
 
-    - Copernicus
-    - ALOS -  ALOS World 3D has resolution of 30 meters
-    - MERITDEM
-    - GEBCO - resolution is 15 sec (about 500 meters). 
+  - Copernicus
+  - ALOS -  ALOS World 3D has resolution of 30 meters
+  - MERITDEM
+  - GEBCO - resolution is 15 sec (about 500 meters). 
 
 Outputs:
 

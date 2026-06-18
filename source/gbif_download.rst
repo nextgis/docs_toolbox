@@ -12,14 +12,14 @@ Inputs:
 * Taxon name - scientific name (e.g. ``Bubo bubo``). Leave empty to download all species in the area.
 * Kingdom. Select one iconic taxon group (Birds, Plants, Insects, Fungi, Mammals, etc). Combines with 'Taxon name' if both are set. Options:
 
-    - Animalia
-    - Archaea
-    - Bacteria
-    - Chromista
-    - Fungi
-    - Plataea
-    - Protozoa
-    - Viruses
+  - Animalia
+  - Archaea
+  - Bacteria
+  - Chromista
+  - Fungi
+  - Plataea
+  - Protozoa
+  - Viruses
 
 * Record type - which categories of GBIF records to include. 'Wild observations & specimens' (default) covers the typical ecological use case — it excludes zoo/botanical-garden (LIVING_SPECIMEN) records.
 * Observation date from - Lower bound of observation date. Format: YYYY-MM-DD.

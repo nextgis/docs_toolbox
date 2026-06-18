@@ -51,14 +51,14 @@ Format: xmin, ymin, xmax, ymax. Example: 1000, 1000, 2500, 2500. Use - to automa
 
 * Data Type for the New Raster. Available data types: 
 
-    - Auto mode (auto_mode) - use to automatically select the data type.
-    - Int32
-    - Int16
-    - Float64
-    - UInt16
-    - Byte
-    - UInt32
-    - Float32
+  - Auto mode (auto_mode) - use to automatically select the data type.
+  - Int32
+  - Int16
+  - Float64
+  - UInt16
+  - Byte
+  - UInt32
+  - Float32
 
 
 Output:

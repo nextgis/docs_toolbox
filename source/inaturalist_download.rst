@@ -11,25 +11,25 @@ Inputs:
 * Taxon name - ccientific or common taxon name (e.g. ``Bubo bubo`` or ``Eagle-owl``). Leave empty to download all species in the area.
 * Iconic taxon group. Select one iconic taxon group (Birds, Plants, Insects, Fungi, Mammals, etc). Combines with 'Taxon name' if both are set. Options:
 
-    - Animalia
-    - Actinopterygii
-    - Amphibia
-    - Arachnida
-    - Aves
-    - Chromista
-    - Fungi
-    - Insecta
-    - Mammalia
-    - Mollusca
-    - Plantae
-    - Protozoa
-    - Reptilia
+  - Animalia
+  - Actinopterygii
+  - Amphibia
+  - Arachnida
+  - Aves
+  - Chromista
+  - Fungi
+  - Insecta
+  - Mammalia
+  - Mollusca
+  - Plantae
+  - Protozoa
+  - Reptilia
 
 * Observation quality. iNaturalist quality grade filter. Options:
 
-    - Research Grade (research)
-    - Needs ID (needs_id)
-    - Casual (casual)
+  - Research Grade (research)
+  - Needs ID (needs_id)
+  - Casual (casual)
 
 * Only wild. Exclude captive / cultivated observations. Default: all observation types.
 * Observation date from. Lower bound of observation date. Format: YYYY-MM-DD.

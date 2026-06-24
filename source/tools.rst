@@ -60,6 +60,7 @@
    ngw_feature_history 
    raster_calculator
    r_mapcalc
+   plk_lesnich
    plk_catalog
    image_classification
    image_clustering

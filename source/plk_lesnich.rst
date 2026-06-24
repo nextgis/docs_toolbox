@@ -20,16 +20,7 @@ Outputs:
 
 Launch the tool: https://toolbox.nextgis.com/t/plk_lesnich
 
-Example:
 
-
-
-.. todo:: _static/plk_lesnich_result_en.png
-   :name: plk_lesnich_result_pic
-   :align: center
-   :width: 16cm
-
-   Example output
 
 
 **Try the tool in action**

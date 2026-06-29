@@ -1,7 +1,7 @@
 Predict satellite overpass
 ===================================
 
-The tool forms an XLSX file with the data on Aqua, Terra, S-NPP, NOAA 20 and NOAA 21 satellites passing over an area of interest in a selected period of time.
+The tool forms an XLSX file with the data on Aqua, Terra, S-NPP, NOAA 20, 21, SENTINEL-1A, 1С, 2A, 2B, 2C, LANDSAT 8, 9 satellites passing over an area of interest in a selected period of time.
 
 Inputs:
 

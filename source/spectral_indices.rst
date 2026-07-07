@@ -5,7 +5,7 @@
 
 На входе:
 
-* Пакет спутниковых данных - ZIP-файл из `Поиск и загрузка данных Planetary Computer <https://toolbox.nextgis.com/t/planetary_search>`_, содержащий GeoTIFF-файлы каналов Sentinel-2 или Landsat и manifest.json с time_series;
+* Пакет спутниковых данных - ZIP-файл из `Скачивание данных Planetary Computer <https://toolbox.nextgis.com/t/planetary_search>`_, содержащий GeoTIFF-файлы каналов Sentinel-2 или Landsat и manifest.json с time_series;
 * Спектральный индекс. Тип нормализованного разностного индекса:
 
   - NDVI (Растительность) (NDVI);

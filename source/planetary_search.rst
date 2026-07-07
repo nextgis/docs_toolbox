@@ -1,4 +1,4 @@
-Поиск и загрузка данных Planetary Computer
+Скачивание данных Planetary Computer
 ==========================================
 
 Запуск инструмента: https://toolbox.nextgis.com/t/planetary_search

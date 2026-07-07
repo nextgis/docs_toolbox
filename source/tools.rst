@@ -33,22 +33,25 @@
    ngw_to_gpkg
    qgis_vectortiles
    autocad_version
+   spectral_indices
    mappy
    import_glr
    quadro
    cadastre2img
    ai2geo
    geodata2pmtiles
+   nominatim_geocode
    geocodetable
    rosreestr_from_coord
    rosreestr2coord
    dezhurcad
+   embedsvg
    panotag
    gpx2exif
    add_regions
    ngw_copy_layer
    download_glad
-   embedsvg
+   osm_download
    zmu_deploy
    zmu_data_analysis
    zmu_update

@@ -78,7 +78,9 @@ Tools
    ngw_merge_layers
    ngw_to_gpkg
    ngw_webmap2image
+   nominatim_geocode
    ogrmerge
+   osm_download
    osmclip_bbox
    panotag
    planetary_search
@@ -99,6 +101,7 @@ Tools
    removecontents
    s2_search
    spatial_join
+   spectral_indices
    split_to_equal
    split_to_rect
    split180

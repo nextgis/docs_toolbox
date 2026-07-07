@@ -33,3 +33,4 @@ Launch the tool: https://toolbox.nextgis.com/t/geocodetable
    * `Table to vector file <https://toolbox.nextgis.com/t/table2geo?from-related-tools=1>`_
    * `Google Sheets to Web GIS <https://toolbox.nextgis.com/t/spreadsheet2layer?from-related-tools=1>`_
    * `Parse addresses <https://toolbox.nextgis.com/t/postal?from-related-tools=1>`_
+   * `Geocode with Nominatim <https://toolbox.nextgis.com/t/nominatim_geocode>`_

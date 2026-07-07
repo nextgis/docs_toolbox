@@ -1,4 +1,4 @@
-Planetary Computer Search & Download
+Search & download Planetary Computer
 ====================================
 
 Launch the tool: https://toolbox.nextgis.com/t/planetary_search

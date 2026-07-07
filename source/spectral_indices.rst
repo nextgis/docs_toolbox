@@ -10,7 +10,9 @@
 
   - NDVI (Растительность) (NDVI);
   - NDWI (Вода) (NDWI);
-  - NBR (Индекс гарей) (NBR).
+  - NBR (Индекс гарей) (NBR);
+
+* Расчитать серии - включите эту опцию, чтобы инструмент рассчитал растровые статистики (max, min, std и др.) если на входе несколько растров.
 
 На выходе:
 
@@ -22,17 +24,17 @@
 
 Пример работы инструмента:
 
-.. todo:: _static/spectral_indices_input_ru.png
+.. figure:: _static/spectral_indices_input_ru.png
    :name: spectral_indices_input_pic
    :align: center
-   :width: 16cm
+   :width: 20cm
 
    Пример исходных данных
 
-.. todo:: _static/spectral_indices_result_ru.png
+.. figure:: _static/spectral_indices_result_ru.png
    :name: spectral_indices_result_pic
    :align: center
-   :width: 16cm
+   :width: 20cm
 
    Пример результата работы инструмента
 

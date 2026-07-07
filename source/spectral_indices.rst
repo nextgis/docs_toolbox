@@ -8,9 +8,11 @@ Inputs:
 * Satellite Imagery Package - ZIP file from `Search & download Planetary Computer <https://toolbox.nextgis.com/t/planetary_search>`_ containing Sentinel-2 or Landsat band GeoTIFFs and manifest.json with time_series;
 * Spectral Index. Type of normalized difference index to compute:
 
-  - NDVI (Vegetation) (NDVI)
-  - NDWI (Water) (NDWI)
-  - NBR (Burn Ratio) (NBR)
+  - NDVI (Vegetation) (NDVI);
+  - NDWI (Water) (NDWI);
+  - NBR (Burn Ratio) (NBR);
+
+* Generate series - tick to generate series rasters (max, min, std etc.) if multiple inputs are provided.
 
 Outputs:
 
@@ -22,17 +24,17 @@ Launch the tool: https://toolbox.nextgis.com/t/spectral_indices
 
 Example:
 
-.. todo:: _static/spectral_indices_input_en.png
+.. figure:: _static/spectral_indices_input_en.png
    :name: spectral_indices_input_pic
    :align: center
-   :width: 16cm
+   :width: 20cm
 
    Example input
 
-.. todo:: _static/spectral_indices_result_en.png
+.. figure:: _static/spectral_indices_result_en.png
    :name: spectral_indices_result_pic
    :align: center
-   :width: 16cm
+   :width: 20cm
 
    Example output
 

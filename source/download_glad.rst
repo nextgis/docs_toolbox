@@ -1,4 +1,4 @@
-Landsat Analysis Ready Data (GLAD ARD) download helper
+Download Landsat Analysis Ready Data (GLAD ARD)
 ======================================================
 
 

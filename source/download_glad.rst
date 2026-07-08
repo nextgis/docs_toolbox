@@ -1,4 +1,4 @@
-Загрузка Landsat Analysis Ready Data (GLAD ARD)
+Скачивание Landsat Analysis Ready Data (GLAD ARD)
 ================================================
 
 Генерирует команды для удобного скачивания Landsat Analysis Ready Data (GLAD ARD) с https://glad.umd.edu/ard/home. 

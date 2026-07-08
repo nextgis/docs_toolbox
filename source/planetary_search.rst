@@ -62,4 +62,4 @@
    * `Cцены Sentinel-2 в GPKG <https://toolbox.nextgis.com/t/s2_search?from-related-tools=1>`_
    * `Подготовка и скачивание данных Sentinel-2 <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2?from-related-tools=1>`_
    * `Поиск снимков Sentinel через Copernicus <https://toolbox.nextgis.com/t/imagesearch?from-related-tools=1>`_
-   * `Поиск ID сцен Landsat-L2C2 и загрузка превью <https://toolbox.nextgis.com/t/landsat_search?from-related-tools=1>`_
+   * `Скачивание превью сцен Landsat-L2C2 <https://toolbox.nextgis.com/t/landsat_search?from-related-tools=1>`_

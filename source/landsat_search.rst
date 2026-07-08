@@ -15,10 +15,10 @@ Outputs:
 
 * GeoPackage with previews or footprints, contains:
 
-   * QGIS project;
-   * Tile boundary;
-   * Search area boundary;
-   * Raster previews.
+  * QGIS project;
+  * Tile boundary;
+  * Search area boundary;
+  * Raster previews.
 
 * List of scene IDs.
 
@@ -42,7 +42,7 @@ Example:
 
 .. seealso::
 
-   * `Download Sentinel-2 satellite data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2?from-related-tools=1>`_
-   * `Search and save Sentinel-2 scene previews <https://toolbox.nextgis.com/t/s2_search?from-related-tools=1>`_
-   * `Search & download Planetary Computer <https://toolbox.nextgis.com/t/planetary_search?from-related-tools=1>`_
-   * `Image clustering <https://toolbox.nextgis.com/t/image_clustering?from-related-tools=1>`_
+  * `Download Sentinel-2 satellite data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2?from-related-tools=1>`_
+  * `Search and save Sentinel-2 scene previews <https://toolbox.nextgis.com/t/s2_search?from-related-tools=1>`_
+  * `Search & download Planetary Computer <https://toolbox.nextgis.com/t/planetary_search?from-related-tools=1>`_
+  * `Image clustering <https://toolbox.nextgis.com/t/image_clustering?from-related-tools=1>`_

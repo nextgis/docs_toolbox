@@ -58,4 +58,4 @@ Launch the tool: https://toolbox.nextgis.com/t/lines2polygons
 
 .. admonition:: Related tools
 
-   * `Lines to polygons <https://toolbox.nextgis.com/t/lines2poly?from-related-tools=1>`_
+  * `Lines to polygons <https://toolbox.nextgis.com/t/lines2poly?from-related-tools=1>`_

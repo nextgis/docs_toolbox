@@ -25,8 +25,8 @@ Examples of common normalized difference indices:
 
 .. seealso:: 
 
-   * `List of Sentinel-2 bands <https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/bands/>`_ 
-   * `List of Landsat 8 bands <https://www.usgs.gov/landsat-missions/landsat-8>`_
+  * `List of Sentinel-2 bands <https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/bands/>`_ 
+  * `List of Landsat 8 bands <https://www.usgs.gov/landsat-missions/landsat-8>`_
 
 Example:
 
@@ -53,7 +53,7 @@ Launch the tool: https://toolbox.nextgis.com/t/ndi
 
 .. admonition:: Related tools
 
-   * `Prepare and download Sentinel-2 data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2?from-related-tools=1>`_
-   * `Search and save Sentinel-2 scene previews <https://toolbox.nextgis.com/t/s2_search?from-related-tools=1>`_
-   * `Landsat reflectance calculation <https://toolbox.nextgis.com/t/landsat_to_reflectance?from-related-tools=1>`_
-   * `Raster calculator (GDAL) <https://toolbox.nextgis.com/t/raster_calculator?from-related-tools=1>`_
+  * `Prepare and download Sentinel-2 data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2?from-related-tools=1>`_
+  * `Search and save Sentinel-2 scene previews <https://toolbox.nextgis.com/t/s2_search?from-related-tools=1>`_
+  * `Landsat reflectance calculation <https://toolbox.nextgis.com/t/landsat_to_reflectance?from-related-tools=1>`_
+  * `Raster calculator (GDAL) <https://toolbox.nextgis.com/t/raster_calculator?from-related-tools=1>`_

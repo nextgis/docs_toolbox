@@ -29,5 +29,5 @@ Launch the tool: https://toolbox.nextgis.com/t/ngw_copy_layer
 
 .. admonition:: Related tools
 
-   * `Merge two Web GIS vector layers <https://toolbox.nextgis.com/t/ngw_merge_layers?from-related-tools=1>`_
-   * `Merge vector layers <https://toolbox.nextgis.com/t/ogrmerge?from-related-tools=1>`_
+  * `Merge two Web GIS vector layers <https://toolbox.nextgis.com/t/ngw_merge_layers?from-related-tools=1>`_
+  * `Merge vector layers <https://toolbox.nextgis.com/t/ogrmerge?from-related-tools=1>`_

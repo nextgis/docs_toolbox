@@ -23,5 +23,5 @@ Launch the tool: https://toolbox.nextgis.com/t/vector2datalens
 
 .. admonition:: Related tools
 
-   * `Multipart to singleparts <https://toolbox.nextgis.com/t/qgis_multiparttosingleparts?from-related-tools=1>`_
-   * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_
+  * `Multipart to singleparts <https://toolbox.nextgis.com/t/qgis_multiparttosingleparts?from-related-tools=1>`_
+  * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_

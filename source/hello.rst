@@ -21,4 +21,4 @@ Launch the tool: https://toolbox.nextgis.com/t/hello
 
 .. admonition:: Related tools
 
-   * `Input file explainer (for developers) <https://toolbox.nextgis.com/t/geospatial_input_explainer?from-related-tools=1>`_
+  * `Input file explainer (for developers) <https://toolbox.nextgis.com/t/geospatial_input_explainer?from-related-tools=1>`_

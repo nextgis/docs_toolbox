@@ -38,4 +38,4 @@ Launch the tool: https://toolbox.nextgis.com/t/spreadsheet2layer
 
 .. admonition:: Related tools
 
-   * `Table to vector file <https://toolbox.nextgis.com/t/table2geo?from-related-tools=1>`_
+  * `Table to vector file <https://toolbox.nextgis.com/t/table2geo?from-related-tools=1>`_

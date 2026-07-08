@@ -34,4 +34,4 @@ Launch the tool: https://toolbox.nextgis.com/t/qgis_multiparttosingleparts
 
 .. admonition:: Related tools
 
-   * `Strip ZM from vector layer <https://toolbox.nextgis.com/t/flatten?from-related-tools=1>`_
+  * `Strip ZM from vector layer <https://toolbox.nextgis.com/t/flatten?from-related-tools=1>`_

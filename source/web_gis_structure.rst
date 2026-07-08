@@ -68,5 +68,5 @@ Launch the tool: https://toolbox.nextgis.com/t/web_gis_structure
 
 .. admonition:: Related tools
 
-   * `Web Map to QGIS project <https://toolbox.nextgis.com/t/webmap2qgis?from-related-tools=1>`_
-   * `Vector layers from Web GIS to GeoPackage <https://toolbox.nextgis.com/t/ngw_to_gpkg?from-related-tools=1>`_
+  * `Web Map to QGIS project <https://toolbox.nextgis.com/t/webmap2qgis?from-related-tools=1>`_
+  * `Vector layers from Web GIS to GeoPackage <https://toolbox.nextgis.com/t/ngw_to_gpkg?from-related-tools=1>`_

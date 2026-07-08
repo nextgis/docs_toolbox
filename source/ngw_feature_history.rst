@@ -18,10 +18,10 @@ Outputs:
 
 * Result GeoPackage. GeoPackage file with feature history versions. Each version has the geometry of the feature, attribute values plus additional fields:
 
-   * vid - number of the version;
-   * author - user who made the changes;
-   * time - date and time of the edits;
-   * action - what happened to the feature: created, updated, deleted, restored.
+  * vid - number of the version;
+  * author - user who made the changes;
+  * time - date and time of the edits;
+  * action - what happened to the feature: created, updated, deleted, restored.
 
 Launch the tool: https://toolbox.nextgis.com/t/ngw_feature_history
 
@@ -41,5 +41,5 @@ Example:
 
 .. admonition:: Related tools
 
-   * `Get the Contribution activity report for resource <https://toolbox.nextgis.com/t/ngw_contribution_activity?from-related-tools=1>`_
-   * `Web GIS structure to spreadsheet <https://toolbox.nextgis.com/t/web_gis_structure?from-related-tools=1>`_
+  * `Get the Contribution activity report for resource <https://toolbox.nextgis.com/t/ngw_contribution_activity?from-related-tools=1>`_
+  * `Web GIS structure to spreadsheet <https://toolbox.nextgis.com/t/web_gis_structure?from-related-tools=1>`_

@@ -52,6 +52,6 @@ Example:
 
 .. admonition:: Related tools
 
-   * `Web Map to QGIS project <https://toolbox.nextgis.com/t/webmap2qgis?from-related-tools=1>`_
-   * `Generate raster tiles from QGIS project <https://toolbox.nextgis.com/t/qgis_rastertiles?from-related-tools=1>`_
-   * `QGIS project to PDF <https://toolbox.nextgis.com/t/qgis2pdf?from-related-tools=1>`_
+  * `Web Map to QGIS project <https://toolbox.nextgis.com/t/webmap2qgis?from-related-tools=1>`_
+  * `Generate raster tiles from QGIS project <https://toolbox.nextgis.com/t/qgis_rastertiles?from-related-tools=1>`_
+  * `QGIS project to PDF <https://toolbox.nextgis.com/t/qgis2pdf?from-related-tools=1>`_

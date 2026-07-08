@@ -36,5 +36,5 @@ Launch the tool: https://toolbox.nextgis.com/t/spatial_join
 
 .. admonition:: Related tools
 
-   * `Merge vector layers <https://toolbox.nextgis.com/t/ogrmerge?from-related-tools=1>`_
-   * `Join layer and table by field <https://toolbox.nextgis.com/t/join_by_field?from-related-tools=1>`_
+  * `Merge vector layers <https://toolbox.nextgis.com/t/ogrmerge?from-related-tools=1>`_
+  * `Join layer and table by field <https://toolbox.nextgis.com/t/join_by_field?from-related-tools=1>`_

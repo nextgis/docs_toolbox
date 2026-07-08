@@ -32,5 +32,5 @@ Example:
 
 .. admonition:: Related tools
 
-   * `Fix geometries (QGIS) <https://toolbox.nextgis.com/t/qgis_fix_geometries?from-related-tools=1>`_
-   * `Fix geometries <https://toolbox.nextgis.com/t/fix_geometries?from-related-tools=1>`_
+  * `Fix geometries (QGIS) <https://toolbox.nextgis.com/t/qgis_fix_geometries?from-related-tools=1>`_
+  * `Fix geometries <https://toolbox.nextgis.com/t/fix_geometries?from-related-tools=1>`_

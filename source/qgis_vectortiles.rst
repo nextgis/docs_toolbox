@@ -23,6 +23,6 @@ Launch the tool: https://toolbox.nextgis.com/t/qgis_vectortiles
 
 .. admonition:: Related tools
 
-   * `Generate raster tiles from QGIS project <https://toolbox.nextgis.com/t/qgis_rastertiles?from-related-tools=1>`_
-   * `Tileset from raster <https://toolbox.nextgis.com/t/raster2tiles?from-related-tools=1>`_
-   * `QGIS project to PDF <https://toolbox.nextgis.com/t/qgis2pdf?from-related-tools=1>`_
+  * `Generate raster tiles from QGIS project <https://toolbox.nextgis.com/t/qgis_rastertiles?from-related-tools=1>`_
+  * `Tileset from raster <https://toolbox.nextgis.com/t/raster2tiles?from-related-tools=1>`_
+  * `QGIS project to PDF <https://toolbox.nextgis.com/t/qgis2pdf?from-related-tools=1>`_

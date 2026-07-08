@@ -60,7 +60,7 @@ Example:
 
 .. seealso::
 
-   * `Search and save Sentinel-2 scene previews <https://toolbox.nextgis.com/t/s2_search?from-related-tools=1>`_
-   * `Download Sentinel-2 satellite data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2?from-related-tools=1>`_
-   * `Copernicus Sentinel image search <https://toolbox.nextgis.com/t/imagesearch?from-related-tools=1>`_
-   * `Search and save Landsat-L2C2 scene previews <https://toolbox.nextgis.com/t/landsat_search?from-related-tools=1>`_
+  * `Search and save Sentinel-2 scene previews <https://toolbox.nextgis.com/t/s2_search?from-related-tools=1>`_
+  * `Download Sentinel-2 satellite data <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2?from-related-tools=1>`_
+  * `Copernicus Sentinel image search <https://toolbox.nextgis.com/t/imagesearch?from-related-tools=1>`_
+  * `Search and save Landsat-L2C2 scene previews <https://toolbox.nextgis.com/t/landsat_search?from-related-tools=1>`_

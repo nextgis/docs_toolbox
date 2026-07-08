@@ -42,5 +42,5 @@ Example:
 
 .. admonition:: Related tools
 
-   * `Feature history <https://toolbox.nextgis.com/t/ngw_feature_history?from-related-tools=1>`_
-   * `Web GIS structure to spreadsheet <https://toolbox.nextgis.com/t/web_gis_structure?from-related-tools=1>`_
+  * `Feature history <https://toolbox.nextgis.com/t/ngw_feature_history?from-related-tools=1>`_
+  * `Web GIS structure to spreadsheet <https://toolbox.nextgis.com/t/web_gis_structure?from-related-tools=1>`_

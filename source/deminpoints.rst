@@ -56,4 +56,4 @@ Launch the tool: https://toolbox.nextgis.com/t/demInPoints
 
 .. admonition:: Related tools
 
-   * `Improve DEM <https://toolbox.nextgis.com/t/improvedem?from-related-tools=1>`_
+  * `Improve DEM <https://toolbox.nextgis.com/t/improvedem?from-related-tools=1>`_

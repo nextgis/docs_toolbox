@@ -41,5 +41,5 @@ View the results on an interactive map: https://demo.nextgis.com/resource/4582/d
 
 .. admonition:: Related tools
 
-   * `Create forestplots scheme for Garmin <https://toolbox.nextgis.com/t/forestplots_field?from-related-tools=1>`_
-   * `Meter grid <https://toolbox.nextgis.com/t/grid?from-related-tools=1>`_
+  * `Create forestplots scheme for Garmin <https://toolbox.nextgis.com/t/forestplots_field?from-related-tools=1>`_
+  * `Meter grid <https://toolbox.nextgis.com/t/grid?from-related-tools=1>`_

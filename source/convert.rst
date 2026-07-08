@@ -117,7 +117,7 @@ Supported input formats
 
 .. admonition:: Related tools
 
-   * `Reproject coordinates <https://toolbox.nextgis.com/t/coord_recalc?from-related-tools=1>`_
-   * `Check geometries <https://toolbox.nextgis.com/t/check_geometries?from-related-tools=1>`_
-   * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_
-   * `MapInfo ready for QGIS <https://toolbox.nextgis.com/t/mapinfo2qgis?from-related-tools=1>`_
+  * `Reproject coordinates <https://toolbox.nextgis.com/t/coord_recalc?from-related-tools=1>`_
+  * `Check geometries <https://toolbox.nextgis.com/t/check_geometries?from-related-tools=1>`_
+  * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_
+  * `MapInfo ready for QGIS <https://toolbox.nextgis.com/t/mapinfo2qgis?from-related-tools=1>`_

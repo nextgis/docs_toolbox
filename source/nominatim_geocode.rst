@@ -33,5 +33,5 @@ Example:
 
 .. admonition:: Related tools
 
-   * `Geocode a table <https://toolbox.nextgis.com/t/geocodetable?from-related-tools=1>`_
-   * `Download OpenStreetMap <https://toolbox.nextgis.com/t/osm_download?from-related-tools=1>`_
+  * `Geocode a table <https://toolbox.nextgis.com/t/geocodetable?from-related-tools=1>`_
+  * `Download OpenStreetMap <https://toolbox.nextgis.com/t/osm_download?from-related-tools=1>`_

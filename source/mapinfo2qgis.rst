@@ -20,6 +20,6 @@ Launch the tool: https://toolbox.nextgis.com/t/mapinfo2qgis
 
 .. admonition:: Related tools
 
-   * `Convert format of vector layer <https://toolbox.nextgis.com/t/convert?from-related-tools=1>`_
-   * `DWG to DXF <https://toolbox.nextgis.com/t/import_dwg?from-related-tools=1>`_
-   * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_
+  * `Convert format of vector layer <https://toolbox.nextgis.com/t/convert?from-related-tools=1>`_
+  * `DWG to DXF <https://toolbox.nextgis.com/t/import_dwg?from-related-tools=1>`_
+  * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_

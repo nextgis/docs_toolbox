@@ -42,6 +42,6 @@ Example:
 
 .. admonition:: Related tools
 
-   * `Polygons topological simplifier <https://toolbox.nextgis.com/t/polysimplifier?from-related-tools=1>`_
-   * `Improve DEM <https://toolbox.nextgis.com/t/improvedem?from-related-tools=1>`_
-   * `Split Complex Polygons <https://toolbox.nextgis.com/t/splitcomplex?from-related-tools=1>`_
+  * `Polygons topological simplifier <https://toolbox.nextgis.com/t/polysimplifier?from-related-tools=1>`_
+  * `Improve DEM <https://toolbox.nextgis.com/t/improvedem?from-related-tools=1>`_
+  * `Split Complex Polygons <https://toolbox.nextgis.com/t/splitcomplex?from-related-tools=1>`_

@@ -21,4 +21,4 @@ Launch the tool: https://toolbox.nextgis.com/t/pointcloud2tileset
 
 .. admonition:: Related tools
 
-   * `Projection (Dae, Collada) to Shapefile <https://toolbox.nextgis.com/t/kmldae2footprints?from-related-tools=1>`_
+  * `Projection (Dae, Collada) to Shapefile <https://toolbox.nextgis.com/t/kmldae2footprints?from-related-tools=1>`_

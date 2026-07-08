@@ -37,4 +37,4 @@ Launch the tool: https://toolbox.nextgis.com/t/qgis2pdf
 
 .. admonition:: Related tools
 
-   * `Vertical map for Social Media <https://toolbox.nextgis.com/t/mappy?from-related-tools=1>`_
+  * `Vertical map for Social Media <https://toolbox.nextgis.com/t/mappy?from-related-tools=1>`_

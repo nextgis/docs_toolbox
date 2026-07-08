@@ -40,5 +40,5 @@ Get the `output <https://nextgis.com/data/toolbox/update_vector_layer/update_vec
 
 .. admonition:: Related tools
 
-   * `Join layer and table by field <https://toolbox.nextgis.com/t/join_by_field?from-related-tools=1>`_
-   * `Spatial Join (Join by location) <https://toolbox.nextgis.com/t/spatial_join?from-related-tools=1>`_
+  * `Join layer and table by field <https://toolbox.nextgis.com/t/join_by_field?from-related-tools=1>`_
+  * `Spatial Join (Join by location) <https://toolbox.nextgis.com/t/spatial_join?from-related-tools=1>`_

@@ -37,6 +37,6 @@ Example:
 
 .. admonition:: Related tools
 
-   * `DWG to DXF <https://toolbox.nextgis.com/t/import_dwg?from-related-tools=1>`_
-   * `DWG to DXF (libdxfrw) <https://toolbox.nextgis.com/t/import_dwg_libdxfrw?from-related-tools=1>`_
-   * `Report DWG / DXF file version <https://toolbox.nextgis.com/t/autocad_version?from-related-tools=1>`_
+  * `DWG to DXF <https://toolbox.nextgis.com/t/import_dwg?from-related-tools=1>`_
+  * `DWG to DXF (libdxfrw) <https://toolbox.nextgis.com/t/import_dwg_libdxfrw?from-related-tools=1>`_
+  * `Report DWG / DXF file version <https://toolbox.nextgis.com/t/autocad_version?from-related-tools=1>`_

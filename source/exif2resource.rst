@@ -45,5 +45,5 @@ Launch the tool: https://toolbox.nextgis.com/t/exif2resource
 
 .. admonition:: Related tools
 
-   * `Geotag photos using GPX track <https://toolbox.nextgis.com/t/gpx2exif?from-related-tools=1>`_
-   * `Add Google Photosphere XMP metadata to photos <https://toolbox.nextgis.com/t/panotag?from-related-tools=1>`_
+  * `Geotag photos using GPX track <https://toolbox.nextgis.com/t/gpx2exif?from-related-tools=1>`_
+  * `Add Google Photosphere XMP metadata to photos <https://toolbox.nextgis.com/t/panotag?from-related-tools=1>`_

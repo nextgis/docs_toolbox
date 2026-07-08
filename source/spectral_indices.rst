@@ -46,6 +46,6 @@ Example:
 
 .. admonition:: Related tools
 
-   * `Normalized difference index <https://toolbox.nextgis.com/t/ndi?from-related-tools=1>`_
-   * `Raster calculator (GDAL) <https://toolbox.nextgis.com/t/raster_calculator?from-related-tools=1>`_
-   * `Raster calculator (GRASS) <https://toolbox.nextgis.com/t/r_mapcalc?from-related-tools=1>`_
+  * `Normalized difference index <https://toolbox.nextgis.com/t/ndi?from-related-tools=1>`_
+  * `Raster calculator (GDAL) <https://toolbox.nextgis.com/t/raster_calculator?from-related-tools=1>`_
+  * `Raster calculator (GRASS) <https://toolbox.nextgis.com/t/r_mapcalc?from-related-tools=1>`_

@@ -24,5 +24,5 @@ Launch the tool: https://toolbox.nextgis.com/t/coord_recalc
 
 .. admonition:: Related tools
 
-   * `Convert format of vector layer <https://toolbox.nextgis.com/t/convert?from-related-tools=1>`_
-   * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_
+  * `Convert format of vector layer <https://toolbox.nextgis.com/t/convert?from-related-tools=1>`_
+  * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_

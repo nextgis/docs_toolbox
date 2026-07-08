@@ -64,7 +64,7 @@ Example:
 
 .. admonition:: Related tools
 
-   * `Update a Web GIS layer from a CSV <https://toolbox.nextgis.com/t/update_vector_layer?from-related-tools=1>`_ to replace contents rather than structure
-   * `Erase features <https://toolbox.nextgis.com/t/removecontents?from-related-tools=1>`_
-   * `Join layer and table by field <https://toolbox.nextgis.com/t/join_by_field?from-related-tools=1>`_
-   * `Web GIS structure to spreadsheet <https://toolbox.nextgis.com/t/web_gis_structure?from-related-tools=1>`_
+  * `Update a Web GIS layer from a CSV <https://toolbox.nextgis.com/t/update_vector_layer?from-related-tools=1>`_ to replace contents rather than structure
+  * `Erase features <https://toolbox.nextgis.com/t/removecontents?from-related-tools=1>`_
+  * `Join layer and table by field <https://toolbox.nextgis.com/t/join_by_field?from-related-tools=1>`_
+  * `Web GIS structure to spreadsheet <https://toolbox.nextgis.com/t/web_gis_structure?from-related-tools=1>`_

@@ -33,4 +33,4 @@ Launch the tool: https://toolbox.nextgis.com/t/centroid2attr
 
 .. admonition:: Related tools
 
-   * `Central lines of polygons <https://toolbox.nextgis.com/t/centerline?from-related-tools=1>`_
+  * `Central lines of polygons <https://toolbox.nextgis.com/t/centerline?from-related-tools=1>`_

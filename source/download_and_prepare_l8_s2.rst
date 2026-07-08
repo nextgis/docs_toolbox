@@ -48,7 +48,7 @@ View the result on an interactive map: https://demo.nextgis.com/resource/4805/di
 
 .. admonition:: Related tools
 
-   * `Sentinel-2 scenes to GPKG <https://toolbox.nextgis.com/t/s2_search?from-related-tools=1>`_
-   * `Normalized difference index <https://toolbox.nextgis.com/t/ndi?from-related-tools=1>`_
-   * `Image clustering <https://toolbox.nextgis.com/t/image_clustering?from-related-tools=1>`_
-   * `Tileset from raster <https://toolbox.nextgis.com/t/raster2tiles?from-related-tools=1>`_
+  * `Sentinel-2 scenes to GPKG <https://toolbox.nextgis.com/t/s2_search?from-related-tools=1>`_
+  * `Normalized difference index <https://toolbox.nextgis.com/t/ndi?from-related-tools=1>`_
+  * `Image clustering <https://toolbox.nextgis.com/t/image_clustering?from-related-tools=1>`_
+  * `Tileset from raster <https://toolbox.nextgis.com/t/raster2tiles?from-related-tools=1>`_

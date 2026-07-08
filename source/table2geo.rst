@@ -31,6 +31,6 @@ Launch the tool: https://toolbox.nextgis.com/t/table2geo
 
 .. admonition:: Related tools
 
-   * `Google Sheets to Web GIS <https://toolbox.nextgis.com/t/spreadsheet2layer?from-related-tools=1>`_
-   * `Coordinates to polygon <https://toolbox.nextgis.com/t/coords2poly?from-related-tools=1>`_
-   * `Join layer and table by field <https://toolbox.nextgis.com/t/join_by_field?from-related-tools=1>`_
+  * `Google Sheets to Web GIS <https://toolbox.nextgis.com/t/spreadsheet2layer?from-related-tools=1>`_
+  * `Coordinates to polygon <https://toolbox.nextgis.com/t/coords2poly?from-related-tools=1>`_
+  * `Join layer and table by field <https://toolbox.nextgis.com/t/join_by_field?from-related-tools=1>`_

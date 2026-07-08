@@ -28,5 +28,5 @@ Launch the tool: https://toolbox.nextgis.com/t/centerline
 
 .. admonition:: Related tools
 
-   * `Max distance between polygon nodes <https://toolbox.nextgis.com/t/maxdist?from-related-tools=1>`_
-   * `Points inside polygons <https://toolbox.nextgis.com/t/centroid2attr?from-related-tools=1>`_
+  * `Max distance between polygon nodes <https://toolbox.nextgis.com/t/maxdist?from-related-tools=1>`_
+  * `Points inside polygons <https://toolbox.nextgis.com/t/centroid2attr?from-related-tools=1>`_

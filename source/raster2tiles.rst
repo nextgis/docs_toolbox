@@ -39,6 +39,6 @@ Example of the tool's work:
 
 .. admonition:: Related tools
 
-   * `Generate raster tiles from QGIS project <https://toolbox.nextgis.com/t/qgis_rastertiles?from-related-tools=1>`_
-   * `Point cloud to tileset <https://toolbox.nextgis.com/t/pointcloud2tileset?from-related-tools=1>`_
-   * `Generate vector tiles from QGIS project <https://toolbox.nextgis.com/t/qgis_vectortiles?from-related-tools=1>`_
+  * `Generate raster tiles from QGIS project <https://toolbox.nextgis.com/t/qgis_rastertiles?from-related-tools=1>`_
+  * `Point cloud to tileset <https://toolbox.nextgis.com/t/pointcloud2tileset?from-related-tools=1>`_
+  * `Generate vector tiles from QGIS project <https://toolbox.nextgis.com/t/qgis_vectortiles?from-related-tools=1>`_

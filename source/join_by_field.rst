@@ -31,4 +31,4 @@ Usage example:
 
 .. admonition:: Related tools
 
-   * `Update Web GIS layer from CSV <https://toolbox.nextgis.com/t/update_vector_layer?from-related-tools=1>`_
+  * `Update Web GIS layer from CSV <https://toolbox.nextgis.com/t/update_vector_layer?from-related-tools=1>`_

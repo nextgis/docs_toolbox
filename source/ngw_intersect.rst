@@ -38,4 +38,4 @@ Example:
 
 .. admonition:: Related tools
 
-   * `Layer intersection <https://toolbox.nextgis.com/t/vectorclip?from-related-tools=1>`_
+  * `Layer intersection <https://toolbox.nextgis.com/t/vectorclip?from-related-tools=1>`_

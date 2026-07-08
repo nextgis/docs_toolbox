@@ -26,4 +26,4 @@ Launch the tool: https://toolbox.nextgis.com/t/postal
 
 .. admonition:: Related tools
 
-   * `Geocode table <https://toolbox.nextgis.com/t/geocodetable?from-related-tools=1>`_
+  * `Geocode table <https://toolbox.nextgis.com/t/geocodetable?from-related-tools=1>`_

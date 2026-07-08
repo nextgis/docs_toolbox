@@ -42,7 +42,7 @@ Example:
 
 .. admonition:: Related tools
 
-   * `Vector layers from Web GIS to GeoPackage <https://toolbox.nextgis.com/t/ngw_to_gpkg?from-related-tools=1>`_
-   * `Change attributes in layer group <https://toolbox.nextgis.com/t/field_value_changer?from-related-tools=1>`_
-   * `Join layer and table by field <https://toolbox.nextgis.com/t/join_by_field?from-related-tools=1>`_
-   * `Photos with EXIF to a Web GIS layer <https://toolbox.nextgis.com/t/exif2resource?from-related-tools=1>`_
+  * `Vector layers from Web GIS to GeoPackage <https://toolbox.nextgis.com/t/ngw_to_gpkg?from-related-tools=1>`_
+  * `Change attributes in layer group <https://toolbox.nextgis.com/t/field_value_changer?from-related-tools=1>`_
+  * `Join layer and table by field <https://toolbox.nextgis.com/t/join_by_field?from-related-tools=1>`_
+  * `Photos with EXIF to a Web GIS layer <https://toolbox.nextgis.com/t/exif2resource?from-related-tools=1>`_

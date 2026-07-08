@@ -24,5 +24,5 @@ Launch the tool: https://toolbox.nextgis.com/t/split_to_rect
 
 .. admonition:: Related tools
 
-   * `Set of squares with transects <https://toolbox.nextgis.com/t/quadro?from-related-tools=1>`_
-   * `Meter grid <https://toolbox.nextgis.com/t/grid?from-related-tools=1>`_
+  * `Set of squares with transects <https://toolbox.nextgis.com/t/quadro?from-related-tools=1>`_
+  * `Meter grid <https://toolbox.nextgis.com/t/grid?from-related-tools=1>`_

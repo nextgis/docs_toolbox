@@ -46,5 +46,5 @@ Example:
 
 .. admonition:: Related tools
 
-   * `Feature history <https://toolbox.nextgis.com/t/ngw_feature_history?from-related-tools=1>`_
-   * `Contribution activity report for resource <https://toolbox.nextgis.com/t/ngw_contribution_activity?from-related-tools=1>`_
+  * `Feature history <https://toolbox.nextgis.com/t/ngw_feature_history?from-related-tools=1>`_
+  * `Contribution activity report for resource <https://toolbox.nextgis.com/t/ngw_contribution_activity?from-related-tools=1>`_

@@ -35,5 +35,5 @@ Launch the tool: https://toolbox.nextgis.com/t/split180
 
 .. admonition:: Related tools
 
-   * `Split Complex Polygons <https://toolbox.nextgis.com/t/splitcomplex?from-related-tools=1>`_
-   * `Split into equal parts <https://toolbox.nextgis.com/t/split_to_equal?from-related-tools=1>`_
+  * `Split Complex Polygons <https://toolbox.nextgis.com/t/splitcomplex?from-related-tools=1>`_
+  * `Split into equal parts <https://toolbox.nextgis.com/t/split_to_equal?from-related-tools=1>`_

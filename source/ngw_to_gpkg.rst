@@ -29,4 +29,4 @@ Launch the tool: https://toolbox.nextgis.com/t/ngw_to_gpkg
 
 .. admonition:: Related tools
 
-   * `Web Map to QGIS project <https://toolbox.nextgis.com/t/webmap2qgis?from-related-tools=1>`_
+  * `Web Map to QGIS project <https://toolbox.nextgis.com/t/webmap2qgis?from-related-tools=1>`_

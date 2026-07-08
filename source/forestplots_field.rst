@@ -29,7 +29,7 @@ Launch the tool: https://toolbox.nextgis.com/t/forestplots_field
 
 .. admonition:: Related tools
 
-   * `Set of squares with transects <https://toolbox.nextgis.com/t/quadro?from-related-tools=1>`_
-   * `Coordinates to polygon <https://toolbox.nextgis.com/t/coords2poly?from-related-tools=1>`_
-   * `Geotag photos using GPX track <https://toolbox.nextgis.com/t/gpx2exif?from-related-tools=1>`_
-   * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_
+  * `Set of squares with transects <https://toolbox.nextgis.com/t/quadro?from-related-tools=1>`_
+  * `Coordinates to polygon <https://toolbox.nextgis.com/t/coords2poly?from-related-tools=1>`_
+  * `Geotag photos using GPX track <https://toolbox.nextgis.com/t/gpx2exif?from-related-tools=1>`_
+  * `KML to geodata <https://toolbox.nextgis.com/t/kml2geodata?from-related-tools=1>`_

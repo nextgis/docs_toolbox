@@ -100,6 +100,7 @@ Tools
    raster2tiles
    removecontents
    s2_search
+   solar_hours
    spatial_join
    spectral_indices
    split_to_equal

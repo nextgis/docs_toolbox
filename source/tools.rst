@@ -114,6 +114,7 @@
    geospatial_input_explainer
    kptbatch_validator
    predict_overpass
+   solar_hours
    generalization
    kmldae2footprints
    spatial_join

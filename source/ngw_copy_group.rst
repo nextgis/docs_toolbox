@@ -1,7 +1,6 @@
 Copy nextgis.com resource group with data
 ===========================================
 
-.. warning:: By default the tool deletes all files in the target group. Make sure you don't pick a group that contains important data!
 
 Copies structure+data of resource group on NextGIS platform to other resourse group or Web GIS. Copies the data, subgroups, styles and Web Maps with layers added. The following resource types are supported: 
 
@@ -12,15 +11,17 @@ Copies structure+data of resource group on NextGIS platform to other resourse gr
 
 Inputs:
 
-* Source Web GIS address. URL of your Web GIS, e.g. https://demo.nextgis.com and login/password if necessary
-* Source group ID. Source Web GIS group resource number
-* Destination Web GIS address. URL of your Web GIS, e.g. https://demo.nextgis.com and login/password if necessary
-* Destination group ID. Web GIS group resource number in destination instance, where group will be created
-* Do not copy data. Create only empty layers with attributes and styles
+* Source Web GIS address - URL of your Web GIS, e.g. https://demo.nextgis.com and login/password if necessary;
+* Source group ID - Source Web GIS group resource number;
+* Destination Web GIS address - URL of your Web GIS, e.g. https://demo.nextgis.com and login/password if necessary;
+* Destination group ID - Web GIS group resource number in destination instance, where group will be created;
+* Do not copy data - create only empty layers with attributes and styles;
+* Timeout for NGW server responces in seconds
 
 Outputs:
 
-* New resource group in the target Web GIS.
+* New resource group in the target Web GIS;
+* Text output listing the number of copies resources.
 
 Launch the tool: https://toolbox.nextgis.com/t/ngw_copy_group
 

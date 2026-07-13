@@ -74,6 +74,7 @@
    convert
    import_egrn
    centroid2attr
+   ngw_copy_group
    lesis2sqlite
    maxdist
    qgis_multiparttosingleparts

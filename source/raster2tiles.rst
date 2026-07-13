@@ -1,7 +1,9 @@
-Набор тайлов из растра
+Растр в NGRC
 ======================
 
 Инструмент создает тайлы в формате NGRC на основе GDAL-совместимого набора растровых геоданных. Результат работы можно легко добавить в NextGIS Mobile.
+
+Если у вас есть готовые тайлы в формате MBTiles, то их можно `сконвертировать <https://toolbox.nextgis.com/t/mbtiles2ngrc>`_ в формат, совместимый с NextGIS Mobile.
 
 На входе:
 
@@ -13,13 +15,13 @@
 
 *  файл NGRC с тайловым набором.
 
-.. figure:: _static/raster2tiles_input.png
+.. figure:: _static/raster2tiles_input_ru.png
    :align: center
-   :width: 16cm
+   :width: 20cm
    
-   Пример исходных данных
+   Пример исходных данных в NextGIS QGIS
    
-.. figure:: _static/raster2tiles_output.png
+.. figure:: _static/raster2tiles_output_2.png
    :align: center
    :width: 8cm
    

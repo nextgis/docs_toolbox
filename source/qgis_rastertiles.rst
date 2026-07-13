@@ -40,6 +40,6 @@
 .. seealso::
 
    * `Векторные тайлы из проекта QGIS <https://toolbox.nextgis.com/t/qgis_vectortiles?from-related-tools=1>`_
-   * `Набор тайлов из растра <https://toolbox.nextgis.com/t/raster2tiles?from-related-tools=1>`_
+   * `Растр в NGRC <https://toolbox.nextgis.com/t/raster2tiles?from-related-tools=1>`_
    * `Проект QGIS в PDF <https://toolbox.nextgis.com/t/qgis2pdf?from-related-tools=1>`_
    * `Геоданные в PMTiles <https://toolbox.nextgis.com/t/geodata2pmtiles>`_

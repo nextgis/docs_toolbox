@@ -17,14 +17,14 @@ Launch the tool: https://toolbox.nextgis.com/t/raster2tiles
 
 Example of the tool's work:
 
-.. figure:: _static/raster2tiles_input_en.png
+.. figure:: _static/raster2tiles_input_en_2.png
    :name: raster2tiles_input_pic
    :align: center
-   :width: 16cm
+   :width: 20cm
 
    Example input
 
-.. figure:: _static/raster2tiles_result_en.png
+.. figure:: _static/raster2tiles_output_2.png
    :name: raster2tiles_result_pic
    :align: center
    :width: 8cm

@@ -28,7 +28,7 @@ Launch the tool: https://toolbox.nextgis.com/t/ngw_contribution_activity
 
 Example:
 
-.. figure:: _static/ngw_contribution_activity_result_en.png
+.. figure:: _static/ngw_contribution_activity_result_en_2.png
    :name: ngw_contribution_activity_result_pic
    :align: center
    :width: 16cm

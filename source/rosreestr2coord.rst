@@ -19,7 +19,7 @@
 
 .. seealso::
 
-   * `Поиск по кадастровым номерам <https://toolbox.nextgis.com/t/cadnums_to_geodata?from-related-tools=1>`_
+   * `Геометрия кадастрового объекта по точке <https://toolbox.nextgis.com/t/rosreestr_from_coord?from-related-tools=1>`_
    * `Генерация изображения кадастрового участка по номеру <https://toolbox.nextgis.com/t/cadastre2img?from-related-tools=1>`_
    * `Конвертация данных ЕГРН <https://toolbox.nextgis.com/t/import_egrn?from-related-tools=1>`_
    * `Список КПТ по заданной области <https://toolbox.nextgis.com/t/egrn_kvartals_cover?from-related-tools=1>`_

@@ -45,3 +45,4 @@ Launch the tool: https://toolbox.nextgis.com/t/layers2ngw
 
   * If you have a styles QGIS project, you can upload it to Web GIS via `NextGIS Connect plugin <https://docs.nextgis.com/docs_ngconnect/source/index.html>`_
   * `Vector layers from Web GIS to GeoPackage <https://toolbox.nextgis.com/t/ngw_to_gpkg?from-related-tools=1>`_
+  * `Resource group to web map <https://toolbox.nextgis.com/t/ngw_group2webmap?from-related-tools=1>`_

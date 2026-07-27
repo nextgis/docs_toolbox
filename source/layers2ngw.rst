@@ -45,3 +45,5 @@
 
    * Если у вас настроенный проект со стилями в QGIS, то его можно загрузить в Веб ГИС при помощи модуля `NextGIS Connect <https://docs.nextgis.ru/docs_ngconnect/source/index.htmlы>`_
    * `Векторные слои из Веб ГИС в GeoPackage <https://toolbox.nextgis.com/t/ngw_to_gpkg?from-related-tools=1>`_
+   * `Группа ресурсов в веб-карту <https://toolbox.nextgis.com/t/ngw_group2webmap?from-related-tools=1>`_
+

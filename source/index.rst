@@ -10,6 +10,7 @@ NextGIS Toolbox
    :maxdepth: 2
 
    intro
+   mcp
    tools
 
 * :ref:`genindex`

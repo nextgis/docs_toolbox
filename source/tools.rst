@@ -25,6 +25,7 @@
    explication2poly
    flood_analysis
    wildfire_analysis
+   landslide_analysis
    erosion_analysis
    gpxanimation
    ngw_attribute2description

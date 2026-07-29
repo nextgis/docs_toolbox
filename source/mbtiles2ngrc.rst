@@ -31,3 +31,4 @@ MBTiles в NGRC
 .. seealso::
 
    * `Геоданные в PMTiles <https://toolbox.nextgis.com/t/geodata2pmtiles?from-related-tools=1>`_
+   * `Растр в NGRC <https://toolbox.nextgis.com/t/raster2tiles>`_

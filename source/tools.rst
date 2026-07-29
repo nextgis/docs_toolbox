@@ -14,6 +14,7 @@
    import_dwg_libdxfrw
    gpkg2etab
    kml2geodata
+   mbtiles2ngrc
    mapinfo2qgis
    qgis2pdf
    rsc2csv
@@ -22,6 +23,9 @@
    poly2explication
    coords2poly
    explication2poly
+   flood_analysis
+   wildfire_analysis
+   erosion_analysis
    gpxanimation
    ngw_attribute2description
    polysimplifier
@@ -44,6 +48,7 @@
    geocodetable
    rosreestr_from_coord
    rosreestr2coord
+   ngw_group2webmap
    dezhurcad
    embedsvg
    panotag
@@ -58,6 +63,7 @@
    deminpoints
    field_value_changer
    geometry_changer
+   pastvu2webgis
    fix_geometries
    qgis_fix_geometries
    ngw_feature_history 

@@ -44,3 +44,8 @@
 1. Нажмите кнопку **Демо** над формой инструмента. Поля будут автоматически заполнены демонстрационными значениями.
 2. Нажмите кнопку **Запустить**.
 
+.. seealso::
+
+   * `Анализ подверженности затоплению <https://toolbox.nextgis.com/t/flood_analysis?from-related-tools=1>`_
+   * `Анализ подверженности оползням <https://toolbox.nextgis.com/t/landslide_analysis?from-related-tools=1>`_
+   * `Анализ подверженности лесным пожарам (топографический) <https://toolbox.nextgis.com/t/wildfire_analysis?from-related-tools=1>`_

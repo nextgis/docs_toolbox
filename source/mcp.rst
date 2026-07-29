@@ -83,7 +83,7 @@ Claude (веб-версия)
 .. figure:: _static/mcp_claude_web_toggle_ru.png
    :name: mcp_claude_web_toggle_pic
    :align: center
-   :width: 20cm
+   :width: 14cm
 
 После этого Claude сможет вызывать инструменты NextGIS Toolbox (поиск спутниковых снимков, расчёт NDVI и т.д.) прямо в разговоре.
 
@@ -94,7 +94,7 @@ Claude Code
 
 Через Терминал внутри проекта, где хотите добавить MCP, используйте команду::
 
-   claude mcp add --transport http toolbox-mcp https://toolbox-mcp.nextgis.net/mcp
+   claude mcp add --transport http toolbox-mcp https://mcp.toolbox.nextgis.com/mcp?api_key=APIKEY
 
 Затем запустите claude и наберите команду ``/mcp``. В списке Local MCPs будет видно toolbox-mcp.
 
@@ -103,7 +103,7 @@ Claude Code
 
 Для глобального использования запустите команду::
 
-   claude mcp add --transport http --scope global toolbox-mcp https://toolbox-mcp.nextgis.net/mcp 
+   claude mcp add --transport http --scope global toolbox-mcp https://mcp.toolbox.nextgis.com/mcp?api_key=APIKEY 
 
 .. _cursor_ide:
 
@@ -131,7 +131,7 @@ Cursor IDE
 .. figure:: _static/mcp_cursor_ide_add.png
    :name: mcp_cursor_ide_add_pic
    :align: center
-   :width: 20cm
+   :width: 24cm
 
 После сохранения сервер появится карточкой в списке Home MCP Servers.
 
@@ -141,4 +141,4 @@ Cursor IDE
 .. figure:: _static/mcp_cursor_ide_toggle.png
    :name: mcp_cursor_ide_toggle_pic
    :align: center
-   :width: 20cm
+   :width: 24cm

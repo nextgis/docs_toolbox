@@ -84,7 +84,7 @@ Claude (веб-версия)
 .. figure:: _static/mcp_claude_web_toggle_ru.png
    :name: mcp_claude_web_toggle_pic
    :align: center
-   :width: 14cm
+   :width: 12cm
 
 После этого Claude сможет вызывать инструменты NextGIS Toolbox (поиск спутниковых снимков, расчёт NDVI и т.д.) прямо в разговоре.
 

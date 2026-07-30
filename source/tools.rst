@@ -69,6 +69,7 @@ Tools
    mapinfo2qgis
    mappy
    maxdist
+   mbtiles2ngrc
    mt2report
    ndi
    ngw_attribute2description
@@ -76,6 +77,7 @@ Tools
    ngw_copy_group
    ngw_copy_layer
    ngw_feature_history
+   ngw_group2webmap
    ngw_intersect
    ngw_layer_historical_state
    ngw_layer_schema
@@ -87,6 +89,7 @@ Tools
    osm_download
    osmclip_bbox
    panotag
+   pastvu2webgis
    planetary_search
    pointcloud2tileset
    points_on_tracks_stats

@@ -1,4 +1,4 @@
-Resource group to web map
+Resource group to Web Map
 =========================
 
 Creates a Web Map from vector and raster layers of a resource group. Web Map extent is set to the combined extent of all the layers.

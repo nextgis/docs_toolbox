@@ -28,10 +28,12 @@ Tools
    embedsvg
    empty_geoms
    eraser
+   erosion_analysis
    exif2resource
    field_value_changer
    fix_geometries
    flatten
+   flood_analysis
    gbif_download
    generalization
    geocodetable
@@ -60,6 +62,7 @@ Tools
    landsat_search
    landsat_to_radiance
    landsat_to_reflectance
+   landslide_analysis
    layers2ngw
    lines2poly
    lines2polygons
@@ -117,5 +120,6 @@ Tools
    vectorclip
    web_gis_structure
    webmap2qgis
+   wildfire_analysis
 
 

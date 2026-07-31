@@ -5,7 +5,7 @@ RUSLE-based erosion susceptibility analysis using LS-factor, STI, SPI, profile c
 
 Inputs:
 
-* Terrain Analysis Package (ZIP). ZIP file from terrain_analysis containing DEM, slope, flow accumulation, curvature, STI, SPI, and manifest.json
+* Terrain Analysis Package (ZIP). ZIP file from `Comprehensive Terrain Analysis <https://toolbox.nextgis.com/t/terrain_analysis>`_ containing DEM, slope, flow accumulation, curvature, STI, SPI, and manifest.json
 * Weight: LS-Factor. Weight for the LS-factor indicator (default: 0.35)
 * Weight: STI. Weight for the Sediment Transport Index (default: 0.25)
 * Weight: SPI. Weight for the Stream Power Index (default: 0.15)
@@ -47,6 +47,7 @@ Example:
 
 .. admonition:: Related tools
 
+   * `Comprehensive Terrain Analysis <https://toolbox.nextgis.com/t/terrain_analysis>`_
    * `Flood Susceptibility Analysis <https://toolbox.nextgis.com/t/flood_analysis?from-related-tools=1>`_
    * `Landslide Susceptibility Analysis <https://toolbox.nextgis.com/t/landslide_analysis?from-related-tools=1>`_
    * `Wildfire Susceptibility Analysis (Topographic) <https://toolbox.nextgis.com/t/wildfire_analysis?from-related-tools=1>`_

@@ -5,7 +5,7 @@ Terrain-based flood susceptibility analysis using TWI, log-transformed flow accu
 
 Inputs:
 
-* Terrain Analysis Package (ZIP). ZIP file from terrain_analysis containing DEM, slope, TWI, flow accumulation, TPI, streams, flow direction, and manifest.json
+* Terrain Analysis Package (ZIP). ZIP file from `Comprehensive Terrain Analysis <https://toolbox.nextgis.com/t/terrain_analysis>`_ containing DEM, slope, TWI, flow accumulation, TPI, streams, flow direction, and manifest.json
 * Weight: TWI. Weight for the Topographic Wetness Index indicator (default: 0.30)
 * Weight: Flow Accumulation. Weight for the log-transformed flow accumulation indicator (default: 0.25)
 * Weight: Slope (inverted). Weight for the inverted slope indicator — flat areas have higher flood risk (default: 0.20)
@@ -47,6 +47,7 @@ Example:
 
 .. admonition:: Related tools
 
+   * `Comprehensive Terrain Analysis <https://toolbox.nextgis.com/t/terrain_analysis>`_
    * `Erosion Susceptibility Analysis <https://toolbox.nextgis.com/t/erosion_analysis?from-related-tools=1>`_
    * `Landslide Susceptibility Analysis <https://toolbox.nextgis.com/t/landslide_analysis?from-related-tools=1>`_
    * `Wildfire Susceptibility Analysis (Topographic) <https://toolbox.nextgis.com/t/wildfire_analysis?from-related-tools=1>`_

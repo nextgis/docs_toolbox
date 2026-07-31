@@ -5,7 +5,7 @@ Heuristic landslide susceptibility index (after Anbalagan 1992) using sigmoid-tr
 
 Inputs:
 
-* Terrain Analysis Package (ZIP). ZIP file from terrain_analysis containing DEM, slope, curvature, TWI, TPI, TRI rasters and manifest.json
+* Terrain Analysis Package (ZIP). ZIP file from `Comprehensive Terrain Analysis <https://toolbox.nextgis.com/t/terrain_analysis>`_ containing DEM, slope, curvature, TWI, TPI, TRI rasters and manifest.json
 * Weight: Slope (sigmoid). Weight for the sigmoid-transformed slope indicator (default: 0.30)
 * Weight: Curvature. Weight for the combined curvature indicator (default: 0.15)
 * Weight: TWI. Weight for the Topographic Wetness Index (default: 0.20)
@@ -49,6 +49,7 @@ Example:
 
 .. admonition:: Related tools
 
+   * `Comprehensive Terrain Analysis <https://toolbox.nextgis.com/t/terrain_analysis>`_
    * `Flood Susceptibility Analysis <https://toolbox.nextgis.com/t/flood_analysis?from-related-tools=1>`_
    * `Erosion Susceptibility Analysis <https://toolbox.nextgis.com/t/erosion_analysis?from-related-tools=1>`_
    * `Wildfire Susceptibility Analysis (Topographic) <https://toolbox.nextgis.com/t/wildfire_analysis?from-related-tools=1>`_

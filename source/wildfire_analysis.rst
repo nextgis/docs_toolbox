@@ -5,7 +5,7 @@ Topographic wildfire susceptibility analysis using slope, Heat Load Index (Bohne
 
 Inputs:
 
-* Terrain Analysis Package (ZIP). ZIP file from terrain_analysis containing DEM, slope, aspect, TWI, TPI, TRI, and manifest.json
+* Terrain Analysis Package (ZIP). ZIP file from `Comprehensive Terrain Analysis <https://toolbox.nextgis.com/t/terrain_analysis>`_ containing DEM, slope, aspect, TWI, TPI, TRI, and manifest.json
 * Weight: Slope. Weight for the slope indicator (default: 0.25)
 * Weight: Heat Load Index. Weight for the Heat Load Index indicator (default: 0.25)
 * Weight: TPI. Weight for the Topographic Position Index (default: 0.15)
@@ -48,6 +48,7 @@ Example:
 
 .. admonition:: Related tools
 
+   * `Comprehensive Terrain Analysis <https://toolbox.nextgis.com/t/terrain_analysis>`_
    * `Flood Susceptibility Analysis <https://toolbox.nextgis.com/t/flood_analysis?from-related-tools=1>`_
    * `Landslide Susceptibility Analysis <https://toolbox.nextgis.com/t/landslide_analysis?from-related-tools=1>`_
    * `Erosion Susceptibility Analysis <https://toolbox.nextgis.com/t/erosion_analysis?from-related-tools=1>`_

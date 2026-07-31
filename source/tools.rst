@@ -74,6 +74,7 @@
    plk_catalog
    image_classification
    image_clustering
+   terrain_analysis
    xml_lpo_to_vector
    xml_decl_to_vector
    xml_plv_to_vector

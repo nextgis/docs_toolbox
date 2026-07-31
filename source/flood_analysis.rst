@@ -46,6 +46,7 @@
 
 .. seealso::
 
+   * `Комплексный анализ рельефа <https://toolbox.nextgis.com/t/terrain_analysis>`_
    * `Анализ подверженности эрозии <https://toolbox.nextgis.com/t/erosion_analysis?from-related-tools=1>`_
    * `Анализ подверженности оползням <https://toolbox.nextgis.com/t/landslide_analysis?from-related-tools=1>`_
    * `Анализ подверженности лесным пожарам (топографический) <https://toolbox.nextgis.com/t/wildfire_analysis?from-related-tools=1>`_

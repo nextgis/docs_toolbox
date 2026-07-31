@@ -47,6 +47,7 @@
 
 .. seealso::
 
+   * `Комплексный анализ рельефа <https://toolbox.nextgis.com/t/terrain_analysis>`_
    * `Анализ подверженности затоплению <https://toolbox.nextgis.com/t/flood_analysis?from-related-tools=1>`_
    * `Анализ подверженности оползням <https://toolbox.nextgis.com/t/landslide_analysis?from-related-tools=1>`_
    * `Анализ подверженности эрозии <https://toolbox.nextgis.com/t/erosion_analysis?from-related-tools=1>`_

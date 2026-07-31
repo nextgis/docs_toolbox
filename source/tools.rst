@@ -117,6 +117,7 @@ Tools
    spreadsheet2layer
    table2geo
    temporal_split
+   terrain_analysis
    tropomi2geotiff
    update_vector_layer
    vector2datalens

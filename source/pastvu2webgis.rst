@@ -18,19 +18,19 @@ Launch the tool: https://toolbox.nextgis.com/t/pastvu2webgis
 
 Example:
 
-.. todo:: _static/pastvu2webgis_input_en.png
+.. figure:: _static/pastvu2webgis_input_en.png
    :name: pastvu2webgis_input_pic
    :align: center
    :width: 20cm
 
-   Example input
+   An area on Pastvu
 
-.. todo:: _static/pastvu2webgis_result_en.png
+.. figure:: _static/pastvu2webgis_result_en.png
    :name: pastvu2webgis_result_pic
    :align: center
    :width: 20cm
 
-   Example output
+   Resulting Web Map with attached photos
 
 
 **Try the tool in action**

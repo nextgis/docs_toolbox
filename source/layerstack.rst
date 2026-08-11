@@ -1,16 +1,16 @@
 Form multi-channel raster from individual channels
 ====================================================
 
-Converts an archive with raster channels to a single multi-channel raster. The option to specify which channels to stack and in what order, for example, 4, 3, 2. The raster order is always alphabetical, i.e., 1 channel = 1 raster
+Converts an archive with raster channels to a single multi-channel raster composed of selected channels.
 
 Inputs:
 
 * ZIP-archive with single-channel rasters, without subfolders.
-* List of channels, comma-separated. Input rastered are sorted alphabetically, so 1 is the first.
+* List of channels, comma-separated, e.g. 4,3,2 (number of the source raster, in alphabetical order).
 
 Outputs:
 
-* Multi-channel RGB raster as a TIF file.
+* Multi-channel raster as a TIF file.
 
 Launch the tool: https://toolbox.nextgis.com/t/layerstack
 
@@ -35,3 +35,10 @@ Example:
 
 1. Click on the **Demo** button above the tool form. The fields are filled in with demo values.
 2. Click on the **Run** button.
+
+
+.. admonition:: Related tools
+
+   * `Generate tileset from raster <https://toolbox.nextgis.com/t/raster2tiles?from-related-tools=1>`_
+   * `Search & download Planetary Computer <https://toolbox.nextgis.com/t/planetary_search?from-related-tools=1>`_
+   * `Raster calculator (GRASS) <https://toolbox.nextgis.com/t/r_mapcalc?from-related-tools=1>`_

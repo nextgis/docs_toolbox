@@ -64,6 +64,7 @@ Tools
    landsat_to_reflectance
    landslide_analysis
    layers2ngw
+   layerstack
    lines2poly
    lines2polygons
    mapinfo2qgis

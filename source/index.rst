@@ -13,6 +13,6 @@ NextGIS Toolbox
    mcp
    tools
 
-* :ref:`genindex`
+
 * :ref:`glossary`
 

@@ -154,5 +154,6 @@
    eraser
    improvedem
    ngw_layer_schema
+   layerstack
    exif2resource
    centerline

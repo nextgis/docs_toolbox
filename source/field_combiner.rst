@@ -21,14 +21,14 @@
 
 Пример работы инструмента:
 
-.. figure:: _static/field_combiner_input_ru.png
+.. todo:: _static/field_combiner_input_ru.png
    :name: field_combiner_input_pic
    :align: center
    :width: 20cm
 
    Пример исходных данных
 
-.. figure:: _static/field_combiner_result_ru.png
+.. todo:: _static/field_combiner_result_ru.png
    :name: field_combiner_result_pic
    :align: center
    :width: 20cm

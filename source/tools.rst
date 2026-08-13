@@ -97,6 +97,7 @@
    osmclip_bbox
    gpxmerge
    ogrmerge
+   ngw_webmap_combiner
    ngw_merge_layers
    join_by_field
    mt2report

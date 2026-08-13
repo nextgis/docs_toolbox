@@ -7,9 +7,9 @@ Inputs:
 
 * Web GIS address. URL of your Web GIS, e.g. https://demo.nextgis.com and login/password if necessary;
 * Layer ID. Numbers at the end of the layer's URL;
-* Source field 1. Name of the attribute containing the 1st part, e.g. 'id_prefix';
-* Source field 2. Name of the attribute containing the 1st part, e.g. 'id_date';
-* Source field 3. Name of the attribute containing the 1st part, e.g. 'id_suffix';
+* Source field 1. Name of the string field containing the 1st part, e.g. 'id_prefix';
+* Source field 2. Name of the attribute containing the 2nd part, e.g. 'id_date'. This part can be Integer, Float or Date, it will be converted to string;
+* Source field 3. Name of the string field containing the 3rd part, e.g. 'id_suffix';
 * Target field. Name of the field to store the combined value, e.g. 'id_combined';
 * Order custom name. Custom name for the order (optional).
 

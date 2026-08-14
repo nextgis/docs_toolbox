@@ -59,3 +59,9 @@
 1. Нажмите кнопку **Демо** над формой инструмента. Поля будут автоматически заполнены демонстрационными значениями.
 2. Нажмите кнопку **Запустить**.
 
+.. seealso::
+
+   * `Пересечение полигонов <https://toolbox.nextgis.com/t/vectorclip?from-related-tools=1>`_
+   * `Координаты точки в полигоне <https://toolbox.nextgis.com/t/centroid2attr?from-related-tools=1>`_
+   * `Поиск по кадастровым номерам <https://toolbox.nextgis.com/t/cadnums_to_geodata?from-related-tools=1>`_
+   * `Каталог координат в геоданные <https://toolbox.nextgis.com/t/coords2poly?from-related-tools=1>`_

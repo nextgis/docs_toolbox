@@ -12,6 +12,7 @@ Tools
    autocad_file_schema
    autocad_version
    ascii2geotiff
+   buffer
    centerline
    centroid2attr
    check_geometries

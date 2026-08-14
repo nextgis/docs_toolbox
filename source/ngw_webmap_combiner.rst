@@ -36,3 +36,8 @@
 1. Нажмите кнопку **Демо** над формой инструмента. Поля будут автоматически заполнены демонстрационными значениями.
 2. Нажмите кнопку **Запустить**.
 
+.. seealso::
+
+   * `Веб-карта в проект QGIS <https://toolbox.nextgis.com/t/webmap2qgis?from-related-tools=1>`_
+   * `ngw_webmap2image <https://toolbox.nextgis.com/t/ngw_webmap2image?from-related-tools=1>`_
+   * `Группа ресурсов в веб-карту <https://toolbox.nextgis.com/t/ngw_group2webmap?from-related-tools=1>`_

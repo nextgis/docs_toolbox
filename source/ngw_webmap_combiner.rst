@@ -40,5 +40,5 @@ Example:
 .. admonition:: Related tools
 
    * `Web Map into QGIS project <https://toolbox.nextgis.com/t/webmap2qgis?from-related-tools=1>`_
-   * `ngw_webmap2image <https://toolbox.nextgis.com/t/ngw_webmap2image?from-related-tools=1>`_
+   * `Web Map to image <https://toolbox.nextgis.com/t/ngw_webmap2image?from-related-tools=1>`_
    * `Resource group to web map <https://toolbox.nextgis.com/t/ngw_group2webmap?from-related-tools=1>`_

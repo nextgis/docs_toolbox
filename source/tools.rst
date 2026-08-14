@@ -29,6 +29,7 @@
    erosion_analysis
    gpxanimation
    ngw_attribute2description
+   buffer
    polysimplifier
    ngw_webmap2image
    webmap2qgis

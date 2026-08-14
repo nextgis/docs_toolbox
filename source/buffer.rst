@@ -59,3 +59,9 @@ Example:
 
 1. Click on the **Demo** button above the tool form. The fields are filled in with demo values.
 2. Click on the **Run** button.
+
+.. admonition:: Related tools
+
+   * `Polygon intersection <https://toolbox.nextgis.com/t/vectorclip?from-related-tools=1>`_
+   * `Point inside polygon coordinates <https://toolbox.nextgis.com/t/centroid2attr?from-related-tools=1>`_
+   * `Coordinates to polygon <https://toolbox.nextgis.com/t/coords2poly?from-related-tools=1>`_

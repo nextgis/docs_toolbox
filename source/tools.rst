@@ -85,6 +85,7 @@ Tools
    ngw_merge_layers
    ngw_to_gpkg
    ngw_webmap2image
+   ngw_webmap_combiner
    nominatim_geocode
    ogrmerge
    osm_download

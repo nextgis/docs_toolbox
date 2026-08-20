@@ -1,11 +1,11 @@
-Layer list from DWG / DXF file
+Layer list from DWG file
 ==================================
 
-This tool generates a CSV containing the list of layers from a DWG or DXF file with information on geometry and feature count.
+This tool generates a CSV containing the list of layers from a DWG file with information on geometry and feature count.
 
 Inputs:
 
-* Source file in AutoCAD DWG / DXF formats
+* Source file in AutoCAD DWG formats
 
 Outputs:
 

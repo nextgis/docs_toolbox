@@ -9,6 +9,8 @@ Tools
 
    add_regions
    ai2geo
+   aggregate_raster_layer_to_h3
+   aggregate_vector_layer_to_h3
    autocad_file_schema
    autocad_version
    ascii2geotiff

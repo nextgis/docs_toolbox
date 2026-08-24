@@ -23,6 +23,8 @@
    poly2explication
    coords2poly
    explication2poly
+   aggregate_vector_layer_to_h3
+   aggregate_raster_layer_to_h3
    flood_analysis
    wildfire_analysis
    landslide_analysis

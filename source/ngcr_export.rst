@@ -1,36 +1,35 @@
-Выгрузка из реестра контейнеров NextGIS
-=======================================
+Выгрузка образов из NextGIS Container Registry
+==============================================
 
-Выгрузка образов Docker из реестра контейнеров NextGIS в архив *.tar.gz. Это позволяет производить установку и обновление ПО в отсутствие выхода в интернет.
+Выгрузка образов Docker из NextGIS Container Registry в архив \*.tar.gz. Это помогает производить установку и обновление ПО в отсутствие выхода в интернет.
 
 Для запуска инструмента выгрузки можно использовать любой аккаунт NextGIS ID, в том числе на бесплатном плане, однако при запуске инструмента потребуется указать ваш логин и пароль для доступа к NextGIS Container Registry, полученный при поставке продукта.
 
-.. admonition:: Инструкции по обновлению серверного ПО NextGIS
+.. admonition:: Инструкции по установке и обновлению серверного ПО NextGIS
 
-   * `GeoServices <https://docs.nextgis.ru/docs_geoserv_prem/source/upgrade.html>`_
-   * `NextGIS Web <https://docs.nextgis.ru/docs_ngweb/source/op_upgrade.html>`_
-   * `NextGIS Toolbox <https://docs.nextgis.ru/docs_toolbox_prem/source/admin.html#nextgis-toolbox>`_
-   * `Nominatim <https://docs.nextgis.ru/docs_howto/source/geocoder_onprem.html>`_
+   * `NextGIS Web <https://docs.nextgis.ru/docs_ngweb/source/ngw_op.html>`_
+   * `GeoServices <https://docs.nextgis.ru/docs_geoserv_prem/source/index.html>`_
+   * `NextGIS Toolbox <https://docs.nextgis.ru/docs_toolbox_prem/source/index.html>`_
 
 На входе:
 
 * Дистрибутив. Выберите один из вариантов:
 
-  - NextGIS Web Standard (nextgisweb/std)
-  - NextGIS Web Standard + Whitelabel (nextgisweb/std-wl)
-  - NextGIS Web Extended (nextgisweb/ext)
-  - NextGIS Web Extended + Whitelabel (nextgisweb/ext-wl)
-  - NextGIS GeoServices (geoservices)
-  - NextGIS Toolbox (toolbox,toolbox-tool)
-  - Nominatim (nominatim)
-  - BusyBox (test) (busybox)
+  - NextGIS Web Standard
+  - NextGIS Web Standard + Whitelabel
+  - NextGIS Web Extended
+  - NextGIS Web Extended + Whitelabel
+  - NextGIS GeoServices
+  - NextGIS Toolbox
+  - Nominatim
+  - BusyBox (test)
 
-* Версия. Укажите версию продукта для экспорта Docker-образов. Версию используемого дистрибутива можно посмотреть в файле ``docker-compose.yaml`` в разделе ``services.app.image``, например значение ``cr.nextgis.com/nextgisweb/std/app:3.3.0`` соответствует версии ``3.3.0``. 
+* Версия. Укажите версию продукта для экспорта Docker-образов.
 * Логин и пароль для доступа к NextGIS Container Registry. Предоставляется службой поддержки NextGIS при поставке продукта.
 
 На выходе:
 
-* Файл TAR.GZ.
+* \*.tar.gz архив. Образы можно импортировать в Docker с помощью команды ``docker load -i <archive_name>.tar.gz``.
 
 Запуск инструмента: https://toolbox.nextgis.com/t/ngcr_export
 

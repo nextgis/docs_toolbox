@@ -3,6 +3,8 @@ NextGIS Container Registry export
 
 Export Docker images from NextGIS Container Registry to *.tar.gz archive. This allows to update or install software on servers with no Internet connection.
 
+You can run the export tool using any NextGIS ID account, including the free plan, but when running the tool you will need to provide your login and password for access to NextGIS Container Registry.
+
 .. admonition:: Instructions on how to update NextGIS software
 
   * `NextGIS Web <https://docs.nextgis.com/docs_ngweb/source/op_upgrade.html>`_
@@ -22,9 +24,9 @@ Inputs:
   - Nominatim (nominatim)
   - BusyBox (test) (busybox)
 
-* Version - Distribution version;
-* Login for Container Registry;
-* Password for Container Registry.
+* Version. Specify the product version to export Docker images for. You can check the distribution version used in the ``docker-compose.yaml`` file under ``services.app.image``; for example, the value ``cr.nextgis.com/nextgisweb/std/app:3.3.0`` corresponds to version ``3.3.0``.
+* Login and password for accessing the NextGIS Container Registry. Provided by NextGIS Support with the product delivery.
+
 
 Outputs:
 

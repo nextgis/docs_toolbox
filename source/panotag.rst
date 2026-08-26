@@ -45,5 +45,6 @@ Example:
 
 .. admonition:: Related tools
 
-  * `Geotag photos using GPX track <https://toolbox.nextgis.com/t/gpx2exif?from-related-tools=1>`_
-  * `Photos with EXIF to NGW layer <https://toolbox.nextgis.com/t/exif2resource?from-related-tools=1>`_
+   * `Geotag photos using GPX track <https://toolbox.nextgis.com/t/gpx2exif?from-related-tools=1>`_
+   * `Photos with EXIF to NGW layer <https://toolbox.nextgis.com/t/exif2resource?from-related-tools=1>`_
+   * `Convert Garden Gnome Package panoramas to JPEG <https://toolbox.nextgis.com/t/pano2vr?from-related-tools=1>`_

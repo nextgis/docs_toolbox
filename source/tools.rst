@@ -93,6 +93,7 @@ Tools
    ogrmerge
    osm_download
    osmclip_bbox
+   pano2vr
    panotag
    pastvu2webgis
    planetary_search

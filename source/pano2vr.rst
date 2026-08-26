@@ -17,19 +17,19 @@
 
 Пример работы инструмента:
 
-.. todo:: _static/pano2vr_input_ru.png
+.. figure:: _static/pano2vr_input.jpg
    :name: pano2vr_input_pic
    :align: center
    :width: 20cm
 
-   Пример исходных данных
+   Пример исходных данных в Pano2VR
 
-.. todo:: _static/pano2vr_result_ru.png
+.. figure:: _static/pano2vr_result.png
    :name: pano2vr_result_pic
    :align: center
    :width: 20cm
 
-   Пример результата работы инструмента
+   Пример результата работы инструмента: просмотр панорамы на веб-карте
 
 **Попробуйте инструмент в действии:**
 

@@ -84,6 +84,7 @@
    xml_tol_to_vector
    convert
    import_egrn
+   pano2vr
    centroid2attr
    ngw_copy_group
    lesis2sqlite

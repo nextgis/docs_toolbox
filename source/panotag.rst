@@ -49,3 +49,4 @@ GPano:PoseHeadingDegrees копируется из GPSImgDirection, если т�
 
    * `Добавление координат к фотографиям <https://toolbox.nextgis.com/t/gpx2exif?from-related-tools=1>`_
    * `Фото с EXIF в слой NGW <https://toolbox.nextgis.com/t/exif2resource?from-related-tools=1>`_
+   * `Конвертация панорам Garden Gnome Package в JPEG <https://toolbox.nextgis.com/t/pano2vr?from-related-tools=1>`_

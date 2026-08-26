@@ -17,19 +17,19 @@ Launch the tool: https://toolbox.nextgis.com/t/pano2vr
 
 Example:
 
-.. todo:: _static/pano2vr_input_en.png
+.. figure:: _static/pano2vr_input.jpg
    :name: pano2vr_input_pic
    :align: center
    :width: 20cm
 
-   Example input
+   Source images in Pano2vr
 
-.. todo:: _static/pano2vr_result_en.png
+.. figure:: _static/pano2vr_result.png
    :name: pano2vr_result_pic
    :align: center
    :width: 20cm
 
-   Example output
+   Example output: panorama viewed on a Web Map
 
 
 **Try the tool in action**

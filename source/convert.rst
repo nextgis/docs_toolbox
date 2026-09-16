@@ -11,8 +11,11 @@ Input:
 *  Vector layer file or ZIP archive compatible with GDAL library. `List of supported formats <https://docs.nextgis.com/docs_toolbox/source/convert.html#format-list>`_
 *  Name of output format: ESRI Shapefile, MapInfo TAB, GeoJSON, GPKG, DXF, FlatGeobuf.
 
-.. note::
-   If uploaded file has incompatible format (for example, single SHP file) an error message will appear.
+.. seealso::
+  If you need to convert DWG to DXF, use one of these tools instead:
+
+  * `DWG to DXF <https://toolbox.nextgis.com/t/import_dwg?from-related-tools=1>`_
+  * `DWG to DXF (libdxfrw) <https://toolbox.nextgis.com/t/import_dwg_libdxfrw?from-related-tools=1>`_
 
 Output:
 

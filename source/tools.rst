@@ -104,6 +104,7 @@
    ngw_webmap_combiner
    ngw_merge_layers
    join_by_field
+   lines_merge
    mt2report
    ngw_contribution_activity
    pzz_report

@@ -3,6 +3,9 @@ Point Cloud to COPC
 
 Converts point clouds files to Cloud Optimized Point Cloud (COPC).
 
+COPC stores point data organized in a clustered octree. It reduces data transfer time, improves performance, and makes it easier to work with large datasets on cloud platforms. 
+
+
 Inputs:
 
 * Input point cloud file in any PDAL-supported format (LAS, LAZ, PLY, PCD, PTS, PTX, BPF);
@@ -22,19 +25,12 @@ Launch the tool: https://toolbox.nextgis.com/t/point_cloud_to_copc
 
 Example:
 
-.. todo:: _static/point_cloud_to_copc_input_en.png
+.. figure:: _static/point_cloud_to_copc.jpg
    :name: point_cloud_to_copc_input_pic
    :align: center
-   :width: 20cm
+   :width: 16cm
 
-   Example input
-
-.. todo:: _static/point_cloud_to_copc_result_en.png
-   :name: point_cloud_to_copc_result_pic
-   :align: center
-   :width: 20cm
-
-   Example output
+   Point cloud
 
 
 **Try the tool in action**

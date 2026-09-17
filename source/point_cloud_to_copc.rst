@@ -3,6 +3,8 @@
 
 Конвертирует файлы облаков точек в Cloud Optimized Point Cloud (COPC).
 
+COPC позволяет запрашивать и скачивать только ту часть облака точек, которая нужна в данный момент, без предварительной загрузки всего файла.
+
 На входе:
 
 * Исходное облако точек в формате, поддерживаемом PDAL (LAS, LAZ, PLY, PCD, PTS, PTX, BPF);
@@ -22,19 +24,12 @@
 
 Пример работы инструмента:
 
-.. todo:: _static/point_cloud_to_copc_input_ru.png
+.. figure:: _static/point_cloud_to_copc.jpg
    :name: point_cloud_to_copc_input_pic
    :align: center
-   :width: 20cm
+   :width: 16cm
 
-   Пример исходных данных
-
-.. todo:: _static/point_cloud_to_copc_result_ru.png
-   :name: point_cloud_to_copc_result_pic
-   :align: center
-   :width: 20cm
-
-   Пример результата работы инструмента
+   Пример облака точек
 
 **Попробуйте инструмент в действии:**
 

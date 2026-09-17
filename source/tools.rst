@@ -95,6 +95,7 @@
    raster2tiles
    temporal_split
    ndi
+   point_cloud_to_copc
    pointcloud2tileset
    update_vector_layer
    gpxclipbbox

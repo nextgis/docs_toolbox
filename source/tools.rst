@@ -68,6 +68,7 @@ Tools
    landslide_analysis
    layers2ngw
    layerstack
+   lines_merge
    lines2poly
    lines2polygons
    mapinfo2qgis

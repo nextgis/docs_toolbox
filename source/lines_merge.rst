@@ -22,14 +22,14 @@ Example:
    :align: center
    :width: 20cm
 
-   Example input
+   Example input: a street split in small segments
 
 .. figure:: _static/lines_merge_result_en.png
    :name: lines_merge_result_pic
    :align: center
    :width: 20cm
 
-   Example output
+   Example output: merged street
 
 
 **Try the tool in action**

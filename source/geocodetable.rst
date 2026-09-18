@@ -10,9 +10,7 @@ Inputs:
 * Address field name in source file;
 * API key to run the chosen geocoder. For Nominatim leave empty.
 
-.. note::
-
-   **How to get a geocoder API key**
+.. note:: How to get a geocoder API key
 
     Google Geocoding API - https://developers.google.com/maps/documentation/geocoding/usage-and-billing
 

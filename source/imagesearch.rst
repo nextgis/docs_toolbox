@@ -6,25 +6,34 @@ The tool generates a list of Sentinel scenes in the Copernicus archive that matc
 
 Inputs:
 
-* **Image search area** ``Required field`` - GeoJSON file with one polygon covering the area of interest;
-* **Start date**, pick in the calender or enter in yyyy-mm-dd format - scenes produced before that date won't be included;
-* **End date**, pick in the calender or enter in yyyy-mm-dd format - scenes produced after that date won't be included;
-* **Service username** ``Required field`` - your username on https://scihub.copernicus.eu website;
-* **Service password** ``Required field`` - your password for https://scihub.copernicus.eu website;
-* **Mission** ``Required field`` - Enter one of the mission names: ``Sentinel-1``, ``Sentinel-2``, ``Sentinel-3``;
-* **Product type** - depends on the chosen mission:
+* Image search area - vector file in single-file OGR compatible fomats with SRS (Recomended: GeoJSON EPSG:4326). The file must contain exactly one feature. Avaliable geometry types: Point, LineString, Polygon. We recommend to use geometries with a small number of vertices.
+* Start date of the sensing period in UTC format (images from this date are **included** in the result). By default the first day of the current month is used.
+* End date of the sensing period in UTC format (images from this date are **not included** in the result). By default the current date is used.
+* Mission - choose mission (collection):
 
-  * For Sentinel-1 choose from: ``RAW``, ``SLC``, ``GRD``, ``OCN``; 
-  * For Sentinel-2: ``RAW``, ``S2MSI1C``, ``S2MSI2A``, ``S2MSI2Ap``;
-  * For Sentinel-3: ``RAW``, ``OL_1_EFR___``, ``OL_1_ERR___``, ``SR_1_SRA___``, ``SR_1_SRA_A_``, ``SR_1_SRA_BS``, ``SR_2_LAN___``, ``SL_1_RBT___``, ``SL_2_LST___``, ``SY_2_SYN___``, ``SY_2_V10___``, ``SY_2_VG1___``, ``SY_2_VGP___``, ``OL_2_LFR___``, ``OL_2_LRR___``;
+  - Sentinel-2 (Sentinel-2)
+  - Sentinel-1 (Sentinel-1)
+  - Sentinel-3 (Sentinel-3)
 
-* **Polarisation mode** - Only for Sentinel-1, enter one of the following: ``HH, VV, HV, VH, HH+HV, VV+VH``. For Sentinel-2 or Sentinel-3 leave this field empty;
-* **Sensor mode** - Only for Sentinel-1, enter one of the following: ``SM, IW, EW, WV``. For Sentinel-2 or Sentinel-3 leave this field empty;
-* **Cloud cover** - Only for Sentinel-2. Specify acceptable range of cloud cover with two numbers (min and max percentage), separated by comma. E.g. ``0, 20``.
+* Products. By default searches all products, but you can specify one of the following:
+
+  - for Sentinel-2: ``S2MSI1C, S2MSI2A``;
+  - for Sentinel-1:  ``RAW, SLC, GRD, OCN``;
+  - for Sentinel-3: ``OL_1_EFR___, OL_1_ERR___, OL_2_LFR___, OL_2_LRR___, OL_2_WFR___, OL_2_WRR___, SL_1_RBT___, SL_2_AOD___, SL_2_FRP___, SL_2_LST___, SL_2_WST___, SR_1_SRA___, SR_1_SRA_A_, SR_2_LAN___, SR_2_WAT___, SY_2_AOD___, SY_2_SYN___, SY_2_V10___, SY_2_VG1___, SY_2_VGP___``
+
+* Sensor mode. For Sentinel-2 or Sentinel-3 leave this field empty. For Sentinel-1, the default is all modes, or you can choose:
+
+  - Stripmap (SM)
+  - Interferometric Wide Swath (IW)
+  - Extra Wide Swath (EW)
+  - Wave (WV)
+
+* Cloud cover (maximum) - Only for Sentinel-2. Maximal cloud cover in percentage. If field value is epmty, apply default value - 100%.
 
 Outputs:
 
 * XLSX file containing a list of scene IDs.
+* Text report containing the total number of scenes and the IDs of the first ten scenes.
 
 Launch the tool: https://toolbox.nextgis.com/t/imagesearch
 

@@ -20,7 +20,7 @@
 
   - для Sentinel-2 ``S2MSI1C, S2MSI2A`` ;
   - для Sentinel-1 ``RAW, SLC, GRD, OCN`` ;
-  - для Sentinel-3 ``OL_1_EFR___, OL_1_ERR___, OL_2_LFR___, OL_2_LRR___, OL_2_WFR___, OL_2_WRR___, SL_1_RBT___, SL_2_AOD___, SL_2_FRP___, SL_2_LST___, SL_2_WST___, SR_1_SRA___, SR_1_SRA_A_, SR_2_LAN___, SR_2_WAT___, SY_2_AOD___, SY_2_SYN___, SY_2_V10___, SY_2_VG1___, SY_2_VGP___ ``.
+  - для Sentinel-3 ``OL_1_EFR___, OL_1_ERR___, OL_2_LFR___, OL_2_LRR___, OL_2_WFR___, OL_2_WRR___, SL_1_RBT___, SL_2_AOD___, SL_2_FRP___, SL_2_LST___, SL_2_WST___, SR_1_SRA___, SR_1_SRA_A_, SR_2_LAN___, SR_2_WAT___, SY_2_AOD___, SY_2_SYN___, SY_2_V10___, SY_2_VG1___, SY_2_VGP___``.
 
 * Режим съемки. В случае Sentinel-2 или Sentinel-3 оставьте это поле пустым. В случае Sentinel-1, по умолчанию - все режимы. Можно указать один из предложенных:
 

@@ -32,6 +32,7 @@ Tools
    empty_geoms
    eraser
    erosion_analysis
+   exif2kmz
    exif2resource
    field_value_changer
    fix_geometries

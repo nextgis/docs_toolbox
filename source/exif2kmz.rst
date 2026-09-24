@@ -1,7 +1,7 @@
 Photos with EXIF to KMZ
 =======================
 
-Conversion of one or more photos with EXIF tags to KMZ (Google Earth). Using this tool you can publish your photos on Google Earth. If the photos don't have geotags, but you have track recorded while you were taking them, you can add the EXIF tags using online tool `Geotag photos using GPX track <https://toolbox.nextgis.com/t/gpx2exif?from-related-tools=1>`_.
+Conversion of one or more photos with EXIF tags to KMZ (Google Earth). Using this tool you can publish your photos in desktop version of Google Earth - Google Earth Pro. If the photos don't have geotags, but you have track recorded while you were taking them, you can add the EXIF tags using online tool `Geotag photos using GPX track <https://toolbox.nextgis.com/t/gpx2exif?from-related-tools=1>`_.
 
 .. note:: You can also create an interactive Web Map with your photos on NextGIS Web using `Photos with EXIF to NGW layer <https://toolbox.nextgis.com/t/exif2resource?from-related-tools=1>`_
 

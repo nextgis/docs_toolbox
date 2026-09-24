@@ -162,5 +162,6 @@
    improvedem
    ngw_layer_schema
    layerstack
+   exif2kmz
    exif2resource
    centerline

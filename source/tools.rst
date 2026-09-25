@@ -93,6 +93,7 @@
    inaturalist_download
    gbif_download
    raster2tiles
+   esriauxxml2geotiff
    temporal_split
    ndi
    point_cloud_to_copc

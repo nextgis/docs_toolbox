@@ -11,11 +11,11 @@ Inputs:
 * Web GIS address. Example: https://sandbox.nextgis.com;
 * Login. NextGIS ID or Web GIS user login;
 * Password. User password;
-* Vector layer resource ID. Numbers at the end of the layer resource URL. For instance, corresponding number for resource “Matter levels” is 5150 since its address is https://demo.nextgis.com/resource/5150.;
-* Delimiter. Specify delimiter in uploaded CSV-file, e.g. ``,`` (comma)
-* Mode. Use ``Add`` to add to the data and ``Replace`` to completely replace existing data;
-* Skip frist lines. Number of lines to skip before CSV header;
-* Choose CSV file. Point file with coordinates in *.CSV format. Fields with latitude and longitude should be named ``lat`` and ``lon``, respectively. Coordinates should be in WGS84 (EPSG:4326). If the table contains dates, they must be written in `ISO <https://docs.python.org/3/library/datetime.html#datetime.datetime.isoformat>`_ format, for example, 2019-05-18T15:17:08.132263.
+* Vector layer resource ID. Number at the end of the layer resource URL.
+* Delimiter. Specify delimiter in uploaded CSV-file, e.g. ``;`` (semicolon). Optional value, default is comma;
+* Mode. Use ``ADD`` to add to the data or ``REPLACE`` to completely replace existing data;
+* Skip first lines. Number of lines to skip before CSV header. Optional value, default is 0 (no skipping);
+* Choose CSV file. Point file with coordinates in *.CSV format. Fields with latitude and longitude should be named ``lat`` and ``lon``, respectively. Coordinates should be in WGS84 (EPSG:4326). If the table contains dates and you need them to be recognized as DATETIME they must be written in `ISO <https://docs.python.org/3/library/datetime.html#datetime.datetime.isoformat>`_ format, for example, 2019-05-18T15:17:08.132263.
 
 Outputs:
 
@@ -26,17 +26,14 @@ Troubleshooting
 
 * Invalid type error - incorrect resource ID. Specify the ID of the vector layer resource, not that of the resource group containing the layer.
 * Invalid type of the layer - incorrect layer type. Only vector layers can be used.
-* Invalid operation mode - incorrect mode. You can only type in Replace or Add. 
 * Invalid geometry type - target layer geometry is not point.
-* Invalid structure of the layer - data structures of CSV and target layer do not match.
 
 Launch the tool: https://toolbox.nextgis.com/t/update_vector_layer
 
-**Try it out using our sample:**
+**Try the tool in action**
 
-Download `input dataset <https://nextgis.com/data/toolbox/update_vector_layer/update_vector_layer_inputs.zip>`_ to test the instrument. Step-by-step instructions included.
-
-Get the `output <https://nextgis.com/data/toolbox/update_vector_layer/update_vector_layer_outputs.zip>`_ to additionally check the results.
+1. Click on the **Demo** button above the tool form. The fields are filled in with demo values.
+2. Click on the **Run** button.
 
 .. admonition:: Related tools
 

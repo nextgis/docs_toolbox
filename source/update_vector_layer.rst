@@ -1,21 +1,21 @@
-Update Web GIS layer from CSV
-=================================
+Add points to Web GIS layer from table
+======================================
 
-Update an existing Web GIS layer on NextGIS platform using uploaded CSV file. Works only with point vector layers. It is possible either to add data to existing one or to replace existing features.
-Data structure of CSV file should be the same as of target Web GIS layer. 
+Update an existing Web GIS layer on NextGIS platform using uploaded CSV, XLS or XLSX file. Works only with point vector layers. It is possible to either add data or to replace existing features completely. Data structure of the input file should be the same as of target Web GIS layer.
 
 NextGIS Web (NGW) is a geodata managing system. You can use it for free after `signing up <https://docs.nextgis.com/docs_ngcom/source/create.html>`_. With NextGIS Web you can store geodata, create interactive online maps, give access to them to your teammates and clients, edit features directly on the map and in the feature tables, as well as process them with specialized Toolbox tools. `More on what NGW can do <https://docs.nextgis.com/docs_ngweb/source/general.html>`_.
 
 Inputs:
 
+* Choose CSV, XLS or XLSX file with coordinates. Fields with latitude and longitude should be named ``lat`` and ``lon``, respectively. Coordinates should be in WGS84 (EPSG:4326). If the table contains dates and you need them to be recognized as DATETIME they must be written in `ISO <https://docs.python.org/3/library/datetime.html#datetime.datetime.isoformat>`_ format, for example, 2019-05-18T15:17:08.132263.
 * Web GIS address. Example: https://sandbox.nextgis.com;
 * Login. NextGIS ID or Web GIS user login;
 * Password. User password;
 * Vector layer resource ID. Number at the end of the layer resource URL.
-* Delimiter. Specify delimiter in uploaded CSV-file, e.g. ``;`` (semicolon). Optional value, default is comma;
 * Mode. Use ``ADD`` to add to the data or ``REPLACE`` to completely replace existing data;
+* Delimiter. Specify delimiter in uploaded CSV-file, e.g. ``;`` (semicolon). Optional value for CSV input, default is comma;
 * Skip first lines. Number of lines to skip before CSV header. Optional value, default is 0 (no skipping);
-* Choose CSV file. Point file with coordinates in *.CSV format. Fields with latitude and longitude should be named ``lat`` and ``lon``, respectively. Coordinates should be in WGS84 (EPSG:4326). If the table contains dates and you need them to be recognized as DATETIME they must be written in `ISO <https://docs.python.org/3/library/datetime.html#datetime.datetime.isoformat>`_ format, for example, 2019-05-18T15:17:08.132263.
+
 
 Outputs:
 

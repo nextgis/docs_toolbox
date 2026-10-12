@@ -3,7 +3,7 @@ Use via MCP
 
 You can add NextGIS Toolbox MCP server to you AI agent settings and solve your geospacial tasks directly in chat.
 
-1. Log in to get your personal MCP link. It's formed like this:
+1. To get your personal MCP link log in at toolbox.nextgis.com and copy the link from the `Settings page <https://docs.nextgis.com/docs_toolbox/source/settings.html>`_. The link is formed like this:
 
    https://mcp.toolbox.nextgis.com/mcp?api_key=APIKEY
 

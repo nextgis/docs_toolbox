@@ -11,6 +11,7 @@ NextGIS Toolbox
 
    intro
    mcp
+   settings
    tools
 
 

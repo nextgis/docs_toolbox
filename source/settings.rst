@@ -16,7 +16,7 @@
 * API-ключ для авторизации в `модуле расширения Toolbox для QGIS <https://docs.nextgis.ru/docs_ngqgis/source/toolbox.html>`_ 
 * ссылку для настройки `MCP-сервера в вашем ИИ-клиенте <https://docs.nextgis.ru/docs_toolbox/source/mcp.html>`_, чтобы запускать инструменты Toolbox через чат.
 
-.. figure:: _static/toolbox_settings_ru.png
+.. figure:: _static/toolbox_settings_api_ru.png
    :name: toolbox_settings_pic
    :align: center
    :width: 20cm

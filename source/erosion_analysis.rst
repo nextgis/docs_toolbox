@@ -1,7 +1,7 @@
 Erosion Susceptibility Analysis
 ===============================
 
-RUSLE-based erosion susceptibility analysis using LS-factor, STI, SPI, profile curvature, and slope. Produces an Erosion Susceptibility Index (ESI) scaled 0-100 with 5-level classification.
+`RUSLE-based <https://web.jrc.ec.europa.eu/policy-model-inventory/explore/models/model-rusle2015/>`_ erosion susceptibility analysis using LS-factor, STI, SPI, profile curvature, and slope. Produces an Erosion Susceptibility Index (ESI) scaled 0-100 with 5-level classification.
 
 Inputs:
 

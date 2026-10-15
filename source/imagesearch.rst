@@ -46,7 +46,7 @@
 
 .. seealso::
 
-  * `Cцены Sentinel-2 в GPKG <https://toolbox.nextgis.com/t/s2_search?from-related-tools=1>`_
+  * `Поиск ID сцен Sentinel-L2A и загрузка превью <https://toolbox.nextgis.com/t/s2_search?from-related-tools=1>`_
   * `Подготовка и скачивание данных Sentinel-2 <https://toolbox.nextgis.com/t/download_and_prepare_l8_s2?from-related-tools=1>`_
   * `Кластеризация изображений <https://toolbox.nextgis.com/t/image_clustering?from-related-tools=1>`_
   * `Классификация изображений <https://toolbox.nextgis.com/t/image_classification?from-related-tools=1>`_

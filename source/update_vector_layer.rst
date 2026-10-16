@@ -7,13 +7,15 @@ NextGIS Web (NGW) is a geodata managing system. You can use it for free after `s
 
 Inputs:
 
-* Choose CSV, XLS or XLSX file with coordinates. Fields with latitude and longitude should be named ``lat`` and ``lon``, respectively. Coordinates should be in WGS84 (EPSG:4326). If the table contains dates and you need them to be recognized as DATETIME they must be written in `ISO <https://docs.python.org/3/library/datetime.html#datetime.datetime.isoformat>`_ format, for example, 2019-05-18T15:17:08.132263.
+* Choose CSV, XLS or XLSX file with coordinates. Coordinates should be in WGS84 (EPSG:4326). If the table contains dates and you need them to be recognized as DATETIME they must be written in `ISO <https://docs.python.org/3/library/datetime.html#datetime.datetime.isoformat>`_ format, for example, 2019-05-18T15:17:08.132263.
 * Web GIS address. Example: https://sandbox.nextgis.com;
 * Login. NextGIS ID or Web GIS user login;
 * Password. User password;
 * Vector layer resource ID. Number at the end of the layer resource URL.
 * Mode. Use ``ADD`` to add to the data or ``REPLACE`` to completely replace existing data;
 * Delimiter. Specify delimiter in uploaded CSV-file, e.g. ``;`` (semicolon). Optional value for CSV input, default is comma;
+* Latitude column. Specify latitude column name. Optional value, default is lat;
+* Longitude column. Specify longitude column name. Optional value, default is lon;
 * Skip first lines. Number of lines to skip before CSV header. Optional value, default is 0 (no skipping);
 
 

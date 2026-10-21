@@ -37,14 +37,14 @@
 
 * Тип данных для нового растра. Доступные типы данных: 
 
-    - Автоматический подбор типа данных (auto_mode)
-    - Int32 (Int32)
-    - Int16 (Int16)
-    - Float64 (Float64)
-    - UInt16 (UInt16)
-    - Byte (Byte)
-    - UInt32 (UInt32)
-    - Float32 (Float32)
+  - Автоматический подбор типа данных (auto_mode)
+  - Int32 (Int32)
+  - Int16 (Int16)
+  - Float64 (Float64)
+  - UInt16 (UInt16)
+  - Byte (Byte)
+  - UInt32 (UInt32)
+  - Float32 (Float32)
 
 На выходе:
 

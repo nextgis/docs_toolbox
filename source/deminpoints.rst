@@ -20,10 +20,10 @@
 
 *  Название цифровой модели рельефа - необходимо выбрать один из вариантов: 
 
-    - Copernicus (copernicus)
-    - ALOS (alos) -  ALOS World 3D, разрешение 30 метров.
-    - MERITDEM (meritdem)
-    - GEBCO (gebco) разрешение - 15 угловых секунд (приблизительно 500 метров).
+  - Copernicus (copernicus)
+  - ALOS (alos) -  ALOS World 3D, разрешение 30 метров.
+  - MERITDEM (meritdem)
+  - GEBCO (gebco) разрешение - 15 угловых секунд (приблизительно 500 метров).
 
 
 На выходе:

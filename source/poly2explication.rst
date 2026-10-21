@@ -3,6 +3,28 @@
 
 Инструмент формирует отчет с экспликацией лесосеки или иного объекта в соответствии с приказом Минприроды России № 688 от 17.10.2022.
 
+.. figure:: _static/poly2explication_input_ru.png
+   :name: poly2explication_input_pic
+   :align: center
+   :width: 20cm
+
+   Пример исходных данных
+
+.. figure:: _static/poly2explication_result_xlsx_ru.png
+   :name: poly2explication_result_xlsx_pic
+   :align: center
+   :width: 20cm
+
+   Пример результата работы инструмента: экспликация в Microsoft Excel
+
+.. figure:: _static/poly2explication_result_ru.png
+   :name: poly2explication_result_pic
+   :align: center
+   :width: 20cm
+
+   Пример результата работы инструмента: точки, открытые в NextGIS QGIS
+
+
 На входе:
 
 * Полигональный слой (лесосека или иной объект) - векторный набор данных в формате, поддерживаемом GDAL, например, GeoPackage, GeoJSON, MapInfo TAB, ESRI Shapefile (последние два - в ZIP-архиве). В слое должен быть только 1 объект.

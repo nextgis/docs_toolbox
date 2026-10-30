@@ -5,21 +5,20 @@ The extraction of elevations from DEM. Returns CSV with coordinates and altitude
 
 Inputs:
 
-* ZIP-compressed CSV - CSV table with coordinates of points. Delimiter should be comma. Corrdinates are floating values. File should not have spaces and should contain only latin symbols. `How to prepare the file in QGIS <https://toolbox.nextgis.com/t/deminpoints#prepare>`_.
-* Latitude - name of the Latitude column. Case-sensitive.
-* Longitude - name of the Lonitude column. Case-sensitive.
-* Output format:
+* Input file - CSV or XLS(X) file with points coordinates in EPSG:4326. Column names must be in Latin. `How to prepare CSV file in QGIS <https://toolbox.nextgis.com/t/deminpoints#prepare>`_.
+* Name of the latitude column - Name of latitude column in the input file;
+* Name of the longitude column - Name of longitude column in the input file;
+* Output format - select from the list:
 
   - CSV
   - ESRI Shapefile
   - MapInfo TAB
   - GeoJSON
-  - GPKG
+  - GeoPackage (GPKG)
   - DXF
-  - FlatGeobuf.
+  - FlatGeobuf
 
-
-* Elevation dataset - select one of the following: 
+* Elevation dataset - choose from the list:
 
   - Copernicus
   - ALOS -  ALOS World 3D has resolution of 30 meters
@@ -28,14 +27,20 @@ Inputs:
 
 Outputs:
 
-*  CSV file or ZIP-compressed file of other selected format with coordinates and elevation values for the points.
+*  File in the selected format with coordinates and elevation values for the points.
 
 .. _prepare:
 
-How to prepare data
-~~~~~~~~~~~~~~~~~~~~~
+How to prepare CSV file
+~~~~~~~~~~~~~~~~~~~~~~~
 
-To save a point layer as a CSV file with coordinates in QGIS, go to Layer --> Save as. In the Format field select "Comma separated values.
+CSV file must have the following parameters:
+
+* Delimiter should be comma. 
+* Corrdinates are float values. 
+* File should not have spaces and should contain only latin symbols. 
+
+To save a point layer as a CSV file with coordinates in QGIS, go to :menuselection:`Layer --> Save as`. In the Format field select *Comma separated values*.
 
 In the **Layer options** section select for the GEOMETRY field the option ``AS_XY``. The resulting file will have longitude in the X column and latitude in Y column. 
 

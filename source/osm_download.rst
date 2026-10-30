@@ -5,15 +5,15 @@ Download OpenStreetMap features (buildings, roads, landuse, etc.) for a given bo
 
 Inputs:
 
-* Bounding box in WGS84 (west, south, east, north);
-* Categories - Comma-separated OSM categories to download. Available: buildings, roads, paths, landuse, natural, waterways, amenities, shops, tourism. Default: ``buildings,roads,landuse``;
-* Custom tags - JSON string with custom OSM tags, e.g. ``{"leisure": "park"}``;
-* Network type. Road network type to download (only used when 'roads' category is selected):
+* Bounding box - Area of interest (west, south, east, north in WGS84). Maximum area: 100 km²;
+* Categories - Comma-separated OSM categories to download. Available: ``buildings, roads, paths, landuse, natural, waterways, amenities, shops, tourism`` (default: buildings,roads,landuse);
+* Custom tags (JSON) - JSON object with custom OSM tags, e.g. {"leisure": "park", "railway": true}. Values: string, true or list of strings;
+* Network type - road network type to download (only used when 'roads' category is selected, ``drive`` by default):
 
   - Drive
   - Walk
   - Bike
-  - All - default
+  - All
 
 Outputs:
 

@@ -144,6 +144,7 @@
    gpxtracksplit
    split180
    infomap
+   raster2mbtiles
    qgis_rastertiles
    landsat_to_reflectance
    grid

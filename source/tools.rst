@@ -113,6 +113,7 @@ Tools
    quadro
    r_mapcalc
    raster_calculator
+   raster2mbtiles
    raster2tiles
    removecontents
    s2_search

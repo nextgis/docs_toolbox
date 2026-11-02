@@ -5,11 +5,14 @@ Calculates the number of TMS tiles for a given vector polygon.
 
 Inputs:
 
-* Boundary polygon vector file in OGR format or ZIP-archive with single layer. Geometry: polygon or multipolygon. Only the frist feature of the layer is used.
+* Boundary polygon vector file in OGR format or ZIP-archive with single layer. Geometry: polygon or multipolygon. Only the frist feature of the layer is used;
+* Max zoom - optional. Max zoom until with tiles are calculated. Default is 19;
+* Create tile boundaries layer - optional, check if you want a GeoJSON layer with the hightest zoom tile boundaries.
 
 Outputs:
 
 * Text output listing the number of tiles for each zoom layer and the total tile count.
+* GeoJSON with tile boundaries, if selected.
 
 Launch the tool: https://toolbox.nextgis.com/t/count_tiles
 
@@ -47,7 +50,12 @@ Example output::
     Total: 728
 
 
-**Try the tool in action:**
+.. figure:: _static/count_tiles_output_en.png
+   :name: count_tiles_output_pic
+   :align: center
+   :width: 20cm
+
+   Tile boundaries
 
 **Try the tool in action**
 

@@ -36,3 +36,9 @@
 1. Нажмите кнопку **Демо** над формой инструмента. Поля будут автоматически заполнены демонстрационными значениями.
 2. Нажмите кнопку **Запустить**.
 
+.. seealso::
+
+   * `Генерация растровых тайлов из проекта QGIS <https://toolbox.nextgis.com/t/qgis_rastertiles?from-related-tools=1>`_
+   * `Генерация векторных тайлов из проекта QGIS <https://toolbox.nextgis.com/t/qgis_vectortiles?from-related-tools=1>`_
+   * `Конвертация облака точек в тайлсет <https://toolbox.nextgis.com/t/pointcloud2tileset?from-related-tools=1>`_
+   * `Геоданные в PMTiles <https://toolbox.nextgis.com/t/geodata2pmtiles?from-related-tools=1>`_

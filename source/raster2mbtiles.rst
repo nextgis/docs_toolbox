@@ -17,17 +17,17 @@ Launch the tool: https://toolbox.nextgis.com/t/raster2mbtiles
 
 Example:
 
-.. todo:: _static/raster2mbtiles_input_en.png
+.. figure:: _static/raster2mbtiles_input_en.png
    :name: raster2mbtiles_input_pic
    :align: center
    :width: 20cm
 
    GeoTIFF file in QGIS
 
-.. todo:: _static/raster2mbtiles_result_en.png
+.. figure:: _static/raster2mbtiles_result_en.png
    :name: raster2mbtiles_result_pic
    :align: center
-   :width: 20cm
+   :width: 8cm
 
    MBTiles opened in NextGIS Mobile
 
@@ -36,3 +36,10 @@ Example:
 
 1. Click on the **Demo** button above the tool form. The fields are filled in with demo values.
 2. Click on the **Run** button.
+
+.. admonition:: Related tools
+
+   * `Generate raster tiles from QGIS project <https://toolbox.nextgis.com/t/qgis_rastertiles?from-related-tools=1>`_
+   * `Generate vector tiles from QGIS project <https://toolbox.nextgis.com/t/qgis_vectortiles?from-related-tools=1>`_
+   * `Convert point cloud into tileset <https://toolbox.nextgis.com/t/pointcloud2tileset?from-related-tools=1>`_
+   * `Geodata to PMTiles <https://toolbox.nextgis.com/t/geodata2pmtiles?from-related-tools=1>`_

@@ -7,7 +7,7 @@ Conversion of one or more photos with EXIF tags to KMZ (Google Earth). Using thi
 
 Inputs:
 
-* Photos - Select a single JPEG with EXIF tags or a ZIP archive containing such photos.
+* Photos - Select a single JPEG with EXIF tags or a ZIP archive containing such photos. In an archive, photos must be in the root, folders are not supported.
 
 Outputs:
 

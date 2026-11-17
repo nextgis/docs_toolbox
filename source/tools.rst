@@ -109,6 +109,7 @@ Tools
    qgis_check_geometries
    qgis_fix_geometries
    qgis_multiparttosingleparts
+   qgis_rastertiles
    qgis2pdf
    quadro
    r_mapcalc

@@ -27,6 +27,7 @@ Tools
    deminpoints
    doc2pdf
    download_and_prepare_l8_s2
+   download_gba
    download_glad
    embedsvg
    empty_geoms

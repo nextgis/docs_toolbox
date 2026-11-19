@@ -60,6 +60,7 @@
    add_regions
    ngw_copy_layer
    download_glad
+   download_gba
    osm_download
    zmu_deploy
    zmu_data_analysis

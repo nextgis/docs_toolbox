@@ -14,7 +14,7 @@
 
 На выходе:
 
-* Файл GPKG;
+* Файл с полигонами зданий;
 * Текстовый отчёт о количестве загруженных зданий.
 
 Запуск инструмента: https://toolbox.nextgis.com/t/download_gba
@@ -33,3 +33,7 @@
 1. Нажмите кнопку **Демо** над формой инструмента. Поля будут автоматически заполнены демонстрационными значениями.
 2. Нажмите кнопку **Запустить**.
 
+.. seealso::
+
+   * `Обрезать PBF по прямоугольнику <https://toolbox.nextgis.com/t/osmclip_bbox?from-related-tools=1>`_
+   * `Скачивание данных Planetary Computer <https://toolbox.nextgis.com/t/planetary_search?from-related-tools=1>`_
